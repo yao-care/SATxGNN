@@ -99,7 +99,7 @@ predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosu
 | NEOTIGASON 25MG CAPS | NEOTIGASON 25MG CAPS | غير مذكور | غير مذكور (الترخيص ساري) |
 | NEOTIGASON 10MG CAPS | NEOTIGASON 10MG CAPS | غير مذكور | غير مذكور (الترخيص ساري) |
 
-الشركة المصنّعة: PATHEON INC. الترخيصان كلاهما ملغى.
+الشركة المصنّعة: PATHEON INC.
 
 ---
 

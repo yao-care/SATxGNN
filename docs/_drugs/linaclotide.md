@@ -84,8 +84,6 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 |---------|------|------|-----------|
 | LINZESS | LINZESS (الشركة المصنعة: Forest Laboratories Ireland Limited) | غير متوفر | غير متوفر |
 
-حالة الترخيص: **ملغى**.
-
 ---
 
 ## اعتبارات السلامة

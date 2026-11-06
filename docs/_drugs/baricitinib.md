@@ -87,7 +87,7 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 | OLUMIANT 2 mg Film Coated Tablet | OLUMIANT 2 mg Film Coated Tablet | أقراص مغلفة (حسب اسم المنتج) | غير متوفر في البيانات (الترخيص ساري) |
 | OLUMIANT 4 mg Film Coated Tablet | OLUMIANT 4 mg Film Coated Tablet | أقراص مغلفة (حسب اسم المنتج) | غير متوفر في البيانات (الترخيص ساري) |
 
-الشركة المصنّعة: LILLY DEL CARIBE, INC. وحالة الترخيصين: ملغى.
+الشركة المصنّعة: LILLY DEL CARIBE, INC.
 
 ---
 
@@ -109,7 +109,7 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 
 **المبررات:**
 - الدعم الوحيد هو درجة توقع حسابية عالية دون أي تجارب سريرية أو أدبيات أو رابط آلية مثبت (مستوى الأدلة L5).
-- جميع تراخيص الدواء في السعودية ملغاة، وبيانات السلامة الأساسية غير متوفرة.
+- وبيانات السلامة الأساسية غير متوفرة.
 
 **للمضي قدمًا يلزم:**
 - الحصول على النشرة الدوائية من موقع هيئة الغذاء والدواء السعودية (SFDA) وتحليل التحذيرات وموانع الاستعمال، وهذه فجوة تمنع الانتقال إلى مرحلة فحص السلامة.

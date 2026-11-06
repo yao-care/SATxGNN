@@ -91,8 +91,6 @@ predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy 
 | ORFADIN 2 MG CAPSULE | ORFADIN 2 MG CAPSULE | APOTEK PRODUKTION & LABORATORIER AB | ساري |
 | ORFADIN 5 MG CAPSULE | ORFADIN 5 MG CAPSULE | APOTEK PRODUKTION & LABORATORIER AB | ساري |
 
-(توجد ترخيصان ملغيان آخران: ORFADIN 10 MG وORFADIN 20 MG capsule.)
-
 ---
 
 ## اعتبارات السلامة
@@ -116,7 +114,7 @@ predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy 
 - الحصول على النشرة الدوائية من هيئة الغذاء والدواء السعودية (SFDA) وتحليل تحذيراتها وموانع الاستعمال.
 - استكمال بيانات آلية العمل من DrugBank.
 - مراجعة منهجية للأدبيات حول نيتيسينون والاعتلال الأنبوبي الكلوي.
-- تقييم جدوى دراسة استكشافية، مع النظر في وضع التراخيص الملغاة.
+- تقييم جدوى دراسة استكشافية.
 
 ---
 

@@ -90,8 +90,6 @@ predicted_indications: ["obsolete bundle branch block"]
 | ADENOHARDT 30MG/10ML SOLUTION FOR INFUSION | ADENOHARDT 30MG/10ML (CP PHARMACEUTICAL) | محلول للتسريب | غير متوفر |
 | ADENOHARDT 6MG/2ML SOLUTION FOR INFUSION | ADENOHARDT 6MG/2ML (CP PHARMACEUTICAL) | محلول للتسريب | غير متوفر |
 
-يوجد ترخيص سادس ملغى باسم REVARDIA (شركة تبوك لتصنيع الأدوية).
-
 ---
 
 ## اعتبارات السلامة

@@ -107,7 +107,7 @@ description: "Lacosamide: الاستطباب الجديد المتوقع Manic b
 | VIMPAT 10 mg/ml SYRUP | VIMPAT شراب | Unither Manufacturing LLC | ساري |
 | VIMPAT 10 mg/ml SOLUTION FOR INFUSION | VIMPAT محلول للتسريب | U.C.B. | ساري |
 
-توجد تراخيص ملغاة إضافية (Lazure من تبوك للصناعات الدوائية بأربع تراكيز وأشكال، وTrepadio من الجزيرة للصناعات الدوائية، وLacosamide SPC من MSN Laboratories، وVimpat من Aesica).
+توجد تراخيص إضافية (Lazure من تبوك للصناعات الدوائية بأربع تراكيز وأشكال، وTrepadio من الجزيرة للصناعات الدوائية، وLacosamide SPC من MSN Laboratories، وVimpat من Aesica).
 
 ---
 

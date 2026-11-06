@@ -103,8 +103,6 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 | SERMION 10MG TAB | SERMION 10MG TAB (شركة Pfizer) | غير محدد | غير متوفر (ساري) |
 | SERMION TAB 5MG | SERMION TAB 5MG (شركة Pfizer) | غير محدد | غير متوفر (ساري) |
 
-كلا الترخيصين ملغى، ولا يوجد حاليًا أي ترخيص ساري.
-
 ---
 
 ## اعتبارات السلامة
@@ -126,7 +124,7 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 - استكمال بيانات آلية العمل من DrugBank.
 - تحديد الاستطباب الأصلي المرخّص.
 - إجراء مراجعة أدبيات منهجية لاستطباب الشقيقة وتضخم البروستاتا الحميد.
-- تقييم الجدوى التنظيمية في ضوء إلغاء التراخيص الحالية، وتقييم التوافق مع طرق الإعطاء.
+- وتقييم التوافق مع طرق الإعطاء.
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

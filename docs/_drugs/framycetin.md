@@ -97,7 +97,7 @@ predicted_indications: ["sclerosing cholangitis", "urinary tract infection (dise
 |---------|------|------|-----------|
 | SOFRA-TULLE STRIPS WIDTH 10CM | SOFRA-TULLE STRIPS WIDTH 10CM | غير محدد | غير محدد |
 
-المنتج من إنتاج ROUSSEL LABORATORIES، وحالة الترخيص: **ملغى**.
+المنتج من إنتاج ROUSSEL LABORATORIES.
 
 ---
 

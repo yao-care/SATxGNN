@@ -82,8 +82,6 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion 
 |---------|------|------|-----------|
 | IRESSA 250 mg film coated tablet | IRESSA 250 mg film coated tablet (AstraZeneca UK Limited) | غير متوفر | غير متوفر |
 
-حالة هذا الترخيص: **ملغى**.
-
 ---
 
 ## السمّية الخلوية (الأدوية المضادة للأورام)

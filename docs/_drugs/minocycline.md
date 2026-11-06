@@ -89,7 +89,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 | VULGA 65 mg XR film-coated tablet | VULGA 65 mg XR | Jazeera Pharmaceutical Industries (JPI) | ساري |
 | MINOCIN 50MG PELLET FILLED CAPS | MINOCIN 50 mg | WYETH | ساري |
 
-(تم عرض 5 من أصل 6 تراخيص، وجميعها ملغاة. نصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة في البيانات.)
+نصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة في البيانات.)
 
 ---
 
@@ -116,7 +116,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- يستند التنبؤ إلى درجة النموذج فقط (مستوى الأدلة L5) دون أي تجربة سريرية أو منشور داعم، كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً.
+- يستند التنبؤ إلى درجة النموذج فقط (مستوى الأدلة L5) دون أي تجربة سريرية أو منشور داعم.
 - بيانات السلامة من النشرة الرسمية وبيانات آلية العمل غير متوفرة، وهو ما يمنع الانتقال إلى مرحلة فحص السلامة.
 
 **للمضي قدماً يلزم ما يلي:**

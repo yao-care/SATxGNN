@@ -86,8 +86,6 @@ predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor
 |---------|------|------|-----------|
 | OCREVUS 30 MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION | OCREVUS 30 MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION (الشركة المصنعة: Roche Diagnostics GmbH) | غير مذكور | غير مذكور |
 
-حالة هذا الترخيص: **ملغى**.
-
 ---
 
 ## اعتبارات السلامة
@@ -113,7 +111,6 @@ predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor
 - الحصول على بيانات آلية العمل من DrugBank وتحليل الصلة الآلية المحتملة.
 - تنزيل النشرة الدوائية من موقع الهيئة العامة للغذاء والدواء (SFDA) واستخراج التحذيرات وموانع الاستعمال، وهي شرط لازم قبل أي فحص للسلامة.
 - إجراء دراسات ما قبل سريرية أو مراجعة منهجية للأدبيات تتناول دور الخلايا البائية/CD20 في سرطان الثدي.
-- توضيح وضع الترخيص الملغى والتحقق من توفر المنتج في السوق السعودي.
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

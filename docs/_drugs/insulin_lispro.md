@@ -110,7 +110,7 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 | HUMALOG 100 I.U VIALS | HUMALOG 100 I.U VIALS | ELI LILLY | ساري |
 | LYUMJEV Junior Kwikpen | LYUMJEV Junior Kwikpen | Eli Lilly and Company, Clinton Laboratories | ساري |
 
-(عُرضت 5 من أصل 7 تراخيص؛ الترخيصان الآخران: Humalog Tempo Pen وLYUMJEV، وكلاهما ملغى.)
+(عُرضت 5 من أصل 7 تراخيص؛ الترخيصان الآخران: Humalog Tempo Pen وLYUMJEV.)
 
 ---
 

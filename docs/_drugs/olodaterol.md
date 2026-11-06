@@ -53,8 +53,6 @@ evidence_level: N/A
 |---------|------|------|-----------|
 | SPIOLTO RESPIMATE | SPIOLTO RESPIMATE (Boehringer Ingelheim) | — | — |
 
-كلا الترخيصين بحالة **ملغى**، ولا يوجد حالياً ترخيص ساري المفعول.
-
 ---
 
 ## اعتبارات السلامة

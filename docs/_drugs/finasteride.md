@@ -111,8 +111,6 @@ description: "Finasteride: الاستطباب الجديد المتوقع Ambras
 | FINISCAR 5MG F.C. TABLETS | FINISCAR 5MG F.C. TABLETS | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
 | FINASID 5MG FILM COATED TABLET | FINASID 5MG FILM COATED TABLET | SAJA | ساري |
 
-(ملاحظة: يوجد ترخيصان إضافيان ملغيان هما PROHAIR 1 mg وPROPECIA.)
-
 ---
 
 ## اعتبارات السلامة

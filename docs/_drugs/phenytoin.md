@@ -94,7 +94,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "be
 | EPANUTIN | EPANUTIN (Pfizer) | غير متوفر | غير متوفر |
 | DINTOINA TAB 100MG | DINTOINA TAB 100MG (Recordati) | أقراص | غير متوفر |
 
-(عُرضت خمسة تراخيص من أصل سبعة؛ والتراخيص المتبقية هي FENTEX 50MG/ML للحقن وEPANUTIN SUSP 30MG-5ML، وكلها ملغاة.)
+(عُرضت خمسة تراخيص من أصل سبعة؛ والتراخيص المتبقية هي FENTEX 50MG/ML للحقن وEPANUTIN SUSP 30MG-5ML.)
 
 ---
 
@@ -121,7 +121,6 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "be
 
 **المبررات:**
 - مستوى الأدلة L5: لا توجد تجارب سريرية، ولا أدبيات تدعم استخدام فينيتوين في ورم العصب مثلث التوائم، وليس هناك رابط آلي مباشر.
-- جميع تراخيص المنتج ملغاة في السعودية، ما يزيد صعوبة أي مسار تطويري.
 
 **للمضي قدماً يلزم:**
 - مراجعة مدى صحة التنبؤ، والتحقق مما إذا كان يعكس في الواقع ألم العصب مثلث التوائم لا الورم.

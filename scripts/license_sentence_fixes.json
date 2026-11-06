@@ -1,0 +1,208 @@
+{
+ "bendamustine": [
+  {
+   "sentence": "- في المقابل، جميع تراخيص السوق السعودي ملغاة، ومعلومات السلامة من النشرة وآلية العمل غير متوفرة، والدواء يحمل خطر تثبيط نقي عظم مرتفعًا.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only（4 筆）；只刪「全部許可已註銷，و」，保留安全性資料缺口與骨髓抑制風險（2026-11-06）",
+   "cut": "جميع تراخيص السوق السعودي ملغاة، و"
+  }
+ ],
+ "chloroquine": [
+  {
+   "sentence": "إضافة إلى ذلك، جميع تراخيص الدواء في السعودية ملغاة، وتعتمد الممارسة الحديثة في هذا المرض على الميثوتريكسات والعوامل البيولوجية.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only（5 筆）；只刪註銷子句，保留治療現況敘述（2026-11-06）",
+   "cut": "جميع تراخيص الدواء في السعودية ملغاة، و"
+  }
+ ],
+ "ciclesonide": [
+  {
+   "sentence": "وكلا الترخيصين ملغى حالياً.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only（2 筆）；只刪「兩張許可都已註銷」，保留製造商（2026-11-06）",
+   "cut": " وكلا الترخيصين ملغى حالياً"
+  }
+ ],
+ "insulin_lispro": [
+  {
+   "sentence": "الترخيصان الآخران: Humalog Tempo Pen وLYUMJEV، وكلاهما ملغى.)",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only（7 筆全部 Registered，含 Humalog Tempo Pen、LYUMJEV）；只刪「兩張都已註銷」（2026-11-06）",
+   "cut": "، وكلاهما ملغى"
+  }
+ ],
+ "phenytoin": [
+  {
+   "sentence": "وEPANUTIN SUSP 30MG-5ML، وكلها ملغاة.)",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only（7 筆全部 Registered）；只刪「都已註銷」（2026-11-06）",
+   "cut": "، وكلها ملغاة"
+  }
+ ],
+ "lacosamide": [
+  {
+   "sentence": "توجد تراخيص ملغاة إضافية (Lazure",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only（12 筆，Lazure、Trepadio、Lacosamide SPC、Vimpat 都是 Registered）；只刪「ملغاة」（已註銷）（2026-11-06）",
+   "cut": "ملغاة "
+  }
+ ],
+ "epinephrine": [
+  {
+   "sentence": "- توضيح الوضع التنظيمي بعد إلغاء جميع التراخيص وتحديد الشكل الصيدلاني والطريق المطلوبين (استنشاق مقابل حقن).",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；只刪「全部許可註銷後」，保留劑型與給藥途徑的確認事項（2026-11-06）",
+   "cut": " بعد إلغاء جميع التراخيص"
+  }
+ ],
+ "esketamine": [
+  {
+   "sentence": "- تقييم توافق مسار الإعطاء (الرذاذ الأنفي) والوضع التنظيمي بعد إلغاء التراخيص.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；只刪「許可註銷後」（2026-11-06）",
+   "cut": " بعد إلغاء التراخيص"
+  }
+ ],
+ "sodium_citrate": [
+  {
+   "sentence": "- تحديد مدى توافق طريق الإعطاء (موضعي للعين مقابل الفموي) ودراسة الجدوى التنظيمية في ظل إلغاء جميع التراخيص.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；只刪「在全部許可註銷的情況下」（2026-11-06）",
+   "cut": " في ظل إلغاء جميع التراخيص"
+  }
+ ],
+ "sodium_sulfate": [
+  {
+   "sentence": "- توضيح الوضع التنظيمي والشكل الدوائي والاستطباب الأصلي في ظل إلغاء التراخيص.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；只刪「在許可註銷的情況下」（2026-11-06）",
+   "cut": " في ظل إلغاء التراخيص"
+  }
+ ],
+ "raltegravir": [
+  {
+   "sentence": "- توضيح وضع الترخيص الملغى في السعودية والشكل الدوائي والمؤشر المعتمد.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；只刪「الملغى」（已註銷的）（2026-11-06）",
+   "cut": " الملغى"
+  }
+ ],
+ "hydroquinone": [
+  {
+   "sentence": "- توضيح المؤشر الأصلي المعتمد وأسباب إلغاء التراخيص الثمانية.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only（8 筆）；只刪「八張許可註銷的原因」，保留確認原適應症（2026-11-06）",
+   "cut": " وأسباب إلغاء التراخيص الثمانية"
+  }
+ ],
+ "mecobalamin": [
+  {
+   "sentence": "- توضيح المؤشر الأصلي وسبب إلغاء الترخيص والوضع التنظيمي الحالي.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；只刪「許可註銷的原因」（2026-11-06）",
+   "cut": " وسبب إلغاء الترخيص"
+  }
+ ],
+ "hymecromone": [
+  {
+   "sentence": "- التحقق من الاستطباب الأصلي والوضع التنظيمي لسبب إلغاء التراخيص.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；只刪「許可註銷的原因」（2026-11-06）",
+   "cut": " لسبب إلغاء التراخيص"
+  }
+ ],
+ "succinic_acid": [
+  {
+   "sentence": "- التحقق من وضع الترخيص والمسار الصيدلاني المناسب بعد إلغاء الترخيص الحالي.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；只刪「目前許可註銷後」（2026-11-06）",
+   "cut": " بعد إلغاء الترخيص الحالي"
+  }
+ ],
+ "palbociclib": [
+  {
+   "sentence": "- تأكيد الوضع التنظيمي الحالي في السعودية وأسباب إلغاء التراخيص.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；只刪「許可註銷的原因」（2026-11-06）",
+   "cut": " وأسباب إلغاء التراخيص"
+  }
+ ],
+ "pibrentasvir": [
+  {
+   "sentence": "- توضيح وضع الترخيص السعودي (إلغاء الترخيص) وأسبابه.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；刪括號「（許可註銷）」與指涉它的「وأسبابه」（2026-11-06）",
+   "cut": [
+    " (إلغاء الترخيص)",
+    " وأسبابه"
+   ]
+  }
+ ],
+ "desmopressin": [
+  {
+   "sentence": "وتفيد السجلات بأن عدد التراخيص المسجلة 8 وأنها كلها مصنفة ضمن حالة «ملغاة» في حقل التراخيص",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only（8 筆全部 Registered）；整句在講「許可欄位全部註銷、與其他欄位矛盾、需查證」，矛盾本身來自誤判，只刪前半會留下指涉被刪內容的「هذا التعارض」，整句刪（2026-11-06）"
+  }
+ ],
+ "telaprevir": [
+  {
+   "sentence": "- الدواء ملغى في المملكة وتجاوزته علاجات HCV الحديثة",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；只刪「在王國已註銷，و」，保留「已被新一代 HCV 療法取代」（2026-11-06）",
+   "cut": "ملغى في المملكة و"
+  },
+  {
+   "sentence": "يضاف إلى ذلك أن الدواء ملغى تسويقياً وحلّت محله",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；只刪「行銷已註銷，و」，保留「已由 DAA 取代」（2026-11-06）",
+   "cut": "ملغى تسويقياً و"
+  }
+ ],
+ "turoctocog_alfa": [
+  {
+   "sentence": "الترخيص السادس هو NOVOEIGHT 3000 IU وهو ملغى أيضاً.)",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only（6 筆全部 Registered，含 NOVOEIGHT 3000 IU）；只刪「也已註銷」（2026-11-06）",
+   "cut": " وهو ملغى أيضاً"
+  }
+ ],
+ "rivastigmine": [
+  {
+   "sentence": "تشمل المنتجات الملغاة الأخرى أسماء Trivacin",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only（16 筆全部 Registered）；只刪「الملغاة」（已註銷的）（2026-11-06）",
+   "cut": "الملغاة "
+  }
+ ],
+ "ravulizumab": [
+  {
+   "sentence": "- توضيح وضع الترخيص الملغى والاستطباب المعتمد سابقًا.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；只刪「الملغى」（2026-11-06）",
+   "cut": " الملغى"
+  }
+ ],
+ "vidarabine": [
+  {
+   "sentence": "- التحقق من الاستطباب الأصلي للمنتج الملغى.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；只刪「الملغى」（2026-11-06）",
+   "cut": " الملغى"
+  }
+ ],
+ "diosmin": [
+  {
+   "sentence": "- توضيح الاستطباب الأصلي المعتمد للمنتجات الملغاة وأسباب الإلغاء.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered（本站 bundle 沒有任何註銷紀錄），舊版證據包把 Registered 誤判為 Cancelled only；只刪「已註銷的」與「註銷原因」（2026-11-06）",
+   "cut": [
+    " الملغاة",
+    " وأسباب الإلغاء"
+   ]
+  }
+ ],
+ "ofloxacin": [
+  {
+   "sentence": "، والمستحضر **ملغى التسجيل** في السوق السعودية.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered，舊版證據包把 Registered 誤判為 Cancelled only（9 筆）；句中有「تجارب سريرية مسجلة」所以 checker 跳過；只刪「製劑已註銷」子句（2026-11-06）",
+   "cut": "، والمستحضر **ملغى التسجيل** في السوق السعودية"
+  }
+ ],
+ "sucralfate": [
+  {
+   "sentence": "، ولا يوجد حالياً ترخيص ساري في المملكة، وبيانات السلامة",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered，舊版證據包把 Registered 誤判為 Cancelled only（4 筆）；句中有「تجارب سريرية مسجلة」所以 checker 跳過；只刪「目前沒有有效許可」子句（2026-11-06）",
+   "cut": "، ولا يوجد حالياً ترخيص ساري في المملكة"
+  }
+ ],
+ "zalcitabine": [
+  {
+   "sentence": "، والدواء ملغى التسجيل في السعودية، مما يحد من أي استخدام بيطري محتمل.",
+   "reason": "事實層：SFDA 清單該藥紀錄全部是 Registered，舊版證據包把 Registered 誤判為 Cancelled only（2 筆）；句中有「بيطري」（獸用）被 checker 當成歷史／獸用排除；刪「已註銷」子句與以它為前提的結果子句，保留毒性敘述（2026-11-06）",
+   "cut": "، والدواء ملغى التسجيل في السعودية، مما يحد من أي استخدام بيطري محتمل"
+  }
+ ],
+ "lisinopril": [
+  {
+   "sentence": "أبرز المنتجات الملغاة:",
+   "reason": "部分紀錄頁，但下方表列 ZESTRIL、LISOPHAR、LISINO、OMACE、ZINOPRIL 在 SFDA 清單都是 Registered（表上狀態也是 ساري）；只刪「الملغاة」（2026-11-06）",
+   "cut": " الملغاة"
+  }
+ ]
+}

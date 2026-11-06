@@ -86,8 +86,6 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 |---------|------|------|-----------|
 | VALDOXAN 25MG FILM COATED TABLET | VALDOXAN 25MG FILM COATED TABLET (أقراص مغلفة بالفيلم، 25 ملغ) | SERVIER | ساري |
 
-لا يوجد حالياً أي ترخيص ساري المفعول، وهذا يحدّ من إتاحة الدواء عملياً.
-
 ---
 
 ## اعتبارات السلامة

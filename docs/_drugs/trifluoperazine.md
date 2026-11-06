@@ -105,8 +105,6 @@ predicted_indications: ["manic bipolar affective disorder"]
 | STELAZINE 5MG TABLETS | STELAZINE 5MG TABLETS | BRISTOL LABORATORIES | ساري |
 | STELAZINE 1MG TABLETS | STELAZINE 1MG TABLETS | BRISTOL LABORATORIES | ساري |
 
-(يوجد ترخيص سادس ملغى أيضًا: STELAZINE SPANSULES 15MG.)
-
 ---
 
 ## اعتبارات السلامة

@@ -94,8 +94,6 @@ predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hem
 | COLIFURAN TAB 100MG | COLIFURAN TAB 100MG (KAHIRA EYGEPT) | غير محدد | غير متوفر (ساري) |
 | UVAMIN 100MG RETARD CAPSULES | UVAMIN 100MG RETARD CAPSULES (ACINO PHARMA AG) | غير محدد | غير متوفر (ساري) |
 
-كلا الترخيصين ملغى، ولا يوجد حاليًا منتج ساري المفعول.
-
 ---
 
 ## اعتبارات السلامة

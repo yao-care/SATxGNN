@@ -102,8 +102,6 @@ predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", 
 |---------|------|------|-----------|
 | LOPID | LOPID (شركة PFIZER) | غير متوفر | غير متوفر |
 
-الحالة: الترخيص **ملغى**، ولا يوجد حالياً منتج ساري في السوق.
-
 ---
 
 ## اعتبارات السلامة

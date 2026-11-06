@@ -92,7 +92,7 @@ predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitizat
 | ALVESCO 160MCG-PUFF INHALER | ALVESCO 160MCG-PUFF INHALER | بخاخ استنشاقي (غير مذكور صراحةً) | غير متوفر (حالة الترخيص: ساري) |
 | ALVESCO 80MCG-PUFF INHALER | ALVESCO 80MCG-PUFF INHALER | بخاخ استنشاقي (غير مذكور صراحةً) | غير متوفر (حالة الترخيص: ساري) |
 
-الجهة المصنِّعة لكليهما: M3 Health Care Ltd. وكلا الترخيصين ملغى حالياً.
+الجهة المصنِّعة لكليهما: M3 Health Care Ltd..
 
 ---
 
@@ -122,7 +122,6 @@ predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitizat
 - تقييم توافق طريق الإعطاء (استنشاقي/أنفي مقابل جلدي) وجدوى تركيبة موضعية.
 - دمج مدخلي "الأكزيما التأتبية" و"التهاب الجلد التأتبي" في مراجعة واحدة.
 - البحث المنهجي عن تجارب أو دراسات للسيكليسونايد في الأمراض الجلدية التأتبية.
-- توضيح وضع الترخيص الملغى في السعودية وأسبابه.
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

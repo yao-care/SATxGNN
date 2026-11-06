@@ -96,7 +96,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 | CARDURA XL 4 mg tablet | Pfizer Pharmaceutical LLC | ساري |
 | DOXAGEN 1 / 2 / 4 | RIYADH PHARMA | ملغى |
 
-(يوجد أيضاً UNIPROST 4 MG TABLETS من BATTERJEE PHARMACEUTICAL FACTORY، وهو ملغى كذلك.)
+(يوجد أيضاً UNIPROST 4 MG TABLETS من BATTERJEE PHARMACEUTICAL FACTORY.)
 
 ---
 
@@ -127,7 +127,6 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 - استكمال بيانات آلية العمل (MOA) من DrugBank.
 - الحصول على تحذيرات وموانع الاستعمال من نشرة الدواء المعتمدة لدى الهيئة العامة للغذاء والدواء، وهي بيانات حاجبة لمرحلة فحص السلامة.
 - مراجعة منهجية للأدبيات حول حاصرات ألفا-1 في الوقاية من الصداع النصفي.
-- توضيح الوضع التنظيمي والتجاري للدواء في السعودية بعد إلغاء التراخيص.
 - إن توفر مبرر كافٍ، تصميم دراسة استكشافية مضبوطة صغيرة تقيّم التحمل والفعالية.
 ## إخلاء المسؤولية
 

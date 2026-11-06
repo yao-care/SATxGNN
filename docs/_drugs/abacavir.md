@@ -89,8 +89,6 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 | ZIAGEN 300MG TAB | ZIAGEN 300MG TAB (Delpharm Poznan) | غير متوفر | غير متوفر (ساري) |
 | ZIAGEN 20MG\ML ORAL SOLUTION | ZIAGEN 20MG\ML ORAL SOLUTION (GlaxoSmithKline) | غير متوفر | غير متوفر (ساري) |
 
-كلا الترخيصين ملغى، ولا يوجد حالياً ترخيص ساري.
-
 ---
 
 ## اعتبارات السلامة

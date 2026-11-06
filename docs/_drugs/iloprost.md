@@ -85,7 +85,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 | APRELEX 20MCG/ML INHALATION SOLUTION | Tabuk Pharmaceutical Manufacturing Co. (مصنع الدمام) | ساري |
 | VENTAVIS 10 mcg/ml solution for inhalation | Berlimed S.A. | ساري |
 
-لا يوجد حالياً أي ترخيص ساري المفعول للدواء في المملكة، والمستحضران كلاهما محلول للاستنشاق.
+المستحضران كلاهما محلول للاستنشاق.
 
 ---
 

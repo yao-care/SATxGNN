@@ -86,7 +86,7 @@ predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cer
 | SYNAGIS 100MG\ML I.M VIAL (ملغى) | SYNAGIS 100MG\ML I.M VIAL | حقن عضلي (قارورة) | غير مذكور في البيانات المتاحة |
 | SYNAGIS 100MG\ML I.M Solution for Injection (ملغى) | SYNAGIS 100MG\ML I.M Solution for Injection | محلول للحقن العضلي | غير مذكور في البيانات المتاحة |
 
-كلا الترخيصين ملغى، والجهة المصنّعة هي Boehringer Ingelheim.
+الجهة المصنّعة هي Boehringer Ingelheim.
 
 ---
 
