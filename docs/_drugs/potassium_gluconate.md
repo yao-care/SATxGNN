@@ -6,7 +6,7 @@ nav_order: 676
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-31
-description: "Potassium Gluconate: الاستطباب الجديد المتوقع الحُماض الأنبوبي الكلوي (مستوى الدليل L5). الاستطباب الأصلي: نقص البوتاسيوم (potassium deficiency disease)"
+description: "Potassium Gluconate: الاستطباب الجديد المتوقع الحُماض الأنبوبي الكلوي (مستوى الدليل L4). الاستطباب الأصلي: نقص البوتاسيوم (potassium deficiency disease)"
 monitor_inn: "POTASSIUM GLUCONATE"
 predicted_indications: ["renal tubular acidosis"]
 ---

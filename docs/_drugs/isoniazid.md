@@ -6,7 +6,7 @@ nav_order: 460
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-30
-description: "Isoniazid: الاستطباب الجديد المتوقع التهاب الملتحمة (Conjunctivitis) (مستوى الدليل L4). الاستطباب الأصلي: السل الرئوي"
+description: "Isoniazid: الاستطباب الجديد المتوقع التهاب الملتحمة (Conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: السل الرئوي"
 monitor_inn: "ISONIAZID"
 predicted_indications: ["conjunctivitis"]
 ---

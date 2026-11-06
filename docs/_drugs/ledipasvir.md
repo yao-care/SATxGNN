@@ -6,7 +6,7 @@ nav_order: 486
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-30
-description: "Ledipasvir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (مصدر المعلومة: قاعدة المعرفة TxGNN…"
+description: "Ledipasvir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L2). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (مصدر المعلومة: قاعدة المعرفة TxGNN…"
 monitor_inn: "ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 ---

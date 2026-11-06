@@ -6,7 +6,7 @@ nav_order: 731
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-30
-description: "Rivastigmine: الاستطباب الجديد المتوقع الزرق (Glaucoma) (مستوى الدليل L4). الاستطباب الأصلي: مرض الزهايمر (إضافة إلى التنكس المخيخي ومتلازمة راي ومرض بيك، بحسب ال…"
+description: "Rivastigmine: الاستطباب الجديد المتوقع الزرق (Glaucoma) (مستوى الدليل L5). الاستطباب الأصلي: مرض الزهايمر (إضافة إلى التنكس المخيخي ومتلازمة راي ومرض بيك، بحسب ال…"
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
 ---

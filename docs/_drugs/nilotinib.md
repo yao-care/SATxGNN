@@ -6,7 +6,7 @@ nav_order: 587
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-30
-description: "Nilotinib: الاستطباب الجديد المتوقع الورم الليفي الساركومي الجلدي الناتئ (DFSP) (مستوى الدليل L4). الاستطباب الأصلي: ابيضاض الدم النقوي المزمن الإيجابي لـ BCR-ABL1"
+description: "Nilotinib: الاستطباب الجديد المتوقع الورم الليفي الساركومي الجلدي الناتئ (DFSP) (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم النقوي المزمن الإيجابي لـ BCR-ABL1"
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
 ---

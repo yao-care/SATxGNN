@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
 last_modified_at: 2026-10-30
-description: "Temozolomide: الاستطباب الجديد المتوقع ورم الذنب الفرسي (Cauda Equina Neoplasm) (مستوى الدليل L4). الاستطباب الأصلي: الورم النجمي ذو التنسّج، والورم النجمي (باستثناء الورم الأرومي الدبقي…"
+description: "Temozolomide: الاستطباب الجديد المتوقع ورم الذنب الفرسي (Cauda Equina Neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: الورم النجمي ذو التنسّج، والورم النجمي (باستثناء الورم الأرومي الدبقي…"
 ---
 
 # Temozolomide

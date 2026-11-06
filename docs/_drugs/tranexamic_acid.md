@@ -6,7 +6,7 @@ nav_order: 828
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-28
-description: "Tranexamic Acid: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L4). الاستطباب الأصلي: داء بطانة الرحم المهاجرة (الانتباذ البطاني الرحمي) — بحسب الرسم المعر…"
+description: "Tranexamic Acid: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L5). الاستطباب الأصلي: داء بطانة الرحم المهاجرة (الانتباذ البطاني الرحمي) — بحسب الرسم المعر…"
 monitor_inn: "TRANEXAMIC ACID"
 predicted_indications: ["amenorrhea (disease)"]
 ---

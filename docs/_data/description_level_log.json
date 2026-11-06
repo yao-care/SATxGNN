@@ -1,0 +1,405 @@
+{
+  "_note": "藥物頁 front matter description 的證據等級字樣改成頁首等級的紀錄（母目錄 .claude/sync_description_levels.py 追加；只換等級字樣，其他文字不動）。還原：把 original_description 寫回該頁 description。",
+  "entries": [
+    {
+      "page": "docs/_drugs/abacavir.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Abacavir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى فيروس نقص المناعة البشرية (HIV) والإيدز (من الرسم المعرفي للنموذ…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/acetylcysteine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L1",
+      "original_description": "\"Acetylcysteine: الاستطباب الجديد المتوقع أمراض الخثار (Thrombotic disease) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الشعب الهوائية، التسمم بالباراسيتامول، التليف الكيسي، توسع الق…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/allopurinol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Allopurinol: الاستطباب الجديد المتوقع الپورفيريا الكبدية (Hepatic porphyria) (مستوى الدليل L4). الاستطباب الأصلي: النقرس\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/amikacin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Amikacin: الاستطباب الجديد المتوقع الحمى نظيرة التيفية (Paratyphoid fever) (مستوى الدليل L4). الاستطباب الأصلي: العدوى البكتيرية (الالتهاب الرئوي البكتيري، عدوى الزائفة الزنجارية، ا…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/arginine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Arginine: الاستطباب الجديد المتوقع شلل المعدة (Gastroparesis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص المؤشرات في تراخيص الهيئة العامة للغذاء والدواء فارغة)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/bictegravir.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Bictegravir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى HIV / الإيدز (بحسب الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطبا…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/buprenorphine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Buprenorphine: الاستطباب الجديد المتوقع البورفيريا الحادة المتقطعة (مستوى الدليل L5). الاستطباب الأصلي: الاعتماد على المواد الأفيونية (الاعتماد على المورفين وتعاطي المواد)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/cabazitaxel.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Cabazitaxel: الاستطباب الجديد المتوقع سرطان الثدي لدى النساء (female breast carcinoma) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في البيانات المجمَّعة (تراخيص الهيئة العامة للغذاء والدواء…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/camphor.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Camphor: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء فارغ…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/chlordiazepoxide.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Chlordiazepoxide: الاستطباب الجديد المتوقع الأرق (مستوى الدليل L4). الاستطباب الأصلي: القلق، وانسحاب الكحول، وقرحة المعدة، والقولون العصبي (بحسب الرسم المع…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ciprofloxacin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Ciprofloxacin: الاستطباب الجديد المتوقع تصلب الجلد المنتشر (مستوى الدليل L4). الاستطباب الأصلي: العدوى البكتيرية (الحمى التيفية، السالمونيلا، الالتهاب الرئوي البكتير…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/clarithromycin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Clarithromycin: الاستطباب الجديد المتوقع فرط أميلاز الدم (Hyperamylasemia) (مستوى الدليل L4). الاستطباب الأصلي: العدوى البكتيرية (التهاب الأذن الوسطى، العدوى العقدية، التهاب الرئة ا…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/deferiprone.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Deferiprone: الاستطباب الجديد المتوقع البورفيريا الكبدية (hepatic porphyria) (مستوى الدليل L5). الاستطباب الأصلي: فرط الحديد (الهيموسيديروزس) والثلاسيميا بيتا وأمراض الهيموغلوبين (است…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/desogestrel.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Desogestrel: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L3). الاستطباب الأصلي: منع الحمل (لا يوجد نص استطباب معتمد في بيانات الترخيص المحلية)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/doxycycline.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Doxycycline: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (مستوى الدليل L4). الاستطباب الأصلي: التهاب الشعب الهوائية، حب الشباب، الالتهاب الرئوي البكتيري، الجمرة ال…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/elbasvir.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Elbasvir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (مصدر هذا الاستطباب هو الرسم المعرف…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/epinephrine.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Epinephrine: الاستطباب الجديد المتوقع مرض الرئة الانسدادي (مستوى الدليل L1). الاستطباب الأصلي: الربو، التأق، التهاب الشعب الهوائية، انتفاخ الرئة، هبوط الضغط، الزرق…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ethambutol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Ethambutol: الاستطباب الجديد المتوقع التهاب لسان المزمار (Epiglottitis) (مستوى الدليل L4). الاستطباب الأصلي: السل الرئوي\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/everolimus.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Everolimus: الاستطباب الجديد المتوقع الساركوما الشحمية (Liposarcoma) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الخلايا الكلوية (نص الاستطباب المعتمد في تراخيص السعودية غير مت…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/famciclovir.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Famciclovir: الاستطباب الجديد المتوقع الألم العصبي بعد العدوى (post-infectious neuralgia) (مستوى الدليل L4). الاستطباب الأصلي: الهربس النطاقي (Herpes zoster)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/flucloxacillin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Flucloxacillin: الاستطباب الجديد المتوقع التهاب الملتحمة (conjunctivitis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نص الاستطباب فارغ في جميع التراخيص)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/goserelin.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Goserelin: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L5). الاستطباب الأصلي: التهاب بطانة الرحم (Endometriosis)، وانتباذ بطانة الرحم في الرحم (لا…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/grazoprevir.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L1",
+      "original_description": "\"Grazoprevir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (مصدره رسم المعرفة، إذ لا يتوفر نص…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/hydromorphone.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Hydromorphone: الاستطباب الجديد المتوقع التهاب البلعوم (Pharyngitis) (مستوى الدليل L4). الاستطباب الأصلي: نزلة البرد، التهاب البلعوم الأنفي (من الرسم المعرفي؛ لا يوجد نص دلالة…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/hydroquinone.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Hydroquinone: الاستطباب الجديد المتوقع التقرن الدهني (Seborrheic Keratosis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص السعودية (نصوص المؤشرات المعتمدة فارغة)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/interferon_gamma-1b.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Interferon Gamma-1B: الاستطباب الجديد المتوقع أمراض القلب (heart disease) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (لا يوجد نص استطباب في ترخيص الهيئة العامة للغذاء والدواء)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/isoniazid.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Isoniazid: الاستطباب الجديد المتوقع التهاب الملتحمة (Conjunctivitis) (مستوى الدليل L4). الاستطباب الأصلي: السل الرئوي\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ketamine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L1",
+      "original_description": "\"Ketamine: الاستطباب الجديد المتوقع اضطراب الصداع (Headache Disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (حقول المؤشر في تراخيص الهيئة العامة للغذاء والدواء فارغة)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ledipasvir.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Ledipasvir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (مصدر المعلومة: قاعدة المعرفة TxGNN…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/levocabastine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Levocabastine: الاستطباب الجديد المتوقع الشرى التحسسي (Allergic Urticaria) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الملتحمة التأرجي، والحليمي، والربيعي (مصدر: الرسم المعرفي لـ T…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/mepolizumab.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Mepolizumab: الاستطباب الجديد المتوقع نقص الصفيحات الدموية بسبب التدمير المناعي (مستوى الدليل L4). الاستطباب الأصلي: الالتهاب الرئوي اليوزيني / كثرة اليوزينيات الرئوية (من الرسم المعرفي…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/methoxsalen.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Methoxsalen: الاستطباب الجديد المتوقع الورام الشبيه بالباجيت الموضعي (Localized Pagetoid Reticulosis) (مستوى الدليل L4). الاستطباب الأصلي: الورم اللمفاوي التائي الجلدي الأولي (اللاهودجكيني)، البهاق\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/mycophenolate_mofetil.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Mycophenolate Mofetil: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف عامةً: الوقاية من رفض الأعضاء ا…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/nandrolone.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Nandrolone: الاستطباب الجديد المتوقع داء الثدي الكيسي الليفي (breast fibrocystic disease) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص المؤشرات في تراخيص هيئة الغذاء والدواء السعودية فارغة)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/niclosamide.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Niclosamide: الاستطباب الجديد المتوقع أمراض القلب (heart disease) (مستوى الدليل L5). الاستطباب الأصلي: طارد للديدان (مضاد للطفيليات). لا يتوفر نص الاستطباب المعتمد في تراخي…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/nilotinib.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Nilotinib: الاستطباب الجديد المتوقع الورم الليفي الساركومي الجلدي الناتئ (DFSP) (مستوى الدليل L4). الاستطباب الأصلي: ابيضاض الدم النقوي المزمن الإيجابي لـ BCR-ABL1\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/nitroprusside.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Nitroprusside: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المحلية\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/obeticholic_acid.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Obeticholic Acid: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المحلية (تشير الأدبيات إلى التهاب الصفراء…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/oxymetazoline.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Oxymetazoline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L4). الاستطباب الأصلي: التهاب البلعوم، نزلات البرد\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/parecoxib.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L3",
+      "original_description": "\"Parecoxib: الاستطباب الجديد المتوقع الصداع النصفي (Migraine Disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المتاحة (الدواء يُعرف بكونه مسكنًا للألم)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/potassium_gluconate.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Potassium Gluconate: الاستطباب الجديد المتوقع الحُماض الأنبوبي الكلوي (مستوى الدليل L5). الاستطباب الأصلي: نقص البوتاسيوم (potassium deficiency disease)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/pseudoephedrine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Pseudoephedrine: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/rivastigmine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Rivastigmine: الاستطباب الجديد المتوقع الزرق (Glaucoma) (مستوى الدليل L4). الاستطباب الأصلي: مرض الزهايمر (إضافة إلى التنكس المخيخي ومتلازمة راي ومرض بيك، بحسب ال…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/sulbactam.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Sulbactam: الاستطباب الجديد المتوقع التهاب المفاصل البكتيري (Bacterial arthritis) (مستوى الدليل L3). الاستطباب الأصلي: التهاب الأقنية الصفراوية، عدوى المكورات العنقودية الذهبية، عدوى الإشر…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/temozolomide.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Temozolomide: الاستطباب الجديد المتوقع ورم الذنب الفرسي (Cauda Equina Neoplasm) (مستوى الدليل L4). الاستطباب الأصلي: الورم النجمي ذو التنسّج، والورم النجمي (باستثناء الورم الأرومي الدبقي…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/tenofovir_disoproxil.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Tenofovir Disoproxil: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infectio… (مستوى الدليل L5). الاستطباب الأصلي: عدوى التهاب الكبد B المزمنة، عدوى فيروس نقص …\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/tetracycline.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Tetracycline: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة الظهاري النقطي (مستوى الدليل L4). الاستطباب الأصلي: التهاب المسالك البولية، التهاب الشعب الهوائية، حب الشباب، التهاب المل…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/trabectedin.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Trabectedin: الاستطباب الجديد المتوقع سرطان الثدي لدى الإناث (مستوى الدليل L3). الاستطباب الأصلي: سرطان المبيض (بما في ذلك الأنواع النسيجية المختلفة لسرطان المبيض)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/tranexamic_acid.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Tranexamic Acid: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L4). الاستطباب الأصلي: داء بطانة الرحم المهاجرة (الانتباذ البطاني الرحمي) — بحسب الرسم المعر…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/zanubrutinib.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Zanubrutinib: الاستطباب الجديد المتوقع ابيضاض الدم النقوي (Myeloid leukemia) (مستوى الدليل L4). الاستطباب الأصلي: لمفوما الخلايا الوشاحية، أورام الخلايا البائية، الساركوما اللمفاوية\"",
+      "tool": ".claude/sync_description_levels.py"
+    }
+  ]
+}

@@ -6,7 +6,7 @@ nav_order: 187
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-11-03
-description: "Ciprofloxacin: الاستطباب الجديد المتوقع تصلب الجلد المنتشر (مستوى الدليل L4). الاستطباب الأصلي: العدوى البكتيرية (الحمى التيفية، السالمونيلا، الالتهاب الرئوي البكتير…"
+description: "Ciprofloxacin: الاستطباب الجديد المتوقع تصلب الجلد المنتشر (مستوى الدليل L5). الاستطباب الأصلي: العدوى البكتيرية (الحمى التيفية، السالمونيلا، الالتهاب الرئوي البكتير…"
 monitor_inn: "CIPROFLOXACIN"
 predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 ---

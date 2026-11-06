@@ -6,7 +6,7 @@ nav_order: 468
 evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-30
-description: "Ketamine: الاستطباب الجديد المتوقع اضطراب الصداع (Headache Disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (حقول المؤشر في تراخيص الهيئة العامة للغذاء والدواء فارغة)"
+description: "Ketamine: الاستطباب الجديد المتوقع اضطراب الصداع (Headache Disorder) (مستوى الدليل L1). الاستطباب الأصلي: غير متوفر (حقول المؤشر في تراخيص الهيئة العامة للغذاء والدواء فارغة)"
 monitor_inn: "KETAMINE"
 predicted_indications: ["headache disorder"]
 ---

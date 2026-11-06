@@ -6,7 +6,7 @@ nav_order: 324
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-30
-description: "Ethambutol: الاستطباب الجديد المتوقع التهاب لسان المزمار (Epiglottitis) (مستوى الدليل L4). الاستطباب الأصلي: السل الرئوي"
+description: "Ethambutol: الاستطباب الجديد المتوقع التهاب لسان المزمار (Epiglottitis) (مستوى الدليل L5). الاستطباب الأصلي: السل الرئوي"
 monitor_inn: "ETHAMBUTOL"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
 ---

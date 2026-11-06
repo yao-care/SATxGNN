@@ -6,7 +6,7 @@ nav_order: 826
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-30
-description: "Trabectedin: الاستطباب الجديد المتوقع سرطان الثدي لدى الإناث (مستوى الدليل L3). الاستطباب الأصلي: سرطان المبيض (بما في ذلك الأنواع النسيجية المختلفة لسرطان المبيض)"
+description: "Trabectedin: الاستطباب الجديد المتوقع سرطان الثدي لدى الإناث (مستوى الدليل L5). الاستطباب الأصلي: سرطان المبيض (بما في ذلك الأنواع النسيجية المختلفة لسرطان المبيض)"
 monitor_inn: "TRABECTEDIN"
 predicted_indications: ["female breast carcinoma"]
 ---

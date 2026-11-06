@@ -6,7 +6,7 @@ nav_order: 310
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-28
-description: "Epinephrine: الاستطباب الجديد المتوقع مرض الرئة الانسدادي (مستوى الدليل L1). الاستطباب الأصلي: الربو، التأق، التهاب الشعب الهوائية، انتفاخ الرئة، هبوط الضغط، الزرق…"
+description: "Epinephrine: الاستطباب الجديد المتوقع مرض الرئة الانسدادي (مستوى الدليل L5). الاستطباب الأصلي: الربو، التأق، التهاب الشعب الهوائية، انتفاخ الرئة، هبوط الضغط، الزرق…"
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 ---

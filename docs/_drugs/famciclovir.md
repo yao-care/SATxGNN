@@ -6,7 +6,7 @@ nav_order: 337
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-30
-description: "Famciclovir: الاستطباب الجديد المتوقع الألم العصبي بعد العدوى (post-infectious neuralgia) (مستوى الدليل L4). الاستطباب الأصلي: الهربس النطاقي (Herpes zoster)"
+description: "Famciclovir: الاستطباب الجديد المتوقع الألم العصبي بعد العدوى (post-infectious neuralgia) (مستوى الدليل L5). الاستطباب الأصلي: الهربس النطاقي (Herpes zoster)"
 monitor_inn: "FAMCICLOVIR"
 predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 ---

@@ -6,7 +6,7 @@ nav_order: 418
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-28
-description: "Hydroquinone: الاستطباب الجديد المتوقع التقرن الدهني (Seborrheic Keratosis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص السعودية (نصوص المؤشرات المعتمدة فارغة)"
+description: "Hydroquinone: الاستطباب الجديد المتوقع التقرن الدهني (Seborrheic Keratosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص السعودية (نصوص المؤشرات المعتمدة فارغة)"
 monitor_inn: "HYDROQUINONE"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
 ---

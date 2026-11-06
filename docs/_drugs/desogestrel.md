@@ -6,7 +6,7 @@ nav_order: 244
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-28
-description: "Desogestrel: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L3). الاستطباب الأصلي: منع الحمل (لا يوجد نص استطباب معتمد في بيانات الترخيص المحلية)"
+description: "Desogestrel: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L5). الاستطباب الأصلي: منع الحمل (لا يوجد نص استطباب معتمد في بيانات الترخيص المحلية)"
 monitor_inn: "DESOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
 ---

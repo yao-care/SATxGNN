@@ -6,7 +6,7 @@ nav_order: 333
 evidence_level: L2
 indication_count: 8
 last_modified_at: 2026-10-28
-description: "Everolimus: الاستطباب الجديد المتوقع الساركوما الشحمية (Liposarcoma) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الخلايا الكلوية (نص الاستطباب المعتمد في تراخيص السعودية غير مت…"
+description: "Everolimus: الاستطباب الجديد المتوقع الساركوما الشحمية (Liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان الخلايا الكلوية (نص الاستطباب المعتمد في تراخيص السعودية غير مت…"
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
 ---

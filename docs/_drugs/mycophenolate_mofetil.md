@@ -6,7 +6,7 @@ nav_order: 574
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-30
-description: "Mycophenolate Mofetil: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف عامةً: الوقاية من رفض الأعضاء ا…"
+description: "Mycophenolate Mofetil: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L2). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف عامةً: الوقاية من رفض الأعضاء ا…"
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
 ---
