@@ -259,7 +259,7 @@
       "evidence_level": "L5",
       "indication_count": 8,
       "original_indication": "",
-      "predicted_indication": "داء أجسام البوليغلوكوزان لدى البالغين",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/alglucosidase-alfa/"
     },
@@ -549,7 +549,7 @@
       "evidence_level": "L5",
       "indication_count": 8,
       "original_indication": "",
-      "predicted_indication": "اضطراب الإفراز الأولي للصفائح",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/antihemophilic-factor-human-recombinant/"
     },
@@ -1859,7 +1859,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "التهاب القرنية والملتحمة النقطي الظهاري",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/clindamycin/"
     },
@@ -4259,7 +4259,7 @@
       "evidence_level": "L5",
       "indication_count": 9,
       "original_indication": "",
-      "predicted_indication": "نقص البوتاسيوم",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/inclisiran/"
     },
@@ -4599,7 +4599,7 @@
       "evidence_level": "L5",
       "indication_count": 9,
       "original_indication": "",
-      "predicted_indication": "الحثل الميزوميلي الطرفي (هنتر-طومسون)",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ketoprofen/"
     },
@@ -5589,7 +5589,7 @@
       "evidence_level": "L5",
       "indication_count": 8,
       "original_indication": "",
-      "predicted_indication": "اضطراب إفراز الصفائح الدموية الأولي",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/moroctocog-alfa/"
     },
@@ -6249,7 +6249,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "اضطرابات التوصيل القلبي",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/pefloxacin/"
     },
@@ -7059,7 +7059,7 @@
       "evidence_level": "L5",
       "indication_count": 3,
       "original_indication": "",
-      "predicted_indication": "فرط أميلاز الدم",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/relebactam/"
     },
@@ -7469,7 +7469,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "فرط الشعر الشامل الخلقي من نوع أمبراس",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/silodosin/"
     },
@@ -8189,7 +8189,7 @@
       "evidence_level": "L5",
       "indication_count": 7,
       "original_indication": "",
-      "predicted_indication": "الصَّعَر الانتيابي الحميد في الرضع",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/tranylcypromine/"
     },
@@ -8389,7 +8389,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "اضطراب إفراز الصفيحات الأولي",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/turoctocog-alfa/"
     },
@@ -8399,7 +8399,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "اضطراب إفراز الصفائح الدموية الأولي",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/turoctocog-alfa-pegol/"
     },
