@@ -84,8 +84,20 @@ predicted_indications: ["esotropia"]
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| EYLEA 40 mg/ml solution for injection (ملغى) | EYLEA 40 mg/ml solution for injection (باير) | غير محدد | غير متوفر |
-| Eylea 40 mg/ml Solution for injection in pre-filled syringe (ملغى) | Eylea 40 mg/ml Solution for injection in pre-filled syringe (باير) | غير محدد | غير متوفر |
+| EYLEA 40 mg/ml solution for injection (ساري) | EYLEA 40 mg/ml solution for injection (باير) | غير محدد | غير متوفر |
+| Eylea 40 mg/ml Solution for injection in pre-filled syringe (ساري) | Eylea 40 mg/ml Solution for injection in pre-filled syringe (باير) | غير محدد | غير متوفر |
+
+<!-- review:begin sa-row-20261112-aflibercept-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «EYLEA 40 mg/ml solution for injection (ملغى)» المستحضر EYLEA 40 mg/ml solution for injection مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-aflibercept-1 -->
+
+<!-- review:begin sa-row-20261112-aflibercept-2 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «Eylea 40 mg/ml Solution for injection in pre-filled syringe (ملغى)» المستحضر Eylea 40 mg/ml Solution for injection in pre-filled syringe مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-aflibercept-2 -->
 
 ---
 
@@ -149,6 +161,8 @@ predicted_indications: ["esotropia"]
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري للمنتج في السعودية (كلا الترخيصين ملغى)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح وضع التسويق في السعودية وأسباب إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | الجدول: EYLEA 40 mg/ml solution for injection مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: Eylea 40 mg/ml Solution for injection in pre-filled syringe مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 
 <!-- review:end log -->
 

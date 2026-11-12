@@ -83,7 +83,13 @@ predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficienc
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| PROTELOS 2GM GRANULES FOR ORAL SUSP. (ملغى) | PROTELOS 2GM GRANULES FOR ORAL SUSP. (الشركة المصنّعة: SERVIER) | غير متوفر | غير متوفر |
+| PROTELOS 2GM GRANULES FOR ORAL SUSP. (ساري) | PROTELOS 2GM GRANULES FOR ORAL SUSP. (الشركة المصنّعة: SERVIER) | غير متوفر | غير متوفر |
+
+<!-- review:begin sa-row-20261112-strontium_ranelate-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «(ملغى)» المستحضر PROTELOS 2GM GRANULES FOR ORAL SUSP. مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-strontium_ranelate-1 -->
 
 ---
 
@@ -128,6 +134,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficienc
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «نظراً لأن المنتج ملغى في السوق السعودي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | الجدول: PROTELOS 2GM GRANULES FOR ORAL SUSP. مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 
 <!-- review:end log -->
 

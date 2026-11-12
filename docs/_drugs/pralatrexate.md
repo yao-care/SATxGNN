@@ -87,7 +87,13 @@ description: "Pralatrexate: الاستطباب الجديد المتوقع Pleur
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| FOLOTYN 20MG/ML SOLUTION FOR INFUSION (ملغى) | FOLOTYN 20MG/ML SOLUTION FOR INFUSION، الشركة المصنعة: BAXTER ONCOLOGY GmbH | محلول للتسريب (بحسب اسم المنتج) | غير متوفر |
+| FOLOTYN 20MG/ML SOLUTION FOR INFUSION (ساري) | FOLOTYN 20MG/ML SOLUTION FOR INFUSION، الشركة المصنعة: BAXTER ONCOLOGY GmbH | محلول للتسريب (بحسب اسم المنتج) | غير متوفر |
+
+<!-- review:begin sa-row-20261112-pralatrexate-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «(ملغى)» المستحضر FOLOTYN 20MG/ML SOLUTION FOR INFUSION مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-pralatrexate-1 -->
 
 ---
 
@@ -150,6 +156,7 @@ description: "Pralatrexate: الاستطباب الجديد المتوقع Pleur
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الدواء حالياً بوضع «ملغى فقط» في السوق السعودي، وهو قيد عملي إضافي، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | الجدول: FOLOTYN 20MG/ML SOLUTION FOR INFUSION مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 
 <!-- review:end log -->
 

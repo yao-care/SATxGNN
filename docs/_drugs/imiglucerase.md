@@ -74,7 +74,13 @@ description: "Imiglucerase: الاستطباب الجديد المتوقع مت�
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| CEREZYME 400 U powder for concentrate for solution for infusion (ملغى) | CEREZYME 400 U powder for concentrate for solution for infusion (الشركة: GENZYME IRELAND LIMITED) | مسحوق لتحضير محلول مركز للتسريب الوريدي | غير مذكور |
+| CEREZYME 400 U powder for concentrate for solution for infusion (ساري) | CEREZYME 400 U powder for concentrate for solution for infusion (الشركة: GENZYME IRELAND LIMITED) | مسحوق لتحضير محلول مركز للتسريب الوريدي | غير مذكور |
+
+<!-- review:begin sa-row-20261112-imiglucerase-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «(ملغى)» المستحضر CEREZYME 400 U powder for concentrate for solution for infusion مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-imiglucerase-1 -->
 
 ## اعتبارات السلامة
 
@@ -94,6 +100,18 @@ description: "Imiglucerase: الاستطباب الجديد المتوقع مت�
 - أدلة مباشرة من دراسات ما قبل سريرية أو سريرية على فعالية إيميغلوسيراز في هذا المرض
 - بيانات آلية العمل التفصيلية
 - تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة لدى هيئة الغذاء والدواء السعودية
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-12 | الجدول: CEREZYME 400 U powder for concentrate for solution for infusion مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

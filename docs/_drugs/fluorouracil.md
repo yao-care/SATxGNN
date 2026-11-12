@@ -91,11 +91,23 @@ predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina"
 
 | رقم الترخيص / اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|-----------|
-| EFUDIX 5% OINTMENT (مرهم) | VALEANT PHARMACEUTICALS | ملغى |
+| EFUDIX 5% OINTMENT (مرهم) | VALEANT PHARMACEUTICALS | ساري |
 | FLUOROURACIL EBEWE (أمبول/فيال 50 ملغ/مل؛ 500 ملغ/10 مل؛ 1000 ملغ/20 مل؛ 5000 ملغ/100 مل) | Fareva Unterach GmbH | ملغى |
 | FLORYL 50 MG/ML SOLUTION FOR INJECTION/INFUSION | INTAS PHARMACEUTICALS | ساري |
 | FLUORO-URACIL ICN 250MG-5ML VIAL | VALEANT PHARMACEUTICALS | ساري |
-| FLUOROURACIL 500MG-10ML VIAL / 250MG-10ML VIAL | HOSPIRA AUSTRALIA | ملغى |
+| FLUOROURACIL 500MG-10ML VIAL / 250MG-10ML VIAL | HOSPIRA AUSTRALIA | ساري |
+
+<!-- review:begin sa-row-20261112-fluorouracil-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «VALEANT PHARMACEUTICALS / ملغى» المستحضر EFUDIX 5% OINTMENT (مرهم) مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-fluorouracil-1 -->
+
+<!-- review:begin sa-row-20261112-fluorouracil-2 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «HOSPIRA AUSTRALIA / ملغى» المستحضر FLUOROURACIL 500MG-10ML VIAL / 250MG-10ML VIAL مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-fluorouracil-2 -->
 
 ---
 
@@ -153,6 +165,8 @@ predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina"
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «التحقق من الوضع التنظيمي والتوافر الفعلي للدواء في السعودية بعد إلغاء جميع التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | الجدول: EFUDIX 5% OINTMENT (مرهم) مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: FLUOROURACIL 500MG-10ML VIAL / 250MG-10ML VIAL مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 
 <!-- review:end log -->
 

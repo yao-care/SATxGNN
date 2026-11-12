@@ -85,7 +85,13 @@ predicted_indications: ["seborrheic dermatitis", "dermatitis"]
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| VEXOL 1% OPTH. SUSPENSION (ملغى) | VEXOL 1% OPTH. SUSPENSION (الشركة المصنعة: ALCON LABORATORIES) | معلق للعين (حسب اسم المنتج) | غير متوفر |
+| VEXOL 1% OPTH. SUSPENSION (ساري) | VEXOL 1% OPTH. SUSPENSION (الشركة المصنعة: ALCON LABORATORIES) | معلق للعين (حسب اسم المنتج) | غير متوفر |
+
+<!-- review:begin sa-row-20261112-rimexolone-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «(ملغى)» المستحضر VEXOL 1% OPTH. SUSPENSION مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-rimexolone-1 -->
 
 ---
 
@@ -127,6 +133,7 @@ predicted_indications: ["seborrheic dermatitis", "dermatitis"]
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «والمنتج الوحيد المعروف معلق عيني ملغى الترخيص في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | الجدول: VEXOL 1% OPTH. SUSPENSION مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 
 <!-- review:end log -->
 

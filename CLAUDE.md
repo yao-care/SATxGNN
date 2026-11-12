@@ -35,3 +35,4 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁後會重套紀錄，notes 裡的舊錯句會被紀錄再更正一次。
 2026-11-12 頁首例外 6 頁的重審：總覽格「預測新適應症」是排名第一的預測，其中 4 頁（favipiravir、quetiapine、ranibizumab、warfarin）的等級格寫的卻是報告另外評估的適應症的等級。依總覽格的適應症重審（PubMed、ClinicalTrials.gov）：dasabuvir L3→L5、favipiravir L4→L5、quetiapine L4→L5、ranibizumab L1→L5（決策改 Hold）、warfarin L1→L4（決策改 Hold）、trifluoperazine 維持 L4；頁首隨總覽格（trifluoperazine、warfarin 由 L5 改 L4，記 header_level／description_level），衍生檔（drug_stats、drugs.json、FHIR、search-index、llms、README）已重產。
 同日正文許可證張數對快照事實層的掃描：0 筆不符（正文的數字都是總數、有效數或「列出其中 N 張」，SFDA 清單只有已註冊品項）。
+2026-11-12 許可證表格列狀態對事實層（母目錄 check_drug_page.py --row-status）：23 頁 33 列在 SFDA 註冊清單上（data-20261105 原始清單 Status 全為 Registered）的品項標成「ملغى」，以 33 筆 `sa-row-20261112-*` correct 紀錄改成本站既有寫法「ساري」。表格裡其他「ملغى」列的品項不在快照本藥名單（事實不明），這次不動。

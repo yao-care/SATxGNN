@@ -83,8 +83,20 @@ predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", 
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| EVISTA 60 MG F-C TABLETS (ملغى) | EVISTA 60 MG F-C TABLETS (الشركة المصنعة: LILLY DEL CARIBE) | غير متوفر | غير متوفر |
-| RALOSTA 60MG (ملغى) | RALOSTA 60MG (الشركة المصنعة: SAJA) | غير متوفر | غير متوفر |
+| EVISTA 60 MG F-C TABLETS (ساري) | EVISTA 60 MG F-C TABLETS (الشركة المصنعة: LILLY DEL CARIBE) | غير متوفر | غير متوفر |
+| RALOSTA 60MG (ساري) | RALOSTA 60MG (الشركة المصنعة: SAJA) | غير متوفر | غير متوفر |
+
+<!-- review:begin sa-row-20261112-raloxifene-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «EVISTA 60 MG F-C TABLETS (ملغى)» المستحضر EVISTA 60 MG F-C TABLETS مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-raloxifene-1 -->
+
+<!-- review:begin sa-row-20261112-raloxifene-2 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «RALOSTA 60MG (ملغى)» المستحضر RALOSTA 60MG مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-raloxifene-2 -->
 
 ---
 
@@ -129,6 +141,8 @@ predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «التحقق من أسباب إلغاء التراخيص السعودية وإمكانية توفر الدواء تجارياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | الجدول: EVISTA 60 MG F-C TABLETS مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: RALOSTA 60MG مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 
 <!-- review:end log -->
 

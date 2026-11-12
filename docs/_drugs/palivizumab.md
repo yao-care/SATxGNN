@@ -83,8 +83,20 @@ predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cer
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| SYNAGIS 100MG\ML I.M VIAL (ملغى) | SYNAGIS 100MG\ML I.M VIAL | حقن عضلي (قارورة) | غير مذكور في البيانات المتاحة |
-| SYNAGIS 100MG\ML I.M Solution for Injection (ملغى) | SYNAGIS 100MG\ML I.M Solution for Injection | محلول للحقن العضلي | غير مذكور في البيانات المتاحة |
+| SYNAGIS 100MG\ML I.M VIAL (ساري) | SYNAGIS 100MG\ML I.M VIAL | حقن عضلي (قارورة) | غير مذكور في البيانات المتاحة |
+| SYNAGIS 100MG\ML I.M Solution for Injection (ساري) | SYNAGIS 100MG\ML I.M Solution for Injection | محلول للحقن العضلي | غير مذكور في البيانات المتاحة |
+
+<!-- review:begin sa-row-20261112-palivizumab-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «SYNAGIS 100MG\ML I.M VIAL (ملغى)» المستحضر SYNAGIS 100MG\ML I.M VIAL مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-palivizumab-1 -->
+
+<!-- review:begin sa-row-20261112-palivizumab-2 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «SYNAGIS 100MG\ML I.M Solution for Injection (ملغى)» المستحضر SYNAGIS 100MG\ML I.M Solution for Injection مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-palivizumab-2 -->
 
 الجهة المصنّعة هي Boehringer Ingelheim.
 
@@ -124,6 +136,8 @@ predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cer
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كلا الترخيصين ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | الجدول: SYNAGIS 100MG\ML I.M VIAL مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: SYNAGIS 100MG\ML I.M Solution for Injection مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 
 <!-- review:end log -->
 

@@ -255,6 +255,46 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
   },
   {
+   "id": "sa-row-20261112-aflibercept-1",
+   "drug": "aflibercept",
+   "file": "aflibercept.md",
+   "action": "correct",
+   "claim": "| EYLEA 40 mg/ml solution for injection (ملغى)",
+   "replacement": "| EYLEA 40 mg/ml solution for injection (ساري)",
+   "summary": "الجدول: EYLEA 40 mg/ml solution for injection مسجل (ساري) وليس ملغى",
+   "note": "المستحضر EYLEA 40 mg/ml solution for injection مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 EYLEA 40 mg/ml solution for injection 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-aflibercept-2",
+   "drug": "aflibercept",
+   "file": "aflibercept.md",
+   "action": "correct",
+   "claim": "| Eylea 40 mg/ml Solution for injection in pre-filled syringe (ملغى)",
+   "replacement": "| Eylea 40 mg/ml Solution for injection in pre-filled syringe (ساري)",
+   "summary": "الجدول: Eylea 40 mg/ml Solution for injection in pre-filled syringe مسجل (ساري) وليس ملغى",
+   "note": "المستحضر Eylea 40 mg/ml Solution for injection in pre-filled syringe مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 Eylea 40 mg/ml Solution for injection in pre-filled syringe 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
    "id": "sa-lic-20261106-agomelatine-1",
    "drug": "agomelatine",
    "file": "agomelatine.md",
@@ -3039,6 +3079,66 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
   },
   {
+   "id": "sa-row-20261112-daclatasvir-1",
+   "drug": "daclatasvir",
+   "file": "daclatasvir.md",
+   "action": "correct",
+   "claim": "| LEVERA 30 mg film-coated tablet (ملغى)",
+   "replacement": "| LEVERA 30 mg film-coated tablet (ساري)",
+   "summary": "الجدول: LEVERA 30 mg film-coated tablet مسجل (ساري) وليس ملغى",
+   "note": "المستحضر LEVERA 30 mg film-coated tablet مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 LEVERA 30 mg film-coated tablet 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-daclatasvir-2",
+   "drug": "daclatasvir",
+   "file": "daclatasvir.md",
+   "action": "correct",
+   "claim": "| DAKLINZA 60 mg film-coated tablet (ملغى)",
+   "replacement": "| DAKLINZA 60 mg film-coated tablet (ساري)",
+   "summary": "الجدول: DAKLINZA 60 mg film-coated tablet مسجل (ساري) وليس ملغى",
+   "note": "المستحضر DAKLINZA 60 mg film-coated tablet مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 DAKLINZA 60 mg film-coated tablet 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-daclatasvir-3",
+   "drug": "daclatasvir",
+   "file": "daclatasvir.md",
+   "action": "correct",
+   "claim": "| LEVERA 60 mg film-coated tablet (ملغى)",
+   "replacement": "| LEVERA 60 mg film-coated tablet (ساري)",
+   "summary": "الجدول: LEVERA 60 mg film-coated tablet مسجل (ساري) وليس ملغى",
+   "note": "المستحضر LEVERA 60 mg film-coated tablet مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 LEVERA 60 mg film-coated tablet 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
    "id": "sa-lic-20261106-darunavir-1",
    "drug": "darunavir",
    "file": "darunavir.md",
@@ -3800,6 +3900,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
   },
   {
+   "id": "sa-row-20261112-doripenem-1",
+   "drug": "doripenem",
+   "file": "doripenem.md",
+   "action": "correct",
+   "claim": "(ملغى)",
+   "replacement": "(ساري)",
+   "summary": "الجدول: DORIBAX 500MG/VIAL POWDER FOR INFUSION مسجل (ساري) وليس ملغى",
+   "note": "المستحضر DORIBAX 500MG/VIAL POWDER FOR INFUSION مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 DORIBAX 500MG/VIAL POWDER FOR INFUSION 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
    "id": "sa-lic-20261106-doxazosin-1",
    "drug": "doxazosin",
    "file": "doxazosin.md",
@@ -3848,6 +3968,26 @@
    "checked": "2026-11-06",
    "summary": "حُذف: «توضيح الوضع التنظيمي والتجاري للدواء في السعودية بعد إلغاء التراخيص»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
+  },
+  {
+   "id": "sa-row-20261112-doxazosin-1",
+   "drug": "doxazosin",
+   "file": "doxazosin.md",
+   "action": "correct",
+   "claim": "| ملغى |",
+   "replacement": "| ساري |",
+   "summary": "الجدول: DOXAGEN 1 / 2 / 4 مسجل (ساري) وليس ملغى",
+   "note": "المستحضر DOXAGEN 1 / 2 / 4 مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 DOXAGEN 1 / 2 / 4 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
   },
   {
    "id": "sa-lic-20261106-doxorubicin-1",
@@ -5057,6 +5197,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
   },
   {
+   "id": "sa-row-20261112-fidaxomicin-1",
+   "drug": "fidaxomicin",
+   "file": "fidaxomicin.md",
+   "action": "correct",
+   "claim": "(ملغى)",
+   "replacement": "(ساري)",
+   "summary": "الجدول: DIFICLIR 200 mg Film Coated Tablet مسجل (ساري) وليس ملغى",
+   "note": "المستحضر DIFICLIR 200 mg Film Coated Tablet مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 DIFICLIR 200 mg Film Coated Tablet 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
    "id": "sa-lic-20261106-finasteride-1",
    "drug": "finasteride",
    "file": "finasteride.md",
@@ -5206,6 +5366,46 @@
    "checked": "2026-11-06",
    "summary": "حُذف: «التحقق من الوضع التنظيمي والتوافر الفعلي للدواء في السعودية بعد إلغاء جميع التراخيص»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
+  },
+  {
+   "id": "sa-row-20261112-fluorouracil-1",
+   "drug": "fluorouracil",
+   "file": "fluorouracil.md",
+   "action": "correct",
+   "claim": "| VALEANT PHARMACEUTICALS | ملغى |",
+   "replacement": "| VALEANT PHARMACEUTICALS | ساري |",
+   "summary": "الجدول: EFUDIX 5% OINTMENT (مرهم) مسجل (ساري) وليس ملغى",
+   "note": "المستحضر EFUDIX 5% OINTMENT (مرهم) مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 EFUDIX 5% OINTMENT (مرهم) 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-fluorouracil-2",
+   "drug": "fluorouracil",
+   "file": "fluorouracil.md",
+   "action": "correct",
+   "claim": "| HOSPIRA AUSTRALIA | ملغى |",
+   "replacement": "| HOSPIRA AUSTRALIA | ساري |",
+   "summary": "الجدول: FLUOROURACIL 500MG-10ML VIAL / 250MG-10ML VIAL مسجل (ساري) وليس ملغى",
+   "note": "المستحضر FLUOROURACIL 500MG-10ML VIAL / 250MG-10ML VIAL مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 FLUOROURACIL 500MG-10ML VIAL / 250MG-10ML VIAL 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
   },
   {
    "id": "sa-lic-20261106-flupentixol-1",
@@ -7111,6 +7311,26 @@
    "checked": "2026-11-06",
    "summary": "حُذف: «الدواء لا يملك حالياً ترخيصاً ساري المفعول في المملكة، و»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
+  },
+  {
+   "id": "sa-row-20261112-ipilimumab-1",
+   "drug": "ipilimumab",
+   "file": "ipilimumab.md",
+   "action": "correct",
+   "claim": "(الحالة: ملغى)",
+   "replacement": "(الحالة: ساري)",
+   "summary": "الجدول: YERVOY 5 mg/ml intravenous infusion مسجل (ساري) وليس ملغى",
+   "note": "المستحضر YERVOY 5 mg/ml intravenous infusion مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 YERVOY 5 mg/ml intravenous infusion 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
   },
   {
    "id": "sa-lic-20261106-ipratropium-1",
@@ -10826,6 +11046,46 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
   },
   {
+   "id": "sa-row-20261112-palivizumab-1",
+   "drug": "palivizumab",
+   "file": "palivizumab.md",
+   "action": "correct",
+   "claim": "| SYNAGIS 100MG\\ML I.M VIAL (ملغى)",
+   "replacement": "| SYNAGIS 100MG\\ML I.M VIAL (ساري)",
+   "summary": "الجدول: SYNAGIS 100MG\\ML I.M VIAL مسجل (ساري) وليس ملغى",
+   "note": "المستحضر SYNAGIS 100MG\\ML I.M VIAL مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 SYNAGIS 100MG\\ML I.M VIAL 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-palivizumab-2",
+   "drug": "palivizumab",
+   "file": "palivizumab.md",
+   "action": "correct",
+   "claim": "| SYNAGIS 100MG\\ML I.M Solution for Injection (ملغى)",
+   "replacement": "| SYNAGIS 100MG\\ML I.M Solution for Injection (ساري)",
+   "summary": "الجدول: SYNAGIS 100MG\\ML I.M Solution for Injection مسجل (ساري) وليس ملغى",
+   "note": "المستحضر SYNAGIS 100MG\\ML I.M Solution for Injection مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 SYNAGIS 100MG\\ML I.M Solution for Injection 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
    "id": "sa-lic-20261106-panitumumab-1",
    "drug": "panitumumab",
    "file": "panitumumab.md",
@@ -12178,6 +12438,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
   },
   {
+   "id": "sa-row-20261112-pralatrexate-1",
+   "drug": "pralatrexate",
+   "file": "pralatrexate.md",
+   "action": "correct",
+   "claim": "(ملغى)",
+   "replacement": "(ساري)",
+   "summary": "الجدول: FOLOTYN 20MG/ML SOLUTION FOR INFUSION مسجل (ساري) وليس ملغى",
+   "note": "المستحضر FOLOTYN 20MG/ML SOLUTION FOR INFUSION مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 FOLOTYN 20MG/ML SOLUTION FOR INFUSION 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
    "id": "sa-lic-20261106-prasterone-1",
    "drug": "prasterone",
    "file": "prasterone.md",
@@ -12351,6 +12631,66 @@
    "checked": "2026-11-06",
    "summary": "حُذف: «جميع تراخيص المنتج في السعودية ملغاة»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
+  },
+  {
+   "id": "sa-row-20261112-procyclidine-1",
+   "drug": "procyclidine",
+   "file": "procyclidine.md",
+   "action": "correct",
+   "claim": "| KEMADRIN INJ 10MG-2ML (ملغى)",
+   "replacement": "| KEMADRIN INJ 10MG-2ML (ساري)",
+   "summary": "الجدول: KEMADRIN INJ 10MG-2ML مسجل (ساري) وليس ملغى",
+   "note": "المستحضر KEMADRIN INJ 10MG-2ML مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 KEMADRIN INJ 10MG-2ML 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-procyclidine-2",
+   "drug": "procyclidine",
+   "file": "procyclidine.md",
+   "action": "correct",
+   "claim": "| KEMADRIN 5MG TABLET (ملغى)",
+   "replacement": "| KEMADRIN 5MG TABLET (ساري)",
+   "summary": "الجدول: KEMADRIN 5MG TABLET مسجل (ساري) وليس ملغى",
+   "note": "المستحضر KEMADRIN 5MG TABLET مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 KEMADRIN 5MG TABLET 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-procyclidine-3",
+   "drug": "procyclidine",
+   "file": "procyclidine.md",
+   "action": "correct",
+   "claim": "| KEMADRIN TABS 5 MG (ملغى)",
+   "replacement": "| KEMADRIN TABS 5 MG (ساري)",
+   "summary": "الجدول: KEMADRIN TABS 5 MG مسجل (ساري) وليس ملغى",
+   "note": "المستحضر KEMADRIN TABS 5 MG مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 KEMADRIN TABS 5 MG 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
   },
   {
    "id": "sa-lic-20261106-propylthiouracil-1",
@@ -12794,6 +13134,46 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
   },
   {
+   "id": "sa-row-20261112-raloxifene-1",
+   "drug": "raloxifene",
+   "file": "raloxifene.md",
+   "action": "correct",
+   "claim": "| EVISTA 60 MG F-C TABLETS (ملغى)",
+   "replacement": "| EVISTA 60 MG F-C TABLETS (ساري)",
+   "summary": "الجدول: EVISTA 60 MG F-C TABLETS مسجل (ساري) وليس ملغى",
+   "note": "المستحضر EVISTA 60 MG F-C TABLETS مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 EVISTA 60 MG F-C TABLETS 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-raloxifene-2",
+   "drug": "raloxifene",
+   "file": "raloxifene.md",
+   "action": "correct",
+   "claim": "| RALOSTA 60MG (ملغى)",
+   "replacement": "| RALOSTA 60MG (ساري)",
+   "summary": "الجدول: RALOSTA 60MG مسجل (ساري) وليس ملغى",
+   "note": "المستحضر RALOSTA 60MG مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 RALOSTA 60MG 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
    "id": "sa-lic-20261106-raltegravir-1",
    "drug": "raltegravir",
    "file": "raltegravir.md",
@@ -13184,6 +13564,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
   },
   {
+   "id": "sa-row-20261112-revefenacin-1",
+   "drug": "revefenacin",
+   "file": "revefenacin.md",
+   "action": "correct",
+   "claim": "(ملغى)",
+   "replacement": "(ساري)",
+   "summary": "الجدول: YUPELRI 175 mcg / 3 ml مسجل (ساري) وليس ملغى",
+   "note": "المستحضر YUPELRI 175 mcg / 3 ml مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 YUPELRI 175 mcg / 3 ml 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
    "id": "sa-lic-20261106-ribavirin-1",
    "drug": "ribavirin",
    "file": "ribavirin.md",
@@ -13383,6 +13783,26 @@
    "checked": "2026-11-06",
    "summary": "حُذف: «والمنتج الوحيد المعروف معلق عيني ملغى الترخيص في السعودية»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
+  },
+  {
+   "id": "sa-row-20261112-rimexolone-1",
+   "drug": "rimexolone",
+   "file": "rimexolone.md",
+   "action": "correct",
+   "claim": "(ملغى)",
+   "replacement": "(ساري)",
+   "summary": "الجدول: VEXOL 1% OPTH. SUSPENSION مسجل (ساري) وليس ملغى",
+   "note": "المستحضر VEXOL 1% OPTH. SUSPENSION مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 VEXOL 1% OPTH. SUSPENSION 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
   },
   {
    "id": "sa-lic-20261106-risankizumab-1",
@@ -14308,6 +14728,26 @@
    "checked": "2026-11-06",
    "summary": "حُذف: «نظراً لأن المنتج ملغى في السوق السعودي»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
+  },
+  {
+   "id": "sa-row-20261112-strontium_ranelate-1",
+   "drug": "strontium_ranelate",
+   "file": "strontium_ranelate.md",
+   "action": "correct",
+   "claim": "(ملغى)",
+   "replacement": "(ساري)",
+   "summary": "الجدول: PROTELOS 2GM GRANULES FOR ORAL SUSP. مسجل (ساري) وليس ملغى",
+   "note": "المستحضر PROTELOS 2GM GRANULES FOR ORAL SUSP. مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 PROTELOS 2GM GRANULES FOR ORAL SUSP. 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
   },
   {
    "id": "sa-lic-20261106-succinic_acid-1",
@@ -16603,6 +17043,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
   },
   {
+   "id": "sa-row-20261112-voxilaprevir-1",
+   "drug": "voxilaprevir",
+   "file": "voxilaprevir.md",
+   "action": "correct",
+   "claim": "(ملغى)",
+   "replacement": "(ساري)",
+   "summary": "الجدول: VOSEVI 400MG/100MG/100MG F.C.TABLET مسجل (ساري) وليس ملغى",
+   "note": "المستحضر VOSEVI 400MG/100MG/100MG F.C.TABLET مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 VOSEVI 400MG/100MG/100MG F.C.TABLET 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
    "id": "sa-lic-20261106-warfarin-1",
    "drug": "warfarin",
    "file": "warfarin.md",
@@ -17056,6 +17516,206 @@
    "checked": "2026-11-06",
    "summary": "حُذف: «نظرًا لإلغاء جميع التراخيص»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
+  },
+  {
+   "id": "sa-row-20261112-alprostadil-1",
+   "drug": "alprostadil",
+   "file": "alprostadil.md",
+   "action": "correct",
+   "claim": "| CAVERJECT 20MCG VIAL (ملغى)",
+   "replacement": "| CAVERJECT 20MCG VIAL (ساري)",
+   "summary": "الجدول: CAVERJECT 20MCG VIAL مسجل (ساري) وليس ملغى",
+   "note": "المستحضر CAVERJECT 20MCG VIAL مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 CAVERJECT 20MCG VIAL 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-alprostadil-2",
+   "drug": "alprostadil",
+   "file": "alprostadil.md",
+   "action": "correct",
+   "claim": "| VITAROS 3MG/GM CREAM (ملغى)",
+   "replacement": "| VITAROS 3MG/GM CREAM (ساري)",
+   "summary": "الجدول: VITAROS 3MG/GM CREAM مسجل (ساري) وليس ملغى",
+   "note": "المستحضر VITAROS 3MG/GM CREAM مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 VITAROS 3MG/GM CREAM 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-bumetanide-1",
+   "drug": "bumetanide",
+   "file": "bumetanide.md",
+   "action": "correct",
+   "claim": "(ملغى)",
+   "replacement": "(ساري)",
+   "summary": "الجدول: BURINEX TABLETS 1 MG مسجل (ساري) وليس ملغى",
+   "note": "المستحضر BURINEX TABLETS 1 MG مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 BURINEX TABLETS 1 MG 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-dolutegravir-1",
+   "drug": "dolutegravir",
+   "file": "dolutegravir.md",
+   "action": "correct",
+   "claim": "(ملغى)",
+   "replacement": "(ساري)",
+   "summary": "الجدول: TIVICAY 50 mg Tablet مسجل (ساري) وليس ملغى",
+   "note": "المستحضر TIVICAY 50 mg Tablet مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 TIVICAY 50 mg Tablet 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-flecainide-1",
+   "drug": "flecainide",
+   "file": "flecainide.md",
+   "action": "correct",
+   "claim": "(ملغى)",
+   "replacement": "(ساري)",
+   "summary": "الجدول: TAMBOCOR 100MG TAB مسجل (ساري) وليس ملغى",
+   "note": "المستحضر TAMBOCOR 100MG TAB مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 TAMBOCOR 100MG TAB 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-imiglucerase-1",
+   "drug": "imiglucerase",
+   "file": "imiglucerase.md",
+   "action": "correct",
+   "claim": "(ملغى)",
+   "replacement": "(ساري)",
+   "summary": "الجدول: CEREZYME 400 U powder for concentrate for solution for infusion مسجل (ساري) وليس ملغى",
+   "note": "المستحضر CEREZYME 400 U powder for concentrate for solution for infusion مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 CEREZYME 400 U powder for concentrate for solution for infusion 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-nitrazepam-1",
+   "drug": "nitrazepam",
+   "file": "nitrazepam.md",
+   "action": "correct",
+   "claim": "(ملغى)",
+   "replacement": "(ساري)",
+   "summary": "الجدول: DUMOLID TAB. 5 MG. مسجل (ساري) وليس ملغى",
+   "note": "المستحضر DUMOLID TAB. 5 MG. مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 DUMOLID TAB. 5 MG. 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-regorafenib-1",
+   "drug": "regorafenib",
+   "file": "regorafenib.md",
+   "action": "correct",
+   "claim": "(ملغى)",
+   "replacement": "(ساري)",
+   "summary": "الجدول: STIVARGA 40 mg film-coated tablet مسجل (ساري) وليس ملغى",
+   "note": "المستحضر STIVARGA 40 mg film-coated tablet مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 STIVARGA 40 mg film-coated tablet 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-vinorelbine-1",
+   "drug": "vinorelbine",
+   "file": "vinorelbine.md",
+   "action": "correct",
+   "claim": "| NAVELBINE 10MG-ML I-V VIAL (ملغى)",
+   "replacement": "| NAVELBINE 10MG-ML I-V VIAL (ساري)",
+   "summary": "الجدول: NAVELBINE 10MG-ML I-V VIAL مسجل (ساري) وليس ملغى",
+   "note": "المستحضر NAVELBINE 10MG-ML I-V VIAL مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 NAVELBINE 10MG-ML I-V VIAL 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
+  },
+  {
+   "id": "sa-row-20261112-vinorelbine-2",
+   "drug": "vinorelbine",
+   "file": "vinorelbine.md",
+   "action": "correct",
+   "claim": "| VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION (ملغى)",
+   "replacement": "| VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION (ساري)",
+   "summary": "الجدول: VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION مسجل (ساري) وليس ملغى",
+   "note": "المستحضر VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري».",
+   "finding": "表格列把 VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION 標成 ملغى；SFDA 註冊清單（data-20261105 原始資料，Status 全為 Registered）有這個品項，證據包 Registered、事實層 valid",
+   "sources": [
+    {
+     "title": "SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)",
+     "url": "https://www.sfda.gov.sa/en/open-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與 SFDA 原始清單）"
   }
  ]
 }

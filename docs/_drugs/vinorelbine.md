@@ -91,8 +91,20 @@ predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of l
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| NAVELBINE 10MG-ML I-V VIAL (ملغى) | NAVELBINE 10MG-ML I-V VIAL | غير محدد | غير متوفر |
-| VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION (ملغى) | VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION | غير محدد | غير متوفر |
+| NAVELBINE 10MG-ML I-V VIAL (ساري) | NAVELBINE 10MG-ML I-V VIAL | غير محدد | غير متوفر |
+| VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION (ساري) | VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION | غير محدد | غير متوفر |
+
+<!-- review:begin sa-row-20261112-vinorelbine-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «NAVELBINE 10MG-ML I-V VIAL (ملغى)» المستحضر NAVELBINE 10MG-ML I-V VIAL مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-vinorelbine-1 -->
+
+<!-- review:begin sa-row-20261112-vinorelbine-2 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION (ملغى)» المستحضر VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-vinorelbine-2 -->
 
 ---
 
@@ -142,6 +154,20 @@ predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of l
 ### ملاحظة حول الاستطبابات المتوقعة الأخرى
 
 بقية الاستطبابات المتوقعة أضعف دعماً: سرطان الرئة صغير الخلايا (L1، لكن الأدلة مبنية أساساً على سرطان الرئة غير صغير الخلايا وهو الاستطباب الأصلي، ويلزم التحقق من الخصوصية النسيجية)، وأورام الرئة الجرثومية وأورام الشق الرئوي العلوي (L3، أدلة غير مباشرة، سؤال بحثي)، أما الأورام الليفية والورم الحميد الرئوي والأورام الحميدة والورم الأرومي الرئوي وتضخم اللثة الليفي فلا مبرر سريرياً واضحاً لها (توصية: تعليق).
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-12 | الجدول: NAVELBINE 10MG-ML I-V VIAL مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

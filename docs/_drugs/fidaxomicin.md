@@ -80,7 +80,13 @@ predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetig
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| DIFICLIR 200 mg Film Coated Tablet (ملغى) | DIFICLIR 200 mg Film Coated Tablet | أقراص مغلفة (حسب اسم المنتج) | غير متوفر |
+| DIFICLIR 200 mg Film Coated Tablet (ساري) | DIFICLIR 200 mg Film Coated Tablet | أقراص مغلفة (حسب اسم المنتج) | غير متوفر |
+
+<!-- review:begin sa-row-20261112-fidaxomicin-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «(ملغى)» المستحضر DIFICLIR 200 mg Film Coated Tablet مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-fidaxomicin-1 -->
 
 الشركة المصنعة: PATHEON INC.
 
@@ -139,6 +145,7 @@ predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetig
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص الوحيد ملغى، ولا توجد حالياً تراخيص سارية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «كما أن الترخيص السعودي الوحيد ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | الجدول: DIFICLIR 200 mg Film Coated Tablet مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 
 <!-- review:end log -->
 

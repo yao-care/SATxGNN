@@ -97,9 +97,27 @@ description: "Procyclidine: الاستطباب الجديد المتوقع ال�
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| KEMADRIN INJ 10MG-2ML (ملغى) | KEMADRIN INJ 10MG-2ML (GLAXOWELLCOME) | حقن | — |
-| KEMADRIN 5MG TABLET (ملغى) | KEMADRIN 5MG TABLET (ASPEN Bad Oldesloe GmbH) | أقراص | — |
-| KEMADRIN TABS 5 MG (ملغى) | KEMADRIN TABS 5 MG (GLAXOWELLCOME) | أقراص | — |
+| KEMADRIN INJ 10MG-2ML (ساري) | KEMADRIN INJ 10MG-2ML (GLAXOWELLCOME) | حقن | — |
+| KEMADRIN 5MG TABLET (ساري) | KEMADRIN 5MG TABLET (ASPEN Bad Oldesloe GmbH) | أقراص | — |
+| KEMADRIN TABS 5 MG (ساري) | KEMADRIN TABS 5 MG (GLAXOWELLCOME) | أقراص | — |
+
+<!-- review:begin sa-row-20261112-procyclidine-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «KEMADRIN INJ 10MG-2ML (ملغى)» المستحضر KEMADRIN INJ 10MG-2ML مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-procyclidine-1 -->
+
+<!-- review:begin sa-row-20261112-procyclidine-2 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «KEMADRIN 5MG TABLET (ملغى)» المستحضر KEMADRIN 5MG TABLET مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-procyclidine-2 -->
+
+<!-- review:begin sa-row-20261112-procyclidine-3 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «KEMADRIN TABS 5 MG (ملغى)» المستحضر KEMADRIN TABS 5 MG مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-procyclidine-3 -->
 
 جميع التراخيص الثلاثة سارية (3 من 3)، والدواء مسوّق حاليًا.
 
@@ -147,6 +165,9 @@ description: "Procyclidine: الاستطباب الجديد المتوقع ال�
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | الجدول: KEMADRIN INJ 10MG-2ML مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: KEMADRIN 5MG TABLET مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: KEMADRIN TABS 5 MG مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 
 <!-- review:end log -->
 

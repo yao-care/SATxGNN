@@ -88,7 +88,13 @@ predicted_indications: ["choroideremia"]
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| YERVOY 5 mg/ml intravenous infusion (الحالة: ملغى) | YERVOY 5 mg/ml intravenous infusion | — | — |
+| YERVOY 5 mg/ml intravenous infusion (الحالة: ساري) | YERVOY 5 mg/ml intravenous infusion | — | — |
+
+<!-- review:begin sa-row-20261112-ipilimumab-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «(الحالة: ملغى)» المستحضر YERVOY 5 mg/ml intravenous infusion مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-ipilimumab-1 -->
 
 ---
 
@@ -147,6 +153,7 @@ predicted_indications: ["choroideremia"]
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حالياً أي ترخيص ساري المفعول. الترخيص الوحيد المسجل مُلغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «الدواء لا يملك حالياً ترخيصاً ساري المفعول في المملكة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | الجدول: YERVOY 5 mg/ml intravenous infusion مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 
 <!-- review:end log -->
 

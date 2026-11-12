@@ -94,7 +94,13 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 | CARDURA 2 mg tablet | Pfizer Manufacturing Deutschland GmbH | ساري |
 | CARDURA 4 mg tablet | PFIZER | ساري |
 | CARDURA XL 4 mg tablet | Pfizer Pharmaceutical LLC | ساري |
-| DOXAGEN 1 / 2 / 4 | RIYADH PHARMA | ملغى |
+| DOXAGEN 1 / 2 / 4 | RIYADH PHARMA | ساري |
+
+<!-- review:begin sa-row-20261112-doxazosin-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «ملغى» المستحضر DOXAGEN 1 / 2 / 4 مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-row-20261112-doxazosin-1 -->
 
 (يوجد أيضاً UNIPROST 4 MG TABLETS من BATTERJEE PHARMACEUTICAL FACTORY.)
 
@@ -151,6 +157,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وهو ملغى كذلك» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح الوضع التنظيمي والتجاري للدواء في السعودية بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | الجدول: DOXAGEN 1 / 2 / 4 مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 
 <!-- review:end log -->
 
