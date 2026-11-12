@@ -14,18 +14,11 @@ CODE = "sa"
 OVERVIEW_LEVEL_LABELS = ["مستوى الدليل", "مستوى الأدلة"]
 HEADER_LABEL = "مستوى الأدلة"
 # 2026-11-12 實測：頁首＝總覽格第一個等級（主預測）的頁占絕大多數 → first（不照 Tw 整格取最高）。
-# 下列 6 頁的頁首（L5）跟總覽格第一個等級不同，是當初產線解析式把帶說明文字的格落到預設 L5；照用戶決定不改現有等級，
-# 維持現狀並列進 docs/_data/drug_reviews_uncertain.json 待重審（重審後經 rereview_result 改等級，再從這裡拿掉）。
+# 2026-11-12 建機制時有 6 頁（dasabuvir、favipiravir、quetiapine、ranibizumab、trifluoperazine、warfarin）頁首 L5 跟總覽格第一個等級不同，
+# 先列為例外；同日依 methodology 重審（docs/_data/drug_reviews.json 的 sa-rr-20261112-*），等級經 rereview_result 定案，例外清空。
 HEADER_RULE = "first"
 HEADER_KEEP_NA = True
-HEADER_EXCEPTIONS = {
-    "dasabuvir": "頁首 L5；總覽格第一個等級 L3",
-    "favipiravir": "頁首 L5；總覽格第一個等級 L4",
-    "quetiapine": "頁首 L5；總覽格第一個等級 L4",
-    "ranibizumab": "頁首 L5；總覽格第一個等級 L1",
-    "trifluoperazine": "頁首 L5；總覽格第一個等級 L4",
-    "warfarin": "頁首 L5；總覽格第一個等級 L1（格內另寫實際證據較接近 L3）",
-}
+HEADER_EXCEPTIONS = {}
 WITHDRAWN_RE = re.compile(r"^\s*(\*\*)?(سُحب|سحب|مسحوب|تم سحب)")
 DESC_LEVEL_WORD = r"مستوى الدليل|مستوى الأدلة"
 DESC_LEVEL_DEFAULT = "مستوى الدليل"

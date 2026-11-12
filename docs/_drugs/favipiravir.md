@@ -49,10 +49,16 @@ description: "Favipiravir: الاستطباب الجديد المتوقع Acquir
 | الاستطباب الأصلي | غير مسجل في البيانات المحلية |
 | الاستطباب الجديد المتوقع | Acquired hemophagocytic lymphohistiocytosis associated with malignant disease |
 | درجة تنبؤ TxGNN | 0.9941 |
-| مستوى الدليل | L4 (دليل غير مباشر من دراسات آلية/مراجعات؛ دون تجارب سريرية) |
+| مستوى الدليل | L5 (تنبؤ نموذجي فقط؛ الأدلة المتاحة تخص المتلازمة البلعمية المرتبطة بالعدوى لا بالأورام) |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف مؤقتًا) — سؤال بحثي يتطلب مزيدًا من الأدلة |
+
+<!-- review:begin sa-rr-20261112-favipiravir-1-result -->
+
+> **نتيجة إعادة التقييم (2026-11-12)**: **خفض** (مستوى الأدلة L4 ← L5). التنبؤ الرئيسي في جدول النظرة السريعة هو كثرة المنسجات اللمفاوية البلعمية المكتسبة المرتبطة بالأورام الخبيثة. استند المستوى L4 إلى مراجعتين عن عدوى SFTS وفيروس هارتلاند، أي إلى المتلازمة البلعمية المرتبطة بالعدوى لا بالأورام، والتقرير نفسه يذكر غياب صلة آلية واضحة بالأورام. لم يُعثر في PubMed ولا ClinicalTrials.gov على أي دراسة لفافيبيرافير في المتلازمة البلعمية المرتبطة بالأورام؛ الموجود تقارير حالات لـ SFTS المصحوبة بالمتلازمة البلعمية ([PMID 40584709](https://pubmed.ncbi.nlm.nih.gov/40584709/))، وهي حالة ناتجة عن عدوى فيروسية. لذلك خُفّض المستوى إلى L5 (تنبؤ نموذجي فقط) حُدّثت مستوى الدليل في هذه الصفحة وفق نتيجة إعادة التقييم؛ القيم الأصلية في سجل المراجعة أدناه. المصدر: [PubMed：Successful treatment of severe fever with thrombocytopenia syndrome associated with hemophagocytic lymphohistiocytosis by preemptively using favipiravir（PMID 40584709）](https://pubmed.ncbi.nlm.nih.gov/40584709/)؛ [PubMed：Pathophysiology of severe fever with thrombocytopenia syndrome and development of specific antiviral therapy（PMID 30098914）](https://pubmed.ncbi.nlm.nih.gov/30098914/).
+
+<!-- review:end sa-rr-20261112-favipiravir-1-result -->
 
 ---
 
@@ -120,11 +126,13 @@ description: "Favipiravir: الاستطباب الجديد المتوقع Acquir
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم يُعَد كتابة نص تنبؤات النموذج؛ ولا تتغير مستويات الأدلة والقرارات إلا بنتيجة إعادة تقييم (خفض أو رفع أو سحب)، والقيم الأصلية في الجدول أدناه.
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | التنبؤ الرئيسي بانتظار إعادة التقييم | بانتظار إعادة التقييم ← أُعيد تقييمه (انظر نتيجة إعادة التقييم) | [SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5](https://satxgnn.yao.care/methodology/) |
+| 2026-11-12 | نتيجة إعادة تقييم التنبؤ الرئيسي (Acquired hemophagocytic lymphohistiocytosis associated with malignant disease) | إعادة التقييم: خفض، مستوى الأدلة L4 ← L5؛ مستوى الدليل: «مستوى الدليل / L4 (دليل غير مباشر من دراسات آلية/مراجعات؛ دون تجارب سريرية)» ← «مستوى الدليل / L5 (تنبؤ نموذجي فقط؛ الأدلة المتاحة تخص المتلازمة البلعمية المرتبطة بالعدوى لا بالأورام)» | [PubMed：Successful treatment of severe fever with thrombocytopenia syndrome associated with hemophagocytic lymphohistiocytosis by preemptively using favipiravir（PMID 40584709）](https://pubmed.ncbi.nlm.nih.gov/40584709/)؛ [PubMed：Pathophysiology of severe fever with thrombocytopenia syndrome and development of specific antiviral therapy（PMID 30098914）](https://pubmed.ncbi.nlm.nih.gov/30098914/) |
 
 <!-- review:end log -->
 

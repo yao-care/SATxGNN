@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Trifluoperazine
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 838
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-11-12
-description: "Trifluoperazine: الاستطباب الجديد المتوقع اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder) (مستوى الدليل L5). الاستطباب الأصلي: الفصام والقلق (مأخوذ من الرسم المعرفي PrimeKG، إذ لا تتضمن …"
+description: "Trifluoperazine: الاستطباب الجديد المتوقع اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder) (مستوى الدليل L4). الاستطباب الأصلي: الفصام والقلق (مأخوذ من الرسم المعرفي PrimeKG، إذ لا تتضمن …"
 monitor_inn: "TRIFLUOPERAZINE"
 predicted_indications: ["manic bipolar affective disorder"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["manic bipolar affective disorder"]
 # Trifluoperazine
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -53,6 +53,12 @@ predicted_indications: ["manic bipolar affective disorder"]
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
 | عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
+
+<!-- review:begin sa-rr-20261112-trifluoperazine-1-result -->
+
+> **نتيجة إعادة التقييم (2026-11-12)**: **إبقاء** (مستوى الأدلة L4 دون تغيير). أُعيد تقييم تنبؤ اضطراب ثنائي القطب الهوسي. لم يُعثر في PubMed ولا ClinicalTrials.gov على تجربة سريرية تقيّم تريفلوبيرازين نفسه في الهوس؛ والمنشور الوحيد المصنف تجربة سريرية ([PMID 4863507](https://pubmed.ncbi.nlm.nih.gov/4863507/)، 1967) دراسة عن الليثيوم بلا ملخص لا يتبين منها دور تريفلوبيرازين. الدعم المتبقي هو آلية حصر مستقبلات الدوبامين D2 المعروفة لمضادات الذهان ومراجعات عامة عن الفئة، وهو ما يطابق تعريف L4 (دراسات آلية التأثير). لذلك يبقى المستوى L4، ويتبعه مستوى رأس الصفحة. المصدر: [PubMed：Lithium in the control of mania（PMID 4863507）](https://pubmed.ncbi.nlm.nih.gov/4863507/)؛ [PubMed：Efficacy of typical and atypical antipsychotics for primary and comorbid anxiety symptoms or disorders: a review（PMID 17017818）](https://pubmed.ncbi.nlm.nih.gov/17017818/).
+
+<!-- review:end sa-rr-20261112-trifluoperazine-1-result -->
 
 ---
 
@@ -154,6 +160,10 @@ predicted_indications: ["manic bipolar affective disorder"]
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «(يوجد ترخيص سادس ملغى أيضًا: STELAZINE SPANSULES 15MG.)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | التنبؤ الرئيسي بانتظار إعادة التقييم | بانتظار إعادة التقييم ← أُعيد تقييمه (انظر نتيجة إعادة التقييم) | [SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5](https://satxgnn.yao.care/methodology/) |
+| 2026-11-12 | نتيجة إعادة تقييم التنبؤ الرئيسي (اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder)) | إعادة التقييم: إبقاء، مستوى الأدلة L4 دون تغيير | [PubMed：Lithium in the control of mania（PMID 4863507）](https://pubmed.ncbi.nlm.nih.gov/4863507/)؛ [PubMed：Efficacy of typical and atypical antipsychotics for primary and comorbid anxiety symptoms or disorders: a review（PMID 17017818）](https://pubmed.ncbi.nlm.nih.gov/17017818/) |
+| 2026-11-12 | مستوى الأدلة في رأس الصفحة | أُعيد حساب مستوى الأدلة في رأس الصفحة وفق جدول النظرة السريعة (L5 ← L4) | [SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5](https://satxgnn.yao.care/methodology/) |
+| 2026-11-12 | مستوى الدليل في وصف الصفحة | وصف الصفحة: غُيّر «مستوى الدليل L5» إلى «مستوى الدليل L4» (ليطابق مستوى رأس الصفحة؛ بقية النص دون تغيير، والنص الأصلي محفوظ في السجل) | [SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5](https://satxgnn.yao.care/methodology/) |
 
 <!-- review:end log -->
 

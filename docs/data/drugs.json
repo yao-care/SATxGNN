@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06",
+  "generated": "2026-11-12",
   "total_count": 882,
   "source": "SATxGNN",
   "drugs": [
@@ -8276,7 +8276,7 @@
     {
       "slug": "trifluoperazine",
       "name": "Trifluoperazine",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 1,
       "original_indication": "",
       "predicted_indication": "",
@@ -8696,7 +8696,7 @@
     {
       "slug": "warfarin",
       "name": "Warfarin",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 7,
       "original_indication": "",
       "predicted_indication": "",

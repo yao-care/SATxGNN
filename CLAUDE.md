@@ -14,7 +14,7 @@ UsTxGNN 是第一個試做站（做法見 UsTxGNN/CLAUDE.md 同名一節）。�
 |------|----------|------|
 | 查核紀錄 | `docs/_data/drug_reviews.json` | 單一真實來源，欄位同 Tw（correct／annotate／rereview／rereview_result／header_level／description_level、history、status） |
 | 套用 | `scripts/apply_drug_reviews.py` | 套到 `docs/_drugs/*.md`：查核框 `<!-- review:begin id -->`、每頁在免責聲明前的查核紀錄表；可重複執行；`--check` 只檢查、`--touch` 連 last_modified_at 一起改 |
-| 頁首等級 | `src/satxgnn/regulatory/page_format.py` | 頁首＝快速總覽「مستوى الدليل／مستوى الأدلة」格的**第一個**等級（主預測，不照 Tw 整格取最高）；頁首已是 N/A 的頁不重算。2026-11-12 實測有 6 頁頁首 L5 跟總覽格第一個等級不同（dasabuvir、favipiravir、quetiapine、ranibizumab、trifluoperazine、warfarin），照用戶決定不改現有等級，列在 site.py 的 HEADER_EXCEPTIONS 與待查清單，重審後經 rereview_result 改等級再拿掉 |
+| 頁首等級 | `src/satxgnn/regulatory/page_format.py` | 頁首＝快速總覽「مستوى الدليل／مستوى الأدلة」格的**第一個**等級（主預測，不照 Tw 整格取最高）；頁首已是 N/A 的頁不重算。2026-11-12 實測有 6 頁頁首 L5 跟總覽格第一個等級不同（dasabuvir、favipiravir、quetiapine、ranibizumab、trifluoperazine、warfarin），2026-11-12 同日依 methodology 重審（`sa-rr-20261112-*`），HEADER_EXCEPTIONS 已清空、待查清單標 resolved |
 | 撤回預測 | `src/satxgnn/regulatory/withdrawn.py` | verdict=withdraw 的預測不進證據監測（`scripts/extract_drug_list.py`）、搜尋索引與 FHIR（母目錄 `.claude/rebuild_search_index.py`、`.claude/sync_fhir_levels.py` 會讀本站這支） |
 | 許可證 | `snapshots/sa_licenses.json.gz`、`scripts/build_license_snapshot.py`、`src/satxgnn/regulatory/licenses.py` | 快照存本藥許可證號與事實層；gate 依快照驗市場段落表格的許可證號屬於本藥、狀態列與張數列＝事實層寫法、表格列狀態不跟事實相反（本站沒有程式產生的許可證表，不驗表格列內容） |
 | 刪改轉紀錄 | `scripts/reviews_from_edits.py` | 依 git 前後版本（或改寫前後目錄）把正文刪改轉成 correct 紀錄 |
@@ -33,4 +33,5 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 
 2026-10-31～11-06 依新事實直接刪掉的矛盾子句，2026-11-12 已用 `scripts/reviews_from_edits.py --git` 轉成 657 筆紀錄（465 頁）。
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁後會重套紀錄，notes 裡的舊錯句會被紀錄再更正一次。
-
+2026-11-12 頁首例外 6 頁的重審：總覽格「預測新適應症」是排名第一的預測，其中 4 頁（favipiravir、quetiapine、ranibizumab、warfarin）的等級格寫的卻是報告另外評估的適應症的等級。依總覽格的適應症重審（PubMed、ClinicalTrials.gov）：dasabuvir L3→L5、favipiravir L4→L5、quetiapine L4→L5、ranibizumab L1→L5（決策改 Hold）、warfarin L1→L4（決策改 Hold）、trifluoperazine 維持 L4；頁首隨總覽格（trifluoperazine、warfarin 由 L5 改 L4，記 header_level／description_level），衍生檔（drug_stats、drugs.json、FHIR、search-index、llms、README）已重產。
+同日正文許可證張數對快照事實層的掃描：0 筆不符（正文的數字都是總數、有效數或「列出其中 N 張」，SFDA 清單只有已註冊品項）。

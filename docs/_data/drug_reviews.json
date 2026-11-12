@@ -3114,6 +3114,90 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
   },
   {
+   "id": "sa-rr-20261112-dasabuvir-1",
+   "drug": "dasabuvir",
+   "file": "dasabuvir.md",
+   "checked": "2026-11-12",
+   "action": "rereview",
+   "section": "جدول النظرة السريعة «الاستطباب الجديد المتوقع»",
+   "summary": "التنبؤ الرئيسي بانتظار إعادة التقييم",
+   "prediction": "عدوى فيروس التهاب الكبد B",
+   "status": "rereviewed",
+   "claim": "| الاستطباب الجديد المتوقع | عدوى فيروس التهاب الكبد B |",
+   "finding": "頁首 L5 與快速總覽等級格第一個等級 L3 不符（2026-11-12 建機制時列為 HEADER_EXCEPTIONS），依 methodology 重審總覽格的主預測",
+   "note": "وُضع التنبؤ الرئيسي بانتظار إعادة التقييم: مستوى رأس الصفحة (L5) لا يطابق مستوى جدول النظرة السريعة (L3)",
+   "sources": [
+    {
+     "title": "SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5",
+     "url": "https://satxgnn.yao.care/methodology/",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "resolved_by": "sa-rr-20261112-dasabuvir-1-result"
+  },
+  {
+   "id": "sa-rr-20261112-dasabuvir-1-result",
+   "drug": "dasabuvir",
+   "file": "dasabuvir.md",
+   "checked": "2026-11-12",
+   "action": "rereview_result",
+   "resolves": "sa-rr-20261112-dasabuvir-1",
+   "summary": "نتيجة إعادة تقييم التنبؤ الرئيسي (عدوى فيروس التهاب الكبد B)",
+   "claim": "| الاستطباب الجديد المتوقع | عدوى فيروس التهاب الكبد B |",
+   "prediction": "عدوى فيروس التهاب الكبد B",
+   "verdict": "downgrade",
+   "original_level": "L3",
+   "new_level": "L5",
+   "level_note": "L3（快速總覽等級格；頁首 front matter 為 L5，兩處不一致）",
+   "flawed_premises": [
+    "L3 建立在 HBV/HCV 合併感染者治 C 肝時「HBV 再活化風險」的觀察資料上（PMID 29397016、NCT02555943），這些研究不是評估 dasabuvir 治療 B 肝"
+   ],
+   "remaining_support": [
+    "無：dasabuvir 是 HCV NS5B 專一的非核苷聚合酶抑制劑，查無對 HBV 的體外或臨床活性研究"
+   ],
+   "contrary_evidence": [
+    "PMID 29397016：15 名未用核苷類似物的 HBV+HCV 肝硬化患者接受含 dasabuvir 療程，5 人（33%）HBV 病毒學再活化、1 人肝炎、2 人需開始 entecavir"
+   ],
+   "rationale": "原 L3 的依據不是 B 肝療效證據，而是治 C 肝時 HBV 再活化的觀察資料，方向相反；扣掉這個前提後沒有任何本藥對 HBV 的人體或前臨床證據，依 methodology 屬 L5（僅模型預測）。",
+   "note": "أُعيد تقييم التنبؤ الرئيسي في جدول النظرة السريعة (عدوى فيروس التهاب الكبد B). استند المستوى L3 إلى دراسات عن خطر إعادة تنشيط فيروس B لدى مرضى الإصابة المشتركة أثناء علاج التهاب الكبد C بالمزيج المحتوي على داسابوفير، وهي لا تقيّم علاج فيروس B؛ بل حدثت إعادة تنشيط فيروسية لفيروس B لدى 33% من المرضى في إحداها ([PMID 29397016](https://pubmed.ncbi.nlm.nih.gov/29397016/)). داسابوفير مثبط نوعي لبوليميراز NS5B الخاص بفيروس C، ولم يُعثر في PubMed ولا ClinicalTrials.gov على أي دراسة لنشاطه ضد فيروس B، لذلك خُفّض المستوى إلى L5 (تنبؤ نموذجي فقط)",
+   "sources": [
+    {
+     "title": "PubMed：Risk of hepatitis B virus reactivation in HBV+HCV-co-infected patients with compensated liver cirrhosis treated with ombitasvir, paritaprevir/r + dasabuvir + ribavirin（PMID 29397016）",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29397016/",
+     "excerpt": "羅馬尼亞全國世代：15 名 HBsAg 陽性、未用核苷類似物者接受含 dasabuvir 療程，33% HBV 病毒學再活化（>2 log），1 例肝炎、2 例開始 entecavir；研究對象是 C 肝治療的安全性",
+     "accessed": "2026-11-12"
+    },
+    {
+     "title": "ClinicalTrials.gov：DAAs Treatment for Chronic HCV/HBV Co-infection Patients (DASCO)（NCT02555943）",
+     "url": "https://clinicaltrials.gov/study/NCT02555943",
+     "excerpt": "合併感染者治 C 肝時的 HBV 再活化率；不是 B 肝療效試驗",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "searches": [
+    {
+     "db": "PubMed",
+     "query": "dasabuvir AND hepatitis B（18 筆）；dasabuvir AND (HBV OR hepatitis B) AND (antiviral activity OR in vitro)（3 筆）",
+     "result": "全部是 C 肝治療、合併感染的再活化或流行病學，查無 dasabuvir 抗 HBV 的研究",
+     "accessed": "2026-11-12"
+    },
+    {
+     "db": "ClinicalTrials.gov",
+     "query": "dasabuvir hepatitis B",
+     "result": "14 筆，全是 C 肝療程試驗或觀察研究；查無以 B 肝為治療目標的試驗",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "method": "讀頁面原推論→標出建立在別的適應症或錯誤前提上的部分→PubMed（eutils）與 ClinicalTrials.gov v2 查正反證據（查無結果的查詢記在 searches）→依 methodology 的 L1–L5 定義判定",
+   "table_updates": [
+    {
+     "label": "مستوى الدليل",
+     "claim": "| مستوى الدليل | L3 (دراسات رصدية ومراجعات فقط، بلا دليل فعالية مباشر) |",
+     "replacement": "| مستوى الدليل | L5 (تنبؤ نموذجي فقط؛ الدراسات المتاحة تخص إعادة تنشيط فيروس B أثناء علاج C لا علاج B) |"
+    }
+   ]
+  },
+  {
    "id": "sa-lic-20261106-daunorubicin-1",
    "drug": "daunorubicin",
    "file": "daunorubicin.md",
@@ -4564,6 +4648,88 @@
    "checked": "2026-11-06",
    "summary": "حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
+  },
+  {
+   "id": "sa-rr-20261112-favipiravir-1",
+   "drug": "favipiravir",
+   "file": "favipiravir.md",
+   "checked": "2026-11-12",
+   "action": "rereview",
+   "section": "جدول النظرة السريعة «الاستطباب الجديد المتوقع»",
+   "summary": "التنبؤ الرئيسي بانتظار إعادة التقييم",
+   "prediction": "Acquired hemophagocytic lymphohistiocytosis associated with malignant disease",
+   "status": "rereviewed",
+   "claim": "| الاستطباب الجديد المتوقع | Acquired hemophagocytic lymphohistiocytosis associated with malignant disease |",
+   "finding": "頁首 L5 與快速總覽等級格第一個等級 L4 不符（2026-11-12 建機制時列為 HEADER_EXCEPTIONS），依 methodology 重審總覽格的主預測",
+   "note": "وُضع التنبؤ الرئيسي بانتظار إعادة التقييم: مستوى رأس الصفحة (L5) لا يطابق مستوى جدول النظرة السريعة (L4)",
+   "sources": [
+    {
+     "title": "SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5",
+     "url": "https://satxgnn.yao.care/methodology/",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "resolved_by": "sa-rr-20261112-favipiravir-1-result"
+  },
+  {
+   "id": "sa-rr-20261112-favipiravir-1-result",
+   "drug": "favipiravir",
+   "file": "favipiravir.md",
+   "checked": "2026-11-12",
+   "action": "rereview_result",
+   "resolves": "sa-rr-20261112-favipiravir-1",
+   "summary": "نتيجة إعادة تقييم التنبؤ الرئيسي (Acquired hemophagocytic lymphohistiocytosis associated with malignant disease)",
+   "claim": "| الاستطباب الجديد المتوقع | Acquired hemophagocytic lymphohistiocytosis associated with malignant disease |",
+   "prediction": "Acquired hemophagocytic lymphohistiocytosis associated with malignant disease",
+   "verdict": "downgrade",
+   "original_level": "L4",
+   "new_level": "L5",
+   "level_note": "L4（快速總覽等級格；頁首 front matter 為 L5，兩處不一致）",
+   "flawed_premises": [
+    "L4 引用的兩篇回顧（PMID 38399689、30098914）談的是 Heartland 病毒與 SFTS（病毒感染），報告自己也寫評估對象是「感染相關」噬血症候群，不是總覽格的「惡性腫瘤相關」HLH"
+   ],
+   "remaining_support": [
+    "無：惡性腫瘤相關 HLH 的驅動是腫瘤引起的免疫過度活化，沒有可由 RdRp 抑制劑處理的病毒病因；報告本身也寫這一項「沒有清楚的機轉連結」"
+   ],
+   "contrary_evidence": [],
+   "rationale": "總覽格的適應症是惡性腫瘤相關 HLH，原 L4 的依據是感染相關（SFTS、Heartland）資料，屬另一個預測；PubMed、ClinicalTrials.gov 查無 favipiravir 用於惡性腫瘤相關 HLH 的任何研究，依 methodology 屬 L5。",
+   "note": "التنبؤ الرئيسي في جدول النظرة السريعة هو كثرة المنسجات اللمفاوية البلعمية المكتسبة المرتبطة بالأورام الخبيثة. استند المستوى L4 إلى مراجعتين عن عدوى SFTS وفيروس هارتلاند، أي إلى المتلازمة البلعمية المرتبطة بالعدوى لا بالأورام، والتقرير نفسه يذكر غياب صلة آلية واضحة بالأورام. لم يُعثر في PubMed ولا ClinicalTrials.gov على أي دراسة لفافيبيرافير في المتلازمة البلعمية المرتبطة بالأورام؛ الموجود تقارير حالات لـ SFTS المصحوبة بالمتلازمة البلعمية ([PMID 40584709](https://pubmed.ncbi.nlm.nih.gov/40584709/))، وهي حالة ناتجة عن عدوى فيروسية. لذلك خُفّض المستوى إلى L5 (تنبؤ نموذجي فقط)",
+   "sources": [
+    {
+     "title": "PubMed：Successful treatment of severe fever with thrombocytopenia syndrome associated with hemophagocytic lymphohistiocytosis by preemptively using favipiravir（PMID 40584709）",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40584709/",
+     "excerpt": "單一個案：SFTS 合併 HLH，favipiravir＋methylprednisolone 後康復；感染相關，非腫瘤相關",
+     "accessed": "2026-11-12"
+    },
+    {
+     "title": "PubMed：Pathophysiology of severe fever with thrombocytopenia syndrome and development of specific antiviral therapy（PMID 30098914）",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30098914/",
+     "excerpt": "SFTS 病生理與抗病毒治療回顧；頁面原本的 L4 依據之一",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "searches": [
+    {
+     "db": "PubMed",
+     "query": "favipiravir AND (hemophagocytic OR HLH OR haemophagocytic)（7 筆）；加 malignan* OR lymphoma（1 筆，仍是 SFTS 個案）",
+     "result": "全部是 SFTS／Heartland／COVID-19 相關，查無惡性腫瘤相關 HLH",
+     "accessed": "2026-11-12"
+    },
+    {
+     "db": "ClinicalTrials.gov",
+     "query": "favipiravir hemophagocytic；favipiravir lymphohistiocytosis",
+     "result": "0 筆",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "method": "讀頁面原推論→標出建立在別的適應症或錯誤前提上的部分→PubMed（eutils）與 ClinicalTrials.gov v2 查正反證據（查無結果的查詢記在 searches）→依 methodology 的 L1–L5 定義判定",
+   "table_updates": [
+    {
+     "label": "مستوى الدليل",
+     "claim": "| مستوى الدليل | L4 (دليل غير مباشر من دراسات آلية/مراجعات؛ دون تجارب سريرية) |",
+     "replacement": "| مستوى الدليل | L5 (تنبؤ نموذجي فقط؛ الأدلة المتاحة تخص المتلازمة البلعمية المرتبطة بالعدوى لا بالأورام) |"
+    }
+   ]
   },
   {
    "id": "sa-lic-20261106-febuxostat-1",
@@ -12438,6 +12604,96 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
   },
   {
+   "id": "sa-rr-20261112-quetiapine-1",
+   "drug": "quetiapine",
+   "file": "quetiapine.md",
+   "checked": "2026-11-12",
+   "action": "rereview",
+   "section": "جدول النظرة السريعة «الاستطباب الجديد المتوقع»",
+   "summary": "التنبؤ الرئيسي بانتظار إعادة التقييم",
+   "prediction": "Retinal dystrophy with or without extraocular anomalies",
+   "status": "rereviewed",
+   "claim": "| الاستطباب الجديد المتوقع | Retinal dystrophy with or without extraocular anomalies |",
+   "finding": "頁首 L5 與快速總覽等級格第一個等級 L4 不符（2026-11-12 建機制時列為 HEADER_EXCEPTIONS），依 methodology 重審總覽格的主預測",
+   "note": "وُضع التنبؤ الرئيسي بانتظار إعادة التقييم: مستوى رأس الصفحة (L5) لا يطابق مستوى جدول النظرة السريعة (L4)",
+   "sources": [
+    {
+     "title": "SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5",
+     "url": "https://satxgnn.yao.care/methodology/",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "resolved_by": "sa-rr-20261112-quetiapine-1-result"
+  },
+  {
+   "id": "sa-rr-20261112-quetiapine-1-result",
+   "drug": "quetiapine",
+   "file": "quetiapine.md",
+   "checked": "2026-11-12",
+   "action": "rereview_result",
+   "resolves": "sa-rr-20261112-quetiapine-1",
+   "summary": "نتيجة إعادة تقييم التنبؤ الرئيسي (Retinal dystrophy with or without extraocular anomalies)",
+   "claim": "| الاستطباب الجديد المتوقع | Retinal dystrophy with or without extraocular anomalies |",
+   "prediction": "Retinal dystrophy with or without extraocular anomalies",
+   "verdict": "downgrade",
+   "original_level": "L4",
+   "new_level": "L5",
+   "level_note": "L4（快速總覽等級格；頁首 front matter 為 L5，兩處不一致）",
+   "flawed_premises": [
+    "L4（個案報告與回顧）屬於報告另外評估的拔毛症（trichotillomania），不是總覽格的視網膜失養症；報告自己註明排名第一的視網膜失養症只有模型預測（L5）"
+   ],
+   "remaining_support": [
+    "無"
+   ],
+   "contrary_evidence": [
+    "quetiapine 與視網膜相關的文獻都是不良反應個案（中心性漿液性脈絡膜視網膜病變 PMID 37575473、30672500；視網膜靜脈阻塞 PMID 21867521）"
+   ],
+   "rationale": "總覽格的適應症是視網膜失養症，L4 屬另一個預測；查無 quetiapine 治療視網膜失養症／色素性視網膜炎的任何研究，相關文獻只有眼部不良反應個案，依 methodology 屬 L5。",
+   "note": "التنبؤ الرئيسي في جدول النظرة السريعة هو حثل الشبكية مع أو دون تشوهات خارج العين. المستوى L4 في الجدول يخص نتف الشعر القهري (تقارير حالات ومراجعات)، وهو تنبؤ آخر يناقشه التقرير، والتقرير نفسه يذكر أن حثل الشبكية تنبؤ حاسوبي فقط. لم يُعثر في PubMed ولا ClinicalTrials.gov على أي دراسة لكيتيابين في حثل الشبكية أو التهاب الشبكية الصباغي؛ والمنشورات التي تربط كيتيابين بالشبكية تقارير حالات لآثار جانبية (اعتلال المشيمية والشبكية المصلي المركزي، [PMID 37575473](https://pubmed.ncbi.nlm.nih.gov/37575473/)، [PMID 30672500](https://pubmed.ncbi.nlm.nih.gov/30672500/)). لذلك خُفّض المستوى إلى L5 (تنبؤ نموذجي فقط)",
+   "sources": [
+    {
+     "title": "PubMed：Central serous chorioretinopathy following oral quetiapine（PMID 37575473）",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37575473/",
+     "excerpt": "個案報告：口服 quetiapine 後中心性漿液性脈絡膜視網膜病變（不良反應）",
+     "accessed": "2026-11-12"
+    },
+    {
+     "title": "PubMed：Quetiapine associated Central Serous Chorioretinopathy: Implicit role of serotonin and dopamine pathways（PMID 30672500）",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30672500/",
+     "excerpt": "個案報告：quetiapine 相關中心性漿液性脈絡膜視網膜病變（不良反應）",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "searches": [
+    {
+     "db": "PubMed",
+     "query": "quetiapine AND (retinal dystrophy OR retinitis pigmentosa OR retinal degeneration)",
+     "result": "0 筆",
+     "accessed": "2026-11-12"
+    },
+    {
+     "db": "PubMed",
+     "query": "quetiapine AND retina*",
+     "result": "7 筆，全是不良反應個案或藥物眼毒性回顧",
+     "accessed": "2026-11-12"
+    },
+    {
+     "db": "ClinicalTrials.gov",
+     "query": "quetiapine retinal dystrophy；quetiapine retinitis pigmentosa",
+     "result": "0 筆",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "method": "讀頁面原推論→標出建立在別的適應症或錯誤前提上的部分→PubMed（eutils）與 ClinicalTrials.gov v2 查正反證據（查無結果的查詢記在 searches）→依 methodology 的 L1–L5 定義判定",
+   "table_updates": [
+    {
+     "label": "مستوى الدليل",
+     "claim": "| مستوى الدليل | L4 (تقارير حالات ومراجعات فقط، دون تجارب مضبوطة) |",
+     "replacement": "| مستوى الدليل | L5 (تنبؤ نموذجي فقط؛ لا توجد دراسات عن كيتيابين في حثل الشبكية) |"
+    }
+   ]
+  },
+  {
    "id": "sa-lic-20261106-quinapril-1",
    "drug": "quinapril",
    "file": "quinapril.md",
@@ -12661,6 +12917,96 @@
    "checked": "2026-11-06",
    "summary": "حُذف: «توضيح وضع الترخيص في السعودية (إلغاء التراخيص الحالية) وخيارات إعادة التسجيل»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
+  },
+  {
+   "id": "sa-rr-20261112-ranibizumab-1",
+   "drug": "ranibizumab",
+   "file": "ranibizumab.md",
+   "checked": "2026-11-12",
+   "action": "rereview",
+   "section": "جدول النظرة السريعة «الاستطباب الجديد المتوقع»",
+   "summary": "التنبؤ الرئيسي بانتظار إعادة التقييم",
+   "prediction": "Immature cataract",
+   "status": "rereviewed",
+   "claim": "| الاستطباب الجديد المتوقع | Immature cataract |",
+   "finding": "頁首 L5 與快速總覽等級格第一個等級 L1 不符（2026-11-12 建機制時列為 HEADER_EXCEPTIONS），依 methodology 重審總覽格的主預測",
+   "note": "وُضع التنبؤ الرئيسي بانتظار إعادة التقييم: مستوى رأس الصفحة (L5) لا يطابق مستوى جدول النظرة السريعة (L1)",
+   "sources": [
+    {
+     "title": "SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5",
+     "url": "https://satxgnn.yao.care/methodology/",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "resolved_by": "sa-rr-20261112-ranibizumab-1-result"
+  },
+  {
+   "id": "sa-rr-20261112-ranibizumab-1-result",
+   "drug": "ranibizumab",
+   "file": "ranibizumab.md",
+   "checked": "2026-11-12",
+   "action": "rereview_result",
+   "resolves": "sa-rr-20261112-ranibizumab-1",
+   "summary": "نتيجة إعادة تقييم التنبؤ الرئيسي (Immature cataract)",
+   "claim": "| الاستطباب الجديد المتوقع | Immature cataract |",
+   "prediction": "Immature cataract",
+   "verdict": "downgrade",
+   "original_level": "L1",
+   "new_level": "L5",
+   "level_note": "L1（快速總覽等級格；頁首 front matter 為 L5，兩處不一致）",
+   "flawed_premises": [
+    "L1 與決策「Proceed with Guardrails」屬於報告另外評估的嚴重非增殖性糖尿病視網膜病變（RIDE/RISE、Pavilion 等），那是 ranibizumab 已核准用途，不是總覽格的未熟白內障"
+   ],
+   "remaining_support": [
+    "無：白內障以手術治療，anti-VEGF 對水晶體混濁沒有已知治療機轉"
+   ],
+   "contrary_evidence": [
+    "PMID 41825596：603 名單眼長期 anti-VEGF 注射者，注射眼 10 年白內障手術累積發生率 40.7% vs 對側眼 7.2%（HR 8.17）",
+    "NCT01330797：評估玻璃體內 ranibizumab 致白內障作用（LOCS III）的前瞻研究"
+   ],
+   "rationale": "總覽格的適應症是未熟白內障，L1 屬另一個（已核准）用途；查無 ranibizumab 治療白內障的證據，反而長期玻璃體內 anti-VEGF 與白內障手術風險升高相關。依 methodology 屬 L5；決策依附在另一個適應症上，改為 Hold。",
+   "note": "التنبؤ الرئيسي في جدول النظرة السريعة هو الساد غير الناضج (Immature cataract). المستوى L1 والتوصية في الجدول يخصان اعتلال الشبكية السكري غير التكاثري الشديد الذي يناقشه التقرير، وهو من الاستخدامات المعتمدة للدواء لا من هذا التنبؤ. لا يوجد دليل على أن رانيبيزوماب يعالج الساد؛ بل ارتبط الحقن المتكرر لمضادات VEGF داخل الجسم الزجاجي بزيادة خطر الساد الذي يحتاج إلى جراحة (نسبة الخطر 8.17، [PMID 41825596](https://pubmed.ncbi.nlm.nih.gov/41825596/))، وهناك دراسة مسجلة لتقييم أثر رانيبيزوماب في عتامة العدسة ([NCT01330797](https://clinicaltrials.gov/study/NCT01330797)). لذلك خُفّض المستوى إلى L5 (تنبؤ نموذجي فقط) وغُيّرت التوصية إلى Hold",
+   "sources": [
+    {
+     "title": "PubMed：Impact of Intravitreal Anti-VEGF Injections on Cataract Development（PMID 41825596）",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41825596/",
+     "excerpt": "回溯研究 603 人：注射眼 10 年白內障手術 40.7% vs 對側眼 7.2%，HR 8.174（95% CI 5.767–11.586）",
+     "accessed": "2026-11-12"
+    },
+    {
+     "title": "ClinicalTrials.gov：The Effect of Ranibizumab on Eye Lens Opacity in Cases With Age-Related Macular Degeneration（NCT01330797）",
+     "url": "https://clinicaltrials.gov/study/NCT01330797",
+     "excerpt": "評估玻璃體內 ranibizumab 的致白內障作用（LOCS III）",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "searches": [
+    {
+     "db": "PubMed",
+     "query": "ranibizumab AND cataract[ti]（34 筆）；ranibizumab AND cataract AND (immature OR senile OR age-related cataract)（92 筆）",
+     "result": "都是白內障手術合併 anti-VEGF 治黃斑水腫、或 anti-VEGF 致白內障風險；查無以白內障為治療目標的研究",
+     "accessed": "2026-11-12"
+    },
+    {
+     "db": "ClinicalTrials.gov",
+     "query": "ranibizumab cataract",
+     "result": "20 筆，治療目標都是黃斑部病變／黃斑水腫；NCT01330797 評估的是致白內障作用",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "method": "讀頁面原推論→標出建立在別的適應症或錯誤前提上的部分→PubMed（eutils）與 ClinicalTrials.gov v2 查正反證據（查無結果的查詢記在 searches）→依 methodology 的 L1–L5 定義判定",
+   "table_updates": [
+    {
+     "label": "مستوى الدليل",
+     "claim": "| مستوى الدليل | L1 (مبني على عناوين منشورات فقط، ويلزم التحقق من التقارير الأساسية للتجارب) |",
+     "replacement": "| مستوى الدليل | L5 (تنبؤ نموذجي فقط؛ لا يوجد دليل على علاج الساد، والحقن المتكرر يرتبط بزيادة خطره) |"
+    },
+    {
+     "label": "القرار الموصى به",
+     "claim": "| القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |",
+     "replacement": "| القرار الموصى به | Hold (إيقاف مؤقت) |"
+    }
+   ]
   },
   {
    "id": "sa-lic-20261106-rasagiline-1",
@@ -15317,6 +15663,121 @@
    "anchor": "جميع التراخيص الستة سارية (6 من 6)، والدواء مسوّق في السوق."
   },
   {
+   "id": "sa-rr-20261112-trifluoperazine-1",
+   "drug": "trifluoperazine",
+   "file": "trifluoperazine.md",
+   "checked": "2026-11-12",
+   "action": "rereview",
+   "section": "جدول النظرة السريعة «الاستطباب الجديد المتوقع»",
+   "summary": "التنبؤ الرئيسي بانتظار إعادة التقييم",
+   "prediction": "اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder)",
+   "status": "rereviewed",
+   "claim": "| الاستطباب الجديد المتوقع | اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder) |",
+   "finding": "頁首 L5 與快速總覽等級格第一個等級 L4 不符（2026-11-12 建機制時列為 HEADER_EXCEPTIONS），依 methodology 重審總覽格的主預測",
+   "note": "وُضع التنبؤ الرئيسي بانتظار إعادة التقييم: مستوى رأس الصفحة (L5) لا يطابق مستوى جدول النظرة السريعة (L4)",
+   "sources": [
+    {
+     "title": "SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5",
+     "url": "https://satxgnn.yao.care/methodology/",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "resolved_by": "sa-rr-20261112-trifluoperazine-1-result"
+  },
+  {
+   "id": "sa-rr-20261112-trifluoperazine-1-result",
+   "drug": "trifluoperazine",
+   "file": "trifluoperazine.md",
+   "checked": "2026-11-12",
+   "action": "rereview_result",
+   "resolves": "sa-rr-20261112-trifluoperazine-1",
+   "summary": "نتيجة إعادة تقييم التنبؤ الرئيسي (اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder))",
+   "claim": "| الاستطباب الجديد المتوقع | اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder) |",
+   "prediction": "اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder)",
+   "verdict": "maintain",
+   "original_level": "L4",
+   "new_level": "L4",
+   "level_note": "L4（快速總覽等級格；頁首 front matter 為 L5，兩處不一致）",
+   "flawed_premises": [],
+   "remaining_support": [
+    "D2 受體阻斷是抗精神病藥抗躁的已知機轉（類別機轉）",
+    "抗精神病藥類別的回顧（PMID 17017818 等）"
+   ],
+   "contrary_evidence": [],
+   "rationale": "PubMed 與 ClinicalTrials.gov 查無評估 trifluoperazine 本藥治療躁症的臨床試驗；唯一標為 Clinical Trial 的 PMID 4863507（1967，lithium 研究，無摘要）MeSH 雖列 trifluoperazine，但看不出其角色，不能當本藥證據。剩下的是 D2 阻斷機轉與類別回顧，符合 methodology L4（機轉研究）。維持 L4，頁首依本站規則改成 L4。",
+   "note": "أُعيد تقييم تنبؤ اضطراب ثنائي القطب الهوسي. لم يُعثر في PubMed ولا ClinicalTrials.gov على تجربة سريرية تقيّم تريفلوبيرازين نفسه في الهوس؛ والمنشور الوحيد المصنف تجربة سريرية ([PMID 4863507](https://pubmed.ncbi.nlm.nih.gov/4863507/)، 1967) دراسة عن الليثيوم بلا ملخص لا يتبين منها دور تريفلوبيرازين. الدعم المتبقي هو آلية حصر مستقبلات الدوبامين D2 المعروفة لمضادات الذهان ومراجعات عامة عن الفئة، وهو ما يطابق تعريف L4 (دراسات آلية التأثير). لذلك يبقى المستوى L4، ويتبعه مستوى رأس الصفحة",
+   "sources": [
+    {
+     "title": "PubMed：Lithium in the control of mania（PMID 4863507）",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/4863507/",
+     "excerpt": "Furlong & Luby 1967，Int J Neuropsychiatry；Clinical Trial／Comparative Study，無摘要，MeSH 列 lithium、chlorpromazine、trifluoperazine 等多藥，看不出 trifluoperazine 的角色",
+     "accessed": "2026-11-12"
+    },
+    {
+     "title": "PubMed：Efficacy of typical and atypical antipsychotics for primary and comorbid anxiety symptoms or disorders: a review（PMID 17017818）",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17017818/",
+     "excerpt": "抗精神病藥類別回顧（頁面原本引用）",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "searches": [
+    {
+     "db": "PubMed",
+     "query": "trifluoperazine AND (mania OR manic)（21 筆）；trifluoperazine[ti] AND mani*[ti]（1 筆，與躁症無關）；(trifluoperazine OR stelazine) AND (manic[ti] OR mania[ti]) AND (trial OR controlled)（1 筆，PMID 4863507）",
+     "result": "查無以 trifluoperazine 治療躁症為主題的試驗或觀察研究",
+     "accessed": "2026-11-12"
+    },
+    {
+     "db": "ClinicalTrials.gov",
+     "query": "trifluoperazine mania；trifluoperazine bipolar",
+     "result": "0 筆；1 筆（NCT02582736，抗精神病藥與高血糖急症風險，非療效）",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "method": "讀頁面原推論→標出建立在別的適應症或錯誤前提上的部分→PubMed（eutils）與 ClinicalTrials.gov v2 查正反證據（查無結果的查詢記在 searches）→依 methodology 的 L1–L5 定義判定"
+  },
+  {
+   "id": "sa-hl-20261112-trifluoperazine",
+   "drug": "trifluoperazine",
+   "file": "trifluoperazine.md",
+   "checked": "2026-11-12",
+   "action": "header_level",
+   "summary": "مستوى الأدلة في رأس الصفحة",
+   "original_level": "L5",
+   "new_level": "L4",
+   "original_parent": "تنبؤ نموذجي فقط (L5)",
+   "new_parent": "أدلة متوسطة (L3-L4)",
+   "original_header": "L5",
+   "basis": "جدول النظرة السريعة «مستوى الدليل»: L4（sa-rr-20261112-trifluoperazine-1-result 重審後）",
+   "note": "頁首等級（front matter evidence_level、parent、頁首「مستوى الأدلة」列）依本站規則＝快速總覽等級格的第一個等級；本頁原列在 HEADER_EXCEPTIONS（頁首 L5），重審完成後拿掉例外，頁首隨總覽格",
+   "sources": [
+    {
+     "title": "SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5",
+     "url": "https://satxgnn.yao.care/methodology/",
+     "accessed": "2026-11-12"
+    }
+   ]
+  },
+  {
+   "id": "sa-dl-20261112-trifluoperazine",
+   "drug": "trifluoperazine",
+   "file": "trifluoperazine.md",
+   "checked": "2026-11-12",
+   "action": "description_level",
+   "summary": "مستوى الدليل في وصف الصفحة",
+   "original_level": "L5",
+   "new_level": "L4",
+   "original_description": "description: \"Trifluoperazine: الاستطباب الجديد المتوقع اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder) (مستوى الدليل L5). الاستطباب الأصلي: الفصام والقلق (مأخوذ من الرسم المعرفي PrimeKG، إذ لا تتضمن …\"",
+   "note": "front matter description 裡的「مستوى الدليل L5」換成頁首等級，其他文字不動",
+   "sources": [
+    {
+     "title": "SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5",
+     "url": "https://satxgnn.yao.care/methodology/",
+     "accessed": "2026-11-12"
+    }
+   ]
+  },
+  {
    "id": "sa-lic-20261106-trihexyphenidyl-1",
    "drug": "trihexyphenidyl",
    "file": "trihexyphenidyl.md",
@@ -16165,6 +16626,136 @@
    "checked": "2026-11-06",
    "summary": "حُذف: «التحقق من وضع التراخيص الملغاة والمسار التنظيمي لإعادة التسجيل»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：e10af075（2026-11-06）"
+  },
+  {
+   "id": "sa-rr-20261112-warfarin-1",
+   "drug": "warfarin",
+   "file": "warfarin.md",
+   "checked": "2026-11-12",
+   "action": "rereview",
+   "section": "جدول النظرة السريعة «الاستطباب الجديد المتوقع»",
+   "summary": "التنبؤ الرئيسي بانتظار إعادة التقييم",
+   "prediction": "Heparin cofactor 2 deficiency",
+   "status": "rereviewed",
+   "claim": "| المؤشر الجديد المتوقع | Heparin cofactor 2 deficiency |",
+   "finding": "頁首 L5 與快速總覽等級格第一個等級 L1 不符（2026-11-12 建機制時列為 HEADER_EXCEPTIONS），依 methodology 重審總覽格的主預測",
+   "note": "وُضع التنبؤ الرئيسي بانتظار إعادة التقييم: مستوى رأس الصفحة (L5) لا يطابق مستوى جدول النظرة السريعة (L1)",
+   "sources": [
+    {
+     "title": "SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5",
+     "url": "https://satxgnn.yao.care/methodology/",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "resolved_by": "sa-rr-20261112-warfarin-1-result"
+  },
+  {
+   "id": "sa-rr-20261112-warfarin-1-result",
+   "drug": "warfarin",
+   "file": "warfarin.md",
+   "checked": "2026-11-12",
+   "action": "rereview_result",
+   "resolves": "sa-rr-20261112-warfarin-1",
+   "summary": "نتيجة إعادة تقييم التنبؤ الرئيسي (Heparin cofactor 2 deficiency)",
+   "claim": "| المؤشر الجديد المتوقع | Heparin cofactor 2 deficiency |",
+   "prediction": "Heparin cofactor 2 deficiency",
+   "verdict": "downgrade",
+   "original_level": "L1",
+   "new_level": "L4",
+   "level_note": "L1（快速總覽等級格；頁首 front matter 為 L5，兩處不一致）",
+   "flawed_premises": [
+    "L1 依據的 NCT00895505 是「首次不明原因深部靜脈栓塞後依 D-dimer 決定抗凝時長」的試驗，不是肝素輔因子 II 缺乏症，也不是評估 warfarin 本身；格內自己也寫實際較接近 L3",
+    "決策「Proceed with Guardrails」與報告主體討論的是排名第 4 的遺傳性易栓症（thrombophilia），不是總覽格的肝素輔因子 II 缺乏症"
+   ],
+   "remaining_support": [
+    "單一個案：家族性 HCII 缺乏的 14 歲患者右心室血栓術後以 warfarin＋aspirin＋ticlopidine 維持（PMID 2214444）",
+    "抗凝治療用於易栓症血栓的一般機轉"
+   ],
+   "contrary_evidence": [],
+   "rationale": "扣掉不相干的 NCT00895505 後，HCII 缺乏症只有 1 篇本藥使用的個案報告（且併用抗血小板藥），沒有觀察性研究或病例系列，達不到 methodology 的 L3；剩下的是個案與抗凝機轉，與本站把「個案報告與回顧」標為 L4 的做法一致，降為 L4。決策依附在另一個適應症上，改為 Hold。",
+   "note": "التنبؤ الرئيسي في جدول النظرة السريعة هو نقص العامل المساعد 2 للهيبارين. استند المستوى L1 إلى تجربة [NCT00895505](https://clinicaltrials.gov/study/NCT00895505) عن تحديد مدة مضادات التخثر بعد أول خثار وريدي عميق غير مبرر، وهي لا تخص هذا المرض ولا تقيّم وارفارين بعينه، كما أن التوصية في الجدول بُنيت على فرط التخثر الوراثي (التنبؤ الرابع). الدليل المتاح عن هذا المرض تقرير حالة واحد لمريضة بنقص عائلي عولجت بوارفارين مع الأسبرين والتيكلوبيدين بعد إزالة خثرة جراحيًا ([PMID 2214444](https://pubmed.ncbi.nlm.nih.gov/2214444/))، إضافة إلى منطق آلية مضادات التخثر في فرط التخثر؛ ولا توجد دراسات رصدية أو تجارب. لذلك خُفّض المستوى إلى L4 وغُيّرت التوصية إلى Hold",
+   "sources": [
+    {
+     "title": "PubMed：[Right ventricular thrombosis due to familial heparin cofactor II deficiency]（PMID 2214444）",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/2214444/",
+     "excerpt": "日文個案（英文摘要）：14 歲家族性 HCII 缺乏（HCII 抗原 48%、32%），右心室血栓兩次手術，之後以 warfarin＋aspirin＋ticlopidine 維持、狀況良好",
+     "accessed": "2026-11-12"
+    },
+    {
+     "title": "ClinicalTrials.gov：D-dimer 導向的抗凝時長策略（首次不明原因深部靜脈栓塞後）（NCT00895505）",
+     "url": "https://clinicaltrials.gov/study/NCT00895505",
+     "excerpt": "頁面原本 L1 的依據；收案對象不是 HCII 缺乏症，warfarin 角色不明",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "searches": [
+    {
+     "db": "PubMed",
+     "query": "warfarin AND \"heparin cofactor II\" AND deficiency（4 筆）；\"heparin cofactor II\" AND deficien* AND (warfarin OR coumarin OR \"vitamin K antagonist\")（5 筆）",
+     "result": "只有 PMID 2214444 是本藥用於 HCII 缺乏者；其餘是無 HCII 異常的家族、回顧或檢驗方法",
+     "accessed": "2026-11-12"
+    },
+    {
+     "db": "ClinicalTrials.gov",
+     "query": "heparin cofactor II deficiency",
+     "result": "2 筆，都與 HCII 缺乏的治療無關",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "method": "讀頁面原推論→標出建立在別的適應症或錯誤前提上的部分→PubMed（eutils）與 ClinicalTrials.gov v2 查正反證據（查無結果的查詢記在 searches）→依 methodology 的 L1–L5 定義判定",
+   "table_updates": [
+    {
+     "label": "مستوى الدليل",
+     "claim": "| مستوى الدليل | L1 وفق التصنيف الوارد في البيانات (مع تحفظ: التجربة الوحيدة حالتها «غير معروفة» ودور وارفارين فيها غير واضح؛ لذلك فالدليل الفعلي أقرب إلى L3) |",
+     "replacement": "| مستوى الدليل | L4 (تقرير حالة واحد ومنطق آلية مضادات التخثر؛ لا توجد دراسات رصدية أو تجارب) |"
+    },
+    {
+     "label": "القرار الموصى به",
+     "claim": "| القرار الموصى به | المضي مع ضوابط احترازية (Proceed with Guardrails) |",
+     "replacement": "| القرار الموصى به | Hold (إيقاف مؤقت) |"
+    }
+   ]
+  },
+  {
+   "id": "sa-hl-20261112-warfarin",
+   "drug": "warfarin",
+   "file": "warfarin.md",
+   "checked": "2026-11-12",
+   "action": "header_level",
+   "summary": "مستوى الأدلة في رأس الصفحة",
+   "original_level": "L5",
+   "new_level": "L4",
+   "original_parent": "تنبؤ نموذجي فقط (L5)",
+   "new_parent": "أدلة متوسطة (L3-L4)",
+   "original_header": "L5",
+   "basis": "جدول النظرة السريعة «مستوى الدليل»: L4（sa-rr-20261112-warfarin-1-result 重審後）",
+   "note": "頁首等級（front matter evidence_level、parent、頁首「مستوى الأدلة」列）依本站規則＝快速總覽等級格的第一個等級；本頁原列在 HEADER_EXCEPTIONS（頁首 L5），重審完成後拿掉例外，頁首隨總覽格",
+   "sources": [
+    {
+     "title": "SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5",
+     "url": "https://satxgnn.yao.care/methodology/",
+     "accessed": "2026-11-12"
+    }
+   ]
+  },
+  {
+   "id": "sa-dl-20261112-warfarin",
+   "drug": "warfarin",
+   "file": "warfarin.md",
+   "checked": "2026-11-12",
+   "action": "description_level",
+   "summary": "مستوى الدليل في وصف الصفحة",
+   "original_level": "L5",
+   "new_level": "L4",
+   "original_description": "description: \"Warfarin: الاستطباب الجديد المتوقع Heparin cofactor 2 deficiency (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية\"",
+   "note": "front matter description 裡的「مستوى الدليل L5」換成頁首等級，其他文字不動",
+   "sources": [
+    {
+     "title": "SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5",
+     "url": "https://satxgnn.yao.care/methodology/",
+     "accessed": "2026-11-12"
+    }
+   ]
   },
   {
    "id": "sa-lic-20261106-xylometazoline-1",

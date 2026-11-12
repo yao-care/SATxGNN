@@ -5,49 +5,89 @@
       "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
       "drug": "dasabuvir",
       "file": "dasabuvir.md",
-      "status": "open",
+      "status": "resolved",
       "claim": "L3 (دراسات رصدية ومراجعات فقط، بلا دليل فعالية مباشر)",
-      "note": "頁首 L5；總覽格第一個等級 L3。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉"
+      "note": "頁首 L5；總覽格第一個等級 L3。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
+      "record_ids": [
+        "sa-rr-20261112-dasabuvir-1",
+        "sa-rr-20261112-dasabuvir-1-result"
+      ],
+      "resolved_on": "2026-11-12",
+      "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
     },
     {
       "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
       "drug": "favipiravir",
       "file": "favipiravir.md",
-      "status": "open",
+      "status": "resolved",
       "claim": "L4 (دليل غير مباشر من دراسات آلية/مراجعات؛ دون تجارب سريرية)",
-      "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉"
+      "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
+      "record_ids": [
+        "sa-rr-20261112-favipiravir-1",
+        "sa-rr-20261112-favipiravir-1-result"
+      ],
+      "resolved_on": "2026-11-12",
+      "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
     },
     {
       "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
       "drug": "quetiapine",
       "file": "quetiapine.md",
-      "status": "open",
+      "status": "resolved",
       "claim": "L4 (تقارير حالات ومراجعات فقط، دون تجارب مضبوطة)",
-      "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉"
+      "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
+      "record_ids": [
+        "sa-rr-20261112-quetiapine-1",
+        "sa-rr-20261112-quetiapine-1-result"
+      ],
+      "resolved_on": "2026-11-12",
+      "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
     },
     {
       "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
       "drug": "ranibizumab",
       "file": "ranibizumab.md",
-      "status": "open",
+      "status": "resolved",
       "claim": "L1 (مبني على عناوين منشورات فقط، ويلزم التحقق من التقارير الأساسية للتجارب)",
-      "note": "頁首 L5；總覽格第一個等級 L1。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉"
+      "note": "頁首 L5；總覽格第一個等級 L1。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
+      "record_ids": [
+        "sa-rr-20261112-ranibizumab-1",
+        "sa-rr-20261112-ranibizumab-1-result"
+      ],
+      "resolved_on": "2026-11-12",
+      "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
     },
     {
       "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
       "drug": "trifluoperazine",
       "file": "trifluoperazine.md",
-      "status": "open",
+      "status": "resolved",
       "claim": "L4 (تنبؤ حاسوبي مع دراسات مراجعة وآلية فقط، دون تجارب سريرية)",
-      "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉"
+      "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
+      "record_ids": [
+        "sa-rr-20261112-trifluoperazine-1",
+        "sa-rr-20261112-trifluoperazine-1-result",
+        "sa-hl-20261112-trifluoperazine",
+        "sa-dl-20261112-trifluoperazine"
+      ],
+      "resolved_on": "2026-11-12",
+      "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
     },
     {
       "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
       "drug": "warfarin",
       "file": "warfarin.md",
-      "status": "open",
+      "status": "resolved",
       "claim": "L1 وفق التصنيف الوارد في البيانات (مع تحفظ: التجربة الوحيدة حالتها «غير معروفة» ودور وارفارين فيها غير واضح؛ لذلك فالدليل الفعلي أقرب إلى L3)",
-      "note": "頁首 L5；總覽格第一個等級 L1（格內另寫實際證據較接近 L3）。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉"
+      "note": "頁首 L5；總覽格第一個等級 L1（格內另寫實際證據較接近 L3）。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
+      "record_ids": [
+        "sa-rr-20261112-warfarin-1",
+        "sa-rr-20261112-warfarin-1-result",
+        "sa-hl-20261112-warfarin",
+        "sa-dl-20261112-warfarin"
+      ],
+      "resolved_on": "2026-11-12",
+      "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
     }
   ]
 }

@@ -33,8 +33,8 @@ Drug repurposing predictions for Saudi Arabia SFDA-approved drugs using the TxGN
 | **L1** | 13 | Multiple Phase 3 RCTs |
 | **L2** | 39 | Single RCT or multiple Phase 2 |
 | **L3** | 33 | Observational studies |
-| **L4** | 74 | Preclinical / mechanistic studies |
-| **L5** | 694 | Computational prediction only |
+| **L4** | 76 | Preclinical / mechanistic studies |
+| **L5** | 692 | Computational prediction only |
 | **N/A** | 29 | Known uses only (no new prediction) |
 
 ### By Source
