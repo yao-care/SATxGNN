@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 726
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Risankizumab: الاستطباب الجديد المتوقع التهاب الجلد (Dermatitis) (مستوى الدليل L2). الاستطباب الأصلي: الصدفية وشبه الصدفية"
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -135,6 +135,25 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic de
 - تحديد النمط الفرعي من التهاب الجلد الذي قد يستجيب لتثبيط IL-23 (نمط Th17 أو المرضى المصابون بالصدفية والتهاب الجلد التأتبي معاً).
 - الحصول على النشرة الدوائية من الهيئة العامة للغذاء والدواء (SFDA) لاستكمال بيانات التحذيرات وموانع الاستعمال، وهي ضرورية قبل إجراء فحص السلامة.
 - استكمال بيانات آلية العمل من DrugBank.
+
+<!-- review:begin sa-lic-20261106-risankizumab-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «استكمال بيانات آلية العمل من DrugBank. / توضيح وضع التراخيص المحلية الملغاة، وإمكانية إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-risankizumab-1 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «توضيح وضع التراخيص المحلية الملغاة، وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

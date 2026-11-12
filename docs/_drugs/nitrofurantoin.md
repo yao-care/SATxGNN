@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 592
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Nitrofurantoin: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المتاحة (التهابات المسالك البولية وفق الا…"
 monitor_inn: "NITROFURANTOIN"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
@@ -85,6 +85,12 @@ predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hem
 
 لا تتضمن هذه المنشورات أي دراسة تثبت فعالية نيتروفورانتوين في علاج التهاب المفاصل الروماتويدي.
 
+<!-- review:begin sa-lic-20261106-nitrofurantoin-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كلا الترخيصين ملغى، ولا يوجد حاليًا منتج ساري المفعول.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-nitrofurantoin-1 -->
+
 ---
 
 ## معلومات السوق في المملكة العربية السعودية
@@ -122,6 +128,19 @@ predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hem
 - إعادة تقييم الاستطباب الأصلي بعد توفر نص الاستطباب المعتمد.
 
 **ملاحظة على التنبؤات الأخرى:** الأمراض التسعة التالية في الترتيب (متلازمات وراثية نادرة، اعتلال الكلية السكري، التهاب الأقنية الصفراوية المصلّب، النقرس، ميثيموغلوبينية) لا تتوفر لها أدلة علاجية أيضًا، ومعظمها يعكس علاقة سمّية أو ارتباطًا شبكيًا فقط، وجميعها بمستوى L5 أو L4 مع توصية Hold.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «كلا الترخيصين ملغى، ولا يوجد حاليًا منتج ساري المفعول» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

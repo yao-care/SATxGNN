@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 17
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Acetazolamide: الاستطباب الجديد المتوقع فرط الحرارة الخبيثة الناجم عن الجهد (مستوى الدليل L5). الاستطباب الأصلي: الصرع الغيابي، فشل القلب الاحتقاني، الغلوكوما مفتوحة الزاوية ومغلقة ا…"
 monitor_inn: "ACETAZOLAMIDE"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "myopathic intestinal pseudoobstruction"]
@@ -118,6 +118,25 @@ predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic
 - إجراء مراجعة منهجية للأدبيات حول الكربونيك أنهيدراز وفرط الحرارة الخبيثة واضطرابات العضلات القناتية.
 - إجراء دراسات ما قبل سريرية تختبر الفرضية الآلية قبل التفكير في أي تجربة سريرية.
 - تقييم أولوية الاستطبابات الأخرى المتنبأ بها، مع الحذر من التنبؤات التي تشير الأدلة فيها إلى ضرر محتمل (انسداد الأمعاء، اعتلال عضلة القلب التليفي الكبدي).
+
+<!-- review:begin sa-lic-20261106-acetazolamide-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «النظر في مدى جدوى إعادة التسجيل في السعودية، إذ لا يوجد حاليًا ترخيص ساري. / تقييم أولوية الاستطبابات الأخرى المتنبأ بها، مع الحذر من التنبؤات التي تشير الأدلة فيها إلى ضرر محتمل (انسداد الأمعاء، اعتلال عضلة القلب التليفي الكبدي).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-acetazolamide-1 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «النظر في مدى جدوى إعادة التسجيل في السعودية، إذ لا يوجد حاليًا ترخيص ساري» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

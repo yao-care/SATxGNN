@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Amlodipine: الاستطباب الجديد المتوقع احتشاء جذع الدماغ (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (إضافة إلى السكتة الدماغية والاضطرابات الوعائية الدما…"
 monitor_inn: "Amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
@@ -84,6 +84,12 @@ predicted_indications: ["brain stem infarction", "pulmonary hypertension owing t
 
 أبرز 5 تراخيص:
 
+<!-- review:begin sa-lic-20261106-amlodipine-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «أبرز 5 تراخيص (جميعها بحالة «ملغاة»، ونصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة):» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-amlodipine-1 -->
+
 | رقم الترخيص / اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|
 | ZILDAFIT 10 MG TABLET | APOTEX | ساري |
@@ -118,6 +124,19 @@ predicted_indications: ["brain stem infarction", "pulmonary hypertension owing t
 - البحث عن أدلة سريرية أو رصدية خاصة باحتشاء جذع الدماغ.
 
 **ملاحظة إضافية:** من بين الاستطبابات المتوقعة الأخرى، يظهر أقوى إشارة أدلة في **النزف داخل المخ (Intracerebral Hemorrhage)**. فهناك تجربة المرحلة الثالثة المكتملة TRIDENT (NCT02699645، 1671 مشاركًا) التي اختبرت حبة مركّبة من ثلاثة أدوية خافضة للضغط بجرعات منخفضة، يُعد أملوديبين أحد مكوناتها، مع منشور في عام 2026 (PMID 42019018). والفائدة تُنسب إلى المركّب ككل لا إلى أملوديبين وحده، لذا يُوصى بتقييمها بشكل مستقل (مستوى L1، قرار مبدئي: Proceed with Guardrails).
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «(جميعها بحالة «ملغاة»، ونصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

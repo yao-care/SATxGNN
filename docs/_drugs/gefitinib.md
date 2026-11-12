@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 385
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Gefitinib: الاستطباب الجديد المتوقع الورم الليفي اللثوي (fibromatosis, gingival) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الرئة غير صغير الخلايا / سرطان الرئة"
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa"]
@@ -74,6 +74,12 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion 
 
 لا توجد حالياً أدبيات ذات صلة.
 
+<!-- review:begin sa-lic-20261106-gefitinib-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «حالة هذا الترخيص: **ملغى**.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-gefitinib-1 -->
+
 ---
 
 ## معلومات السوق في السعودية
@@ -135,6 +141,19 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion 
 - بالنظر إلى أن المرض غير خبيث، يلزم تقييم دقيق لنسبة الفائدة إلى الخطر في ضوء سمّية جيفيتينيب.
 
 **ملاحظة:** من بين التنبؤات الأخرى، لا يتجاوز أي منها مستوى الأدلة L4. فتنبؤات مثل «سرطان سرة الرئة» و«الورم العصبي الرئوي الأخدودي» مجرد امتداد للاستطباب الأصلي المعتمد، ولا تمثل استطباباً جديداً حقيقياً.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «حالة هذا الترخيص: **ملغى**» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

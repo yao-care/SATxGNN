@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Insulin Lispro: الاستطباب الجديد المتوقع التهاب المبيض المناعي الذاتي (مستوى الدليل L5). الاستطباب الأصلي: داء السكري (النوع الأول والنوع الثاني والحماض الكيتوني السكري)"
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
@@ -112,6 +112,12 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 (عُرضت 5 من أصل 7 تراخيص؛ الترخيصان الآخران: Humalog Tempo Pen وLYUMJEV.)
 
+<!-- review:begin sa-lic-20261106-insulin_lispro-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(عُرضت 5 من أصل 7 تراخيص؛ الترخيصان الآخران: Humalog Tempo Pen وLYUMJEV، وكلاهما ملغى.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 7، منها سارية: 7؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-insulin_lispro-1 -->
+
 ---
 
 ## اعتبارات السلامة
@@ -143,6 +149,19 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 - مراجعة منهجية للأدبيات حول الإنسولين والتهاب المبيض المناعي الذاتي.
 - النظر في أن التنبؤات ذات الارتباط الأقوى سريرياً (مثل عدم تكوّن البنكرياس ومتلازمة الخلل الاستجابي للثيامين) هي في الواقع إدارة للسكري المصاحب وليست إعادة توظيف حقيقية.
 - تأكيد وضع الترخيص الحالي للمنتج في السوق السعودي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «وكلاهما ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

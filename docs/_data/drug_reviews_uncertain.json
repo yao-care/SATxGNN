@@ -1,0 +1,53 @@
+{
+  "_doc": "藥物頁待查清單（2026-11-12 建，比照 TwTxGNN／UsTxGNN docs/_data/drug_reviews_uncertain.json）。項目不刪：查清標 status: resolved（附 record_ids，指向 docs/_data/drug_reviews.json 的紀錄），查不出定論標 status: unresolvable（附 searched、unresolvable_reason）。",
+  "items": [
+    {
+      "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
+      "drug": "dasabuvir",
+      "file": "dasabuvir.md",
+      "status": "open",
+      "claim": "L3 (دراسات رصدية ومراجعات فقط، بلا دليل فعالية مباشر)",
+      "note": "頁首 L5；總覽格第一個等級 L3。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉"
+    },
+    {
+      "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
+      "drug": "favipiravir",
+      "file": "favipiravir.md",
+      "status": "open",
+      "claim": "L4 (دليل غير مباشر من دراسات آلية/مراجعات؛ دون تجارب سريرية)",
+      "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉"
+    },
+    {
+      "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
+      "drug": "quetiapine",
+      "file": "quetiapine.md",
+      "status": "open",
+      "claim": "L4 (تقارير حالات ومراجعات فقط، دون تجارب مضبوطة)",
+      "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉"
+    },
+    {
+      "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
+      "drug": "ranibizumab",
+      "file": "ranibizumab.md",
+      "status": "open",
+      "claim": "L1 (مبني على عناوين منشورات فقط، ويلزم التحقق من التقارير الأساسية للتجارب)",
+      "note": "頁首 L5；總覽格第一個等級 L1。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉"
+    },
+    {
+      "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
+      "drug": "trifluoperazine",
+      "file": "trifluoperazine.md",
+      "status": "open",
+      "claim": "L4 (تنبؤ حاسوبي مع دراسات مراجعة وآلية فقط، دون تجارب سريرية)",
+      "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉"
+    },
+    {
+      "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
+      "drug": "warfarin",
+      "file": "warfarin.md",
+      "status": "open",
+      "claim": "L1 وفق التصنيف الوارد في البيانات (مع تحفظ: التجربة الوحيدة حالتها «غير معروفة» ودور وارفارين فيها غير واضح؛ لذلك فالدليل الفعلي أقرب إلى L3)",
+      "note": "頁首 L5；總覽格第一個等級 L1（格內另寫實際證據較接近 L3）。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉"
+    }
+  ]
+}

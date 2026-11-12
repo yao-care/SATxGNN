@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Alglucosidase Alfa: الاستطباب الجديد المتوقع داء أجسام البوليغلوكوزان لدى البالغين (مستوى الدليل L5). الاستطباب الأصلي: داء تخزين الغليكوجين (وفق قاعدة المعرفة TxGNN)"
 monitor_inn: "ALGLUCOSIDASE ALFA"
 predicted_indications: ["adult polyglucosan body disease", "congenital entropion", "congenital ectropion", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "epiblepharon", "ptosis-strabismus-ectopic pupils syndrome"]
@@ -119,6 +119,25 @@ predicted_indications: ["adult polyglucosan body disease", "congenital entropion
 - استكمال بيانات آلية العمل من DrugBank.
 - إجراء دراسات ما قبل سريرية تبحث إمكانية وصول الإنزيم إلى الأنسجة المستهدفة وتأثيره على تراكم البوليغلوكوزان.
 - مراجعة منهجية للأدبيات حول علاج APBD وتعويض الإنزيمات.
+
+<!-- review:begin sa-lic-20261106-alglucosidase_alfa-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «مراجعة منهجية للأدبيات حول علاج APBD وتعويض الإنزيمات. / توضيح وضع الترخيص الملغى وإمكانية توفر المنتج في السوق السعودي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-alglucosidase_alfa-1 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «توضيح وضع الترخيص الملغى وإمكانية توفر المنتج في السوق السعودي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

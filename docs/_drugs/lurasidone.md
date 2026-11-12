@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 521
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "LURASIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -136,6 +136,25 @@ description: "Lurasidone: الاستطباب الجديد المتوقع Retinal
 - استكمال بيانات آلية العمل من DrugBank.
 - إيجاد تجارب عشوائية مضبوطة خاصة بالهوس الحاد لدى البالغين، أو إجراؤها.
 - تقييم الإشارة المتعلقة بالهوس الناجم عن الدواء (تقرير حالة PMID 31298818).
+
+<!-- review:begin sa-lic-20261106-lurasidone-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح حالة التراخيص الملغاة ووضع الدواء التسويقي في السعودية. / تقييم الإشارة المتعلقة بالهوس الناجم عن الدواء (تقرير حالة PMID 31298818).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-lurasidone-1 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «توضيح حالة التراخيص الملغاة ووضع الدواء التسويقي في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 198
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Clobazam: الاستطباب الجديد المتوقع متلازمة الصرع المرتبط بالعدوى الحموية (FIRES) (مستوى الدليل L4). الاستطباب الأصلي: متلازمة لينوكس-غاستو (بحسب رسم المعرفة PrimeKG؛ لا يتوفر نص استطباب ف…"
 monitor_inn: "CLOBAZAM"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms", "photosensitive occipital lobe epilepsy", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
@@ -88,6 +88,12 @@ FIRES صرع مقاوم شديد يصيب أطفالاً أصحاء سابقاً
 
 الترخيصان صادران لشركة MACARTHYS LABORATORIES Ltd (Martindale Pharmaceuticals).
 
+<!-- review:begin sa-lic-20261106-clobazam-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الترخيصان صادران لشركة MACARTHYS LABORATORIES Ltd (Martindale Pharmaceuticals)، وكلاهما ملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-clobazam-1 -->
+
 ---
 
 ## اعتبارات السلامة
@@ -116,7 +122,27 @@ FIRES صرع مقاوم شديد يصيب أطفالاً أصحاء سابقاً
 - استكمال بيانات آلية العمل من DrugBank.
 - وتقييم ملاءمة طرق الإعطاء (الفموي أو عبر الأنبوب المعدي) لمرضى الحالات الحرجة.
 
+<!-- review:begin sa-lic-20261106-clobazam-2 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من إمكانية توفير مستحضر كلوبازام في السوق السعودي بعد إلغاء التراخيص الحالية، وتقييم ملاءمة طرق الإعطاء (الفموي أو عبر الأنبوب المعدي) لمرضى الحالات الحرجة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-clobazam-2 -->
+
 **ملاحظة:** من بين التنبؤات الأخرى، يتمتع الصرع الدماغي ذو البداية في الطفولة (مستوى L3) بأدلة أقوى، لكنه في معظمه امتداد لاستطباب لينوكس-غاستو القائم وليس إعادة توظيف جديدة حقاً.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «وكلاهما ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «التحقق من إمكانية توفير مستحضر كلوبازام في السوق السعودي بعد إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

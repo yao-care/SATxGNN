@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 387
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Gemfibrozil: الاستطباب الجديد المتوقع التهاب المفاصل الرثياني (Rheumatoid arthritis) (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع الدهون الثلاثية في الدم (Hypertriglyceridemia)"
 monitor_inn: "GEMFIBROZIL"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
@@ -72,6 +72,12 @@ predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", 
 
 لا توجد حالياً تجارب سريرية مسجلة ذات صلة بالتهاب المفاصل الرثياني.
 
+<!-- review:begin sa-lic-20261106-gemfibrozil-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الحالة: الترخيص **ملغى**، ولا يوجد حالياً منتج ساري في السوق.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-gemfibrozil-1 -->
+
 ---
 
 ## الأدلة من الأدبيات
@@ -133,6 +139,19 @@ predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", 
 - إجراء دراسات ما قبل سريرية إضافية على جيمفيبروزيل نفسه (وليس مركبات الفئة) في التهاب المفاصل الرثياني، ثم تصميم تجربة سريرية استكشافية.
 - التعامل مع مؤشر HIV على أنه استطباب لاضطراب الدهون المرتبط بالعلاج، مع خطة لإدارة التداخلات مع مثبطات البروتياز والستاتينات.
 - التحقق من إمكانية إعادة الترخيص أو توفر منتج بديل في السوق السعودي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «الحالة: الترخيص **ملغى**، ولا يوجد حالياً منتج ساري في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

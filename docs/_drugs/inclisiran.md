@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Inclisiran: الاستطباب الجديد المتوقع نقص البوتاسيوم (potassium deficiency disease) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المتاحة (الدواء معروف بخفض LDL-C)"
 monitor_inn: "INCLISIRAN"
 predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
@@ -120,6 +120,25 @@ predicted_indications: ["potassium deficiency disease", "esophageal disease", "a
 - استكمال بيانات آلية العمل من DrugBank.
 - التحقق من الحالات المسجّلة في التجربتين NCT06597019 وNCT06597006 قبل أي ترقية لتوقع تشوّه الأبهر.
 - إجراء مراجعة منهجية للأدبيات وأبحاث ما قبل سريرية إذا رُغب في متابعة أي من هذه التوقعات.
+
+<!-- review:begin sa-lic-20261106-inclisiran-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح سبب إلغاء الترخيص السعودي وحالة التسويق الحالية. / إجراء مراجعة منهجية للأدبيات وأبحاث ما قبل سريرية إذا رُغب في متابعة أي من هذه التوقعات.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-inclisiran-1 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «توضيح سبب إلغاء الترخيص السعودي وحالة التسويق الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

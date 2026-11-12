@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Framycetin: الاستطباب الجديد المتوقع التهاب الأقنية الصفراوية المصلّب (sclerosing cholangitis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نص المؤشر في ترخيص الهيئة العامة للغذاء والدواء فارغ)"
 monitor_inn: "FRAMYCETIN"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -99,6 +99,12 @@ predicted_indications: ["sclerosing cholangitis", "urinary tract infection (dise
 
 المنتج من إنتاج ROUSSEL LABORATORIES.
 
+<!-- review:begin sa-lic-20261106-framycetin-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «المنتج من إنتاج ROUSSEL LABORATORIES، وحالة الترخيص: **ملغى**.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-framycetin-1 -->
+
 ---
 
 ## اعتبارات السلامة
@@ -123,6 +129,19 @@ predicted_indications: ["sclerosing cholangitis", "urinary tract infection (dise
 - مراجعة منهجية للأدبيات حول المضادات الحيوية غير الممتصة في التهاب الأقنية الصفراوية المصلّب.
 - تحديد المؤشر الأصلي وطريق الإعطاء المتاح، وتقييم توافقه مع الطريق المطلوب للمؤشر الجديد.
 - التحقق من ملاءمة التوقعات الأخرى (مثل التهاب المسالك البولية) قبل ترتيب الأولويات، واستبعاد التوقعات الضعيفة آليًا كنقص البروثرومبين الخلقي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «وحالة الترخيص: **ملغى**» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

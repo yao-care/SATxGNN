@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 622
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "OXYTETRACYCLINE"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 description: "Oxytetracycline: الاستطباب الجديد المتوقع Chronic rhinosinusitis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -129,6 +129,25 @@ description: "Oxytetracycline: الاستطباب الجديد المتوقع Ch
 - إجراء مراجعة منهجية للأدبيات حول التتراسيكلينات في التهاب الجيوب الأنفية المزمن.
 - تقييم إمكانية متابعة استطباب التهاب الأذن الخارجية كسؤال بحثي (L3)، مع مراعاة أن الأدلة تخص تركيبات مركّبة.
 - ودراسة ملاءمة طريق الإعطاء للاستطباب الجديد.
+
+<!-- review:begin sa-lic-20261106-oxytetracycline-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم الجدوى التسويقية في ظل إلغاء التراخيص الحالية، ودراسة ملاءمة طريق الإعطاء للاستطباب الجديد.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-oxytetracycline-1 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «تقييم الجدوى التسويقية في ظل إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

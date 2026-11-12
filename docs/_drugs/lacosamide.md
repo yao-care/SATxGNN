@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: الاستطباب الجديد المتوقع Manic bipolar affective disorder (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -109,6 +109,12 @@ description: "Lacosamide: الاستطباب الجديد المتوقع Manic b
 
 توجد تراخيص إضافية (Lazure من تبوك للصناعات الدوائية بأربع تراكيز وأشكال، وTrepadio من الجزيرة للصناعات الدوائية، وLacosamide SPC من MSN Laboratories، وVimpat من Aesica).
 
+<!-- review:begin sa-lic-20261106-lacosamide-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توجد تراخيص ملغاة إضافية (Lazure من تبوك للصناعات الدوائية بأربع تراكيز وأشكال، وTrepadio من الجزيرة للصناعات الدوائية، وLacosamide SPC من MSN Laboratories، وVimpat من Aesica).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 12، منها سارية: 12؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-lacosamide-1 -->
+
 ---
 
 ## اعتبارات السلامة
@@ -156,6 +162,19 @@ description: "Lacosamide: الاستطباب الجديد المتوقع Manic b
 - الحصول على نشرة الدواء المعتمدة من الهيئة العامة للغذاء والدواء السعودية لاستخراج التحذيرات وموانع الاستعمال (فجوة بيانات حرجة).
 - استكمال بيانات آلية العمل من DrugBank.
 - وضع خطة مراقبة للتوصيل القلبي (تخطيط القلب وفاصلة PR) وللتفاعلات الدوائية الكبرى.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

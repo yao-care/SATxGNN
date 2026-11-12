@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Antihemophilic Factor Human Recombinant: الاستطباب الجديد المتوقع اضطراب الإفراز الأولي للصفائح الدموية (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا؛ الشكل المصحوب بأعراض لدى الناقلات من الإناث (…"
 monitor_inn: "ANTIHEMOPHILIC FACTOR, HUMAN RECOMBINANT"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
@@ -123,12 +123,31 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 **المبررات:**
 - التنبؤات كلها قائمة على النموذج فقط (L5) دون أي تجارب أو أدبيات، والآلية الدوائية لا تتوافق مع العيوب الصفائحية المتوقعة.
 
+<!-- review:begin sa-lic-20261106-antihemophilic_factor_human_recombinant-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤات كلها قائمة على النموذج فقط (L5) دون أي تجارب أو أدبيات، والآلية الدوائية لا تتوافق مع العيوب الصفائحية المتوقعة. كما أن الترخيص السعودي الوحيد ملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-antihemophilic_factor_human_recombinant-1 -->
+
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على نشرة الدواء من موقع الهيئة العامة للغذاء والدواء وتحليل التحذيرات وموانع الاستعمال (فجوة حرجة تمنع الانتقال إلى مرحلة فحص السلامة).
 - استكمال بيانات آلية العمل من DrugBank.
 - التحقق من مصطلح «flood factor deficiency» في الأنطولوجيا المصدرية.
 - إن كان لا بد من متابعة أحد التنبؤات، فأولوية المراجعة لـ«نقص عامل تخثر مكتسب»، مع مراجعة منهجية للأدبيات حول الهيموفيليا المكتسبة والمثبطات.
 - الدواء مسوّق في هذا البلد، وله ترخيص واحد ساري من أصل ترخيص واحد.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «كما أن الترخيص السعودي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 756
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "silibinin"
 predicted_indications: ["hemoglobinopathy", "thrombotic disease", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "beta-thalassemia with other manifestations", "thrombophilia", "partial deletion of the short arm of chromosome 16", "severe nonproliferative diabetic retinopathy"]
 description: "Silibinin: الاستطباب الجديد المتوقع Hemoglobinopathy (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -99,6 +99,12 @@ description: "Silibinin: الاستطباب الجديد المتوقع Hemoglob
 
 الجهة المصنعة: Rottapharm / Madaus Group.
 
+<!-- review:begin sa-lic-20261106-silibinin-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الجهة المصنعة: Rottapharm / Madaus Group. كلا الترخيصين ملغى حالياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-silibinin-1 -->
+
 ---
 
 ## اعتبارات السلامة
@@ -120,6 +126,26 @@ description: "Silibinin: الاستطباب الجديد المتوقع Hemoglob
 - استكمال بيانات آلية العمل من DrugBank.
 - تجربة عشوائية مضبوطة أكبر لإضافة السيليبينين إلى الميثوتريكسات في التهاب المفاصل الروماتويدي.
 - توضيح الوضع التنظيمي والشكل الدوائي المناسب والتوافر الفعلي في السوق السعودي.
+
+<!-- review:begin sa-lic-20261106-silibinin-2 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي (التراخيص ملغاة) والشكل الدوائي المناسب والتوافر الفعلي في السوق السعودي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-silibinin-2 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «كلا الترخيصين ملغى حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «(التراخيص ملغاة)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

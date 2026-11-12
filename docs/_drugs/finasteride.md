@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 355
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Finasteride: الاستطباب الجديد المتوقع Ambras type hypertrichosis universalis congenita (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -103,6 +103,12 @@ description: "Finasteride: الاستطباب الجديد المتوقع Ambras
 
 لم يتوفر نص المؤشر المعتمد أو الشكل الدوائي لأي منها ضمن البيانات المجمّعة.
 
+<!-- review:begin sa-lic-20261106-finasteride-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(ملاحظة: يوجد ترخيصان إضافيان ملغيان هما PROHAIR 1 mg وPROPECIA.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 7، منها سارية: 7؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-finasteride-1 -->
+
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
 | PROSTID 5MG F-C TABLETS | PROSTID 5MG F-C TABLETS | SPIMACO | ساري |
@@ -133,6 +139,19 @@ description: "Finasteride: الاستطباب الجديد المتوقع Ambras
 - إجراء مراجعة منهجية للأدبيات حول فيناستيرايد في الشعرانية وفرط الشعر المعتمد على الأندروجين، وتحديد الأنماط الفرعية التي قد تستجيب.
 - تقييم إمكانية إعادة تسجيل الدواء أو توفره في السوق السعودي، وبيان مدى توافق الشكل الدوائي والمسار.
 - تقييم مخاطر السلامة، خاصة التأثير على الجنين الذكر، عند النظر في استخدامات جديدة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «(ملاحظة: يوجد ترخيصان إضافيان ملغيان هما PROHAIR 1 mg وPROPECIA.)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

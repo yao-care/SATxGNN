@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 291
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "إيفافيرينز: الاستطباب الجديد المتوقع هو متلازمة نقص المناعة المكتسبة القططية (feline acquired immunodeficiency syndrome) (مستوى الدليل L4، درجة نموذج TxGNN (التعلم العميق) 0.9980). قد تعكس الدرجة أوجه تشابه تعلّمها النموذج بين أمراض ذات صلة، وليست دليلاً بيولوجياً."
 monitor_inn: "efavirenz"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -123,6 +123,25 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 - استكمال بيانات آلية العمل من DrugBank
 - الحصول على نشرة العبوة المعتمدة من هيئة الغذاء والدواء السعودية لاستكمال التحذيرات وموانع الاستعمال
 - التحقق من الوضع التنظيمي والتجاري
+
+<!-- review:begin sa-lic-20261106-efavirenz-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من الوضع التنظيمي والتجاري، إذ إن الترخيص الوحيد ملغى» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-efavirenz-1 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «إذ إن الترخيص الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

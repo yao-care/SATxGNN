@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 466
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ivabradine: الاستطباب الجديد المتوقع فرط الشعر (Hypertrichosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات المجمّعة (نص الاستطباب في تراخيص هيئة الغذاء وا…"
 monitor_inn: "IVABRADINE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -122,6 +122,25 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 - استكمال بيانات آلية العمل من DrugBank لتحليل الرابط الآلي.
 - إجراء مراجعة منهجية للأدبيات ودراسات ما قبل سريرية تقيّم دور قنوات HCN في بصيلات الشعر.
 - مراجعة سلامة خاصة عند التفكير في استخدام الدواء في الاضطرابات النمائية الخلقية.
+
+<!-- review:begin sa-lic-20261106-ivabradine-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح سبب إلغاء التراخيص المحلية وتقييم الجدوى التنظيمية. / مراجعة سلامة خاصة عند التفكير في استخدام الدواء في الاضطرابات النمائية الخلقية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-ivabradine-1 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «توضيح سبب إلغاء التراخيص المحلية وتقييم الجدوى التنظيمية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

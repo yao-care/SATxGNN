@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Efmoroctocog Alfa: الاستطباب الجديد المتوقع مرض فون ويلبراند الكاذب (pseudo-von Willebrand disease) (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا، والشكل العَرَضي للهيموفيليا لدى الناقلات من الإنا…"
 monitor_inn: "EFMOROCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
@@ -133,6 +133,25 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 - التحقق من تصنيف «الهيموفيليا A مع شذوذ وعائي» (الترتيب 9) لأنه متداخل مع الاستطباب الأصلي.
 - استبعاد فرفرية نقص الصفيحات الخثارية (TTP) لأسباب تتعلق بالسلامة.
 - التحقق من وضع التسويق.
+
+<!-- review:begin sa-lic-20261106-efmoroctocog_alfa-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من وضع التسويق، وما إذا كان إلغاء التراخيص تجارياً أم تنظيمياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-efmoroctocog_alfa-1 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «وما إذا كان إلغاء التراخيص تجارياً أم تنظيمياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

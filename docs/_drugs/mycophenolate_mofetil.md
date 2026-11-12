@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 574
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Mycophenolate Mofetil: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L2). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف عامةً: الوقاية من رفض الأعضاء ا…"
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -136,6 +136,25 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 - استكمال بيانات آلية العمل من DrugBank.
 - تقييم مراجعة منهجية للتجارب المرتبطة مباشرة بـMMF في HIV.
 - ملاحظة: الدلالة الأقوى أدلةً بين التنبؤات هي **التصلب المتعدد** (تجارب مرحلة 2/3 صغيرة ومراجعتا Cochrane)، وقد تستحق تقييمًا مستقلًا، لكن الأدلة عليها منخفضة اليقين وتتوفر علاجات معتمدة بديلة.
+
+<!-- review:begin sa-lic-20261106-mycophenolate_mofetil-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد سبب إلغاء التراخيص السعودية وإمكانية توفر الدواء في السوق. / تقييم مراجعة منهجية للتجارب المرتبطة مباشرة بـMMF في HIV.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 11، منها سارية: 11؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-mycophenolate_mofetil-1 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «تحديد سبب إلغاء التراخيص السعودية وإمكانية توفر الدواء في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

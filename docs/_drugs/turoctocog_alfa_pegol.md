@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 850
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Turoctocog Alfa Pegol: الاستطباب الجديد المتوقع اضطراب إفراز الصفائح الدموية الأولي (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا، والشكل العَرَضي من الهيموفيليا لدى الحاملات من الإناث (ل…"
 monitor_inn: "TUROCTOCOG ALFA PEGOL"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "hereditary thrombocytosis with transverse limb defect", "fetal and neonatal alloimmune thrombocytopenia"]
@@ -118,6 +118,25 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 - استكمال بيانات آلية العمل من DrugBank.
 - إجراء مراجعة منهجية للأدبيات والتجارب، مع إعطاء الأولوية لـ**نقص عوامل التخثر المكتسب** لكونه الأكثر معقولية آليًا، بعد توضيح دور الأجسام المضادة المثبطة.
 - التحقق من هوية المرض «flood factor deficiency» في الأنطولوجيا قبل أي تقييم.
+
+<!-- review:begin sa-lic-20261106-turoctocog_alfa_pegol-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من هوية المرض «flood factor deficiency» في الأنطولوجيا قبل أي تقييم. / توضيح وضع الترخيص الملغى وإمكانية إعادة التسجيل أو توفر المنتج في السوق السعودي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-turoctocog_alfa_pegol-1 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «توضيح وضع الترخيص الملغى وإمكانية إعادة التسجيل أو توفر المنتج في السوق السعودي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

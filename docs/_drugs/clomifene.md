@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "كلوميفين: الاستطباب الجديد المتوقع هو اضطراب تمايز الجنس 46,XY الناجم عن عيب في تخليق الستيرويدات الخصوية (46,XY disorder of sex development due to testicular steroidogenesis defect) (مستوى الدليل L5). الاستطباب الأصلي: العقم عند النساء. الدرجة 0.9990 صادرة عن نموذج TxGNN (تعلّم عميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مترابطة، وليست دليلًا بيولوجيًا."
 monitor_inn: "CLOMIFENE"
 predicted_indications: ["46,XY disorder of sex development due to testicular steroidogenesis defect", "longitudinal vaginal septum", "transverse vaginal septum", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "ovarian remnant syndrome"]
@@ -117,6 +117,25 @@ predicted_indications: ["46,XY disorder of sex development due to testicular ste
 - استكمال بيانات آلية العمل من DrugBank.
 - إجراء مراجعة منهجية للأدبيات وبحث في سجلات التجارب السريرية للاستطباب المتنبأ به.
 - التحقق من التوافق مع طريق الإعطاء.
+
+<!-- review:begin sa-lic-20261106-clomifene-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من التوافق مع طريق الإعطاء، وتقييم استمرار جدوى الدواء تجارياً في ظل إلغاء التراخيص الحالية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-clomifene-1 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «وتقييم استمرار جدوى الدواء تجارياً في ظل إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

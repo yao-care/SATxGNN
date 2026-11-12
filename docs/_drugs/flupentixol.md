@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "FLUPENTIXOL"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Flupentixol: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -107,6 +107,12 @@ description: "Flupentixol: الاستطباب الجديد المتوقع Retina
 
 (عُرضت خمسة تراخيص من أصل ستة؛ والسادس هو FLUANXOL DEPOT 20MG-ML 2 ML.)
 
+<!-- review:begin sa-lic-20261106-flupentixol-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(عُرضت خمسة تراخيص من أصل ستة؛ والسادس هو FLUANXOL DEPOT 20MG-ML 2 ML، وهو ملغى أيضًا.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-flupentixol-1 -->
+
 ---
 
 ## اعتبارات السلامة
@@ -128,6 +134,26 @@ description: "Flupentixol: الاستطباب الجديد المتوقع Retina
 - استكمال بيانات آلية العمل من DrugBank.
 - إجراء مراجعة أدبية موجهة وفحص مخبري أو دراسات ما قبل سريرية لتقييم أي صلة بيولوجية بحثل الشبكية.
 - تقييم مخاطر سمية الشبكية المحتملة.
+
+<!-- review:begin sa-lic-20261106-flupentixol-2 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم مخاطر سمية الشبكية المحتملة. / إعادة تقييم جدوى الاستمرار في ضوء إلغاء التراخيص المحلية وتوافر المنتج في السوق.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-flupentixol-2 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «وهو ملغى أيضًا» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «إعادة تقييم جدوى الاستمرار في ضوء إلغاء التراخيص المحلية وتوافر المنتج في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

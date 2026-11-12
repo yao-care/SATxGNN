@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ADEFOVIR DIPIVOXIL"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hepatitis C virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Adefovir Dipivoxil: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد C المزمنة (chronic hepatitis C virus infection) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
@@ -99,6 +99,12 @@ description: "Adefovir Dipivoxil: الاستطباب الجديد المتوقع
 
 تشير بيانات الحالة العامة إلى أن الدواء مسوَّق. يُنصح بالتحقق من الوضع الفعلي للترخيص لدى هيئة الغذاء والدواء.
 
+<!-- review:begin sa-lic-20261106-adefovir_dipivoxil-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الترخيص الوحيد المسجّل (GlaxoSmithKline) مصنَّف حالياً ضمن التراخيص الملغاة في السجل المحلي، بينما تشير بيانات الحالة العامة إلى أن الدواء مسوَّق.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-adefovir_dipivoxil-1 -->
+
 ---
 
 ## اعتبارات السلامة
@@ -122,6 +128,19 @@ description: "Adefovir Dipivoxil: الاستطباب الجديد المتوقع
 - بيانات آلية العمل التفصيلية من DrugBank.
 - نص النشرة الدوائية المعتمدة من هيئة الغذاء والدواء السعودية (التحذيرات وموانع الاستعمال).
 - التحقق من حالة الترخيص الفعلية للمنتج في السعودية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «الترخيص الوحيد المسجّل (GlaxoSmithKline) مصنَّف حالياً ضمن التراخيص الملغاة في السجل المحلي، بينما» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

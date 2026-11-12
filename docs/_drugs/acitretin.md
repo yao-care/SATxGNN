@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 21
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Acitretin: الاستطباب الجديد المتوقع حب الشباب (acne) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المسجّلة"
 monitor_inn: "ACITRETIN"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -101,6 +101,12 @@ predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosu
 
 الشركة المصنّعة: PATHEON INC.
 
+<!-- review:begin sa-lic-20261106-acitretin-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الشركة المصنّعة: PATHEON INC. الترخيصان كلاهما ملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-acitretin-1 -->
+
 ---
 
 ## السمّية الخلوية
@@ -135,6 +141,19 @@ predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosu
 - التحقق من رقم التجربة NCT07708480 وحالتها.
 - إجراء دراسات مباشرة على حب الشباب (مقارنة بالأيزوتريتينوين) مع خطة صارمة لمنع الحمل.
 - تحديد وضع الترخيص المحلي والاستطباب الأصلي المسجّل.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «الترخيصان كلاهما ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 626
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Palivizumab: الاستطباب الجديد المتوقع ورم حميد في اللسان (Benign neoplasm of tongue) (مستوى الدليل L5). الاستطباب الأصلي: عدوى الفيروس المخلوي التنفسي (RSV)"
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
@@ -88,6 +88,12 @@ predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cer
 
 الجهة المصنّعة هي Boehringer Ingelheim.
 
+<!-- review:begin sa-lic-20261106-palivizumab-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كلا الترخيصين ملغى، والجهة المصنّعة هي Boehringer Ingelheim.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-palivizumab-1 -->
+
 ---
 
 ## اعتبارات السلامة
@@ -108,6 +114,19 @@ predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cer
 - استكمال بيانات آلية العمل من DrugBank.
 - إثبات أساس بيولوجي أو بيانات ما قبل سريرية تدعم الاستطباب الجديد.
 - ملاحظة أن التوقعات التسعة التالية (مثل ورم لسان المزمار، والورم الأرومي العصبي العنقي، وغيرها) لها الوضع نفسه: مستوى أدلة L5 وبلا أي دعم، وتستحق إعادة نظر بالمنهجية ذاتها.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «كلا الترخيصين ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

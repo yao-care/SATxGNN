@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 701
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "QUETIAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -119,12 +119,31 @@ description: "Quetiapine: الاستطباب الجديد المتوقع Retinal
 - الدليل المتاح لنتف الشعر القهري يقتصر على تقارير حالات ومراجعات دون تجارب مضبوطة، واتجاه التأثير غير مؤكد لأن كيتيابين قد يفاقم الأعراض الوسواسية.
 - كما أن بيانات السلامة من النشرة الدوائية غير مكتملة، وهي فجوة حاجبة للانتقال إلى مرحلة فحص السلامة.
 
+<!-- review:begin sa-lic-20261106-quetiapine-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص كيتيابين في السعودية ملغاة، كما أن بيانات السلامة من النشرة الدوائية غير مكتملة، وهي فجوة حاجبة للانتقال إلى مرحلة فحص السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-quetiapine-1 -->
+
 **للمضي قدمًا يلزم:**
 - تنزيل وتحليل النشرة الدوائية من موقع هيئة الغذاء والدواء السعودية لاستخراج التحذيرات وموانع الاستعمال.
 - استكمال بيانات آلية العمل من DrugBank.
 - قراءة النصوص الكاملة للدراسات المنشورة وتقييم جودتها بدل الاعتماد على العناوين.
 - تقييم جدوى تجربة سريرية عشوائية مضبوطة صغيرة، ومقارنتها بالعلاجات المعيارية (العلاج السلوكي، N-acetylcysteine).
 - توضيح وضع التسجيل في السعودية (إعادة التسجيل أو توفر المنتج) قبل أي تطبيق عملي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «جميع تراخيص كيتيابين في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

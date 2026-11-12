@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 280
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 description: "Doxorubicin: الاستطباب الجديد المتوقع ساركوما إوينغ (مستوى الدليل L1). الاستطباب الأصلي: اللوكيميا الليمفاوية الحادة، لمفوما هودجكن، اللمفوما غير الهودجكنية،…"
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
@@ -160,6 +160,12 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 - وضع خطة لمراقبة القلب وحدود الجرعة التراكمية، خاصة لدى الأطفال والشباب.
 - تحديد مساهمة دوكسوروبيسين نفسه ضمن الأنظمة المركّبة.
 
+<!-- review:begin sa-lic-20261106-doxorubicin-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح مسار إعادة التسجيل أو الاستيراد في السعودية في ظل إلغاء جميع التراخيص. / تحديد مساهمة دوكسوروبيسين نفسه ضمن الأنظمة المركّبة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-doxorubicin-1 -->
+
 ---
 
 ### ملاحظة عن الاستطبابات الأخرى المتنبأ بها
@@ -177,6 +183,18 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 | الساركوما الرابدية العضلية الجنينية العنقودية للمهبل | L4 | تعليق (Hold) |
 | الابيضاض الوحيدي | L5 | تعليق (Hold) |
 | سرطان غدي جنيني متمايز جيداً في الرئة | L5 | تعليق (Hold) |
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «توضيح مسار إعادة التسجيل أو الاستيراد في السعودية في ظل إلغاء جميع التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

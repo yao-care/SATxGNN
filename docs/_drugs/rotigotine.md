@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 736
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "ROTIGOTINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
 description: "Rotigotine: الاستطباب الجديد المتوقع Attention deficit-hyperactivity disorder (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -120,6 +120,12 @@ description: "Rotigotine: الاستطباب الجديد المتوقع Attenti
 - التوقع قائم على نموذج حسابي، ولا توجد تجارب سريرية، والأدبيات المتاحة غير مباشرة ولم تختبر روتيجوتين في ADHD (مستوى الأدلة L4).
 - لم يتوفر نص التحذيرات وموانع الاستعمال الرسمي، ما يعيق تقييم السلامة.
 
+<!-- review:begin sa-lic-20261106-rotigotine-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في المملكة ملغاة، ولم يتوفر نص التحذيرات وموانع الاستعمال الرسمي، ما يعيق تقييم السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-rotigotine-1 -->
+
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء المعتمدة وتحليل التحذيرات وموانع الاستعمال.
 - استكمال بيانات آلية العمل من DrugBank.
@@ -129,6 +135,19 @@ description: "Rotigotine: الاستطباب الجديد المتوقع Attenti
 ---
 
 **ملاحظة بشأن بقية التوقعات:** تضم قائمة التوقعات أيضاً الفصام (مستوى L4، القرار Hold، دعم غير مباشر فقط من مراجعة منهجية لأدوية محفزة للدوبامين، مع مخاوف من تفاقم الذهان)، إضافة إلى أمراض نادرة وراثية (مثل اعتلال الشبكية الوراثي، وقصر النظر المرتبط بالصبغي X، واعتلال الأعصاب شاركو-ماري-توث) بمستوى L5 دون أي أدلة داعمة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «جميع تراخيص الدواء في المملكة ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

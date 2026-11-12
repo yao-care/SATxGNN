@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 116
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Brigatinib: الاستطباب الجديد المتوقع تليف اللثة الورمي (Fibromatosis, Gingival) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الرئة غير صغير الخلايا / سرطان الرئة"
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -125,6 +125,12 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 - التنبؤ قائم على النموذج الحسابي فقط (مستوى الأدلة L5) دون أي تجارب سريرية أو أدبيات أو رابط آلي مقنع لتليف اللثة الورمي.
 - وبيانات تحذيرات وموانع الاستعمال غير متوفرة.
 
+<!-- review:begin sa-lic-20261106-brigatinib-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حالياً ترخيص ساري للدواء في المملكة (الترخيص الوحيد ملغى)، وبيانات تحذيرات وموانع الاستعمال غير متوفرة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-brigatinib-1 -->
+
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على نشرة SFDA الدوائية وتحليل التحذيرات وموانع الاستعمال.
 - استكمال بيانات آلية العمل من DrugBank.
@@ -132,6 +138,19 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 - توضيح وضع الترخيص في المملكة وتوفر الدواء.
 
 **ملاحظة إضافية:** من بين التنبؤات الأخرى ضمن الترتيب، ظهرت أدلة غير مباشرة لدى الاستطباب المصنّف عاشراً (متلازمة Leukomelanoderma...)؛ إذ تشير الأدبيات إلى نشاط بريغاتينيب في **داء الشفانوما المرتبط بـ NF2** (دراسة ما قبل سريرية وتقرير سريري عام 2024 في NEJM). هذا الدليل لا يخص المتلازمة المدرجة، ويستحق تقييماً مستقلاً كاستطباب منفصل.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري للدواء في المملكة (الترخيص الوحيد ملغى)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

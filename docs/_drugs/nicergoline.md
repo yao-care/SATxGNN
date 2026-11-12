@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 584
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Nicergoline: الاستطباب الجديد المتوقع فرط الشعر (Hypertrichosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء فارغ…"
 monitor_inn: "NICERGOLINE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "benign prostatic hyperplasia (disease)", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
@@ -94,6 +94,12 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 الأدلة قديمة، وغالبيتها غير عشوائية أو ما قبل سريرية، ولذلك فهي أدلة سريرية غير مباشرة أو منخفضة الدرجة.
 
+<!-- review:begin sa-lic-20261106-nicergoline-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كلا الترخيصين ملغى، ولا يوجد حاليًا أي ترخيص ساري.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-nicergoline-1 -->
+
 ---
 
 ## معلومات السوق في المملكة العربية السعودية
@@ -125,6 +131,26 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 - تحديد الاستطباب الأصلي المرخّص.
 - إجراء مراجعة أدبيات منهجية لاستطباب الشقيقة وتضخم البروستاتا الحميد.
 - وتقييم التوافق مع طرق الإعطاء.
+
+<!-- review:begin sa-lic-20261106-nicergoline-2 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم الجدوى التنظيمية في ضوء إلغاء التراخيص الحالية، وتقييم التوافق مع طرق الإعطاء.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-nicergoline-2 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «كلا الترخيصين ملغى، ولا يوجد حاليًا أي ترخيص ساري» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «تقييم الجدوى التنظيمية في ضوء إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

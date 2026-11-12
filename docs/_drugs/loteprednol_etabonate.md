@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 518
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "LOTEPREDNOL ETABONATE"
 predicted_indications: ["chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
 description: "Loteprednol Etabonate: الاستطباب الجديد المتوقع Chronic follicular conjunctivitis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -94,6 +94,12 @@ description: "Loteprednol Etabonate: الاستطباب الجديد المتو�
 
 وللتنبؤ الخامس (التهاب الملتحمة الغشائي الكاذب) توجد دراسة واحدة:
 
+<!-- review:begin sa-lic-20261106-loteprednol_etabonate-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حالياً أي ترخيص ساري المفعول للمستحضر في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-loteprednol_etabonate-1 -->
+
 | PMID | السنة | النوع | المجلة | أهم النتائج |
 |------|-----|------|------|---------|
 | [40638366](https://pubmed.ncbi.nlm.nih.gov/40638366/) | 2025 | دراسة مقارنة (التصميم غير مؤكد) | Ocular Immunology and Inflammation | تقييم بالـPCR لانخفاض الحمل الفيروسي في التهاب الملتحمة الغدي الفيروسي، مقارنة غانسيكلوفير وبوفيدون-يود ومزجهما مع لوتيبريدنول. دور لوتيبريدنول لا يمكن تأكيده من البيانات المتاحة |
@@ -137,6 +143,19 @@ description: "Loteprednol Etabonate: الاستطباب الجديد المتو�
 - تحديد أي الأسباب يستفيد فعلاً من الستيرويد الموضعي، مع استبعاد العدوى قبل الاستخدام.
 - التحقق من وضع الترخيص أو توفر المنتج في السوق السعودي.
 - تقييم التداخلات الدوائية المحتملة بمستويات خطورة واضحة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «لا يوجد حالياً أي ترخيص ساري المفعول للمستحضر في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

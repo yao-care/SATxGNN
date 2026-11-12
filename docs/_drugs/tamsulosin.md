@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 786
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Tamsulosin: الاستطباب الجديد المتوقع فرط الشعر الخلقي العام من نوع أمبراس (مستوى الدليل L5). الاستطباب الأصلي: تضخم البروستات الحميد"
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
@@ -111,11 +111,30 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 **المبررات:**
 - التنبؤ حسابي فقط (مستوى الأدلة L5)، بلا تجارب سريرية ولا منشورات ولا رابط آلي معقول.
 
+<!-- review:begin sa-lic-20261106-tamsulosin-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ حسابي فقط (مستوى الأدلة L5)، بلا تجارب سريرية ولا منشورات ولا رابط آلي معقول. وليس للدواء ترخيص ساري في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-tamsulosin-1 -->
+
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء المعتمدة وتحليل التحذيرات والموانع (فجوة حاجزة للانتقال إلى فحص السلامة).
 - استكمال بيانات آلية العمل من DrugBank.
 - إثبات رابط آلي بيولوجي بين حصر مستقبلات ألفا-1 والمرض المتوقع، أو دراسات أولية (مخبرية/حيوانية) تدعمه.
 - إعادة تقييم الاستطبابات المتوقعة الأخرى للبحث عن أي دليل مباشر قبل المتابعة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «وليس للدواء ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 776
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Sulfacetamide: الاستطباب الجديد المتوقع التهاب الأوعية الدموية التالي للعدوى (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب، التهاب الجلد الدهني، التهاب الملتحمة، التهاب العنبية، داء…"
 monitor_inn: "SULFACETAMIDE"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "parasitic eyelid infestation"]
@@ -146,6 +146,25 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 - استكمال بيانات آلية العمل من DrugBank.
 - إجراء مراجعة منهجية للأدبيات حول التهاب الأوعية التالي للعدوى، وتقييم التوقعات الأقرب بيولوجياً (مثل التهاب الأذن الخارجية) كأولوية بديلة.
 - تحديد توافق طريق الإعطاء مع الاستطباب الجديد.
+
+<!-- review:begin sa-lic-20261106-sulfacetamide-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد توافق طريق الإعطاء مع الاستطباب الجديد، وتقييم الجدوى في ظل إلغاء التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+
+<!-- review:end sa-lic-20261106-sulfacetamide-1 -->
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-06 | حُذف: «وتقييم الجدوى في ظل إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
