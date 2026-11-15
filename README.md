@@ -24,7 +24,7 @@ Drug repurposing predictions for Saudi Arabia SFDA-approved drugs using the TxGN
 | **Unique Drugs** | 1,102 |
 | **Unique Indications** | 17,041 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 1,062 MK / 5,706 CUD |
+| **FHIR Resources** | 858 MK / 4,745 CUD |
 
 ### Evidence Level Distribution
 
