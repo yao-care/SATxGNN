@@ -451,3 +451,13 @@
     align-items: flex-start;
   }
 }
+
+/* RTL（阿拉伯文）版面：just-the-docs 只為由左至右寫死左右方向，側欄已在右側，主內容卻還留左邊距、跳到主內容連結往左推 999px 撐寬頁面（2026-11-15 修） */
+[dir="rtl"] .skip-to-main { left: auto; right: -999px; }
+[dir="rtl"] .skip-to-main:focus, [dir="rtl"] .skip-to-main:active { right: auto; }
+@media (min-width: 50rem) {
+  [dir="rtl"] .main { margin-left: 0; margin-right: 16.5rem; }
+}
+@media (min-width: 66.5rem) {
+  [dir="rtl"] .main { margin-left: 0; margin-right: calc((100% - 66.5rem) / 2 + 16.5rem); }
+}
