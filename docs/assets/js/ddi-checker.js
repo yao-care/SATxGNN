@@ -19,9 +19,9 @@
 
   // Severity levels with priority (higher = more severe)
   const SEVERITY = {
-    'Major': { priority: 3, class: 'ddi-major', label: 'Major' },
-    'Moderate': { priority: 2, class: 'ddi-moderate', label: 'Moderate' },
-    'Minor': { priority: 1, class: 'ddi-minor', label: 'Minor' }
+    'Major': { priority: 3, class: 'ddi-major', label: 'شديد' },
+    'Moderate': { priority: 2, class: 'ddi-moderate', label: 'متوسط' },
+    'Minor': { priority: 1, class: 'ddi-minor', label: 'طفيف' }
   };
 
   // 15 built-in high-priority DDI rules (hand-curated, DDInter consulted as a reference)
@@ -33,9 +33,9 @@
         ['ibuprofen', 'advil', 'motrin', 'brufen']
       ],
       severity: 'Major',
-      summary: 'Warfarin + Ibuprofen: increased bleeding risk',
-      detail: 'NSAIDs inhibit platelet function and may enhance the anticoagulant effect of warfarin, significantly increasing the risk of gastrointestinal bleeding.',
-      recommendation: 'Use acetaminophen instead, or add a PPI for gastric protection.'
+      summary: 'وارفارين + إيبوبروفين: زيادة خطر النزف',
+      detail: 'تثبط مضادات الالتهاب غير الستيرويدية وظيفة الصفائح الدموية وقد تعزز التأثير المضاد للتخثر للوارفارين، مما يزيد خطر النزف الهضمي زيادة كبيرة.',
+      recommendation: 'استخدم الباراسيتامول بدلًا منه، أو أضف مثبطًا لمضخة البروتون لحماية المعدة.'
     },
     {
       drugs: [
@@ -43,9 +43,9 @@
         ['aspirin', 'acetylsalicylic acid']
       ],
       severity: 'Major',
-      summary: 'Warfarin + Aspirin: increased bleeding risk',
-      detail: 'Both affect haemostasis; combined use greatly increases the risk of bleeding.',
-      recommendation: 'If the combination is necessary, use low-dose aspirin and monitor INR closely.'
+      summary: 'وارفارين + أسبرين: زيادة خطر النزف',
+      detail: 'يؤثر كلاهما في الإرقاء؛ ويزيد استخدامهما معًا خطر النزف زيادة كبيرة.',
+      recommendation: 'إذا كان الجمع بينهما ضروريًا فاستخدم جرعة منخفضة من الأسبرين وراقب نسبة INR عن كثب.'
     },
     {
       drugs: [
@@ -53,9 +53,9 @@
         ['naproxen', 'aleve', 'naprosyn']
       ],
       severity: 'Major',
-      summary: 'Warfarin + Naproxen: increased bleeding risk',
-      detail: 'Combining naproxen with warfarin increases the risk of gastrointestinal and other bleeding events.',
-      recommendation: 'Use acetaminophen for pain relief instead.'
+      summary: 'وارفارين + نابروكسين: زيادة خطر النزف',
+      detail: 'الجمع بين النابروكسين والوارفارين يزيد خطر النزف الهضمي وغيره من حالات النزف.',
+      recommendation: 'استخدم الباراسيتامول لتسكين الألم بدلًا منه.'
     },
     {
       drugs: [
@@ -63,9 +63,9 @@
         ['iodixanol', 'visipaque', 'iopamidol', 'isovue', 'contrast']
       ],
       severity: 'Major',
-      summary: 'Metformin + iodinated contrast media: risk of lactic acidosis',
-      detail: 'Contrast media may cause acute kidney injury, leading to metformin accumulation and lactic acidosis.',
-      recommendation: 'Stop metformin 48 hours before the procedure and restart only after renal function is confirmed normal.'
+      summary: 'ميتفورمين + مواد التباين اليودية: خطر الحماض اللبني',
+      detail: 'قد تسبب مواد التباين إصابة كلوية حادة تؤدي إلى تراكم الميتفورمين والحماض اللبني.',
+      recommendation: 'أوقف الميتفورمين قبل الإجراء بـ48 ساعة ولا تستأنفه إلا بعد التأكد من سلامة وظائف الكلى.'
     },
     {
       drugs: [
@@ -73,9 +73,9 @@
         ['clarithromycin', 'biaxin', 'klacid']
       ],
       severity: 'Major',
-      summary: 'Colchicine + Clarithromycin: risk of toxicity',
-      detail: 'Clarithromycin is a strong CYP3A4 inhibitor and greatly increases colchicine blood levels.',
-      recommendation: 'Avoid the combination or substantially reduce the colchicine dose.'
+      summary: 'كولشيسين + كلاريثرومايسين: خطر السمية',
+      detail: 'الكلاريثرومايسين مثبط قوي لإنزيم CYP3A4 ويرفع مستويات الكولشيسين في الدم بشدة.',
+      recommendation: 'تجنب الجمع بينهما أو خفّض جرعة الكولشيسين بدرجة كبيرة.'
     },
     {
       drugs: [
@@ -83,9 +83,9 @@
         ['ritonavir', 'norvir', 'cobicistat', 'tybost']
       ],
       severity: 'Major',
-      summary: 'Colchicine + HIV protease inhibitors: risk of severe toxicity',
-      detail: 'HIV protease inhibitors markedly increase colchicine levels and may cause fatal toxicity.',
-      recommendation: 'Contraindicated in patients with renal or hepatic impairment.'
+      summary: 'كولشيسين + مثبطات بروتياز فيروس نقص المناعة البشرية: خطر سمية شديدة',
+      detail: 'ترفع مثبطات بروتياز فيروس نقص المناعة البشرية مستويات الكولشيسين بشكل ملحوظ وقد تسبب سمية قاتلة.',
+      recommendation: 'مضاد استطباب لدى مرضى القصور الكلوي أو الكبدي.'
     },
     {
       drugs: [
@@ -93,9 +93,9 @@
         ['amiodarone', 'cordarone']
       ],
       severity: 'Major',
-      summary: 'Simvastatin + Amiodarone: risk of myopathy',
-      detail: 'Amiodarone increases simvastatin levels, raising the risk of rhabdomyolysis.',
-      recommendation: 'Do not exceed simvastatin 20 mg/day, or switch to another statin.'
+      summary: 'سيمفاستاتين + أميودارون: خطر اعتلال العضلات',
+      detail: 'يرفع الأميودارون مستويات السيمفاستاتين، مما يزيد خطر انحلال الربيدات.',
+      recommendation: 'لا تتجاوز 20 ملغ يوميًا من السيمفاستاتين، أو انتقل إلى ستاتين آخر.'
     },
     {
       drugs: [
@@ -103,9 +103,9 @@
         ['tramadol', 'ultram']
       ],
       severity: 'Major',
-      summary: 'SSRI + Tramadol: risk of serotonin syndrome',
-      detail: 'Both increase serotonergic activity; combined use may cause life-threatening serotonin syndrome.',
-      recommendation: 'Monitor closely for symptoms (hyperthermia, myoclonus, altered mental status) and consider an alternative analgesic.'
+      summary: 'مثبطات استرداد السيروتونين الانتقائية + ترامادول: خطر متلازمة السيروتونين',
+      detail: 'يزيد كلاهما النشاط السيروتونيني؛ وقد يسبب استخدامهما معًا متلازمة سيروتونين مهددة للحياة.',
+      recommendation: 'راقب الأعراض عن كثب (فرط الحرارة، الرمع العضلي، تغير الحالة الذهنية) وفكّر في مسكن بديل.'
     },
     {
       drugs: [
@@ -113,9 +113,9 @@
         ['linezolid', 'zyvox']
       ],
       severity: 'Major',
-      summary: 'SSRI + Linezolid: risk of serotonin syndrome',
-      detail: 'Linezolid is an MAO inhibitor; combining it with an SSRI is highly dangerous.',
-      recommendation: 'Avoid the combination. If linezolid is required, stop the SSRI and allow an appropriate washout period.'
+      summary: 'مثبطات استرداد السيروتونين الانتقائية + لينزوليد: خطر متلازمة السيروتونين',
+      detail: 'اللينزوليد مثبط لأوكسيداز أحادي الأمين؛ والجمع بينه وبين هذه المثبطات بالغ الخطورة.',
+      recommendation: 'تجنب الجمع بينهما. إذا كان اللينزوليد ضروريًا فأوقف مثبط استرداد السيروتونين واترك فترة تخلص مناسبة.'
     },
     {
       drugs: [
@@ -123,9 +123,9 @@
         ['moxifloxacin', 'avelox']
       ],
       severity: 'Major',
-      summary: 'Amiodarone + Moxifloxacin: risk of QT prolongation',
-      detail: 'Both can prolong the QT interval; combined use increases the risk of torsades de pointes.',
-      recommendation: 'Avoid the combination or monitor the ECG closely.'
+      summary: 'أميودارون + موكسيفلوكساسين: خطر إطالة فترة QT',
+      detail: 'قد يطيل كلاهما فترة QT؛ ويزيد استخدامهما معًا خطر تسرع القلب البطيني متعدد الأشكال (torsades de pointes).',
+      recommendation: 'تجنب الجمع بينهما أو راقب تخطيط القلب عن كثب.'
     },
     {
       drugs: [
@@ -133,9 +133,9 @@
         ['amiodarone', 'cordarone']
       ],
       severity: 'Major',
-      summary: 'Digoxin + Amiodarone: risk of digoxin toxicity',
-      detail: 'Amiodarone increases digoxin blood levels by about 70%.',
-      recommendation: 'When starting amiodarone, halve the digoxin dose and monitor blood levels.'
+      summary: 'ديجوكسين + أميودارون: خطر التسمم بالديجوكسين',
+      detail: 'يرفع الأميودارون مستويات الديجوكسين في الدم بنحو 70%.',
+      recommendation: 'عند بدء الأميودارون خفّض جرعة الديجوكسين إلى النصف وراقب مستوياته في الدم.'
     },
     {
       drugs: [
@@ -143,9 +143,9 @@
         ['omeprazole', 'prilosec', 'esomeprazole', 'nexium']
       ],
       severity: 'Moderate',
-      summary: 'Clopidogrel + PPI: reduced antiplatelet effect',
-      detail: 'Omeprazole inhibits CYP2C19, reducing conversion of clopidogrel to its active metabolite.',
-      recommendation: 'Consider pantoprazole or an H2 blocker instead.'
+      summary: 'كلوبيدوغريل + مثبطات مضخة البروتون: انخفاض التأثير المضاد للصفائح',
+      detail: 'يثبط الأوميبرازول إنزيم CYP2C19، فيقل تحويل الكلوبيدوغريل إلى مستقلبه الفعال.',
+      recommendation: 'فكّر في البانتوبرازول أو أحد حاصرات H2 بدلًا منه.'
     },
     {
       drugs: [
@@ -153,9 +153,9 @@
         ['ibuprofen', 'advil', 'naproxen', 'aleve', 'diclofenac']
       ],
       severity: 'Major',
-      summary: 'Lithium + NSAIDs: risk of lithium toxicity',
-      detail: 'NSAIDs reduce renal excretion of lithium, raising its blood levels.',
-      recommendation: 'Avoid the combination or monitor lithium levels closely.'
+      summary: 'ليثيوم + مضادات الالتهاب غير الستيرويدية: خطر التسمم بالليثيوم',
+      detail: 'تقلل مضادات الالتهاب غير الستيرويدية الإطراح الكلوي لليثيوم فترتفع مستوياته في الدم.',
+      recommendation: 'تجنب الجمع بينهما أو راقب مستويات الليثيوم عن كثب.'
     },
     {
       drugs: [
@@ -163,9 +163,9 @@
         ['spironolactone', 'aldactone', 'eplerenone', 'inspra']
       ],
       severity: 'Major',
-      summary: 'Potassium supplements + potassium-sparing diuretics: risk of hyperkalaemia',
-      detail: 'Both raise serum potassium; combined use may cause life-threatening hyperkalaemia.',
-      recommendation: 'Monitor serum potassium regularly and avoid concurrent potassium supplementation.'
+      summary: 'مكملات البوتاسيوم + مدرات البول الحافظة للبوتاسيوم: خطر فرط بوتاسيوم الدم',
+      detail: 'يرفع كلاهما بوتاسيوم المصل؛ وقد يسبب استخدامهما معًا فرط بوتاسيوم الدم المهدد للحياة.',
+      recommendation: 'راقب بوتاسيوم المصل بانتظام وتجنب مكملات البوتاسيوم المتزامنة.'
     },
     {
       drugs: [
@@ -173,9 +173,9 @@
         ['trimethoprim', 'bactrim', 'septra', 'sulfamethoxazole']
       ],
       severity: 'Major',
-      summary: 'Methotrexate + TMP-SMX: risk of bone marrow suppression',
-      detail: 'Both inhibit folate metabolism; combined use increases the risk of bone marrow suppression and mucositis.',
-      recommendation: 'Avoid the combination, or ensure adequate folate supplementation and monitor blood counts closely.'
+      summary: 'ميثوتريكسات + تريميثوبريم-سلفاميثوكسازول: خطر تثبيط نقي العظم',
+      detail: 'يثبط كلاهما استقلاب الفولات؛ ويزيد استخدامهما معًا خطر تثبيط نقي العظم والتهاب الأغشية المخاطية.',
+      recommendation: 'تجنب الجمع بينهما، أو احرص على مكملات كافية من الفولات وراقب تعداد الدم عن كثب.'
     }
   ];
 
@@ -249,7 +249,7 @@
           summary: rule.summary,
           detail: rule.detail,
           recommendation: rule.recommendation,
-          source: 'SATxGNN built-in DDI rules (15 curated rules; not a full DDInter lookup)'
+          source: 'قواعد التداخلات المدمجة في SATxGNN (15 قاعدة مختارة؛ ليست بحثًا كاملًا في DDInter)'
         });
       }
     }
@@ -318,7 +318,7 @@
    */
   function formatAlertsHTML(alerts) {
     if (!alerts || alerts.length === 0) {
-      return '<div class="ddi-no-alerts">No drug interaction alerts found</div>';
+      return '<div class="ddi-no-alerts">لم يُعثر على تنبيهات للتداخلات الدوائية</div>';
     }
 
     let html = '<div class="ddi-alerts">';
@@ -332,10 +332,10 @@
           </div>
           <div class="ddi-alert-body">
             <p class="ddi-detail">${escapeHtml(alert.detail)}</p>
-            <p class="ddi-recommendation"><strong>Recommendation:</strong> ${escapeHtml(alert.recommendation)}</p>
+            <p class="ddi-recommendation"><strong>التوصية:</strong> ${escapeHtml(alert.recommendation)}</p>
           </div>
           <div class="ddi-alert-footer">
-            <span class="ddi-source">Source: ${escapeHtml(alert.source)}</span>
+            <span class="ddi-source">المصدر: ${escapeHtml(alert.source)}</span>
           </div>
         </div>
       `;
@@ -353,7 +353,7 @@
       uuid: `ddi-alert-${index}`,
       summary: alert.summary,
       indicator: alert.severity === 'Major' ? 'critical' : alert.severity === 'Moderate' ? 'warning' : 'info',
-      detail: `${alert.detail}\n\nRecommendation: ${alert.recommendation}`,
+      detail: `${alert.detail}\n\nالتوصية: ${alert.recommendation}`,
       source: {
         label: 'SATxGNN DDI Checker',
         url: 'https://satxgnn.yao.care/'
