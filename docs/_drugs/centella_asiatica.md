@@ -8,6 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 description: "Centella Asiatica: الاستطباب الجديد المتوقع الأرق (insomnia) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في التراخيص فارغة)"
 monitor_inn: "CENTELLA ASIATICA"
+drugbank_id: DB14256
 predicted_indications: ["insomnia (disease)", "anxiety", "sleep disorder, initiating and maintaining sleep"]
 ---
 

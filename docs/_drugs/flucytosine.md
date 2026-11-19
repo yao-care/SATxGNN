@@ -8,6 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 description: "Flucytosine: الاستطباب الجديد المتوقع داء باجيت العظمي (bone Paget disease) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (يُعرف الدواء عمومًا كمضاد للفطريات)"
 monitor_inn: "FLUCYTOSINE"
+drugbank_id: DB01099
 predicted_indications: ["bone Paget disease"]
 ---
 

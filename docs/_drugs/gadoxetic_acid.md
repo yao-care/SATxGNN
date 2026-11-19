@@ -8,6 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 description: "Gadoxetic Acid: الاستطباب الجديد المتوقع فرط نشاط الغدة الدرقية (Hyperthyroidism) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (المستحضر مادة تباين تشخيصية للتصوير بالر…"
 monitor_inn: "GADOXETIC ACID"
+drugbank_id: DB08884
 predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia", "Prinzmetal angina", "infectious bovine rhinotracheitis", "malignant catarrh", "conjunctivitis", "cytomegalovirus infection", "conjunctivitis (disease)", "thrombotic disease"]
 ---
 

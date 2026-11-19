@@ -8,6 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 description: "Nitroprusside: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المحلية"
 monitor_inn: "nitroprusside"
+drugbank_id: DB00325
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "alopecia", "congenital hypotrichosis milia", "diffuse alopecia areata", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease"]
 ---
 

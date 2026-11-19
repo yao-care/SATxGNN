@@ -7,6 +7,7 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "silibinin"
+drugbank_id: DB09298
 predicted_indications: ["hemoglobinopathy", "thrombotic disease", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "beta-thalassemia with other manifestations", "thrombophilia", "partial deletion of the short arm of chromosome 16", "severe nonproliferative diabetic retinopathy"]
 description: "Silibinin: الاستطباب الجديد المتوقع Hemoglobinopathy (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---

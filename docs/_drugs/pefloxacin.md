@@ -7,6 +7,7 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "PEFLOXACIN"
+drugbank_id: DB00487
 predicted_indications: ["heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum", "pericardium disease", "cor biloculare", "myocardial rupture", "heart aneurysm", "cardiac anomalies-heterotaxy syndrome", "carcinoid heart disease"]
 description: "Pefloxacin: الاستطباب الجديد المتوقع اضطرابات التوصيل القلبي (heart conduction disease) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---

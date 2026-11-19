@@ -8,6 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 description: "Enflurane: الاستطباب الجديد المتوقع اضطراب ثنائي القطب مع نوبة الهوس (manic bipolar affective disorder) (مستوى الدليل L5). الاستطباب الأصلي: التخدير الاستنشاقي (بحسب اسم المنتج المرخّص؛ نص الاستطباب …"
 monitor_inn: "ENFLURANE"
+drugbank_id: DB00228
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "dysthymic disorder", "Prinzmetal angina", "myofascial pain syndrome", "migraine disorder", "bipolar disorder"]
 ---
 

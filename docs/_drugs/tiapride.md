@@ -8,6 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 description: "Tiapride: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine Disorder) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المتاحة"
 monitor_inn: "TIAPRIDE"
+drugbank_id: DB13025
 predicted_indications: ["migraine disorder"]
 ---
 

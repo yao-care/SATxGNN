@@ -7,6 +7,7 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "succinic acid"
+drugbank_id: DB00139
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "vitamin deficiency disorder", "non-syndromic esophageal malformation"]
 description: "Succinic Acid: الاستطباب الجديد المتوقع Vitamin B12- and folate-independent constitutional megaloblastic anemia (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---

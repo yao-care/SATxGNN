@@ -7,6 +7,7 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "TUBOCURARINE"
+drugbank_id: DB01199
 predicted_indications: ["irritable bowel syndrome"]
 description: "Tubocurarine: الاستطباب الجديد المتوقع متلازمة القولون العصبي (irritable bowel syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---

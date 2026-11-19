@@ -7,6 +7,7 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "VIDARABINE"
+drugbank_id: DB00194
 predicted_indications: ["actinic cheilitis", "angular cheilitis", "drug-induced osteoporosis"]
 description: "Vidarabine: الاستطباب الجديد المتوقع التهاب الشفة الشعّي (actinic cheilitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---

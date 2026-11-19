@@ -8,6 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 description: "Hymecromone: الاستطباب الجديد المتوقع اعتلال الكلية السكري (Diabetic nephropathy) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص"
 monitor_inn: "HYMECROMONE"
+drugbank_id: DB07118
 predicted_indications: ["diabetic nephropathy", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "allergic asthma", "intrinsic asthma", "gout", "hemoglobinopathy", "type 1 diabetes mellitus", "bronchitis", "partial deletion of the short arm of chromosome 16"]
 ---
 

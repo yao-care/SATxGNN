@@ -8,6 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 description: "Dihydralazine: الاستطباب الجديد المتوقع أمراض القلب (Heart disease) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (يُعرف تاريخيًا باستخدامه لعلاج ارتفاع ضغ…"
 monitor_inn: "dihydralazine"
+drugbank_id: DB12945
 predicted_indications: ["heart disease", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "Laubry-Pezzi syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "Jeune syndrome situs inversus", "disorder of fucoglycosan synthesis", "pulmonary valve disease", "partial deletion of the long arm of chromosome 22"]
 ---
 

@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "name": "SATxGNNFHIRServer",
   "title": "SATxGNN FHIR Server - Saudi Arabia Drug Repurposing",
-  "description": "FHIR R4 server for Saudi Arabia TxGNN drug repurposing predictions. Contains 858 drugs and 4745 predicted indications.",
+  "description": "FHIR R4 server for Saudi Arabia TxGNN drug repurposing predictions. Contains 882 drugs and 4894 predicted indications.",
   "status": "active",
-  "date": "2026-11-15",
+  "date": "2026-11-19",
   "publisher": "TxGNN Project",
   "kind": "instance",
   "fhirVersion": "4.0.1",
@@ -43,15 +43,15 @@
       "extension": [
         {
           "url": "MedicationKnowledge",
-          "valueInteger": 858
+          "valueInteger": 882
         },
         {
           "url": "ClinicalUseDefinition",
-          "valueInteger": 4745
+          "valueInteger": 4894
         },
         {
           "url": "countedAt",
-          "valueDate": "2026-11-15"
+          "valueDate": "2026-11-19"
         }
       ]
     }
