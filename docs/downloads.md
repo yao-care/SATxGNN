@@ -14,27 +14,23 @@ description: "تنزيلات البيانات المفتوحة في SATxGNN: م�
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## المملكة العربية السعودية: بيانات هذا الموقع
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## المملكة العربية السعودية: محتوى الملفات حاليًا
 
-ينشر هذا الموقع تقارير عن **{{ site.data.drug_stats.total_drugs }}** دواءً واردًا في بيانات التسجيل لدى [SFDA](https://www.sfda.gov.sa/) (المملكة العربية السعودية).
+| الملف | المحتوى الحالي |
+|---|---|
+| `/data/search-index.json` | {{ site.data.local_facts.files.search_index }} دواءً مع استطباباتها المتوقعة |
+| `/data/drugs.json` | {{ site.data.local_facts.files.drugs_json }} دواءً مع مستوى الدليل والاستطباب الأصلي |
+| `/fhir/MedicationKnowledge/` | {{ site.data.local_facts.fhir.medication_knowledge }} من موارد MedicationKnowledge (واحد لكل دواء) |
+| `/fhir/ClinicalUseDefinition/` | {{ site.data.local_facts.fhir.clinical_use_definition }} من موارد ClinicalUseDefinition (واحد لكل استطباب متوقع) |
 
-مجموعة البيانات: [SFDA Open Data](https://www.sfda.gov.sa/en/open-data)؛ تُنزَّل وتُقارَن تلقائيًا كل أسبوع (يوم الاثنين). التفاصيل: [مصادر البيانات]({{ '/sources/' | relative_url }}).
+إعادة استخدام مجموعة البيانات المحلية: [SFDA Open Data](https://www.sfda.gov.sa/en/open-data), تنشرها الهيئة العامة للغذاء والدواء؛ وتخضع إعادة استخدامها لشروط الجهة الناشرة، ولا يمنح هذا الموقع أي حقوق إضافية.
 
-التقارير حسب مستوى الدليل:
+{% if site.data.local_facts.top_licensed.size > 0 %}الأدوية ذات أكبر عدد من منتجات مسجلة لدى الهيئة العامة للغذاء والدواء بحالة «مسجلة»: {% for r in site.data.local_facts.top_licensed limit: 5 offset: 3 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.lv }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
 
-| مستوى الدليل | التقارير | النسبة |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.recent_reviews.size > 0 %}أحدث التصحيحات في سجل المراجعة: {% for r in site.data.local_facts.recent_reviews limit: 8 offset: 16 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-62 من أزواج الدواء والمرض المتوقعة في هذا الموقع لا تظهر في أي موقع آخر من مواقع TxGNN الثلاثين.
-
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## موارد FHIR
 

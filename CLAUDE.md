@@ -36,3 +36,8 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 2026-11-12 頁首例外 6 頁的重審：總覽格「預測新適應症」是排名第一的預測，其中 4 頁（favipiravir、quetiapine、ranibizumab、warfarin）的等級格寫的卻是報告另外評估的適應症的等級。依總覽格的適應症重審（PubMed、ClinicalTrials.gov）：dasabuvir L3→L5、favipiravir L4→L5、quetiapine L4→L5、ranibizumab L1→L5（決策改 Hold）、warfarin L1→L4（決策改 Hold）、trifluoperazine 維持 L4；頁首隨總覽格（trifluoperazine、warfarin 由 L5 改 L4，記 header_level／description_level），衍生檔（drug_stats、drugs.json、FHIR、search-index、llms、README）已重產。
 同日正文許可證張數對快照事實層的掃描：0 筆不符（正文的數字都是總數、有效數或「列出其中 N 張」，SFDA 清單只有已註冊品項）。
 2026-11-12 許可證表格列狀態對事實層（母目錄 check_drug_page.py --row-status）：23 頁 33 列在 SFDA 註冊清單上（data-20261105 原始清單 Status 全為 Registered）的品項標成「ملغى」，以 33 筆 `sa-row-20261112-*` correct 紀錄改成本站既有寫法「ساري」。表格裡其他「ملغى」列的品項不在快照本藥名單（事實不明），這次不動。
+
+## 說明頁與證據等級頁的在地資料（2026-11-19）
+
+用戶 2026-11-19 決定的第一批改版（母目錄 `.claude/gen_local_pages_20261119.py` 產生，不逐站手改）：說明頁（about／guide／sources／downloads／methodology，自有結構站只有證據等級頁與隱私頁）加本站資料區塊（`<!-- local-facts -->`）、證據等級頁的事實段與藥名表（`<!-- tier-facts -->`、`<!-- tier-table -->`）、隱私頁的適用法律／權利／著作權與資料來源段（`<!-- privacy-law -->`）；en／es／de 樣板站的共用長段落縮成一段（`<!-- local-condensed -->`）。
+資料檔 `docs/_data/local_facts.json`、`docs/_data/evidence_tier_facts.json` 由 `scripts/local_facts.py`（＝母目錄 `.claude/local_facts_lib.py`）依藥物頁、許可證快照、查核紀錄、FHIR 算；`apply_drug_reviews.py`、許可證快照程式結尾會自動 `--write`，`check_seo_docs.py` 跑 `--check` 擋過期。跨站欄位（cross：本站獨有預測、30 站中位數）與頁面區塊只由母目錄產生器更新；藥物頁改等級、noindex 或預測後要在母目錄重跑。

@@ -18,27 +18,21 @@ description: "دليل استخدام SATxGNN: كيفية البحث عن الأ
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## المملكة العربية السعودية: بيانات هذا الموقع
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## المملكة العربية السعودية: مثال من هذا الموقع
 
-ينشر هذا الموقع تقارير عن **{{ site.data.drug_stats.total_drugs }}** دواءً واردًا في بيانات التسجيل لدى [SFDA](https://www.sfda.gov.sa/) (المملكة العربية السعودية).
+يُقرأ التقرير في هذا الموقع في ثلاث خطوات بالترتيب: مستوى الدليل، ثم بيانات السوق المحلية، ثم سجل المراجعة.
 
-مجموعة البيانات: [SFDA Open Data](https://www.sfda.gov.sa/en/open-data)؛ تُنزَّل وتُقارَن تلقائيًا كل أسبوع (يوم الاثنين). التفاصيل: [مصادر البيانات]({{ '/sources/' | relative_url }}).
+{% assign gx = site.data.local_facts.example %}
+{% if gx %}افتح [{{ gx.t }}]({{ gx.u | relative_url }}): يُظهر رأس الصفحة مستوى الدليل **{{ gx.l }}**؛ والاستطباب الجديد الرئيسي المتوقع هو **{{ gx.i }}**؛ وفي البيانات المحلية **{{ gx.lt }}** من منتجات مسجلة لدى الهيئة العامة للغذاء والدواء، منها **{{ gx.lv }}** بحالة «مسجلة»؛ وفي سجل المراجعة بالصفحة **{{ gx.r }}** مدخلات.{% endif %}
 
-التقارير حسب مستوى الدليل:
+{% if site.data.local_facts.most_reviewed.size > 0 %}الأدوية ذات أكبر عدد من مدخلات سجل المراجعة: {% for r in site.data.local_facts.most_reviewed %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.r }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
 
-| مستوى الدليل | التقارير | النسبة |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.recent_reviews.size > 0 %}أحدث التصحيحات في سجل المراجعة: {% for r in site.data.local_facts.recent_reviews limit: 8 offset: 8 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-62 من أزواج الدواء والمرض المتوقعة في هذا الموقع لا تظهر في أي موقع آخر من مواقع TxGNN الثلاثين.
+أمثلة على توقعات لا يذكرها أي موقع آخر من مواقع TxGNN للدواء نفسه: [Simeprevir]({{ '/drugs/simeprevir/' | relative_url }}) → hepatitis B virus infection, [Telaprevir]({{ '/drugs/telaprevir/' | relative_url }}) → HIV infectious disease, [Tubocurarine]({{ '/drugs/tubocurarine/' | relative_url }}) → متلازمة القولون العصبي, [Zalcitabine]({{ '/drugs/zalcitabine/' | relative_url }}) → feline acquired immunodeficiency syndrome.
 
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## البحث عن دواء
 

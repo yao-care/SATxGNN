@@ -14,25 +14,25 @@ description: "مصادر البيانات التي تقوم عليها SATxGNN: 
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## المملكة العربية السعودية: بيانات هذا الموقع
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## المملكة العربية السعودية: ما تغطيه البيانات المحلية
 
-ينشر هذا الموقع تقارير عن **{{ site.data.drug_stats.total_drugs }}** دواءً واردًا في بيانات التسجيل لدى [SFDA](https://www.sfda.gov.sa/) (المملكة العربية السعودية).
+البيانات المحلية: [SFDA Open Data](https://www.sfda.gov.sa/en/open-data). البيانات المحلية هي قائمة الأدوية المسجلة في البيانات المفتوحة للهيئة العامة للغذاء والدواء؛ تضم القائمة المنتجات المسجلة فقط، وليس فيها رقم ترخيص مستقل، فيُعرَّف كل منتج باسمه المسجل.
 
-التقارير حسب مستوى الدليل:
+| البند | القيمة |
+|---|---|
+| أدوية موجودة في البيانات المحلية | {{ site.data.local_facts.licence.drugs_with_data }} |
+| …لها منتج واحد على الأقل بحالة «مسجلة» | {{ site.data.local_facts.licence.drugs_with_current }} |
+| …لها منتجات ليس بينها منتج بحالة «مسجلة» | {{ site.data.local_facts.licence.drugs_none_current }} |
+| أدوية غير موجودة في البيانات المحلية | {{ site.data.local_facts.licence.drugs_without_data }} |
+| المدخلات المحلية (منتجات مسجلة لدى الهيئة العامة للغذاء والدواء) | {{ site.data.local_facts.licence.items_total }} |
+| …منها بحالة «مسجلة» | {{ site.data.local_facts.licence.items_current }} |
 
-| مستوى الدليل | التقارير | النسبة |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.no_current.size > 0 %}أدوية لها منتجات مسجلة لدى الهيئة العامة للغذاء والدواء في هذه البيانات وليس بينها منتج بحالة «مسجلة»: {% for r in site.data.local_facts.no_current %}[{{ r.t }}]({{ r.u | relative_url }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% if site.data.local_facts.no_current_more > 0 %}, و{{ site.data.local_facts.no_current_more }} أخرى{% endif %}{% endif %}
 
-62 من أزواج الدواء والمرض المتوقعة في هذا الموقع لا تظهر في أي موقع آخر من مواقع TxGNN الثلاثين.
+{% if site.data.local_facts.recent_licence_reviews.size > 0 %}أحدث تصحيحات بيانات التسجيل المحلية: {% for r in site.data.local_facts.recent_licence_reviews %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## نظرة عامة على المصادر
 

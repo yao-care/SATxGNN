@@ -14,27 +14,31 @@ description: "SATxGNN منصة للتنبؤ بإعادة توظيف الأدوي
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## المملكة العربية السعودية: بيانات هذا الموقع
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## المملكة العربية السعودية: بيانات هذا الموقع بالأرقام
 
-ينشر هذا الموقع تقارير عن **{{ site.data.drug_stats.total_drugs }}** دواءً واردًا في بيانات التسجيل لدى [SFDA](https://www.sfda.gov.sa/) (المملكة العربية السعودية).
+البيانات المحلية: [SFDA Open Data](https://www.sfda.gov.sa/en/open-data). البيانات المحلية هي قائمة الأدوية المسجلة في البيانات المفتوحة للهيئة العامة للغذاء والدواء؛ تضم القائمة المنتجات المسجلة فقط، وليس فيها رقم ترخيص مستقل، فيُعرَّف كل منتج باسمه المسجل.
 
-مجموعة البيانات: [SFDA Open Data](https://www.sfda.gov.sa/en/open-data)؛ تُنزَّل وتُقارَن تلقائيًا كل أسبوع (يوم الاثنين). التفاصيل: [مصادر البيانات]({{ '/sources/' | relative_url }}).
+| البند | القيمة |
+|---|---|
+| أدوية لها تقرير منشور | {{ site.data.local_facts.drugs_total }} |
+| أدوية موجودة في البيانات المحلية | {{ site.data.local_facts.licence.drugs_with_data }} |
+| …لها منتج واحد على الأقل بحالة «مسجلة» | {{ site.data.local_facts.licence.drugs_with_current }} |
+| …لها منتجات ليس بينها منتج بحالة «مسجلة» | {{ site.data.local_facts.licence.drugs_none_current }} |
+| أدوية غير موجودة في البيانات المحلية | {{ site.data.local_facts.licence.drugs_without_data }} |
+| المدخلات المحلية (منتجات مسجلة لدى الهيئة العامة للغذاء والدواء) | {{ site.data.local_facts.licence.items_total }} |
+| …منها بحالة «مسجلة» | {{ site.data.local_facts.licence.items_current }} |
+| مدخلات سجل المراجعة | {{ site.data.local_facts.reviews.records }} |
+| صفحات أدوية فيها مدخلات مراجعة | {{ site.data.local_facts.reviews.public_pages_with_records }} |
+| أزواج دواء ومرض متوقعة لا يذكرها أي موقع آخر من مواقع TxGNN | {{ site.data.local_facts.cross.unique_pairs }} |
 
-التقارير حسب مستوى الدليل:
+{% if site.data.local_facts.top_licensed.size > 0 %}الأدوية ذات أكبر عدد من منتجات مسجلة لدى الهيئة العامة للغذاء والدواء بحالة «مسجلة»: {% for r in site.data.local_facts.top_licensed %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.lv }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
 
-| مستوى الدليل | التقارير | النسبة |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.recent_reviews.size > 0 %}أحدث التصحيحات في سجل المراجعة: {% for r in site.data.local_facts.recent_reviews limit: 8 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-62 من أزواج الدواء والمرض المتوقعة في هذا الموقع لا تظهر في أي موقع آخر من مواقع TxGNN الثلاثين.
+أمثلة على توقعات لا يذكرها أي موقع آخر من مواقع TxGNN للدواء نفسه: [Potassium Gluconate]({{ '/drugs/potassium-gluconate/' | relative_url }}) → renal tubular acidosis, [Alclometasone]({{ '/drugs/alclometasone/' | relative_url }}) → seborrheic keratosis, [Aluminum Acetate]({{ '/drugs/aluminum-acetate/' | relative_url }}) → حب الشباب الجدري, [Antihemophilic Factor Human Recombinant]({{ '/drugs/antihemophilic-factor-human-recombinant/' | relative_url }}) → primary release disorder of platelets, [Chlorphenoxamine]({{ '/drugs/chlorphenoxamine/' | relative_url }}) → insomnia (disease), [Enoxacin]({{ '/drugs/enoxacin/' | relative_url }}) → متلازمة فرط اللزوجة متعددة النسائل, [Lomefloxacin]({{ '/drugs/lomefloxacin/' | relative_url }}) → cor biloculare, [Olaratumab]({{ '/drugs/olaratumab/' | relative_url }}) → prostatic urethra urothelial carcinoma.
 
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## الخلفية
 

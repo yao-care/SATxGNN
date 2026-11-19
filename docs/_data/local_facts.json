@@ -1,0 +1,467 @@
+{
+ "_about": "本檔由 scripts/local_facts.py 產生（母目錄 .claude/local_facts_lib.py），勿手改；cross 欄位由母目錄 .claude/gen_local_pages_20261119.py 更新",
+ "drugs_total": 882,
+ "level_counts": {
+  "L1": 13,
+  "L2": 39,
+  "L3": 33,
+  "L4": 76,
+  "L5": 692
+ },
+ "level_na": 29,
+ "public_pages": 882,
+ "licence_snapshot": "sa_licenses.json.gz",
+ "licence": {
+  "drugs_with_data": 827,
+  "drugs_with_current": 827,
+  "drugs_none_current": 0,
+  "drugs_without_data": 55,
+  "drugs_partial": 0,
+  "items_total": 3504,
+  "items_current": 3504
+ },
+ "reviews": {
+  "records": 706,
+  "pages": 473,
+  "public_pages_with_records": 473,
+  "by_action": {
+   "correct": 690,
+   "description_level": 2,
+   "header_level": 2,
+   "rereview": 6,
+   "rereview_result": 6
+  }
+ },
+ "fhir": {
+  "medication_knowledge": 882,
+  "clinical_use_definition": 4894
+ },
+ "top_licensed": [
+  {
+   "t": "Rivaroxaban",
+   "u": "/drugs/rivaroxaban/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 1,
+   "i": "rheumatoid arthritis"
+  },
+  {
+   "t": "Candesartan Cilexetil",
+   "u": "/drugs/candesartan-cilexetil/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 19,
+   "r": 1,
+   "i": "malignant hypertensive renal disease"
+  },
+  {
+   "t": "Dapoxetine",
+   "u": "/drugs/dapoxetine/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 19,
+   "r": 0,
+   "i": "الصداع النصفي"
+  },
+  {
+   "t": "Deferasirox",
+   "u": "/drugs/deferasirox/",
+   "l": "L4",
+   "lt": 19,
+   "lv": 19,
+   "r": 1,
+   "i": "HIV infectious disease"
+  },
+  {
+   "t": "Moxifloxacin",
+   "u": "/drugs/moxifloxacin/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 19,
+   "r": 0,
+   "i": "hyperamylasemia"
+  },
+  {
+   "t": "Prednisolone",
+   "u": "/drugs/prednisolone/",
+   "l": "L2",
+   "lt": 19,
+   "lv": 19,
+   "r": 0,
+   "i": "alopecia areata"
+  },
+  {
+   "t": "Xylometazoline",
+   "u": "/drugs/xylometazoline/",
+   "l": "L3",
+   "lt": 19,
+   "lv": 19,
+   "r": 1,
+   "i": "أمراض التجويف الأنفي"
+  },
+  {
+   "t": "Budesonide",
+   "u": "/drugs/budesonide/",
+   "l": "L5",
+   "lt": 18,
+   "lv": 18,
+   "r": 0,
+   "i": "الإكزيما التأتبية"
+  }
+ ],
+ "no_current": [],
+ "no_current_more": 0,
+ "most_reviewed": [
+  {
+   "t": "Trifluoperazine",
+   "u": "/drugs/trifluoperazine/",
+   "l": "L4",
+   "lt": 6,
+   "lv": 6,
+   "r": 5,
+   "i": "اضطراب ثنائي القطب الهوسي"
+  },
+  {
+   "t": "Warfarin",
+   "u": "/drugs/warfarin/",
+   "l": "L4",
+   "lt": 8,
+   "lv": 8,
+   "r": 5,
+   "i": "heparin cofactor 2 deficiency"
+  },
+  {
+   "t": "Aflibercept",
+   "u": "/drugs/aflibercept/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 2,
+   "r": 4,
+   "i": "esotropia"
+  },
+  {
+   "t": "Daclatasvir",
+   "u": "/drugs/daclatasvir/",
+   "l": "L3",
+   "lt": 3,
+   "lv": 3,
+   "r": 4,
+   "i": "hepatitis B virus infection"
+  },
+  {
+   "t": "Procyclidine",
+   "u": "/drugs/procyclidine/",
+   "l": "L5",
+   "lt": 3,
+   "lv": 3,
+   "r": 4,
+   "i": "التهاب الدماغ تحت الحاد لراسموسن"
+  },
+  {
+   "t": "Ranibizumab",
+   "u": "/drugs/ranibizumab/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 2,
+   "r": 4,
+   "i": "immature cataract"
+  }
+ ],
+ "example": {
+  "t": "Peginterferon Alfa-2B",
+  "u": "/drugs/peginterferon-alfa-2b/",
+  "l": "L1",
+  "lt": 10,
+  "lv": 10,
+  "r": 1,
+  "i": "hepatitis B virus infection"
+ },
+ "recent_reviews": [
+  {
+   "t": "Warfarin",
+   "u": "/drugs/warfarin/",
+   "s": "نتيجة إعادة تقييم التنبؤ الرئيسي (Heparin cofactor 2 deficiency)",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Trifluoperazine",
+   "u": "/drugs/trifluoperazine/",
+   "s": "نتيجة إعادة تقييم التنبؤ الرئيسي (اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder))",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Ranibizumab",
+   "u": "/drugs/ranibizumab/",
+   "s": "نتيجة إعادة تقييم التنبؤ الرئيسي (Immature cataract)",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Quetiapine",
+   "u": "/drugs/quetiapine/",
+   "s": "نتيجة إعادة تقييم التنبؤ الرئيسي (Retinal dystrophy with or without extraocular anomalies)",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Favipiravir",
+   "u": "/drugs/favipiravir/",
+   "s": "نتيجة إعادة تقييم التنبؤ الرئيسي (Acquired hemophagocytic lymphohistiocytosis associated with malignant…",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Dasabuvir",
+   "u": "/drugs/dasabuvir/",
+   "s": "نتيجة إعادة تقييم التنبؤ الرئيسي (عدوى فيروس التهاب الكبد B)",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Voxilaprevir",
+   "u": "/drugs/voxilaprevir/",
+   "s": "الجدول: VOSEVI 400MG/100MG/100MG F.C.TABLET مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Vinorelbine",
+   "u": "/drugs/vinorelbine/",
+   "s": "الجدول: VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Strontium Ranelate",
+   "u": "/drugs/strontium-ranelate/",
+   "s": "الجدول: PROTELOS 2GM GRANULES FOR ORAL SUSP. مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Rimexolone",
+   "u": "/drugs/rimexolone/",
+   "s": "الجدول: VEXOL 1% OPTH. SUSPENSION مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Revefenacin",
+   "u": "/drugs/revefenacin/",
+   "s": "الجدول: YUPELRI 175 mcg / 3 ml مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Regorafenib",
+   "u": "/drugs/regorafenib/",
+   "s": "الجدول: STIVARGA 40 mg film-coated tablet مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Raloxifene",
+   "u": "/drugs/raloxifene/",
+   "s": "الجدول: RALOSTA 60MG مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Procyclidine",
+   "u": "/drugs/procyclidine/",
+   "s": "الجدول: KEMADRIN TABS 5 MG مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Pralatrexate",
+   "u": "/drugs/pralatrexate/",
+   "s": "الجدول: FOLOTYN 20MG/ML SOLUTION FOR INFUSION مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Palivizumab",
+   "u": "/drugs/palivizumab/",
+   "s": "الجدول: SYNAGIS 100MG\\ML I.M Solution for Injection مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Nitrazepam",
+   "u": "/drugs/nitrazepam/",
+   "s": "الجدول: DUMOLID TAB. 5 MG. مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Ipilimumab",
+   "u": "/drugs/ipilimumab/",
+   "s": "الجدول: YERVOY 5 mg/ml intravenous infusion مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Imiglucerase",
+   "u": "/drugs/imiglucerase/",
+   "s": "الجدول: CEREZYME 400 U powder for concentrate for solution for infusion مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Fluorouracil",
+   "u": "/drugs/fluorouracil/",
+   "s": "الجدول: FLUOROURACIL 500MG-10ML VIAL / 250MG-10ML VIAL مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Flecainide",
+   "u": "/drugs/flecainide/",
+   "s": "الجدول: TAMBOCOR 100MG TAB مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Fidaxomicin",
+   "u": "/drugs/fidaxomicin/",
+   "s": "الجدول: DIFICLIR 200 mg Film Coated Tablet مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Doxazosin",
+   "u": "/drugs/doxazosin/",
+   "s": "الجدول: DOXAGEN 1 / 2 / 4 مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Doripenem",
+   "u": "/drugs/doripenem/",
+   "s": "الجدول: DORIBAX 500MG/VIAL POWDER FOR INFUSION مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Voxilaprevir",
+   "u": "/drugs/voxilaprevir/",
+   "s": "الجدول: VOSEVI 400MG/100MG/100MG F.C.TABLET مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Vinorelbine",
+   "u": "/drugs/vinorelbine/",
+   "s": "الجدول: VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Strontium Ranelate",
+   "u": "/drugs/strontium-ranelate/",
+   "s": "الجدول: PROTELOS 2GM GRANULES FOR ORAL SUSP. مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Rimexolone",
+   "u": "/drugs/rimexolone/",
+   "s": "الجدول: VEXOL 1% OPTH. SUSPENSION مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Revefenacin",
+   "u": "/drugs/revefenacin/",
+   "s": "الجدول: YUPELRI 175 mcg / 3 ml مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Regorafenib",
+   "u": "/drugs/regorafenib/",
+   "s": "الجدول: STIVARGA 40 mg film-coated tablet مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Raloxifene",
+   "u": "/drugs/raloxifene/",
+   "s": "الجدول: RALOSTA 60MG مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Procyclidine",
+   "u": "/drugs/procyclidine/",
+   "s": "الجدول: KEMADRIN TABS 5 MG مسجل (ساري) وليس ملغى",
+   "d": "2026-11-12"
+  }
+ ],
+ "files": {
+  "search_index": 882,
+  "drugs_json": 882
+ },
+ "by_level": {
+  "L1": {
+   "n": 13,
+   "current": 13
+  },
+  "L2": {
+   "n": 39,
+   "current": 39
+  },
+  "L3": {
+   "n": 33,
+   "current": 33
+  },
+  "L4": {
+   "n": 76,
+   "current": 76
+  },
+  "L5": {
+   "n": 692,
+   "current": 692
+  }
+ },
+ "cross": {
+  "unique_pairs": 62,
+  "unique_examples": [
+   {
+    "t": "Potassium Gluconate",
+    "u": "/drugs/potassium-gluconate/",
+    "i": "renal tubular acidosis"
+   },
+   {
+    "t": "Alclometasone",
+    "u": "/drugs/alclometasone/",
+    "i": "seborrheic keratosis"
+   },
+   {
+    "t": "Aluminum Acetate",
+    "u": "/drugs/aluminum-acetate/",
+    "i": "حب الشباب الجدري"
+   },
+   {
+    "t": "Antihemophilic Factor Human Recombinant",
+    "u": "/drugs/antihemophilic-factor-human-recombinant/",
+    "i": "primary release disorder of platelets"
+   },
+   {
+    "t": "Chlorphenoxamine",
+    "u": "/drugs/chlorphenoxamine/",
+    "i": "insomnia (disease)"
+   },
+   {
+    "t": "Enoxacin",
+    "u": "/drugs/enoxacin/",
+    "i": "متلازمة فرط اللزوجة متعددة النسائل"
+   },
+   {
+    "t": "Lomefloxacin",
+    "u": "/drugs/lomefloxacin/",
+    "i": "cor biloculare"
+   },
+   {
+    "t": "Olaratumab",
+    "u": "/drugs/olaratumab/",
+    "i": "prostatic urethra urothelial carcinoma"
+   },
+   {
+    "t": "Simeprevir",
+    "u": "/drugs/simeprevir/",
+    "i": "hepatitis B virus infection"
+   },
+   {
+    "t": "Telaprevir",
+    "u": "/drugs/telaprevir/",
+    "i": "HIV infectious disease"
+   },
+   {
+    "t": "Tubocurarine",
+    "u": "/drugs/tubocurarine/",
+    "i": "متلازمة القولون العصبي"
+   },
+   {
+    "t": "Zalcitabine",
+    "u": "/drugs/zalcitabine/",
+    "i": "feline acquired immunodeficiency syndrome"
+   }
+  ]
+ }
+}

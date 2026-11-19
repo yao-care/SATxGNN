@@ -14,6 +14,23 @@ description: "كيف تُنتج SATxGNN تنبؤاتها وتتحقق منها: 
 
 ---
 
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## المملكة العربية السعودية: كيف تُطبَّق المنهجية في هذا الموقع
+
+البيانات المحلية: [SFDA Open Data](https://www.sfda.gov.sa/en/open-data). البيانات المحلية هي قائمة الأدوية المسجلة في البيانات المفتوحة للهيئة العامة للغذاء والدواء؛ تضم القائمة المنتجات المسجلة فقط، وليس فيها رقم ترخيص مستقل، فيُعرَّف كل منتج باسمه المسجل.
+
+| المستوى | التقارير | …لها منتج محلي بحالة «مسجلة» |
+|---|---|---|
+| L1 | {{ site.data.local_facts.by_level.L1.n }} | {{ site.data.local_facts.by_level.L1.current }} |
+| L2 | {{ site.data.local_facts.by_level.L2.n }} | {{ site.data.local_facts.by_level.L2.current }} |
+| L3 | {{ site.data.local_facts.by_level.L3.n }} | {{ site.data.local_facts.by_level.L3.current }} |
+| L4 | {{ site.data.local_facts.by_level.L4.n }} | {{ site.data.local_facts.by_level.L4.current }} |
+| L5 | {{ site.data.local_facts.by_level.L5.n }} | {{ site.data.local_facts.by_level.L5.current }} |
+
+في سجل المراجعة **{{ site.data.local_facts.reviews.records }}** مدخلًا في **{{ site.data.local_facts.reviews.public_pages_with_records }}** صفحة دواء؛ التصحيحات تغيّر بيانات التسجيل فقط ولا تغيّر توقعات النموذج أبدًا.
+
+<!-- local-facts:end -->
+
 ## سير العمل الإجمالي
 
 <p class="key-answer" data-question="كيف تُنتج SATxGNN تنبؤاتها؟">
