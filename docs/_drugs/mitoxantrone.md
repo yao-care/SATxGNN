@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 565
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "Mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: الاستطباب الجديد المتوقع ورم المسالك الهوائية الهضمية العلوية (upper aerodigestive tract neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

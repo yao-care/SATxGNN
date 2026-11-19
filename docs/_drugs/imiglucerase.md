@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-12
 monitor_inn: "IMIGLUCERASE"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
 description: "Imiglucerase: الاستطباب الجديد المتوقع متلازمة هيرلر (Hurler syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

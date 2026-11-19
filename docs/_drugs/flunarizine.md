@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 360
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-10-30
 description: "Flunarizine: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا استطباب جديد مرشح"
 predicted_indications: []
 ---

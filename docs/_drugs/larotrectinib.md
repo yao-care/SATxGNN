@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "LAROTRECTINIB"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
 description: "Larotrectinib: الاستطباب الجديد المتوقع الورم الغدي الصماوي المتعدد (multiple endocrine neoplasia) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

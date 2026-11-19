@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 715
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-12
 monitor_inn: "REGORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
 description: "Regorafenib: الاستطباب الجديد المتوقع الساركوما الشحمية (liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

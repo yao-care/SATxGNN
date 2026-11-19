@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 748
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
 description: "Selegiline: الاستطباب الجديد المتوقع Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

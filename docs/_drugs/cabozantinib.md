@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
 description: "Cabozantinib: الاستطباب الجديد المتوقع الساركوما الشحمية (liposarcoma) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

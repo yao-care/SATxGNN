@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "LETROZOLE"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Letrozole: الاستطباب الجديد المتوقع سرطان الحلمة (nipple carcinoma) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

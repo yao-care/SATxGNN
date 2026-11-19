@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 81
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "Atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Atorvastatin: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV infectious disease) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

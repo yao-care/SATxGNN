@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 788
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-10-30
 description: "Tazobactam: الاستخدامات المعروفة وحالة التسويق في السعودية؛ لا توجد حاليًا دلالة مرشحة جديدة"
 predicted_indications: []
 ---

@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 822
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "TOLFENAMIC ACID"
 predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "fibromyalgia", "exostosis", "inclusion body myositis"]
 description: "Tolfenamic Acid: الاستطباب الجديد المتوقع اضطراب الصداع (headache disorder) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

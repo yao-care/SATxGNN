@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "Lomitapide"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
 description: "Lomitapide: الاستطباب الجديد المتوقع نقص الصفيحات الكبير مع قصور الصمام التاجي (marcothrombocytopenia with mitral valve insufficiency) (مستوى الدليل L5)."

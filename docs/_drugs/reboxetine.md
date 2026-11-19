@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 714
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "reboxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
 description: "Reboxetine: الاستطباب الجديد المتوقع الصرع الالتوائي الحميد الانتيابي في الرضع (benign paroxysmal torticollis of infancy) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

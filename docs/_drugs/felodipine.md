@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 342
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "FELODIPINE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Felodipine: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي ذو الآلية المتعددة العوامل غير الواضحة (pulmonary hypertension with unclear multifactorial mechanism) (مستوى الدليل L5)."
