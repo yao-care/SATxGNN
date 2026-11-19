@@ -181,7 +181,6 @@
     "db00160": {
       "page": "alanine",
       "sources": [
-        "ARTxGNN",
         "CaTxGNN",
         "HkTxGNN",
         "ZaTxGNN"
