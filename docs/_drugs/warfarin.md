@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-12
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
-description: "Warfarin: الاستطباب الجديد المتوقع Heparin cofactor 2 deficiency (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Warfarin: الاستطباب الجديد المتوقع Heparin cofactor 2 deficiency (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 8 (السارية: 8)"
 ---
 
 # Warfarin

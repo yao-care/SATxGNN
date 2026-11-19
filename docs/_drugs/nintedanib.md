@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-04
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
-description: "Nintedanib: الاستطباب الجديد المتوقع الساركوما الليفية الجلدية الناتئة (dermatofibrosarcoma protuberans) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Nintedanib: الاستطباب الجديد المتوقع الساركوما الليفية الجلدية الناتئة (dermatofibrosarcoma protuberans) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Nintedanib

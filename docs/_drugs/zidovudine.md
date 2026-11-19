@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-30
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-description: "Zidovudine: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب لدى القطط (feline acquired immunodeficiency syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Zidovudine: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب لدى القطط (feline acquired immunodeficiency syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Zidovudine

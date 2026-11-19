@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-03
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
-description: "Meropenem: الاستطباب الجديد المتوقع التهاب المفاصل الجرثومي (bacterial arthritis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Meropenem: الاستطباب الجديد المتوقع التهاب المفاصل الجرثومي (bacterial arthritis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"
 ---
 
 # Meropenem

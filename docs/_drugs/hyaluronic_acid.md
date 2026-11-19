@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "HYALURONIC ACID"
 predicted_indications: ["Sjogren syndrome", "xerophthalmia", "psoriasis", "dermatitis, atopic", "prolapse of lacrimal gland", "parapsoriasis", "pityriasis lichenoides", "severe nonproliferative diabetic retinopathy", "exanthem (disease)"]
-description: "Hyaluronic Acid: الاستطباب الجديد المتوقع متلازمة سجوغرن (Sjogren syndrome) (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Hyaluronic Acid: الاستطباب الجديد المتوقع متلازمة سجوغرن (Sjogren syndrome) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 20 على الأقل"
 ---
 
 # Hyaluronic Acid

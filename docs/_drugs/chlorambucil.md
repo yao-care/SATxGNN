@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "CHLORAMBUCIL"
 predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
 last_modified_at: 2026-11-03
-description: "Chlorambucil: الاستطباب الجديد المتوقع ALK-positive large B-cell lymphoma (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Chlorambucil: الاستطباب الجديد المتوقع ALK-positive large B-cell lymphoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
 # Chlorambucil

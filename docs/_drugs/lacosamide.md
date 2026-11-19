@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
-description: "Lacosamide: الاستطباب الجديد المتوقع Manic bipolar affective disorder (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Lacosamide: الاستطباب الجديد المتوقع Manic bipolar affective disorder (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
 ---
 
 # Lacosamide

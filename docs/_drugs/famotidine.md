@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "FAMOTIDINE"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 last_modified_at: 2026-10-28
-description: "Famotidine: الاستطباب الجديد المتوقع انسداد الاثني عشر (duodenal obstruction) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Famotidine: الاستطباب الجديد المتوقع انسداد الاثني عشر (duodenal obstruction) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
 # Famotidine

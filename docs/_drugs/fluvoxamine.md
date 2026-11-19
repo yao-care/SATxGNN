@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["histrionic personality disorder (disease)", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-description: "Fluvoxamine: الاستطباب الجديد المتوقع اضطراب الشخصية الهستيرية (histrionic personality disorder (disease)) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Fluvoxamine: الاستطباب الجديد المتوقع اضطراب الشخصية الهستيرية (histrionic personality disorder (disease)) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Fluvoxamine

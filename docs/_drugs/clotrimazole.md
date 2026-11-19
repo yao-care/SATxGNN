@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-description: "Clotrimazole: الاستطباب الجديد المتوقع حب الشباب (acne (disease)) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Clotrimazole: الاستطباب الجديد المتوقع حب الشباب (acne (disease)) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 على الأقل"
 ---
 
 # Clotrimazole

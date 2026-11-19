@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-04
 monitor_inn: "VANDETANIB"
 predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
-description: "Vandetanib: الاستطباب الجديد المتوقع سرطان الخلايا الكلوية (renal cell carcinoma (disease)) (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Vandetanib: الاستطباب الجديد المتوقع سرطان الخلايا الكلوية (renal cell carcinoma (disease)) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Vandetanib

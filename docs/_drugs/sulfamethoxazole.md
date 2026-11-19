@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "SULFAMETHOXAZOLE"
 predicted_indications: ["acute contagious conjunctivitis"]
-description: "Sulfamethoxazole: الاستطباب الجديد المتوقع Acute contagious conjunctivitis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Sulfamethoxazole: الاستطباب الجديد المتوقع Acute contagious conjunctivitis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Sulfamethoxazole

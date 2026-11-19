@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-04
 monitor_inn: "citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
-description: "Citric Acid: الاستطباب الجديد المتوقع أمراض المعدة (stomach disease) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Citric Acid: الاستطباب الجديد المتوقع أمراض المعدة (stomach disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 11 (السارية: 11)"
 ---
 
 # Citric Acid

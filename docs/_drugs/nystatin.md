@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "NYSTATIN"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-description: "Nystatin: الاستطباب الجديد المتوقع Disease of orbital region (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Nystatin: الاستطباب الجديد المتوقع Disease of orbital region (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
 ---
 
 # Nystatin

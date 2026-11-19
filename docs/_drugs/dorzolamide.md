@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "DORZOLAMIDE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 last_modified_at: 2026-10-28
-description: "Dorzolamide: الاستطباب الجديد المتوقع تساقط الشعر البسيط في فروة الرأس (hypotrichosis simplex of the scalp) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Dorzolamide: الاستطباب الجديد المتوقع تساقط الشعر البسيط في فروة الرأس (hypotrichosis simplex of the scalp) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
 # Dorzolamide

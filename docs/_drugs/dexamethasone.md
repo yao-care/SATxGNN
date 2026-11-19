@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-description: "Dexamethasone: الاستطباب الجديد المتوقع الثعلبة المخاطية (alopecia mucinosa) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Dexamethasone: الاستطباب الجديد المتوقع الثعلبة المخاطية (alopecia mucinosa) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
 ---
 
 # Dexamethasone

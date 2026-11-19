@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-04
 monitor_inn: "Hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
-description: "Hydroxyzine: الاستطباب الجديد المتوقع التهاب الملتحمة الوردي (rosacea conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Hydroxyzine: الاستطباب الجديد المتوقع التهاب الملتحمة الوردي (rosacea conjunctivitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
 # Hydroxyzine

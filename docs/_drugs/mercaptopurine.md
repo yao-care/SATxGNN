@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-04
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
-description: "Mercaptopurine: الاستطباب الجديد المتوقع ابيضاض الدم النقوي (myeloid leukemia) (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Mercaptopurine: الاستطباب الجديد المتوقع ابيضاض الدم النقوي (myeloid leukemia) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Mercaptopurine

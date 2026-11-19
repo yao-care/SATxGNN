@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-04
 monitor_inn: "APIXABAN"
 predicted_indications: ["migraine disorder"]
-description: "Apixaban: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Apixaban: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
 ---
 
 # Apixaban

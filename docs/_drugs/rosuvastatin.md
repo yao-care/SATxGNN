@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-04
 monitor_inn: "ROSUVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
-description: "Rosuvastatin: الاستطباب الجديد المتوقع نقص بروتين نقل إسترات الكوليسترول (cholesterol-ester transfer protein deficiency) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Rosuvastatin: الاستطباب الجديد المتوقع نقص بروتين نقل إسترات الكوليسترول (cholesterol-ester transfer protein deficiency) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
 ---
 
 # Rosuvastatin

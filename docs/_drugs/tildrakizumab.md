@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "TILDRAKIZUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
-description: "Tildrakizumab: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (severe nonproliferative diabetic retinopathy) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Tildrakizumab: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (severe nonproliferative diabetic retinopathy) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Tildrakizumab

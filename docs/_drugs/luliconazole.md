@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "LULICONAZOLE"
 predicted_indications: ["endothrix infectious disease", "ectothrix infectious disease"]
-description: "Luliconazole: الاستطباب الجديد المتوقع عدوى الشعر الداخلية (endothrix infectious disease) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Luliconazole: الاستطباب الجديد المتوقع عدوى الشعر الداخلية (endothrix infectious disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Luliconazole

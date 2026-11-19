@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "magnesium trisilicate"
 predicted_indications: ["gastroduodenitis"]
-description: "Magnesium Trisilicate: الاستطباب الجديد المتوقع Gastroduodenitis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Magnesium Trisilicate: الاستطباب الجديد المتوقع Gastroduodenitis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Magnesium Trisilicate

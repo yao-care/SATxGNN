@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-30
 monitor_inn: "EVOLOCUMAB"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
-description: "Evolocumab: الاستطباب الجديد المتوقع Symptomatic form of hemophilia in female carriers (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Evolocumab: الاستطباب الجديد المتوقع Symptomatic form of hemophilia in female carriers (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Evolocumab

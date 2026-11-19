@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
-description: "Norepinephrine: الاستطباب الجديد المتوقع Obstructive lung disease (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Norepinephrine: الاستطباب الجديد المتوقع Obstructive lung disease (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
 ---
 
 # Norepinephrine

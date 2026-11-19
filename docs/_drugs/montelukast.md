@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-04
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
-description: "Montelukast: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Montelukast: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 20 على الأقل"
 ---
 
 # Montelukast

@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "PYRIDOSTIGMINE"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
-description: "Pyridostigmine: الاستطباب الجديد المتوقع Autoimmune disease of peripheral nervous system (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Pyridostigmine: الاستطباب الجديد المتوقع Autoimmune disease of peripheral nervous system (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Pyridostigmine

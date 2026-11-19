@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 last_modified_at: 2026-10-28
-description: "Adalimumab: الاستطباب الجديد المتوقع فرط حركة العصعص (hypermobility of coccyx) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Adalimumab: الاستطباب الجديد المتوقع فرط حركة العصعص (hypermobility of coccyx) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
 ---
 
 # Adalimumab

@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-04
 monitor_inn: "zinc sulfate"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
-description: "Zinc Sulfate: الاستطباب الجديد المتوقع التهاب البلعوم (pharyngitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Zinc Sulfate: الاستطباب الجديد المتوقع التهاب البلعوم (pharyngitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
 # Zinc Sulfate

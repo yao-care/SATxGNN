@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "VINCRISTINE"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
 last_modified_at: 2026-10-28
-description: "Vincristine: الاستطباب الجديد المتوقع Vertebral anomalies and variable endocrine and T-cell dysfunction (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Vincristine: الاستطباب الجديد المتوقع Vertebral anomalies and variable endocrine and T-cell dysfunction (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
 # Vincristine

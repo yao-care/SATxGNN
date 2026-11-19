@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-04
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Ritonavir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infection) (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Ritonavir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infection) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Ritonavir

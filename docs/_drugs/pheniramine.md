@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "PHENIRAMINE"
 predicted_indications: ["nasal cavity disease"]
-description: "Pheniramine: الاستطباب الجديد المتوقع Nasal cavity disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Pheniramine: الاستطباب الجديد المتوقع Nasal cavity disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Pheniramine

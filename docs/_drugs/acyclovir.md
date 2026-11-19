@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-04
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
-description: "Acyclovir: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (punctate epithelial keratoconjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Acyclovir: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (punctate epithelial keratoconjunctivitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 19 على الأقل"
 ---
 
 # Acyclovir

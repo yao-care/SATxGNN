@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-04
 monitor_inn: "VINBLASTINE"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
-description: "Vinblastine: الاستطباب الجديد المتوقع Rhabdomyosarcoma (disease) (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Vinblastine: الاستطباب الجديد المتوقع Rhabdomyosarcoma (disease) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
 # Vinblastine

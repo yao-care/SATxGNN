@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
-description: "Pantoprazole: الاستطباب الجديد المتوقع Duodenal obstruction (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Pantoprazole: الاستطباب الجديد المتوقع Duodenal obstruction (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 18 على الأقل"
 ---
 
 # Pantoprazole

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-30
 monitor_inn: "triprolidine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
-description: "Triprolidine: الاستطباب الجديد المتوقع Nasal cavity disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Triprolidine: الاستطباب الجديد المتوقع Nasal cavity disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"
 ---
 
 # Triprolidine

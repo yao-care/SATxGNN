@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
-description: "Empagliflozin: الاستطباب الجديد المتوقع متلازمة الطرف المتيبس البؤرية (focal stiff limb syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Empagliflozin: الاستطباب الجديد المتوقع متلازمة الطرف المتيبس البؤرية (focal stiff limb syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Empagliflozin

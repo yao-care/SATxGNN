@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-04
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-description: "Alprazolam: الاستطباب الجديد المتوقع الأرق (insomnia (disease)) (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Alprazolam: الاستطباب الجديد المتوقع الأرق (insomnia (disease)) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
 ---
 
 # Alprazolam

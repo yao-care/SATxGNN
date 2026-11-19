@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "CEFOPERAZONE"
 predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "gout", "bronchitis", "meningococcal infection", "infectious otitis media", "IgG4-related sclerosing cholangitis"]
 last_modified_at: 2026-10-28
-description: "Cefoperazone: الاستطباب الجديد المتوقع التهاب القنوات الصفراوية المصلّب (sclerosing cholangitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Cefoperazone: الاستطباب الجديد المتوقع التهاب القنوات الصفراوية المصلّب (sclerosing cholangitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Cefoperazone

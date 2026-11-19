@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-30
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
-description: "Golimumab: الاستطباب الجديد المتوقع Hypermobility of coccyx (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Golimumab: الاستطباب الجديد المتوقع Hypermobility of coccyx (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
 # Golimumab

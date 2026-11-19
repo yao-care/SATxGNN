@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
-description: "Pemetrexed: الاستطباب الجديد المتوقع Pleural adenomatoid tumor (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Pemetrexed: الاستطباب الجديد المتوقع Pleural adenomatoid tumor (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 8 (السارية: 8)"
 ---
 
 # Pemetrexed

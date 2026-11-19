@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "CLOZAPINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
-description: "Clozapine: الاستطباب الجديد المتوقع الهوس في الاضطراب ثنائي القطب (manic bipolar affective disorder) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Clozapine: الاستطباب الجديد المتوقع الهوس في الاضطراب ثنائي القطب (manic bipolar affective disorder) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
 # Clozapine

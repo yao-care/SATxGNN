@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "TENOXICAM"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
 last_modified_at: 2026-10-28
-description: "Tenoxicam: الاستطباب الجديد المتوقع Brachydactyly-syndactyly syndrome (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Tenoxicam: الاستطباب الجديد المتوقع Brachydactyly-syndactyly syndrome (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
 # Tenoxicam

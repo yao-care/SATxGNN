@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-04
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-description: "Diazepam: الاستطباب الجديد المتوقع الأرق (insomnia (disease)) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Diazepam: الاستطباب الجديد المتوقع الأرق (insomnia (disease)) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 18 (السارية: 18)"
 ---
 
 # Diazepam

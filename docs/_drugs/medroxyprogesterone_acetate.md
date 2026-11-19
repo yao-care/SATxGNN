@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-description: "Medroxyprogesterone Acetate: الاستطباب الجديد المتوقع مرض الثدي الكيسي الليفي (breast fibrocystic disease) (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Medroxyprogesterone Acetate: الاستطباب الجديد المتوقع مرض الثدي الكيسي الليفي (breast fibrocystic disease) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
 # Medroxyprogesterone Acetate

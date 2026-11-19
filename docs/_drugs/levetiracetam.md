@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-31
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-description: "Levetiracetam: الاستطباب الجديد المتوقع Beta-ketothiolase deficiency (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Levetiracetam: الاستطباب الجديد المتوقع Beta-ketothiolase deficiency (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
 ---
 
 # Levetiracetam

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-04
 monitor_inn: "UBROGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-description: "Ubrogepant: الاستطباب الجديد المتوقع ضمور الجلد الدودي (atrophoderma vermiculata) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Ubrogepant: الاستطباب الجديد المتوقع ضمور الجلد الدودي (atrophoderma vermiculata) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Ubrogepant

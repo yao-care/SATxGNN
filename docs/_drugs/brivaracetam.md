@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "BRIVARACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 last_modified_at: 2026-10-28
-description: "Brivaracetam: الاستطباب الجديد المتوقع نقص إنزيم بيتا-كيتوثيولاز (beta-ketothiolase deficiency) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Brivaracetam: الاستطباب الجديد المتوقع نقص إنزيم بيتا-كيتوثيولاز (beta-ketothiolase deficiency) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
 ---
 
 # Brivaracetam

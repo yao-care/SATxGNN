@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-04
 monitor_inn: "DAPOXETINE"
 predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]
-description: "Dapoxetine: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Dapoxetine: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 19 (السارية: 19)"
 ---
 
 # Dapoxetine

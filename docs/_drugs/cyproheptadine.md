@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Cyproheptadine"
 predicted_indications: ["nasal cavity disease"]
 last_modified_at: 2026-11-12
-description: "Cyproheptadine: الاستطباب الجديد المتوقع أمراض تجويف الأنف (nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Cyproheptadine: الاستطباب الجديد المتوقع أمراض تجويف الأنف (nasal cavity disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
 # Cyproheptadine

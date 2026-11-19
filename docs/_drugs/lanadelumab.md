@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "LANADELUMAB"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
-description: "Lanadelumab: الاستطباب الجديد المتوقع اضطراب السيربين مع تبلمر سيربين سام (serpinopathy with toxic serpin polymerization) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Lanadelumab: الاستطباب الجديد المتوقع اضطراب السيربين مع تبلمر سيربين سام (serpinopathy with toxic serpin polymerization) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Lanadelumab

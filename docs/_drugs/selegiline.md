@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-04
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
-description: "Selegiline: الاستطباب الجديد المتوقع Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Selegiline: الاستطباب الجديد المتوقع Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Selegiline

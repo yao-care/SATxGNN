@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-03
 monitor_inn: "Ertapenem"
 predicted_indications: ["bacterial arthritis"]
-description: "Ertapenem: الاستطباب الجديد المتوقع التهاب المفاصل الجرثومي (bacterial arthritis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Ertapenem: الاستطباب الجديد المتوقع التهاب المفاصل الجرثومي (bacterial arthritis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Ertapenem

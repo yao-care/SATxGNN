@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-31
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
-description: "Tacrolimus: الاستطباب الجديد المتوقع التهاب الجلد الدهني (seborrheic dermatitis) (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Tacrolimus: الاستطباب الجديد المتوقع التهاب الجلد الدهني (seborrheic dermatitis) (مستوى الدليل L1). المنتجات المسجلة لدى SFDA: 18 على الأقل"
 ---
 
 # Tacrolimus

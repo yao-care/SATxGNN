@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "PROPYLTHIOURACIL"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
-description: "Propylthiouracil: الاستطباب الجديد المتوقع Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Propylthiouracil: الاستطباب الجديد المتوقع Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Propylthiouracil

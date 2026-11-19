@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "SECNIDAZOLE"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vaginal discharge", "vulvar neoplasm", "leukoplakia of vagina", "vulvovaginal candidiasis"]
-description: "Secnidazole: الاستطباب الجديد المتوقع التهاب المهبل الضموري بعد سن اليأس (postmenopausal atrophic vaginitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Secnidazole: الاستطباب الجديد المتوقع التهاب المهبل الضموري بعد سن اليأس (postmenopausal atrophic vaginitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Secnidazole

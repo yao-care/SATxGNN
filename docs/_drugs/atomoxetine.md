@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Atomoxetine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
 last_modified_at: 2026-10-28
-description: "Atomoxetine: الاستطباب الجديد المتوقع اضطراب نمائي نوعي (specific developmental disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Atomoxetine: الاستطباب الجديد المتوقع اضطراب نمائي نوعي (specific developmental disorder) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
 # Atomoxetine

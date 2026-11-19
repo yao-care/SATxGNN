@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "HUMAN IMMUNOGLOBULIN G"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis"]
-description: "Human Immunoglobulin G: الاستطباب الجديد المتوقع Severe nonproliferative diabetic retinopathy (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Human Immunoglobulin G: الاستطباب الجديد المتوقع Severe nonproliferative diabetic retinopathy (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 8 (السارية: 8)"
 ---
 
 # Human Immunoglobulin G

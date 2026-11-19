@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-04
 monitor_inn: "Amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
-description: "Amantadine: الاستطباب الجديد المتوقع التهاب الدماغ تحت الحاد لراسموسن (Rasmussen subacute encephalitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Amantadine: الاستطباب الجديد المتوقع التهاب الدماغ تحت الحاد لراسموسن (Rasmussen subacute encephalitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Amantadine

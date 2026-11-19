@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-04
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
-description: "Glucagon: الاستطباب الجديد المتوقع متلازمة القولون العصبي (irritable bowel syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Glucagon: الاستطباب الجديد المتوقع متلازمة القولون العصبي (irritable bowel syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
 # Glucagon

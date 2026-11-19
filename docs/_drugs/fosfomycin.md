@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "FOSFOMYCIN"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
 last_modified_at: 2026-10-28
-description: "Fosfomycin: الاستطباب الجديد المتوقع Uterine inflammatory disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Fosfomycin: الاستطباب الجديد المتوقع Uterine inflammatory disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Fosfomycin

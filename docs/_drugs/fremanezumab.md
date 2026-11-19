@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "FREMANEZUMAB"
 predicted_indications: ["atrophoderma vermiculata"]
-description: "Fremanezumab: الاستطباب الجديد المتوقع Atrophoderma vermiculata (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Fremanezumab: الاستطباب الجديد المتوقع Atrophoderma vermiculata (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Fremanezumab

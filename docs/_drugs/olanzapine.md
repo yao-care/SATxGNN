@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-31
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
-description: "Olanzapine: الاستطباب الجديد المتوقع Benign paroxysmal torticollis of infancy (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Olanzapine: الاستطباب الجديد المتوقع Benign paroxysmal torticollis of infancy (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 18 على الأقل"
 ---
 
 # Olanzapine

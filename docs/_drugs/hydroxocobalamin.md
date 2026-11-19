@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-30
 monitor_inn: "HYDROXOCOBALAMIN"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding"]
-description: "Hydroxocobalamin: الاستطباب الجديد المتوقع Esophageal varices with bleeding (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Hydroxocobalamin: الاستطباب الجديد المتوقع Esophageal varices with bleeding (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Hydroxocobalamin

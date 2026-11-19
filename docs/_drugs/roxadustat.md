@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "ROXADUSTAT"
 predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
-description: "Roxadustat: الاستطباب الجديد المتوقع متلازمة جفاف العين (dry eye syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Roxadustat: الاستطباب الجديد المتوقع متلازمة جفاف العين (dry eye syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Roxadustat

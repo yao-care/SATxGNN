@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
 last_modified_at: 2026-11-04
-description: "Clomipramine: الاستطباب الجديد المتوقع اضطراب القلق (anxiety disorder) (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Clomipramine: الاستطباب الجديد المتوقع اضطراب القلق (anxiety disorder) (مستوى الدليل L1). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Clomipramine

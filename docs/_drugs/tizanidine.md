@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-04
 monitor_inn: "TIZANIDINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
-description: "Tizanidine: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (migraine disorder) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Tizanidine: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (migraine disorder) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
 ---
 
 # Tizanidine

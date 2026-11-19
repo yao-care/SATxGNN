@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-04
 monitor_inn: "DABIGATRAN ETEXILATE"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
-description: "Dabigatran Etexilate: الاستطباب الجديد المتوقع التهاب الأقنية الصفراوية المصلّب (sclerosing cholangitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Dabigatran Etexilate: الاستطباب الجديد المتوقع التهاب الأقنية الصفراوية المصلّب (sclerosing cholangitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
 # Dabigatran Etexilate

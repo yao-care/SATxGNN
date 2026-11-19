@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-04
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
-description: "Epirubicin: الاستطباب الجديد المتوقع ليمفوما الرئة الأولية (primary pulmonary lymphoma) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Epirubicin: الاستطباب الجديد المتوقع ليمفوما الرئة الأولية (primary pulmonary lymphoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
 ---
 
 # Epirubicin

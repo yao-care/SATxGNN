@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "ESOMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 last_modified_at: 2026-10-28
-description: "Esomeprazole: الاستطباب الجديد المتوقع انسداد الإثني عشر (duodenal obstruction) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Esomeprazole: الاستطباب الجديد المتوقع انسداد الإثني عشر (duodenal obstruction) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 على الأقل"
 ---
 
 # Esomeprazole

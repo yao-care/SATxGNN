@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "antazoline"
 predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease"]
 last_modified_at: 2026-10-30
-description: "Antazoline: الاستطباب الجديد المتوقع التهاب الجلد التأتبي المستعصي (recalcitrant atopic dermatitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Antazoline: الاستطباب الجديد المتوقع التهاب الجلد التأتبي المستعصي (recalcitrant atopic dermatitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
 ---
 
 # Antazoline

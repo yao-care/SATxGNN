@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "PIMECROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
-description: "Pimecrolimus: الاستطباب الجديد المتوقع التهاب الجلد الدهني (seborrheic dermatitis) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Pimecrolimus: الاستطباب الجديد المتوقع التهاب الجلد الدهني (seborrheic dermatitis) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Pimecrolimus

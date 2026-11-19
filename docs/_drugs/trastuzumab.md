@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-04
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
-description: "Trastuzumab: الاستطباب الجديد المتوقع ورم الجلد الحبيبي الخلوي الخبيث (malignant cutaneous granular cell skin tumor) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Trastuzumab: الاستطباب الجديد المتوقع ورم الجلد الحبيبي الخلوي الخبيث (malignant cutaneous granular cell skin tumor) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 11 (السارية: 11)"
 ---
 
 # Trastuzumab

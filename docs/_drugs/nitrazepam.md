@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "NITRAZEPAM"
 predicted_indications: ["Wernicke-Korsakoff syndrome"]
-description: "Nitrazepam: الاستطباب الجديد المتوقع Wernicke-Korsakoff syndrome (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Nitrazepam: الاستطباب الجديد المتوقع Wernicke-Korsakoff syndrome (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Nitrazepam

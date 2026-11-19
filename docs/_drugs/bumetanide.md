@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "BUMETANIDE"
 predicted_indications: ["acute pulmonary heart disease"]
-description: "Bumetanide: الاستطباب الجديد المتوقع مرض القلب الرئوي الحاد (acute pulmonary heart disease) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Bumetanide: الاستطباب الجديد المتوقع مرض القلب الرئوي الحاد (acute pulmonary heart disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Bumetanide

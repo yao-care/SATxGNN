@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-03
 monitor_inn: "Bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
-description: "Bleomycin: الاستطباب الجديد المتوقع ورم ذيل الفرس (cauda equina neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Bleomycin: الاستطباب الجديد المتوقع ورم ذيل الفرس (cauda equina neoplasm) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Bleomycin

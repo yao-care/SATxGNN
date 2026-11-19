@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "ACETYLSALICYLIC ACID"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
 last_modified_at: 2026-11-03
-description: "Acetylsalicylic Acid: الاستطباب الجديد المتوقع ضمور الجلد الدودي (atrophoderma vermiculata) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Acetylsalicylic Acid: الاستطباب الجديد المتوقع ضمور الجلد الدودي (atrophoderma vermiculata) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
 # Acetylsalicylic Acid

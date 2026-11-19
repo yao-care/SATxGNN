@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "RIBAVIRIN"
 predicted_indications: ["chronic hepatitis B virus infection", "hepatopulmonary syndrome", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mesenteritis", "eosinophilic angiocentric fibrosis"]
-description: "Ribavirin: الاستطباب الجديد المتوقع عدوى التهاب الكبد الفيروسي B المزمنة (chronic hepatitis B virus infection) (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Ribavirin: الاستطباب الجديد المتوقع عدوى التهاب الكبد الفيروسي B المزمنة (chronic hepatitis B virus infection) (مستوى الدليل L1). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
 # Ribavirin

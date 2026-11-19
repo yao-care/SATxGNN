@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Isavuconazonium"
 predicted_indications: ["pneumocystosis", "mycetoma"]
-description: "Isavuconazonium: الاستطباب الجديد المتوقع داء المتكيسات الرئوية (pneumocystosis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Isavuconazonium: الاستطباب الجديد المتوقع داء المتكيسات الرئوية (pneumocystosis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Isavuconazonium

@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "TRIPTORELIN"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
-description: "Triptorelin: الاستطباب الجديد المتوقع فرط الشعر (hypertrichosis (disease)) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Triptorelin: الاستطباب الجديد المتوقع فرط الشعر (hypertrichosis (disease)) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
 ---
 
 # Triptorelin

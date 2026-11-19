@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "pantothenic acid"
 predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis"]
-description: "Pantothenic Acid: الاستطباب الجديد المتوقع Congenital prothrombin deficiency (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Pantothenic Acid: الاستطباب الجديد المتوقع Congenital prothrombin deficiency (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Pantothenic Acid

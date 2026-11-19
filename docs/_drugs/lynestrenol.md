@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "LYNESTRENOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "insomnia (disease)", "leprosy"]
 last_modified_at: 2026-10-28
-description: "Lynestrenol: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (migraine disorder) (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Lynestrenol: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (migraine disorder) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Lynestrenol

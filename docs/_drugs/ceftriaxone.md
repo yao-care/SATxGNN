@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "CEFTRIAXONE"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
 last_modified_at: 2026-11-03
-description: "Ceftriaxone: الاستطباب الجديد المتوقع متلازمة فرط اللزوجة متعددة النسائل (polyclonal hyperviscosity syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Ceftriaxone: الاستطباب الجديد المتوقع متلازمة فرط اللزوجة متعددة النسائل (polyclonal hyperviscosity syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
 ---
 
 # Ceftriaxone

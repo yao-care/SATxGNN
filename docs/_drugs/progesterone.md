@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-description: "Progesterone: الاستطباب الجديد المتوقع مرض الثدي الكيسي الليفي (breast fibrocystic disease) (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Progesterone: الاستطباب الجديد المتوقع مرض الثدي الكيسي الليفي (breast fibrocystic disease) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
 ---
 
 # Progesterone

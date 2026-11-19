@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-03
 monitor_inn: "VILOXAZINE"
 predicted_indications: ["faciodigitogenital syndrome", "insomnia (disease)", "Creutzfeldt-Jakob disease", "hypersomnia (disease)", "circadian rhythm sleep disorder", "chondromyxoid fibroma", "X-linked adrenoleukodystrophy"]
-description: "Viloxazine: الاستطباب الجديد المتوقع متلازمة الوجه والأصابع والأعضاء التناسلية (faciodigitogenital syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Viloxazine: الاستطباب الجديد المتوقع متلازمة الوجه والأصابع والأعضاء التناسلية (faciodigitogenital syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Viloxazine

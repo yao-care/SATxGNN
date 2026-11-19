@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-04
 monitor_inn: "LETROZOLE"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
-description: "Letrozole: الاستطباب الجديد المتوقع سرطان الحلمة (nipple carcinoma) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Letrozole: الاستطباب الجديد المتوقع سرطان الحلمة (nipple carcinoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
 ---
 
 # Letrozole

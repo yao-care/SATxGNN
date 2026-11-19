@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "OXCARBAZEPINE"
 predicted_indications: ["restless legs syndrome"]
-description: "Oxcarbazepine: الاستطباب الجديد المتوقع Restless legs syndrome (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Oxcarbazepine: الاستطباب الجديد المتوقع Restless legs syndrome (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
 # Oxcarbazepine

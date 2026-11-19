@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
 last_modified_at: 2026-10-30
-description: "Busulfan: الاستطباب الجديد المتوقع متلازمة خلل التنسج النقوي (myelodysplastic syndrome) (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Busulfan: الاستطباب الجديد المتوقع متلازمة خلل التنسج النقوي (myelodysplastic syndrome) (مستوى الدليل L1). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Busulfan

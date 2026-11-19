@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-04
 monitor_inn: "DIETHYLCARBAMAZINE"
 predicted_indications: ["syndromic lymphedema", "primary lymphedema"]
-description: "Diethylcarbamazine: الاستطباب الجديد المتوقع الوذمة اللمفية المتلازمية (syndromic lymphedema) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Diethylcarbamazine: الاستطباب الجديد المتوقع الوذمة اللمفية المتلازمية (syndromic lymphedema) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Diethylcarbamazine

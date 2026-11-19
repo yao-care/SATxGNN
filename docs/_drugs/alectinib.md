@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Alectinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
 last_modified_at: 2026-10-28
-description: "Alectinib: الاستطباب الجديد المتوقع الورم الليفي اللثوي (fibromatosis, gingival) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Alectinib: الاستطباب الجديد المتوقع الورم الليفي اللثوي (fibromatosis, gingival) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Alectinib

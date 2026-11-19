@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-03
 monitor_inn: "Fenticonazole"
 predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvitis", "herpetic vulvovaginitis"]
-description: "Fenticonazole: الاستطباب الجديد المتوقع التهاب المهبل والفرج التريكوموناسي (trichomonal vulvovaginitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Fenticonazole: الاستطباب الجديد المتوقع التهاب المهبل والفرج التريكوموناسي (trichomonal vulvovaginitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
 ---
 
 # Fenticonazole

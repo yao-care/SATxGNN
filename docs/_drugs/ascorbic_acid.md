@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "ASCORBIC ACID"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected"]
-description: "Ascorbic Acid: الاستطباب الجديد المتوقع تشوه المريء الخلقي غير المتلازمي (non-syndromic esophageal malformation) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Ascorbic Acid: الاستطباب الجديد المتوقع تشوه المريء الخلقي غير المتلازمي (non-syndromic esophageal malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
 ---
 
 # Ascorbic Acid

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-description: "Formoterol: الاستطباب الجديد المتوقع التشوه التنفسي (respiratory malformation) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Formoterol: الاستطباب الجديد المتوقع التشوه التنفسي (respiratory malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 13 (السارية: 13)"
 ---
 
 # Formoterol

@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "ACECLOFENAC"
 predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx", "Kummell disease"]
 last_modified_at: 2026-10-30
-description: "Aceclofenac: الاستطباب الجديد المتوقع متلازمة انعدام تكوّن المينا مع قِصَر الجسم (brachyolmia-amelogenesis imperfecta syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Aceclofenac: الاستطباب الجديد المتوقع متلازمة انعدام تكوّن المينا مع قِصَر الجسم (brachyolmia-amelogenesis imperfecta syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Aceclofenac

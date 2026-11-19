@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-03
 monitor_inn: "salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
-description: "Salmeterol: الاستطباب الجديد المتوقع تشوه الجهاز التنفسي (respiratory malformation) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Salmeterol: الاستطباب الجديد المتوقع تشوه الجهاز التنفسي (respiratory malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 13 على الأقل"
 ---
 
 # Salmeterol

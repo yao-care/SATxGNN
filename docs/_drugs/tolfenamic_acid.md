@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-04
 monitor_inn: "TOLFENAMIC ACID"
 predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "fibromyalgia", "exostosis", "inclusion body myositis"]
-description: "Tolfenamic Acid: الاستطباب الجديد المتوقع اضطراب الصداع (headache disorder) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Tolfenamic Acid: الاستطباب الجديد المتوقع اضطراب الصداع (headache disorder) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Tolfenamic Acid

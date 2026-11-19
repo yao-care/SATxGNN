@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "PITAVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection"]
 last_modified_at: 2026-10-30
-description: "Pitavastatin: الاستطباب الجديد المتوقع Cholesterol-ester transfer protein deficiency (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Pitavastatin: الاستطباب الجديد المتوقع Cholesterol-ester transfer protein deficiency (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
 # Pitavastatin

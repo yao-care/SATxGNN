@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "FAVIPIRAVIR"
 predicted_indications: ["acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection", "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency"]
-description: "Favipiravir: الاستطباب الجديد المتوقع Acquired hemophagocytic lymphohistiocytosis associated with malignant disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Favipiravir: الاستطباب الجديد المتوقع Acquired hemophagocytic lymphohistiocytosis associated with malignant disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Favipiravir

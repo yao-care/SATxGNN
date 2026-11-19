@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "propantheline"
 predicted_indications: ["irritable bowel syndrome"]
 last_modified_at: 2026-11-04
-description: "Propantheline: الاستطباب الجديد المتوقع متلازمة القولون العصبي (irritable bowel syndrome) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Propantheline: الاستطباب الجديد المتوقع متلازمة القولون العصبي (irritable bowel syndrome) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Propantheline

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
-description: "Metoclopramide: الاستطباب الجديد المتوقع Gastroduodenitis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Metoclopramide: الاستطباب الجديد المتوقع Gastroduodenitis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 16 (السارية: 16)"
 ---
 
 # Metoclopramide

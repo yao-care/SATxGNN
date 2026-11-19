@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-04
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
-description: "Perampanel: الاستطباب الجديد المتوقع نقص بيتا-كيتوثيولاز (beta-ketothiolase deficiency) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Perampanel: الاستطباب الجديد المتوقع نقص بيتا-كيتوثيولاز (beta-ketothiolase deficiency) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
 ---
 
 # Perampanel

@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-30
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
-description: "Lactulose: الاستطباب الجديد المتوقع Acute urate nephropathy (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Lactulose: الاستطباب الجديد المتوقع Acute urate nephropathy (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
 ---
 
 # Lactulose

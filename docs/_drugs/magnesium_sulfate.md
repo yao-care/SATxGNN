@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "MAGNESIUM SULFATE"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
 last_modified_at: 2026-11-04
-description: "Magnesium Sulfate: الاستطباب الجديد المتوقع مرض الجلطات (thrombotic disease) (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Magnesium Sulfate: الاستطباب الجديد المتوقع مرض الجلطات (thrombotic disease) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
 # Magnesium Sulfate

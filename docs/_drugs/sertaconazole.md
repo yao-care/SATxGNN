@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Sertaconazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
 last_modified_at: 2026-11-03
-description: "Sertaconazole: الاستطباب الجديد المتوقع Ectothrix infectious disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Sertaconazole: الاستطباب الجديد المتوقع Ectothrix infectious disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
 # Sertaconazole

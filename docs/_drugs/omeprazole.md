@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-31
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
-description: "Omeprazole: الاستطباب الجديد المتوقع Duodenal obstruction (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Omeprazole: الاستطباب الجديد المتوقع Duodenal obstruction (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
 ---
 
 # Omeprazole

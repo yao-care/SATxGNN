@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-04
 monitor_inn: "DACARBAZINE"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
-description: "Dacarbazine: الاستطباب الجديد المتوقع ورم الجهاز الهضمي والتنفسي العلوي (upper aerodigestive tract neoplasm) (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Dacarbazine: الاستطباب الجديد المتوقع ورم الجهاز الهضمي والتنفسي العلوي (upper aerodigestive tract neoplasm) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
 # Dacarbazine

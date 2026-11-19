@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "DIPYRIDAMOLE"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
 last_modified_at: 2026-11-03
-description: "Dipyridamole: الاستطباب الجديد المتوقع Sick sinus syndrome 2, autosomal dominant (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Dipyridamole: الاستطباب الجديد المتوقع Sick sinus syndrome 2, autosomal dominant (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
 # Dipyridamole

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-04
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
-description: "Miconazole: الاستطباب الجديد المتوقع حب الشباب (acne (disease)) (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Miconazole: الاستطباب الجديد المتوقع حب الشباب (acne (disease)) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 20 على الأقل"
 ---
 
 # Miconazole

@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "BENRALIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
 last_modified_at: 2026-10-28
-description: "Benralizumab: الاستطباب الجديد المتوقع نقص الصفيحات المناعي (thrombocytopenia due to immune destruction) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Benralizumab: الاستطباب الجديد المتوقع نقص الصفيحات المناعي (thrombocytopenia due to immune destruction) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Benralizumab

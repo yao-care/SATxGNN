@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
-description: "Mefenamic Acid: الاستطباب الجديد المتوقع اضطراب الصداع (headache disorder) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Mefenamic Acid: الاستطباب الجديد المتوقع اضطراب الصداع (headache disorder) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 14 (السارية: 14)"
 ---
 
 # Mefenamic Acid

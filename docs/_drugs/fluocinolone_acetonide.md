@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-03
 monitor_inn: "FLUOCINOLONE ACETONIDE"
 predicted_indications: ["lichen planus pemphigoides"]
-description: "Fluocinolone Acetonide: الاستطباب الجديد المتوقع الليكن المسطح الفقاعي الشبيه بالفقاع (lichen planus pemphigoides) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Fluocinolone Acetonide: الاستطباب الجديد المتوقع الليكن المسطح الفقاعي الشبيه بالفقاع (lichen planus pemphigoides) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
 ---
 
 # Fluocinolone Acetonide

@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "FLUOXETINE"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
 last_modified_at: 2026-11-03
-description: "Fluoxetine: الاستطباب الجديد المتوقع اضطراب الشخصية الفصامية (schizoid personality disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Fluoxetine: الاستطباب الجديد المتوقع اضطراب الشخصية الفصامية (schizoid personality disorder) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 13 (السارية: 13)"
 ---
 
 # Fluoxetine

@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
-description: "Peginterferon Alfa-2A: الاستطباب الجديد المتوقع Hepatitis E virus infection (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Peginterferon Alfa-2A: الاستطباب الجديد المتوقع Hepatitis E virus infection (مستوى الدليل L1). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Peginterferon Alfa-2A

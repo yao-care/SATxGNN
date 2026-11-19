@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-28
 monitor_inn: "LAMOTRIGINE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
-description: "Lamotrigine: الاستطباب الجديد المتوقع Trigeminal nerve neoplasm (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Lamotrigine: الاستطباب الجديد المتوقع Trigeminal nerve neoplasm (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 14 (السارية: 14)"
 ---
 
 # Lamotrigine

@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "VORTIOXETINE"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 last_modified_at: 2026-10-28
-description: "Vortioxetine: الاستطباب الجديد المتوقع الاضطراب العصابي (neurotic disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية (لا يوجد نص استطباب في التراخيص)"
+description: "Vortioxetine: الاستطباب الجديد المتوقع الاضطراب العصابي (neurotic disorder) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2) (لا يوجد نص استطباب في التراخيص)"
 ---
 
 # Vortioxetine

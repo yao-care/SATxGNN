@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "CEFTIZOXIME"
 predicted_indications: ["Ureaplasma urethritis", "xanthogranulomatous pyelonephritis", "uterine inflammatory disease", "epiglottitis", "urogenital tuberculosis"]
 last_modified_at: 2026-10-28
-description: "Ceftizoxime: الاستطباب الجديد المتوقع التهاب الإحليل باليوريا بلازما (Ureaplasma urethritis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Ceftizoxime: الاستطباب الجديد المتوقع التهاب الإحليل باليوريا بلازما (Ureaplasma urethritis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
 ---
 
 # Ceftizoxime

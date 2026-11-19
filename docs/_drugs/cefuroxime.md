@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Cefuroxime"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 last_modified_at: 2026-11-03
-description: "Cefuroxime: الاستطباب الجديد المتوقع متلازمة فرط اللزوجة متعددة النسائل (polyclonal hyperviscosity syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Cefuroxime: الاستطباب الجديد المتوقع متلازمة فرط اللزوجة متعددة النسائل (polyclonal hyperviscosity syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 (السارية: 17)"
 ---
 
 # Cefuroxime

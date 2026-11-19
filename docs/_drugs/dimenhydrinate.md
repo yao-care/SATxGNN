@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-04
 monitor_inn: "DIMENHYDRINATE"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
-description: "Dimenhydrinate: الاستطباب الجديد المتوقع الأرتكاريا التحسسية (allergic urticaria) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Dimenhydrinate: الاستطباب الجديد المتوقع الأرتكاريا التحسسية (allergic urticaria) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
 # Dimenhydrinate
