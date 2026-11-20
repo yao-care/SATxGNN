@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Carvedilol: الاستطباب الجديد المتوقع اعتلال الكلى الناجم عن ارتفاع الضغط الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (التنبؤ من نموذج TxGNN (التعلم العميق)، وقد يعكس أوجه تشابه تعلّمها النموذج بين أمراض مرتبطة، وليس دليلاً بيولوجياً…"
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
@@ -59,7 +59,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فكارفيديلول حاصر بيتا غير انتقائي مع نشاط حاصر لمستقبلات ألفا-1، وفعاليته في خفض ضغط الدم معروفة، ومن الناحية الآلية قد يكون مناسباً لاعتلال الكلية الناجم عن ارتفاع الضغط.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Carvedilol (ترجمة غير رسمية): «COREG مزيج راسيمي يوجد فيه نشاط الحصر غير الانتقائي لمستقبلات β الأدرينالية في المتصاوغ المرآتي S(-)، ويوجد نشاط الحصر لمستقبلات α1 الأدرينالية في كلا المتصاوغين المرآتيين R(+) وS(-) بفاعلية متساوية. لا يمتلك COREG نشاطًا ذاتيًا محاكيًا للودي.» النص الأصلي بالإنجليزية: "COREG is a racemic mixture in which nonselective β-adrenoreceptor blocking activity is present in the S(-) enantiomer and α1-adrenergic blocking activity is present in both R(+) and S(-) enantiomers at equal potency. COREG has no intrinsic sympathomimetic activity." ([DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39)، إصدار 2026-07-31؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فكارفيديلول حاصر بيتا غير انتقائي مع نشاط حاصر لمستقبلات ألفا-1، وفعاليته في خفض ضغط الدم معروفة، ومن الناحية الآلية قد يكون مناسباً لاعتلال الكلية الناجم عن ارتفاع الضغط.
 
 تقوم الصلة المحتملة بين المؤشرين على أن اعتلال الكلية الناجم عن ارتفاع الضغط الخبيث هو إصابة كلوية ناتجة عن ارتفاع شديد في الضغط، وبالتالي فخفض الضغط ملائم نظرياً. غير أن الدرجة المرتفعة للنموذج تعكس على الأرجح القرب بين المرضين في التصنيف المرضي ووجود مؤشر ارتفاع الضغط الأصلي، وليست دليلاً مستقلاً على الفعالية.
 
@@ -132,11 +132,12 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن جميع تراخيص المنتج في السعودية ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39) |
 
 <!-- review:end log -->
 

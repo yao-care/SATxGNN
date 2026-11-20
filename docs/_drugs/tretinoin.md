@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 833
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Tretinoin: الاستطباب الجديد المتوقع العقيدات الروماتويدية (Rheumatoid nodulosis) (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب، ابيضاض الدم النخاعي الحاد (APL)، التقرّن المكتسب، فرط التق…"
 monitor_inn: "TRETINOIN"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
@@ -60,7 +60,7 @@ predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive poly
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فالتريتينوين من فئة الريتينويدات، وقد ثبتت فعاليته في حب الشباب واضطرابات التقرّن وابيضاض الدم النخاعي الحاد، ومن الناحية الآلية قد يكون قابلًا للتطبيق في العقيدات الروماتويدية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tretinoin (ترجمة غير رسمية): «يُحدث تريتينوين تمايزًا خلويًا وانخفاضًا في تكاثر خلايا APL في المزارع الخلوية وفي الجسم الحي. وفي مرضى APL، يُحدث العلاج بتريتينوين نضجًا أوليًا للخلايا النقوية الأولية البدائية المشتقة من النسيلة اللوكيمية، يعقبه إعادة استيطان نخاع العظم والدم المحيطي بخلايا مكوّنة للدم طبيعية متعددة النسائل لدى المرضى الذين يحققون هدأة تامة (CR).» النص الأصلي بالإنجليزية: "Tretinoin induces cytodifferentiation and decreased proliferation of APL cells in culture and in vivo. In APL patients, tretinoin treatment produces an initial maturation of the primitive promyelocytes derived from the leukemic clone, followed by a repopulation of the bone marrow and peripheral blood by normal, polyclonal hematopoietic cells in patients achieving complete remission (CR)." ([DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9)، إصدار 2026-08-20؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فالتريتينوين من فئة الريتينويدات، وقد ثبتت فعاليته في حب الشباب واضطرابات التقرّن وابيضاض الدم النخاعي الحاد، ومن الناحية الآلية قد يكون قابلًا للتطبيق في العقيدات الروماتويدية.
 
 الرابط المحتمل، وهو غير مُثبت، هو تعديل الريتينويدات للإشارات المناعية والالتهابية عبر مستقبلات RAR/RXR في الأمراض الروماتويدية. العقيدات الروماتويدية حالة نادرة، ولا يوجد دعم مباشر لهذا الرابط. ولذلك ينبغي التعامل مع التنبؤ كفرضية فقط.
 
@@ -145,11 +145,12 @@ predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive poly
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «والمنتجات المحلية جميعها ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9) |
 
 <!-- review:end log -->
 

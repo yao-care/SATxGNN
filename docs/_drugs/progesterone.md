@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 690
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Progesterone: الاستطباب الجديد المتوقع مرض الثدي الكيسي الليفي (breast fibrocystic disease) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
@@ -54,7 +54,7 @@ description: "Progesterone: الاستطباب الجديد المتوقع مر�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات مفصلة عن آلية العمل. والمعروف أن البروجسترون هرمون جستاجيني طبيعي يعمل عبر مستقبلات البروجسترون في الأنسجة المستهدفة، ومنها نسيج الثدي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Progesterone (ترجمة غير رسمية): «البروجسترون ستيرويد يوجد بشكل طبيعي ويُفرَز من المبيض والمشيمة والغدة الكظرية. وفي وجود كمية كافية من الإستروجين، يحوّل البروجسترون بطانة الرحم التكاثرية إلى بطانة رحم إفرازية.» النص الأصلي بالإنجليزية: "Progesterone is a naturally occurring steroid that is secreted by the ovary, placenta, and adrenal gland. In the presence of adequate estrogen, progesterone transforms a proliferative endometrium into a secretory endometrium." ([DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1)، إصدار 2026-10-05؛ تاريخ الاطلاع 2026-11-20). والمعروف أن البروجسترون هرمون جستاجيني طبيعي يعمل عبر مستقبلات البروجسترون في الأنسجة المستهدفة، ومنها نسيج الثدي.
 
 تصف الأدبيات الفيزيولوجيا المرضية لمرض الثدي الكيسي الليفي بأنها تتحدد بغلبة الإستروجين ونقص البروجسترون، ما يؤدي إلى فرط تكاثر النسيج الضام ثم تكاثر الظهارة. وتناولت دراسة حديثة نسبياً دور نسبة الإستراديول إلى البروجسترون في المرحلة الأصفرية من الدورة (E2/P)، بمقارنة 50 امرأة مصابة مع 40 امرأة غير مصابة. وهذا يعطي فرضية آلية معقولة لاستخدام البروجسترون.
 
@@ -116,6 +116,18 @@ description: "Progesterone: الاستطباب الجديد المتوقع مر�
 - استخراج تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة، لأن بيانات السلامة غير متوفرة حالياً.
 - تقييم سلامة التعرض الهرموني لنسيج الثدي، وخاصة ما يتعلق بخطر السرطان.
 - تقييم ملاءمة الأشكال الصيدلانية المرخّصة محلياً لهذا الاستخدام.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 830
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: الاستطباب الجديد المتوقع ورم الجلد الحبيبي الخلوي الخبيث (malignant cutaneous granular cell skin tumor) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 11 (السارية: 11)"
@@ -56,7 +56,7 @@ description: "Trastuzumab: الاستطباب الجديد المتوقع ورم
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف، يرتبط التراستوزوماب بمستقبل HER2 على سطح الخلايا ويثبّط الإشارات المحفزة للنمو، كما قد يحفّز استجابة مناعية ضد الخلايا الحاملة للمستقبل.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Trastuzumab (ترجمة غير رسمية): «يرمّز الجين الورمي الأولي HER2 (أو c-erbB2) بروتيناً مستقبلاً عابراً للغشاء وزنه 185 كيلو دالتون، يرتبط بنيوياً بمستقبل عامل نمو البشرة. وقد ثبت أن منتجات تراستوزوماب، في كل من الاختبارات المخبرية وفي الحيوانات، تثبط تكاثر الخلايا الورمية البشرية التي تفرط في التعبير عن HER2.» النص الأصلي بالإنجليزية: "The HER2 (or c-erbB2) proto-oncogene encodes a transmembrane receptor protein of 185 kDa, which is structurally related to the epidermal growth factor receptor. Trastuzumab products have been shown, in both in vitro assays and in animals, to inhibit the proliferation of human tumor cells that overexpress HER2." ([DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c)، إصدار 2026-06-26؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، يرتبط التراستوزوماب بمستقبل HER2 على سطح الخلايا ويثبّط الإشارات المحفزة للنمو، كما قد يحفّز استجابة مناعية ضد الخلايا الحاملة للمستقبل.
 
 أما بالنسبة لهذا الورم، فلا يوجد دليل على اعتماده على HER2، ودرجة النموذج العالية تمثل تنبؤاً حسابياً فقط. لم تُرصد أي صلة آلية مثبتة، ولم تُستكمل بعد مقارنة التشابه مع الاستطباب الأصلي.
 
@@ -99,6 +99,18 @@ description: "Trastuzumab: الاستطباب الجديد المتوقع ورم
 - بيانات آلية العمل التفصيلية للدواء.
 - الحصول على نص النشرة الدوائية لتحذيرات السلامة وموانع الاستعمال.
 - تقييم مدى توافق طريق الإعطاء والشكل الدوائي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

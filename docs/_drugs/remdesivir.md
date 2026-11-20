@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 717
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Remdesivir: الاستطباب الجديد المتوقع الورم الصماوي المتعدد (multiple endocrine neoplasia) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (يُستخدم الدواء عادةً ضد فيروس SARS-CoV-2…"
 monitor_inn: "REMDESIVIR"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
@@ -58,7 +58,7 @@ predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease"
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في قاعدة البيانات المجمّعة. استناداً إلى المعروف، ريمديسيفير مركّب أولي (prodrug) لنظير نيوكليوتيدي يثبّط بوليميراز الحمض النووي الريبي المعتمد على RNA في الفيروسات.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Remdesivir (ترجمة غير رسمية): «الريمديسيفير دواء مضاد للفيروسات ذو نشاط ضد فيروس كورونا 2 المسبب للمتلازمة التنفسية الحادة الوخيمة (SARS-CoV-2). […] الريمديسيفير مثبط لبوليميراز RNA المعتمد على RNA (RdRp) الخاص بـ SARS-CoV-2، والذي يعد ضروريًا لتنسخ الفيروس. الريمديسيفير طليعة دواء من نوع نيوكليوتيد الأدينوزين يتوزع داخل الخلايا حيث يُستقلب إلى مركب وسيط من أحادي فوسفات النيوكليوزيد بواسطة كاربوكسي إستراز 1 و/أو كاثيبسين A، تبعًا لنوع الخلية.» النص الأصلي بالإنجليزية: "Remdesivir is an antiviral drug with activity against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). […] Remdesivir is an inhibitor of the SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), which is essential for viral replication. Remdesivir is an adenosine nucleotide prodrug that distributes into cells where it is metabolized to a nucleoside monophosphate intermediate by carboxyesterase 1 and/or cathepsin A, depending upon the cell type." ([DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca)، إصدار 2026-07-29؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف، ريمديسيفير مركّب أولي (prodrug) لنظير نيوكليوتيدي يثبّط بوليميراز الحمض النووي الريبي المعتمد على RNA في الفيروسات.
 
 أما الورم الصماوي المتعدد فهو متلازمة ورمية وراثية (مرتبطة بطفرات مثل MEN1 وRET) ولا ينتج عن تكاثر فيروسي. لذلك **لم يُحدَّد أي رابط آلي** بين آلية الدواء وهذا المرض. الدرجة العالية (0.9950) صادرة عن نموذج TxGNN (التعلم العميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين الأمراض ذات الصلة، ولا تعكس دليلاً بيولوجياً أو سريرياً.
 
@@ -127,11 +127,12 @@ predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease"
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص السعودي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CETUXIMAB"
 predicted_indications: ["bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "epiglottis neoplasm", "cystic neoplasm", "pre-malignant neoplasm"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Cetuximab: الاستطباب الجديد المتوقع أورام القصبات الهوائية الغدية/السرطاوانية عند الأطفال (bronchial adenomas/carcinoids childhood) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -54,7 +54,7 @@ description: "Cetuximab: الاستطباب الجديد المتوقع أورا
 
 ## لماذا قد يكون هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. المعروف أن سيتوكسيماب يرتبط بمستقبل EGFR ويحجب إشارات النمو التي يعتمد عليها بعض الأورام، وتشير بيانات الاستخدام السريري إلى استعماله في سرطان القولون والمستقيم النقيلي المعبّر عن EGFR وفي سرطانات الرأس والعنق الحرشفية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cetuximab (ترجمة غير رسمية): «مستقبل عامل نمو البشرة (EGFR، HER1، c-ErbB-1) بروتين سكري عابر للغشاء ينتمي إلى فصيلة فرعية من مستقبلات التيروزين كيناز من النوع I تشمل EGFR وHER2 وHER3 وHER4. يُعبَّر عن EGFR بشكل تأسيسي في العديد من الأنسجة الظهارية الطبيعية، بما في ذلك الجلد وجريب الشعر. […] يرتبط سيتوكسيماب بشكل نوعي بـ EGFR على كل من الخلايا الطبيعية والخلايا الورمية، ويثبط بشكل تنافسي ارتباط عامل نمو البشرة (EGF) وربائط أخرى، مثل عامل النمو المحوِّل ألفا.» النص الأصلي بالإنجليزية: "The epidermal growth factor receptor (EGFR, HER1, c-ErbB-1) is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases including EGFR, HER2, HER3, and HER4. The EGFR is constitutively expressed in many normal epithelial tissues, including the skin and hair follicle. […] Cetuximab binds specifically to the EGFR on both normal and tumor cells, and competitively inhibits the binding of epidermal growth factor (EGF) and other ligands, such as transforming growth factor-alpha." ([DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9)، إصدار 2026-04-16؛ تاريخ الاطلاع 2026-11-20). المعروف أن سيتوكسيماب يرتبط بمستقبل EGFR ويحجب إشارات النمو التي يعتمد عليها بعض الأورام، وتشير بيانات الاستخدام السريري إلى استعماله في سرطان القولون والمستقيم النقيلي المعبّر عن EGFR وفي سرطانات الرأس والعنق الحرشفية.
 
 أما بالنسبة للأورام السرطاوانية القصبية عند الأطفال، فلم تُسجَّل أي آلية معتمدة على EGFR في هذا المرض، ولم تُسترجع أي دراسات تربط الدواء به. لذلك يبقى هذا التنبؤ قائماً على النموذج الحسابي فقط، ولا يوجد ما يدعمه بيانياً أو سريرياً حتى الآن.
 
@@ -112,11 +112,12 @@ description: "Cetuximab: الاستطباب الجديد المتوقع أورا
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «والترخيص الوحيد المسجّل (المصنّع: MERCK HEALTHCARE KGAA) يظهر بحالة «ملغى» في سجل التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9) |
 
 <!-- review:end log -->
 

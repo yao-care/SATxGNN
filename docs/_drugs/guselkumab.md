@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Guselkumab: الاستطباب الجديد المتوقع هشاشة العظام الناجمة عن الأدوية (Drug-induced osteoporosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص"
 monitor_inn: "GUSELKUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
@@ -60,7 +60,7 @@ predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative di
 
 ## لماذا يبدو هذا التوقع معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في السجلات المجمّعة. المعروف أن غوسيلكوماب يرتبط بالوحدة p19 من IL-23 فيعطّل محور IL-23/Th17.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Guselkumab (ترجمة غير رسمية): «غوسيلكوماب جسم مضاد بشري أحادي النسيلة من نوع IgG1λ يرتبط انتقائيًا بالوحيدة الفرعية p19 للإنترلوكين 23 (IL-23) ويثبط تفاعله مع مستقبِل IL-23. IL-23 سيتوكين يوجد بصورة طبيعية ويشارك في الاستجابات الالتهابية والمناعية الطبيعية.» النص الأصلي بالإنجليزية: "Guselkumab is a human monoclonal IgG1λ antibody that selectively binds to the p19 subunit of interleukin 23 (IL-23) and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in normal inflammatory and immune responses." ([DailyMed: Tremfya (guselkumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6dc9ae-1c4c-42d9-87aa-c315ecc51b56)، إصدار 2026-10-20؛ تاريخ الاطلاع 2026-11-20). المعروف أن غوسيلكوماب يرتبط بالوحدة p19 من IL-23 فيعطّل محور IL-23/Th17.
 
 قد يكون لإشارات IL-23/IL-17 دور في إعادة تشكيل العظام، وهذا هو الأساس الوحيد المحتمل لتوقع النموذج. لكن لا يوجد دليل مباشر يربط تثبيط IL-23 بهشاشة العظام الناجمة عن الأدوية.
 
@@ -126,11 +126,12 @@ predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative di
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لأن السجل يُظهر ترخيصًا ملغى فقط» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tremfya (guselkumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6dc9ae-1c4c-42d9-87aa-c315ecc51b56) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
 description: "Cabozantinib: الاستطباب الجديد المتوقع الساركوما الشحمية (liposarcoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -54,7 +54,7 @@ description: "Cabozantinib: الاستطباب الجديد المتوقع ال�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. ومن المعروف عن كابوزانتينيب أنه يثبط مستقبلات MET وVEGFR2 وAXL وRET، وهي مرتبطة بتكوّن الأوعية الدموية في الساركوما وبتثبيط المناعة في البيئة المحيطة بالورم. لذلك فإن استخدامه مع مثبطات نقاط التفتيش المناعية أو مع العلاج الإشعاعي معقول من الناحية البيولوجية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cabozantinib (ترجمة غير رسمية): «أظهرت المقايسات الكيميائية الحيوية و/أو الخلوية في المختبر أن الكابوزانتينيب يثبط نشاط التيروزين كيناز لكل من MET وVEGFR-1 و-2 و-3 وAXL وRET وROS1 وTYRO3 وMER وKIT وTRKB وFLT-3 وTIE-2. وتشارك مستقبلات التيروزين كيناز هذه في كل من الوظيفة الخلوية الطبيعية والعمليات المرضية مثل تكوّن الأورام، والنقائل، وتكوّن الأوعية الدموية الورمية، ومقاومة الأدوية، والحفاظ على البيئة المكروية للورم.» النص الأصلي بالإنجليزية: "In vitro biochemical and/or cellular assays have shown that cabozantinib inhibits the tyrosine kinase activity of MET, VEGFR-1, -2 and -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3, and TIE-2. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, drug resistance, and maintenance of the tumor microenvironment." ([DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5)، إصدار 2025-10-19؛ تاريخ الاطلاع 2026-11-20). ومن المعروف عن كابوزانتينيب أنه يثبط مستقبلات MET وVEGFR2 وAXL وRET، وهي مرتبطة بتكوّن الأوعية الدموية في الساركوما وبتثبيط المناعة في البيئة المحيطة بالورم. لذلك فإن استخدامه مع مثبطات نقاط التفتيش المناعية أو مع العلاج الإشعاعي معقول من الناحية البيولوجية.
 
 ومع ذلك، فهذا الاستدلال آلي وليس مدعوماً بدراسة مباشرة في الساركوما الشحمية. فالأدلة المتاحة تخص الساركوما الرخوة بوجه عام، والساركوما الشحمية نوع فرعي محتمل منها فقط.
 
@@ -116,6 +116,18 @@ description: "Cabozantinib: الاستطباب الجديد المتوقع ال�
 - بيانات آلية العمل التفصيلية.
 - تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة.
 - خطة لمتابعة السلامة، مع الانتباه للتداخلات الدوائية الشديدة ومخاطر الناسور والانثقاب عند الجمع مع العلاج الإشعاعي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

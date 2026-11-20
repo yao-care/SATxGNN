@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 858
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-20
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: الاستطباب الجديد المتوقع مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث (malignant hypertensive renal disease) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -60,7 +60,7 @@ description: "Valsartan: الاستطباب الجديد المتوقع مرض �
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. استنادًا إلى المعروف عن هذه الفئة الدوائية، فإن فالسارتان يحجب مستقبل الأنجيوتensين II من النوع الأول (AT1R)، وفعاليته في ارتفاع ضغط الدم مثبتة، وقد تنطبق آليته على اعتلال الكلى الناتج عن ارتفاع الضغط الخبيث.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Valsartan (ترجمة غير رسمية): «يتكوّن الأنجيوتنسين II من الأنجيوتنسين I في تفاعل يحفّزه الإنزيم المحوِّل للأنجيوتنسين (ACE، كينيناز II). ويُعدّ الأنجيوتنسين II العامل الرافع للضغط الرئيسي في نظام الرينين-أنجيوتنسين، وتشمل تأثيراته تضيّق الأوعية، وتحفيز تخليق الألدوستيرون وإفرازه، وتنبيه القلب، وإعادة امتصاص الصوديوم كلويًا. […] يحجب Diovan (فالسارتان) التأثيرات المضيّقة للأوعية والمحفّزة لإفراز الألدوستيرون للأنجيوتنسين II عن طريق الحجب الانتقائي لارتباط الأنجيوتنسين II بمستقبل AT 1 في العديد من الأنسجة، مثل العضلات الملساء الوعائية والغدة الكظرية.» النص الأصلي بالإنجليزية: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Diovan (valsartan) blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213)، إصدار 2026-08-11؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعروف عن هذه الفئة الدوائية، فإن فالسارتان يحجب مستقبل الأنجيوتensين II من النوع الأول (AT1R)، وفعاليته في ارتفاع ضغط الدم مثبتة، وقد تنطبق آليته على اعتلال الكلى الناتج عن ارتفاع الضغط الخبيث.
 
 فارتفاع نشاط نظام الرينين-أنجيوتensين يسهم في إصابة الكلى في ارتفاع الضغط الخبيث، مما يجعل الرابط الحيوي معقولًا ويتداخل بدرجة كبيرة مع المؤشر المعتمد. غير أن المنشور الوحيد المسترجع (PMID 24368192) يتناول أفوسنتان، وهو مضاد للإندوثيلين، وليس فالسارتان، ولذلك لا يدعم الدواء مباشرة.
 
@@ -118,6 +118,19 @@ description: "Valsartan: الاستطباب الجديد المتوقع مرض �
 - البحث عن أدلة بشرية مباشرة لفالسارتان في اعتلال الكلى الناتج عن ارتفاع الضغط الخبيث.
 - تقييم المخاطر لدى المرضى المصابين بتضيّق الشريان الكلوي وضعف وظائف الكلى وفرط بوتاسيوم الدم.
 - توضيح الوضع التنظيمي والتجاري في المملكة في ظل إلغاء جميع التراخيص.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

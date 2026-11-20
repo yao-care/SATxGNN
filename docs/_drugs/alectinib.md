@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Alectinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Alectinib: الاستطباب الجديد المتوقع الورم الليفي اللثوي (fibromatosis, gingival) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -54,7 +54,7 @@ description: "Alectinib: الاستطباب الجديد المتوقع الور
 
 ## لماذا قد يكون هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. بحسب المعلومات المعروفة، ألكتينيب مثبّط انتقائي لكيناز ALK، ويرتبط أيضاً بمستقبل MET وفق بيانات الفارماكولوجيا، وقد أظهر نشاطاً مضاداً للأورام في خلايا مقاومة لدواء كريزوتينيب.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Alectinib (ترجمة غير رسمية): «الأليكتينيب مثبط للتيروزين كيناز يستهدف ALK وRET. وفي الدراسات غير السريرية، ثبّط الأليكتينيب فسفرة ALK والتنشيط المتواسط بـ ALK لبروتينات الإشارات اللاحقة STAT3 وAKT، وخفّض حيوية الخلايا الورمية في سلالات خلوية متعددة تحمل اندماجات ALK أو تضخيماته أو طفرات مُنشِّطة فيه.» النص الأصلي بالإنجليزية: "Alectinib is a tyrosine kinase inhibitor that targets ALK and RET. In nonclinical studies, alectinib inhibited ALK phosphorylation and ALK-mediated activation of the downstream signaling proteins STAT3 and AKT, and decreased tumor cell viability in multiple cell lines harboring ALK fusions, amplifications, or activating mutations." ([DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb)، إصدار 2026-08-21؛ تاريخ الاطلاع 2026-11-20). بحسب المعلومات المعروفة، ألكتينيب مثبّط انتقائي لكيناز ALK، ويرتبط أيضاً بمستقبل MET وفق بيانات الفارماكولوجيا، وقد أظهر نشاطاً مضاداً للأورام في خلايا مقاومة لدواء كريزوتينيب.
 
 أما الصلة الميكانيكية بين تثبيط ALK والورم الليفي اللثوي (وهو اضطراب وراثي يتميز بتضخم اللثة) فلا يظهر لها أي أساس معقول في البيانات المتاحة. درجة التنبؤ العالية تعكس نتيجة النموذج الحاسوبي فقط، ولا تُعد دليلاً سريرياً أو دوائياً على الفعالية.
 
@@ -99,6 +99,19 @@ description: "Alectinib: الاستطباب الجديد المتوقع الور
 - بيانات آلية العمل التفصيلية وتحليل الصلة الميكانيكية بالمرض المتنبأ به
 - دراسات مخبرية أو سريرية تدرس الدواء في هذا المرض مباشرة
 - الحصول على تحذيرات وموانع الاستعمال من النشرة الدوائية لهيئة الغذاء والدواء السعودية
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

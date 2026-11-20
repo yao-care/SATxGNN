@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 592
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Nitrofurantoin: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المتاحة (التهابات المسالك البولية وفق الا…"
 monitor_inn: "NITROFURANTOIN"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
@@ -58,7 +58,7 @@ predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hem
 
 ## لماذا ظهر هذا التنبؤ؟
 
-تفاصيل آلية العمل غير متوفرة حاليًا في البيانات المجمّعة. المعروف أن نيتروفورانتوين مضاد جرثومي يُلحق الضرر بالحمض النووي البكتيري والبروتينات الريبوسومية، ولا توجد آلية مضادة للالتهاب أو مثبّطة للمناعة مثبتة له ذات صلة بالتهاب المفاصل الروماتويدي.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Nitrofurantoin (ترجمة غير رسمية): «نيتروفورانتوين دواء مضاد للبكتيريا. […] يُختزل نيتروفورانتوين بواسطة طيف واسع من الإنزيمات، بما في ذلك البروتينات الفلافينية البكتيرية، إلى مركّبات وسيطة تفاعلية تُلحق الضرر بالجزيئات الكبيرة مثل DNA والبروتينات.» النص الأصلي بالإنجليزية: "Nitrofurantoin is an antibacterial drug. […] Nitrofurantoin is reduced by a wide range of enzymes including bacterial flavoproteins to reactive intermediates which are damaging to macromolecules such as DNA and proteins." ([DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5)، إصدار 2026-01-22؛ تاريخ الاطلاع 2026-11-20). المعروف أن نيتروفورانتوين مضاد جرثومي يُلحق الضرر بالحمض النووي البكتيري والبروتينات الريبوسومية، ولا توجد آلية مضادة للالتهاب أو مثبّطة للمناعة مثبتة له ذات صلة بالتهاب المفاصل الروماتويدي.
 
 الدرجة المرتفعة لا تعكس على الأرجح آلية علاجية. فالمنشورات المسترجعة تصف السمّية الرئوية (التليف والمرض الخلالي)، وتداخلًا ضارًا مع الميثوتريكسات لدى مريضة بالتهاب المفاصل الروماتويدي، وارتباطًا بين استخدام المضادات الحيوية ونوبات المرض. وهذه إشارات أحداث سلبية لا أدلة فعالية. ويُرجَّح أن الدرجة ناتجة عن روابط مشتركة في الشبكة المعرفية بين الآثار الجانبية الدوائية والأمراض المصاحبة.
 
@@ -133,11 +133,12 @@ predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hem
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كلا الترخيصين ملغى، ولا يوجد حاليًا منتج ساري المفعول» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5) |
 
 <!-- review:end log -->
 

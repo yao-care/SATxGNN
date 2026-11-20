@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 description: "Lactulose: الاستطباب الجديد المتوقع Acute urate nephropathy (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
@@ -61,7 +61,7 @@ description: "Lactulose: الاستطباب الجديد المتوقع Acute ur
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف، فاللاكتولوز سكر غير ممتص يتخمر في القولون، فيخفض الأس الهيدروجيني ويغيّر الفلورا المعوية ويقلل الأمونيا، وقد ثبتت فائدته في الاعتلال الدماغي الكبدي.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lactulose (ترجمة غير رسمية): «يُحدث اللاكتولوز انخفاضًا في تركيز الأمونيا في الدم ويقلل من درجة الاعتلال الدماغي البابي الجهازي. وتُعدّ هذه التأثيرات ناتجة عما يلي: يؤدي التحلل البكتيري للاكتولوز في القولون إلى تحميض محتويات القولون.» النص الأصلي بالإنجليزية: "Lactulose causes a decrease in blood ammonia concentration and reduces the degree of portalsystemic encephalopathy. These actions are considered to be results of the following: Bacterial degradation of lactulose in the colon acidifies the colonic contents." ([DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5)، إصدار 2024-12-18؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فاللاكتولوز سكر غير ممتص يتخمر في القولون، فيخفض الأس الهيدروجيني ويغيّر الفلورا المعوية ويقلل الأمونيا، وقد ثبتت فائدته في الاعتلال الدماغي الكبدي.
 
 في اليرقان الانسدادي يغيب الصفراء عن الأمعاء، فيزداد امتصاص السموم الداخلية (endotoxin) وتنتقل البكتيريا عبر جدار الأمعاء ويضعف الحاجز المعوي، مما قد يؤدي إلى الإنتان والفشل الكلوي بعد الجراحة. ويُفترض أن اللاكتولوز يقلل حمل السموم الداخلية وانتقال البكتيريا عبر تغيير الفلورا وخفض الأس الهيدروجيني وتسريع العبور المعوي. وهذه فرضية معقولة، لكنها لم تثبت بصورة قاطعة سريرياً.
 
@@ -95,7 +95,6 @@ description: "Lactulose: الاستطباب الجديد المتوقع Acute ur
 ---
 
 ## معلومات السوق في السعودية
-
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
 |---------|------|------|-----------|
@@ -131,6 +130,19 @@ description: "Lactulose: الاستطباب الجديد المتوقع Acute ur
 - تنزيل نشرة الدواء من موقع الهيئة العامة للغذاء والدواء لاستكمال التحذيرات والموانع (وهي فجوة معيقة للفحص الأمني).
 - استكمال بيانات آلية العمل من DrugBank.
 - مراجعة منهجية حديثة أو تجربة سريرية مستقبلية تحدد النتائج الكلوية والإنتانية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

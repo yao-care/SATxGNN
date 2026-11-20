@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 399
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Goserelin: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L2). الاستطباب الأصلي: التهاب بطانة الرحم (Endometriosis)، وانتباذ بطانة الرحم في الرحم (لا…"
 monitor_inn: "GOSERELIN"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
@@ -58,7 +58,7 @@ predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "r
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-تفصيل آلية العمل غير متوفر حالياً في البيانات المجمّعة لهذا التقرير. غير أن غوسيريلين معروف بأنه ناهض لـ GnRH؛ فالجرعات المستمرة تُحدث إزالة حساسية لمستقبلات GnRH في الغدة النخامية، فينخفض إفراز LH وFSH ويهبط إستراديول المبيض، وينتج عن ذلك انقطاع طمث قابل للعكس (كبح مبيضي دوائي).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Goserelin (ترجمة غير رسمية): «ZOLADEX هو نظير ديكاببتيدي اصطناعي لـ GnRH. ويعمل ZOLADEX بوصفه مثبطًا لإفراز موجهات الغدد التناسلية النخامية عند إعطائه في التركيبة القابلة للتحلل الحيوي. وفي الدراسات على الحيوانات والدراسات المختبرية (in vitro)، أدى إعطاء غوسيريلين إلى تراجع أو تثبيط نمو ورم الثدي لدى الجرذان المُحدَث بثنائي ميثيل بنز أنثراسين (DMBA) والحساس هرمونيًا، وورم البروستاتا Dunning R3327.» النص الأصلي بالإنجليزية: "ZOLADEX is a synthetic decapeptide analogue of GnRH. ZOLADEX acts as an inhibitor of pituitary gonadotropin secretion when administered in the biodegradable formulation. In animal and in vitro studies, administration of goserelin resulted in the regression or inhibition of growth of the hormonally sensitive dimethylbenzanthracene (DMBA)-induced rat mammary tumor and Dunning R3327 prostate tumor." ([DailyMed: Zoladex (goserelin) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3)، إصدار 2026-03-24؛ تاريخ الاطلاع 2026-11-20). غير أن غوسيريلين معروف بأنه ناهض لـ GnRH؛ فالجرعات المستمرة تُحدث إزالة حساسية لمستقبلات GnRH في الغدة النخامية، فينخفض إفراز LH وFSH ويهبط إستراديول المبيض، وينتج عن ذلك انقطاع طمث قابل للعكس (كبح مبيضي دوائي).
 
 يتسق هذا مع الاستطباب الأصلي في التهاب بطانة الرحم، إذ إن نقص الإستروجين هو الآلية العلاجية فيه. ولذلك فدرجة TxGNN العالية جداً متوافقة مع الآلية.
 
@@ -147,12 +147,13 @@ predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "r
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن وضع الترخيص في السعودية ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «التحقق من إمكانية إعادة تسجيل المنتج أو وجود صيغ بديلة في السوق السعودي، إذ إن الترخيص الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Zoladex (goserelin) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 862
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Vasopressin: الاستطباب الجديد المتوقع نقص البروثرومبين الخلقي (Congenital prothrombin deficiency) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نص المؤشر في ترخيص هيئة الغذاء والدواء السعودية فارغ)"
 monitor_inn: "VASOPRESSIN"
 predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteoporosis"]
@@ -64,7 +64,7 @@ predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteo
 
 ## لماذا يُعدّ هذا التنبؤ معقولًا (أو غير معقول)؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن فاسوبريسين وتناظره ديسموبريسين (DDAVP) ينشّطان مستقبلات V2 فيحفّزان إفراز عامل فون ويلبراند (vWF) والعامل الثامن من الخلايا البطانية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Vasopressin (ترجمة غير رسمية): «يُسبّب فازوبريسين تضيّق الأوعية الدموية عن طريق الارتباط بمستقبلات V 1 الموجودة على العضلات الملساء الوعائية والمقترنة بمسار Gq/11-فوسفوليباز C-فوسفاتيديل إينوزيتول ثلاثي الفوسفات، مما يؤدي إلى تحرير الكالسيوم داخل الخلايا. بالإضافة إلى ذلك، يُحفّز فازوبريسين إدرار البول المضاد عن طريق تحفيز مستقبلات V 2 المقترنة بإنزيم أدينيل سيكلاز.» النص الأصلي بالإنجليزية: "Vasopressin causes vasoconstriction by binding to V 1 receptors on vascular smooth muscle coupled to the Gq/11-phospholipase C-phosphatidyl-inositol-triphosphate pathway, resulting in the release of intracellular calcium. In addition, vasopressin stimulates antidiuresis via stimulation of V 2 receptors which are coupled to adenyl cyclase." ([DailyMed: Vasostrict (vasopressin) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1147beb-743e-4c62-8927-91192447f8b8)، إصدار 2026-04-21؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن فاسوبريسين وتناظره ديسموبريسين (DDAVP) ينشّطان مستقبلات V2 فيحفّزان إفراز عامل فون ويلبراند (vWF) والعامل الثامن من الخلايا البطانية.
 
 هذه الآلية وثيقة الصلة بنقص العامل الثامن ومرض فون ويلبراند، لكنها **لا ترفع مستوى البروثرومبين (العامل II) مباشرة**. كما أن المنشورات المتاحة تخص نقص العامل الثامن/العامل الخامس والهيموفيليا المكتسبة، وليس نقص البروثرومبين.
 
@@ -148,13 +148,14 @@ predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteo
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن ترخيصه الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «وكون الترخيص ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «الترخيص السعودي الوحيد ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Vasostrict (vasopressin) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1147beb-743e-4c62-8927-91192447f8b8) |
 
 <!-- review:end log -->
 

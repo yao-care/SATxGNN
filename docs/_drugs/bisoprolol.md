@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bisoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Bisoprolol: الاستطباب الجديد المتوقع مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث (malignant hypertensive renal disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 19 على الأقل"
 ---
 
@@ -56,7 +56,7 @@ description: "Bisoprolol: الاستطباب الجديد المتوقع مرض 
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لم تتوفر في البيانات المجمعة لهذا التقرير معلومات تفصيلية عن آلية العمل. المعروف عن بيسوبرولول أنه يحجب مستقبلات بيتا-1 الأدرينالية (الجين ADRB1)، وهي المستقبلات السائدة في القلب والجهاز المرتبط بإفراز الرينين في الكلى.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Bisoprolol (ترجمة غير رسمية): «بيسوبرولول فومارات عامل حاصر انتقائي لمستقبلات بيتا 1 الأدرينالية (انتقائي للقلب) دون نشاط مثبت للغشاء أو نشاط ذاتي محاكٍ للودي يُعتد بهما ضمن نطاق جرعاته العلاجية. غير أن الانتقائية القلبية ليست مطلقة، وعند الجرعات الأعلى (≥ 20 mg) يثبط بيسوبرولول فومارات أيضًا مستقبلات بيتا 2 الأدرينالية، الموجودة بشكل رئيسي في عضلات القصبات والأوعية الدموية؛ ولذلك، للحفاظ على الانتقائية، من المهم استخدام أدنى جرعة فعالة.» النص الأصلي بالإنجليزية: "BISOPROLOL FUMARATE is a beta 1 -selective (cardioselective) adrenoceptor blocking agent without significant membrane stabilizing activity or intrinsic sympathomimetic activity in its therapeutic dosage range. Cardioselectivity is not absolute, however, and at higher doses (≥ 20 mg) bisoprolol fumarate also inhibits beta 2 -adrenoceptors, chiefly located in the bronchial and vascular musculature; to retain selectivity it is therefore important to use the lowest effective dose." ([DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e)، إصدار 2026-11-11؛ تاريخ الاطلاع 2026-11-20). المعروف عن بيسوبرولول أنه يحجب مستقبلات بيتا-1 الأدرينالية (الجين ADRB1)، وهي المستقبلات السائدة في القلب والجهاز المرتبط بإفراز الرينين في الكلى.
 
 من الناحية النظرية، يخفض حصار بيتا-1 ضغط الدم ويثبّط إفراز الرينين. قد يحدّ ذلك من الأذى الكلوي الناجم عن الارتفاع الشديد في الضغط. وبذلك يكون التنبؤ امتداداً لتأثيره الخافض للضغط، وليس آلية جديدة مختلفة.
 
@@ -91,6 +91,19 @@ description: "Bisoprolol: الاستطباب الجديد المتوقع مرض 
 - تنزيل النشرة الدوائية من هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال.
 - إجراء مراجعة منهجية للأدبيات حول حاصرات بيتا في اعتلال الكلى الناجم عن ارتفاع الضغط الخبيث.
 - إعداد تقييم للسلامة الكلوية والدورانية لهذه الفئة من المرضى قبل أي دراسة سريرية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

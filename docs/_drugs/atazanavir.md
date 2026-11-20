@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ATAZANAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Atazanavir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infection) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -58,7 +58,7 @@ description: "Atazanavir: الاستطباب الجديد المتوقع عدو�
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. بناءً على المعروف، أتازانافير مثبّط لبروتياز فيروس نقص المناعة البشرية، وهو من فئة الأدوية المضادة للفيروسات القهقرية، ومن الناحية الآلية قد ينطبق على الفيروسات القريبة منه.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Atazanavir (ترجمة غير رسمية): «الأتازانافير دواء مضاد للفيروسات القهقرية لـ HIV-1. […] الأتازانافير (ATV) مثبط أزاببتيدي لإنزيم البروتياز لدى HIV-1 (PI). ويثبط المركب بصورة انتقائية المعالجة النوعية للفيروس لعديدات البروتين الفيروسية Gag وGag-Pol في الخلايا المصابة بـ HIV-1، مما يمنع تكوّن الفيريونات الناضجة.» النص الأصلي بالإنجليزية: "Atazanavir is an HIV-1 antiretroviral drug. […] Atazanavir (ATV) is an azapeptide HIV-1 protease inhibitor (PI). The compound selectively inhibits the virus-specific processing of viral Gag and Gag-Pol polyproteins in HIV-1-infected cells, thus preventing formation of mature virions." ([DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8)، إصدار 2024-12-05؛ تاريخ الاطلاع 2026-11-20). بناءً على المعروف، أتازانافير مثبّط لبروتياز فيروس نقص المناعة البشرية، وهو من فئة الأدوية المضادة للفيروسات القهقرية، ومن الناحية الآلية قد ينطبق على الفيروسات القريبة منه.
 
 فيروس نقص المناعة القردي هو النظير الرئيسي لفيروس HIV-1 لدى الرئيسيات غير البشرية، ويُحتمل أن يتشابه بروتياز الفيروسين بدرجة ما. غير أن هذا يمثل في جوهره الفئة العلاجية المضادة للفيروسات نفسها، وليس إعادة توظيف حقيقية للدواء. كما أن الدرجة المرتفعة جداً ربما تعكس قرب هذا المرض من HIV في بنية البيانات التي بُني عليها النموذج أكثر مما تعكس دليلاً مستقلاً.
 
@@ -117,6 +117,19 @@ description: "Atazanavir: الاستطباب الجديد المتوقع عدو�
 - دراسات ما قبل سريرية تختبر أتازانافير وحده ضد فيروس نقص المناعة القردي.
 - نص النشرة المعتمدة من هيئة الغذاء والدواء السعودية (التحذيرات وموانع الاستعمال) لإجراء الفحص الأمني.
 - تحديد القيمة العلمية أو التطبيقية للاستطباب، نظراً لقربه من الاستخدام الأصلي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

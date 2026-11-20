@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Diclofenac: الاستطباب الجديد المتوقع قلة الشعر البسيطة في فروة الرأس (مستوى الدليل L5). الاستطباب الأصلي: التقران الشعاعي، التهاب المفاصل الروماتويدي، الفصال العظمي، التهاب ال…"
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
@@ -58,7 +58,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dys
 
 ## لماذا يبدو هذا التوقع معقولاً أو غير معقول؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في السجلات المجمّعة لهذا التقرير. المعروف أن ديكلوفيناك يثبّط إنزيمي الأكسدة الحلقية COX-1 وCOX-2، فيقلل تخليق البروستاغلاندين المسؤول عن الالتهاب والألم. وهذا ما يفسر فعاليته في الأمراض المفصلية الالتهابية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Diclofenac (ترجمة غير رسمية): «يتمتع الديكلوفيناك بخصائص مسكنة ومضادة للالتهاب وخافضة للحرارة. وآلية تأثير الديكلوفيناك، شأنها شأن آلية تأثير مضادات الالتهاب غير الستيرويدية (NSAIDs) الأخرى، غير مفهومة بالكامل، ولكنها تنطوي على تثبيط إنزيمات الأكسدة الحلقية (COX-1 وCOX-2).» النص الأصلي بالإنجليزية: "Diclofenac has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of diclofenac, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970)، إصدار 2026-09-24؛ تاريخ الاطلاع 2026-11-20). المعروف أن ديكلوفيناك يثبّط إنزيمي الأكسدة الحلقية COX-1 وCOX-2، فيقلل تخليق البروستاغلاندين المسؤول عن الالتهاب والألم. وهذا ما يفسر فعاليته في الأمراض المفصلية الالتهابية.
 
 لا يوجد رابط آلية واضح بين تثبيط COX وقلة الشعر البسيطة، وهي اضطراب وراثي في بصيلات الشعر. وربما يعكس التوقع قرب هذا المرض في الشبكة المعرفية من استخدامات ديكلوفيناك الجلدية (التقران الشعاعي)، لكن ذلك لا يشكل مبرراً دوائياً لعيب وراثي في بصيلة الشعر. لذلك يُعدّ هذا التوقع ضعيف الأساس العلمي حتى الآن.
 
@@ -134,12 +134,13 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dys
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وجميعها **ملغاة** ولا يوجد أي ترخيص ساري» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة، مما يقيّد الاستفادة العملية منه» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970) |
 
 <!-- review:end log -->
 

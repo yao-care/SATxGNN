@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "KETOPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
 description: "Ketoprofen: الاستطباب الجديد المتوقع Acromesomelic dysplasia, Hunter-Thompson type (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 9 (السارية: 9)"
@@ -59,7 +59,7 @@ description: "Ketoprofen: الاستطباب الجديد المتوقع Acromes
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً (أو لا)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن كيتوبروفين مثبّط غير انتقائي لإنزيم COX، وله تأثير مضاد للالتهاب ومسكّن للألم، وفعاليته مثبتة في أمراض المفاصل الالتهابية والتنكسية.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ketoprofen (ترجمة غير رسمية): «في النماذج المضادة للالتهاب، ثبت أن لكيتوبروفين تأثيرات مثبطة على تخليق البروستاغلاندين والليكوترين، وأن له نشاطاً مضاداً للبراديكينين، فضلاً عن تأثير مثبت للغشاء الليزوزومي. ومع ذلك، فإن طريقة تأثيره، شأنه شأن غيره من مضادات الالتهاب غير الستيرويدية، غير مفهومة تماماً.» النص الأصلي بالإنجليزية: "In anti-inflammatory models ketoprofen has been shown to have inhibitory effects on prostaglandin and leukotriene synthesis, to have antibradykinin activity, as well as to have lysosomal membrane-stabilizing action. However, its mode of action, like that of other non-steroidal anti-inflammatory drugs, is not fully understood." ([DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d)، إصدار 2026-01-07؛ تاريخ الاطلاع 2026-11-20). المعروف أن كيتوبروفين مثبّط غير انتقائي لإنزيم COX، وله تأثير مضاد للالتهاب ومسكّن للألم، وفعاليته مثبتة في أمراض المفاصل الالتهابية والتنكسية.
 
 أما الحثل الميزوميلي الطرفي من نوع هنتر-طومسون فهو اضطراب هيكلي نادر ناتج عن طفرات فقدان الوظيفة في الجين CDMP1/GDF5، وهي تعطّل إشارات BMP في نمو الغضاريف والعظام. وكيتوبروفين لا يعالج هذا الخلل الجيني. لذلك **لا يوجد ارتباط آلي موثوق**، ويُرجَّح أن الدرجة المرتفعة ناجمة عن تشارك مصطلحات النمط الظاهري الهيكلي والمفصلي في الرسم المعرفي.
 
@@ -149,11 +149,12 @@ description: "Ketoprofen: الاستطباب الجديد المتوقع Acromes
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «حالة السوق "ملغاة فقط" تحدّ من الجدوى العملية، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d) |
 
 <!-- review:end log -->
 

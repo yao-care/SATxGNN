@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Benzylpenicillin: الاستطباب الجديد المتوقع التهاب ما حول التاج (Pericoronitis) (مستوى الدليل L5). الاستطباب الأصلي: العدوى بالمكورات العقدية، والعنقودية، والسحائية، والتهاب السحايا، وال…"
 monitor_inn: "BENZYLPENICILLIN"
 predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "chemotherapy-induced oral mucositis", "denture stomatitis", "leukoplakia of gingiva"]
@@ -59,7 +59,7 @@ predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "u
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا. استنادًا إلى المعلومات المعروفة، بنزيل بنسلين ينتمي إلى فئة البنسلينات (مضادات حيوية بيتا-لاكتام تثبّط تخليق جدار الخلية البكتيرية)، وقد ثبتت فعاليته في عدوى المكورات العقدية والعنقودية، ومن حيث الآلية قد ينطبق على التهاب ما حول التاج.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Benzylpenicillin (ترجمة غير رسمية): «ترتبط البنسلينات ببروتينات المصل، وبشكل رئيسي الألبومين. يتم بلوغ المستويات العلاجية للبنسلينات بسهولة في الظروف الطبيعية في السائل خارج الخلوي ومعظم أنسجة الجسم الأخرى. تتوزع البنسلينات بدرجات متفاوتة في السوائل الجنبية والتامورية والبريتونية والحبنية والزليلية والخلالية.» النص الأصلي بالإنجليزية: "Penicillins bind to serum proteins, mainly albumin. Therapeutic levels of the penicillins are easily achieved under normal circumstances in extracellular fluid and most other body tissues. Penicillins are distributed in varying degrees into pleural, pericardial, peritoneal, ascitic, synovial, and interstitial fluids." ([DailyMed: Pfizerpen (penicillin g potassium) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efef4846-9497-41af-8dd6-518f86eca7f2)، إصدار 2026-11-04؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعلومات المعروفة، بنزيل بنسلين ينتمي إلى فئة البنسلينات (مضادات حيوية بيتا-لاكتام تثبّط تخليق جدار الخلية البكتيرية)، وقد ثبتت فعاليته في عدوى المكورات العقدية والعنقودية، ومن حيث الآلية قد ينطبق على التهاب ما حول التاج.
 
 التهاب ما حول التاج عدوى متعددة الميكروبات في الأنسجة الرخوة المحيطة بسن لم يبزغ كاملًا، وتشارك فيها عادةً المكورات العقدية والبكتيريا اللاهوائية، وهي عمومًا حساسة للبنسلينات. هذا يمنح التنبؤ منطقًا مضادًا للبكتيريا مقبولًا.
 
@@ -143,12 +143,13 @@ predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "u
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الترخيصين المحليين ملغيان» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «تقييم جدوى طريق الإعطاء والوضع التنظيمي في ظل إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Pfizerpen (penicillin g potassium) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efef4846-9497-41af-8dd6-518f86eca7f2) |
 
 <!-- review:end log -->
 

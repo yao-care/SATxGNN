@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "emtricitabine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Emtricitabine: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب لدى القطط (feline acquired immunodeficiency syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
@@ -54,7 +54,7 @@ description: "Emtricitabine: الاستطباب الجديد المتوقع مت
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعروف عن الدواء، فإن إمتريسيتابين مثبّط نوكليوسيدي للنسخ العكسي، يعمل بعد تفسفره على إنهاء سلسلة الحمض النووي الفيروسي. وفيروس العوز المناعي لدى القطط (FIV) فيروس بطيء (lentivirus) قريب من فيروس نقص المناعة البشرية، ما يجعل تثبيط إنزيم النسخ العكسي لديه معقولاً من الناحية البيولوجية.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Emtricitabine (ترجمة غير رسمية): «إمتريسيتابين دواء مضاد للفيروسات القهقرية. […] إن FTC، وهو نظير نوكليوزيدي اصطناعي للسيتيدين، يُفسفَر بواسطة الإنزيمات الخلوية ليُكوّن إمتريسيتابين 5'-ثلاثي الفوسفات (FTC-TP)، الذي يُثبّط نشاط إنزيم المنتسخة العكسية (RT) لفيروس HIV-1 عن طريق التنافس مع الركيزة الطبيعية ديوكسي سيتيدين 5'-ثلاثي الفوسفات وعن طريق اندماجه في الدنا الفيروسي الناشئ، مما يؤدي إلى إنهاء السلسلة. ويُعدّ FTC-TP مثبطًا ضعيفًا لبوليميرازات الدنا α وβ وε لدى الثدييات، ولبوليميراز الدنا γ الميتوكوندري.» النص الأصلي بالإنجليزية: "Emtricitabine is an antiretroviral drug. […] FTC, a synthetic nucleoside analog of cytidine, is phosphorylated by cellular enzymes to form emtricitabine 5'-triphosphate (FTC-TP), which inhibits the activity of the HIV-1 reverse transcriptase (RT) by competing with the natural substrate deoxycytidine 5'-triphosphate and by being incorporated into nascent viral DNA resulting in chain termination. FTC-TP is a weak inhibitor of mammalian DNA polymerases α, β, ε, and mitochondrial DNA polymerase γ." ([DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f)، إصدار 2026-11-06؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن الدواء، فإن إمتريسيتابين مثبّط نوكليوسيدي للنسخ العكسي، يعمل بعد تفسفره على إنهاء سلسلة الحمض النووي الفيروسي. وفيروس العوز المناعي لدى القطط (FIV) فيروس بطيء (lentivirus) قريب من فيروس نقص المناعة البشرية، ما يجعل تثبيط إنزيم النسخ العكسي لديه معقولاً من الناحية البيولوجية.
 
 الدعم الوحيد المتاح دراسة منشورة عام 2023 قيّمت علاجاً مركباً مضاداً للفيروسات القهقرية (دولوتغرافير + تينوفوفير + إمتريسيتابين) في قطط مصابة بـFIV. هذا دعم غير مباشر وما قبل سريري، ولا يعزل أثر إمتريسيتابين وحده. كما أن الدرجة العالية للنموذج تعكس التشابه مع استطباب الدواء الأصلي أكثر مما تعكس تحققاً مستقلاً.
 
@@ -104,6 +104,19 @@ description: "Emtricitabine: الاستطباب الجديد المتوقع مت
 - بيانات تفصيلية عن آلية العمل.
 - نص النشرة الدوائية المعتمدة (التحذيرات وموانع الاستعمال).
 - التحقق من الجدوى التنظيمية والتجارية للاستخدام البيطري.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

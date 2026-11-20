@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Interferon Gamma-1B: الاستطباب الجديد المتوقع أمراض القلب (heart disease) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (لا يوجد نص استطباب في ترخيص الهيئة العامة للغذاء والدواء)"
 monitor_inn: "INTERFERON GAMMA-1B"
 predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofacial clefting syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 7", "genetic syndromic Pierre Robin syndrome", "Laubry-Pezzi syndrome", "partial deletion of the long arm of chromosome 22", "interventricular septum aneurysm"]
@@ -58,7 +58,7 @@ predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofa
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. بحسب المعرفة العامة، إنترفيرون غاما-1b سيتوكين مُعدِّل للمناعة ينشّط الخلايا البلعمية ويعزز الاستجابة المناعية الخلوية. ويُعرف استخدامه في أمراض مثل داء الورم الحبيبي المزمن وتصلّب العظام الخبيث الشديد.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Interferon Gamma-1B (ترجمة غير رسمية): «ترتبط الإنترفيرونات بمستقبِلات نوعية على سطح الخلايا وتُطلق سلسلة من الأحداث داخل الخلية تؤدي إلى انتساخ الجينات المُحفَّزة بالإنترفيرون. وتمتلك المجموعات الرئيسية الثلاث من الإنترفيرونات (ألفا، بيتا، غاما) أنشطة بيولوجية متداخلة جزئيًا تشمل التنظيم المناعي، مثل زيادة المقاومة للعوامل الممرضة الميكروبية وتثبيط تكاثر الخلايا.» النص الأصلي بالإنجليزية: "Interferons bind to specific cell surface receptors and initiate a sequence of intracellular events that lead to the transcription of interferon-stimulated genes. The three major groups of interferons (alpha, beta, gamma) have partially overlapping biological activities that include immunoregulation such as increased resistance to microbial pathogens and inhibition of cell proliferation." ([DailyMed: Actimmune (interferon gamma-1b) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d0b1256-1981-4519-94f4-a4a2f98bd8a3)، إصدار 2026-03-30؛ تاريخ الاطلاع 2026-11-20). بحسب المعرفة العامة، إنترفيرون غاما-1b سيتوكين مُعدِّل للمناعة ينشّط الخلايا البلعمية ويعزز الاستجابة المناعية الخلوية. ويُعرف استخدامه في أمراض مثل داء الورم الحبيبي المزمن وتصلّب العظام الخبيث الشديد.
 
 الصلة بأمراض القلب غير مباشرة. فقد دُرس الدواء في ترنّح فريدريش (Friedreich ataxia)، وهو مرض له مكوّن اعتلال عضلة قلب، وهذا هو الرابط الوحيد المحتمل. ومع ذلك فإن فئة «أمراض القلب» واسعة جداً بحيث لا يمكن تقييمها تقييماً ذا معنى. ودرجة TxGNN المرتفعة تنبؤ نموذجي ولا تحلّ محل الدليل السريري.
 
@@ -135,12 +135,13 @@ predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofa
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «إضافة إلى ذلك فإن الترخيص المحلي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «التحقق من وضع الترخيص المحلي (الملغى) وإمكانية توفر المنتج في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Actimmune (interferon gamma-1b) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d0b1256-1981-4519-94f4-a4a2f98bd8a3) |
 
 <!-- review:end log -->
 

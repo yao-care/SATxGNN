@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Calcitriol: الاستطباب الجديد المتوقع نقص فيتامين د المتقادم (obsolete vitamin D deficiency) (مستوى الدليل L5). الاستطباب الأصلي: فرط كالسيوم الدم، تكلّس الكلية، اضطرابات استقلاب الفوسفور، نقص فوسفات…"
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
@@ -60,7 +60,7 @@ predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبناءً على المعلومات المعروفة، فإن كالسيتريول هو الشكل الفعّال حيوياً من فيتامين د (1,25-ثنائي هيدروكسي فيتامين د). وقد ثبتت فعاليته في اضطرابات الكالسيوم والفوسفور، ومن الناحية الآلية قد ينطبق على حالات نقص فيتامين د.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Calcitriol (ترجمة غير رسمية): «يؤدي التخليق الداخلي لكالسيتريول وتقويضه، وكذلك آليات التحكم الفسيولوجية التي تؤثر في هذه العمليات، دورًا حاسمًا في تنظيم مستوى كالسيتريول في المصل. يبلغ الإنتاج اليومي الفسيولوجي عادةً من 0.5 إلى 1.0 mcg، ويكون أعلى إلى حد ما خلال فترات زيادة تخليق العظام (مثل النمو أو الحمل).» النص الأصلي بالإنجليزية: "Endogenous synthesis and catabolism of calcitriol, as well as physiological control mechanisms affecting these processes, play a critical role regulating the serum level of calcitriol. Physiological daily production is normally 0.5 to 1.0 mcg and is somewhat higher during periods of increased bone synthesis (eg, growth or pregnancy)." ([DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e)، إصدار 2026-10-15؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، فإن كالسيتريول هو الشكل الفعّال حيوياً من فيتامين د (1,25-ثنائي هيدروكسي فيتامين د). وقد ثبتت فعاليته في اضطرابات الكالسيوم والفوسفور، ومن الناحية الآلية قد ينطبق على حالات نقص فيتامين د.
 
 الصلة البيولوجية بين الاستطباب الأصلي والجديد قائمة، لأن كليهما يتعلق بمحور فيتامين د والكالسيوم والفوسفور. لكن ينبغي التعامل مع الدرجة العالية (0.9996) بحذر، فهي على الأرجح تعكس دور الدواء المعروف في مسارات فيتامين د، وليست دليلاً على استطباب جديد حقيقي. كما أن مُدخل المرض مصنَّف كمتقادم، ولا توجد تجارب أو دراسات مرتبطة به.
 
@@ -126,11 +126,12 @@ predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص الدواء في المملكة ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "GEMCITABINE"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
 description: "Gemcitabine: الاستطباب الجديد المتوقع Rectum mucinous adenocarcinoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"
@@ -58,7 +58,7 @@ description: "Gemcitabine: الاستطباب الجديد المتوقع Rectum
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. استناداً إلى المعرفة العامة، الجيمسيتابين نظير نيوكليوزيدي يثبط تخليق الحمض النووي (DNA) ويثبط إنزيم ريبونوكليوتيد ريداكتاز، مما يمنحه نشاطاً واسعاً ضد الأورام الصلبة سريعة الانقسام. هذا الاستنتاج مبني على المعرفة العامة بالدواء وليس على بيانات الآلية المتاحة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Gemcitabine (ترجمة غير رسمية): «يقتل الجيمسيتابين الخلايا التي تخضع لتخليق DNA ويحصر تقدم الخلايا عبر الحد الفاصل بين الطورين G1/S. ويُستقلَب الجيمسيتابين بواسطة كينازات النوكليوسيدات إلى نوكليوسيدات ثنائية الفوسفات (dFdCDP) وثلاثية الفوسفات (dFdCTP).» النص الأصلي بالإنجليزية: "Gemcitabine kills cells undergoing DNA synthesis and blocks the progression of cells through the G1/S-phase boundary. Gemcitabine is metabolized by nucleoside kinases to diphosphate (dFdCDP) and triphosphate (dFdCTP) nucleosides." ([DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84)، إصدار 2026-07-27؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعرفة العامة، الجيمسيتابين نظير نيوكليوزيدي يثبط تخليق الحمض النووي (DNA) ويثبط إنزيم ريبونوكليوتيد ريداكتاز، مما يمنحه نشاطاً واسعاً ضد الأورام الصلبة سريعة الانقسام. هذا الاستنتاج مبني على المعرفة العامة بالدواء وليس على بيانات الآلية المتاحة.
 
 يشترك سرطان المبيض وسرطان الثدي في كونهما سرطانين صلبين (كارسينوما) حساسين لمضادات الأيض. ويدعم ذلك وجود بيانات سريرية لاستخدام الجيمسيتابين مع باكليتاكسيل في سرطان الثدي النقيلي، وهو ما يتسق مع الدرجة العالية للتنبؤ.
 
@@ -152,6 +152,19 @@ description: "Gemcitabine: الاستطباب الجديد المتوقع Rectum
 - وضع خطة مراقبة سلامة، خصوصاً لتثبيط نقي العظم ووظائف الكبد والكلى.
 
 **ملاحظة حول المؤشرات الأخرى المتوقعة:** المؤشرات التالية (سرطان غدي مخاطي في المستقيم والقولون، وسرطانات بطانة الرحم وعنق الرحم والمرارة وغيرها) أقل دعماً بكثير، وتوصيتها إما **الانتظار (Hold)** أو **سؤال بحثي (Research Question)**. وأعلاها دعماً سرطان بطانة الرحم الغدي المختلط (مستوى L3) بدراسة استعادية ودراسة من المرحلة الثانية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

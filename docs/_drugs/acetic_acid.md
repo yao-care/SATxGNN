@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 18
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-20
 description: "Acetic Acid: الاستطباب الجديد المتوقع اضطراب ما بعد العدوى البكتيرية (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأذن الخارجية، أمراض الأذن الخارجية (بحسب الرسم المعرفي Prime…"
 monitor_inn: "acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
@@ -58,7 +58,7 @@ predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", 
 
 ## لماذا يُعد هذا التنبؤ معقولًا (أو غير معقول)؟
 
-تفاصيل آلية العمل الأصلية غير متوفرة حاليًا في البيانات المجمَّعة لهذا التقرير. وبحسب المعروف، فإن حمض الخليك عامل موضعي مضاد للميكروبات ومُحمِّض، وقد أُثبتت فائدته في التهاب الأذن الخارجية، بما في ذلك الحالات الفطرية.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Acetic Acid (ترجمة غير رسمية): «حمض الأسيتيك مضاد للبكتيريا ومضاد للفطريات؛ والبروبيلين غليكول محب للماء ويوفر توتراً سطحياً منخفضاً؛ وكلوريد البنزيثونيوم عامل فعّال سطحياً يعزز تماس المحلول مع الأنسجة.» النص الأصلي بالإنجليزية: "Acetic acid is antibacterial and antifungal; propylene glycol is hydrophilic and provides a low surface tension; benzethonium chloride is a surface active agent that promotes contact of the solution with tissues." ([DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d)، إصدار 2026-03-18؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإن حمض الخليك عامل موضعي مضاد للميكروبات ومُحمِّض، وقد أُثبتت فائدته في التهاب الأذن الخارجية، بما في ذلك الحالات الفطرية.
 
 أما اضطرابات ما بعد العدوى فهي في الغالب مناعية المنشأ، أي أنها تحدث بعد زوال العدوى نفسها. ولا توجد آلية معروفة تربط حمض الخليك الموضعي بتعديل هذه العمليات المناعية. لذلك فالدرجة المرتفعة لـ TxGNN هي تنبؤ قائم على الرسم المعرفي فقط، ولا تعني بالضرورة جدوى علاجية.
 
@@ -131,6 +131,19 @@ predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", 
 - استكمال بيانات آلية العمل من DrugBank.
 - التفكير في إعادة توجيه البحث نحو الفطار الجسدي (tinea corporis، مستوى L4) بوصفه سؤالًا بحثيًا، عبر مراجعة منهجية للأدلة الحديثة وتقييم سلامة التراكيز الموضعية.
 - تحديد الشكل الدوائي والمسار الموضعي المتوافق، إذ إن المنتجات المرخصة سابقًا كانت لغسيل الكلى وليست موضعية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

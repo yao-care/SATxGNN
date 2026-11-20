@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CEFTAZIDIME"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "epiglottitis", "Ureaplasma urethritis", "gonococcal urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Ceftazidime: الاستطباب الجديد المتوقع فرط أميلاز الدم (hyperamylasemia) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 (السارية: 17)"
 ---
 
@@ -54,7 +54,7 @@ description: "Ceftazidime: الاستطباب الجديد المتوقع فرط
 
 ## لماذا يُعدّ هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن سيفتازيديم يثبّط تخليق جدار الخلية البكتيرية، وله نشاط ضد البكتيريا سالبة الغرام ومنها الزوائف الزنجارية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ceftazidime (ترجمة غير رسمية): «السيفتازيديم عامل قاتل للجراثيم يعمل عن طريق تثبيط تخليق الجدار الخلوي الجرثومي. ويتمتع السيفتازيديم بفعالية في وجود بعض إنزيمات بيتا-لاكتاماز، سواء البنسليناز أو السيفالوسبوريناز، لدى الجراثيم سلبية الغرام وإيجابية الغرام.» النص الأصلي بالإنجليزية: "Ceftazidime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Ceftazidime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: ceftazidime prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=112c5457-8d71-49f5-b531-9761d7d38c93)، إصدار 2026-08-03؛ تاريخ الاطلاع 2026-11-20). المعروف أن سيفتازيديم يثبّط تخليق جدار الخلية البكتيرية، وله نشاط ضد البكتيريا سالبة الغرام ومنها الزوائف الزنجارية.
 
 لا توجد رابطة آلية معقولة بين هذه الآلية وفرط أميلاز الدم. فالدواء مضاد للبكتيريا ولا يُعرف عنه تأثير علاجي على مستويات الأميلاز في المصل. الدرجة المرتفعة ناتجة عن توقع قائم على الشبكة المعرفية للنموذج، ولا تدعمها دراسات سريرية أو أدبيات منشورة. لذلك يجب التعامل مع هذا التوقع كفرضية بحثية ضعيفة فقط.
 
@@ -93,6 +93,19 @@ description: "Ceftazidime: الاستطباب الجديد المتوقع فرط
 - بيانات آلية العمل من DrugBank.
 - تحميل نشرة العبوة من موقع هيئة الغذاء والدواء السعودية (SFDA) واستخراج التحذيرات وموانع الاستعمال.
 - دراسات مبدئية أو بيانات سريرية تربط سيفتازيديم بفرط أميلاز الدم قبل أي تقييم إضافي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: ceftazidime prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=112c5457-8d71-49f5-b531-9761d7d38c93) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

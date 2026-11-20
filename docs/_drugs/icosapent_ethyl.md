@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Icosapent Ethyl: الاستطباب الجديد المتوقع اعتلال الهيموغلوبين (Hemoglobinopathy) (مستوى الدليل L5). الاستطباب الأصلي: فرط ثلاثي غليسريد الدم (بحسب شبكة المعرفة PrimeKG، إذ لا يوجد نص استط…"
 monitor_inn: "ICOSAPENT ETHYL"
 predicted_indications: ["hemoglobinopathy"]
@@ -58,7 +58,7 @@ predicted_indications: ["hemoglobinopathy"]
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل الأصلية للدواء. وبناءً على المعلومات المعروفة، فإن إيكوسابنت إيثيل هو إيستر إيثيلي لحمض الإيكوسابنتاينويك (EPA)، وهو من فئة أحماض أوميغا-3 الدهنية، وقد استُخدم لخفض ثلاثي الغليسريد.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Icosapent Ethyl (ترجمة غير رسمية): «تشير الدراسات إلى أن EPA يُقلّل تخليق و/أو إفراز الدهون الثلاثية في البروتينات الدهنية منخفضة الكثافة جدًا (VLDL-TG) في الكبد، ويُعزّز تصفية الدهون الثلاثية (TG) من جزيئات VLDL الجائلة. وتشمل آليات العمل المحتملة زيادة الأكسدة البيتية (β-oxidation)؛ وتثبيط إنزيم أسيل-CoA:1,2-ثنائي أسيل الغليسرول أسيل ترانسفيراز (DGAT)؛ وخفض تكوّن الدهون في الكبد؛ وزيادة نشاط ليباز البروتين الدهني في البلازما.» النص الأصلي بالإنجليزية: "Studies suggest that EPA reduces hepatic very low-density lipoprotein triglycerides (VLDL-TG) synthesis and/or secretion and enhances TG clearance from circulating VLDL particles. Potential mechanisms of action include increased β-oxidation; inhibition of acyl-CoA:1,2-diacylglycerol acyltransferase (DGAT); decreased lipogenesis in the liver; and increased plasma lipoprotein lipase activity." ([DailyMed: Icosapent (icosapent ethyl) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cc28828d-beab-45cc-a3b6-151c5fee3924)، إصدار 2026-08-10؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، فإن إيكوسابنت إيثيل هو إيستر إيثيلي لحمض الإيكوسابنتاينويك (EPA)، وهو من فئة أحماض أوميغا-3 الدهنية، وقد استُخدم لخفض ثلاثي الغليسريد.
 
 من الناحية النظرية، قد يكون لهذا الحمض الدهني تأثيرات مضادة للالتهاب ومضادة للأكسدة ومثبّتة للأغشية الخلوية، وقد يقلل من التصاق خلايا الدم الحمراء ومن الالتهاب المرافق للانسداد الوعائي، وهي عوامل قد تكون ذات صلة بمرض فقر الدم المنجلي واعتلالات الهيموغلوبين المشابهة.
 
@@ -122,12 +122,13 @@ predicted_indications: ["hemoglobinopathy"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الترخيص الوحيد في المملكة ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «إذ إن الترخيص الحالي ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Icosapent (icosapent ethyl) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cc28828d-beab-45cc-a3b6-151c5fee3924) |
 
 <!-- review:end log -->
 

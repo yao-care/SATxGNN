@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 340
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Febuxostat: الاستطباب الجديد المتوقع نقص حمض اليوريك الكلوي (hypouricemia, renal) (مستوى الدليل L4). الاستطباب الأصلي: فرط حمض اليوريك (مصنَّف في قاعدة المعرفة على أنه مفهوم قديم)"
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
@@ -58,7 +58,7 @@ predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribo
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً (أو لا)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن فيبوكسوستات يثبّط إنزيم زانثين أوكسيداز فيخفض تكوّن حمض اليوريك في الدم، وقد ثبتت فعاليته في فرط حمض اليوريك.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Febuxostat (ترجمة غير رسمية): «يحقق ULORIC، وهو مثبط لأوكسيداز الزانثين، تأثيره العلاجي عن طريق خفض حمض اليوريك في المصل. ولا يُتوقع أن يُثبّط ULORIC الإنزيمات الأخرى المشاركة في تخليق البيورين والبيريميدين واستقلابهما عند التراكيز العلاجية.» النص الأصلي بالإنجليزية: "ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations." ([DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd)، إصدار 2025-12-24؛ تاريخ الاطلاع 2026-11-20). المعروف أن فيبوكسوستات يثبّط إنزيم زانثين أوكسيداز فيخفض تكوّن حمض اليوريك في الدم، وقد ثبتت فعاليته في فرط حمض اليوريك.
 
 أما نقص حمض اليوريك الكلوي فهو حالة ينخفض فيها حمض اليوريك أصلاً بسبب خلل في إعادة امتصاص اليورات في الكلية (مثل فقدان وظيفة URAT1/GLUT9). لذلك فإن خفضه أكثر يتعارض نظرياً مع طبيعة المرض. الرابط الوحيد المعقول هو ما ورد في الأدبيات عن استخدام مثبطات زانثين أوكسيدوريدكتاز للوقاية من الإصابة الكلوية الحادة الناتجة عن الجهد البدني لدى مرضى هذه الحالة، عبر تقليل العبء اليوريكي/التأكسدي في البول. هذا استدلال غير مباشر وافتراضي.
 
@@ -148,11 +148,12 @@ predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribo
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري للدواء في السعودية (11 ترخيصاً ملغى)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
 
 <!-- review:end log -->
 

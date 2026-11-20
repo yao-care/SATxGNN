@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Insulin Glargine: الاستطباب الجديد المتوقع التهاب المبيض المناعي الذاتي (مستوى الدليل L5). الاستطباب الأصلي: داء السكري (النوع الأول والنوع الثاني، والحماض الكيتوني السكري)"
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
@@ -59,7 +59,7 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 ## لماذا يُعد هذا التوقع معقولاً أو غير معقول؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. المعروف أن إنسولين غلارجين نظير إنسولين طويل المفعول يعمل على مستقبل الإنسولين ومستقبل IGF-1.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Insulin Glargine (ترجمة غير رسمية): «النشاط الأساسي للإنسولين، بما في ذلك منتجات إنسولين غلارجين، هو تنظيم استقلاب الغلوكوز. ويخفض الإنسولين ونظائره غلوكوز الدم عن طريق تحفيز امتصاص الغلوكوز المحيطي، لا سيما بواسطة العضلات الهيكلية والدهون، وعن طريق تثبيط إنتاج الغلوكوز الكبدي.» النص الأصلي بالإنجليزية: "The primary activity of insulin, including insulin glargine products, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810)، إصدار 2026-10-15؛ تاريخ الاطلاع 2026-11-20). المعروف أن إنسولين غلارجين نظير إنسولين طويل المفعول يعمل على مستقبل الإنسولين ومستقبل IGF-1.
 
 التهاب المبيض المناعي الذاتي اضطراب مناعي يصيب المبيض، وكثيراً ما يترافق مع متلازمات الغدد الصماء المناعية الذاتية المتعددة، ومنها السكري من النوع الأول. والدرجة المرتفعة (0.9988) صادرة عن نموذج TxGNN (التعلم العميق)، وقد تعكس تشابهات تعلّمها النموذج بين أمراض ذات صلة، وليست دليلاً بيولوجياً.
 
@@ -162,12 +162,13 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حالياً أي ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص العشرة والوضع التنظيمي الحالي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810) |
 
 <!-- review:end log -->
 

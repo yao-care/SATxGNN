@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 monitor_inn: "HYDROXOCOBALAMIN"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding"]
 description: "Hydroxocobalamin: الاستطباب الجديد المتوقع Esophageal varices with bleeding (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -59,7 +59,7 @@ description: "Hydroxocobalamin: الاستطباب الجديد المتوقع E
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل الأصلية للدواء. هيدروكسوكوبالامين شكل من أشكال فيتامين B12 يرتبط بالسيانيد ويصحح حالات نقص B12، وهذان هما أساس استخداماته الأصلية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Hydroxocobalamin (ترجمة غير رسمية): «السيانيد سم شديد السمية. في غياب العلاج السريع والملائم، يمكن أن يؤدي التعرض لجرعة عالية من السيانيد إلى الوفاة في غضون دقائق بسبب تثبيط أكسيداز السيتوكروم مما يؤدي إلى توقف التنفس الخلوي. […] يمكن لكل جزيء من هيدروكسوكوبالامين أن يرتبط بأيون سيانيد واحد عن طريق إحلاله محل ربيطة الهيدروكسو المرتبطة بأيون الكوبالت ثلاثي التكافؤ، لتكوين سيانوكوبالامين، الذي يُطرح بعد ذلك في البول.» النص الأصلي بالإنجليزية: "Cyanide is an extremely toxic poison. In the absence of rapid and adequate treatment, exposure to a high dose of cyanide can result in death within minutes due to the inhibition of cytochrome oxidase resulting in arrest of cellular respiration. […] Each hydroxocobalamin molecule can bind one cyanide ion by substituting it for the hydroxo ligand linked to the trivalent cobalt ion, to form cyanocobalamin, which is then excreted in the urine." ([DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b)، إصدار 2023-04-27؛ تاريخ الاطلاع 2026-11-20). هيدروكسوكوبالامين شكل من أشكال فيتامين B12 يرتبط بالسيانيد ويصحح حالات نقص B12، وهذان هما أساس استخداماته الأصلية.
 
 لا توجد صلة آلية مثبتة بين هذه الاستخدامات ودوالي المريء. الفرضية الوحيدة المطروحة، وهي نظرية بحتة، أن الهيدروكسوكوبالامين يرتبط بأكسيد النيتريك (NO) وكبريتيد الهيدروجين، وهو ما قد يقلل نظرياً من توسع الأوعية الحشوية وارتفاع ضغط الباب. هذه الفرضية غير مدعومة بأي بيانات سريرية أو سابقة للسريرية ضمن البيانات المجمعة لهذا التقرير.
 
@@ -115,6 +115,19 @@ description: "Hydroxocobalamin: الاستطباب الجديد المتوقع E
 - مراجعة منهجية للأدبيات في دوالي المريء وارتفاع ضغط الباب لتحديد أي دليل داعم.
 - التحقق من علاقة التعارض مع ارتفاع ضغط الدم الواردة في الرسم المعرفي، إذ إن ارتفاع ضغط الباب حالة قريبة سريرياً.
 - توضيح وضع الترخيص المحلي وإمكانية توفر منتج مرخص بالشكل الصيدلاني والطريقة المناسبين.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

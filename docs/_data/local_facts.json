@@ -21,14 +21,14 @@
   "items_current": 3504
  },
  "reviews": {
-  "records": 829,
-  "pages": 541,
-  "public_pages_with_records": 541,
+  "records": 1341,
+  "pages": 765,
+  "public_pages_with_records": 765,
   "by_action": {
    "correct": 690,
    "description_level": 2,
    "header_level": 2,
-   "mechanism": 123,
+   "mechanism": 635,
    "rereview": 6,
    "rereview_result": 6
   }
@@ -44,7 +44,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 20,
-   "r": 1,
+   "r": 2,
    "i": "rheumatoid arthritis"
   },
   {
@@ -53,7 +53,7 @@
    "l": "L5",
    "lt": 19,
    "lv": 19,
-   "r": 1,
+   "r": 2,
    "i": "malignant hypertensive renal disease"
   },
   {
@@ -71,7 +71,7 @@
    "l": "L4",
    "lt": 19,
    "lv": 19,
-   "r": 1,
+   "r": 2,
    "i": "HIV infectious disease"
   },
   {
@@ -80,7 +80,7 @@
    "l": "L5",
    "lt": 19,
    "lv": 19,
-   "r": 0,
+   "r": 1,
    "i": "hyperamylasemia"
   },
   {
@@ -89,7 +89,7 @@
    "l": "L2",
    "lt": 19,
    "lv": 19,
-   "r": 0,
+   "r": 1,
    "i": "alopecia areata"
   },
   {
@@ -107,13 +107,40 @@
    "l": "L5",
    "lt": 18,
    "lv": 18,
-   "r": 0,
+   "r": 1,
    "i": "الإكزيما التأتبية"
   }
  ],
  "no_current": [],
  "no_current_more": 0,
  "most_reviewed": [
+  {
+   "t": "Warfarin",
+   "u": "/drugs/warfarin/",
+   "l": "L4",
+   "lt": 8,
+   "lv": 8,
+   "r": 6,
+   "i": "heparin cofactor 2 deficiency"
+  },
+  {
+   "t": "Aflibercept",
+   "u": "/drugs/aflibercept/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 2,
+   "r": 5,
+   "i": "esotropia"
+  },
+  {
+   "t": "Ranibizumab",
+   "u": "/drugs/ranibizumab/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 2,
+   "r": 5,
+   "i": "immature cataract"
+  },
   {
    "t": "Trifluoperazine",
    "u": "/drugs/trifluoperazine/",
@@ -124,49 +151,22 @@
    "i": "اضطراب ثنائي القطب الهوسي"
   },
   {
-   "t": "Warfarin",
-   "u": "/drugs/warfarin/",
-   "l": "L4",
-   "lt": 8,
-   "lv": 8,
-   "r": 5,
-   "i": "heparin cofactor 2 deficiency"
-  },
-  {
-   "t": "Aflibercept",
-   "u": "/drugs/aflibercept/",
-   "l": "L5",
-   "lt": 2,
-   "lv": 2,
-   "r": 4,
-   "i": "esotropia"
-  },
-  {
-   "t": "Daclatasvir",
-   "u": "/drugs/daclatasvir/",
-   "l": "L3",
-   "lt": 3,
-   "lv": 3,
-   "r": 4,
-   "i": "hepatitis B virus infection"
-  },
-  {
-   "t": "Defibrotide",
-   "u": "/drugs/defibrotide/",
+   "t": "Ataluren",
+   "u": "/drugs/ataluren/",
    "l": "L5",
    "lt": 1,
    "lv": 1,
    "r": 4,
-   "i": "مرض فون ويلبراند الكاذب"
+   "i": "benign recurrent intrahepatic cholestasis"
   },
   {
-   "t": "Doxazosin",
-   "u": "/drugs/doxazosin/",
-   "l": "L4",
-   "lt": 8,
-   "lv": 8,
+   "t": "Baclofen",
+   "u": "/drugs/baclofen/",
+   "l": "L5",
+   "lt": 6,
+   "lv": 6,
    "r": 4,
-   "i": "migraine disorder"
+   "i": "attention deficit-hyperactivity disorder"
   }
  ],
  "example": {

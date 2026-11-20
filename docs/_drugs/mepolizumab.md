@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 539
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Mepolizumab: الاستطباب الجديد المتوقع نقص الصفيحات الدموية بسبب التدمير المناعي (مستوى الدليل L5). الاستطباب الأصلي: الالتهاب الرئوي اليوزيني / كثرة اليوزينيات الرئوية (من الرسم المعرفي…"
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
@@ -56,7 +56,7 @@ predicted_indications: ["thrombocytopenia due to immune destruction", "primary r
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن ميبوليزوماب جسم مضاد مضاد لـ IL-5 يخفض أعداد اليوزينيات، وهذا يفسر استخدامه في الأمراض المرتبطة بفرط اليوزينيات.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Mepolizumab (ترجمة غير رسمية): «ميبوليزوماب مضاد لـ IL-5 ‏(IgG1 kappa). ويُعدّ IL-5 السيتوكين الرئيسي المسؤول عن نمو الحمضات وتمايزها واستقطابها وتنشيطها وبقائها. يرتبط ميبوليزوماب بـ IL-5 بثابت تفكك قدره 100 pM، فيثبط النشاط الحيوي لـ IL-5 عن طريق حجب ارتباطه بسلسلة ألفا من معقد مستقبل IL-5 المُعبَّر عنه على سطح خلايا الحمضات.» النص الأصلي بالإنجليزية: "Mepolizumab is an IL-5 antagonist (IgG1 kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Mepolizumab binds to IL-5 with a dissociation constant of 100 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil cell surface." ([DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea)، إصدار 2025-08-06؛ تاريخ الاطلاع 2026-11-20). المعروف أن ميبوليزوماب جسم مضاد مضاد لـ IL-5 يخفض أعداد اليوزينيات، وهذا يفسر استخدامه في الأمراض المرتبطة بفرط اليوزينيات.
 
 تظهر الصلة المحتملة بنقص الصفيحات المناعي فقط في سياق متلازمة فرط اليوزينيات المصحوبة بنقص مناعي ثانوي في الخلايا الدموية، حيث قد يسهم اضطراب المناعة المدفوع باليوزينيات في تدمير الصفيحات. أما في نقص الصفيحات المناعي الأولي فلا يوجد دليل على أن IL-5 أو اليوزينيات عوامل محركة للمرض.
 
@@ -96,6 +96,19 @@ predicted_indications: ["thrombocytopenia due to immune destruction", "primary r
 - تنزيل النشرة الدوائية من موقع هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال، وهذه فجوة تمنع الانتقال إلى مرحلة فحص السلامة.
 - إجراء مراجعة منهجية للأدبيات، أو دراسات استكشافية في مرضى متلازمة فرط اليوزينيات المصحوبة بنقص الصفيحات المناعي.
 - توضيح وضع الترخيص في السعودية وإمكانية إعادة التسجيل.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 300
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
 description: "Empagliflozin: الاستطباب الجديد المتوقع متلازمة الطرف المتيبس البؤرية (focal stiff limb syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -58,7 +58,7 @@ description: "Empagliflozin: الاستطباب الجديد المتوقع مت
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. من المعروف عموماً أن إمباغليفلوزين مثبط للناقل SGLT2 ويقلل إعادة امتصاص الغلوكوز في الكلى، غير أن هذا غير موثق في البيانات المجمّعة لهذا التقرير.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Empagliflozin (ترجمة غير رسمية): «إمباغليفلوزين هو مثبط لـ SGLT2، وهو الناقل السائد المسؤول عن إعادة امتصاص الغلوكوز من الرشاحة الكبيبية وإعادته إلى الدورة الدموية. وبتثبيط SGLT2، يُقلّل إمباغليفلوزين إعادة الامتصاص الكلوي للغلوكوز المرشَّح ويُخفّض العتبة الكلوية للغلوكوز، ومن ثَمّ يزيد إفراغ الغلوكوز في البول.» النص الأصلي بالإنجليزية: "Empagliflozin is an inhibitor of SGLT2, the predominant transporter responsible for reabsorption of glucose from the glomerular filtrate back into the circulation. By inhibiting SGLT2, empagliflozin reduces renal reabsorption of filtered glucose and lowers the renal threshold for glucose, and thereby increases urinary glucose excretion." ([DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565)، إصدار 2026-11-10؛ تاريخ الاطلاع 2026-11-20). من المعروف عموماً أن إمباغليفلوزين مثبط للناقل SGLT2 ويقلل إعادة امتصاص الغلوكوز في الكلى، غير أن هذا غير موثق في البيانات المجمّعة لهذا التقرير.
 
 متلازمة الطرف المتيبس البؤرية اضطراب عصبي مناعي نادر ضمن طيف متلازمة الشخص المتيبس، ويرتبط بضعف الإشارات المثبطة عبر GABA وغالباً بالمناعة الذاتية ضد GAD65. لا يوجد مسار واضح يربط تثبيط SGLT2 بهذه الآلية المرضية.
 
@@ -120,11 +120,12 @@ description: "Empagliflozin: الاستطباب الجديد المتوقع مت
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري للدواء في المملكة (التراخيص ملغاة)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
 
 <!-- review:end log -->
 

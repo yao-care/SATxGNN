@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 734
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Ropivacaine: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine disorder) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المجمّعة (نصوص الاستطباب فارغة)؛ يُعرف ا…"
 monitor_inn: "ROPIVACAINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
@@ -58,7 +58,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ne
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. استناداً إلى المعلومات المعروفة، روبيفاكايين مخدر موضعي أميدي يحجب قنوات الصوديوم المعتمدة على الجهد، وقد ثبتت فعاليته في تسكين الألم الموضعي، وقد ينطبق ميكانيكياً على الصداع النصفي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ropivacaine (ترجمة غير رسمية): «روبيفاكايين أحد أفراد فئة الأميدات الأمينية من أدوية التخدير الموضعي، ويُورَّد على هيئة المتصاوغ المرآتي S-(-) النقي. وتحجب أدوية التخدير الموضعي توليد السيالات العصبية وتوصيلها، ويُفترض أن ذلك يتم عن طريق رفع عتبة الاستثارة الكهربائية في العصب، وإبطاء انتشار السيال العصبي، وخفض معدل ارتفاع جهد الفعل.» النص الأصلي بالإنجليزية: "Ropivacaine is a member of the amino amide class of local anesthetics and is supplied as the pure S-(-)-enantiomer. Local anesthetics block the generation and the conduction of nerve impulses, presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential." ([DailyMed: Naropin (ropivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb6583ff-cde4-4280-aa5b-0bea2b844792)، إصدار 2026-07-17؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعلومات المعروفة، روبيفاكايين مخدر موضعي أميدي يحجب قنوات الصوديوم المعتمدة على الجهد، وقد ثبتت فعاليته في تسكين الألم الموضعي، وقد ينطبق ميكانيكياً على الصداع النصفي.
 
 يرتبط الصداع النصفي بإشارات ألم عبر مسارات عصبية طرفية ومركزية. وحجب هذه الإشارات في مواقع مثل العقدة الوتدية الحنكية (SPG)، والعقدة النجمية، والعصب القذالي، ونقاط الزناد العضلية، قد يخفف ألم الصداع وربما الحساسية الطرفية والمركزية. ودرجة TxGNN المرتفعة جداً تتسق مع ذلك، لكنها تنبؤ حسابي ولا تثبت الفعالية.
 
@@ -135,12 +135,13 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ne
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Naropin (ropivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb6583ff-cde4-4280-aa5b-0bea2b844792) |
 
 <!-- review:end log -->
 

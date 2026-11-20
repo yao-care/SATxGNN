@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Glecaprevir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV infectious disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -54,7 +54,7 @@ description: "Glecaprevir: الاستطباب الجديد المتوقع عدو
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن غليكابريفير مثبط لبروتياز NS3/4A لفيروس التهاب الكبد C، وهذه الآلية نوعية لذلك الفيروس، ولا يوجد نشاط معروف له ضد فيروس نقص المناعة البشرية.
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Glecaprevir هي (ترجمة غير رسمية): «مثبّط إنزيم السيرين بروتياز NS3/NS4A لفيروس التهاب الكبد C». النص الأصلي بالإنجليزية: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20). المعروف أن غليكابريفير مثبط لبروتياز NS3/4A لفيروس التهاب الكبد C، وهذه الآلية نوعية لذلك الفيروس، ولا يوجد نشاط معروف له ضد فيروس نقص المناعة البشرية.
 
 الدرجة المرتفعة التي منحها النموذج تعكس على الأرجح التقارب بين عقد الأمراض الفيروسية في الشبكة، وليس آلية دوائية مثبتة. أما الاستخدام السريري الفعلي في هذا السياق فهو شفاء التهاب الكبد C لدى المصابين بـ HIV، أي ضمن الاستطباب الأصلي لدى فئة خاصة من المرضى، وليس إعادة توظيف حقيقية لعلاج HIV.
 
@@ -112,6 +112,18 @@ description: "Glecaprevir: الاستطباب الجديد المتوقع عدو
 - بيانات تفصيلية عن آلية العمل.
 - نشرة دوائية تتضمن التحذيرات وموانع الاستعمال.
 - خطة لمراقبة التفاعلات الدوائية، خصوصاً مع الستاتينات ومضادات التخثر ومضادات الفيروسات القهقرية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

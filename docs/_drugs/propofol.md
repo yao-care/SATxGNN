@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 692
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Propofol: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L2). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المتاحة (الاستخدام المعروف: التخدير العا…"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -58,7 +58,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Pr
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل ضمن البيانات المجمّعة لهذا التقرير. غير أن المعروف عن بروبوفول أنه معدِّل ألوستيري إيجابي لمستقبلات GABA-A، ويعزز التثبيط الغابائي في الجهاز العصبي المركزي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Propofol (ترجمة غير رسمية): «آلية العمل، شأنها شأن جميع أدوية التخدير العام، غير مفهومة جيداً. ومع ذلك، يُعتقد أن بروبوفول يُحدث تأثيراته المهدئة/المخدرة عن طريق التعديل الإيجابي للوظيفة المثبطة للناقل العصبي GABA من خلال مستقبلات GABA A المبوبة بالربيطة.» النص الأصلي بالإنجليزية: "The mechanism of action, like all general anesthetics, is poorly understood. However, propofol is thought to produce its sedative/anesthetic effects by the positive modulation of the inhibitory function of the neurotransmitter GABA through the ligand-gated GABA A receptors." ([DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538)، إصدار 2025-09-11؛ تاريخ الاطلاع 2026-11-20). غير أن المعروف عن بروبوفول أنه معدِّل ألوستيري إيجابي لمستقبلات GABA-A، ويعزز التثبيط الغابائي في الجهاز العصبي المركزي.
 
 قد يُضعف هذا التعزيز الإشارات الألمية في المسار العصبي الوعائي للعصب ثلاثي التوائم، ويخفف فرط استثارة القشرة الدماغية. وتدعم ذلك دراسة ما قبل سريرية أظهرت أن هيدروكسي سكسينات البروبوفول يثبط الانتشار القشري المثبِّط (Cortical Spreading Depression)، وهو الأساس العصبي لهالة الصداع النصفي وقد يكون مُحفِّزاً لألمه.
 
@@ -134,6 +134,19 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Pr
 - تجربة عشوائية مضبوطة أكبر ومتعددة المراكز للبالغين.
 
 **ملاحظة حول المؤشرات الأخرى المتوقعة:** هالة جذع الدماغ (Hold/سؤال بحثي، مستوى L3)، وذبحة برنزميتال (Hold، إشارة سلامة)، ومتلازمة عدم ملاءمة مضاد إدرار البول الكلوية، ومتلازمة توريت (Hold، لا دليل علاجي).
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 823
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: الاستطباب الجديد المتوقع خلل التنسج الكلوي الكبدي البنكرياسي (renal-hepatic-pancreatic dysplasia) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -54,7 +54,7 @@ description: "Tolvaptan: الاستطباب الجديد المتوقع خلل �
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل ضمن المعلومات المجمّعة لهذا التقرير. المعروف أن تولفابتان يحجب مستقبلات V2 في الكلى، فيقلّل تركيز البول ويزيد إخراج الماء الحر.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tolvaptan (ترجمة غير رسمية): «تولفابتان مضاد انتقائي لمستقبلات الفازوبريسين V 2 ، وتبلغ ألفته لمستقبل V 2 ‏1.8 ضعف ألفة الأرجينين فازوبريسين (AVP) الطبيعي. تبلغ ألفة تولفابتان لمستقبل V 2 ‏29 ضعف ألفته لمستقبل V 1a .» النص الأصلي بالإنجليزية: "Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor." ([DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4)، إصدار 2026-09-30؛ تاريخ الاطلاع 2026-11-20). المعروف أن تولفابتان يحجب مستقبلات V2 في الكلى، فيقلّل تركيز البول ويزيد إخراج الماء الحر.
 
 خلل التنسج الكلوي الكبدي البنكرياسي اضطراب نمائي مرتبط بالأهداب (ciliopathy) ويتضمن سمات كيسية كلوية. هذا يوفّر رابطاً مفاهيمياً مع بيولوجيا الأكياس المدفوعة بـ cAMP، التي تُحجب فيها مسارات V2. لكنه رابط نظري فقط، ولا تدعمه أي تجربة أو دراسة منشورة.
 
@@ -99,6 +99,18 @@ description: "Tolvaptan: الاستطباب الجديد المتوقع خلل �
 - الحصول على تحذيرات وموانع الاستعمال من نشرة المنتج المعتمدة.
 - إجراء مراجعة منهجية للأدبيات، أو دراسات ما قبل سريرية تدعم الرابط بين حجب V2 وهذه الحالة.
 - تقييم السلامة في الفئات العمرية الصغيرة، خاصة حديثي الولادة، قبل أي نظر في دراسة سريرية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

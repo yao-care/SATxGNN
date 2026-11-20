@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 886
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب لدى القطط (feline acquired immunodeficiency syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -60,7 +60,7 @@ description: "Zidovudine: الاستطباب الجديد المتوقع متل�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن زيدوفودين مثبّط نيوكليوزيدي للنسخ العكسي يتحول داخل الخلايا إلى الشكل الثلاثي الفوسفات، فيعيق تضاعف الفيروس القهقري (Retrovirus).
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Zidovudine (ترجمة غير رسمية): «زيدوفودين عامل مضاد للفيروسات القهقرية. […] زيدوفودين نظير نوكليوزيدي مُصنَّع. وداخل الخلايا، يُفسفَر زيدوفودين إلى مستقلَبه النشط ثلاثي الفوسفات في الموضع ′5، وهو زيدوفودين ثلاثي الفوسفات (ZDV-TP). وتتمثل آلية العمل الرئيسية لـ ZDV-TP في تثبيط إنزيم النسخ العكسي (RT) عبر إنهاء سلسلة DNA بعد إدماج النظير النوكليوتيدي.» النص الأصلي بالإنجليزية: "Zidovudine is an antiretroviral agent. […] Zidovudine is a synthetic nucleoside analogue. Intracellularly, zidovudine is phosphorylated to its active 5′-triphosphate metabolite, zidovudine triphosphate (ZDV-TP). The principal mode of action of ZDV-TP is inhibition of reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84)، إصدار 2024-11-13؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن زيدوفودين مثبّط نيوكليوزيدي للنسخ العكسي يتحول داخل الخلايا إلى الشكل الثلاثي الفوسفات، فيعيق تضاعف الفيروس القهقري (Retrovirus).
 
 فيروس نقص المناعة لدى القطط (FIV) فيروس بطيء (Lentivirus) يمتلك إنزيم نسخ عكسي قريباً جداً من إنزيم HIV، ولذلك فإن وجود آلية مشتركة أمر معقول. وتُظهر الدراسات على القطط المصابة طبيعياً وتجريباً، وعلى نماذج الفئران SCID-القطط، انخفاضاً في الحمل الفيروسي في البلازما وفي عبء الجينوم الفيروسي المدمج.
 
@@ -129,6 +129,19 @@ description: "Zidovudine: الاستطباب الجديد المتوقع متل�
 - استكمال بيانات آلية العمل (MOA) من DrugBank.
 - وضع خطة مراقبة السلامة (تعداد الدم الكامل، وظائف الكبد والكلى)، ومراجعة عبء التداخلات الدوائية، وبخاصة لدى الحوامل وحديثي الولادة.
 - إن كان الهدف دوائياً بيطرياً، فيلزم مسار تنظيمي مستقل ودراسات سريرية بيطرية مضبوطة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

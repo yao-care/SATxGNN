@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 602
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "NYSTATIN"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin: الاستطباب الجديد المتوقع Disease of orbital region (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
@@ -58,7 +58,7 @@ description: "Nystatin: الاستطباب الجديد المتوقع Disease o
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. وبحسب المعلومات المعروفة، يرتبط النيستاتين بإرغوستيرول غشاء الخلية الفطرية ويشكل مسامّ تسبب تسرب محتويات الخلية، وهي آلية معروفة لفئة البوليينات.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Nystatin (ترجمة غير رسمية): «يعمل النيستاتين بالارتباط بالستيرولات في الغشاء الخلوي لأنواع المبيضات (Candida) الحساسة، مما يؤدي إلى تغير في نفاذية الغشاء يسمح بتسرب المكونات داخل الخلوية. ولا يُبدي النيستاتين نشاطاً يُذكر ضد الجراثيم أو الأوالي أو الفيروسات.» النص الأصلي بالإنجليزية: "Nystatin acts by binding to sterols in the cell membrane of susceptible Candida species with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin exhibits no appreciable activity against bacteria, protozoa, or viruses." ([DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6)، إصدار 2026-02-06؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، يرتبط النيستاتين بإرغوستيرول غشاء الخلية الفطرية ويشكل مسامّ تسبب تسرب محتويات الخلية، وهي آلية معروفة لفئة البوليينات.
 
 الاستطباب المتوقع ليس إعادة توظيف حقيقية بالمعنى الدقيق؛ فداء المبيضات المهبلي الفرجي هو أشيع الأسباب المعدية لالتهاب الفرج والمهبل، وهو أصلاً من استطبابات النيستاتين. لذلك فالتنبؤ يدعم الاستخدام القائم أكثر مما يكشف استخداماً جديداً.
 
@@ -128,6 +128,19 @@ description: "Nystatin: الاستطباب الجديد المتوقع Disease o
 - التحقق من توفر المنتج فعلياً في السوق السعودي، علماً أن جميع التراخيص (10 من 10) سارية.
 - حصر التطبيق في الالتهاب الفطري (المبيضات) المؤكد، واستبعاد الأسباب غير المعدية.
 - مقارنة النيستاتين بالأزولات في التجارب أو المراجعات الحديثة، وبخاصة في الحالات المقاومة للفلوكونازول.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

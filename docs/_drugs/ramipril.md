@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 707
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي الناجم عن أمراض الرئة و/أو نقص الأكسجة (pulmonary hypertension owing to lung disease and/or hypo… (مستوى الدليل L5). الاستطباب الأصلي: غير مس…"
@@ -60,7 +60,7 @@ description: "Ramipril: الاستطباب الجديد المتوقع ارتف�
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبناءً على المعلومات المعروفة، راميبريل مثبط للإنزيم المحوّل للأنجيوتنسين، فيقلل تكوّن الأنجيوتنسين II، وبذلك قد يخفف تضيق الأوعية وإعادة تشكّل جدرانها. وقد ثبتت فعاليته في خفض ضغط الدم الشرياني، ومن الناحية الآلية قد ينطبق ذلك على الدورة الدموية الرئوية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ramipril (ترجمة غير رسمية): «يثبط راميبريل وراميبريلات الإنزيم المحول للأنجيوتنسين (ACE) لدى البشر والحيوانات. الإنزيم المحول للأنجيوتنسين هو ببتيديل ثنائي الببتيداز يحفّز تحويل الأنجيوتنسين I إلى المادة المضيِّقة للأوعية، الأنجيوتنسين II. كما يحفّز الأنجيوتنسين II إفراز الألدوستيرون من قشرة الكظر.» النص الأصلي بالإنجليزية: "Ramipril and ramiprilat inhibit ACE in human subjects and animals. Angiotensin converting enzyme is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59)، إصدار 2026-11-11؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، راميبريل مثبط للإنزيم المحوّل للأنجيوتنسين، فيقلل تكوّن الأنجيوتنسين II، وبذلك قد يخفف تضيق الأوعية وإعادة تشكّل جدرانها. وقد ثبتت فعاليته في خفض ضغط الدم الشرياني، ومن الناحية الآلية قد ينطبق ذلك على الدورة الدموية الرئوية.
 
 العلاقة بين الاستطباب الأصلي والجديد أن كليهما اضطراب في توتر الأوعية الدموية، ويشترك في دور محتمل لنظام الرينين–أنجيوتنسين. ومع ذلك فإن ارتفاع ضغط الدم الرئوي مرض مختلف عن ارتفاع الضغط الشرياني الجهازي.
 
@@ -96,7 +96,6 @@ description: "Ramipril: الاستطباب الجديد المتوقع ارتف�
 | RAMIPRIL SANDOZ 10MG TABLET | RAMIPRIL SANDOZ 10MG TABLET | غير متوفر | غير متوفر (ساري) |
 | ANGIRAM | ANGIRAM | غير متوفر | غير متوفر (ساري) |
 
-
 ---
 
 ## اعتبارات السلامة
@@ -126,6 +125,19 @@ description: "Ramipril: الاستطباب الجديد المتوقع ارتف�
 - بيان وضع الترخيص في المملكة (إعادة التسجيل أو بديل مرخّص) إذا تقدم المشروع.
 
 **ملاحظة عن الاستطباب الأخرى المتوقعة:** من بين الاستطبابات الأخرى المتوقعة، يبرز النزف داخل المخ (L4) وانسداد الشريان المخي (L4) كمسألتين بحثيتين بأدلة قبل سريرية غير مباشرة، بينما بقية التنبؤات (L5) غير مدعومة بأدلة وتقع معظمها قرب الاستطباب الأصلي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

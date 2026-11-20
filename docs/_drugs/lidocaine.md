@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-20
 description: "Lidocaine: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (مستوى الدليل L5). الاستطباب الأصلي: علاقات مسجلة في قاعدة المعرفة: التهاب الجلد، الألم العصبي، الألم العص…"
 ---
 
@@ -58,7 +58,7 @@ description: "Lidocaine: الاستطباب الجديد المتوقع الته
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن ليدوكايين يحجب قنوات الصوديوم الجهدية (مثل Nav1.5 وNav1.7 وNav1.8)، ويُستخدم في التخدير الموضعي والإقليمي بالحقن وفي مستحضرات تسكين الألم الموضعية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lidocaine (ترجمة غير رسمية): «يمارس هيدروكلوريد الليدوكايين تأثيراً مضاداً لاضطراب النظم عن طريق زيادة عتبة التنبيه الكهربائي للبطين خلال الانبساط. وفي الجرعات العلاجية المعتادة، لا يُحدث هيدروكلوريد الليدوكايين أي تغيير في انقباضية عضلة القلب، أو في الضغط الشرياني الجهازي، أو في فترة الحران المطلقة.» النص الأصلي بالإنجليزية: "Lidocaine hydrochloride exerts an antiarrhythmic effect by increasing the electrical stimulation threshold of the ventricle during diastole. In usual therapeutic doses, lidocaine hydrochloride produces no change in myocardial contractility, in systemic arterial pressure, or in absolute refractory period." ([DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0)، إصدار 2026-02-20؛ تاريخ الاطلاع 2026-11-20). المعروف أن ليدوكايين يحجب قنوات الصوديوم الجهدية (مثل Nav1.5 وNav1.7 وNav1.8)، ويُستخدم في التخدير الموضعي والإقليمي بالحقن وفي مستحضرات تسكين الألم الموضعية.
 
 ترتبط درجة التنبؤ المرتفعة بصلة شبكية بين الدواء وأمراض سطح العين، ومن المعقول نظرياً أن يخفف حجب الإشارات الحسية الأعراض الموضعية. لكن ذلك يقتصر على تسكين الأعراض، ولا يدعم دوراً علاجياً للمرض نفسه. كما أن المخدرات الموضعية قد تُضعف التئام القرنية، وإساءة استخدامها معروفة بتسببها في التهاب القرنية، وهذا يعاكس الاستطباب العلاجي المقترح.
 
@@ -112,6 +112,19 @@ description: "Lidocaine: الاستطباب الجديد المتوقع الته
 - استكمال بيانات آلية العمل من DrugBank.
 - دراسات ما قبل سريرية أو تجارب استكشافية تقيّم سلامة وفاعلية ليدوكايين الموضعي في سطح العين، مع تقييم أثره على شفاء القرنية.
 - توضيح الاستطباب المعتمد فعلياً لكل ترخيص سعودي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

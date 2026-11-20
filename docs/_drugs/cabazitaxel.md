@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 130
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Cabazitaxel: الاستطباب الجديد المتوقع سرطان الثدي لدى النساء (female breast carcinoma) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات المجمَّعة (تراخيص الهيئة العامة للغذاء والدواء…"
 monitor_inn: "CABAZITAXEL"
 predicted_indications: ["female breast carcinoma", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin d disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
@@ -59,7 +59,7 @@ predicted_indications: ["female breast carcinoma", "hereditary persistence of fe
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في قاعدة البيانات المتاحة. وبحسب المعروف عموماً، فإن كابازيتاكسيل تاكسان نصف تخليقي يثبّت الأنابيب الدقيقة ويمنع تفكك المغزل الانقسامي، فيؤدي إلى توقف الانقسام الخلوي وموت الخلايا المبرمج.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cabazitaxel (ترجمة غير رسمية): «الكابازيتاكسيل مثبط للأنيبيبات الدقيقة. ويرتبط الكابازيتاكسيل بالتوبولين ويعزز تجميعه في أنيبيبات دقيقة مع تثبيط تفككها في الوقت نفسه. ويؤدي ذلك إلى استقرار الأنيبيبات الدقيقة، مما ينتج عنه تثبيط الوظائف الخلوية الانقسامية وتلك الخاصة بالطور البيني.» النص الأصلي بالإنجليزية: "Cabazitaxel is a microtubule inhibitor. Cabazitaxel binds to tubulin and promotes its assembly into microtubules while simultaneously inhibiting disassembly. This leads to the stabilization of microtubules, which results in the inhibition of mitotic and interphase cellular functions." ([DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa)، إصدار 2025-10-07؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عموماً، فإن كابازيتاكسيل تاكسان نصف تخليقي يثبّت الأنابيب الدقيقة ويمنع تفكك المغزل الانقسامي، فيؤدي إلى توقف الانقسام الخلوي وموت الخلايا المبرمج.
 
 ومن خصائصه أن مضخة الإفراز P-gp لا تتعرف عليه جيداً، لذلك قد يحتفظ بنشاطه في الأورام المقاومة للتاكسانات الأخرى. وسرطان الثدي يُعالج أصلاً بالتاكسانات (باكليتاكسيل ودوسيتاكسيل)، ما يجعل المسوّغ الآلي مقبولاً نظرياً.
 
@@ -158,12 +158,13 @@ predicted_indications: ["female breast carcinoma", "hereditary persistence of fe
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «(سبب إلغاء التراخيص وإمكانية إعادة التسجيل)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa) |
 
 <!-- review:end log -->
 

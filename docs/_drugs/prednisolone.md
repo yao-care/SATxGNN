@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 684
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Prednisolone: الاستطباب الجديد المتوقع الثعلبة البقعية (Alopecia Areata) (مستوى الدليل L2). الاستطباب الأصلي: الأمراض المناعية الذاتية (وغيرها: داء كرون، سرطان الدم الليمفاوي الحا…"
 monitor_inn: "PREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
@@ -62,7 +62,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 الثعلبة البقعية اضطراب مناعي ذاتي تتوسطه الخلايا التائية، يهاجم فيه الجهاز المناعي بصيلات الشعر وينهار فيه الامتياز المناعي للبصيلة. بريدنيزولون يثبّط تنشيط الخلايا التائية والسيتوكينات المحفزة للالتهاب (مثل IFN-gamma وIL-2)، وهذا ينسجم مع الآلية المناعية للمرض.
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا. استنادًا إلى المعلومات المعروفة، بريدنيزولون كورتيكوستيرويد جهازي ثبتت فعاليته في الأمراض المناعية الذاتية، وهذه الآلية قد تنطبق ميكانيكيًا على الثعلبة البقعية، وهي مرض مناعي ذاتي أيضًا.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Prednisolone (ترجمة غير رسمية): «بريدنيزولون دواء ستيرويدي قشري كظري مُخلَّق ذو خصائص قشرانية سكرية في الغالب. وتحاكي بعض هذه الخصائص الأفعال الفسيولوجية للقشرانيات السكرية الداخلية المنشأ، إلا أن بعضها الآخر لا يعكس بالضرورة أياً من الوظائف الطبيعية للهرمونات الكظرية؛ ولا تُلاحظ إلا بعد إعطاء جرعات علاجية كبيرة من الدواء.» النص الأصلي بالإنجليزية: "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1)، إصدار 2025-06-03؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعلومات المعروفة، بريدنيزولون كورتيكوستيرويد جهازي ثبتت فعاليته في الأمراض المناعية الذاتية، وهذه الآلية قد تنطبق ميكانيكيًا على الثعلبة البقعية، وهي مرض مناعي ذاتي أيضًا.
 
 تشير الأدبيات إلى أن الستيرويدات الجهازية تحقق غالبًا إعادة نمو للشعر، لكن الانتكاس بعد التوقف شائع، كما أن الآثار الجانبية طويلة الأمد تحد من استخدامها. ولذلك فالقيمة المحتملة تتركز في العلاج قصير المدى أو النبضي، وفي المرضى غير المؤهلين لمثبطات JAK.
 
@@ -134,6 +134,19 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 ### ملاحظة حول الاستطبابات الأخرى المتوقعة
 
 بقية الاستطبابات المتوقعة (الموسين الجريبي، والتهاب الجريبات الحالق، والعلة الكامنة، وغيرها) تقع عند مستوى أدلة L4–L5 مع توصية **الانتظار (Hold)**. أما المتلازمة الكلوية الحساسة للستيرويد فهي معيار علاج قائم أصلًا وليست فرصة إعادة توظيف حقيقية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

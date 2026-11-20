@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 650
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Phenoxymethylpenicillin: الاستطباب الجديد المتوقع التهاب لسان المزمار (Epiglottitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأذن الوسطى المعدي، العدوى العقدية، عدوى الجهاز التنفسي، الته…"
 monitor_inn: "PHENOXYMETHYLPENICILLIN"
 predicted_indications: ["epiglottitis", "laryngitis"]
@@ -59,7 +59,7 @@ predicted_indications: ["epiglottitis", "laryngitis"]
 
 ## لماذا يبدو هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعروف عن هذه الفئة، فإن فينوكسي ميثيل بنسلين مضاد من فئة بيتا لاكتام ضيق الطيف يثبّط تخليق جدار الخلية البكتيرية.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Phenoxymethylpenicillin (ترجمة غير رسمية): «يمارس البنسلين V تأثيرًا قاتلًا للجراثيم ضد الكائنات الحية الدقيقة الحساسة للبنسلين خلال مرحلة التكاثر النشط. ويعمل من خلال تثبيط التخليق الحيوي للببتيد المخاطي في الجدار الخلوي. وهو غير فعال ضد البكتيريا المنتجة للبنسليناز، والتي تشمل سلالات عديدة من المكورات العنقودية.» النص الأصلي بالإنجليزية: "Penicillin V exerts a bactericidal action against penicillin-sensitive microorganisms during the stage of active multiplication. It acts through the inhibition of biosynthesis of cell-wall mucopeptide. It is not active against the penicillinase-producing bacteria, which include many strains of staphylococci." ([DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea)، إصدار 2026-11-12؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن هذه الفئة، فإن فينوكسي ميثيل بنسلين مضاد من فئة بيتا لاكتام ضيق الطيف يثبّط تخليق جدار الخلية البكتيرية.
 
 التهاب لسان المزمار عدوى حادة في المجرى الهوائي العلوي، سببها تاريخيًا بكتيريا المستدمية النزلية من النمط ب (H. influenzae type b)، وأقل شيوعًا المكورات الرئوية والمكورات العقدية من المجموعة A والمكورات العنقودية الذهبية. المكوّن العقدي معقول بيولوجيًا بالنظر إلى استطبابات الدواء الحالية (العدوى العقدية، التهاب البلعوم، عدوى الجهاز التنفسي).
 
@@ -135,11 +135,12 @@ predicted_indications: ["epiglottitis", "laryngitis"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «إذ لا توجد حاليًا منتجات سارية في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea) |
 
 <!-- review:end log -->
 

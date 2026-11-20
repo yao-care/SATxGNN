@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 722
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Rifampicin: الاستطباب الجديد المتوقع التهاب الملتحمة (مستوى الدليل L4). الاستطباب الأصلي: السل الرئوي"
 monitor_inn: "RIFAMPICIN"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -58,7 +58,7 @@ predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne 
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا في البيانات المجمّعة لهذا التقرير. استنادًا إلى المعروف، ريفامبيسين مضاد حيوي واسع الطيف يثبط إنزيم RNA بوليميراز البكتيري، وهو فعّال ضد البكتيريا موجبة الغرام والكلاميديا والمتفطرات.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Rifampicin (ترجمة غير رسمية): «يثبط الريفامبين نشاط بوليميراز RNA المعتمد على DNA في كائنات المتفطرة السلية الحساسة. وعلى وجه التحديد، يتفاعل مع بوليميراز RNA البكتيري ولكنه لا يثبط الإنزيم الخاص بالثدييات.» النص الأصلي بالإنجليزية: "Rifampin inhibits DNA-dependent RNA polymerase activity in susceptible Mycobacterium tuberculosis organisms. Specifically, it interacts with bacterial RNA polymerase but does not inhibit the mammalian enzyme." ([DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5)، إصدار 2026-05-05؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعروف، ريفامبيسين مضاد حيوي واسع الطيف يثبط إنزيم RNA بوليميراز البكتيري، وهو فعّال ضد البكتيريا موجبة الغرام والكلاميديا والمتفطرات.
 
 هذه الكائنات من الأسباب المحتملة لالتهاب الملتحمة الجرثومي، ومنها المكورات العنقودية والكلاميديا الحثرية المسببة للتراخوما. ومن ثمّ فالصلة بين الاستطباب الأصلي (عدوى متفطرية) والجديد (عدوى عينية جرثومية) قائمة على النشاط المضاد للجراثيم.
 
@@ -136,11 +136,12 @@ predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حاليًا أي ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
 
 <!-- review:end log -->
 

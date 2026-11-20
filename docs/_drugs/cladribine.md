@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CLADRIBINE"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Cladribine: الاستطباب الجديد المتوقع ساركوما عضلية مخططة جنينية جانب سحائية (parameningeal embryonal rhabdomyosarcoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -56,7 +56,7 @@ description: "Cladribine: الاستطباب الجديد المتوقع سار�
 
 ## لماذا يبدو هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في السجلات المجمّعة. المعروف عن كلادريبين أنه نظير نيوكليوسيد بورين مقاوم لأدينوزين دياميناز، ويتراكم في الخلايا ذات النشاط العالي لإنزيم دي أوكسي سيتيدين كيناز، فيسبب كسر الحمض النووي وموت الخلايا المبرمج، ولذلك ثبتت فعاليته في الأورام اللمفاوية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cladribine (ترجمة غير رسمية): «لم تُوضَّح بالكامل الآلية التي يمارس بها الكلادريبين تأثيراته العلاجية لدى المرضى المصابين بالتصلب المتعدد، ولكن يُعتقد أنها تنطوي على تأثيرات سامة للخلايا على الخلايا اللمفاوية البائية والتائية من خلال إضعاف تخليق DNA، مما يؤدي إلى استنفاد الخلايا اللمفاوية.» النص الأصلي بالإنجليزية: "The mechanism by which cladribine exerts its therapeutic effects in patients with multiple sclerosis has not been fully elucidated but is thought to involve cytotoxic effects on B and T lymphocytes through impairment of DNA synthesis, resulting in depletion of lymphocytes." ([DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144)، إصدار 2026-05-27؛ تاريخ الاطلاع 2026-11-20). المعروف عن كلادريبين أنه نظير نيوكليوسيد بورين مقاوم لأدينوزين دياميناز، ويتراكم في الخلايا ذات النشاط العالي لإنزيم دي أوكسي سيتيدين كيناز، فيسبب كسر الحمض النووي وموت الخلايا المبرمج، ولذلك ثبتت فعاليته في الأورام اللمفاوية.
 
 لا توجد بيانات آلية أو سريرية تربطه بالساركوما العضلية المخططة الجنينية. الدرجة المرتفعة على الأرجح تعكس قرباً في بنية الشبكة التي بُني عليها النموذج من مضادات أيض سامة للخلايا تُستخدم في بروتوكولات الساركوما، وليست دليلاً مستقلاً. كما أن التوقعات الأخرى في العنقود نفسه (أنواع فرعية من الساركوما العضلية المخططة) على الأرجح منقولة من العقدة الأم، فلا تضيف دعماً مستقلاً.
 
@@ -92,6 +92,19 @@ description: "Cladribine: الاستطباب الجديد المتوقع سار�
 - بيانات آلية العمل التفصيلية.
 - نص النشرة الدوائية المعتمدة من الهيئة العامة للغذاء والدواء لتحديد التحذيرات وموانع الاستعمال.
 - تقييم سلامة خاص بالمرضى الأطفال المعرّضين لهذا النوع من الأورام، نظراً لسمية الدواء للدم والأعصاب.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

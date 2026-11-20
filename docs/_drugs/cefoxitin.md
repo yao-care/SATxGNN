@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Cefoxitin: الاستطباب الجديد المتوقع التهاب الأذن الوسطى المعدي (infectious otitis media) (مستوى الدليل L5). الاستطباب الأصلي: العدوى البكتيرية (عدوى المكورات العقدية، الالتهاب الرئوي البكتيري، ال…"
 monitor_inn: "Cefoxitin"
 predicted_indications: ["infectious otitis media", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
@@ -60,7 +60,7 @@ predicted_indications: ["infectious otitis media", "chronic otitis media", "supp
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف، السيفوكسيتين من فئة السيفاميسين (قريبة من السيفالوسبورينات)، وتتمثل فعاليته المثبتة في العدوى البكتيرية، وهو نشط ضد كثير من البكتيريا موجبة وسالبة الغرام وبعض اللاهوائيات، ومستقر نسبياً أمام بعض إنزيمات البيتا-لاكتاماز. ويمكن نظرياً أن يتقاطع هذا الطيف مع مسببات التهاب الأذن الوسطى.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cefoxitin (ترجمة غير رسمية): «سيفوكسيتين دواء مضاد للبكتيريا. […] سيفوكسيتين عامل قاتل للجراثيم يعمل عن طريق تثبيط تخليق جدار الخلية البكتيرية. يمتلك سيفوكسيتين نشاطًا في وجود بعض إنزيمات بيتا لاكتاماز، سواء البنسليناز أو السيفالوسبوريناز، لدى البكتيريا سالبة الغرام وموجبة الغرام.» النص الأصلي بالإنجليزية: "Cefoxitin is an antibacterial drug. […] Cefoxitin is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefoxitin has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: Cefoxitin And Dextrose (cefoxitin sodium) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c7e9485-1ede-411c-8c46-911439332864)، إصدار 2019-07-29؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، السيفوكسيتين من فئة السيفاميسين (قريبة من السيفالوسبورينات)، وتتمثل فعاليته المثبتة في العدوى البكتيرية، وهو نشط ضد كثير من البكتيريا موجبة وسالبة الغرام وبعض اللاهوائيات، ومستقر نسبياً أمام بعض إنزيمات البيتا-لاكتاماز. ويمكن نظرياً أن يتقاطع هذا الطيف مع مسببات التهاب الأذن الوسطى.
 
 غير أن الورقة الوحيدة المرتبطة بهذا التنبؤ مراجعة عن المكورات العنقودية الذهبية المقاومة للميثيسيلين، والسيفوكسيتين يُستخدم فيها كمؤشر مخبري للكشف عن هذه السلالات، وليس علاجاً لها. ولا يوجد أي دليل سريري يدعم استخدامه في التهاب الأذن الوسطى. لذلك فالتنبؤ قائم على النموذج فقط.
 
@@ -128,11 +128,12 @@ predicted_indications: ["infectious otitis media", "chronic otitis media", "supp
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «والمنتج الوحيد المرخص في السعودية ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cefoxitin And Dextrose (cefoxitin sodium) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c7e9485-1ede-411c-8c46-911439332864) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "EXEMESTANE"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
 description: "Exemestane: الاستطباب الجديد المتوقع Antithrombin deficiency type 2 (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -58,7 +58,7 @@ description: "Exemestane: الاستطباب الجديد المتوقع Antithr
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً (أو لا)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. استناداً إلى المعروف، إكسيمستين مثبّط أروماتاز ستيرويدي يمنع تحويل الأندروجينات إلى إستروجينات فيخفض مستوى الإستراديول.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Exemestane (ترجمة غير رسمية): «قد يكون نمو خلايا سرطان الثدي معتمدًا على الإستروجين. الأروماتاز هو الإنزيم الرئيسي الذي يحوّل الأندروجينات إلى إستروجينات لدى النساء قبل انقطاع الطمث وبعده على حد سواء. […] إكسيميستان معطِّل ستيرويدي غير عكوس للأروماتاز، يرتبط بنيويًا بالركيزة الطبيعية أندروستينديون.» النص الأصلي بالإنجليزية: "Breast cancer cell growth may be estrogen-dependent. Aromatase is the principal enzyme that converts androgens to estrogens both in pre- and postmenopausal women. […] Exemestane is an irreversible, steroidal aromatase inactivator, structurally related to the natural substrate androstenedione." ([DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3)، إصدار 2025-12-24؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف، إكسيمستين مثبّط أروماتاز ستيرويدي يمنع تحويل الأندروجينات إلى إستروجينات فيخفض مستوى الإستراديول.
 
 العلاقة بين الاستطباب الأصلي والجديد ضعيفة. فالدراسات المسترجعة تتناول انقطاع الطمث وعودة وظيفة المبيض كنتيجة أو سياق لدى مريضات سرطان الثدي بعد العلاج الكيميائي أو كبت المبيض، ولا تتناول انقطاع الطمث كحالة يعالجها إكسيمستين. ومن غير المتوقع أن يعيد تثبيط الأروماتاز الطمث، بل قد يكون مضاداً للاستطباب لدى النساء قبل سن اليأس دون كبت مبيضي، لأنه قد ينشّط المبيض عبر الغونادوتروبينات. لذلك فالأدلة غير مباشرة ولا تدعم إعادة التوظيف.
 
@@ -142,11 +142,12 @@ description: "Exemestane: الاستطباب الجديد المتوقع Antithr
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3) |
 
 <!-- review:end log -->
 

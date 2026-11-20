@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 733
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Ropinirole: الاستطباب الجديد المتوقع اضطراب فرط الحركة ونقص الانتباه (ADHD) (مستوى الدليل L3). الاستطباب الأصلي: متلازمة تململ الساقين، داء باركنسون"
 monitor_inn: "ROPINIROLE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
@@ -60,7 +60,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. استناداً إلى المعروف، روبينيرول ناهض لمستقبلات الدوبامين D2/D3، وقد ثبتت فعاليته في متلازمة تململ الساقين وداء باركنسون، وقد ينطبق ميكانيكياً على اضطراب ADHD.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ropinirole (ترجمة غير رسمية): «روبينيرول ناهض للدوبامين غير إرغوليني. والآلية الدقيقة لعمل روبينيرول كعلاج لمرض باركنسون غير معروفة، وإن كان يُعتقد أنها مرتبطة بقدرته على تنبيه مستقبلات الدوبامين D 2 داخل النواة المذنبة-البطامة في الدماغ.» النص الأصلي بالإنجليزية: "Ropinirole is a non-ergoline dopamine agonist. The precise mechanism of action of ropinirole as a treatment for Parkinson’s disease is unknown, although it is thought to be related to its ability to stimulate dopamine D 2 receptors within the caudate-putamen in the brain." ([DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da)، إصدار 2026-11-06؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف، روبينيرول ناهض لمستقبلات الدوبامين D2/D3، وقد ثبتت فعاليته في متلازمة تململ الساقين وداء باركنسون، وقد ينطبق ميكانيكياً على اضطراب ADHD.
 
 العلاقة بين الاستطباب الأصلي والجديد قوية نسبياً: يرتبط ADHD بمرضية مشتركة واسعة مع متلازمة تململ الساقين، وهي استطباب معتمد لروبينيرول. ويشترك الاضطرابان في خلل الإشارات الدوبامينية وفي عوامل مرتبطة بالحديد، مما يوفر رابطاً بيولوجياً معقولاً.
 
@@ -146,12 +146,13 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «النظر في وضع الترخيص (الملغى) وإمكانية إعادة التسجيل إن استُكمل المسار» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da) |
 
 <!-- review:end log -->
 

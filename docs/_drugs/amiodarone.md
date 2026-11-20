@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AMIODARONE"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Amiodarone: الاستطباب الجديد المتوقع تسرع القلب البطيني متعدد الأشكال الحساس للكاتيكولامين (catecholaminergic polymorphic ventricular tachycardia) (مستوى الدليل L5)."
 ---
 
@@ -54,7 +54,7 @@ description: "Amiodarone: الاستطباب الجديد المتوقع تسر�
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-تفصيل آلية العمل الأصلية غير متوفر حالياً في البيانات المجمّعة. ومن المعروف أن أميودارون مضاد اضطراب نظم متعدد القنوات (البوتاسيوم والصوديوم والكالسيوم وحجب بيتا الأدريناليني)، ولذلك يمكن نظرياً أن يثبّط اضطرابات النظم البطينية المحفَّزة بالكاتيكولامينات.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Amiodarone (ترجمة غير رسمية): «يُعد الأميودارون دواءً مضادًا لاضطراب النظم من الفئة الثالثة، إلا أنه يمتلك خصائص فيزيولوجية كهربية لجميع فئات Vaughan Williams الأربع. فعلى غرار أدوية الفئة الأولى، يحصر الأميودارون قنوات الصوديوم عند ترددات التنظيم السريعة، وعلى غرار أدوية الفئة الثانية، يمارس الأميودارون تأثيرًا غير تنافسي مضادًا للودي.» النص الأصلي بالإنجليزية: "Amiodarone is considered a class III antiarrhythmic drug, but it possesses electrophysiologic characteristics of all four Vaughan Williams classes. Like class I drugs, amiodarone blocks sodium channels at rapid pacing frequencies, and like class II drugs, amiodarone exerts a noncompetitive antisympathetic action." ([DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3)، إصدار 2025-11-05؛ تاريخ الاطلاع 2026-11-20). ومن المعروف أن أميودارون مضاد اضطراب نظم متعدد القنوات (البوتاسيوم والصوديوم والكالسيوم وحجب بيتا الأدريناليني)، ولذلك يمكن نظرياً أن يثبّط اضطرابات النظم البطينية المحفَّزة بالكاتيكولامينات.
 
 في المقابل، ينشأ هذا المرض من خلل في إطلاق الكالسيوم مرتبط بجينات RYR2 وCASQ2، والعلاج الأول المعتمد هو حاصرات بيتا مع فليكاينيد. ويُعد أميودارون عموماً أدنى من العلاج المعياري في هذا الاستخدام. لذلك فالمعقولية الآلية محدودة، وتبقى الدرجة المرتفعة للنموذج فرضية تحتاج إلى تحقق سريري.
 
@@ -120,6 +120,18 @@ description: "Amiodarone: الاستطباب الجديد المتوقع تسر�
 - بيانات آلية العمل التفصيلية.
 - التحذيرات وموانع الاستعمال من نشرة المنتج المعتمدة.
 - خطة مراقبة السلامة (الغدة الدرقية والرئة والكبد وفترة QT).
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

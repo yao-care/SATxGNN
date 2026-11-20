@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Insulin Lispro: الاستطباب الجديد المتوقع التهاب المبيض المناعي الذاتي (مستوى الدليل L5). الاستطباب الأصلي: داء السكري (النوع الأول والنوع الثاني والحماض الكيتوني السكري)"
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
@@ -59,7 +59,7 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 ## لماذا يبدو هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن الإنسولين ليسبرو هرمون بديل يخفض سكر الدم، وفعاليته في داء السكري مثبتة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Insulin Lispro (ترجمة غير رسمية): «يُعدّ تنظيم استقلاب الغلوكوز النشاط الرئيسي للأنسولينات ونظائر الأنسولين، بما في ذلك منتجات الأنسولين ليسبرو. وتُخفّض الأنسولينات مستوى الغلوكوز في الدم عن طريق تحفيز امتصاص الغلوكوز المحيطي بواسطة العضلات الهيكلية والدهون، وعن طريق تثبيط إنتاج الغلوكوز في الكبد.» النص الأصلي بالإنجليزية: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin lispro products. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0)، إصدار 2026-09-03؛ تاريخ الاطلاع 2026-11-20). المعروف أن الإنسولين ليسبرو هرمون بديل يخفض سكر الدم، وفعاليته في داء السكري مثبتة.
 
 وفق البيانات المجمعة لهذا التقرير، **لا توجد علاقة آلية مباشرة** بين الإنسولين والتهاب المبيض المناعي الذاتي. الأرجح أن الدرجة العالية تعكس القرب في الشبكة المعرفية بين حالات اعتلال الغدد الصم المتعددة المناعي الذاتي وداء السكري من النوع الأول (الذي له أصل مناعي ذاتي مشترك)، وليست تأثيراً علاجياً نوعياً للإنسولين. في أحسن الأحوال يعالج الإنسولين داء السكري المصاحب ولا يعالج المناعة الذاتية في المبيض.
 
@@ -154,11 +154,12 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وكلاهما ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
 
 <!-- review:end log -->
 

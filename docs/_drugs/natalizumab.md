@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 579
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 description: "Natalizumab: الاستطباب الجديد المتوقع Bronchitis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -61,7 +61,7 @@ description: "Natalizumab: الاستطباب الجديد المتوقع Bronch
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا. بناءً على المعلومات المعروفة، يرتبط ناتاليزوماب بالإنتغرين ألفا-4 (alpha-4 integrin) ويحدّ من انتقال الخلايا الليمفاوية التائية إلى الأنسجة الملتهبة. وقد ثبتت فعاليته في داء كرون والتصلب المتعدد، وهما مرضان مناعيان التهابيان.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Natalizumab (ترجمة غير رسمية): «يرتبط الناتاليزوماب بالوحيدة الفرعية α4 من الإنتغرينات α4β1 وα4β7 المعبَّر عنها على سطح جميع الكريات البيض باستثناء العدلات، ويثبط التصاق الكريات البيض المتواسط بـ α4 بمستقبلها (مستقبلاتها) المقابلة. وتشمل مستقبلات فصيلة إنتغرينات α4 جزيء التصاق الخلايا الوعائية-1 (VCAM-1)، المعبَّر عنه على البطانة الوعائية المنشَّطة، وجزيء التصاق الخلايا المخاطي أدريسين-1 (MAdCAM-1) الموجود على الخلايا البطانية الوعائية في السبيل المعدي المعوي.» النص الأصلي بالإنجليزية: "Natalizumab binds to the α4-subunit of α4β1 and α4β7 integrins expressed on the surface of all leukocytes except neutrophils, and inhibits the α4-mediated adhesion of leukocytes to their counter-receptor(s). The receptors for the α4 family of integrins include vascular cell adhesion molecule-1 (VCAM-1), which is expressed on activated vascular endothelium, and mucosal addressin cell adhesion molecule-1 (MAdCAM-1) present on vascular endothelial cells of the gastrointestinal tract." ([DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962)، إصدار 2026-10-09؛ تاريخ الاطلاع 2026-11-20). بناءً على المعلومات المعروفة، يرتبط ناتاليزوماب بالإنتغرين ألفا-4 (alpha-4 integrin) ويحدّ من انتقال الخلايا الليمفاوية التائية إلى الأنسجة الملتهبة. وقد ثبتت فعاليته في داء كرون والتصلب المتعدد، وهما مرضان مناعيان التهابيان.
 
 الصدفية مرض جلدي التهابي مناعي تلعب فيه الخلايا التائية دورًا مهمًا، ولذلك فإن تقليل انتقالها قد يكون نظريًا ذا فائدة. كما أن مرضى التصلب المتعدد يعانون أحيانًا من الصدفية كمرض مصاحب.
 
@@ -144,12 +144,13 @@ description: "Natalizumab: الاستطباب الجديد المتوقع Bronch
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الدواء بلا ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «تقييم الوضع التنظيمي والتوفر الفعلي للدواء في السعودية بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962) |
 
 <!-- review:end log -->
 

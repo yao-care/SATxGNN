@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 434
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Imipramine: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (مستوى الدليل L3). الاستطباب الأصلي: اضطراب القلق، الاضطراب العصابي، اضطراب الدستيميا، التبول الليلي (من ر…"
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
@@ -58,7 +58,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. إلا أن بيانات الصيدلة المتاحة تُظهر أن إيميبرامين يرتبط بناقل النورإبينفرين (NET) وناقل السيروتونين (SERT)، أي أنه يثبّط إعادة امتصاص النورإبينفرين والسيروتونين.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Imipramine (ترجمة غير رسمية): «آلية عمل إيميبرامين هيدروكلوريد غير معروفة على وجه التحديد. ومع ذلك، فإنه لا يعمل بشكل رئيسي عن طريق تنبيه الجهاز العصبي المركزي. ويُفترض أن التأثير السريري ناتج عن تقوية المشابك الأدرينالية عن طريق حجب امتصاص النورإبينفرين عند النهايات العصبية.» النص الأصلي بالإنجليزية: "The mechanism of action of imipramine hydrochloride, is not definitely known. However, it does not act primarily by stimulation of the central nervous system. The clinical effect is hypothesized as being due to potentiation of adrenergic synapses by blocking uptake of norepinephrine at nerve endings." ([DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919)، إصدار 2026-11-04؛ تاريخ الاطلاع 2026-11-20). إلا أن بيانات الصيدلة المتاحة تُظهر أن إيميبرامين يرتبط بناقل النورإبينفرين (NET) وناقل السيروتونين (SERT)، أي أنه يثبّط إعادة امتصاص النورإبينفرين والسيروتونين.
 
 التعزيز النورأدريناليني هو الآلية المعروفة لأدوية ADHD غير المنشِّطة مثل أتوموكسيتين، ما يجعل الصلة البيولوجية مقبولة. وتشير المراجعات الواردة إلى أن مثبطات إعادة امتصاص النورإبينفرين غير الانتقائية (ديسيبرامين وإيميبرامين) قد تكون فعالة عند فشل المنشّطات أو عدم تحملها.
 
@@ -139,11 +139,12 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919) |
 
 <!-- review:end log -->
 

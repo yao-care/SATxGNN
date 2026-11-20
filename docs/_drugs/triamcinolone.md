@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 834
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Triamcinolone: الاستطباب الجديد المتوقع ثعلبة الميوسين (alopecia mucinosa) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر نص استطباب في تراخيص الهيئة العامة للغذاء والدواء (SFDA)؛ و…"
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
@@ -60,7 +60,7 @@ predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's f
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبناءً على المعلومات المعروفة، فإن التريامسينولون كورتيكوستيرويد يرتبط بمستقبل الغلوكوكورتيكويد (NR3C1)، وله تأثير مضاد للالتهاب ومثبط للمناعة. وقد ثبتت فعاليته في حالات التهابية ومناعية عديدة، ومن الناحية الآلية قد يكون مناسباً لثعلبة الميوسين.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Triamcinolone (ترجمة غير رسمية): «تشير الدراسات إلى أنه بعد جرعة واحدة داخل العضل تتراوح من 60 ملغ إلى 100 ملغ من تريامسينولون أسيتونيد، يحدث كبت للغدة الكظرية في غضون 24 إلى 48 ساعة ثم يعود تدريجيًا إلى الوضع الطبيعي، عادةً في غضون 30 إلى 40 يومًا. وترتبط هذه النتيجة ارتباطًا وثيقًا بالمدة الممتدة للتأثير العلاجي الذي يتحقق بهذا الدواء.» النص الأصلي بالإنجليزية: "Studies indicate that following a single intramuscular dose of 60 mg to 100 mg of triamcinolone acetonide, adrenal suppression occurs within 24 to 48 hours and then gradually returns to normal, usually in 30 to 40 days. This finding correlates closely with the extended duration of therapeutic action achieved with the drug." ([DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad)، إصدار 2026-01-05؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، فإن التريامسينولون كورتيكوستيرويد يرتبط بمستقبل الغلوكوكورتيكويد (NR3C1)، وله تأثير مضاد للالتهاب ومثبط للمناعة. وقد ثبتت فعاليته في حالات التهابية ومناعية عديدة، ومن الناحية الآلية قد يكون مناسباً لثعلبة الميوسين.
 
 التهاب بصيلات الشعر الذي يصاحب الشكل الالتهابي من ثعلبة الميوسين (follicular mucinosis) يجعل الكورتيكوستيرويدات داخل الآفة خياراً معقولاً نظرياً. غير أن المنشورات المتوفرة لا تقدم دليلاً مباشراً على التريامسينولون: أحدها تقرير حالة من عام 1964، والآخر حالة عولجت بجل البيكساروتين (Bexarotene) وهو ليس كورتيكوستيرويداً.
 
@@ -118,6 +118,19 @@ predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's f
 - البحث عن أدلة مباشرة على استخدام التريامسينولون (حقناً داخل الآفة) في التحول الجريبي الميوسيني، ومراجعة النصوص الكاملة.
 - النظر في الاستطبابات الأخرى المتوقعة ذات الأدلة الأقوى نسبياً، مثل التهاب الجريبات المسبب للصلع (Folliculitis Decalvans) الذي صُنّف كسؤال بحثي (Research Question) بمستوى أدلة L3 استناداً إلى مراجعة استعادية لـ 23 مريضاً.
 - التحقق من الوضع التنظيمي وإمكانية إعادة تسجيل المنتج أو تسجيل شكل دوائي موضعي/حقني مناسب.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

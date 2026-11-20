@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 7
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Betamethasone: الاستطباب الجديد المتوقع الثعلبة المخاطينية (alopecia mucinosa) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 20 على الأقل"
 ---
 
@@ -54,7 +54,7 @@ description: "Betamethasone: الاستطباب الجديد المتوقع ال
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-بيتاميثازون ناهض صناعي لمستقبل الغلوكوكورتيكويد (NR3C1). يقلل هذا التأثير الالتهاب والحكة ويضيّق الأوعية الدموية. أما بيانات آلية العمل التفصيلية الأخرى فغير متوفرة حالياً.
+بيتاميثازون ناهض صناعي لمستقبل الغلوكوكورتيكويد (NR3C1). يقلل هذا التأثير الالتهاب والحكة ويضيّق الأوعية الدموية. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Betamethasone (ترجمة غير رسمية): «تؤدي الكورتيكوستيرويدات دورًا في الإشارات الخلوية والوظيفة المناعية والالتهاب وتنظيم البروتين؛ إلا أن آلية التأثير الدقيقة لبخاخ SERNIVO في الصدفية غير معروفة.» النص الأصلي بالإنجليزية: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action of SERNIVO Spray in psoriasis is unknown." ([DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66)، إصدار 2026-04-22؛ تاريخ الاطلاع 2026-11-20).
 
 الثعلبة المخاطينية، أو التمخطن الجريبي، حالة تتراكم فيها المادة المخاطية داخل بصيلات الشعر وغدد الدهن، وغالباً ما يرافقها التهاب حول البصيلات. لذلك يمكن نظرياً أن تخفف الكورتيكوستيرويدات هذا الالتهاب. لكن هذا استدلال آلي عام وليس دليلاً على تأثير خاص ببيتاميثازون.
 
@@ -98,6 +98,18 @@ description: "Betamethasone: الاستطباب الجديد المتوقع ال
 - الحصول على النشرة الدوائية من هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال.
 - استكمال بيانات آلية العمل التفصيلية.
 - البحث عن دراسات سريرية أو سلاسل حالات حديثة تتناول الثعلبة المخاطينية والعلاج بالكورتيكوستيرويدات الموضعية، مع تقييم ملاءمة طريق الإعطاء.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

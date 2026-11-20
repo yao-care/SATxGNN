@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 259
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "DIFLUNISAL"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
 description: "Diflunisal: الاستطباب الجديد المتوقع خلل التنسج الطرفي المتوسط، نوع هنتر-طومسون (acromesomelic dysplasia, Hunter-Thompson type) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -54,7 +54,7 @@ description: "Diflunisal: الاستطباب الجديد المتوقع خلل 
 
 ## لماذا يبدو هذا التنبؤ محل نظر؟
 
-تفاصيل آلية العمل غير متوفرة في البيانات المجمّعة لهذا التقرير. المعروف أن ديفلونيسال من مثبطات إنزيم الأكسدة الحلقية، ويقلل تكوّن البروستاغلاندينات المسؤولة عن الالتهاب والألم.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Diflunisal (ترجمة غير رسمية): «الآلية الدقيقة للتأثيرين المسكن والمضاد للالتهاب لديفلونيسال غير معروفة. ديفلونيسال مثبط لإنزيم تخليق البروستاغلاندين. وفي الحيوانات، تُحسِّس البروستاغلاندينات الأعصاب الواردة وتعزز تأثير البراديكينين في إحداث الألم.» النص الأصلي بالإنجليزية: "The precise mechanism of the analgesic and anti-inflammatory actions of diflunisal is not known. Diflunisal is a prostaglandin synthetase inhibitor. In animals, prostaglandins sensitize afferent nerves and potentiate the action of bradykinin in inducing pain." ([DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b)، إصدار 2025-10-06؛ تاريخ الاطلاع 2026-11-20). المعروف أن ديفلونيسال من مثبطات إنزيم الأكسدة الحلقية، ويقلل تكوّن البروستاغلاندينات المسؤولة عن الالتهاب والألم.
 
 أما هذا المرض فهو خلل تنسج هيكلي وراثي نادر ناتج عن فقدان وظيفة الجين CDMP1/GDF5، وليس ناتجاً عن التهاب تتوسطه البروستاغلاندينات، وهو الهدف الذي يعمل عليه ديفلونيسال. لذلك لم يُحدَّد أي رابط آلي معقول بين الدواء والمرض. الدرجة العالية تعبّر عن تنبؤ قائم على العلاقات الشبكية في النموذج فقط، ولا يسندها أي دليل سريري أو منشور.
 
@@ -97,6 +97,18 @@ description: "Diflunisal: الاستطباب الجديد المتوقع خلل 
 - دليل آلي أو أمامي (قبل سريري) يربط تثبيط COX بمسار المرض.
 - بيانات آلية العمل التفصيلية للدواء.
 - الحصول على نشرة العبوة المعتمدة لاستكمال تقييم السلامة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

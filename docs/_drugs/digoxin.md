@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Digoxin: الاستطباب الجديد المتوقع الذبحة الصدرية المتغايرة (Prinzmetal angina) (مستوى الدليل L5). الاستطباب الأصلي: الرجفان الأذيني؛ التسمم بالديجيتالis"
 monitor_inn: "DIGOXIN"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
@@ -58,7 +58,7 @@ predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal u
 
 ## لماذا قد يبدو هذا التنبؤ معقولًا؟ ولماذا يبقى ضعيفًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. استنادًا إلى المعرفة العامة، يعمل ديجوكسين عبر تثبيط مضخة الصوديوم/البوتاسيوم ATPase، فيعزز انقباض عضلة القلب (تأثير مقوٍّ للقلب)، ويزيد النشاط المبهمي (vagomimetic)، وبذلك يبطئ الاستجابة البطينية في الرجفان الأذيني.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Digoxin (ترجمة غير رسمية): «تتواسط جميع تأثيرات الديجوكسين من خلال تأثيراته على Na-K ATPase. وهذا الإنزيم، «مضخة الصوديوم»، مسؤول عن الحفاظ على البيئة داخل الخلوية في جميع أنحاء الجسم عن طريق نقل أيونات الصوديوم إلى خارج الخلايا وأيونات البوتاسيوم إلى داخلها.» النص الأصلي بالإنجليزية: "All of digoxin’s actions are mediated through its effects on Na-K ATPase. This enzyme, the “sodium pump,” is responsible for maintaining the intracellular milieu throughout the body by moving sodium ions out of and potassium ions into cells." ([DailyMed: Lanoxin (digoxin) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ec84cac-6ecc-43dc-8006-6ccc029e2707)، إصدار 2025-10-17؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعرفة العامة، يعمل ديجوكسين عبر تثبيط مضخة الصوديوم/البوتاسيوم ATPase، فيعزز انقباض عضلة القلب (تأثير مقوٍّ للقلب)، ويزيد النشاط المبهمي (vagomimetic)، وبذلك يبطئ الاستجابة البطينية في الرجفان الأذيني.
 
 أما الذبحة الصدرية المتغايرة فهي ناتجة عن تشنج الشرايين التاجية، وتُعالج عادةً بحاصرات قنوات الكالسيوم والنترات. وليس لديجوكسين دور معروف في هذه الحالة. بل قد يزيد نظريًا من التوتر الوعائي والتضيق الوعائي، مما قد يفاقم التشنج.
 
@@ -134,12 +134,13 @@ predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal u
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «*ملاحظة: إجمالي التراخيص 7، وجميعها ملغاة؛ عُرضت أول 5 فقط.*» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «وجميع تراخيص الدواء في السعودية ملغاة حاليًا» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Lanoxin (digoxin) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ec84cac-6ecc-43dc-8006-6ccc029e2707) |
 
 <!-- review:end log -->
 

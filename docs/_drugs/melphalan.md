@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 538
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "MELPHALAN"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan: الاستطباب الجديد المتوقع Female breast carcinoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -58,7 +58,7 @@ description: "Melphalan: الاستطباب الجديد المتوقع Female b
 
 ## لماذا يبدو هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل المسجّلة للدواء. استناداً إلى المعروف، ميلفالان عامل مؤلكِل ثنائي الوظيفة يُحدث ارتباطاً متقاطعاً في الـ DNA ويحفّز موت الخلايا المبرمج. وقد ثبتت فعاليته في أورام المبيض، ومن الناحية الآلية قد ينطبق على الأورام الجرثومية الغُدّية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Melphalan (ترجمة غير رسمية): «الميلفالان عامل مؤلكل من نوع ثنائي كلورو إيثيل أمين. ونتيجة لذلك، يبدو أن سميته الخلوية مرتبطة بمدى ارتباطه التشابكي بين الشريطين مع DNA، وذلك على الأرجح بالارتباط عند الموضع N 7 من الغوانين.» النص الأصلي بالإنجليزية: "Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine." ([DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c)، إصدار 2026-09-15؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف، ميلفالان عامل مؤلكِل ثنائي الوظيفة يُحدث ارتباطاً متقاطعاً في الـ DNA ويحفّز موت الخلايا المبرمج. وقد ثبتت فعاليته في أورام المبيض، ومن الناحية الآلية قد ينطبق على الأورام الجرثومية الغُدّية.
 
 الأورام الجرثومية شديدة الحساسية عموماً للعلاج الكيميائي المُتلِف للـ DNA. وقد دُرس ميلفالان بجرعات عالية مع إنقاذ بالخلايا الجذعية الذاتية في الأورام الجرثومية المنتكسة ذات الإنذار السيئ، وهو ما ينسجم مع نشاطه المعروف. غير أن معظم هذه الدراسات تستخدم ميلفالان ضمن توليفات دوائية، ما يصعّب عزل مساهمته الخاصة.
 
@@ -92,7 +92,6 @@ description: "Melphalan: الاستطباب الجديد المتوقع Female b
 |---------|------|------|-----------|
 | Megval | Megval (Emcure Pharmaceuticals) | غير محدد | غير متوفر (ساري) |
 | ALKERAN TABLETS 5 MG | ALKERAN TABLETS 5 MG (GLAXOWELLCOME) | غير محدد | غير متوفر (ساري) |
-
 
 ---
 
@@ -131,6 +130,19 @@ description: "Melphalan: الاستطباب الجديد المتوقع Female b
 - مراجعة منهجية للدراسات التي تضم الأورام الجرثومية لتحديد مساهمة ميلفالان المنفردة.
 - تقييم جدوى إعادة الترخيص أو توفير الدواء عبر مسار بديل في السعودية.
 - وضع خطة مراقبة سلامة تشمل تثبيط نقي العظم والسمية الكلوية والرئوية والأورام الثانوية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

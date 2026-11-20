@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 799
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Tenofovir Disoproxil: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infectio… (مستوى الدليل L4). الاستطباب الأصلي: عدوى التهاب الكبد B المزمنة، عدوى فيروس نقص …"
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -60,7 +60,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن تينوفوفير ديسوبروكسيل مثبط نيوكليوتيدي للنسخ العكسي، وفعاليته ثابتة في عدوى HIV، وقد تنطبق آلية عمله على فيروس نقص المناعة القردي.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tenofovir Disoproxil (ترجمة غير رسمية): «تينوفوفير ديسوبروكسيل فومارات هو دواء مضاد للفيروسات. […] تينوفوفير ديسوبروكسيل فومارات هو نظير ثنائي إستر فوسفونات نوكليوزيدي لاحلقي لأحادي فوسفات الأدينوسين. ويتطلب تينوفوفير ديسوبروكسيل فومارات تحللًا مائيًا أوليًا لثنائي الإستر لتحويله إلى تينوفوفير، ثم عمليات فسفرة لاحقة بواسطة الإنزيمات الخلوية لتكوين ثنائي فوسفات تينوفوفير (TFV-DP)، وهو مُنهٍ إلزامي للسلسلة.» النص الأصلي بالإنجليزية: "Tenofovir disoproxil fumarate is an antiviral drug. […] Tenofovir disoproxil fumarate is an acyclic nucleoside phosphonate diester analog of adenosine monophosphate. Tenofovir disoproxil fumarate requires initial diester hydrolysis for conversion to tenofovir and subsequent phosphorylations by cellular enzymes to form tenofovir diphosphate (TFV-DP), an obligate chain terminator." ([DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418)، إصدار 2025-02-18؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن تينوفوفير ديسوبروكسيل مثبط نيوكليوتيدي للنسخ العكسي، وفعاليته ثابتة في عدوى HIV، وقد تنطبق آلية عمله على فيروس نقص المناعة القردي.
 
 فيروس SIV وفيروس SHIV المهجّن من أقرب أقارب HIV من الفيروسات البطيئة (Lentivirus)، ويستخدمان الإنزيم الهدف نفسه، وهو النسخ العكسي. لذلك يُتوقع أن يكون الدواء فعالاً في نماذج قرود المكاك. والأدلة المتاحة عبارة عن نماذج حيوانية قبل سريرية للاستطباب البشري المعتمد أصلاً (HIV)، وليست استطباباً بشرياً جديداً. أي أنها دليل غير مباشر، والاستخدام البشري مغطى فعلاً بالاستطباب المعتمد.
 
@@ -141,12 +141,13 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص السعودية الخمسة ووضع التسويق الحالي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
 
 <!-- review:end log -->
 

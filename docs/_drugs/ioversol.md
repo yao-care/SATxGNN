@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IOVERSOL"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Ioversol: الاستطباب الجديد المتوقع التهاب المفاصل العظمي (الفصال العظمي) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المجمّعة لهذا التقرير"
 ---
 
@@ -55,7 +55,7 @@ description: "Ioversol: الاستطباب الجديد المتوقع الته�
 
 ## لماذا يُعدّ هذا التنبؤ محل شك؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن الإيوفيرسول وسيط تباين يودي لا يملك فاعلية دوائية معدِّلة للمرض، ودوره في التصوير يعتمد على امتصاص الأشعة السينية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ioversol (ترجمة غير رسمية): «يؤدي الحقن داخل الأوعية لإيوفيرسول إلى تعتيم الأوعية الواقعة في مسار تدفق وسط التباين، مما يتيح التصوير الشعاعي للبنى الداخلية إلى أن يحدث تمدد دموي كبير. ويمكن رؤية إيوفيرسول في النسيج الكلوي في غضون 30 إلى 60 ثانية بعد الحقن الوريدي السريع.» النص الأصلي بالإنجليزية: "Intravascular injection of ioversol opacifies those vessels in the path of the flow of the contrast medium, permitting radiographic visualization of the internal structures until significant hemodilution occurs. Ioversol may be visualized in the renal parenchyma within 30 to 60 seconds following rapid intravenous injection." ([DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74)، إصدار 2025-12-29؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن الإيوفيرسول وسيط تباين يودي لا يملك فاعلية دوائية معدِّلة للمرض، ودوره في التصوير يعتمد على امتصاص الأشعة السينية.
 
 الدراسة الوحيدة المرتبطة (PMID 38102013، تجربة LipioJoint-1) تتناول انسداد الشريان الركبي بمستحلب زيتي يودي لعلاج فصال الركبة. دور المادة اليودية هنا إجرائي وعرضي (سدّ الأوعية أو التوجيه بالتصوير)، وليس تأثيراً علاجياً للإيوفيرسول. ولا تدرس هذه الدراسة الإيوفيرسول نفسه، لذلك لا تُعدّ دليلاً مباشراً على فاعليته في هذا المرض.
 
@@ -112,6 +112,19 @@ description: "Ioversol: الاستطباب الجديد المتوقع الته�
 ---
 
 **ملاحظة على التنبؤات الأخرى:** تتوفر أيضاً تنبؤات لأمراض أخرى (التهاب المفاصل الروماتويدي، وخلل التنسج العظمي، واعتلالات الهيموغلوبين، والصلع وغيرها)، وجميعها بمستوى أدلة L5 وبقرار «إيقاف مؤقت»، دون آلية معقولة أو أدلة سريرية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "Bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Bleomycin: الاستطباب الجديد المتوقع ورم ذيل الفرس (cauda equina neoplasm) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -55,7 +55,7 @@ description: "Bleomycin: الاستطباب الجديد المتوقع ورم �
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف، فإن بليوميسين عامل سام للخلايا يُحدث كسوراً في خيوط الحمض النووي، وقد ثبتت فعاليته في أورام الجهاز اللمفاوي، وقد يكون مناسباً نظرياً للأورام العصبية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Bleomycin (ترجمة غير رسمية): «على الرغم من أن الآلية الدقيقة لعمل البليوميسين غير معروفة، تشير الأدلة المتاحة إلى أن نمط العمل الرئيسي هو تثبيط تخليق DNA، مع وجود بعض الأدلة على تثبيط أقل لتخليق RNA والبروتين. ومن المعروف أن البليوميسين يُحدث كسورًا أحادية السلسلة، وبدرجة أقل، كسورًا مزدوجة السلسلة في DNA.» النص الأصلي بالإنجليزية: "Although the exact mechanism of action of bleomycin is unknown, available evidence indicates that the main mode of action is the inhibition of DNA synthesis with some evidence of lesser inhibition of RNA and protein synthesis. Bleomycin is known to cause single, and to a lesser extent, double-stranded breaks in DNA." ([DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee)، إصدار 2026-04-17؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإن بليوميسين عامل سام للخلايا يُحدث كسوراً في خيوط الحمض النووي، وقد ثبتت فعاليته في أورام الجهاز اللمفاوي، وقد يكون مناسباً نظرياً للأورام العصبية.
 
 غير أن الدراسة الوحيدة المرتبطة (PMID 9440744) تتناول العلاج الإشعاعي لورم الخلايا الجرثومية في الجهاز العصبي المركزي بعد انتكاسه عقب العلاج الكيميائي، ولا تقيّم بليوميسين في أورام ذيل الفرس. كما أن نفاذ بليوميسين إلى الجهاز العصبي المركزي ضعيف، مما يُضعف المعقولية البيولوجية. الدرجة العالية ناتجة عن حساب نموذجي لا يسنده دليل سريري.
 
@@ -106,6 +106,18 @@ description: "Bleomycin: الاستطباب الجديد المتوقع ورم �
 - بيانات آلية العمل وتقييم إمكانية التوصيل الموضعي أو داخل القراب.
 - نص تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة.
 - تقييم السلامة، خصوصاً السمية الرئوية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

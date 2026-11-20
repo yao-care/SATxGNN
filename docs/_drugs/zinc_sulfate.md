@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 890
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "zinc sulfate"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
 description: "Zinc Sulfate: الاستطباب الجديد المتوقع التهاب البلعوم (pharyngitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -54,7 +54,7 @@ description: "Zinc Sulfate: الاستطباب الجديد المتوقع ال�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف، قد يكون للزنك دور في التئام الغشاء المخاطي البلعومي ونشاط موضعي مضاد للفيروسات والالتهاب، وتعمل أقراص الزنك المصّاصة موضعياً على الغشاء المخاطي للبلعوم.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Zinc Sulfate (ترجمة غير رسمية): «الزنك عنصر نزر أساسي. يعمل الزنك كعامل مساعد لإنزيمات مختلفة، بما في ذلك بوليميرازات DNA وبوليميرازات RNA ونازعة هيدروجين الكحول والفوسفاتازات القلوية. والزنك منسق للطي البنيوي للبروتينات، مثل طي موتيف 'إصبع الزنك' الذي يتفاعل مع مجموعة متنوعة من البروتينات والدهون والأحماض النووية.» النص الأصلي بالإنجليزية: "Zinc is an essential trace element. Zinc functions as a cofactor of various enzymes including DNA polymerases, RNA polymerases, alcohol dehydrogenase, and alkaline phosphatases. Zinc is a coordinator of protein structural folding, such as folding of “Zinc finger” motif that interacts with a variety of proteins, lipids, and nucleic acids." ([DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757)، إصدار 2026-03-04؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، قد يكون للزنك دور في التئام الغشاء المخاطي البلعومي ونشاط موضعي مضاد للفيروسات والالتهاب، وتعمل أقراص الزنك المصّاصة موضعياً على الغشاء المخاطي للبلعوم.
 
 غير أن هذا الاعتبار نظري. فأقوى إشارة سريرية متاحة تخص التهاب الحلق بعد العمليات الجراحية، وهو حالة مختلفة عن التهاب البلعوم الإنتاني. أما الدرجة المرتفعة (0.9985) فهي تنبؤ حسابي وليست دليلاً سريرياً.
 
@@ -99,6 +99,18 @@ description: "Zinc Sulfate: الاستطباب الجديد المتوقع ال�
 - بيانات آلية العمل.
 - تحذيرات وموانع استعمال رسمية من النشرة الدوائية لدى هيئة الغذاء والدواء السعودية.
 - تقييم توافق طريق الإعطاء، إذ المنتجات المرخصة محلياً قطرات عين.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 605
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Ocrelizumab: الاستطباب الجديد المتوقع سرطان الثدي الإيجابي لـ HER2 (مستوى الدليل L5). الاستطباب الأصلي: التصلب المتعدد التدريجي"
 monitor_inn: "OCRELIZUMAB"
 predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
@@ -58,7 +58,7 @@ predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor
 
 ## لماذا يُعد هذا التنبؤ محل تساؤل؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمعة. المعروف أن أوكريليزوماب جسم مضاد مؤنسن يستهدف CD20 على الخلايا البائية ويؤدي إلى استنفادها، وهذا أساس فعاليته في التصلب المتعدد.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ocrelizumab (ترجمة غير رسمية): «الآلية الدقيقة التي يمارس بها الأوكريليزوماب تأثيراته العلاجية في التصلب المتعدد غير معروفة، ولكن يُفترض أنها تتضمن الارتباط بـ CD20، وهو مستضد على سطح الخلية موجود على الخلايا اللمفاوية البائية الأولية والناضجة. وبعد الارتباط بسطح الخلايا اللمفاوية البائية، يؤدي الأوكريليزوماب إلى تحلل خلوي معتمد على الأجسام المضادة وتحلل بوساطة المتممة.» النص الأصلي بالإنجليزية: "The precise mechanism by which ocrelizumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ocrelizumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d)، إصدار 2026-05-14؛ تاريخ الاطلاع 2026-11-20). المعروف أن أوكريليزوماب جسم مضاد مؤنسن يستهدف CD20 على الخلايا البائية ويؤدي إلى استنفادها، وهذا أساس فعاليته في التصلب المتعدد.
 
 ولا تدعم البيانات الحالية وجود صلة آلية بين استنفاد الخلايا البائية وسرطان الثدي الإيجابي لـ HER2، إذ لا يُعد CD20 هدفاً علاجياً راسخاً في هذا المرض. الدرجة العالية (0.9989) نتيجة نموذج حاسوبي فقط، ولم تُؤكَّد بتجارب أو دراسات.
 
@@ -128,12 +128,13 @@ predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «حالة هذا الترخيص: **ملغى**» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح وضع الترخيص الملغى والتحقق من توفر المنتج في السوق السعودي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d) |
 
 <!-- review:end log -->
 

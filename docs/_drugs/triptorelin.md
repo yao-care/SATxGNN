@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 844
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "TRIPTORELIN"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 description: "Triptorelin: الاستطباب الجديد المتوقع فرط الشعر (hypertrichosis (disease)) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
@@ -54,7 +54,7 @@ description: "Triptorelin: الاستطباب الجديد المتوقع فرط
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن تريبتورلين ناهض لمستقبلات GnRH، ويؤدي استخدامه المستمر إلى خفض الأندروجينات الصادرة من الغدد التناسلية. لذلك يمكن نظرياً أن يؤثر في نمو الشعر المعتمد على الأندروجينات.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Triptorelin (ترجمة غير رسمية): «تريبتوريلين نظير ناهض اصطناعي عشاري الببتيد للهرمون المطلق لموجهة الغدد التناسلية (GnRH). أظهرت دراسات مقارنة في المختبر أن تريبتوريلين كان أنشط بمقدار 100 ضعف من GnRH الطبيعي في تحفيز إطلاق الهرمون الملوتن من طبقات أحادية من خلايا نخامية مفرّقة من الجرذان في المزرعة، وأنشط بمقدار 20 ضعفاً من GnRH الطبيعي في إزاحة 125 I-GnRH من مواقع المستقبلات النخامية.» النص الأصلي بالإنجليزية: "Triptorelin is a synthetic decapeptide agonist analog of gonadotropin releasing hormone (GnRH). Comparative in vitro studies showed that triptorelin was 100-fold more active than native GnRH in stimulating luteinizing hormone release from monolayers of dispersed rat pituitary cells in culture and 20-fold more active than native GnRH in displacing 125 I-GnRH from pituitary receptor sites." ([DailyMed: Trelstar (triptorelin pamoate) prescribing information, Verity Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b84d62-a369-a4b7-5c41-dd1f553a18f3)، إصدار 2026-06-30؛ تاريخ الاطلاع 2026-11-20). المعروف أن تريبتورلين ناهض لمستقبلات GnRH، ويؤدي استخدامه المستمر إلى خفض الأندروجينات الصادرة من الغدد التناسلية. لذلك يمكن نظرياً أن يؤثر في نمو الشعر المعتمد على الأندروجينات.
 
 لكن فرط الشعر في الغالب لا يعتمد على الأندروجينات، فالرابط الآلي هنا ضعيف. والدرجة المرتفعة التي أعطاها النموذج لا تسندها أدلة سريرية.
 
@@ -106,6 +106,18 @@ description: "Triptorelin: الاستطباب الجديد المتوقع فرط
 - دراسات سريرية أو سلاسل حالات تتناول تريبتورلين في أنماط فرط الشعر المعتمدة على الأندروجينات.
 - الحصول على نص الاستطباب المعتمد وتحذيرات النشرة الدوائية ومحاذيرها من هيئة الغذاء والدواء السعودية.
 - تحديد النمط السريري لفرط الشعر المستهدف، وهل هو معتمد على الهرمونات أم لا.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Trelstar (triptorelin pamoate) prescribing information, Verity Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b84d62-a369-a4b7-5c41-dd1f553a18f3) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

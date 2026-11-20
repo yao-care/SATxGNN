@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Clindamycin: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب، العدوى العقدية والعنقودية، العدوى بالبكتيريا اللاهوائية، ا…"
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
@@ -59,7 +59,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-آلية العمل التفصيلية لكليندامايسين غير متوفرة حالياً في البيانات المجمعة. بحسب المعروف عموماً، هو مضاد حيوي من فئة اللينكوزاميدات يثبّط تخليق البروتين في البكتيريا، وهو فعّال ضد البكتيريا إيجابية الغرام واللاهوائية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Clindamycin (ترجمة غير رسمية): «يثبط كليندامايسين تخليق البروتين الجرثومي بالارتباط بالـ 23S RNA في الوحيدة الفرعية 50S من الريبوسوم. كليندامايسين كابح للجراثيم.» النص الأصلي بالإنجليزية: "Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome. Clindamycin is bacteriostatic." ([DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a)، إصدار 2026-09-16؛ تاريخ الاطلاع 2026-11-20). بحسب المعروف عموماً، هو مضاد حيوي من فئة اللينكوزاميدات يثبّط تخليق البروتين في البكتيريا، وهو فعّال ضد البكتيريا إيجابية الغرام واللاهوائية.
 
 التهاب القرنية والملتحمة النقطي الظهاري غالباً ما يكون فيروسي المنشأ أو غير معدٍ أو ناتجاً عن سمية، لذلك فإن الرابط الآلي مع مضاد حيوي غير واضح. ولم يُعثر على أي دليل يدعم هذه العلاقة. والدرجة العالية جداً (0.9997) هي تنبؤ قائم على الرسم المعرفي فقط، وقد تكون ناتجة عن تشابه في أسماء الأمراض أو في العلاقات بين العقد، لا عن أساس دوائي.
 
@@ -134,6 +134,19 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 - التحقق مما إذا كان التهاب القرنية النقطي في حالات محددة ذا منشأ بكتيري يستدعي العلاج.
 - النظر في الاستطباب المتوقع الثاني (التهاب القرنية الانكشافي) كأولوية بديلة لأن له أدلة غير مباشرة أقوى (L4)، مع الحاجة إلى دراسات مباشرة عن كليندامايسين الموضعي في العين.
 - التحقق من إمكانية توفر تركيبة مناسبة للاستعمال العيني، إذ لا يوجد حالياً شكل عيني ضمن التراخيص المسجلة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

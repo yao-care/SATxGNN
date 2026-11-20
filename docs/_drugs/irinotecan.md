@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Irinotecan: الاستطباب الجديد المتوقع سرطان الثدي لدى الإناث (مستوى الدليل L5). الاستطباب الأصلي: النقائل الناتجة عن الأورام الخبيثة في القولون؛ الورم الغدي السرطاني ف…"
 monitor_inn: "IRINOTECAN"
 predicted_indications: ["female breast carcinoma"]
@@ -60,7 +60,7 @@ predicted_indications: ["female breast carcinoma"]
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-تتوفر حالياً بيانات تفصيلية عن آلية العمل الأصلية غير متاحة في البيانات المجمّعة لهذا التقرير. ومع ذلك، فإن إيرينوتيكان معروف بأنه طليعة دواء (prodrug) تتحول إلى SN-38، وهو مثبط لإنزيم توبويزوميراز I، فيسبب كسوراً في خيط DNA المفرد وانهيار شوكة التضاعف في الخلايا الورمية المتكاثرة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Irinotecan (ترجمة غير رسمية): «إيرينوتيكان مشتق من الكامبتوثيسين. وتتفاعل الكامبتوثيسينات تحديداً مع إنزيم توبوإيزوميراز I، الذي يخفف الإجهاد الالتوائي في DNA عن طريق إحداث كسور عكوسة أحادية السلسلة. ويرتبط إيرينوتيكان ومستقلبه النشط SN-38 بمعقد توبوإيزوميراز I-DNA ويمنعان إعادة ربط هذه الكسور أحادية السلسلة.» النص الأصلي بالإنجليزية: "Irinotecan is a derivative of camptothecin. Camptothecins interact specifically with the enzyme topoisomerase I, which relieves torsional strain in DNA by inducing reversible single-strand breaks. Irinotecan and its active metabolite SN-38 bind to the topoisomerase I-DNA complex and prevent religation of these single-strand breaks." ([DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056)، إصدار 2026-05-12؛ تاريخ الاطلاع 2026-11-20). ومع ذلك، فإن إيرينوتيكان معروف بأنه طليعة دواء (prodrug) تتحول إلى SN-38، وهو مثبط لإنزيم توبويزوميراز I، فيسبب كسوراً في خيط DNA المفرد وانهيار شوكة التضاعف في الخلايا الورمية المتكاثرة.
 
 هذه الآلية ليست خاصة بنوع ورم معين، ولذلك فمن المعقول نظرياً أن تنطبق على سرطان الثدي. ويأتي دعم غير مباشر من ساسيتوزوماب غوفيتيكان (جسم مضاد مقترن بـ SN-38)، الذي أظهر نشاطاً سريرياً في سرطان الثدي النقيلي الإيجابي المستقبلات الهرمونية/السلبي HER2 والثلاثي السلبي (دراسة TROPiCS-02 من المرحلة الثالثة).
 
@@ -167,11 +167,12 @@ predicted_indications: ["female breast carcinoma"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «تحديد جدوى التسجيل أو التوريد في ظل إلغاء جميع التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056) |
 
 <!-- review:end log -->
 

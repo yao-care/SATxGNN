@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "ISOTRETINOIN"
 predicted_indications: ["malignant hypertensive renal disease"]
 description: "Isotretinoin: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 11 (السارية: 11)"
@@ -59,7 +59,7 @@ description: "Isotretinoin: الاستطباب الجديد المتوقع Malig
 
 ## لماذا يُعدّ هذا التوقع معقولاً (أو غير معقول)؟
 
-بيانات آلية العمل الأصلية للدواء غير متوفرة حالياً. إيزوتريتينوين ريتينويد معروف باستخدامه في حب الشباب الشديد، ولذلك فإن تسجيل ارتفاع ضغط الدم كمؤشر أصلي يتعارض مع الاستخدام المعروف، وقد يكون ناتجاً عن خطأ في ربط البيانات.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Isotretinoin (ترجمة غير رسمية): «آلية التأثير الدقيقة لـ Zenatane في علاج العد العقدي الشديد المعنِّد لدى المرضى غير الحوامل الذين تبلغ أعمارهم 12 عاماً فأكثر والمصابين بعقيدات التهابية متعددة يبلغ قطرها 5 mm أو أكثر ولا يستجيبون للعلاج التقليدي، بما في ذلك المضادات الحيوية الجهازية، غير معروفة. ويثبط إيزوتريتينوين، وهو أحد الريتينويدات، وظيفة الغدد الدهنية والتقرن.» النص الأصلي بالإنجليزية: "The exact mechanism of action of Zenatane in the treatment of severe recalcitrant nodular acne in nonpregnant patients 12 years of age and older with multiple inflammatory nodules with a diameter of 5 mm or greater who are unresponsive to conventional therapy, including systemic antibiotics is unknown. Isotretinoin, a retinoid, inhibits sebaceous gland function and keratinization." ([DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee)، إصدار 2026-09-20؛ تاريخ الاطلاع 2026-11-20). إيزوتريتينوين ريتينويد معروف باستخدامه في حب الشباب الشديد، ولذلك فإن تسجيل ارتفاع ضغط الدم كمؤشر أصلي يتعارض مع الاستخدام المعروف، وقد يكون ناتجاً عن خطأ في ربط البيانات.
 
 توجد دراسات تجريبية على الريتينويدات في الإصابة الكلوية، مثل تأثيرات مضادة للالتهاب ومضادة للتكاثر على الخلايا الكبيبية والمسراقية، لكن ذلك افتراضي ولا تدعمه أي أدلة سريرية في البيانات الحالية.
 
@@ -124,6 +124,19 @@ description: "Isotretinoin: الاستطباب الجديد المتوقع Malig
 - تنزيل النشرة الدوائية من موقع هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال (فجوة حرجة تمنع الانتقال إلى مرحلة فحص السلامة).
 - إجراء مراجعة منهجية للأدبيات حول الريتينويدات في الإصابة الكلوية وارتفاع الضغط.
 - تقييم متطلبات برنامج منع الحمل وإدارة مخاطر التشوهات إذا أُعيد النظر في الدواء.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

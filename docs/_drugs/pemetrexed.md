@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 641
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: الاستطباب الجديد المتوقع Pleural adenomatoid tumor (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 8 (السارية: 8)"
@@ -60,7 +60,7 @@ description: "Pemetrexed: الاستطباب الجديد المتوقع Pleural
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-تفاصيل آلية العمل غير متاحة حالياً في البيانات المجمعة لهذا التقرير. وبحسب المعلومات المعروفة، يثبّط بيميتريكسيد عدة إنزيمات تعتمد على الفولات، منها thymidylate synthase وDHFR وGARFT، فيعطّل تخليق النيوكليوتيدات اللازمة لانقسام الخلايا السرطانية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Pemetrexed (ترجمة غير رسمية): «البيميتريكسيد مثبّط استقلابي مماثل للفولات يعطّل العمليات الاستقلابية المعتمدة على الفولات الضرورية لتضاعف الخلايا. وتُظهر الدراسات في المختبر أن البيميتريكسيد يثبّط سينثاز الثيميديلات (TS)، واختزال ثنائي هيدرو الفولات (DHFR)، وفورميل ترانسفيراز ريبونوكليوتيد الغليسيناميد (GARFT)، وهي إنزيمات معتمدة على الفولات تشارك في التخليق الحيوي من جديد لنوكليوتيدات الثيميدين والبيورين.» النص الأصلي بالإنجليزية: "Pemetrexed is a folate analog metabolic inhibitor that disrupts folate-dependent metabolic processes essential for cell replication. In vitro studies show that pemetrexed inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), which are folate-dependent enzymes involved in the de novo biosynthesis of thymidine and purine nucleotides." ([DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0)، إصدار 2026-06-18؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، يثبّط بيميتريكسيد عدة إنزيمات تعتمد على الفولات، منها thymidylate synthase وDHFR وGARFT، فيعطّل تخليق النيوكليوتيدات اللازمة لانقسام الخلايا السرطانية.
 
 يشترك ورم المتوسطة الصفاقي مع الجنبي في البنية النسيجية والبيولوجيا العامة. وبيميتريكسيد مع البلاتين هو العلاج القياسي الراسخ للشكل الجنبي، وقد أظهرت تجربة من المرحلة الثالثة (Vogelzang 2003) تحسناً في البقاء مقارنة بالسيسبلاتين وحده. لذلك فإن تعميم العلاج على الموقع الصفاقي معقول بيولوجياً.
 
@@ -160,11 +160,12 @@ description: "Pemetrexed: الاستطباب الجديد المتوقع Pleural
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «تقييم الوضع التنظيمي للمنتجات الملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 43
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "ALPROSTADIL"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
 description: "Alprostadil: الاستطباب الجديد المتوقع تشوه الأبهر (aortic malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -56,7 +56,7 @@ description: "Alprostadil: الاستطباب الجديد المتوقع تشو
 
 ## لماذا يُعد هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. وبحسب المعروف، فإن ألبروستاديل (PGE1) يرخي العضلات الملساء في القناة الشريانية فيحافظ على انفتاحها، ويزيد بذلك تدفق الدم الرئوي أو الجهازي في الآفات القلبية الخلقية المعتمدة على القناة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Alprostadil (ترجمة غير رسمية): «ألبروستاديل (PGE1) هو بروستاغلاندين ذو مجموعة واسعة من التأثيرات الدوائية تشمل توسيع الأوعية الدموية وتثبيط تراص الصفائح الدموية. يُحدث ألبروستاديل الانتصاب عن طريق إرخاء العضلات الملساء التربيقية وتوسيع الشرايين الكهفية، وذلك بالارتباط بمستقبلاته وزيادة مستويات أحادي فوسفات الأدينوزين الحلقي (cAMP) داخل الخلايا عبر تعديل نشاط إنزيم الأدينيلات سيكلاز.» النص الأصلي بالإنجليزية: "Alprostadil (PGE1) is a prostaglandin with a wide variety of pharmacological actions including vasodilation and inhibition of platelet aggregation. Alprostadil induces erection by relaxation of trabecular smooth muscle and by dilation of cavernosal arteries by binding to its receptors and increasing intracellular cyclic adenosine monophosphate (cAMP) levels via modulation of adenylate cyclase." ([DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98)، إصدار 2024-05-13؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإن ألبروستاديل (PGE1) يرخي العضلات الملساء في القناة الشريانية فيحافظ على انفتاحها، ويزيد بذلك تدفق الدم الرئوي أو الجهازي في الآفات القلبية الخلقية المعتمدة على القناة.
 
 يمتد هذا المنطق إلى تشوهات الأبهر، مثل تضيق الأبهر والقوس الأبهري المنقطع، حيث تُستخدم القناة الشريانية المفتوحة جسراً علاجياً قبل الجراحة. ولذلك يبدو التوقع امتداداً لفئة استطبابية قائمة أكثر منه استخداماً جديداً كلياً. وتُذكر أيضاً تأثيرات مضادة للالتهاب وحامية للأعضاء حول عمليات المجازة القلبية الرئوية، لكنها ثانوية أمام آلية القناة الشريانية.
 
@@ -129,12 +129,13 @@ description: "Alprostadil: الاستطباب الجديد المتوقع تشو
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-12 | الجدول: CAVERJECT 20MCG VIAL مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 | 2026-11-12 | الجدول: VITAROS 3MG/GM CREAM مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98) |
 
 <!-- review:end log -->
 

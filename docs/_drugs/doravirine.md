@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 276
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Doravirine: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى فيروس نقص المناعة البشرية (HIV)، الإيدز (حسب الرسم المعرفي لـ Tx…"
 monitor_inn: "DORAVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -59,7 +59,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## لماذا يبدو هذا التنبؤ معقولًا (أو غير معقول)؟
 
-تتوفر حاليًا بيانات تفصيلية عن آلية العمل غير متاحة. بحسب المعلومات المعروفة، دوravirين مثبط نسخ عكسي غير نيوكليوسيدي يعمل ضد إنزيم النسخ العكسي لفيروس HIV-1، وقد ثبتت فعاليته في الاستطباب الأصلي.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Doravirine (ترجمة غير رسمية): «دورافيرين دواء مضاد للفيروسات القهقرية. […] دورافيرين مثبط غير نوكليوزيدي من فئة البيريدينون لإنزيم المنتسخة العكسية لفيروس HIV-1، ويثبط تضاعف HIV-1 بالتثبيط غير التنافسي للمنتسخة العكسية (RT) لفيروس HIV-1. وبلغ التركيز المثبط بنسبة 50% ‏(IC 50) لدورافيرين لبلمرة DNA المعتمدة على RNA بواسطة RT المأشوب من النمط البري لفيروس HIV-1 في اختبار كيميائي حيوي 12.2±2.0 nM ‏(n=3).» النص الأصلي بالإنجليزية: "Doravirine is an antiretroviral drug. […] Doravirine is a pyridinone non-nucleoside reverse transcriptase inhibitor of HIV-1 and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). The inhibitory concentration at 50% (IC 50 ) of doravirine for RNA-dependent DNA polymerization of recombinant wild-type HIV-1 RT in a biochemical assay was 12.2±2.0 nM (n=3)." ([DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25)، إصدار 2026-07-09؛ تاريخ الاطلاع 2026-11-20). بحسب المعلومات المعروفة، دوravirين مثبط نسخ عكسي غير نيوكليوسيدي يعمل ضد إنزيم النسخ العكسي لفيروس HIV-1، وقد ثبتت فعاليته في الاستطباب الأصلي.
 
 فيروس SIV فيروس بطيء (lentivirus) قريب من HIV، ولهذا ترتفع درجة التنبؤ. غير أن إنزيم النسخ العكسي لدى SIV (وكذلك HIV-2) مقاوم بطبيعته لمعظم مثبطات NNRTI بسبب اختلافات في تسلسل جيب الارتباط. لذلك فالعلاقة غير مباشرة، ويرجح أن الدرجة العالية تعكس تشابه فئة الهدف المضاد للفيروسات والتشابه مع الاستطباب الأصلي، لا دليلًا مستقلًا. ويلزم التأكد منها مخبريًا، مثلًا باستخدام تراكيب RT-SHIV الهجينة. كما أن هذا الاستطباب نموذج حيواني في الرئيسيات غير البشرية وأهميته السريرية المباشرة محدودة.
 
@@ -133,12 +133,13 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «والترخيص المحلي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح وضع الترخيص المحلي (ملغى) وإمكانية توفر الدواء في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25) |
 
 <!-- review:end log -->
 

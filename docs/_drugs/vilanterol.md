@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Vilanterol: الاستطباب الجديد المتوقع الرئة شديدة الشفافية (hyperlucent lung) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجَّل في البيانات المحلية (لا يوجد نص استطباب معتمد في التراخيص…"
 ---
 
@@ -54,7 +54,7 @@ description: "Vilanterol: الاستطباب الجديد المتوقع الر�
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف، فإن فيلانتيرول ناهض بيتا-2 طويل المفعول يُحدث توسعاً قصبياً عبر الاستنشاق، ويدخل في منتجات مركّبة مع كورتيكوستيرويد استنشاقي أو مضاد مسكاريني.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ fluticasone furoate and vilanterol (مستحضر مركب يحتوي على Vilanterol) (ترجمة غير رسمية): «تُعزى التأثيرات الدوائية للأدوية الناهضة لمستقبلات بيتا 2 الأدرينالية، بما فيها فيلانتيرول، جزئياً على الأقل إلى تحفيز إنزيم الأدينيل سيكلاز داخل الخلية، وهو الإنزيم الذي يحفّز تحويل أدينوسين ثلاثي الفوسفات (ATP) إلى أدينوسين أحادي الفوسفات الحلقي-3′,5′ (AMP الحلقي).» النص الأصلي بالإنجليزية: "The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP)." ([DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5)، إصدار 2024-11-21؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإن فيلانتيرول ناهض بيتا-2 طويل المفعول يُحدث توسعاً قصبياً عبر الاستنشاق، ويدخل في منتجات مركّبة مع كورتيكوستيرويد استنشاقي أو مضاد مسكاريني.
 
 الرئة شديدة الشفافية هي موجة شعاعية (في تصوير الصدر) لها أسباب متعددة وغير متجانسة، ولذلك لا توجد صلة آلية واحدة محددة بينها وبين تنبيه مستقبلات بيتا-2. وقد يكون جزء من الإشارة مرتبطاً بأمراض انسدادية مصاحبة كالنفاخ الرئوي، إلا أن ذلك استنتاج غير مؤكد. الدرجة المرتفعة تعكس تنبؤاً من النموذج فقط، وليست دليلاً سريرياً.
 
@@ -99,6 +99,19 @@ description: "Vilanterol: الاستطباب الجديد المتوقع الر�
 - دراسات سريرية أو رصدية تتناول هذا المرض مباشرة.
 - الحصول على النشرة الدوائية من هيئة الغذاء والدواء السعودية لاستكمال بيانات التحذيرات وموانع الاستعمال.
 - نصوص الاستطباب المعتمدة في التراخيص المحلية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Nilotinib: الاستطباب الجديد المتوقع الورم الليفي الساركومي الجلدي الناتئ (DFSP) (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم النقوي المزمن الإيجابي لـ BCR-ABL1"
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
@@ -58,7 +58,7 @@ predicted_indications: ["dermatofibrosarcoma protuberans"]
 
 ## لماذا يُعدّ هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبناءً على المعلومات المعروفة، فإن نيلوتينيب مثبّط متعدد الأهداف للتيروزين كيناز، فعاليته في ابيضاض الدم النقوي المزمن مثبتة، ويثبّط إضافةً إلى BCR-ABL1 كلًّا من PDGFR وKIT وDDR1.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Nilotinib (ترجمة غير رسمية): «النيلوتينيب مثبّط لكيناز BCR-ABL. يرتبط النيلوتينيب بالتشكّل غير النشط لنطاق الكيناز في بروتين ABL ويثبّته. وفي المختبر، ثبّط النيلوتينيب التكاثر المتواسط بـ BCR-ABL في سلالات الخلايا اللوكيميائية الفأرية وفي سلالات الخلايا البشرية المشتقة من مرضى مصابين بابيضاض الدم النقوي المزمن Ph+ (Ph+ CML).» النص الأصلي بالإنجليزية: "Nilotinib is an inhibitor of the BCR-ABL kinase. Nilotinib binds to and stabilizes the inactive conformation of the kinase domain of ABL protein. In vitro, nilotinib inhibited BCR-ABL mediated proliferation of murine leukemic cell lines and human cell lines derived from patients with Ph+ CML." ([DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc)، إصدار 2026-07-20؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، فإن نيلوتينيب مثبّط متعدد الأهداف للتيروزين كيناز، فعاليته في ابيضاض الدم النقوي المزمن مثبتة، ويثبّط إضافةً إلى BCR-ABL1 كلًّا من PDGFR وKIT وDDR1.
 
 يرتبط الورم الليفي الساركومي الجلدي الناتئ بدمج جيني (COL1A1-PDGFB) يسبب تنشيطًا ذاتيًا مستمرًا للمستقبل PDGFRB. ولذلك فإن حجب مسار PDGFR بواسطة نيلوتينيب له مبرر آلي معقول، وهو ما ينسجم مع الدرجة المرتفعة للنموذج (0.9931) ومع السابقة السريرية لدواء إيماتينيب، وهو مثبّط مرتبط يستهدف PDGFR/ABL/KIT ومعتمد لحالات DFSP غير القابلة للاستئصال أو النقيلية.
 
@@ -152,12 +152,13 @@ predicted_indications: ["dermatofibrosarcoma protuberans"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن جميع تراخيص المنتج في المملكة ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «(سبب إلغاء التراخيص وإمكانية إعادة التسجيل)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc) |
 
 <!-- review:end log -->
 

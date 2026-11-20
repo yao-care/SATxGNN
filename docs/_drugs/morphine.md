@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 570
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: الاستطباب الجديد المتوقع متلازمة الألم اللفافي العضلي (myofascial pain syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 9 (السارية: 9)"
@@ -54,7 +54,7 @@ description: "Morphine: الاستطباب الجديد المتوقع متلا�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-تتوفر في البيانات المجمّعة لهذا التقرير معلومات عن آلية عمل المورفين من جهة الارتباط بالمستقبلات: فهو يرتبط بمستقبلات الأفيون ميو (OPRM1) ودلتا (OPRD1) وكابا (OPRK1). وهذه الآلية هي أساس تأثيره المسكّن، ما يعطي صلة نظرية بحالات الألم العضلي الهيكلي المزمن. أما بيانات آلية العمل التفصيلية فغير متاحة حالياً.
+تتوفر في البيانات المجمّعة لهذا التقرير معلومات عن آلية عمل المورفين من جهة الارتباط بالمستقبلات: فهو يرتبط بمستقبلات الأفيون ميو (OPRM1) ودلتا (OPRD1) وكابا (OPRK1). وهذه الآلية هي أساس تأثيره المسكّن، ما يعطي صلة نظرية بحالات الألم العضلي الهيكلي المزمن. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Morphine (ترجمة غير رسمية): «المورفين ناهض أفيوني كامل وانتقائي نسبيًا لمستقبل ميو الأفيوني، على الرغم من أنه قد يرتبط بمستقبلات أفيونية أخرى عند الجرعات الأعلى. التأثير العلاجي الرئيسي للمورفين هو التسكين. وكما هو الحال مع جميع الناهضات الأفيونية الكاملة، لا يوجد تأثير سقفي للتسكين مع المورفين.» النص الأصلي بالإنجليزية: "Morphine is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of morphine is analgesia. Like all full opioid agonists, there is no ceiling effect for analgesia with morphine." ([DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698)، إصدار 2026-08-14؛ تاريخ الاطلاع 2026-11-20).
 
 غير أن هذه الصلة نظرية فقط. فالدراسات المسترجعة غير مباشرة: برنامج تمارين إطالة، واستخدام الأفيونات في اضطراب المفصل الصدغي الفكي، وحصار العصب الفرجي بعد حقن البوتولينوم، ودراسة عشوائية عن التسلل اللفافي العضلي أثناء جراحة تثبيت العمود الفقري يدخل فيها المورفين كمادة مساعدة لعلاج ألم ما بعد الجراحة، لا لعلاج متلازمة الألم اللفافي العضلي نفسها. كما أن الاستخدام الطويل للأفيونات في هذه الحالة غير مشجَّع عموماً.
 
@@ -107,6 +107,18 @@ description: "Morphine: الاستطباب الجديد المتوقع متلا�
 - بيانات آلية العمل التفصيلية.
 - الحصول على تحذيرات وموانع نشرة العبوة المعتمدة.
 - خطة لإدارة مخاطر الاعتماد وتثبيط التنفس.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

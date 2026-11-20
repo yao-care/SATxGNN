@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 489
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "LENVATINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib: الاستطباب الجديد المتوقع الساركوما الشحمية (liposarcoma) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -54,7 +54,7 @@ description: "Lenvatinib: الاستطباب الجديد المتوقع الس�
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر في البيانات المجمعة لهذا التقرير معلومات تفصيلية عن آلية العمل. ومع ذلك، فإن لينفاتينيب معروف بأنه مثبط كيناز متعدد الأهداف يستهدف مستقبلات VEGFR1-3 وFGFR1-4 وPDGFRα وRET وKIT، مما يحدّ من تكوّن الأوعية الدموية الورمية ومن الإشارات المعتمدة على FGFR/PDGFR في الساركوما.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lenvatinib (ترجمة غير رسمية): «لينفاتينيب مثبط للكيناز يثبط أنشطة الكيناز لمستقبلات عامل نمو بطانة الأوعية الدموية (VEGF)، وهي VEGFR1 (FLT1) وVEGFR2 (KDR) وVEGFR3 (FLT4). ويثبط لينفاتينيب كينازات أخرى ثبت تورطها في تكوّن الأوعية الدموية المرضي ونمو الورم وتطور السرطان، إضافة إلى وظائفها الخلوية الطبيعية، بما في ذلك مستقبلات عامل نمو الأرومات الليفية (FGF)، وهي FGFR1 و2 و3 و4؛ ومستقبل عامل النمو المشتق من الصفائح الدموية ألفا (PDGFRA)، وKIT، وRET.» النص الأصلي بالإنجليزية: "Lenvatinib is a kinase inhibitor that inhibits the kinase activities of vascular endothelial growth factor (VEGF) receptors VEGFR1 (FLT1), VEGFR2 (KDR), and VEGFR3 (FLT4). Lenvatinib inhibits other kinases that have been implicated in pathogenic angiogenesis, tumor growth, and cancer progression in addition to their normal cellular functions, including fibroblast growth factor (FGF) receptors FGFR1, 2, 3, and 4; platelet derived growth factor receptor alpha (PDGFRA), KIT, and RET." ([DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e)، إصدار 2026-10-14؛ تاريخ الاطلاع 2026-11-20). ومع ذلك، فإن لينفاتينيب معروف بأنه مثبط كيناز متعدد الأهداف يستهدف مستقبلات VEGFR1-3 وFGFR1-4 وPDGFRα وRET وKIT، مما يحدّ من تكوّن الأوعية الدموية الورمية ومن الإشارات المعتمدة على FGFR/PDGFR في الساركوما.
 
 أما إريبولين فيضيف تأثيراً سامّاً للخلايا عبر استهداف الأنابيب الدقيقة، وتشير بيانات ما قبل السريرية إلى نشاط واسع الطيف لتركيباته مع عوامل أخرى مضادة للأورام. كما أن تضخم CDK4 سمة مميزة للساركوما الشحمية المتمايزة جيداً وغير المتمايزة، وتقترح دراسة المؤشر الحيوي المتعلقة بـCDK4 أساساً إضافياً للعلاج المركّب.
 
@@ -117,6 +117,18 @@ description: "Lenvatinib: الاستطباب الجديد المتوقع الس�
 - بيانات تفصيلية عن آلية العمل.
 - تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة لدى هيئة الغذاء والدواء السعودية.
 - خطة لمراقبة السلامة، خاصة عند الجمع مع إريبولين ومع الأدوية ذات التداخلات الكبرى.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

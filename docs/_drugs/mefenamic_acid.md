@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 535
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: الاستطباب الجديد المتوقع اضطراب الصداع (headache disorder) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 14 (السارية: 14)"
@@ -54,7 +54,7 @@ description: "Mefenamic Acid: الاستطباب الجديد المتوقع ا�
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. ومع ذلك، فإن ميفيناميك أسيد من مضادات الالتهاب اللاستيرويدية المعروفة بتثبيط تخليق البروستاغلاندين وتأثيراتها، وهي آلية ذات صلة بالصداع، ولا سيما الصداع المرتبط بالدورة الشهرية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Mefenamic Acid (ترجمة غير رسمية): «يتمتع حمض الميفيناميك بخصائص مسكنة ومضادة للالتهاب وخافضة للحرارة. آلية عمل حمض الميفيناميك، مثل آلية عمل مضادات الالتهاب غير الستيرويدية الأخرى، غير مفهومة تمامًا ولكنها تتضمن تثبيط إنزيمات الأكسدة الحلقية (COX-1 وCOX-2).» النص الأصلي بالإنجليزية: "Mefenamic acid has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of mefenamic acid, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f)، إصدار 2026-04-20؛ تاريخ الاطلاع 2026-11-20). ومع ذلك، فإن ميفيناميك أسيد من مضادات الالتهاب اللاستيرويدية المعروفة بتثبيط تخليق البروستاغلاندين وتأثيراتها، وهي آلية ذات صلة بالصداع، ولا سيما الصداع المرتبط بالدورة الشهرية.
 
 تشير الدراسات المتاحة إلى أن العلاقة الأوضح هي مع الشقيقة، وهي أحد أنواع اضطرابات الصداع. فقد قارنت تجربة مزدوجة التعمية الدواء بالباراسيتامول، وأخرى مضبوطة بالدواء الوهمي في الوقاية من الشقيقة، وثالثة في الشقيقة الطمثية. وهذه الدراسات صغيرة وقديمة، ولا يوجد برنامج مرحلة ثالثة مسجل.
 
@@ -108,6 +108,18 @@ description: "Mefenamic Acid: الاستطباب الجديد المتوقع ا�
 - الحصول على تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة.
 - بيانات عن آلية العمل.
 - تجربة سريرية حديثة أكبر حجماً.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

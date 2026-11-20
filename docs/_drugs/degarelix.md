@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Degarelix: الاستطباب الجديد المتوقع فرط الشعر (Hypertrichosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (تشير الأدلة الميكانيكية إلى استخدامه لد…"
 monitor_inn: "DEGARELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "allergic urticaria", "cold urticaria", "familial male-limited precocious puberty", "centra precocious puberty 1", "familial isolated trichomegaly"]
@@ -58,7 +58,7 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 ## لماذا يبدو هذا التنبؤ معقولًا (أو غير معقول)؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا. استنادًا إلى المعلومات المعروفة، ديغاريليكس مضاد لمستقبل GnRH، يثبّط إفراز الهرمون الملوتن (LH) والهرمون المنبّه للجريب (FSH)، وبالتالي يخفض التستوستيرون والأندروجينات اللاحقة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Degarelix (ترجمة غير رسمية): «ديغاريليكس مضاد لمستقبِلات GnRH. يرتبط بصورة عكوسة بمستقبِلات GnRH النخامية، مما يقلل إطلاق موجِّهات الغدد التناسلية، وبالتالي التستوستيرون.» النص الأصلي بالإنجليزية: "Degarelix is a GnRH receptor antagonist. It binds reversibly to the pituitary GnRH receptors, thereby reducing the release of gonadotropins and consequently testosterone." ([DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b)، إصدار 2024-01-30؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعلومات المعروفة، ديغاريليكس مضاد لمستقبل GnRH، يثبّط إفراز الهرمون الملوتن (LH) والهرمون المنبّه للجريب (FSH)، وبالتالي يخفض التستوستيرون والأندروجينات اللاحقة.
 
 أما فرط الشعر فهو في العموم **غير معتمد على الأندروجين** (بخلاف الشعرانية Hirsutism)، لذلك فالرابط الآلي ضعيف. الدرجة المرتفعة صادرة عن نموذج TxGNN (التعلم العميق) وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مرتبطة، وليست دليلاً بيولوجياً.
 
@@ -133,6 +133,19 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 - تأكيد الاستطباب الأصلي المعتمد وحالة الترخيص (ترخيصان ساريان من أصل ترخيصين).
 - إجراء مراجعة منهجية للأدبيات حول البلوغ المبكر المركزي، مع تقييم بيانات السلامة لدى الأطفال.
 - وضع خطة لمراقبة QT والإلكتروليتات ووظائف الكبد قبل أي دراسة مستقبلية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

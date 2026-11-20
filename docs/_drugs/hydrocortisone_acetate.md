@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 416
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "HYDROCORTISONE ACETATE"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
 description: "Hydrocortisone Acetate: الاستطباب الجديد المتوقع الثعلبة البقعية (alopecia areata) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
@@ -54,7 +54,7 @@ description: "Hydrocortisone Acetate: الاستطباب الجديد المتو
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف، ينتمي الهيدروكورتيزون إلى الكورتيكوستيرويدات ذات الفعالية المضادة للالتهاب وكبت المناعة، وقد ثبتت فائدته في أمراض مناعية ذاتية، ومن الناحية الآلية قد ينطبق على الثعلبة البقعية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Hydrocortisone Acetate (ترجمة غير رسمية): «الهيدروكورتيزون هو جلوكوكورتيكويد. وتُحدث الجلوكوكورتيكويدات، وهي ستيرويدات قشرة الكظر، تأثيرات استقلابية متنوعة. وبالإضافة إلى ذلك، فإنها تعدّل الاستجابات المناعية للجسم تجاه منبّهات متنوعة..» النص الأصلي بالإنجليزية: "Hydrocortisone is a glucocorticoid. Glucocorticoids, adrenocortical steroids, cause varied metabolic effects. In addition, they modify the body's immune responses to diverse stimuli.." ([DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682)، إصدار 2026-04-21؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، ينتمي الهيدروكورتيزون إلى الكورتيكوستيرويدات ذات الفعالية المضادة للالتهاب وكبت المناعة، وقد ثبتت فائدته في أمراض مناعية ذاتية، ومن الناحية الآلية قد ينطبق على الثعلبة البقعية.
 
 الثعلبة البقعية مرض مناعة ذاتية تهاجم فيه الخلايا التائية بصيلات الشعر. والكورتيكوستيرويدات الموضعية والحقن داخل الآفة فئة علاجية معروفة لهذه الحالة. غير أن الهيدروكورتيزون 1% منخفض الفعالية، ويُتوقع أن تكون فعاليته أقل من الستيرويدات عالية الفعالية. وفي التجربة المتاحة كان ذراعاً مقارِناً لا ذراع الدراسة.
 
@@ -99,6 +99,18 @@ description: "Hydrocortisone Acetate: الاستطباب الجديد المتو
 - استكمال بيانات آلية العمل.
 - الحصول على تحذيرات وموانع الاستعمال من نشرة العبوة المعتمدة.
 - تحديد الشكل الدوائي والتركيز والطريق الأنسب (موضعي أو حقن داخل الآفة)، ومقارنته بالستيرويدات الأعلى فعالية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

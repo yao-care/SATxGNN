@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 488
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Lenalidomide: الاستطباب الجديد المتوقع سرطان الدم النقوي (myeloid leukemia) (مستوى الدليل L2). الاستطباب الأصلي: ورم الخلايا البلازمية (الورم النقوي المتعدد)، ليمفوما الخلايا الوشاحي…"
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
@@ -64,7 +64,7 @@ predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood",
 
 سرطان الدم النقوي الحاد ومتلازمات خلل التنسج النقوي اضطرابان نقويان مترابطان، إذ يتحول نحو ثلث حالات MDS إلى سرطان دم نقوي حاد. لذلك يُحتمل أن تنطبق الآليات نفسها، وخصوصاً في الحالات المصحوبة بحذف 5q. غير أن الأدلة في سرطان الدم النقوي الحاد بدون حذف 5q أضعف، ومعظمها من بروتوكولات علاج مركّبة.
 
-ملاحظة: بيانات آلية العمل التفصيلية غير متوفرة في البيانات المجمّعة لهذا التقرير، والوصف أعلاه مبني على المعرفة المنشورة عن الدواء.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lenalidomide (ترجمة غير رسمية): «ليناليدوميد نظير للثاليدوميد ذو خصائص معدِّلة للمناعة ومضادة لتكوّن الأوعية ومضادة للأورام. وتتمّ الأنشطة الخلوية لليناليدوميد بواسطة هدفه سيريبلون، وهو أحد مكوّنات معقّد إنزيم ليغاز اليوبيكويتين E3 ذي حلقة الكولين.» النص الأصلي بالإنجليزية: "Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex." ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be)، إصدار 2023-03-24؛ تاريخ الاطلاع 2026-11-20).
 
 ---
 
@@ -181,13 +181,14 @@ predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood",
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع التراخيص الـ17 مُلغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «(سبب إلغاء التراخيص وإمكانية إعادة التسجيل)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
 
 <!-- review:end log -->
 

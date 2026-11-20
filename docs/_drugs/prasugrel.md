@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 682
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Prasugrel: الاستطباب الجديد المتوقع ارتفاع ضغط الشريان الرئوي (مستوى الدليل L5). الاستطباب الأصلي: متلازمة الشريان التاجي الحادة (من الرسم المعرفي لـ TxGNN، إذ لا يتضمن…"
 monitor_inn: "PRASUGREL"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
@@ -62,7 +62,7 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 
 ## لماذا يُعد هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، براسوغريل مضاد لمستقبل P2Y12 على الصفيحات، وقد ثبتت فاعليته في متلازمة الشريان التاجي الحادة، ومن الناحية الآلية قد ينطبق على ارتفاع ضغط الشريان الرئوي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Prasugrel (ترجمة غير رسمية): «البراسوغريل مثبط لتنشيط الصفائح الدموية وتكدسها من خلال الارتباط غير العكوس لمستقلبه النشط بفئة P2Y 12 من مستقبلات ADP على الصفائح الدموية.» النص الأصلي بالإنجليزية: "Prasugrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e)، إصدار 2022-09-07؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، براسوغريل مضاد لمستقبل P2Y12 على الصفيحات، وقد ثبتت فاعليته في متلازمة الشريان التاجي الحادة، ومن الناحية الآلية قد ينطبق على ارتفاع ضغط الشريان الرئوي.
 
 يسهم تنشيط الصفيحات والتجلط الموضعي في إعادة تشكيل الأوعية الرئوية، لذا فإن التأثير المضاد للصفيحات معقول بيولوجياً. غير أنه لا يوجد دليل مباشر يدعم ذلك، والدرجة العالية في TxGNN مجرد تنبؤ حسابي.
 
@@ -156,12 +156,13 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الدواء بلا تراخيص سارية في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «وبحث وضع التسويق الملغى (إعادة تسجيل أو توفر بديل)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e) |
 
 <!-- review:end log -->
 

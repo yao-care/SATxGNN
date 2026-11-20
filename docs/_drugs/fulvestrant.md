@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 379
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Fulvestrant: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L4). الاستطباب الأصلي: سرطان الثدي الإيجابي لمستقبلات الهرمون (بحسب الاستخدام المعروف للدواء…"
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -58,7 +58,7 @@ predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia"
 
 ## لماذا يُعدّ هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا. استنادًا إلى المعلومات المعروفة، فولفيسترانت محلِّل انتقائي لمستقبل الإستروجين (SERD) أثبت فعاليته في سرطان الثدي الإيجابي لمستقبلات الهرمون، ومن الناحية الآلية قد ينطبق على حالات يلعب فيها مستقبل الإستروجين دورًا.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Fulvestrant (ترجمة غير رسمية): «تحتوي كثير من سرطانات الثدي على مستقبلات الإستروجين (ER)، ويمكن أن يُحفَّز نمو هذه الأورام بواسطة الإستروجين. فولفسترانت مضاد لمستقبلات الإستروجين، يرتبط بمستقبل الإستروجين بطريقة تنافسية وبألفة مماثلة لألفة الإستراديول، ويخفض تنظيم بروتين ER في خلايا سرطان الثدي البشرية.» النص الأصلي بالإنجليزية: "Many breast cancers have estrogen receptors (ER) and the growth of these tumors can be stimulated by estrogen. Fulvestrant is an estrogen receptor antagonist that binds to the estrogen receptor in a competitive manner with affinity comparable to that of estradiol and downregulates the ER protein in human breast cancer cells." ([DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a)، إصدار 2026-10-16؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعلومات المعروفة، فولفيسترانت محلِّل انتقائي لمستقبل الإستروجين (SERD) أثبت فعاليته في سرطان الثدي الإيجابي لمستقبلات الهرمون، ومن الناحية الآلية قد ينطبق على حالات يلعب فيها مستقبل الإستروجين دورًا.
 
 تشير دراسة منشورة عام 2026 (PMID 42430506) إلى أن مستقبل الإستروجين ألفا (ERα) في الخلايا التائية CD4+ قد يؤثر في نسخ فيروس HIV وفي حالة الكمون الفيروسي، وأن عوامل عكس الكمون تتفاعل مع هذا المسار. هذا يمنح فرضية بيولوجية أولية، لكنها **مخبرية وغير مباشرة**.
 
@@ -141,11 +141,12 @@ predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia"
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «والاستطباب الأصلي نفسه غير موثّق في تراخيص السعودية الملغاة، ما يعني عدم وجود منتج مسوّق حاليًا» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
 
 <!-- review:end log -->
 

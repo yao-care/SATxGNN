@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin: الاستطباب الجديد المتوقع ليمفوما الرئة الأولية (primary pulmonary lymphoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
@@ -54,7 +54,7 @@ description: "Epirubicin: الاستطباب الجديد المتوقع ليم�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في المعلومات المجمّعة لهذا التقرير. وبحسب المعروف، فإبيروبيسين أنثراسيكلين يعمل بتثبيط إنزيم توبوإيزوميراز II وبالارتباط بالحمض النووي (DNA)، وقد دخل في برامج علاجية لأورام الغدد اللمفاوية مثل CEOP وVEBEP، ولذلك فنشاطه في الأورام اللمفاوية معقول نظرياً.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Epirubicin (ترجمة غير رسمية): «إبيروبيسين عامل سام للخلايا من فئة الأنثراسيكلينات. وعلى الرغم من أنه من المعروف أن الأنثراسيكلينات يمكن أن تتداخل مع عدد من الوظائف الكيميائية الحيوية والبيولوجية داخل الخلايا حقيقية النواة، فإن الآليات الدقيقة لخصائص إبيروبيسين السامة للخلايا و/أو المضادة للتكاثر لم تُوضَّح بالكامل.» النص الأصلي بالإنجليزية: "Epirubicin is an anthracycline cytotoxic agent. Although it is known that anthracyclines can interfere with a number of biochemical and biological functions within eukaryotic cells, the precise mechanisms of epirubicin's cytotoxic and/or antiproliferative properties have not been completely elucidated." ([DailyMed: Ellence (epirubicin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42)، إصدار 2026-07-24؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإبيروبيسين أنثراسيكلين يعمل بتثبيط إنزيم توبوإيزوميراز II وبالارتباط بالحمض النووي (DNA)، وقد دخل في برامج علاجية لأورام الغدد اللمفاوية مثل CEOP وVEBEP، ولذلك فنشاطه في الأورام اللمفاوية معقول نظرياً.
 
 لكن لا توجد تجارب تخص الموضع الرئوي. وتقتصر المراجع على تقارير حالات وسلسلة استعادية صغيرة ومراجعة عامة عن الدواء. كما أن العلاج المعياري الحالي (R-CHOP وPola-R-CHP) يستخدم دوكسوروبيسين لا إبيروبيسين.
 
@@ -112,6 +112,18 @@ description: "Epirubicin: الاستطباب الجديد المتوقع ليم�
 - بيانات آلية العمل التفصيلية.
 - نص النشرة المعتمدة (التحذيرات والموانع) من هيئة الغذاء والدواء السعودية.
 - تقييم السلامة القلبية ومخاطر تثبيط نقي العظم مقارنة بالعلاجات المعيارية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ellence (epirubicin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 850
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Turoctocog Alfa Pegol: الاستطباب الجديد المتوقع اضطراب إفراز الصفائح الدموية الأولي (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا، والشكل العَرَضي من الهيموفيليا لدى الحاملات من الإناث (ل…"
 monitor_inn: "TUROCTOCOG ALFA PEGOL"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "hereditary thrombocytosis with transverse limb defect", "fetal and neonatal alloimmune thrombocytopenia"]
@@ -58,7 +58,7 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 ## لماذا يُعدّ هذا التوقع محل نظر؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، يعوّض توروكتوكوج ألفا بيجول نقص العامل الثامن في مسار التخثر الداخلي، وقد ثبتت فائدته في الهيموفيليا.
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Turoctocog Alfa Pegol هي (ترجمة غير رسمية): «بروتين خارجي المنشأ لعامل التخثر الثامن». النص الأصلي بالإنجليزية: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، يعوّض توروكتوكوج ألفا بيجول نقص العامل الثامن في مسار التخثر الداخلي، وقد ثبتت فائدته في الهيموفيليا.
 
 أما اضطرابات إفراز الصفائح الأولية فهي عيوب في وظيفة الصفائح الدموية وليست نقصًا في العامل الثامن. لذلك **لا توجد صلة آلية مباشرة** بين الدواء وهذا المرض. وتأتي الدرجة المرتفعة لـ TxGNN (0.99997) من التنبؤ المبني على نموذج TxGNN (التعلم العميق) فقط، دون دعم من أي دليل سريري أو منشور.
 
@@ -129,11 +129,12 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح وضع الترخيص الملغى وإمكانية إعادة التسجيل أو توفر المنتج في السوق السعودي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071) |
 
 <!-- review:end log -->
 

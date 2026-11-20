@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DROPERIDOL"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Droperidol: الاستطباب الجديد المتوقع متلازمة توريت (Tourette syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -58,7 +58,7 @@ description: "Droperidol: الاستطباب الجديد المتوقع متل�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. وبحسب المعروف، فإن درولبيريدول من مجموعة البيوتيروفينون ويتميز بحصر قوي لمستقبلات الدوبامين D2.
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Droperidol هي (ترجمة غير رسمية): «مضاد لمستقبل السيروتونين 2a (5-HT2a)؛ مضاد لمستقبلات الدوبامين الشبيهة بـ D2». النص الأصلي بالإنجليزية: "Serotonin 2a (5-HT2a) receptor antagonist; D2-like dopamine receptor antagonist" ([ChEMBL CHEMBL1108 (droperidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1108)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإن درولبيريدول من مجموعة البيوتيروفينون ويتميز بحصر قوي لمستقبلات الدوبامين D2.
 
 ترتبط الأعراض الحركية والصوتية (التشنجات اللاإرادية) في متلازمة توريت بفرط نشاط المسارات الدوبامينية، وتُستخدم مضادات D2 الأخرى مثل هالوبيريدول وبيموزايد لكبح هذه التشنجات. ومن هذا المنطلق يُعد التنبؤ معقولاً من الناحية الآلية.
 
@@ -104,6 +104,19 @@ description: "Droperidol: الاستطباب الجديد المتوقع متل�
 - بيانات آلية العمل التفصيلية.
 - تحذيرات وموانع استعمال من نشرة العبوة المعتمدة من هيئة الغذاء والدواء.
 - مقارنة مع علاجات مضادة للدوبامين مثبتة في هذه الحالة، وتقييم جدوى استخدام طريق إعطاء مناسب للعلاج المزمن.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL1108 (droperidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1108) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

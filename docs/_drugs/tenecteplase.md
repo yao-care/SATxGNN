@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 797
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "TENECTEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
 description: "Tenecteplase: الاستطباب الجديد المتوقع Congenital coronary artery anomaly (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -60,7 +60,7 @@ description: "Tenecteplase: الاستطباب الجديد المتوقع Conge
 
 ## لماذا يُعدّ هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن تينيكتبلاز منشّط بلازمينوجين نسيجي نوعي للفيبرين يحلّ الجلطات التاجية، وقد ثبتت فعاليته في احتشاء عضلة القلب، ومن الناحية الآلية قد ينطبق على الاحتشاء الخلفي السفلي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tenecteplase (ترجمة غير رسمية): «تينيكتيبلاز شكل معدَّل من منشط البلازمينوجين النسيجي البشري (tPA) يرتبط بالفيبرين ويحوّل البلازمينوجين إلى بلازمين. وفي وجود الفيبرين، تُظهر الدراسات في المختبر أن تحويل البلازمينوجين إلى بلازمين بوساطة تينيكتيبلاز يزداد مقارنةً بتحويله في غياب الفيبرين.» النص الأصلي بالإنجليزية: "Tenecteplase is a modified form of human tissue plasminogen activator (tPA) that binds to fibrin and converts plasminogen to plasmin. In the presence of fibrin, in vitro studies demonstrate that tenecteplase-mediated conversion of plasminogen to plasmin is increased relative to its conversion in the absence of fibrin." ([DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84)، إصدار 2025-12-15؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن تينيكتبلاز منشّط بلازمينوجين نسيجي نوعي للفيبرين يحلّ الجلطات التاجية، وقد ثبتت فعاليته في احتشاء عضلة القلب، ومن الناحية الآلية قد ينطبق على الاحتشاء الخلفي السفلي.
 
 الاحتشاء الخلفي السفلي نوع تشريحي فرعي من احتشاء عضلة القلب، ويشترك معه في الآلية نفسها: انسداد تاجي ناتج عن خثرة. ويرجّح أن الدرجة المرتفعة تعكس قرب هذا المرض من الاستطبابات الأصلية في الأنطولوجيا، وليست دليلًا مستقلًا على فعالية جديدة.
 
@@ -122,11 +122,12 @@ description: "Tenecteplase: الاستطباب الجديد المتوقع Conge
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وترخيص المنتج الوحيد في السعودية ملغى، فلا يوجد منتج ساري لدعم الاستخدام محليًا» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84) |
 
 <!-- review:end log -->
 

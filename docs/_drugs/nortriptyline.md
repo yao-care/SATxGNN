@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 601
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Nortriptyline: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (مستوى الدليل L2). الاستطباب الأصلي: اضطراب القلق، الاضطراب العصابي، اضطراب الكآبة (من الرسم المعرفي لـ Tx…"
 monitor_inn: "NORTRIPTYLINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
@@ -60,7 +60,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل ضمن البيانات المجمعة لهذا التقرير. استنادًا إلى الفارماكولوجيا العامة لهذه الفئة، فإن نورتريبتيلين مضاد اكتئاب ثلاثي الحلقات يثبّط إعادة امتصاص النورإبينفرين، وبدرجة أقل السيروتونين.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Nortriptyline (ترجمة غير رسمية): «آلية رفع المزاج بواسطة مضادات الاكتئاب ثلاثية الحلقات غير معروفة في الوقت الحاضر. Pamelor ليس مثبطًا لأكسيداز أحادي الأمين. وهو يثبط نشاط عوامل متنوعة مثل الهيستامين و5-هيدروكسي تريبتامين والأسيتيل كولين.» النص الأصلي بالإنجليزية: "The mechanism of mood elevation by tricyclic antidepressants is at present unknown. Pamelor is not a monoamine oxidase inhibitor. It inhibits the activity of such diverse agents as histamine, 5-hydroxytryptamine, and acetylcholine." ([DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb)، إصدار 2024-12-04؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى الفارماكولوجيا العامة لهذه الفئة، فإن نورتريبتيلين مضاد اكتئاب ثلاثي الحلقات يثبّط إعادة امتصاص النورإبينفرين، وبدرجة أقل السيروتونين.
 
 يُعد تعزيز النشاط النورأدريناليني في القشرة الجبهية الأمامية الآلية نفسها التي تستهدفها الأدوية غير المنشطة لعلاج ADHD مثل أتوموكسيتين، مما يوفر رابطًا بيولوجيًا معقولًا. وتتسق الدرجة المرتفعة جدًا لـ TxGNN (0.9942) مع ذلك. وتجدر الإشارة إلى أن هذا الربط مبني على الفارماكولوجيا العامة للفئة وليس على سجل آلية العمل الخاص بالدواء.
 
@@ -127,6 +127,19 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 - تقييم نتائج تجربة 2000 العشوائية ومراجعة Cochrane بالتفصيل، من حيث الفعالية مقابل الأمان القلبي.
 - وضع خطة لرصد سلامة القلب (تخطيط القلب والمستويات المصلية)، خاصة للأطفال والمراهقين.
 - النظر في الوضع التنظيمي، إذ إن الدواء مسوَّق وجميع التراخيص الثلاثة سارية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

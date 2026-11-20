@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 884
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Zanamivir: الاستطباب الجديد المتوقع التهاب الحويضة والكلية (Pyelonephritis) (مستوى الدليل L5). الاستطباب الأصلي: الإنفلونزا (بما فيها الإنفلونزا الشديدة)"
 monitor_inn: "ZANAMIVIR"
 predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
@@ -60,7 +60,7 @@ predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. زاناميفير معروف بأنه مثبّط للنيورامينيداز الفيروسي، وقد ثبتت فعاليته في الإنفلونزا.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Zanamivir (ترجمة غير رسمية): «زاناميفير دواء مضاد للفيروسات ذو نشاط ضد فيروس الإنفلونزا. […] زاناميفير مثبط لإنزيم النورامينيداز (NA) لفيروس الإنفلونزا، وهو إنزيم يحرر الجزيئات الفيروسية من الغشاء البلازمي للخلايا المصابة ويعزز انتشار الفيروس في الجهاز التنفسي. في اختبارات تثبيط النورامينيداز، يكون زاناميفير نشطاً ضد جميع الأنماط الفرعية لإنزيم NA من N1 إلى N9.» النص الأصلي بالإنجليزية: "Zanamivir is an antiviral drug with activity against influenza virus. […] Zanamivir is an inhibitor of influenza virus neuraminidase (NA), an enzyme that releases viral particles from the plasma membrane of infected cells and promotes virus spread in the respiratory tract. In neuraminidase inhibition assays, zanamivir is active against all NA enzyme subtypes N1 to N9." ([DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d)، إصدار 2026-07-23؛ تاريخ الاطلاع 2026-11-20). زاناميفير معروف بأنه مثبّط للنيورامينيداز الفيروسي، وقد ثبتت فعاليته في الإنفلونزا.
 
 أما التهاب الحويضة والكلية فهو عادةً عدوى بكتيرية في الكلى. لا تدعم البيانات المتوفرة وجود رابط آلي بين الدواء وهذا المرض. قد تعكس الدرجة المرتفعة (0.9984) ارتباطاً عاماً بمضادات العدوى في الرسم المعرفي للنموذج، لكن لا شيء في البيانات يؤكد ذلك. ورغم وجود إنزيمات نيورامينيداز لدى بعض البكتيريا، فإن نشاط زاناميفير ضدها غير مثبت هنا.
 
@@ -117,6 +117,19 @@ predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
 ### ملاحظة بشأن التنبؤ الثاني
 
 تنبأ النموذج أيضاً باضطراب استقلاب التيروزين (الدرجة 0.9902)، لكن لا يوجد رابط آلي معقول. المنشورات الثلاثة المسترجعة تتناول مقاومة مثبطات النيورامينيداز وطفراتها في الإنفلونزا، ولا علاقة لها باستقلاب التيروزين، ويبدو أنها طابقت اسم الدواء فقط. القرار لهذا التنبؤ أيضاً: **Hold** (مستوى الأدلة L5).
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

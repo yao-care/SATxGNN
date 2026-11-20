@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DIENOGEST"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Dienogest: الاستطباب الجديد المتوقع انقطاع الطمث (amenorrhea (disease)) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -55,7 +55,7 @@ description: "Dienogest: الاستطباب الجديد المتوقع انقط
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف، فإن دينوجيست بروجستين ذو تأثير قوي على بطانة الرحم (تحوّل رحمي ثم ضمور)، ويثبّط جزئياً إنتاج الإستراديول في المبيض.
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Dienogest هي (ترجمة غير رسمية): «غير معروف». النص الأصلي بالإنجليزية: "Unknown" ([ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإن دينوجيست بروجستين ذو تأثير قوي على بطانة الرحم (تحوّل رحمي ثم ضمور)، ويثبّط جزئياً إنتاج الإستراديول في المبيض.
 
 غير أن انقطاع الطمث من الآثار الشائعة المسجّلة عند استخدام دينوجيست لعلاج بطانة الرحم المهاجرة. لذلك فالصلة أقرب إلى **تأثير دوائي** (انقطاع طمث ناجم عن الدواء) منها إلى استخدام علاجي للحالة نفسها. بل قد يؤدي نقص الإستروجين الناتج عن الدواء إلى كشف انقطاع طمث ثانوي أو تفاقمه.
 
@@ -111,6 +111,19 @@ description: "Dienogest: الاستطباب الجديد المتوقع انقط
 - بيانات آلية العمل التفصيلية.
 - نص تحذيرات وموانع استعمال النشرة الدوائية المعتمدة من الهيئة العامة للغذاء والدواء.
 - دراسات سريرية تتناول انقطاع الطمث تحديداً، مع التمييز بين الاستخدام العلاجي والأثر الدوائي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

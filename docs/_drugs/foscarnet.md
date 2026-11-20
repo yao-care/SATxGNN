@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Foscarnet: الاستطباب الجديد المتوقع متلازمة البيلة الدموية العائلية الوراثية السائدة مع التواء الشرينات الشبكية والتقلصات (autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمّعة (الاستخدام المعروف…"
 monitor_inn: "FOSCARNET"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "rheumatoid arthritis", "diabetic nephropathy"]
@@ -59,7 +59,7 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 
 ## لماذا يبدو هذا التنبؤ معقولًا؟
 
-الحقيقة أن البيانات المتاحة لا تدعم صلة آلية واضحة. بيانات آلية العمل التفصيلية غير متوفرة حاليًا. استنادًا إلى المعروف، الفوسكارنيت نظير للبيروفوسفات يثبّط بوليميراز DNA الفيروسي، وهو فعال في العدوى الفيروسية.
+الحقيقة أن البيانات المتاحة لا تدعم صلة آلية واضحة. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Foscarnet (ترجمة غير رسمية): «يمارس الفوسكارنيت نشاطه المضاد للفيروسات بتثبيط انتقائي عند موقع ارتباط البيروفوسفات على بوليميرازات DNA النوعية للفيروس بتراكيز لا تؤثر في بوليميرازات DNA الخلوية. ولا يحتاج الفوسكارنيت إلى تفعيل (فسفرة) بواسطة كيناز الثيميدين أو كينازات أخرى.» النص الأصلي بالإنجليزية: "Foscarnet exerts its antiviral activity by a selective inhibition at the pyrophosphate binding site on virus-specific DNA polymerases at concentrations that do not affect cellular DNA polymerases. Foscarnet does not require activation (phosphorylation) by thymidine kinase or other kinases." ([DailyMed: Foscavir (foscarnet sodium) prescribing information, Clinigen Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=90e3da4e-3b1f-428b-99ca-e4bed1c80028)، إصدار 2025-12-11؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعروف، الفوسكارنيت نظير للبيروفوسفات يثبّط بوليميراز DNA الفيروسي، وهو فعال في العدوى الفيروسية.
 
 أما المرض المتنبأ به فاضطراب وراثي نادر مرتبط بجين COL4A1 ويصيب الأوعية الدموية، وليس عدوى فيروسية، فلا يقع ضمن هدف الفوسكارنيت المضاد للفيروسات.
 
@@ -133,11 +133,12 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص السعودي الوحيد ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Foscavir (foscarnet sodium) prescribing information, Clinigen Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=90e3da4e-3b1f-428b-99ca-e4bed1c80028) |
 
 <!-- review:end log -->
 

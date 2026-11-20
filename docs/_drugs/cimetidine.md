@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CIMETIDINE"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Cimetidine: الاستطباب الجديد المتوقع انثقاب القرحة الهضمية (peptic ulcer perforation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
 ---
 
@@ -58,7 +58,7 @@ description: "Cimetidine: الاستطباب الجديد المتوقع انث�
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف، يُصنّف السيميتيدين ضمن مضادات مستقبلات H2 التي تقلل إفراز الحمض، وهو ما ثبتت فائدته في أمراض القرحة، ومن الناحية الآلية قد يبدو مرتبطاً بالمرض المتوقع.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cimetidine (ترجمة غير رسمية): «تثبط أقراص السيميتيدين تنافسيًا عمل الهيستامين على مستقبلات الهيستامين H 2 في الخلايا الجدارية، وبالتالي فهو مضاد لمستقبلات الهيستامين H 2. والسيميتيدين ليس عاملًا مضادًا للكولين. وقد أظهرت الدراسات أن أقراص السيميتيدين تثبط إفراز حمض المعدة القاعدي النهاري والليلي على حد سواء.» النص الأصلي بالإنجليزية: "Cimetidine tablets competitively inhibits the action of histamine at the histamine H 2 receptors of the parietal cells and thus is a histamine H 2 -receptor antagonist. Cimetidine is not an anticholinergic agent. Studies have shown that cimetidine tablets inhibit both daytime and nocturnal basal gastric acid secretion." ([DailyMed: cimetidine prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c0a509-026f-44e0-9975-a94a8de51d43)، إصدار 2026-07-15؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، يُصنّف السيميتيدين ضمن مضادات مستقبلات H2 التي تقلل إفراز الحمض، وهو ما ثبتت فائدته في أمراض القرحة، ومن الناحية الآلية قد يبدو مرتبطاً بالمرض المتوقع.
 
 غير أن الانثقاب مضاعفة جراحية للقرحة وليس مرضاً يُعالج بتثبيط الحمض وحده. والمنشورات المتاحة تتناول في معظمها حالات انثقاب حدثت أثناء العلاج بالسيميتيدين أو بعد إيقافه، وهي إشارة سلامة لا دليل فائدة. ولا يوجد دليل على أن السيميتيدين يعالج الانثقاب أو يمنعه.
 
@@ -121,6 +121,19 @@ description: "Cimetidine: الاستطباب الجديد المتوقع انث�
 - بيانات تفصيلية عن آلية العمل.
 - نصوص النشرة الدوائية المحلية (التحذيرات وموانع الاستعمال) لإجراء فحص السلامة.
 - دراسات سريرية مباشرة تقيّم دور السيميتيدين في الوقاية من انثقاب القرحة أو علاجه، مع تمييز الإشارات السلامية عن الفائدة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: cimetidine prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c0a509-026f-44e0-9975-a94a8de51d43) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

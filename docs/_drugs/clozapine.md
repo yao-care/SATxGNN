@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 208
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "CLOZAPINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
 description: "Clozapine: الاستطباب الجديد المتوقع الهوس في الاضطراب ثنائي القطب (manic bipolar affective disorder) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -54,7 +54,7 @@ description: "Clozapine: الاستطباب الجديد المتوقع الهو
 
 ## لماذا يبدو هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعلومات المعروفة، يتميز الكلوزابين بنشاط واسع على المستقبلات: تضادّ مستقبلات الدوبامين D2 والسيروتونين 5-HT2A، إضافة إلى تأثيرات على المستقبلات المسكرينية والأدرينالية والهيستامينية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Clozapine (ترجمة غير رسمية): «آلية عمل كلوزابين غير معروفة. ومع ذلك، فقد اقتُرح أن الفعالية العلاجية لكلوزابين في الفصام تتم بوساطة مضادة مستقبلات الدوبامين من النوع 2 ‏(D 2 ) ومستقبلات السيروتونين من النوع 2A ‏(5-HT 2A ).» النص الأصلي بالإنجليزية: "The mechanism of action of clozapine is unknown. However, it has been proposed that the therapeutic efficacy of clozapine in schizophrenia is mediated through antagonism of the dopamine type 2 (D 2 ) and the serotonin type 2A (5-HT 2A ) receptors." ([DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355)، إصدار 2026-09-06؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، يتميز الكلوزابين بنشاط واسع على المستقبلات: تضادّ مستقبلات الدوبامين D2 والسيروتونين 5-HT2A، إضافة إلى تأثيرات على المستقبلات المسكرينية والأدرينالية والهيستامينية.
 
 يُعتقد أن هذا الملف المتعدد المستقبلات يفسّر الأثر المضاد للهوس والمثبّت للمزاج، خاصة في الحالات المقاومة للعلاج. وهذا ما يجعل امتداد استخدامه إلى الهوس المقاوم معقولاً من الناحية الآلية.
 
@@ -117,6 +117,18 @@ description: "Clozapine: الاستطباب الجديد المتوقع الهو
 - استكمال بيانات آلية العمل.
 - الاطلاع على نتائج التجربة NCT00029458 والمراجعة المنهجية لتقدير حجم الأثر.
 - وضع خطة لمراقبة تعداد الدم (ANC) والقلب والنوبات والمؤشرات الأيضية، مع مراجعة التداخلات الدوائية الكبرى.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

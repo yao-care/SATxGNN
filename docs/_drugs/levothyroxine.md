@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Levothyroxine: الاستطباب الجديد المتوقع نقص تنسج/عدم تكوّن الكلى (مستوى الدليل L5). الاستطباب الأصلي: قصور الغدة الدرقية (relation مسجلة في الرسم المعرفي؛ نصوص الاستطباب ف…"
 ---
 
@@ -54,7 +54,7 @@ description: "Levothyroxine: الاستطباب الجديد المتوقع نق
 
 ## لماذا هذا التنبؤ معقول (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن الليفوثيروكسين يرتبط بمستقبلات الهرمون الدرقي ألفا (THRA) وبيتا (THRB)، وهو الأساس لتعويض الهرمون في قصور الغدة الدرقية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Levothyroxine (ترجمة غير رسمية): «تمارس هرمونات الغدة الدرقية تأثيراتها الفسيولوجية من خلال التحكم في نسخ DNA وتخليق البروتين. ينتشر ثلاثي يودوثيرونين (T3) وL-ثيروكسين (T4) إلى داخل نواة الخلية ويرتبطان ببروتينات مستقبلات الغدة الدرقية المرتبطة بـ DNA.» النص الأصلي بالإنجليزية: "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174)، إصدار 2026-11-06؛ تاريخ الاطلاع 2026-11-20). المعروف أن الليفوثيروكسين يرتبط بمستقبلات الهرمون الدرقي ألفا (THRA) وبيتا (THRB)، وهو الأساس لتعويض الهرمون في قصور الغدة الدرقية.
 
 للهرمون الدرقي دور في نمو الكلى قبل الولادة وبعدها (تكوّن النفرونات، ونضج الأنابيب، ومعدل الترشيح الكبيبي)، وهذا يعطي مبرراً بيولوجياً فضفاضاً. غير أن نقص تنسج/عدم تكوّن الكلى عيب خلقي بنيوي ينتج عادةً عن متغيرات جينية (مثل PAX2 وHNF1B وRET) تعطّل تكوّن الكلى مبكراً في الحمل. ومن غير المعقول أن يعكس الليفوثيروكسين بعد الولادة عيباً بنيوياً قائماً.
 
@@ -113,6 +113,19 @@ description: "Levothyroxine: الاستطباب الجديد المتوقع نق
 - الحصول على بيانات آلية العمل.
 - الحصول على نشرة العبوة المعتمدة من هيئة الغذاء والدواء السعودية لاستخلاص التحذيرات وموانع الاستعمال ونصوص الاستطبابات.
 - إعادة تقييم مدى توافق طرق الإعطاء والتركيز على المرضى المحتملين.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

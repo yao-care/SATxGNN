@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 116
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Brigatinib: الاستطباب الجديد المتوقع تليف اللثة الورمي (Fibromatosis, Gingival) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الرئة غير صغير الخلايا / سرطان الرئة"
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -60,7 +60,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 
 ## لماذا قد يكون هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعلومات المعروفة، فإن بريغاتينيب مثبط متعدد الكيناز (ALK وEGFR وROS1 وFAK)، وقد ثبتت فعاليته في سرطان الرئة غير صغير الخلايا الإيجابي لـ ALK.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Brigatinib (ترجمة غير رسمية): «بريغاتينيب مثبط للتيروزين كيناز (TKI) ذو نشاط في المختبر عند تراكيز قابلة للتحقيق سريريًا ضد كينازات متعددة تشمل ALK وROS1 ومستقبل عامل النمو الشبيه بالإنسولين-1 (IGF-1R) وFLT-3، بالإضافة إلى طفرات الحذف والطفرات النقطية في EGFR. ثبّط بريغاتينيب الفسفرة الذاتية لـ ALK والفسفرة المتواسطة بـ ALK لبروتينات الإشارات النهائية STAT3 وAKT وERK1/2 وS6 في مقايسات في المختبر وفي الجسم الحي.» النص الأصلي بالإنجليزية: "Brigatinib is a tyrosine kinase inhibitor (TKI) with in vitro activity at clinically achievable concentrations against multiple kinases including ALK, ROS1, insulin-like growth factor-1 receptor (IGF-1R), and FLT-3 as well as EGFR deletion and point mutations. Brigatinib inhibited autophosphorylation of ALK and ALK-mediated phosphorylation of the downstream signaling proteins STAT3, AKT, ERK1/2, and S6 in in vitro and in vivo assays." ([DailyMed: Alunbrig (brigatinib) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fe9ff20-d402-41f3-bc1e-7002ea7007db)، إصدار 2026-01-12؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن بريغاتينيب مثبط متعدد الكيناز (ALK وEGFR وROS1 وFAK)، وقد ثبتت فعاليته في سرطان الرئة غير صغير الخلايا الإيجابي لـ ALK.
 
 أما العلاقة بين الاستطباب الأصلي والجديد، **فلم يُثبت أي رابط آلي** بين هذه الأهداف الكينازية وتليف اللثة الورمي. الدرجة العالية لـ TxGNN (الترتيب 2503) مبنية على الرسم المعرفي فقط، ولا تعكس دليلاً بيولوجياً أو سريرياً مباشراً.
 
@@ -143,11 +143,12 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري للدواء في المملكة (الترخيص الوحيد ملغى)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Alunbrig (brigatinib) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fe9ff20-d402-41f3-bc1e-7002ea7007db) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Ciprofloxacin: الاستطباب الجديد المتوقع تصلب الجلد المنتشر (مستوى الدليل L5). الاستطباب الأصلي: العدوى البكتيرية (الحمى التيفية، السالمونيلا، الالتهاب الرئوي البكتير…"
 monitor_inn: "CIPROFLOXACIN"
 predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
@@ -60,7 +60,7 @@ predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndro
 
 ## لماذا يبدو هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. السيبروفلوكساسين من الفلوروكينولونات، وتُعرف هذه المجموعة بتثبيط إنزيمي DNA gyrase وtopoisomerase IV البكتيريين. وقد ثبتت فعاليته في العدوى البكتيرية، لكن ارتباطه الآلي بتصلب الجلد غير مؤكد.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ciprofloxacin (ترجمة غير رسمية): «سيبروفلوكساسين هو أحد أفراد فئة الفلوروكينولونات من العوامل المضادة للبكتيريا. […] ينتج التأثير القاتل للبكتيريا لسيبروفلوكساسين عن تثبيط الإنزيمين توبوإيزوميراز II (DNA gyrase) وتوبوإيزوميراز IV (وكلاهما من التوبوإيزوميرازات من النوع II)، وهما إنزيمان لازمان لتضاعف الحمض النووي (DNA) البكتيري ونسخه وإصلاحه وإعادة تركيبه.» النص الأصلي بالإنجليزية: "Ciprofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of ciprofloxacin results from inhibition of the enzymes topoisomerase II (DNA gyrase) and topoisomerase IV (both Type II topoisomerases), which are required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07)، إصدار 2025-11-04؛ تاريخ الاطلاع 2026-11-20). السيبروفلوكساسين من الفلوروكينولونات، وتُعرف هذه المجموعة بتثبيط إنزيمي DNA gyrase وtopoisomerase IV البكتيريين. وقد ثبتت فعاليته في العدوى البكتيرية، لكن ارتباطه الآلي بتصلب الجلد غير مؤكد.
 
 تقترح الأدبيات المتاحة مسارين محتملين:
 
@@ -133,6 +133,19 @@ predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndro
 - استكمال بيانات آلية العمل لتحليل الصلة الآلية بالمرض.
 - تقييم الجدوى التنظيمية في ظل غياب أي ترخيص ساري حاليًا في السعودية.
 - وضع خطة سلامة تأخذ في الاعتبار التداخل مع الكورتيكوستيرويدات وخطر الاضطرابات الوترية والعصبية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

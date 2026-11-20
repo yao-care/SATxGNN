@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "LETROZOLE"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Letrozole: الاستطباب الجديد المتوقع سرطان الحلمة (nipple carcinoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
@@ -54,7 +54,7 @@ description: "Letrozole: الاستطباب الجديد المتوقع سرطا
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعروف عن هذه الفئة الدوائية، فإن ليتروزول يثبّط الأروماتاز ويقلل إنتاج الإستروجين، وهو ما يهمّ الأورام الحساسة للهرمونات.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Letrozole (ترجمة غير رسمية): «يُحفَّز نمو بعض سرطانات الثدي أو يُحافَظ عليه بواسطة الإستروجينات. وقد شمل علاج سرطان الثدي الذي يُعتقد أنه مستجيب هرمونياً (أي إيجابي مستقبلات الإستروجين و/أو البروجسترون أو غير معروف حالة المستقبلات) مجموعة متنوعة من المساعي لخفض مستويات الإستروجين (استئصال المبيض، استئصال الغدة الكظرية، استئصال الغدة النخامية) أو تثبيط تأثيرات الإستروجين (مضادات الإستروجين والعوامل البروجستيرونية). […] الليتروزول مثبط تنافسي غير ستيرويدي لنظام إنزيم الأروماتاز؛ وهو يثبط تحويل الأندروجينات إلى إستروجينات.» النص الأصلي بالإنجليزية: "The growth of some cancers of the breast is stimulated or maintained by estrogens. Treatment of breast cancer thought to be hormonally responsive (i.e., estrogen and/or progesterone receptor positive or receptor unknown) has included a variety of efforts to decrease estrogen levels (ovariectomy, adrenalectomy, hypophysectomy) or inhibit estrogen effects (antiestrogens and progestational agents). […] Letrozole is a nonsteroidal competitive inhibitor of the aromatase enzyme system; it inhibits the conversion of androgens to estrogens." ([DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406)، إصدار 2026-06-11؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن هذه الفئة الدوائية، فإن ليتروزول يثبّط الأروماتاز ويقلل إنتاج الإستروجين، وهو ما يهمّ الأورام الحساسة للهرمونات.
 
 يرتبط سرطان الحلمة وسرطانات الثدي الإضافي بأنسجة الثدي، وقد يكون بعضها حساساً للهرمونات، لذلك فإن تثبيط الأروماتاز منطقي نظرياً. غير أن هذا الاستنتاج يبقى افتراضياً، إذ لم تختبر أي دراسة في البيانات المتاحة ليتروزول في سرطان الحلمة نفسه، والمنشورات المتاحة تصف حالات مرضية فردية ولا تقيّم فعالية الدواء في هذا المرض.
 
@@ -116,6 +116,18 @@ description: "Letrozole: الاستطباب الجديد المتوقع سرطا
 - تحليل نشرة العبوة لاستخراج التحذيرات وموانع الاستعمال.
 - دراسات رصدية أو تجارب سريرية تقيّم ليتروزول في سرطان الحلمة، مع تحديد حالة المستقبلات الهرمونية للأورام.
 - خطة لمراقبة السلامة، خصوصاً الكبد والعظام.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

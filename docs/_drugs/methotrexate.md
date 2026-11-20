@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 547
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Methotrexate: الاستطباب الجديد المتوقع ورم الرئة الأرومي (Pulmonary blastoma) (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم الليمفاوي الحاد، التهاب المفاصل الروماتويدي، الصدفية، الو…"
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
@@ -58,7 +58,7 @@ predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "wel
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل ضمن البيانات المجمعة لهذا التقرير. استناداً إلى المعروف عن الميثوتريكسات، فهو مضاد للفولات يثبّط إنزيم اختزال ثنائي هيدروفولات (DHFR) ويعطّل تخليق الحمض النووي في الخلايا سريعة الانقسام، وقد ثبتت فعاليته في الابيضاضات والأورام الليمفاوية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Methotrexate (ترجمة غير رسمية): «يثبط الميثوتريكسات إنزيم اختزال حمض ثنائي هيدروفوليك. ويجب اختزال ثنائيات الهيدروفولات إلى رباعيات الهيدروفولات بواسطة هذا الإنزيم قبل أن يتسنى استخدامها كنواقل لمجموعات الكربون الأحادي في تخليق نيوكليوتيدات البيورين والثيميديلات.» النص الأصلي بالإنجليزية: "Methotrexate inhibits dihydrofolic acid reductase. Dihydrofolates must be reduced to tetrahydrofolates by this enzyme before they can be utilized as carriers of one-carbon groups in the synthesis of purine nucleotides and thymidylate." ([DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e)، إصدار 2026-11-05؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف عن الميثوتريكسات، فهو مضاد للفولات يثبّط إنزيم اختزال ثنائي هيدروفولات (DHFR) ويعطّل تخليق الحمض النووي في الخلايا سريعة الانقسام، وقد ثبتت فعاليته في الابيضاضات والأورام الليمفاوية.
 
 ورم الرئة الأرومي ورم نادر سريع التكاثر ذو مكوّن أرومي، ومن الناحية النظرية قد يستجيب لمضادات الأيض. غير أن هذه الصلة **تخمينية** ولا تدعمها أي بيانات سريرية في هذه المجموعة، ويُرجَّح أن الدرجة العالية تعكس قرب الأمراض في الرسم المعرفي لا دليلاً دوائياً خاصاً بهذا الورم.
 
@@ -143,6 +143,19 @@ predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "wel
 - مراجعة معمقة لتقارير الحالات والأدبيات الخاصة بورم الرئة الأرومي (مرض نادر جداً).
 - توضيح وضع التراخيص والتوافر التجاري في السعودية.
 - التفكير في إعطاء الأولوية للاستطبابات المتنبأ بها ذات الأدلة الأقوى، مثل الأورام الليمفاوية (L3–L4) والساركوما العضلية المخططة (L2)، كونها أكثر استحقاقاً للبحث من هذا الاستطباب.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

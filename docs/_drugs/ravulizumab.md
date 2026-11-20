@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 713
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "RAVULIZUMAB"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
 description: "Ravulizumab: الاستطباب الجديد المتوقع Autosomal recessive severe congenital neutropenia due to G6PC3 deficiency (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -59,7 +59,7 @@ description: "Ravulizumab: الاستطباب الجديد المتوقع Autoso
 
 ## لماذا قد يبدو هذا التنبؤ معقولًا؟ (ومحدوداته)
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في قاعدة البيانات المجمّعة. المعروف أن رافوليزوماب جسم مضاد وحيد النسيلة يثبّط البروتين C5 في المتمّم، فيمنع تكوّن معقد الهجوم الغشائي، وهو ما يفسّر فعاليته في PNH المدفوعة بانحلال الدم بوساطة المتمّم.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ravulizumab (ترجمة غير رسمية): «رافوليزوماب-cwvz مثبط للمتممة الطرفية يرتبط ارتباطاً نوعياً وبألفة عالية ببروتين المتممة C5، فيثبط بذلك انشطاره إلى C5a (التأقين المحفز للالتهاب) وC5b (الوحيدة الفرعية البادئة لمعقد الهجوم الغشائي [MAC أو C5b-9])، وبالتالي يمنع تكوّن MAC. يثبط ULTOMIRIS انحلال الدم داخل الأوعية بوساطة المتممة الطرفية لدى المرضى المصابين بـ PNH، واعتلال الأوعية الدقيقة الخثاري (TMA) بوساطة المتممة لدى المرضى المصابين بـ aHUS.» النص الأصلي بالإنجليزية: "Ravulizumab-cwvz is a terminal complement inhibitor that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a (the proinflammatory anaphylatoxin) and C5b (the initiating subunit of the membrane attack complex [MAC or C5b-9]) thus preventing MAC formation. ULTOMIRIS inhibits terminal complement-mediated intravascular hemolysis in patients with PNH and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791)، إصدار 2026-10-29؛ تاريخ الاطلاع 2026-11-20). المعروف أن رافوليزوماب جسم مضاد وحيد النسيلة يثبّط البروتين C5 في المتمّم، فيمنع تكوّن معقد الهجوم الغشائي، وهو ما يفسّر فعاليته في PNH المدفوعة بانحلال الدم بوساطة المتمّم.
 
 أما في نقص العدلات الخلقي الشديد بسبب نقص G6PC3، فيعود المرض إلى ضعف نشاط إنزيم الغلوكوز-6-فوسفاتاز، مع إجهاد الشبكة الإندوبلازمية وموت العدلات المبرمج. **لا توجد صلة موثقة** بين تنشيط المتمّم الطرفي وهذه الحالة. لذلك فإن الدرجة العالية (0.9996) ناتجة عن الرسم المعرفي فقط، ولا تُعدّ دليلًا آليًا أو سريريًا.
 
@@ -120,11 +120,12 @@ description: "Ravulizumab: الاستطباب الجديد المتوقع Autoso
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791) |
 
 <!-- review:end log -->
 

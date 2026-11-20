@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 880
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Warfarin: الاستطباب الجديد المتوقع Heparin cofactor 2 deficiency (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 8 (السارية: 8)"
@@ -66,7 +66,7 @@ description: "Warfarin: الاستطباب الجديد المتوقع Heparin c
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في السجل الدوائي. لكن البيانات الدوائية المتاحة تشير إلى أن وارفارين يثبّط إنزيم مختزل إيبوكسيد فيتامين K (VKORC1)، فينخفض مستوى عوامل التخثر المعتمدة على فيتامين K (II وVII وIX وX).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Warfarin (ترجمة غير رسمية): «يعمل وارفارين عن طريق تثبيط تخليق عوامل التخثر المعتمدة على فيتامين K، والتي تشمل العوامل II وVII وIX وX، والبروتينين المضادين للتخثر C وS. فيتامين K عامل مساعد أساسي في التخليق اللاحق للريبوسوم لعوامل التخثر المعتمدة على فيتامين K. ويعزز فيتامين K التخليق الحيوي لبقايا حمض γ-كربوكسي غلوتاميك في البروتينات، وهي بقايا أساسية للنشاط الحيوي.» النص الأصلي بالإنجليزية: "Warfarin acts by inhibiting the synthesis of vitamin K-dependent clotting factors, which include Factors II, VII, IX, and X, and the anticoagulant proteins C and S. Vitamin K is an essential cofactor for the post ribosomal synthesis of the vitamin K-dependent clotting factors. Vitamin K promotes the biosynthesis of γ-carboxyglutamic acid residues in the proteins that are essential for biological activity." ([DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730)، إصدار 2026-10-28؛ تاريخ الاطلاع 2026-11-20). لكن البيانات الدوائية المتاحة تشير إلى أن وارفارين يثبّط إنزيم مختزل إيبوكسيد فيتامين K (VKORC1)، فينخفض مستوى عوامل التخثر المعتمدة على فيتامين K (II وVII وIX وX).
 
 المؤشر الأصلي (الانصمام والتخثر) والمؤشر الجديد (فرط التخثر الوراثي) يشتركان في الاستعداد المفرط لتكوّن الجلطات. ولذلك يُستخدم وارفارين فعلاً كخيار معياري للوقاية الثانوية من الانصمام الوريدي لدى المرضى المصابين بفرط التخثر. الآلية معقولة، لكنها مضادة تخثر عامة وليست نوعية لهذا الاضطراب.
 
@@ -147,7 +147,7 @@ description: "Warfarin: الاستطباب الجديد المتوقع Heparin c
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم يُعَد كتابة نص تنبؤات النموذج؛ ولا تتغير مستويات الأدلة والقرارات إلا بنتيجة إعادة تقييم (خفض أو رفع أو سحب)، والقيم الأصلية في الجدول أدناه.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم يُعَد كتابة نص تنبؤات النموذج؛ ولا تتغير مستويات الأدلة والقرارات إلا بنتيجة إعادة تقييم (خفض أو رفع أو سحب)، والقيم الأصلية في الجدول أدناه. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
@@ -156,6 +156,7 @@ description: "Warfarin: الاستطباب الجديد المتوقع Heparin c
 | 2026-11-12 | نتيجة إعادة تقييم التنبؤ الرئيسي (Heparin cofactor 2 deficiency) | إعادة التقييم: خفض، مستوى الأدلة L1 ← L4؛ مستوى الدليل: «مستوى الدليل / L1 وفق التصنيف الوارد في البيانات (مع تحفظ: التجربة الوحيدة حالتها «غير معروفة» ودور وارفارين فيها غير واضح؛ لذلك فالدليل الفعلي أقرب إلى L3)» ← «مستوى الدليل / L4 (تقرير حالة واحد ومنطق آلية مضادات التخثر؛ لا توجد دراسات رصدية أو تجارب)»؛ القرار الموصى به: «القرار الموصى به / المضي مع ضوابط احترازية (Proceed with Guardrails)» ← «القرار الموصى به / Hold (إيقاف مؤقت)» | [PubMed：[Right ventricular thrombosis due to familial heparin cofactor II deficiency]（PMID 2214444）](https://pubmed.ncbi.nlm.nih.gov/2214444/)؛ [ClinicalTrials.gov：D-dimer 導向的抗凝時長策略（首次不明原因深部靜脈栓塞後）（NCT00895505）](https://clinicaltrials.gov/study/NCT00895505) |
 | 2026-11-12 | مستوى الأدلة في رأس الصفحة | أُعيد حساب مستوى الأدلة في رأس الصفحة وفق جدول النظرة السريعة (L5 ← L4) | [SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5](https://satxgnn.yao.care/methodology/) |
 | 2026-11-12 | مستوى الدليل في وصف الصفحة | وصف الصفحة: غُيّر «مستوى الدليل L5» إلى «مستوى الدليل L4» (ليطابق مستوى رأس الصفحة؛ بقية النص دون تغيير، والنص الأصلي محفوظ في السجل) | [SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5](https://satxgnn.yao.care/methodology/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730) |
 
 <!-- review:end log -->
 

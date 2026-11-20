@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 273
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Dolutegravir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى فيروس نقص المناعة البشرية (HIV)، الإيدز"
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -59,7 +59,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في المصدر الدوائي. واستناداً إلى المعروف عن فئة الدواء، فإن دولوتيجرافير مثبّط لإنزيم الإنتغريز في فيروس HIV-1، وقد ثبتت فعاليته في علاج HIV.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Dolutegravir (ترجمة غير رسمية): «دولوتيغرافير عامل مضاد للفيروسات القهقرية لـ HIV-1. […] يثبط دولوتيغرافير إنزيم الإنتغراز لفيروس HIV بالارتباط بالموقع الفعال للإنتغراز وحجب خطوة نقل السلسلة في إدماج DNA الفيروس القهقري، وهي خطوة أساسية لدورة تضاعف HIV. وأسفرت الاختبارات الكيميائية الحيوية لنقل السلسلة باستخدام إنتغراز HIV-1 المنقّى وDNA الركيزة المعالج مسبقًا عن قيم IC 50 بلغت 2.7 nM و12.6 nM.» النص الأصلي بالإنجليزية: "Dolutegravir is an HIV-1 antiretroviral agent. […] Dolutegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral DNA integration which is essential for the HIV replication cycle. Strand transfer biochemical assays using purified HIV-1 integrase and pre-processed substrate DNA resulted in IC 50 values of 2.7 nM and 12.6 nM." ([DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922)، إصدار 2026-08-25؛ تاريخ الاطلاع 2026-11-20). واستناداً إلى المعروف عن فئة الدواء، فإن دولوتيجرافير مثبّط لإنزيم الإنتغريز في فيروس HIV-1، وقد ثبتت فعاليته في علاج HIV.
 
 إنزيم الإنتغريز في فيروس SIV قريب بنيوياً من نظيره في HIV-1، وتُظهر دراسات البنية (intasome) نمط ارتباط محفوظاً للمثبطات. كما تدعم أعمال ما قبل السريرية على قرود المكاك (العلاج الأحادي بدولوتيجرافير في قرود مصابة بـ SIV، ودراسات طفرات المقاومة في SIVmac239) وجود نشاط مضاد للفيروس.
 
@@ -140,11 +140,12 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-12 | الجدول: TIVICAY 50 mg Tablet مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922) |
 
 <!-- review:end log -->
 

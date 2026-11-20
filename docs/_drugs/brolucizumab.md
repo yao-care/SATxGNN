@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Brolucizumab: الاستطباب الجديد المتوقع اضطراب الفسفرة التأكسدية الميتوكوندرية الناجم عن شذوذات الحمض النووي النووي (مستوى الدليل L5). الاستطباب الأصلي: التنكس البقعي (macular degeneration)"
 monitor_inn: "BROLUCIZUMAB"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices without bleeding", "esophageal varices with bleeding", "exocrine pancreatic insufficiency"]
@@ -58,7 +58,7 @@ predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to
 
 ## لماذا يُعد هذا التنبؤ معقولًا (أو غير معقول)؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في قاعدة البيانات المجمّعة لهذا التقرير. وبحسب المعروف، فإن بروليزوماب يثبّط عامل النمو البطاني الوعائي A (VEGF-A) ويُستخدم داخل الجسم الزجاجي لعلاج التنكس البقعي الوعائي الجديد (الرطب).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Brolucizumab (ترجمة غير رسمية): «بروليوسيزوماب هو مثبط بشري لـ VEGF. يرتبط بروليوسيزوماب بالأشكال الإسوية الرئيسية الثلاثة لـ VEGF-A (مثل VEGF 110 وVEGF 121 وVEGF 165 )، وبذلك يمنع التفاعل مع المستقبلين VEGFR-1 وVEGFR-2. ومن خلال تثبيط VEGF-A، يكبح بروليوسيزوماب تكاثر الخلايا البطانية، وتكوّن الأوعية الدموية الجديدة، ونفاذية الأوعية الدموية.» النص الأصلي بالإنجليزية: "Brolucizumab is a human VEGF inhibitor. Brolucizumab binds to the three major isoforms of VEGF-A (e.g., VEGF 110, VEGF 121, and VEGF 165 ), thereby preventing interaction with receptors VEGFR-1 and VEGFR-2. By inhibiting VEGF-A, brolucizumab suppresses endothelial cell proliferation, neovascularization, and vascular permeability." ([DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d)، إصدار 2026-10-26؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإن بروليزوماب يثبّط عامل النمو البطاني الوعائي A (VEGF-A) ويُستخدم داخل الجسم الزجاجي لعلاج التنكس البقعي الوعائي الجديد (الرطب).
 
 لا توجد صلة آلية واضحة بين هذا الدواء والاستطباب المتنبأ به. فاضطرابات الفسفرة التأكسدية الميتوكوندرية الناجمة عن عيوب في الحمض النووي النووي تنتج عن خلل في تجميع سلسلة التنفس الخلوي أو في وظيفتها، وليس عن تكوّن الأوعية الذي يتوسطه VEGF. ودرجة TxGNN العالية (0.9967) صادرة عن نموذج TxGNN (التعلم العميق) وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض متصلة، وليست دليلاً بيولوجياً، دون دعم من تجارب أو أدبيات، ولم يمكن فحص معقولية الآلية مقابل بيانات منسقة بسبب غياب بيانات آلية العمل.
 
@@ -139,13 +139,14 @@ predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص الوحيد المسجل ملغى، ولا توجد حاليًا تراخيص سارية في المملكة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «كما أن الترخيص المحلي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح وضع الترخيص المحلي (الإلغاء) وتوفر المنتج في السوق السعودي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d) |
 
 <!-- review:end log -->
 

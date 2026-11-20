@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 820
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Tobramycin: الاستطباب الجديد المتوقع التهاب القرنية الناتج عن التعرّض (exposure keratitis) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الملتحمة، والتهاب القزحية العنبية، وعدوى المكورات العنقودية ال…"
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
@@ -60,7 +60,7 @@ predicted_indications: ["exposure keratitis", "non-human animal disease", "otiti
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن التوبراميسين من فئة الأمينوغليكوزيدات، ويتمتع بنشاط واسع ضد البكتيريا سلبية الغرام والمكورات العنقودية الذهبية، وقد ثبتت فعاليته في التهابات العين البكتيرية، ومن الناحية الآلية قد يكون مناسباً للعدوى البكتيرية الثانوية على سطح قرنية متضررة.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tobramycin (ترجمة غير رسمية): «توبراميسين مضاد للبكتيريا من فئة الأمينوغليكوزيدات. […] توبراميسين مضاد للبكتيريا من فئة الأمينوغليكوزيدات تنتجه Streptomyces tenebrarius. ويعمل بصورة رئيسية عن طريق تعطيل تخليق البروتين، مما يؤدي إلى تغيّر نفاذية الغشاء الخلوي، وتعطّل تدريجي للغلاف الخلوي، وموت الخلية في نهاية المطاف.» النص الأصلي بالإنجليزية: "Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death." ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a)، إصدار 2026-04-15؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن التوبراميسين من فئة الأمينوغليكوزيدات، ويتمتع بنشاط واسع ضد البكتيريا سلبية الغرام والمكورات العنقودية الذهبية، وقد ثبتت فعاليته في التهابات العين البكتيرية، ومن الناحية الآلية قد يكون مناسباً للعدوى البكتيرية الثانوية على سطح قرنية متضررة.
 
 يحدث التهاب القرنية الناتج عن التعرّض عندما لا تُغطّى القرنية بشكل كافٍ (مثلاً لعدم القدرة على إغلاق الجفن)، فيتضرر سطحها وقد تتعقّد الحالة بعدوى بكتيرية. ويظهر هذا في تقرير حالة لمريض في حالة نباتية لا يستطيع إغلاق عينيه، أصيب بالتهاب قرنية بكتيري.
 
@@ -145,11 +145,12 @@ predicted_indications: ["exposure keratitis", "non-human animal disease", "otiti
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «إذ إن التراخيص جميعها ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 551
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "METHYLPHENIDATE"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 description: "Methylphenidate: الاستطباب الجديد المتوقع Faciodigitogenital syndrome (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -62,7 +62,7 @@ description: "Methylphenidate: الاستطباب الجديد المتوقع Fa
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعرفة المتاحة، يعمل ميثيلفينيديت بتثبيط إعادة امتصاص الدوبامين والنورإبينفرين عبر الناقلين DAT وNET. وتدعم الدراسات المرفقة هذه الآلية في اضطراب فرط الحركة وتشتت الانتباه، ومنها دراسة التصوير المقطعي (PET) على البالغين (PMID 41128391) ومراجعة علم الأعصاب الحيوي للاضطراب (PMID 19627998).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Methylphenidate (ترجمة غير رسمية): «ميثيل فينيدات هيدروكلوريد منبه للجهاز العصبي المركزي (CNS). ولا تُعرف طريقة التأثير العلاجي لـ METADATE CD في علاج ADHD لدى المرضى الأطفال بعمر 6 سنوات فما فوق. ويحجب الميثيل فينيدات إعادة امتصاص النورإبينفرين والدوبامين إلى العصبون قبل المشبكي ويزيد إطلاق هذه الأحاديات الأمينية إلى الحيز خارج العصبوني.» النص الأصلي بالإنجليزية: "Methylphenidate hydrochloride is a central nervous system (CNS) stimulant. The mode of therapeutic action of METADATE CD in the treatment of ADHD in pediatric patients 6 years of age and older is not known. Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increases the release of these monoamines into the extraneuronal space." ([DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4)، إصدار 2026-10-21؛ تاريخ الاطلاع 2026-11-20). وبحسب المعرفة المتاحة، يعمل ميثيلفينيديت بتثبيط إعادة امتصاص الدوبامين والنورإبينفرين عبر الناقلين DAT وNET. وتدعم الدراسات المرفقة هذه الآلية في اضطراب فرط الحركة وتشتت الانتباه، ومنها دراسة التصوير المقطعي (PET) على البالغين (PMID 41128391) ومراجعة علم الأعصاب الحيوي للاضطراب (PMID 19627998).
 
 اضطراب فرط الحركة وتشتت الانتباه اضطراب نمائي عصبي وثيق الصلة بفئة «اضطرابات النمو النوعية». ومن المعقول أن يفيد خلل الدوبامين والنورإبينفرين في الانتباه والوظائف التنفيذية في حالات نمائية متداخلة معه.
 
@@ -144,11 +144,12 @@ description: "Methylphenidate: الاستطباب الجديد المتوقع Fa
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «ليس للدواء ترخيص ساري في السعودية (3 تراخيص ملغاة)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 53
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Aminophylline: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص دواعي الاستعمال في التراخيص فارغة)"
 monitor_inn: "AMINOPHYLLINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
@@ -64,7 +64,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "at
 
 ويقترح مقال مراجعة نُشر عام 2023 بعنوان «Aminophylline in pain and migraine» أن الأمينوفيلين قد يخفف الألم، خصوصًا الصداع الذي يعقب ثقب الجافية. ومع ذلك فهذا الاهتمام ما زال في إطار الفرضية، ولا تتوفر بيانات تجارب مضبوطة.
 
-ملاحظة: بيانات آلية العمل التفصيلية (MOA) غير متوفرة حاليًا في المصدر الرسمي، والوصف أعلاه مستند إلى المعرفة العامة بالدواء وإلى الأدبيات المذكورة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Aminophylline (ترجمة غير رسمية): «للثيوفيلين تأثيران متمايزان في المسالك الهوائية لدى المرضى المصابين بانسداد عكوس؛ إرخاء العضلات الملساء (أي توسيع القصبات) وتثبيط استجابة المسالك الهوائية للمنبهات (أي التأثيرات الوقائية غير الموسعة للقصبات).» النص الأصلي بالإنجليزية: "Theophylline has two distinct actions in the airways of patients with reversible obstruction; smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., nonbronchodilator prophylactic effects)." ([DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d)، إصدار 2026-05-26؛ تاريخ الاطلاع 2026-11-20).
 
 ---
 
@@ -124,6 +124,19 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "at
 - إجراء مراجعة منهجية لدراسات الأمينوفيلين في الصداع النصفي والصداع بعد ثقب الجافية، وتصميم تجربة سريرية استكشافية إذا أيّدت المراجعة ذلك.
 - تقييم خطر التفاعلات الدوائية (خاصة مع بوبروبيون) وهامش الأمان العلاجي الضيق للميثيل زانثينات في الفئة المستهدفة.
 - النظر في تحديد أولوية أعلى لمؤشر **ارتفاع ضغط الشريان الرئوي (pulmonary hypertension)** (مستوى الدليل L3، مع تجربة المرحلة الأولى NCT01530464 ودراسات ديناميكية دموية صغيرة)، علمًا بأن الأدلة فيه قديمة وصغيرة الحجم ولا تتضمن تجربة فعالية مضبوطة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

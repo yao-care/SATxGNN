@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Ivermectin: الاستطباب الجديد المتوقع داء المبيضات الفرجي المهبلي (مستوى الدليل L5). الاستطباب الأصلي: داء الأسطوانيات (السترونجيلويدات) وداء كلابية الذنب (من الرسم المعرفي…"
 monitor_inn: "IVERMECTIN"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "congenital candidiasis", "neonatal candidiasis", "candida glabrata", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
@@ -59,7 +59,7 @@ predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "a
 
 ## لماذا قد يبدو هذا التوقع معقولاً؟
 
-تفيد البيانات المجمّعة لهذا التقرير بأن معلومات آلية العمل التفصيلية غير متوفرة حالياً. ومن المعروف عموماً أن الإيفermectين مضاد للطفيليات يؤثر في قنوات الكلوريد المعتمدة على الغلوتامات لدى اللافقاريات.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ivermectin (ترجمة غير رسمية): «أظهرت الدراسات في المختبر باستخدام الميكروسومات الكبدية البشرية وإنزيمات CYP450 المأشوبة أن إيفرمكتين يُستقلَب بشكل رئيسي بواسطة CYP3A4.» النص الأصلي بالإنجليزية: "In vitro studies using human liver microsomes and recombinant CYP450 enzymes have shown that ivermectin is primarily metabolized by CYP3A4." ([DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd)، إصدار 2024-09-20؛ تاريخ الاطلاع 2026-11-20). ومن المعروف عموماً أن الإيفermectين مضاد للطفيليات يؤثر في قنوات الكلوريد المعتمدة على الغلوتامات لدى اللافقاريات.
 
 أما الفطريات ومنها المبيضات فلا تملك هذه القنوات، لذلك **لا توجد صلة آلية مدعومة بالبيانات** بين الدواء وداء المبيضات. ويُرجَّح أن الدرجة المرتفعة ناتجة عن القرب في الرسم المعرفي بين العقد المرتبطة بالعدوى، لا عن آلية مثبتة.
 
@@ -117,6 +117,19 @@ predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "a
 - دراسات مخبرية (in vitro) لقياس النشاط المضاد للمبيضات.
 - تقييم توافق طريق الإعطاء (فموي أو موضعي أو مهبلي) مع الاستطباب المتوقع.
 - إن كان الهدف نشاطاً مضاداً للفطريات، فمقارنة الجدوى مع العلاجات القائمة (الآزولات والإكينوكاندينات).
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

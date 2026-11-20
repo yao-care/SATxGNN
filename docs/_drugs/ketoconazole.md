@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 469
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Ketoconazole: الاستطباب الجديد المتوقع حب الشباب (Acne) (مستوى الدليل L4). الاستطباب الأصلي: العدوى الفطرية الجلدية (القدم الرياضية، القوباء الحلقية، داء المبيضات…"
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
@@ -58,7 +58,7 @@ predicted_indications: ["acne (disease)"]
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية مسجلة عن آلية العمل في قاعدة البيانات. ومع ذلك، المعروف أن كيتوكونازول يثبّط الإنزيم الفطري CYP51 (lanosterol 14-alpha-demethylase)، وبجرعات أعلى يثبّط إنزيمات CYP البشرية المسؤولة عن تخليق الستيرويدات (CYP17A1 وCYP11A1)، مما يخفض إنتاج الأندروجينات. كما له نشاط مضاد للالتهاب بدرجة ما.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ketoconazole (ترجمة غير رسمية): «يحجب كيتوكونازول تخليق الإرغوستيرول، وهو مكوّن أساسي في الغشاء الخلوي الفطري، من خلال تثبيط الإنزيم المعتمد على السيتوكروم P-450 لانوستيرول 14α-ديميثيلاز المسؤول عن تحويل اللانوستيرول إلى إرغوستيرول في الغشاء الخلوي الفطري. ويؤدي ذلك إلى تراكم سلائف الستيرول المُمثيلة ونضوب الإرغوستيرول داخل الغشاء الخلوي، مما يُضعف بنية الغشاء الخلوي الفطري ووظيفته.» النص الأصلي بالإنجليزية: "Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371)، إصدار 2025-11-18؛ تاريخ الاطلاع 2026-11-20). ومع ذلك، المعروف أن كيتوكونازول يثبّط الإنزيم الفطري CYP51 (lanosterol 14-alpha-demethylase)، وبجرعات أعلى يثبّط إنزيمات CYP البشرية المسؤولة عن تخليق الستيرويدات (CYP17A1 وCYP11A1)، مما يخفض إنتاج الأندروجينات. كما له نشاط مضاد للالتهاب بدرجة ما.
 
 هناك رابطان محتملان مع حب الشباب:
 
@@ -147,11 +147,12 @@ predicted_indications: ["acne (disease)"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «تحديد مسار تنظيمي وتركيبة موضعية مناسبة نظراً لإلغاء التراخيص الحالية، مع» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 802
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "TERBUTALINE"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline: الاستطباب الجديد المتوقع تشوه تنفسي (respiratory malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 9 (السارية: 9)"
@@ -56,7 +56,7 @@ description: "Terbutaline: الاستطباب الجديد المتوقع تشو
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف عن هذه الفئة، فإن تيربوتالين ناهض بيتا-2 يرخي العضلات الملساء القصبية، وقد يخفف التضيق الوظيفي القابل للعكس في المجاري الهوائية المصاحب لبعض الشذوذات البنيوية.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Terbutaline (ترجمة غير رسمية): «أظهرت الدراسات الدوائية في المختبر وفي الجسم الحي أن التيربوتالين يمارس تأثيرًا تفضيليًا على مستقبلات بيتا 2 الأدرينالية. وفي حين أنه من المعروف أن مستقبلات بيتا2 الأدرينالية هي المستقبلات السائدة في العضلات الملساء القصبية، تشير البيانات إلى وجود مجموعة من مستقبلات بيتا2 في قلب الإنسان، توجد بتركيز يتراوح بين 10% و50%.» النص الأصلي بالإنجليزية: "In vitro and in vivo pharmacologic studies have demonstrated that terbutaline exerts a preferential effect on beta 2 -adrenergic receptors. While it is recognized that beta2-adrenergic receptors are the predominant receptors in bronchial smooth muscle, data indicate that there is a population of beta2-receptors in the human heart, existing in a concentration between 10% to 50%." ([DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726)، إصدار 2025-12-10؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن هذه الفئة، فإن تيربوتالين ناهض بيتا-2 يرخي العضلات الملساء القصبية، وقد يخفف التضيق الوظيفي القابل للعكس في المجاري الهوائية المصاحب لبعض الشذوذات البنيوية.
 
 الرابط الآلي هنا ضعيف وغير مباشر: الدواء لا يصحح التشوه نفسه. ويرجّح أن الدرجة المرتفعة تعكس قرب الدواء في الشبكة من مجموعة الأمراض التنفسية الأوسع، لا بيولوجيا خاصة بهذا المرض. ولم تُعثر بيانات فعالية خاصة بالتشوهات التنفسية.
 
@@ -110,6 +110,18 @@ description: "Terbutaline: الاستطباب الجديد المتوقع تشو
 - نص تحذيرات وموانع نشرة العبوة المعتمدة.
 - دراسات سريرية أو مراجعات تتناول هذا المرض تحديداً، وتحديد أي مجموعة مرضى فرعية قد تستفيد من تخفيف التضيق الوظيفي.
 - تقييم السلامة في الأطفال في ضوء الموانع القلبية والاستقلابية المسجلة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

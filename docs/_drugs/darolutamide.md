@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 229
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Darolutamide: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي متماثل الألائل (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمّعة"
 monitor_inn: "DAROLUTAMIDE"
 predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease"]
@@ -58,7 +58,7 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "multiple en
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً (أو غير معقول)؟
 
-تفاصيل آلية العمل غير متاحة حالياً في البيانات المجمّعة. المعروف أن دارولوتاميد مضاد غير ستيرويدي لمستقبِل الأندروجين، ويُستخدم عادةً في سياق سرطان البروستاتا.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Darolutamide (ترجمة غير رسمية): «الدارولوتاميد مثبط لمستقبل الأندروجين (AR). يثبط الدارولوتاميد تنافسيًا ارتباط الأندروجين، وانتقال AR إلى النواة، والنسخ بوساطة AR. وقد أظهر مستقلب رئيسي، هو الكيتودارولوتاميد، فعالية في المختبر (in vitro) مماثلة للدارولوتاميد.» النص الأصلي بالإنجليزية: "Darolutamide is an androgen receptor (AR) inhibitor. Darolutamide competitively inhibits androgen binding, AR nuclear translocation, and AR-mediated transcription. A major metabolite, ketodarolutamide, exhibited similar in vitro activity to darolutamide." ([DailyMed: Nubeqa (darolutamide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e)، إصدار 2026-09-28؛ تاريخ الاطلاع 2026-11-20). المعروف أن دارولوتاميد مضاد غير ستيرويدي لمستقبِل الأندروجين، ويُستخدم عادةً في سياق سرطان البروستاتا.
 
 أما فرط كوليسترول الدم العائلي متماثل الألائل فينتج عن خلل في مسار مستقبِل LDL (الجينات LDLR وAPOB وPCSK9 وLDLRAP1). **لم يُحدَّد أي رابط آلي واضح** بين حصر مستقبِل الأندروجين وتحسين إزالة LDL. لذلك فإن الدرجة المرتفعة هي مخرَج حسابي من النموذج فقط، ولا يدعمها دليل بيولوجي أو سريري حالياً.
 
@@ -120,6 +120,18 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "multiple en
 |------|------|------|------|------|------|
 | 2 | الأورام الصماوية المتعددة | 0.9906 | L5 | Hold | تجربتان مرتبطتان (NCT07795177 وNCT03878524) تخصان سرطان البروستاتا ومنصات الطب الدقيق، وليس هذا المرض؛ الرابط الآلي ضعيف وغير مباشر |
 | 3 | عدوى فيروس نقص المناعة البشرية (HIV) | 0.9904 | L5 | Hold | لا يوجد نشاط مضاد للفيروسات معروف، ولا أدلة داعمة؛ يلزم تقييم التداخلات مع مضادات الفيروسات القهقرية |
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Nubeqa (darolutamide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

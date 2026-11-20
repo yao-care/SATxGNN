@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Aflibercept: الاستطباب الجديد المتوقع الحَوَل الداخلي (Esotropia) (مستوى الدليل L5). الاستطباب الأصلي: الضمور البقعي، والوذمة البقعية السكرية، وانسداد الشريان الشبكي، والنق…"
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
@@ -60,7 +60,7 @@ predicted_indications: ["esotropia"]
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً (أو غير معقول)؟
 
-بيانات آلية العمل الرسمية غير متوفرة حالياً في البيانات المجمّعة. ومع ذلك فآليته المعروفة أن أفليبرسبت يرتبط بـ VEGF-A وVEGF-B وعامل نمو المشيمة (PlGF)، فيثبّط تكوّن الأوعية المرضي وفرط نفاذية الأوعية. وعليه تعتمد استطباباته المعروفة في أمراض الشبكية والسرطان.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Aflibercept (ترجمة غير رسمية): «عامل نمو بطانة الأوعية الدموية A ‏(VEGF-A) وعامل النمو المشيمي (PlGF) هما من أفراد عائلة VEGF لعوامل تكوّن الأوعية الدموية، والتي يمكن أن تعمل كعوامل محفزة للانقسام الخلوي، وجاذبة كيميائيًا، ومزيدة لنفاذية الأوعية الدموية بالنسبة للخلايا البطانية. يعمل VEGF عبر اثنين من مستقبلات التيروزين كيناز، هما VEGFR-1 وVEGFR-2، الموجودين على سطح الخلايا البطانية. […] تعمل منتجات أفليبرسيبت كمستقبل شَرَكي ذوّاب يرتبط بـ VEGF - A وPlGF، وبذلك يمكنها تثبيط ارتباط مستقبلات VEGF النظيرة هذه وتنشيطها.» النص الأصلي بالإنجليزية: "Vascular endothelial growth factor-A (VEGF-A) and placental growth factor (PlGF) are members of the VEGF family of angiogenic factors that can act as mitogenic, chemotactic, and vascular permeability factors for endothelial cells. VEGF acts via two receptor tyrosine kinases, VEGFR-1 and VEGFR-2, present on the surface of endothelial cells. […] Aflibercept products act as a soluble decoy receptor that binds VEGF - A and PlGF, and thereby can inhibit the binding and activation of these cognate VEGF receptors." ([DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06)، إصدار 2026-10-29؛ تاريخ الاطلاع 2026-11-20). ومع ذلك فآليته المعروفة أن أفليبرسبت يرتبط بـ VEGF-A وVEGF-B وعامل نمو المشيمة (PlGF)، فيثبّط تكوّن الأوعية المرضي وفرط نفاذية الأوعية. وعليه تعتمد استطباباته المعروفة في أمراض الشبكية والسرطان.
 
 أما الحَوَل الداخلي فهو اضطراب في محاذاة العينين، وأسبابه عادةً خلل انكساري (تكيفي)، أو عصبي عضلي، أو حسّي، أو خلل في التحكم المركزي بالرؤية ثنائية العين. ولا توجد له آلية مرضية معروفة مرتبطة بـ VEGF.
 
@@ -155,7 +155,7 @@ predicted_indications: ["esotropia"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
@@ -163,6 +163,7 @@ predicted_indications: ["esotropia"]
 | 2026-11-06 | حُذف: «توضيح وضع التسويق في السعودية وأسباب إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-12 | الجدول: EYLEA 40 mg/ml solution for injection مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 | 2026-11-12 | الجدول: Eylea 40 mg/ml Solution for injection in pre-filled syringe مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 387
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Gemfibrozil: الاستطباب الجديد المتوقع التهاب المفاصل الرثياني (Rheumatoid arthritis) (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع الدهون الثلاثية في الدم (Hypertriglyceridemia)"
 monitor_inn: "GEMFIBROZIL"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
@@ -60,7 +60,7 @@ predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", 
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبناءً على المعروف، فجيمفيبروزيل ينتمي إلى فئة الفيبرات، وهو **ناهض لمستقبل PPAR-alpha**، وفاعليته في خفض الدهون الثلاثية معروفة، ويُحتمل أن تنطبق آليته على الالتهاب المناعي.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Gemfibrozil (ترجمة غير رسمية): «جمفيبروزيل عامل منظم للدهون يخفض الدهون الثلاثية في المصل وكوليسترول البروتين الدهني منخفض الكثافة جداً (VLDL)، ويرفع كوليسترول البروتين الدهني مرتفع الكثافة (HDL). وبينما قد يُلاحظ انخفاض طفيف في الكوليسترول الكلي وكوليسترول البروتين الدهني منخفض الكثافة (LDL) مع العلاج بجمفيبروزيل، فإن علاج المرضى ذوي الدهون الثلاثية المرتفعة بسبب فرط البروتينات الدهنية في الدم من النوع الرابع كثيراً ما يؤدي إلى ارتفاع كوليسترول LDL.» النص الأصلي بالإنجليزية: "Gemfibrozil is a lipid regulating agent which decreases serum triglycerides and very low density lipoprotein (VLDL) cholesterol, and increases high density lipoprotein (HDL) cholesterol. While modest decreases in total and low density lipoprotein (LDL) cholesterol may be observed with gemfibrozil therapy, treatment of patients with elevated triglycerides due to Type IV hyperlipoproteinemia often results in a rise in LDL-cholesterol." ([DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725)، إصدار 2026-11-10؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعروف، فجيمفيبروزيل ينتمي إلى فئة الفيبرات، وهو **ناهض لمستقبل PPAR-alpha**، وفاعليته في خفض الدهون الثلاثية معروفة، ويُحتمل أن تنطبق آليته على الالتهاب المناعي.
 
 تُظهر مستقبلات PPAR تأثيرات مضادة للالتهاب ومعدّلة للمناعة، منها خفض السيتوكينات الالتهابية وتعديل مسارات الخلايا التائية وFoxp3. وهذا يفسر منطقياً سبب ظهور التهاب المفاصل الرثياني في تنبؤ النموذج.
 
@@ -144,11 +144,12 @@ predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الحالة: الترخيص **ملغى**، ولا يوجد حالياً منتج ساري في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-20
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 description: "Irbesartan: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 19 على الأقل"
@@ -59,7 +59,7 @@ description: "Irbesartan: الاستطباب الجديد المتوقع Maligna
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن إيربيسارتان يحجب مستقبل AT1 للأنجيوتensin II، وقد ثبتت فعاليته في ارتفاع ضغط الدم واعتلال الكلية السكري، ومن الناحية الآلية قد ينطبق على ارتفاع ضغط الدم الكلوي الوعائي، لأن هذه الحالة تعتمد إلى حد كبير على تنشيط جهاز الرينين-أنجيوتensin.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Irbesartan (ترجمة غير رسمية): «الأنجيوتنسين II مُضيّق قوي للأوعية يتكوّن من الأنجيوتنسين I في تفاعل يُحفّزه الإنزيم المحوِّل للأنجيوتنسين (ACE، كينيناز II). والأنجيوتنسين II هو الهرمون الرئيسي الفعّال وعائيًا في نظام الرينين-أنجيوتنسين، ومكوّن مهم في الفيزيولوجيا المرضية لارتفاع ضغط الدم. […] يحجب إربيسارتان التأثيرات المُضيّقة للأوعية والمُفرِزة للألدوستيرون للأنجيوتنسين II عن طريق الارتباط الانتقائي بمستقبِل الأنجيوتنسين II من النوع AT 1 الموجود في العديد من الأنسجة (مثل العضلات الملساء الوعائية، والغدة الكظرية).» النص الأصلي بالإنجليزية: "Angiotensin II is a potent vasoconstrictor formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. […] Irbesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively binding to the AT 1 angiotensin II receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98)، إصدار 2026-08-24؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن إيربيسارتان يحجب مستقبل AT1 للأنجيوتensin II، وقد ثبتت فعاليته في ارتفاع ضغط الدم واعتلال الكلية السكري، ومن الناحية الآلية قد ينطبق على ارتفاع ضغط الدم الكلوي الوعائي، لأن هذه الحالة تعتمد إلى حد كبير على تنشيط جهاز الرينين-أنجيوتensin.
 
 غير أن هناك تحفظات مهمة. فحاصرات مستقبلات الأنجيوتensin تُمنع عمومًا أو تُستخدم بحذر شديد عند وجود تضيق في الشريان الكلوي من الجانبين، بسبب خطر الإصابة الكلوية الحادة. كما أن الاستطباب المتوقع يتداخل مع استطباب ارتفاع ضغط الدم القائم أصلًا، فلا يمثل فرصة حقيقية لإعادة توظيف الدواء.
 
@@ -128,6 +128,19 @@ description: "Irbesartan: الاستطباب الجديد المتوقع Maligna
 - استكمال بيانات آلية العمل من DrugBank.
 - دراسات سريرية أو دراسات ما قبل سريرية مباشرة على الأوعية الرئوية لتقييم استطباب ارتفاع ضغط الشريان الرئوي المرتبط بنقص الأكسجة.
 - تقييم الجدوى التنظيمية في ظل إلغاء جميع التراخيص الحالية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

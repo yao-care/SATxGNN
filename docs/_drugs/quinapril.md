@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 702
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Quinapril: الاستطباب الجديد المتوقع اعتلال الكلى الناجم عن ارتفاع الضغط الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (اضطراب ارتفاع ضغط الدم)"
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
@@ -60,7 +60,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبناءً على المعلومات المعروفة، كوينابريل من مثبطات ACE، وقد ثبتت فعاليته في ارتفاع ضغط الدم، ومن حيث الآلية قد يكون قابلاً للتطبيق في اعتلال الكلى الناتج عن ارتفاع الضغط الخبيث.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Quinapril (ترجمة غير رسمية): «يُنزع الإستر من الكينابريل فيتحول إلى المستقلب الرئيسي، الكينابريلات، وهو مثبط لنشاط ACE لدى البشر والحيوانات. وACE هو ببتيديل ثنائي الببتيداز يحفّز تحويل الأنجيوتنسين I إلى المادة المقبضة للأوعية، الأنجيوتنسين II.» النص الأصلي بالإنجليزية: "Quinapril is deesterified to the principal metabolite, quinaprilat, which is an inhibitor of ACE activity in human subjects and animals. ACE is apeptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor, angiotensin II." ([DailyMed: quinapril prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f33dbbb1-1a4a-42b0-a5c5-3ac905823206)، إصدار 2021-01-01؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، كوينابريل من مثبطات ACE، وقد ثبتت فعاليته في ارتفاع ضغط الدم، ومن حيث الآلية قد يكون قابلاً للتطبيق في اعتلال الكلى الناتج عن ارتفاع الضغط الخبيث.
 
 ينطوي هذا المرض على تنشيط منظومة الرينين-أنجيوتنسين-ألدوستيرون (RAAS)، ولذلك فإن حصر هذه المنظومة معقول من الناحية البيولوجية. ومع ذلك، فهذا امتداد للاستطباب الأصلي (ارتفاع الضغط) أكثر منه إعادة توظيف حقيقية للدواء.
 
@@ -147,11 +147,12 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «والدواء لا يملك حالياً ترخيصاً ساري المفعول في السعودية (التراخيص الاثنان ملغيان)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: quinapril prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f33dbbb1-1a4a-42b0-a5c5-3ac905823206) |
 
 <!-- review:end log -->
 

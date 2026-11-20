@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 839
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Trihexyphenidyl: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (ADHD) (مستوى الدليل L5). الاستطباب الأصلي: داء باركنسون والمتلازمات الباركنسونية وعسر التوتر (بحسب الرسم المعرفي…"
 monitor_inn: "TRIHEXYPHENIDYL"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "Rasmussen subacute encephalitis", "PLA2G6-associated neurodegeneration", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "myelitis", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
@@ -59,7 +59,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعروف عن هذا الدواء، فهو مضاد مسكاريني مركزي (يفضّل المستقبل M1) يعدّل التوازن بين الجهازين الكولينيني والدوبامينيني في الجسم المخطط (الستريatum)، وقد ثبتت فائدته في الأعراض الباركنسونية وعسر التوتر.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Trihexyphenidyl (ترجمة غير رسمية): «ترايهيكسيفينيديل هيدروكلوريد هو ملح البيبيريدين المستبدل، 3-(1-بيبيريديل)-1-فينيل حلقي الهكسيل-1-بروبانول هيدروكلوريد، الذي يمارس تأثيراً مثبطاً مباشراً على الجهاز العصبي اللاودي. كما أن له تأثيراً مرخياً على العضلات الملساء؛ يُمارَس مباشرةً على النسيج العضلي نفسه وبشكل غير مباشر من خلال تأثير مثبط على الجهاز العصبي اللاودي.» النص الأصلي بالإنجليزية: "Trihexyphenidyl Hydrochloride is the substituted piperidine salt, 3-(1-piperidyl)- 1-phenylcyclohexyl-1-propanol hydrochloride, which exerts a direct inhibitory effect upon the parasympathetic nervous system. It also has a relaxing effect on smooth musculature; exerted both directly upon the muscle tissue itself and indirectly through an inhibitory effect upon the parasympathetic nervous system." ([DailyMed: trihexyphenidyl hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60ef86c-b8b6-4530-baaf-d4671ce961af)، إصدار 2026-07-23؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن هذا الدواء، فهو مضاد مسكاريني مركزي (يفضّل المستقبل M1) يعدّل التوازن بين الجهازين الكولينيني والدوبامينيني في الجسم المخطط (الستريatum)، وقد ثبتت فائدته في الأعراض الباركنسونية وعسر التوتر.
 
 ينطوي اضطراب ADHD على خلل في النقل الدوباميني والكولينيني، ومن هنا ينشأ ارتباط آلي محتمل لكنه غير مثبت. والمنشور الوحيد المسترجع (PMID 21506147) يتناول اضطراب العرّات الأولي المصاحب لعسر التوتر، وهو نمط حركي/نمائي عصبي قريب، لكنه لم يختبر تريهكسيفينيديل في ADHD.
 
@@ -141,13 +141,14 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كلا الترخيصين ملغى، ولا يوجد حالياً ترخيص ساري» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «والدواء بلا ترخيص ساري في المملكة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «التحقق من الوضع التنظيمي بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: trihexyphenidyl hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60ef86c-b8b6-4530-baaf-d4671ce961af) |
 
 <!-- review:end log -->
 

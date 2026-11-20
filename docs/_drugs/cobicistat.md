@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "cobicistat"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Cobicistat: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب لدى القطط (feline acquired immunodeficiency syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -58,7 +58,7 @@ description: "Cobicistat: الاستطباب الجديد المتوقع متل�
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-كوبيسيستات مثبّط CYP3A قائم على الآلية (mechanism-based)، ويُستخدم لرفع التعرض الدوائي لمضادات الفيروسات القهقرية مثل إلفيتيغرافير وأتازانافير ودارونافير. وهو **لا يملك نشاطاً مضاداً للفيروسات بحد ذاته**. بيانات آلية العمل التفصيلية غير متوفرة في المعطيات المجمّعة لهذا التقرير.
+كوبيسيستات مثبّط CYP3A قائم على الآلية (mechanism-based)، ويُستخدم لرفع التعرض الدوائي لمضادات الفيروسات القهقرية مثل إلفيتيغرافير وأتازانافير ودارونافير. وهو **لا يملك نشاطاً مضاداً للفيروسات بحد ذاته**. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cobicistat (ترجمة غير رسمية): «كوبيسيستات هو مثبط قائم على الآلية للسيتوكروم P450 3A ‏(CYP3A). يؤدي تثبيط الاستقلاب بوساطة CYP3A بواسطة كوبيسيستات إلى زيادة التعرض الجهازي لركيزتَي CYP3A أتازانافير ودارونافير.» النص الأصلي بالإنجليزية: "Cobicistat is a mechanism-based inhibitor of cytochrome P450 3A (CYP3A). Inhibition of CYP3A-mediated metabolism by cobicistat increases the systemic exposure of CYP3A substrates atazanavir and darunavir." ([DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010)، إصدار 2026-02-10؛ تاريخ الاطلاع 2026-11-20).
 
 الدرجة المرتفعة (0.9992) تعكس على الأرجح قرب الدواء في شبكة العلاقات من فيروس نقص المناعة البشرية والأمراض الفيروسية البطيئة (Lentivirus) المشابهة. فيروس نقص المناعة لدى القطط (FIV) من هذه العائلة، وبعض خصائص البروتياز لديه تشبه فيروس HIV-1، لذا يمكن نظرياً تصوّر نظام علاجي معزَّز يضم مثبّط بروتياز أو إنتغراز. لكن كوبيسيستات وحده لا يُتوقع أن يكون له تأثير مضاد للفيروس، ولم تُقدَّم أي بيانات بيطرية.
 
@@ -105,6 +105,19 @@ description: "Cobicistat: الاستطباب الجديد المتوقع متل�
 - بيانات آلية العمل التفصيلية.
 - الحصول على تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة.
 - تقييم جدوى هذا الاستخدام في الطب البيطري والجهة التنظيمية المعنية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

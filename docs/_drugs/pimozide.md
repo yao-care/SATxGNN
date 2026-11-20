@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 658
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Pimozide: الاستطباب الجديد المتوقع هوس نتف الشعر (Trichotillomania) (مستوى الدليل L3). الاستطباب الأصلي: متلازمة توريت (حسب شبكة المعرفة المعرفية في TxGNN، إذ لا يوجد نص استط…"
 monitor_inn: "PIMOZIDE"
 predicted_indications: ["trichotillomania", "manic bipolar affective disorder", "insomnia (disease)", "major affective disorder", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "Malan overgrowth syndrome", "attention deficit hyperactivity disorder, inattentive type", "agoraphobia", "benign paroxysmal torticollis of infancy"]
@@ -60,7 +60,7 @@ predicted_indications: ["trichotillomania", "manic bipolar affective disorder", 
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-تتوفر حالياً بيانات تفصيلية عن آلية العمل غير متاحة في البيانات المجمّعة لهذا التقرير. استناداً إلى المعروف عن الدواء، فإن بيموزيد مضاد لمستقبلات الدوبامين D2، وقد ثبتت فعاليته في متلازمة توريت، وقد ينطبق ميكانيكياً على هوس نتف الشعر.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Pimozide (ترجمة غير رسمية): «التأثيرات الديناميكية الدوائية أقراص البيموزايد منتج دوائي مضاد للذهان فعّال عن طريق الفم، يشترك مع مضادات الذهان الأخرى في القدرة على حصر المستقبلات الدوبامينية على العصبونات في الجهاز العصبي المركزي. وعلى الرغم من أن طريقة عمله الدقيقة لم تُحدَّد، يُعتقد أن قدرة البيموزايد على كبت العرّات الحركية والصوتية في اضطراب توريت هي نتيجة لنشاطه الحاصر للدوبامين.» النص الأصلي بالإنجليزية: "Pharmacodynamic Actions Pimozide tablets, are an orally active antipsychotic drug product which shares with other antipsychotics the ability to blockade dopaminergic receptors on neurons in the central nervous system. Although its exact mode of action has not been established, the ability of pimozide to suppress motor and phonic tics in Tourette’s Disorder is thought to be a function of its dopaminergic blocking activity." ([DailyMed: pimozide prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b079e2-a1f7-4a93-8685-d60a4d7c1280)، إصدار 2026-08-12؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف عن الدواء، فإن بيموزيد مضاد لمستقبلات الدوبامين D2، وقد ثبتت فعاليته في متلازمة توريت، وقد ينطبق ميكانيكياً على هوس نتف الشعر.
 
 يشترك هوس نتف الشعر ومتلازمة توريت واضطراب الوسواس القهري في تداخل ظاهري واستجابة علاجية متشابهة. ويُعتقد أن اختلال التنظيم الدوباميني يساهم في سلوك نتف الشعر المتكرر والاعتيادي. وقد أفادت دراسة عام 1992 (PMID 1532960) بفائدة إضافة جرعة منخفضة من بيموزيد إلى مثبطات إعادة امتصاص السيروتونين، كما تناقش مراجعات الأمراض الجلدية استخدام مضادات الذهان في الاضطرابات النفسية الجلدية.
 
@@ -137,12 +137,13 @@ predicted_indications: ["trichotillomania", "manic bipolar affective disorder", 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الترخيص في السعودية ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «إذ لا يوجد حالياً ترخيص ساري» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: pimozide prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b079e2-a1f7-4a93-8685-d60a4d7c1280) |
 
 <!-- review:end log -->
 

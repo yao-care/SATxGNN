@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Hyoscyamine: الاستطباب الجديد المتوقع التهاب المعدة والاثني عشر (gastroduodenitis) (مستوى الدليل L5). الاستطباب الأصلي: داء القرحة الهضمية"
 monitor_inn: "HYOSCYAMINE"
 predicted_indications: ["gastroduodenitis"]
@@ -60,7 +60,7 @@ predicted_indications: ["gastroduodenitis"]
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-الهيوسيامين مضاد تنافسي غير انتقائي للمستقبلات المسكارينية. ولا تتوفر حالياً بيانات تفصيلية عن آلية العمل في المعطيات المجمّعة لهذا التقرير، لذا فإن ما يلي مستنتج من الصيدلة العامة لمضادات المسكارين وليس من أدلة مقدَّمة.
+الهيوسيامين مضاد تنافسي غير انتقائي للمستقبلات المسكارينية. وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Hyoscyamine (ترجمة غير رسمية): «يُثبّط كبريتات الهيوسيامين على نحو نوعي تأثيرات الأسيتيل كولين على البنى المُعصَّبة بالأعصاب الكولينية التالية للعقد، وعلى العضلات الملساء التي تستجيب للأسيتيل كولين ولكنها تفتقر إلى التعصيب الكوليني. وتوجد هذه المستقبِلات الكولينية المحيطية في الخلايا المُستجيبة الذاتية للعضلات الملساء، وعضلة القلب، والعقدة الجيبية الأذينية، والعقدة الأذينية البطينية، والغدد خارجية الإفراز.» النص الأصلي بالإنجليزية: "Hyoscyamine sulfate inhibits specifically the actions of acetylcholine on structures innervated by postganglionic cholinergic nerves and on smooth muscles that respond to acetylcholine but lack cholinergic innervation. These peripheral cholinergic receptors are present in the autonomic effector cells of the smooth muscle, cardiac muscle, the sinoatrial node, the atrioventricular node, and the exocrine glands." ([DailyMed: Nulev (hyoscyamine sulfate) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ae2a78b2-b811-11e2-9e96-0800200c9a66)، إصدار 2025-07-15؛ تاريخ الاطلاع 2026-11-20).
 
 يؤدي حصر المستقبلات المسكارينية (وخاصة M3) في الجهاز الهضمي إلى تقليل إفراز حمض المعدة وتشنج العضلات الملساء وحركة الأمعاء. وهذا ذو صلة محتملة بالتهاب المعدة والاثني عشر، الذي يتضمن التهاباً مخاطياً مرتبطاً بالحمض مع تقلصات وألم.
 
@@ -137,11 +137,12 @@ predicted_indications: ["gastroduodenitis"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «تقييم الجدوى التنظيمية والتجارية في ضوء إلغاء الترخيص الوحيد» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Nulev (hyoscyamine sulfate) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ae2a78b2-b811-11e2-9e96-0800200c9a66) |
 
 <!-- review:end log -->
 

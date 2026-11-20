@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 521
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "LURASIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -60,7 +60,7 @@ description: "Lurasidone: الاستطباب الجديد المتوقع Retinal
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. استناداً إلى المعروف، ينتمي لوراسيدون إلى مضادات الذهان غير النمطية، ويُعتقد أن تأثيره ناتج عن مضادة مستقبلات D2 و5-HT2A مع نشاط على مستقبلات 5-HT7 و5-HT1A. وقد ثبتت فعاليته في الاضطراب ثنائي القطب (الاكتئاب) وفي الفصام، لذا قد تكون هذه الآلية قابلة للتطبيق على أعراض الهوس.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lurasidone (ترجمة غير رسمية): «آلية عمل اللوراسيدون في علاج الفصام والاكتئاب ثنائي القطب غير واضحة. ومع ذلك، قد تكون فعاليته في الفصام والاكتئاب ثنائي القطب متواسطة عبر مزيج من التضاد المركزي لمستقبلات الدوبامين D 2 ومستقبلات السيروتونين من النوع 2 (5HT 2A ).» النص الأصلي بالإنجليزية: "The mechanism of action of lurasidone in the treatment of schizophrenia and bipolar depression is unclear. However, its efficacy in schizophrenia and bipolar depression could be mediated through a combination of central dopamine D 2 and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8)، إصدار 2025-01-31؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف، ينتمي لوراسيدون إلى مضادات الذهان غير النمطية، ويُعتقد أن تأثيره ناتج عن مضادة مستقبلات D2 و5-HT2A مع نشاط على مستقبلات 5-HT7 و5-HT1A. وقد ثبتت فعاليته في الاضطراب ثنائي القطب (الاكتئاب) وفي الفصام، لذا قد تكون هذه الآلية قابلة للتطبيق على أعراض الهوس.
 
 يجب الانتباه إلى أن الاستطباب الجديد المتوقع يتداخل مع الاستطباب الأصلي نفسه (الاضطراب ثنائي القطب). ويرجّح أن الدرجة العالية لـ TxGNN ناتجة عن وجود هذا الاستطباب القائم، ولا تمثل دليلاً مستقلاً على فعالية الدواء في الهوس الحاد. كما أن الدراسات المتاحة تركز على اكتئاب ثنائي القطب والعلاج الوقائي، لا على الهوس الحاد.
 
@@ -147,11 +147,12 @@ description: "Lurasidone: الاستطباب الجديد المتوقع Retinal
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح حالة التراخيص الملغاة ووضع الدواء التسويقي في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8) |
 
 <!-- review:end log -->
 

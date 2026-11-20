@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 201
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Clofarabine: الاستطباب الجديد المتوقع سرطان الدم النقوي (Myeloid Leukemia) (مستوى الدليل L1). الاستطباب الأصلي: سرطان الدم الليمفاوي الحاد (ALL)، ولا يتوفر نص استطباب في تراخيص هيئة…"
 monitor_inn: "CLOFARABINE"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
@@ -58,7 +58,7 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "n
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في السجل الأساسي. واستناداً إلى الفارماكولوجيا العامة، يُعد كلوفارابين مثيلاً نيوكليوزيدياً بيورينياً من الجيل الثاني، صُمم ليجمع أفضل خصائص فludarabine وcladribine. يثبّط ثلاثي فوسفاته الأيضي إنزيم ريبونوكليوتيد ريداكتاز وبوليميراز الحمض النووي، ويُخلّ بسلامة الميتوكوندريا، فيحفّز موت الخلايا المبرمج في الخلايا الأرومية الانقسامية والساكنة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Clofarabine (ترجمة غير رسمية): «يُستقلب كلوفارابين داخل الخلايا بشكل متتابع إلى المستقلب أحادي الفوسفات في الموضع 5’ بواسطة إنزيم ديوكسي سيتيدين كيناز، ثم بواسطة إنزيمات أحادي وثنائي فوسفو-كيناز إلى المستقلب النشط ثلاثي الفوسفات في الموضع 5’. يتمتع كلوفارابين بألفة لإنزيم الفسفرة المنشِّط، ديوكسي سيتيدين كيناز، تساوي أو تفوق ألفة الركيزة الطبيعية، ديوكسي سيتيدين.» النص الأصلي بالإنجليزية: "Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine." ([DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873)، إصدار 2026-08-24؛ تاريخ الاطلاع 2026-11-20). واستناداً إلى الفارماكولوجيا العامة، يُعد كلوفارابين مثيلاً نيوكليوزيدياً بيورينياً من الجيل الثاني، صُمم ليجمع أفضل خصائص فludarabine وcladribine. يثبّط ثلاثي فوسفاته الأيضي إنزيم ريبونوكليوتيد ريداكتاز وبوليميراز الحمض النووي، ويُخلّ بسلامة الميتوكوندريا، فيحفّز موت الخلايا المبرمج في الخلايا الأرومية الانقسامية والساكنة.
 
 هذه الآلية مشتركة بين سرطان الدم الليمفاوي الحاد وسرطان الدم النقوي، فكلاهما ينشأ من خلايا أرومية دموية سريعة التكاثر. وهذا يجعل امتداد الاستخدام إلى الأورام النقوية معقولاً من الناحية الدوائية، وهو ما يدعمه استخدامه فعلياً خارج الاستطباب المرخّص في سرطان الدم النقوي الحاد (AML) لدى البالغين.
 
@@ -168,13 +168,14 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "n
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كلا الترخيصين ملغى، ولا يوجد حالياً منتج ساري المفعول في السوق السعودي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «السمّية المهمة (كبدية وكلوية وتسرب شعري وتثبيط نخاعي) وعدم وجود ترخيص ساري في السعودية يستدعيان ضوابط» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح المسار التنظيمي في السعودية بعد إلغاء الترخيصين» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873) |
 
 <!-- review:end log -->
 

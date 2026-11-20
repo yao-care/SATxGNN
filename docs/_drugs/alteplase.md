@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Alteplase: الاستطباب الجديد المتوقع نقص العامل المساعد الهيبارين 2 (مستوى الدليل L5). الاستطباب الأصلي: احتشاء عضلة القلب، وانسداد الشريان التاجي بالخثرة، والانسداد الرئوي،…"
 monitor_inn: "ALTEPLASE"
 predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
@@ -58,7 +58,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary ar
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. بحسب المعلومات المعروفة، ألتيبلاز منشّط بلازمينوجين نسيجي يحوّل البلازمينوجين إلى بلازمين فيحلل الفيبرين في الخثرة. وقد ثبتت فعاليته في احتشاء عضلة القلب، ويمكن نظرياً أن ينطبق الآلية نفسها على احتشاء عضلة القلب الخلفي الجانبي.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Alteplase (ترجمة غير رسمية): «الألتيبلاز إنزيم (سيرين بروتياز) يتمتع بخاصية تحويل البلازمينوجين إلى بلازمين بصورة معززة بالفيبرين. ويُحدث تحويلًا محدودًا للبلازمينوجين في غياب الفيبرين. يرتبط الألتيبلاز بالفيبرين في الخثرة ويحوّل البلازمينوجين المحتجز إلى بلازمين، وبذلك يبدأ انحلال الفيبرين الموضعي.» النص الأصلي بالإنجليزية: "Alteplase is an enzyme (serine protease) that has the property of fibrin-enhanced conversion of plasminogen to plasmin. It produces limited conversion of plasminogen in the absence of fibrin. Alteplase binds to fibrin in a thrombus and converts the entrapped plasminogen to plasmin, thereby initiating local fibrinolysis." ([DailyMed: Cathflo Activase (alteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91ecdef2-95ff-42dd-a31c-c8a09cab3ad9)، إصدار 2026-01-20؛ تاريخ الاطلاع 2026-11-20). بحسب المعلومات المعروفة، ألتيبلاز منشّط بلازمينوجين نسيجي يحوّل البلازمينوجين إلى بلازمين فيحلل الفيبرين في الخثرة. وقد ثبتت فعاليته في احتشاء عضلة القلب، ويمكن نظرياً أن ينطبق الآلية نفسها على احتشاء عضلة القلب الخلفي الجانبي.
 
 العلاقة بين الاستطباب الأصلي والجديد وثيقة جداً، فاحتشاء عضلة القلب الخلفي الجانبي نوع فرعي تشريحي من احتشاء عضلة القلب. وكل أنواع الاحتشاء الفرعية تشترك في السبب نفسه، وهو انسداد الشريان التاجي بخثرة. لهذا ترتفع درجة التنبؤ، لكن المنطق نفسه يعني أن ذلك ليس استطباباً جديداً بالمعنى الدقيق.
 
@@ -131,12 +131,13 @@ predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary ar
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص الوحيد المسجل ملغى، ولا يوجد حالياً ترخيص ساري لألتيبلاز في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «إذ إن الترخيص الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cathflo Activase (alteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91ecdef2-95ff-42dd-a31c-c8a09cab3ad9) |
 
 <!-- review:end log -->
 

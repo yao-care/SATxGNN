@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Imatinib: الاستطباب الجديد المتوقع ساركوما الليف القلبية (heart fibrosarcoma) (مستوى الدليل L5). الاستطباب الأصلي: الابيضاض النقوي المزمن، الأورام اللحمية المعدية المعوية (GIST)، الداء…"
 monitor_inn: "IMATINIB"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
@@ -59,7 +59,7 @@ predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventi
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن إيماتينيب يثبط كينازات BCR-ABL وKIT وPDGFR، وقد ثبتت فعاليته في أورام تعتمد على هذه المسارات، مثل الابيضاض النقوي المزمن وGIST وDFSP (الذي ينتج عن الانتقال COL1A1-PDGFB).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Imatinib (ترجمة غير رسمية): «إيماتينيب ميسيلات هو مثبّط لكيناز البروتين-التيروزين يثبّط كيناز التيروزين BCR-ABL، وهو كيناز التيروزين الشاذ البنيوي الناتج عن شذوذ كروموسوم فيلادلفيا في CML. ويثبّط إيماتينيب التكاثر ويحرّض الاستماتة في سلالات الخلايا الإيجابية لـ BCR-ABL، وكذلك في الخلايا اللوكيمية الطازجة المأخوذة من ابيضاض الدم النقوي المزمن الإيجابي لكروموسوم فيلادلفيا.» النص الأصلي بالإنجليزية: "Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leukemia." ([DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b)، إصدار 2026-07-13؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن إيماتينيب يثبط كينازات BCR-ABL وKIT وPDGFR، وقد ثبتت فعاليته في أورام تعتمد على هذه المسارات، مثل الابيضاض النقوي المزمن وGIST وDFSP (الذي ينتج عن الانتقال COL1A1-PDGFB).
 
 أما بالنسبة لساركوما الليف القلبية، فلا يوجد دليل مباشر. المنشور الوحيد المرتبط هو تعليق عام 2008 حول استطبابات جديدة لإيماتينيب (يُرجَّح أنها DFSP) ويذكر أن الأدلة الداعمة غير قوية. أي مبرر آلي هنا هو استنتاج بالقياس من تثبيط PDGFB/PDGFR في الأورام الليفية الأرومية المدفوعة بـCOL1A1-PDGFB، ولا ينطبق على ساركوما قلبية أولية دون محرك جزيئي مؤكد.
 
@@ -141,11 +141,12 @@ predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventi
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص المحلي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
 
 <!-- review:end log -->
 

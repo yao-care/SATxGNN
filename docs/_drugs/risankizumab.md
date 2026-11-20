@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 726
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Risankizumab: الاستطباب الجديد المتوقع التهاب الجلد (Dermatitis) (مستوى الدليل L2). الاستطباب الأصلي: الصدفية وشبه الصدفية"
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -60,7 +60,7 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic de
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. استناداً إلى المعروف، ريسانكيزوماب جسم مضاد بشري مثبّط للوحدة الفرعية p19 من الإنترلوكين-23 (IL-23)، وقد ثبتت فعاليته في الصدفية، وقد يكون قابلاً للتطبيق آلياً في بعض أنماط التهاب الجلد.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Risankizumab (ترجمة غير رسمية): «ريسانكيزوماب-rzaa جسم مضاد وحيد النسيلة مُؤنسَن من نوع IgG1 يرتبط انتقائيًا بالوحيدة الفرعية p19 من السيتوكين البشري IL-23 ويثبط تفاعله مع مستقبل IL-23. وIL-23 سيتوكين موجود بشكل طبيعي يشارك في الاستجابات الالتهابية والمناعية.» النص الأصلي بالإنجليزية: "Risankizumab-rzaa is a humanized IgG1 monoclonal antibody that selectively binds to the p19 subunit of human IL-23 cytokine and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858)، إصدار 2026-10-23؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف، ريسانكيزوماب جسم مضاد بشري مثبّط للوحدة الفرعية p19 من الإنترلوكين-23 (IL-23)، وقد ثبتت فعاليته في الصدفية، وقد يكون قابلاً للتطبيق آلياً في بعض أنماط التهاب الجلد.
 
 يقود محور IL-23/Th17 الالتهاب الصدفي، ويسهم كذلك في بعض الأنماط الإكزيمائية والتهابية الجلدية. أما التهاب الجلد التأتبي فتقوده أساساً الخلايا التائية المساعدة من النوع Th2، لذلك فإن الأساس الآلي لتثبيط IL-23 فيه أضعف. الأدوار الأكثر معقولية هي في التهاب الجلد ذي الميل نحو IL-23/Th17، ولدى المرضى الذين يعانون الصدفية والتهاب الجلد التأتبي معاً. وتلمّح حالة منشورة للعلاج المشترك بين دوبيلوماب وريسانكيزوماب إلى دور محدود في المرض المتداخل.
 
@@ -146,11 +146,12 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic de
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح وضع التراخيص المحلية الملغاة، وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858) |
 
 <!-- review:end log -->
 

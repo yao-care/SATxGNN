@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Ciclesonide: الاستطباب الجديد المتوقع الأكزيما التأتبية (atopic eczema) (مستوى الدليل L5). الاستطباب الأصلي: الربو، الربو الداخلي، الربو التحسسي، التهاب الأنف التحسسي، التهاب الأ…"
 monitor_inn: "CICLESONIDE"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
@@ -60,7 +60,7 @@ predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitizat
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. السيكليسونايد دواء أولي (prodrug) يتحول بفعل الإستريزات إلى المستقلب الفعّال des-ciclesonide، وهو ناهض لمستقبل الغلوكوكورتيكويد ذو تأثير مضاد للالتهاب. وقد ثبتت فعاليته في الربو والتهاب الأنف التحسسي، وهما حالتان تحسسيتان التهابيتان.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ciclesonide (ترجمة غير رسمية): «سيكليسونيد طليعة دواء تتحلمه الإنزيمات إلى مستقلب فعال دوائيًا، هو C21-desisobutyryl-ciclesonide ‏(des-ciclesonide أو RM1)، بعد الاستنشاق الفموي. ويتمتع des-ciclesonide بنشاط مضاد للالتهاب مع ألفة لمستقبلات القشرانيات السكرية أكبر بـ 120 مرة من المركب الأصلي وبـ 12 مرة من ديكساميثازون.» النص الأصلي بالإنجليزية: "Ciclesonide is a prodrug that is enzymatically hydrolyzed to a pharmacologically active metabolite, C21-desisobutyryl-ciclesonide (des-ciclesonide or RM1) following oral inhalation. Des-ciclesonide has anti-inflammatory activity with affinity for glucocorticoid receptors that is 120 times greater than the parent compound and 12 times greater than dexamethasone." ([DailyMed: Alvesco (ciclesonide) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6112fb-78ef-43cf-8ae3-36370eb45468)، إصدار 2025-02-28؛ تاريخ الاطلاع 2026-11-20). السيكليسونايد دواء أولي (prodrug) يتحول بفعل الإستريزات إلى المستقلب الفعّال des-ciclesonide، وهو ناهض لمستقبل الغلوكوكورتيكويد ذو تأثير مضاد للالتهاب. وقد ثبتت فعاليته في الربو والتهاب الأنف التحسسي، وهما حالتان تحسسيتان التهابيتان.
 
 الأكزيما التأتبية مرض جلدي التهابي تحسسي، والكورتيكوستيرويدات الموضعية أو الجهازية علاج معتمد له، لذا فالمنطق الدوائي مقبول نظرياً. ومع ذلك، فإن السيكليسونايد مُصاغ للاستنشاق أو للاستخدام الأنفي وليس للجلد، وتوافق طريق الإعطاء ما زال قيد التقييم. كما أن الدعم الحالي هو درجة التنبؤ العالية فقط، وهي ليست دليلاً سريرياً.
 
@@ -139,12 +139,13 @@ predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitizat
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وكلا الترخيصين ملغى حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح وضع الترخيص الملغى في السعودية وأسبابه» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Alvesco (ciclesonide) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6112fb-78ef-43cf-8ae3-36370eb45468) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Granisetron: الاستطباب الجديد المتوقع اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المحلية (الدواء مصنف عمومًا كمضاد …"
 monitor_inn: "GRANISETRON"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
@@ -59,7 +59,7 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 ## لماذا يُعد هذا التوقع معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمعة. وبحسب المعرفة المتاحة، فإن غرانيسيترون مضاد انتقائي لمستقبلات السيروتونين 5-HT3، وقد ثبتت فاعليته في منع القيء المرتبط بالعلاج الكيميائي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Granisetron (ترجمة غير رسمية): «غرانيسيترون هو مضاد انتقائي لمستقبلات 5-هيدروكسي تريبتامين 3 (5-HT 3 ) ذو ألفة ضئيلة أو معدومة لمستقبلات السيروتونين الأخرى، بما فيها 5-HT 1 و5-HT 1A و5-HT 1B/C و5-HT 2؛ وللمستقبلات الأدرينالية ألفا 1 أو ألفا 2 أو بيتا؛ ولمستقبلات الدوبامين D 2؛ أو لمستقبلات الهيستامين H 1؛ أو لمستقبلات البنزوديازيبين أو البيكروتوكسين أو المستقبلات الأفيونية. وتوجد مستقبلات السيروتونين من النوع 5-HT 3 محيطيًا على نهايات العصب المبهم، ومركزيًا في المنطقة الزنادية للمستقبلات الكيميائية في الباحة المنخفضة.» النص الأصلي بالإنجليزية: "Granisetron is a selective 5-hydroxytryptamine 3 (5-HT 3 ) receptor antagonist with little or no affinity for other serotonin receptors, including 5-HT 1, 5-HT 1A, 5-HT 1B/C, 5-HT 2; for alpha 1-, alpha 2-, or beta-adrenoreceptors; for dopamine-D 2; or for histamine-H 1; benzodiazepine; picrotoxin or opioid receptors. Serotonin receptors of the 5-HT 3 type are located peripherally on vagal nerve terminals and centrally in the chemoreceptor trigger zone of the area postrema." ([DailyMed: Sustol (granisetron) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7c7ffdd-8270-4030-bc1e-a1cb28a6de56)، إصدار 2026-04-30؛ تاريخ الاطلاع 2026-11-20). وبحسب المعرفة المتاحة، فإن غرانيسيترون مضاد انتقائي لمستقبلات السيروتونين 5-HT3، وقد ثبتت فاعليته في منع القيء المرتبط بالعلاج الكيميائي.
 
 الصلة بالاضطراب الثنائي القطب الهوسي تخمينية: فقد يكون للتعديل في نقل السيروتونين والدوبامين دور في تنظيم المزاج. لكن لم تُقدَّم أي أدلة سريرية أو منشورات تدعم ذلك، ودرجة TxGNN المرتفعة (0.9962) هي مجرد تنبؤ من النموذج.
 
@@ -139,12 +139,13 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حاليًا ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Sustol (granisetron) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7c7ffdd-8270-4030-bc1e-a1cb28a6de56) |
 
 <!-- review:end log -->
 

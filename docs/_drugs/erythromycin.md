@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "ERYTHROMYCIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
 description: "Erythromycin: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (punctate epithelial keratoconjunctivitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -54,7 +54,7 @@ description: "Erythromycin: الاستطباب الجديد المتوقع ال�
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-تفاصيل آلية العمل غير متاحة حالياً في البيانات المجمّعة لهذا التقرير. وبحسب المعروف عموماً، ينتمي الإريثروميسين إلى الماكروليدات التي تثبط تخليق البروتين البكتيري، ولها كذلك تأثير مضاد للالتهاب.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Erythromycin (ترجمة غير رسمية): «يعمل الإريثروميسين عن طريق تثبيط تخليق البروتين بالارتباط بالوحدات الفرعية الريبوسومية 50S للكائنات الحية الحساسة. ولا يؤثر على تخليق الأحماض النووية.» النص الأصلي بالإنجليزية: "Erythromycin acts by inhibition of protein synthesis by binding 50S ribosomal subunits of susceptible organisms. It does not affect nucleic acid synthesis." ([DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd)، إصدار 2018-12-04؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عموماً، ينتمي الإريثروميسين إلى الماكروليدات التي تثبط تخليق البروتين البكتيري، ولها كذلك تأثير مضاد للالتهاب.
 
 يرتبط هذا المرض في بعض صوره، وخاصة عند وجود التهاب الجفن والقرنية والملتحمة المزمن، بالتهاب الجفن البكتيري ومكوّن التهابي تقوده المكورات العنقودية. ومن ثم توجد صلة آلية معقولة بنشاط الإريثروميسين المضاد للبكتيريا والالتهاب.
 
@@ -106,6 +106,18 @@ description: "Erythromycin: الاستطباب الجديد المتوقع ال�
 - تحميل تحذيرات النشرة الدوائية وموانع الاستعمال من موقع هيئة الغذاء والدواء السعودية وتحليلها.
 - دراسات سريرية أو ملاحظية تختبر الإريثروميسين مباشرة في هذا المرض.
 - تقييم توافق مسار الإعطاء (عيني موضعي) مع المستحضرات المرخصة محلياً.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

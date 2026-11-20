@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Cyclopentolate: الاستطباب الجديد المتوقع متلازمة ذيل الفرس (Cauda Equina Syndrome) (مستوى الدليل L5). الاستطباب الأصلي: شلل التكيّف (Cycloplegia)"
 monitor_inn: "CYCLOPENTOLATE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
@@ -59,7 +59,7 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-تتوفر حالياً بيانات تفصيلية عن آلية العمل غير متاحة. استناداً إلى فئة الدواء، فإن سيكلوبنتولات مضاد مسكاريني (مضاد للكولين) يُستخدم موضعياً لشلل التكيّف وتوسيع الحدقة.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cyclopentolate (ترجمة غير رسمية): «يحصر هذا المستحضر المضاد للكولين استجابات العضلة العاصرة للقزحية والعضلة المسؤولة عن التكيّف في الجسم الهدبي للتحفيز الكوليني، مما يُحدث اتساع الحدقة (توسُّع الحدقة) وشلل التكيّف (شلل الجسم الهدبي). وهو يعمل بسرعة، لكن مدة تأثيره أقصر من الأتروبين.» النص الأصلي بالإنجليزية: "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the accommodative muscle of the ciliary body to cholinergic stimulation, producing pupillary dilation (mydriasis) and paralysis of accommodation (cycloplegia). It acts rapidly, but has a shorter duration than atropine." ([DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e)، إصدار 2024-06-25؛ تاريخ الاطلاع 2026-11-20). استناداً إلى فئة الدواء، فإن سيكلوبنتولات مضاد مسكاريني (مضاد للكولين) يُستخدم موضعياً لشلل التكيّف وتوسيع الحدقة.
 
 متلازمة ذيل الفرس تسبب اضطراباً في المثانة (انعدام انقباض العضلة النافضة أو احتباس البول). مضاد المسكارين لا يُتوقع أن يعالج هذه الحالة، بل قد يفاقم احتباس البول. الدرجة المرتفعة (0.9954) ناتجة عن تنبؤ قائم على الرسم المعرفي، ويُرجح أنها ناجمة عن تشارك الجيران مع أدوية مضادة للكولين أخرى. كما لا يوجد مسار معقول يربط المستحضر العيني الموضعي بتأثير علاجي جهازي.
 
@@ -128,6 +128,19 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 - تقييم توافق طريق الإعطاء (المستحضر العيني الموضعي مقابل الطرق الجهازية المطلوبة).
 - إجراء مراجعة منهجية للأدبيات وفحص سجلات التجارب للتأكد من عدم وجود أدلة.
 - النظر في الأدوية المضادة للمسكارين المعتمدة بالفعل للمثانة والقولون العصبي كبدائل أولى.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

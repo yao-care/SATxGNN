@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Caffeine: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -54,7 +54,7 @@ description: "Caffeine: الاستطباب الجديد المتوقع أمرا�
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وفق المعروف، الكافيين مضاد غير انتقائي لمستقبلات الأدينوزين (A1 وA2A وA2B وA3) ومثبط للفوسفوديستراز، ويؤثر أيضاً في مستقبلات الريانودين (RyR) ومستقبلات IP3.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Caffeine (ترجمة غير رسمية): «يرتبط الكافيين بنيوياً بالميثيل زانثينات الأخرى، الثيوفيلين والثيوبرومين. وهو مُرخٍ للعضلات الملساء القصبية، ومنبه للجهاز العصبي المركزي، ومنبه لعضلة القلب، ومدر للبول. وعلى الرغم من أن آلية عمل الكافيين في انقطاع النفس لدى الخدّج غير معروفة، فقد افتُرضت عدة آليات.» النص الأصلي بالإنجليزية: "Caffeine is structurally related to other methylxanthines, theophylline, and theobromine. It is a bronchial smooth muscle relaxant, a CNS stimulant, a cardiac muscle stimulant, and a diuretic. Although the mechanism of action of caffeine in apnea of prematurity is not known, several mechanisms have been hypothesized." ([DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a)، إصدار 2026-07-29؛ تاريخ الاطلاع 2026-11-20). وفق المعروف، الكافيين مضاد غير انتقائي لمستقبلات الأدينوزين (A1 وA2A وA2B وA3) ومثبط للفوسفوديستراز، ويؤثر أيضاً في مستقبلات الريانودين (RyR) ومستقبلات IP3.
 
 من الناحية النظرية، قد يتفاعل الكافيين مع مستقبلات المذاق المرّ (TAS2R) المعبَّر عنها في ظهارة المجاري التنفسية، وهي مرتبطة بالدفاع الفطري ووظيفة الأهداب. غير أن هذا الرابط تخميني، ولم تُجرَ دراسة تثبت فائدة الكافيين في أمراض الأنف.
 
@@ -102,6 +102,19 @@ description: "Caffeine: الاستطباب الجديد المتوقع أمرا�
 - تحديد المرض الأنفي المستهدف بدقة، إذ إن "أمراض التجويف الأنفي" فئة واسعة.
 - الحصول على تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة لدى هيئة الغذاء والدواء السعودية.
 - تقييم سلامة الإعطاء الأنفي والمخاطر القلبية الوعائية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

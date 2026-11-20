@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Crizotinib: الاستطباب الجديد المتوقع الورم الليفي اللثوي (fibromatosis, gingival) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الرئة غير صغير الخلايا / سرطان الرئة (من بيانات الرسم المعرفي،…"
 monitor_inn: "CRIZOTINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -60,7 +60,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعرفة المتاحة، فإن كريزوتينيب مثبِّط متعدد الأهداف لمستقبلات التيروزين كيناز (ALK وROS1 وMET)، وقد ثبتت فعاليته في سرطان الرئة غير صغير الخلايا الموجب لـ ALK أو ROS1.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Crizotinib (ترجمة غير رسمية): «كريزوتينيب مثبط لكينازات التيروزين المستقبِلية بما فيها ALK، ومستقبِل عامل نمو الخلايا الكبدية (HGFR، c-Met)، وROS1 (c-ros)، وRecepteur d'Origine Nantais (RON). يمكن أن تؤثر الانتقالات الصبغية على جين ALK، مما يؤدي إلى التعبير عن بروتينات اندماجية مُسرطِنة.» النص الأصلي بالإنجليزية: "Crizotinib is an inhibitor of receptor tyrosine kinases including ALK, Hepatocyte Growth Factor Receptor (HGFR, c-Met), ROS1 (c-ros), and Recepteur d'Origine Nantais (RON). Translocations can affect the ALK gene resulting in the expression of oncogenic fusion proteins." ([DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7)، إصدار 2026-10-29؛ تاريخ الاطلاع 2026-11-20). وبحسب المعرفة المتاحة، فإن كريزوتينيب مثبِّط متعدد الأهداف لمستقبلات التيروزين كيناز (ALK وROS1 وMET)، وقد ثبتت فعاليته في سرطان الرئة غير صغير الخلايا الموجب لـ ALK أو ROS1.
 
 أما تضخم اللثة الليفي الوراثي فهو اضطراب نسيجي ليفي غير ورمي في الغالب، ولم تُثبت أي علاقة مرجَّحة بين تثبيط ALK/ROS1/MET وآلية هذا المرض. الدرجة المرتفعة لنموذج TxGNN (الترتيب 3831) تعكس نمطاً مستخلصاً من الرسم المعرفي فقط، ولا تشكّل دليلاً سريرياً أو آلياتياً.
 
@@ -148,12 +148,13 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كلا الترخيصين بحالة **ملغى**، ولا يوجد حالياً ترخيص ساري المفعول في السوق السعودي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7) |
 
 <!-- review:end log -->
 

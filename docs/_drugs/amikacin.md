@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Amikacin: الاستطباب الجديد المتوقع الحمى نظيرة التيفية (Paratyphoid fever) (مستوى الدليل L5). الاستطباب الأصلي: العدوى البكتيرية (الالتهاب الرئوي البكتيري، عدوى الزائفة الزنجارية، ا…"
 monitor_inn: "AMIKACIN"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
@@ -60,7 +60,7 @@ predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate ep
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-حاليًا لا تتوفر بيانات تفصيلية عن آلية العمل. وبناءً على المعلومات المعروفة، فالأميكاسين من فئة الأمينوغليكوزيدات ذات النشاط الواسع ضد الجراثيم سالبة الغرام، وقد ثبتت فعاليته في عدوى سالبة الغرام، ومن الناحية النظرية قد ينطبق على العدوى بسلالات السالمونيلا نظيرة التيفية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Amikacin (ترجمة غير رسمية): «يرتبط أميكاسين، وهو من الأمينوغليكوزيدات، بالريبوسوم بدائي النواة، مما يثبط تخليق البروتين في البكتيريا الحساسة. وهو مبيد للجراثيم في المختبر ضد البكتيريا موجبة الغرام وسالبة الغرام.» النص الأصلي بالإنجليزية: "Amikacin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria." ([DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890)، إصدار 2026-07-27؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، فالأميكاسين من فئة الأمينوغليكوزيدات ذات النشاط الواسع ضد الجراثيم سالبة الغرام، وقد ثبتت فعاليته في عدوى سالبة الغرام، ومن الناحية النظرية قد ينطبق على العدوى بسلالات السالمونيلا نظيرة التيفية.
 
 غير أن هناك عائقًا مهمًا: الأمينوغليكوزيدات تخترق الخلايا بصعوبة، بينما تعيش السالمونيلا داخل البلاعم، ولذلك فهي عمومًا غير فعالة سريريًا ضد هذه العدوى حتى لو أظهرت حساسية في المختبر. والعلاج المعياري يعتمد على الفلوروكينولونات أو الأزيثروميسين أو السيفالوسبورينات من الجيل الثالث.
 
@@ -139,11 +139,12 @@ predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate ep
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع التراخيص المحلية مُلغاة حاليًا» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890) |
 
 <!-- review:end log -->
 

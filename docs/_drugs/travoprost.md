@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 832
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
 description: "Travoprost: الاستطباب الجديد المتوقع Visceral calciphylaxis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -61,7 +61,7 @@ description: "Travoprost: الاستطباب الجديد المتوقع Viscera
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. ومن المعروف أن ترافوبروست ناهض لمستقبلات FP (بروستاجلاندين F2-ألفا)، ويخفض ضغط العين أساساً بزيادة التصريف عبر المسار العنبي الصلبي، ولديه خصائص فعالة على الأوعية (ومنها احمرار الملتحمة كأثر جانبي شائع).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Travoprost (ترجمة غير رسمية): «الحمض الحر لترافوبروست، وهو نظير للبروستاغلاندين، ناهض انتقائي لمستقبلات البروستانويد FP، ويُعتقد أنه يخفض IOP عن طريق زيادة التدفق الخارجي العنبي الصلبوي. والآلية الدقيقة للعمل غير معروفة في الوقت الحالي.» النص الأصلي بالإنجليزية: "Travoprost free acid, a prostaglandin analog is a selective FP prostanoid receptor agonist, which is believed to reduce IOP by increasing uveoscleral outflow. The exact mechanism of action is unknown at this time." ([DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5)، إصدار 2026-09-28؛ تاريخ الاطلاع 2026-11-20). ومن المعروف أن ترافوبروست ناهض لمستقبلات FP (بروستاجلاندين F2-ألفا)، ويخفض ضغط العين أساساً بزيادة التصريف عبر المسار العنبي الصلبي، ولديه خصائص فعالة على الأوعية (ومنها احمرار الملتحمة كأثر جانبي شائع).
 
 التداخل بين «الاحمرار» و«الأوعية» في الأدبيات هو على الأرجح سبب ارتباط الدواء بأمراض الأوعية الدموية في الرسم المعرفي، وهو تطابق في الكلمات المفتاحية وليس دليلاً دوائياً. كما أن التعرض الجهازي بعد الاستعمال العيني الموضعي ضئيل، فلا يوجد مبرر آلي واضح لاستعماله في أمراض الأوعية الجهازية. أما بقية التنبؤات (مثل متلازمات مخرج الصدر التي هي أساساً اضطرابات انضغاط ميكانيكي) فلا تدعمها أي آلية معروفة.
 
@@ -133,6 +133,19 @@ description: "Travoprost: الاستطباب الجديد المتوقع Viscera
 - استكمال بيانات آلية العمل من DrugBank لتحليل الصلة الآلية.
 - توضيح مدى ملاءمة طريق الإعطاء (قطرة عين موضعية مقابل الإعطاء الجهازي المطلوب لأمراض الأوعية).
 - إجراء دراسات ما قبل سريرية أو آلية تثبت وجود صلة دوائية بين مستقبلات FP وأحد الأمراض المتنبأ بها قبل النظر في أي تجربة سريرية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

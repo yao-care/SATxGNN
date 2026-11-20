@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 796
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Temsirolimus: الاستطباب الجديد المتوقع الساركوما الشحمية (Liposarcoma) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الخلايا الكلوية، ليمفوما الخلايا الوعائية (Mantle cell lymphoma…"
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
@@ -60,11 +60,11 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarc
 
 ## لماذا يُعدّ هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في السجل المتاح. واستنادًا إلى المعرفة الدوائية المعروفة، فإن تيمسيروليموس مثبّط لـ mTOR (نظير للرابامايسين)، وقد ثبتت فعاليته في سرطان الخلايا الكلوية وليمفوما الخلايا الوعائية، ومن الناحية الآلية قد يكون قابلًا للتطبيق على الساركوما الشحمية.
+آلية العمل مقتبسة أعلاه مع مصدرها ([DailyMed](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736)). واستنادًا إلى المعرفة الدوائية المعروفة، فإن تيمسيروليموس مثبّط لـ mTOR (نظير للرابامايسين)، وقد ثبتت فعاليته في سرطان الخلايا الكلوية وليمفوما الخلايا الوعائية، ومن الناحية الآلية قد يكون قابلًا للتطبيق على الساركوما الشحمية.
 
 مسار PI3K/AKT/mTOR كثيرًا ما يكون نشطًا في ساركومات الأنسجة الرخوة، بما فيها الساركوما الشحمية. كما أن الساركوما الشحمية متمايزة النمط وغير المتمايزة تحمل تضخيمًا في MDM2/CDK4 وتُظهر في كثير من الأحيان نشاطًا في مسار PI3K/AKT/mTOR، كما تغذّي إشارات IGF-1R مسار mTOR. وهذا يوفّر مبررًا بيولوجيًا مقبولًا لتثبيط mTOR، منفردًا أو مع حصار IGF-1R (سيكسيوتوماب) أو مع العلاج الكيميائي (دوكسوروبيسين الشحمي).
 
-يجدر التنبيه إلى أن هذا الربط يعتمد على الصيدلة المعروفة للدواء وليس على سجل آلية العمل، وهو غير متوفر في البيانات المجمّعة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Temsirolimus (ترجمة غير رسمية): «تيمسيروليموس مثبط لـ mTOR (الهدف الثديي للراباميسين). يرتبط تيمسيروليموس ببروتين داخل الخلية (FKBP-12)، ويثبط معقد البروتين والدواء نشاط mTOR الذي يتحكم في انقسام الخلايا. أدى تثبيط نشاط mTOR إلى توقف النمو في الطور G1 في الخلايا الورمية المعالجة.» النص الأصلي بالإنجليزية: "Temsirolimus is an inhibitor of mTOR (mammalian target of rapamycin). Temsirolimus binds to an intracellular protein (FKBP-12), and the protein-drug complex inhibits the activity of mTOR that controls cell division. Inhibition of mTOR activity resulted in a G1 growth arrest in treated tumor cells." ([DailyMed: temsirolimus prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736)، إصدار 2020-03-30؛ تاريخ الاطلاع 2026-11-20).
 
 ---
 
@@ -150,12 +150,14 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarc
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الترخيص السعودي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «تقييم الوضع التنظيمي والتوافر التجاري للدواء في السعودية بعد إلغاء الترخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: temsirolimus prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: temsirolimus prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736) |
 
 <!-- review:end log -->
 

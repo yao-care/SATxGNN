@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 549
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Methoxy Polyethylene Glycol-Epoetin Beta: الاستطباب الجديد المتوقع اضطراب إفراز الصفيحات الأولي (primary release disorder of platelets) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخ…"
 monitor_inn: "METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
@@ -59,7 +59,7 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 
 ## لماذا قد يبدو هذا التنبؤ معقولًا (أو لا)؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن الدواء منبّه لمستقبل الإريثروبويتين (EPO) ويُستخدم في تحفيز تكوين الكريات الحمراء، ولا توجد صلة آلية واضحة بين تنشيط مستقبل EPO وعيوب إفراز حبيبات الصفيحات.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Methoxy Polyethylene Glycol-Epoetin Beta (ترجمة غير رسمية): «Mircera منشط لمستقبلات الإريثروبويتين ذو نشاط أكبر في الجسم الحي وعمر نصفي أطول، على خلاف الإريثروبويتين. والإريثروبويتين، وهو عامل نمو أولي لتطور الخلايا الحمراء، يُنتَج في الكلية ويُطلَق في مجرى الدم استجابةً لنقص الأكسجة.» النص الأصلي بالإنجليزية: "Mircera is an erythropoietin receptor activator with greater activity in vivo as well as increased half-life, in contrast to erythropoietin. A primary growth factor for erythroid development, erythropoietin is produced in the kidney and released into the bloodstream in response to hypoxia." ([DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88)، إصدار 2026-08-14؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن الدواء منبّه لمستقبل الإريثروبويتين (EPO) ويُستخدم في تحفيز تكوين الكريات الحمراء، ولا توجد صلة آلية واضحة بين تنشيط مستقبل EPO وعيوب إفراز حبيبات الصفيحات.
 
 درجة TxGNN المرتفعة (0.9936) مبنية على القرب في الشبكة المعرفية البيانية، وغالبًا ما تعكس قربًا في شبكة الإرقاء (hemostasis) وليس تأثيرًا علاجيًا فعليًا. كما لم يتم التحقق من التشابه مع الاستطباب الأصلي.
 
@@ -141,12 +141,13 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «والدواء غير مرخص حاليًا في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «وتوضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88) |
 
 <!-- review:end log -->
 

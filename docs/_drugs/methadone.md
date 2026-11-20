@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 544
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Methadone: الاستطباب الجديد المتوقع متلازمة توريت (Tourette syndrome) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص"
 monitor_inn: "METHADONE"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -59,7 +59,7 @@ predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropri
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا في البيانات المجمّعة. ومن المعروف أن الميثادون ناهض لمستقبلات مو الأفيونية ومضاد لمستقبلات NMDA. وقد افتُرض أن تعديل المسارات الدوبامينية المخططية والأفيونات الذاتية يؤثر على ظهور اللازمات العصبية (tics).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Methadone (ترجمة غير رسمية): «هيدروكلوريد الميثادون ناهض لمستقبلات ميو؛ وهو أفيوني اصطناعي ذو تأثيرات متعددة مماثلة نوعيًا لتأثيرات المورفين، وأبرزها ما يشمل الجهاز العصبي المركزي والأعضاء المكونة من العضلات الملساء. وتختلف متلازمة الانسحاب من الميثادون، رغم تشابهها نوعيًا مع متلازمة الانسحاب من المورفين، في أن بدايتها أبطأ، ومسارها أطول، وأعراضها أقل شدة.» النص الأصلي بالإنجليزية: "Methadone hydrochloride is a mu-agonist; a synthetic opioid with multiple actions qualitatively similar to those of morphine, the most prominent of which involves the central nervous system and organs composed of smooth muscle. The methadone withdrawal syndrome, although qualitatively similar to that of morphine, differs in that the onset is slower, the course is more prolonged, and the symptoms are less severe." ([DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05)، إصدار 2026-08-04؛ تاريخ الاطلاع 2026-11-20). ومن المعروف أن الميثادون ناهض لمستقبلات مو الأفيونية ومضاد لمستقبلات NMDA. وقد افتُرض أن تعديل المسارات الدوبامينية المخططية والأفيونات الذاتية يؤثر على ظهور اللازمات العصبية (tics).
 
 الصلة بين الاستطباب الأصلي والجديد غير واضحة، لأن الاستطباب الأصلي غير متوفر. أما من الناحية الآلية، فتشير ورقة عام 2007 (PMID 17102981) إلى أن الأدوية الأفيونية فعّالة أيضًا في الوسواس القهري المقاوم للعلاج وفي متلازمة توريت، وأن السلوك المرتبط بمستقبلات 5-HT2A يرتبط باللازمات والسلوكيات النمطية. كما وصف تقرير عام 1992 علاج اضطراب توريت بالميثادون.
 
@@ -144,6 +144,19 @@ predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropri
 - تحديد الاستطباب الأصلي المعتمد.
 - مراجعة منهجية لأدبيات الأفيونات في متلازمة توريت والوسواس القهري، وتقييم جدوى تجربة سريرية استكشافية صغيرة مع خطة صارمة لمراقبة QT وخطر الاعتماد.
 - النظر في الاستطباب الأعلى دعمًا نسبيًا (الهوس، L4) بالتوازي مع توريت، مع استبعاد النزلة الباردة والصداع العنقودي لعدم وجود دعم أو لوجود دليل على الضرر.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

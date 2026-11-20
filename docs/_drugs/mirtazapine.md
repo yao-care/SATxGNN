@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 564
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Mirtazapine: الاستطباب الجديد المتوقع متلازمة أودو ومتغيراتها (مستوى الدليل L5). الاستطباب الأصلي: الاكتئاب أحادي القطب، الاكتئاب الداخلي المنشأ، اضطراب الاكتئاب الجسيم…"
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
@@ -58,7 +58,7 @@ predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intell
 
 ## لماذا يُعد هذا التوقع معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل الأصلية في البيانات المجمّعة لهذا التقرير. وفق المعروف عموماً، ميرتازابين مضاد نورأدرينالي وسيروتونيني: يحجب مستقبلات ألفا-2 ومستقبلات 5-HT2 و5-HT3 والهيستامين H1، وقد ثبتت فعاليته في الاكتئاب.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Mirtazapine (ترجمة غير رسمية): «آلية عمل الميرتازابين في علاج الاضطراب الاكتئابي الرئيسي غير واضحة. ومع ذلك، قد تكون فعاليته متواسطة من خلال نشاطه كمضاد للمستقبلات الذاتية والمستقبلات المغايرة التثبيطية α 2 الأدرينالية المركزية قبل المشبكية، ومن خلال تعزيز النشاط النورأدريناليني والسيروتونيني المركزي.» النص الأصلي بالإنجليزية: "The mechanism of action of mirtazapine for the treatment of major depressive disorder, is unclear. However, its efficacy could be mediated through its activity as an antagonist at central presynaptic α 2 -adrenergic inhibitory autoreceptors and heteroreceptors and enhancing central noradrenergic and serotonergic activity." ([DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887)، إصدار 2025-08-06؛ تاريخ الاطلاع 2026-11-20). وفق المعروف عموماً، ميرتازابين مضاد نورأدرينالي وسيروتونيني: يحجب مستقبلات ألفا-2 ومستقبلات 5-HT2 و5-HT3 والهيستامين H1، وقد ثبتت فعاليته في الاكتئاب.
 
 أما متلازمة أودو (ومنها المتغير المرتبط بالجين KAT6B) فهي اضطراب وراثي نادر يتعلق بتنظيم الكروماتين، ويتميز بإعاقة ذهنية وتشوهات في الوجه والهيكل العظمي. ولا توجد صلة آلية موثقة بين الفارماكولوجيا المستقبلية للميرتازابين وبين الأساس المرضي لهذه المتلازمة.
 
@@ -148,12 +148,13 @@ predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intell
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص الدواء في المملكة ملغاة حالياً، ما يزيد من عدم اليقين العملي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل إن كان المسار مجدياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887) |
 
 <!-- review:end log -->
 

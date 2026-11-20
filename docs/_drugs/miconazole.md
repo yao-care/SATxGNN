@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 557
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: الاستطباب الجديد المتوقع حب الشباب (acne (disease)) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -54,7 +54,7 @@ description: "Miconazole: الاستطباب الجديد المتوقع حب ا
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-ميكونازول مضاد فطري من فئة الآزولات، ويُعرف عن هذه الفئة تثبيط إنزيم CYP51 (لانوستيرول 14-ألفا-ديميثيلاز) في الفطريات، مما يعطل تخليق الإرغوستيرول. بيانات آلية العمل التفصيلية غير متوفرة حالياً في المعلومات المجمعة لهذا التقرير، لذا يعتمد التحليل على الدراسات المنشورة وعلى الدوائية العامة للآزولات.
+ميكونازول مضاد فطري من فئة الآزولات، ويُعرف عن هذه الفئة تثبيط إنزيم CYP51 (لانوستيرول 14-ألفا-ديميثيلاز) في الفطريات، مما يعطل تخليق الإرغوستيرول. وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Miconazole (ترجمة غير رسمية): «الميكونازول دواء مضاد للفطريات. […] يثبّط الميكونازول إنزيم السيتوكروم P450 14α-ديميثيلاز، مما يؤدي إلى تثبيط تخليق الإرغوستيرول، وهو مكوّن أساسي من مكوّنات الغشاء الخلوي الفطري. كما يؤثر الميكونازول في تخليق الدهون الثلاثية والأحماض الدهنية، ويثبّط الإنزيمات المؤكسِدة والبيروكسيدية، مما يزيد كمية أنواع الأكسجين التفاعلية داخل الخلية.» النص الأصلي بالإنجليزية: "Miconazole is an antifungal drug. […] Miconazole inhibits the enzyme cytochrome P450 14α-demethylase which leads to inhibition of ergosterol synthesis, an essential component of the fungal cell membrane. Miconazole also affects the synthesis of triglycerides and fatty acids and inhibits oxidative and peroxidative enzymes, increasing the amount of reactive oxygen species within the cell." ([DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a)، إصدار 2026-01-08؛ تاريخ الاطلاع 2026-11-20).
 
 هناك ثلاثة مسارات محتملة تربط الدواء بحب الشباب:
 1. **نشاط ضد خمائر Malassezia:** تسبب هذه الخمائر التهاب جريبات الشعر الملاسيزي الذي يشبه حب الشباب سريرياً ويُشخَّص خطأً في كثير من الأحيان على أنه حب شباب عادي.
@@ -106,6 +106,18 @@ description: "Miconazole: الاستطباب الجديد المتوقع حب ا
 - بيانات آلية العمل التفصيلية.
 - تحليل التحذيرات وموانع الاستعمال من النشرات الدوائية المحلية.
 - تقييم الجدوى للأشكال الموضعية المتوفرة محلياً.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

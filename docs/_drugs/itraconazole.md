@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 465
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Itraconazole: الاستطباب الجديد المتوقع داء المتكيسات الرئوية (Pneumocystosis) (مستوى الدليل L4). الاستطباب الأصلي: التهابات فطرية، منها داء المبيضات المريئي وداء المبيضات الدموي وداء ا…"
 monitor_inn: "ITRACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -60,7 +60,7 @@ predicted_indications: ["pneumocystosis"]
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً (ولماذا يستدعي الحذر)؟
 
-يثبّط إيتراكونازول إنزيم lanosterol 14-alpha-demethylase (CYP51) في الفطريات، فيمنع تصنيع الإرغوستيرول، وهو مكوّن أساسي في غشاء الخلية الفطرية. وتجدر الإشارة إلى أن بيانات آلية العمل الأصلية غير متوفرة في البيانات المجمّعة لهذا التقرير، وهذا الوصف مبني على المعرفة العامة بفئة الآزول.
+يثبّط إيتراكونازول إنزيم lanosterol 14-alpha-demethylase (CYP51) في الفطريات، فيمنع تصنيع الإرغوستيرول، وهو مكوّن أساسي في غشاء الخلية الفطرية. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Itraconazole (ترجمة غير رسمية): «أثبتت الدراسات في المختبر أن الإيتراكونازول يثبط تخليق الإرغوستيرول المعتمد على السيتوكروم P450، وهو مكوّن حيوي لأغشية الخلايا الفطرية.» النص الأصلي بالإنجليزية: "In vitro studies have demonstrated that itraconazole inhibits the cytochrome P450-dependent synthesis of ergosterol, which is a vital component of fungal cell membranes." ([DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0)، إصدار 2026-07-13؛ تاريخ الاطلاع 2026-11-20).
 
 المشكلة أن فطر Pneumocystis jirovecii لا يحتوي على الإرغوستيرول في غشائه، بل يستخدم الكولسترول، ولذلك لا يُتوقع أن تكون آلية الآزول المعتادة فعالة ضده. ويبدو أن الدرجة العالية (0.9934) تعكس قرب هذا المرض في الشبكة المعرفية من استطبابات مضادات الفطريات والعدوى الانتهازية الأخرى (كداء النوسجات والرشاشيات)، وليس آلية مثبتة.
 
@@ -140,6 +140,19 @@ predicted_indications: ["pneumocystosis"]
 - دراسات مخبرية (in vitro) أو ما قبل سريرية تُظهر نشاطاً ضد Pneumocystis jirovecii
 - مراجعة منهجية للأدبيات بحثاً عن أي دليل مباشر على نشاط الإيتراكونازول ضد هذا الفطر
 - تقييم الحاجة السريرية مقارنةً بالعلاج القياسي، مع مراعاة التداخلات الدوائية ومخاطر القلب
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

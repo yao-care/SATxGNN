@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Methoxsalen: الاستطباب الجديد المتوقع الورام الشبيه بالباجيت الموضعي (Localized Pagetoid Reticulosis) (مستوى الدليل L5). الاستطباب الأصلي: الورم اللمفاوي التائي الجلدي الأولي (اللاهودجكيني)، البهاق"
 monitor_inn: "METHOXSALEN"
 predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
@@ -60,7 +60,7 @@ predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-
 
 ## لماذا يُعد هذا التوقع معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل. ومن المعلومات المعروفة أن الميثوكسالين عند تنشيطه بالأشعة فوق البنفسجية A يرتبط بالحمض النووي ويكوّن روابط متصالبة، مما يحفّز موت الخلايا التائية الخبيثة (Apoptosis). ويُطبّق ذلك في العلاج الضوئي الكيميائي (PUVA) وفي الفصادة الضوئية خارج الجسم (ECP).
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Methoxsalen هي (ترجمة غير رسمية): «مثبط للحمض النووي DNA». النص الأصلي بالإنجليزية: "DNA inhibitor" ([ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20). ومن المعلومات المعروفة أن الميثوكسالين عند تنشيطه بالأشعة فوق البنفسجية A يرتبط بالحمض النووي ويكوّن روابط متصالبة، مما يحفّز موت الخلايا التائية الخبيثة (Apoptosis). ويُطبّق ذلك في العلاج الضوئي الكيميائي (PUVA) وفي الفصادة الضوئية خارج الجسم (ECP).
 
 الورام الشبيه بالباجيت الموضعي (مرض Woringer-Kolopp) شكل بطيء التطور من الفطار الفطراني، وهو نوع من الأورام اللمفاوية التائية الجلدية يتميز بتسلل الخلايا اللمفاوية إلى البشرة. وبما أن PUVA علاج راسخ لهذه الفئة من الأمراض، فالصلة معقولة من حيث امتداد فئة المرض.
 
@@ -158,11 +158,12 @@ predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «إعادة تقييم وضع التسجيل في المملكة نظرًا لإلغاء جميع التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416) |
 
 <!-- review:end log -->
 

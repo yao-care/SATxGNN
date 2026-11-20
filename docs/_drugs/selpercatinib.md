@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 749
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Selpercatinib: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي (Pulmonary hypertension) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نص المؤشر في سجل الترخيص فارغ)"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -58,7 +58,7 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمعة. المعروف أن سيلبركاتينيب مثبّط انتقائي لكيناز RET، وهو مستخدم في أورام مرتبطة بتغيرات RET (تظهر في المنشورات المرفقة حالات سرطان الرئة غير صغير الخلايا إيجابي اندماج RET وسرطان الغدة الدرقية النخاعي).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Selpercatinib (ترجمة غير رسمية): «سيلبيركاتينيب مثبّط للكيناز. ثبّط سيلبيركاتينيب RET من النمط البري وأشكالاً متماثلة متعددة من RET الطافر، بالإضافة إلى VEGFR1 وVEGFR3، بقيم IC 50 تراوحت بين 0.92 نانومولار و67.8 نانومولار. وفي اختبارات إنزيمية أخرى، ثبّط سيلبيركاتينيب أيضاً FGFR 1 و2 و3 بتراكيز أعلى كان لا يزال من الممكن بلوغها سريرياً.» النص الأصلي بالإنجليزية: "Selpercatinib is a kinase inhibitor. Selpercatinib inhibited wild-type RET and multiple mutated RET isoforms as well as VEGFR1 and VEGFR3 with IC 50 values ranging from 0.92 nM to 67.8 nM. In other enzyme assays, selpercatinib also inhibited FGFR 1, 2, and 3 at higher concentrations that were still clinically achievable." ([DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828)، إصدار 2026-09-11؛ تاريخ الاطلاع 2026-11-20). المعروف أن سيلبركاتينيب مثبّط انتقائي لكيناز RET، وهو مستخدم في أورام مرتبطة بتغيرات RET (تظهر في المنشورات المرفقة حالات سرطان الرئة غير صغير الخلايا إيجابي اندماج RET وسرطان الغدة الدرقية النخاعي).
 
 لا توجد صلة آلية مثبتة بين تثبيط RET وارتفاع ضغط الدم الرئوي في البيانات المتاحة. أي رابط محتمل، مثل إشارات الكيناز المرتبطة بإعادة تشكيل الأوعية الدموية، يظل **تخمينيًا** ويحتاج إلى تحقق مستقل. الدرجة المرتفعة (0.9918) ناتجة عن النموذج الحسابي فقط، ولا يمكن التحقق من الأساس الآلي لأن بيانات آلية العمل الأصلية غير متوفرة.
 
@@ -147,11 +147,12 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص المحلي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828) |
 
 <!-- review:end log -->
 

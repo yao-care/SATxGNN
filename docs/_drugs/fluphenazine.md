@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "fluphenazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "syndromic myopia", "myopia X-linked", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
 description: "Fluphenazine: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -58,7 +58,7 @@ description: "Fluphenazine: الاستطباب الجديد المتوقع Retin
 
 ## لماذا قد يبدو هذا التوقع معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعروف، فإن فلوفينازين مضاد لمستقبلات الدوبامين D2 من فئة الفينوثيازينات، وقد ثبتت فعاليته في الذهان والفصام.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Fluphenazine (ترجمة غير رسمية): «يمتلك هيدروكلوريد فلوفينازين نشاطاً على جميع مستويات الجهاز العصبي المركزي، وكذلك على أجهزة عضوية متعددة. والآلية التي يُمارَس بها تأثيره العلاجي غير معروفة.» النص الأصلي بالإنجليزية: "Fluphenazine hydrochloride has activity at all levels of the central nervous system as well as on multiple organ systems. The mechanism whereby its therapeutic action is exerted is unknown." ([DailyMed: Fluphenazine Hydrochoride (fluphenazine hydrochloride) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91b85b8d-4c10-4395-915e-272b81ef3b12)، إصدار 2026-07-03؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإن فلوفينازين مضاد لمستقبلات الدوبامين D2 من فئة الفينوثيازينات، وقد ثبتت فعاليته في الذهان والفصام.
 
 أما العلاقة بين الاستطباب الأصلي والجديد فتكاد تكون غائبة. حثل الشبكية مرض وراثي تنكسي في الشبكية، ولا تدعم البيانات المتوفرة أي رابط آلي بين مضادات D2 ومسارات التنكس الشبكي الوراثي. الدرجة المرتفعة تعكس توقعًا قائمًا على الرسم المعرفي فقط، ولذلك يجب التعامل معه بحذر شديد.
 
@@ -117,6 +117,19 @@ description: "Fluphenazine: الاستطباب الجديد المتوقع Retin
 - الحصول على تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة لدى الهيئة العامة للغذاء والدواء.
 - إجراء دراسات مخبرية (ما قبل سريرية) تُظهر صلة بيولوجية بحثل الشبكية.
 - ملاحظة: من بين التوقعات الأخرى، يبدو أن **اضطراب الهوس ثنائي القطب** هو الأقرب إلى الاستطباب الأصلي (مستوى الأدلة L4، مع أدبيات غير مباشرة فقط)، وقد يستحق التقييم بصفته سؤالًا بحثيًا مستقلًا.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Fluphenazine Hydrochoride (fluphenazine hydrochloride) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91b85b8d-4c10-4395-915e-272b81ef3b12) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

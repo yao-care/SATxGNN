@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 642
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Pentosan Polysulfate: الاستطباب الجديد المتوقع اضطراب الإفراز الأولي للصفائح الدموية (primary release disorder of pl… (مستوى الدليل L5). الاستطباب الأصلي: التهاب المثانة الخلالي"
 monitor_inn: "PENTOSAN POLYSULFATE"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
@@ -63,7 +63,7 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 
 ## لماذا يبدو هذا التنبؤ مقبولاً (أو غير مقبول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن بنتوزان بوليسلفات عديد سكاريد مكبرت شبه صناعي له نشاط مضاد للتخثر يشبه الهيبارين، ونشاط ضعيف مضاد للتخثر الدموي (antithrombotic).
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Pentosan Polysulfate (ترجمة غير رسمية): «آلية عمل بنتوسان بولي سلفات الصوديوم في التهاب المثانة الخلالي غير معروفة.» النص الأصلي بالإنجليزية: "The mechanism of action of pentosan polysulfate sodium in interstitial cystitis is not known." ([DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593)، إصدار 2024-09-18؛ تاريخ الاطلاع 2026-11-20). المعروف أن بنتوزان بوليسلفات عديد سكاريد مكبرت شبه صناعي له نشاط مضاد للتخثر يشبه الهيبارين، ونشاط ضعيف مضاد للتخثر الدموي (antithrombotic).
 
 الارتباط بالاستطباب الجديد **تخميني فقط**. اضطراب الإفراز الأولي للصفائح عيب وظيفي في إفراز حبيبات الصفائح، ومن المتوقع أن يؤدي التأثير المضاد للتخثر إلى **زيادة** الميل للنزف لا تحسينه. وكذلك الحال في المرشحين الآخرين:
 - **وهن الصفيحات الغلانزماني:** ناتج عن نقص أو خلل في المستقبل αIIbβ3 (GPIIb/IIIa) على الصفائح، ويسبب ضعف التراص. لا يظهر مسار علاجي معقول للدواء هنا، وقد يعكس التنبؤ قرباً في الشبكة المعرفية (مسارات التخثر والصفائح) لا أثراً علاجياً حقيقياً.
@@ -122,6 +122,19 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 - إجراء مراجعة منهجية للأدبيات وفحص السجلات للتأكد من غياب أي دليل سريري أو ما قبل سريري.
 - إن وُجدت فرضية آلية مقبولة، البدء بدراسات ما قبل سريرية (مخبرية) تقيّم تأثير الدواء على وظيفة الصفائح قبل أي تقييم سريري.
 - تحديد الأشكال الدوائية وطرق الإعطاء المتاحة، ومقارنتها بما يتطلبه الاستطباب الجديد.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

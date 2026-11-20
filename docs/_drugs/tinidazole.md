@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 817
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Tinidazole: الاستطباب الجديد المتوقع التهاب المهبل الضموري بعد سن اليأس (مستوى الدليل L5). الاستطباب الأصلي: داء الجيارديا، التهاب المهبل الجرثومي، التهاب المهبل، التهاب الفرج، د…"
 monitor_inn: "TINIDAZOLE"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "breast fibrocystic disease", "AIDS", "blunt duct adenosis of breast", "apocrine adenosis of breast", "AIDS related complex", "congenital human immunodeficiency virus", "benign mammary dysplasia"]
@@ -58,7 +58,7 @@ predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulv
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو لا)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف عموماً أن التينيدازول مضاد للميكروبات من فئة النيتروإيميدازول، يعمل على الجراثيم اللاهوائية والطفيليات الأولية عبر التنشيط الاختزالي، وقد ثبتت فعاليته في التهاب المهبل الجرثومي وداء المشعرات.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tinidazole (ترجمة غير رسمية): «تينيدازول عامل مضاد للأوالي ومضاد للبكتيريا.. […] تينيدازول عامل مضاد للأوالي ومضاد للبكتيريا. تُختزَل مجموعة النيترو في تينيدازول بواسطة المستخلصات الخلوية للمشعرات. وقد يكون جذر النيترو الحر المتولد نتيجة لهذا الاختزال مسؤولاً عن النشاط المضاد للأوالي.» النص الأصلي بالإنجليزية: "Tinidazole is an antiprotozoal, antibacterial agent.. […] Tinidazole is an antiprotozoal, antibacterial agent. The nitro- group of tinidazole is reduced by cell extracts of Trichomonas. The free nitro radical generated as a result of this reduction may be responsible for the antiprotozoal activity." ([DailyMed: Tindazole (tinidazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45fa3ebd-52da-4987-82a1-4a64f99785a7)، إصدار 2026-08-18؛ تاريخ الاطلاع 2026-11-20). المعروف عموماً أن التينيدازول مضاد للميكروبات من فئة النيتروإيميدازول، يعمل على الجراثيم اللاهوائية والطفيليات الأولية عبر التنشيط الاختزالي، وقد ثبتت فعاليته في التهاب المهبل الجرثومي وداء المشعرات.
 
 العلاقة بين الاستطباب الأصلي والجديد ضعيفة. فالتهاب المهبل الضموري بعد سن اليأس ناتج عن نقص الإستروجين وليس عن عدوى، ولذلك من غير المرجح أن يعالج مضاد ميكروبي السبب الأساسي للمرض. والدرجة العالية (0.9993) صادرة عن نموذج TxGNN (التعلم العميق)، وقد تعكس أوجه تشابه تعلمها النموذج بين الأمراض المرتبطة، وليست دليلاً بيولوجياً.
 
@@ -110,6 +110,19 @@ predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulv
 - إجراء مراجعة منهجية للأدبيات، وإثبات وجود مكوّن عدوائي أو التهابي في التهاب المهبل الضموري قبل أي دراسة سريرية.
 - التحقق من توافق المسار (طريقة الإعطاء) والشكل الصيدلاني، إذ لا تتوفر حالياً أشكال صيدلانية معتمدة.
 - إن كان الاهتمام منصباً على الأهداف الأخرى، فإن ارتباط الإيدز (L4) يمكن اعتباره سؤالاً بحثياً لدور العلاج في العدوى المصاحبة، لا مؤشراً علاجياً ضد الفيروس.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tindazole (tinidazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45fa3ebd-52da-4987-82a1-4a64f99785a7) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

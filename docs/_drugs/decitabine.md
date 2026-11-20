@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Decitabine: الاستطباب الجديد المتوقع نقص الخلايا الدموية المقاوم للعلاج في الطفولة (مستوى الدليل L5). الاستطباب الأصلي: سرطان الدم النقوي الحاد (AML) وأنواعه الفرعية (الاستطباب مأخوذ من الر…"
 monitor_inn: "DECITABINE"
 predicted_indications: ["refractory cytopenia of childhood"]
@@ -60,7 +60,7 @@ predicted_indications: ["refractory cytopenia of childhood"]
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-ديسيتابين عامل مزيل لمَثيلة الحمض النووي (مثبط لإنزيم DNA methyltransferase)، ويُستخدم في الأورام النقوية ومنها سرطان الدم النقوي الحاد ومتلازمات خلل التنسج النقوي (MDS). لا تتوفر حالياً بيانات تفصيلية عن آلية العمل الأصلية في البيانات المُجمّعة لهذا التقرير، لذا يستند التحليل إلى الآلية المعروفة للفئة الدوائية.
+ديسيتابين عامل مزيل لمَثيلة الحمض النووي (مثبط لإنزيم DNA methyltransferase)، ويُستخدم في الأورام النقوية ومنها سرطان الدم النقوي الحاد ومتلازمات خلل التنسج النقوي (MDS). وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Decitabine (ترجمة غير رسمية): «يُعتقد أن ديسيتابين يمارس تأثيراته المضادة للأورام بعد فسفرته ودمجه المباشر في DNA وتثبيط DNA methyltransferase، مما يسبب نقص مثيلة DNA وتمايز الخلايا أو موتها المبرمج. يثبط ديسيتابين مثيلة DNA في المختبر، ويتحقق ذلك عند تراكيز لا تسبب تثبيطًا كبيرًا لتخليق DNA.» النص الأصلي بالإنجليزية: "Decitabine is believed to exert its antineoplastic effects after phosphorylation and direct incorporation into DNA and inhibition of DNA methyltransferase, causing hypomethylation of DNA and cellular differentiation or apoptosis. Decitabine inhibits DNA methylation in vitro, which is achieved at concentrations that do not cause major suppression of DNA synthesis." ([DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5)، إصدار 2026-11-03؛ تاريخ الاطلاع 2026-11-20).
 
 نقص الخلايا الدموية المقاوم للعلاج في الطفولة هو النمط الفرعي الأكثر شيوعاً من متلازمات خلل التنسج النقوي لدى الأطفال. ويجمعه بالاستطبابات الأصلية أساس بيولوجي مشترك، هو الاضطراب النسيلي في الخلايا النقوية وشذوذ مَثيلة الحمض النووي، مما يجعل الارتباط معقولاً من الناحية الآلية.
 
@@ -137,6 +137,19 @@ predicted_indications: ["refractory cytopenia of childhood"]
 - إجراء تجارب سريرية أو دراسات أترابية أكبر لدى الأطفال المصابين بنقص الخلايا الدموية المقاوم للعلاج.
 - تقييم التوافر التجاري، إذ إن الدواء مسوَّق ولديه ترخيصان ساريان من أصل ترخيصين، وتقييم توافق طرق الإعطاء.
 - وضع خطة لمراقبة السلامة لدى الأطفال، مع التركيز على تثبيط نقي العظم.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

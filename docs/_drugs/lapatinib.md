@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 481
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Lapatinib: الاستطباب الجديد المتوقع الساركوما الليفية الجلدية الناتئة (Dermatofibrosarcoma protuberans) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الثدي الإيجابي لـ HER2"
 monitor_inn: "LAPATINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
@@ -58,7 +58,7 @@ predicted_indications: ["dermatofibrosarcoma protuberans"]
 
 ## لماذا قد يكون هذا التوقع معقولًا؟
 
-لابατينيب مثبّط مزدوج لكيناز التيروزين يستهدف EGFR وHER2. ولا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير.
+لابατينيب مثبّط مزدوج لكيناز التيروزين يستهدف EGFR وHER2. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lapatinib (ترجمة غير رسمية): «لاباتينيب مثبّط كيناز من فئة 4-أنيلينوكينازولين للنطاقات الكينازية التيروزينية داخل الخلوية لكلٍّ من مستقبل عامل نمو البشرة (EGFR [ErbB1]) ومستقبل البشرة البشري من النوع 2 (HER2 [ErbB2]) (قيم K i app المقدّرة 3nM و13nM، على التوالي)، مع عمر نصفي للتفكك أكبر من أو يساوي 300 دقيقة. ويثبّط لاباتينيب نمو الخلايا الورمية المدفوع بـ ErbB في المختبر وفي نماذج حيوانية مختلفة.» النص الأصلي بالإنجليزية: "Lapatinib is a 4-anilinoquinazoline kinase inhibitor of the intracellular tyrosine kinase domains of both Epidermal Growth Factor Receptor (EGFR [ErbB1]) and of Human Epidermal Receptor Type 2 (HER2 [ErbB2]) receptors (estimated K i app values of 3nM and 13nM, respectively) with a dissociation half-life of greater than or equal to 300 minutes. Lapatinib inhibits ErbB-driven tumor cell growth in vitro and in various animal models." ([DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c)، إصدار 2026-01-27؛ تاريخ الاطلاع 2026-11-20).
 
 أما الساركوما الليفية الجلدية الناتئة فيحركها في الغالب اندماج جيني (COL1A1-PDGFB) ينشّط مسار PDGFRB، والعلاج الموجّه المعتمد لها هو إيماتينيب (مثبّط PDGFR). لذلك **لا يظهر رابط آلي واضح** بين تثبيط EGFR/HER2 وهذا الورم، وأي ربط في الوقت الحالي يبقى تخمينيًا.
 
@@ -142,11 +142,12 @@ predicted_indications: ["dermatofibrosarcoma protuberans"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «النظر في وضع الترخيص الملغى وإمكانية إعادة التسجيل إذا تقدم المشروع» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c) |
 
 <!-- review:end log -->
 

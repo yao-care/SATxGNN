@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 630
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Papaverine: الاستطباب الجديد المتوقع المرض الإقفاري (Ischemic disease) (مستوى الدليل L4). الاستطباب الأصلي: أمراض الأوعية الدموية الطرفية، العرج المتقطع، إقفار الدماغ (مصدر: الر…"
 monitor_inn: "papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
@@ -60,7 +60,7 @@ predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "no
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-تفاصيل آلية العمل غير متوفرة حالياً ضمن البيانات المجمعة لهذا التقرير. استناداً إلى المعروف، فإن باباڤيرين مثبِّط غير انتقائي لإنزيم الفوسفوديستراز، يرفع مستويات cAMP وcGMP في العضلات الملساء الوعائية فيسبب توسعاً وعائياً. وهذا منطقي حيوياً في الحالات الإقفارية، ويتوافق مع استطباباته الأصلية (مرض الشرايين الطرفية وإقفار الدماغ).
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Papaverine (ترجمة غير رسمية): «يعمل بابافيرين هيدروكلوريد على ما يبدو مباشرةً على العضلة نفسها. ويُلاحظ هذا الارتخاء في الجهاز الوعائي والعضلات القصبية وفي السبل المعدية المعوية والصفراوية والبولية. وتُمارَس التأثيرات الرئيسية للبابافيرين على العضلة القلبية والعضلات الملساء.» النص الأصلي بالإنجليزية: "Papaverine Hydrochloride apparently acts directly on the muscle itself. This relaxation is noted in the vascular system and bronchial musculature and in the gastrointestinal, biliary and urinary tracts. The main actions of papaverine are exerted on cardiac and smooth muscle." ([DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e)، إصدار 2026-07-27؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف، فإن باباڤيرين مثبِّط غير انتقائي لإنزيم الفوسفوديستراز، يرفع مستويات cAMP وcGMP في العضلات الملساء الوعائية فيسبب توسعاً وعائياً. وهذا منطقي حيوياً في الحالات الإقفارية، ويتوافق مع استطباباته الأصلية (مرض الشرايين الطرفية وإقفار الدماغ).
 
 غير أن الأدبيات المتوفرة خليط غير متجانس: مراجعات، وأوراق جراحية، واستخدامات تشخيصية أو إجرائية (قياس احتياطي التدفق التاجي بالباباڤيرين داخل الشريان التاجي، والحقن داخل الشرايين في الإقفار المساريقي، وحماية الحبل الشوكي في جراحة الأبهر). هذه أدلة غير مباشرة وليست تجارب فعالية علاجية، لذلك يبقى التنبؤ فرضية بحثية.
 
@@ -136,11 +136,12 @@ predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "no
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الدواء لا يملك حالياً ترخيصاً ساري المفعول في السعودية (ترخيص واحد ملغى)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e) |
 
 <!-- review:end log -->
 

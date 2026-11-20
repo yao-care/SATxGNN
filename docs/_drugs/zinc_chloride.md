@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 887
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Zinc Chloride: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء فارغ…"
 monitor_inn: "zinc chloride"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren syndrome", "dry eye syndrome"]
@@ -60,7 +60,7 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren
 
 ## لماذا يُعدّ هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل (MOA) التفصيلية غير متوفرة حاليًا. وبناءً على المعلومات المعروفة، فإن الزنك عامل مساعد (cofactor) لعدد من الإنزيمات المضادة للأكسدة، مثل إنزيم سوبر أوكسيد ديسميوتاز (Cu/Zn-SOD).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Zinc Chloride (ترجمة غير رسمية): «الزنك عنصر نزر أساسي. يعمل الزنك كعامل مساعد لإنزيمات مختلفة، بما في ذلك بوليميرازات DNA وبوليميرازات RNA ونازعة هيدروجين الكحول والفوسفاتازات القلوية. والزنك منسق للطي البنيوي للبروتينات، مثل طي موتيف 'إصبع الزنك' الذي يتفاعل مع مجموعة متنوعة من البروتينات والدهون والأحماض النووية.» النص الأصلي بالإنجليزية: "Zinc is an essential trace element. Zinc functions as a cofactor of various enzymes including DNA polymerases, RNA polymerases, alcohol dehydrogenase, and alkaline phosphatases. Zinc is a coordinator of protein structural folding, such as folding of “Zinc finger” motif that interacts with a variety of proteins, lipids, and nucleic acids." ([DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757)، إصدار 2026-03-04؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، فإن الزنك عامل مساعد (cofactor) لعدد من الإنزيمات المضادة للأكسدة، مثل إنزيم سوبر أوكسيد ديسميوتاز (Cu/Zn-SOD).
 
 يُسهم الإجهاد التأكسدي والالتهاب في نشوء اعتلال الشبكية السكري، ومن هنا قد يوجد رابط آلي محتمل. غير أن هذا الرابط **فرضي وغير مؤكد** بالبيانات المتوفرة، ودرجة TxGNN وحدها لا تُعدّ دليلًا سريريًا.
 
@@ -115,6 +115,19 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren
 - إجراء مراجعة منهجية للأدبيات والدراسات قبل السريرية حول الزنك في اعتلال الشبكية السكري (وكذلك سجوغرن وجفاف العين).
 - تقييم الجدوى الدوائية: طريق الإعطاء والشكل الصيدلاني المناسب للاستطباب الجديد (خاصةً مع احتمال الحاجة إلى تركيبة موضعية للعين)، إذ إن توافق الطريق ما زال قيد الانتظار.
 - التحقق من وضع الترخيص، علمًا بأن جميع التراخيص الحالية (3 من أصل 3) سارية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

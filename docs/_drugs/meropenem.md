@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 541
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: الاستطباب الجديد المتوقع التهاب المفاصل الجرثومي (bacterial arthritis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"
@@ -54,7 +54,7 @@ description: "Meropenem: الاستطباب الجديد المتوقع الته
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-تتوفر حالياً بيانات تفصيلية عن آلية العمل غير متاحة في المعطيات المجمّعة لهذا التقرير. وبحسب المعروف عن الفئة الدوائية، يرتبط الميروبينيم ببروتينات الارتباط بالبنسلين فيثبّط تخليق جدار الخلية البكتيرية، وله طيف واسع يشمل البكتيريا سالبة الغرام ومنها الإشريكية والكلبسيلة والزائفة الزنجارية.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Meropenem (ترجمة غير رسمية): «ميروبينيم دواء مضاد للبكتيريا. […] ينتج النشاط القاتل للبكتيريا لميروبينيم عن تثبيط تخليق الجدار الخلوي. يخترق ميروبينيم الجدار الخلوي لمعظم البكتيريا إيجابية الغرام وسلبية الغرام ليرتبط بأهدافه من البروتينات الرابطة للبنسلين (PBP).» النص الأصلي بالإنجليزية: "Meropenem is an antibacterial drug. […] The bactericidal activity of meropenem results from the inhibition of cell wall synthesis. Meropenem penetrates the cell wall of most gram-positive and gram-negative bacteria to bind penicillin-binding-protein (PBP) targets." ([DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f)، إصدار 2026-11-02؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن الفئة الدوائية، يرتبط الميروبينيم ببروتينات الارتباط بالبنسلين فيثبّط تخليق جدار الخلية البكتيرية، وله طيف واسع يشمل البكتيريا سالبة الغرام ومنها الإشريكية والكلبسيلة والزائفة الزنجارية.
 
 تنجم عدوى العظام والمفاصل عن كائنات حساسة لهذه الفئة، مثل بكتيريا Burkholderia pseudomallei (المسببة للميليويدوز) والبكتيريا سالبة الغرام. لذلك فإن فعاليته من الناحية الآلية محتملة.
 
@@ -115,6 +115,18 @@ description: "Meropenem: الاستطباب الجديد المتوقع الته
 - استكمال بيانات آلية العمل من مصادر موثوقة.
 - إجراء مراجعة منهجية أو دراسة سريرية تقيّم الميروبينيم في عدوى المفاصل الجرثومية.
 - وضع خطة ترشيد استخدام تحدد مواضع استعمال الميروبينيم مقارنة بالبدائل الأضيق طيفاً.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

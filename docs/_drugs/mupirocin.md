@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 573
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Mupirocin: الاستطباب الجديد المتوقع دبيلة الجنب (pleural empyema) (مستوى الدليل L5). الاستطباب الأصلي: القوباء، القوباء الفقاعية (مصدره الرسم المعرفي لنموذج TxGNN، إذ لا يت…"
 monitor_inn: "Mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
@@ -60,7 +60,7 @@ predicted_indications: ["pleural empyema (disease)", "punctate epithelial kerato
 
 ## لماذا يُعد هذا التنبؤ معقولًا (أو غير معقول)؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل ضمن البيانات المجمعة لهذا التقرير. استنادًا إلى المعروف عن الدواء، موبيروسين مضاد حيوي موضعي يثبط إنزيم isoleucyl-tRNA synthetase البكتيري، وينشط أساسًا ضد البكتيريا موجبة الغرام مثل المكورات العنقودية الذهبية (بما فيها المقاومة للميثيسيلين MRSA) والمكورات السبحية المقيحة.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Mupirocin (ترجمة غير رسمية): «الموبيروسين مضاد للبكتيريا مثبط لإنزيم RNA سينثيتاز. […] يثبط الموبيروسين تخليق البروتين البكتيري عن طريق الارتباط بشكل عكوس ونوعي بإنزيم إيزوليوسيل-الحمض النووي الريبي الناقل (tRNA) سينثيتاز البكتيري. والموبيروسين مبيد للبكتيريا عند التراكيز التي تتحقق بالإعطاء الموضعي.» النص الأصلي بالإنجليزية: "Mupirocin is an RNA synthetase inhibitor antibacterial. […] Mupirocin inhibits bacterial protein synthesis by reversibly and specifically binding to bacterial isoleucyl-transfer RNA (tRNA) synthetase. Mupirocin is bactericidal at concentrations achieved by topical administration." ([DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870)، إصدار 2020-03-20؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعروف عن الدواء، موبيروسين مضاد حيوي موضعي يثبط إنزيم isoleucyl-tRNA synthetase البكتيري، وينشط أساسًا ضد البكتيريا موجبة الغرام مثل المكورات العنقودية الذهبية (بما فيها المقاومة للميثيسيلين MRSA) والمكورات السبحية المقيحة.
 
 هذه البكتيريا قادرة على التسبب بدبيلة الجنب، ومن هنا ينشأ مبرر نظري لتأثير مضاد للبكتيريا. غير أن هذا المبرر ضعيف عمليًا: فموبيروسين مصاغ للاستخدام الموضعي فقط، وامتصاصه الجهازي ضئيل، ويُستقلب سريعًا إلى حمض المونيك غير الفعال، ولذلك لا يُتوقع أن يبلغ تراكيز علاجية في الحيز الجنبي. كما يعتمد علاج الدبيلة على التصريف والمضادات الحيوية الجهازية.
 
@@ -116,6 +116,19 @@ predicted_indications: ["pleural empyema (disease)", "punctate epithelial kerato
 - تقييم جدوى الوصول العلاجي (صياغة غير موضعية أو بدائل) وتوافق طريق الإعطاء مع الاستطباب الجديد.
 - إجراء مراجعة منهجية للأدبيات، ودراسات ما قبل سريرية تثبت وصول الدواء بتراكيز كافية في الموضع المستهدف.
 - التحقق من إمكانية إعادة الترخيص أو توفر منتج بديل في السوق السعودي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AVELUMAB"
 predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "kidney pelvis sarcomatoid transitional cell carcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Avelumab: الاستطباب الجديد المتوقع ورم مرتبط بالفيروس الهربسي البشري 8 (human herpesvirus 8-related tumor) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -56,7 +56,7 @@ description: "Avelumab: الاستطباب الجديد المتوقع ورم م
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-أفيلوماب جسم مضاد يستهدف PD-L1، ويُفترض أنه يرفع القيود التي تفرضها الخلايا الورمية على الخلايا التائية فيعيد تنشيط الاستجابة المناعية ضد الورم. بيانات آلية العمل التفصيلية غير متوفرة حالياً في البيانات المجمّعة، والتوصيف أعلاه يستند إلى المعرفة العامة بهذه الفئة من الأدوية.
+أفيلوماب جسم مضاد يستهدف PD-L1، ويُفترض أنه يرفع القيود التي تفرضها الخلايا الورمية على الخلايا التائية فيعيد تنشيط الاستجابة المناعية ضد الورم. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Avelumab (ترجمة غير رسمية): «قد يُعبَّر عن PD-L1 على الخلايا الورمية والخلايا المناعية المرتشحة في الورم، ويمكن أن يسهم في تثبيط الاستجابة المناعية المضادة للورم في البيئة المكروية للورم. ويؤدي ارتباط PD-L1 بالمستقبلين PD-1 وB7.1 الموجودين على الخلايا التائية والخلايا المقدِّمة للمستضد إلى كبت نشاط الخلايا التائية السامة للخلايا، وتكاثر الخلايا التائية، وإنتاج السيتوكينات. […] يرتبط الأفيلوماب بـ PD-L1 ويحجب التفاعل بين PD-L1 ومستقبليه PD-1 وB7.1.» النص الأصلي بالإنجليزية: "PD-L1 may be expressed on tumor cells and tumor-infiltrating immune cells and can contribute to the inhibition of the anti-tumor immune response in the tumor microenvironment. Binding of PD-L1 to the PD-1 and B7.1 receptors found on T cells and antigen presenting cells suppresses cytotoxic T-cell activity, T-cell proliferation, and cytokine production. […] Avelumab binds PD-L1 and blocks the interaction between PD-L1 and its receptors PD-1 and B7.1." ([DailyMed: Bavencio (avelumab) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118)، إصدار 2026-09-22؛ تاريخ الاطلاع 2026-11-20).
 
 من الناحية البيولوجية، وُصف تعبير محور PD-1/PD-L1 في الأورام المرتبطة بالفيروس الهربسي البشري 8 مثل ساركومة كابوزي، ما يجعل حصار نقطة التفتيش المناعية فرضية مقبولة. غير أن هذه الصلة تستند إلى درجة التنبؤ (0.9997) والمعرفة العامة فقط، ولا توجد دراسات في البيانات المقدّمة تؤكدها.
 
@@ -92,6 +92,19 @@ description: "Avelumab: الاستطباب الجديد المتوقع ورم م
 - بيانات آلية العمل التفصيلية للدواء.
 - تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة لدى هيئة الغذاء والدواء السعودية.
 - تقييم السلامة قبل أي دراسة، بما في ذلك التداخلات الرئيسية المذكورة أعلاه.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Bavencio (avelumab) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

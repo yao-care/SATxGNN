@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 782
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Sunitinib: الاستطباب الجديد المتوقع الساركوما الشحمية (Liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان الخلايا الكلوية، والورم اللحمي المعدي المعوي (GIST) (بحسب الرسم…"
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
@@ -58,7 +58,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofib
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. استناداً إلى المعروف عن الدواء، فإن سونيتينيب مثبط متعدد الأهداف لكيناز التيروزين (VEGFR وPDGFR وKIT وFLT3 وRET)، وقد ثبتت فعاليته في سرطان الخلايا الكلوية والورم اللحمي المعدي المعوي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Sunitinib (ترجمة غير رسمية): «سونيتينيب جزيء صغير يثبط العديد من مستقبلات التيروزين كيناز (RTKs)، وبعضها متورط في نمو الورم وتكوّن الأوعية الدموية المرضي والتطور النقيلي للسرطان.» النص الأصلي بالإنجليزية: "Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer." ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c)، إصدار 2026-02-20؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف عن الدواء، فإن سونيتينيب مثبط متعدد الأهداف لكيناز التيروزين (VEGFR وPDGFR وKIT وFLT3 وRET)، وقد ثبتت فعاليته في سرطان الخلايا الكلوية والورم اللحمي المعدي المعوي.
 
 يرتبط تكوّن الأوعية الدموية وإشارات PDGFR ببيولوجيا الساركوما في الأنسجة الرخوة، وهذا يوفر أساساً آلياتياً معقولاً لتجربته في الساركوما الشحمية. غير أن النشاط المرصود في التجارب يبدو متواضعاً ويختلف باختلاف النمط النسيجي، ولذلك لم يثبت الفائدة بعد.
 
@@ -150,6 +150,19 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofib
 - بيان وضع الترخيص السعودي للدواء وتوفره، علماً أنه مسوّق ولديه 11 ترخيصاً ساري المفعول من أصل 11.
 
 **ملاحظة عن الاستطبابات الأخرى المتنبأ بها:** الاستطباب "سرطان الكلية" (Renal carcinoma) هو الاستطباب الأصلي نفسه (أدلة L1)، ويُعد تأكيداً لاستطباب معتمد وليس إعادة توظيف. أما الأورام الكلوية غير الخلايا الصافية فيُوصى فيها بـ"المضي مع ضوابط" (L2)، بينما يُصنّف الورم الليفي الساركومي الجلدي الناتئ (DFSP) كسؤال بحثي (L3)، ويُوصى بالتوقف (Hold) بالنسبة للأورام الشحمية المخاطانية المبيضية، والأورام الشحمية الوعائية، وساركوما القلب الليفية، والسرطان الكلوي المصاحب للورم الأروم العصبي، لغياب الأدلة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

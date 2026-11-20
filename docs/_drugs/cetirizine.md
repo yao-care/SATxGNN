@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Cetirizine: الاستطباب الجديد المتوقع أمراض تجويف الأنف (nasal cavity disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 (السارية: 17)"
 ---
 
@@ -54,7 +54,7 @@ description: "Cetirizine: الاستطباب الجديد المتوقع أمر�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في المعلومات المجمّعة لهذا التقرير. المعروف عن سيتيريزين أنه يحصر مستقبلات H1 الموجودة على النهايات العصبية والعضلات الملساء والخلايا الغدية. وتشير بيانات الدراسات على القوارض إلى أن نفاذه إلى الدماغ ضئيل.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cetirizine (ترجمة غير رسمية): «سيتريزين هيدروكلوريد، وهو مستقلب بشري للهيدروكسيزين، مضاد للهيستامين؛ وتتواسط تأثيراته الرئيسية عبر التثبيط الانتقائي لمستقبلات H 1 المحيطية. وقد وُثِّق النشاط المضاد للهيستامين لسيتريزين هيدروكلوريد بوضوح في مجموعة متنوعة من النماذج الحيوانية والبشرية.» النص الأصلي بالإنجليزية: "Cetirizine hydrochloride, a human metabolite of hydroxyzine, is an antihistamine; its principal effects are mediated via selective inhibition of peripheral H 1 -receptors. The antihistaminic activity of cetirizine hydrochloride has been clearly documented in a variety of animal and human models." ([DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d)، إصدار 2026-09-22؛ تاريخ الاطلاع 2026-11-20). المعروف عن سيتيريزين أنه يحصر مستقبلات H1 الموجودة على النهايات العصبية والعضلات الملساء والخلايا الغدية. وتشير بيانات الدراسات على القوارض إلى أن نفاذه إلى الدماغ ضئيل.
 
 تصف مراجعة منشورة في مجلة Allergy عام 2000 (PMID 11291777) تأثيرات مضادات H1 المضادة للحساسية والالتهاب في الأنف، وهي تأثيرات قد لا تقتصر على حصر المستقبل. وهذا يعطي مبرراً بيولوجياً لاحتمال الاستفادة في الحالات الأنفية التي يشارك فيها الهيستامين أو الالتهاب.
 
@@ -95,6 +95,19 @@ description: "Cetirizine: الاستطباب الجديد المتوقع أمر�
 - البحث عن دراسات أو تجارب سريرية خاصة بسيتيريزين في هذا المرض المحدد.
 - استكمال بيانات آلية العمل التفصيلية.
 - مراجعة النشرة الداخلية لاستكمال بيانات التحذيرات وموانع الاستعمال.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 798
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Tenofovir Alafenamide: الاستطباب الجديد المتوقع Feline acquired immunodeficiency syndrome (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -59,7 +59,7 @@ description: "Tenofovir Alafenamide: الاستطباب الجديد المتو�
 
 ## لماذا يُعد هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن تينوفوفير ألافيناميد طليعة دواء (prodrug) لمادة تينوفوفير، وهو مثبّط نيوكليوتيدي للنسخ العكسي. يتحول داخل الخلايا إلى تينوفوفير ثنائي الفوسفات الذي يثبّط إنزيم النسخ العكسي، ويوصل الدواء بكفاءة إلى الخلايا اللمفاوية بعد تناوله فموياً.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tenofovir Alafenamide (ترجمة غير رسمية): «تينوفوفير ألافيناميد دواء مضاد للفيروسات ضد فيروس التهاب الكبد B. […] تينوفوفير ألافيناميد طليعة دواء من نوع فوسفوناميدات لتينوفوفير (نظير 2'-ديوكسي أدينوزين أحادي الفوسفات). يدخل تينوفوفير ألافيناميد، بوصفه مركّباً محباً للدهون قادراً على نفاذ الخلايا، إلى خلايا الكبد الأولية عن طريق الانتشار السلبي وعن طريق ناقلات الامتصاص الكبدي OATP1B1 وOATP1B3.» النص الأصلي بالإنجليزية: "Tenofovir alafenamide is an antiviral drug against the hepatitis B virus. […] Tenofovir alafenamide is a phosphonamidate prodrug of tenofovir (2'-deoxyadenosine monophosphate analog). Tenofovir alafenamide as a lipophilic cell-permeant compound enters primary hepatocytes by passive diffusion and by the hepatic uptake transporters OATP1B1 and OATP1B3." ([DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2)، إصدار 2025-07-14؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن تينوفوفير ألافيناميد طليعة دواء (prodrug) لمادة تينوفوفير، وهو مثبّط نيوكليوتيدي للنسخ العكسي. يتحول داخل الخلايا إلى تينوفوفير ثنائي الفوسفات الذي يثبّط إنزيم النسخ العكسي، ويوصل الدواء بكفاءة إلى الخلايا اللمفاوية بعد تناوله فموياً.
 
 فيروس SIV وفيروس SHIV الهجين من الفيروسات البطيئة (Lentiviruses) التي يرتبط إنزيم النسخ العكسي فيها ارتباطاً وثيقاً بنظيره في HIV-1، لذا فإن النشاط المضاد لها معقول بيولوجياً. وتتسق الدراسات على القرود مع هذه الآلية وتُظهر حماية في النماذج الحيوانية.
 
@@ -133,11 +133,12 @@ description: "Tenofovir Alafenamide: الاستطباب الجديد المتو�
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الترخيص الوحيد في السعودية ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
 
 <!-- review:end log -->
 

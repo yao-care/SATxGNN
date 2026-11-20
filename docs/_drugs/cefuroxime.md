@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cefuroxime"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Cefuroxime: الاستطباب الجديد المتوقع متلازمة فرط اللزوجة متعددة النسائل (polyclonal hyperviscosity syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 (السارية: 17)"
 ---
 
@@ -60,7 +60,7 @@ description: "Cefuroxime: الاستطباب الجديد المتوقع متل�
 
 ## لماذا هذا التنبؤ؟ وهل هو معقول؟
 
-سيفوروكسيم مضاد حيوي بيتا-لاكتام يثبّط تخليق جدار الخلية البكتيرية. لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير، لكن هذه الآلية المعروفة تخص العدوى البكتيرية.
+سيفوروكسيم مضاد حيوي بيتا-لاكتام يثبّط تخليق جدار الخلية البكتيرية. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cefuroxime (ترجمة غير رسمية): «سيفوروكسيم هو عامل قاتل للبكتيريا يعمل عن طريق تثبيط تخليق الجدار الخلوي البكتيري. يتمتع سيفوروكسيم بفعالية في وجود بعض إنزيمات بيتا-لاكتاماز، سواء البنسليناز أو السيفالوسبوريناز، التي تنتجها البكتيريا سالبة الغرام وموجبة الغرام.» النص الأصلي بالإنجليزية: "Cefuroxime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefuroxime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c)، إصدار 2025-03-27؛ تاريخ الاطلاع 2026-11-20).
 
 أما متلازمة فرط اللزوجة متعددة النسائل فهي اضطراب غير infectious مرتبط بالبروتينات والغلوبولينات المناعية في الدم، ولم يُحدَّد أي رابط آلي بينها وبين عمل سيفوروكسيم. ويبدو أن الدرجة المرتفعة ناتجة عن أثر في بنية النموذج القائم على الشبكات وليست مدعومة بدليل سريري أو أدبي.
 
@@ -110,6 +110,19 @@ description: "Cefuroxime: الاستطباب الجديد المتوقع متل�
 - وجود دليل سريري أو مخبري مباشر يربط سيفوروكسيم بهذه المتلازمة.
 - بيانات آلية العمل التفصيلية.
 - نشرة الدواء الرسمية لتحديد التحذيرات وموانع الاستعمال.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

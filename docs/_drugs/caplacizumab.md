@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CAPLACIZUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "hemophilia", "platelet-type bleeding disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Caplacizumab: الاستطباب الجديد المتوقع اضطراب إطلاق الصفائح الأولي (primary release disorder of platelets) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -55,7 +55,7 @@ description: "Caplacizumab: الاستطباب الجديد المتوقع اض�
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعروف، يرتبط كابلاسيزوماب بمجال A1 في عامل فون ويلبراند فيمنع تفاعله مع GPIb على الصفائح، وبذلك يقلل التصاق الصفائح وتكوّن الخثرات الدقيقة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Caplacizumab (ترجمة غير رسمية): «يستهدف كابلاسيزوماب-yhdp المجال A1 من vWF، ويثبط التفاعل بين vWF والصفائح الدموية، مما يقلل كلًّا من التصاق الصفائح الدموية المتواسط بـ vWF واستهلاك الصفائح الدموية.» النص الأصلي بالإنجليزية: "Caplacizumab-yhdp targets the A1-domain of vWF, and inhibits the interaction between vWF and platelets, thereby reducing both vWF-mediated platelet adhesion and platelet consumption." ([DailyMed: Cablivi (caplacizumab) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905)، إصدار 2026-04-24؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، يرتبط كابلاسيزوماب بمجال A1 في عامل فون ويلبراند فيمنع تفاعله مع GPIb على الصفائح، وبذلك يقلل التصاق الصفائح وتكوّن الخثرات الدقيقة.
 
 أما اضطرابات إطلاق الصفائح فتنشأ من خلل في إفراز حبيبات الصفائح، لا من التصاق يتوسطه عامل فون ويلبراند، لذلك فالصلة الآلية ضعيفة. وقد يؤدي حجب الالتصاق إلى إضعاف الإرقاء أكثر. ودرجة TxGNN العالية مجرد تنبؤ حسابي ولا تعكس دليلاً سريرياً.
 
@@ -94,6 +94,19 @@ description: "Caplacizumab: الاستطباب الجديد المتوقع اض�
 - استخراج تحذيرات وموانع الاستعمال من نشرة الدواء لدى هيئة الغذاء والدواء السعودية.
 - استكمال بيانات آلية العمل.
 - دراسات سابقة للسريرية أو آلية تدعم صلة الدواء بهذا الاضطراب، مع تقييم صارم لمخاطر النزف.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cablivi (caplacizumab) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

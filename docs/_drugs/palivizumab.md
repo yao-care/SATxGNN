@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 626
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Palivizumab: الاستطباب الجديد المتوقع ورم حميد في اللسان (Benign neoplasm of tongue) (مستوى الدليل L5). الاستطباب الأصلي: عدوى الفيروس المخلوي التنفسي (RSV)"
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
@@ -59,7 +59,7 @@ predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cer
 
 ## لماذا قد يكون هذا التوقع معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا في البيانات المجمّعة لهذا التقرير. وبحسب المعروف، فإن باليفيزوماب جسم مضاد وحيد النسيلة مُؤنسن (humanized) يستهدف بروتين الاندماج F للفيروس المخلوي التنفسي، وفعاليته في الوقاية من عدوى RSV معروفة.
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Palivizumab هي (ترجمة غير رسمية): «مثبط البروتين السكري الاندماجي F0». النص الأصلي بالإنجليزية: "Fusion glycoprotein F0 inhibitor" ([ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإن باليفيزوماب جسم مضاد وحيد النسيلة مُؤنسن (humanized) يستهدف بروتين الاندماج F للفيروس المخلوي التنفسي، وفعاليته في الوقاية من عدوى RSV معروفة.
 
 أما من الناحية الآلية، فلم يُحدَّد أي رابط بيولوجي بين هذا الهدف وأورام اللسان الحميدة. فليس للبروتين F دور معروف كهدف ورمي، ولا يوجد أساس يدعم نشاطًا مضادًا للأورام. ويبدو أن الدرجة المرتفعة ناتجة عن تشابه في بنية الرسم المعرفي (الجوار المرضي) وليس عن دليل بيولوجي أو سريري.
 
@@ -131,13 +131,14 @@ predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cer
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كلا الترخيصين ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-12 | الجدول: SYNAGIS 100MG\ML I.M VIAL مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 | 2026-11-12 | الجدول: SYNAGIS 100MG\ML I.M Solution for Injection مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586) |
 
 <!-- review:end log -->
 

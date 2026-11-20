@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 634
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Pazopanib: الاستطباب الجديد المتوقع الورم الشحمي الخبيث (Liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان الخلايا الكلوية، والساركوما الرخوة (بحسب الاستطبابات المسجلة في…"
 monitor_inn: "Pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
@@ -60,7 +60,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibr
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في قاعدة البيانات. لكن بحسب بيانات الاستهداف الدوائي المجمّعة، يرتبط بازوبانيب بعدة مستقبلات كيناز التيروزين: PDGFRB وKIT وCSF1R وFGFR1 وFLT1 (VEGFR1) وKDR (VEGFR2) وFLT4 (VEGFR3). وهذا يتسق مع كونه مثبطًا لمسارات تكوّن الأوعية والنمو الورمي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Pazopanib (ترجمة غير رسمية): «بازوبانيب مثبّط متعدد لكينازات التيروزين لمستقبل عامل نمو بطانة الأوعية (VEGFR)-1، وVEGFR-2، وVEGFR-3، ومستقبل عامل النمو المشتق من الصفائح الدموية (PDGFR)-α و-β، ومستقبل عامل نمو الأرومات الليفية (FGFR)-1 و-3، ومستقبل السيتوكين (Kit)، والكيناز التائي المحرَّض بمستقبل إنترلوكين-2 (Itk)، وكيناز التيروزين البروتيني النوعي للخلايا اللمفاوية (Lck)، وكيناز التيروزين لمستقبل البروتين السكري عابر الغشاء (c-Fms). وفي المختبر، ثبّط بازوبانيب الفسفرة الذاتية المحرَّضة بالربيطة لمستقبلات VEGFR-2 وKit وPDGFR-β.» النص الأصلي بالإنجليزية: "Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors." ([DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7)، إصدار 2025-12-16؛ تاريخ الاطلاع 2026-11-20). لكن بحسب بيانات الاستهداف الدوائي المجمّعة، يرتبط بازوبانيب بعدة مستقبلات كيناز التيروزين: PDGFRB وKIT وCSF1R وFGFR1 وFLT1 (VEGFR1) وKDR (VEGFR2) وFLT4 (VEGFR3). وهذا يتسق مع كونه مثبطًا لمسارات تكوّن الأوعية والنمو الورمي.
 
 العلاقة بين الاستطباب الأصلي والجديد واضحة: فالبازوبانيب معتمد في الساركوما الرخوة (باستثناء الأنماط الشحمية بناءً على تجربة PALETTE)، والورم الشحمي الخبيث هو نمط فرعي من الساركوما الرخوة. فهو إذن امتداد خاص بنمط فرعي، تدعمه تجارب المرحلة الثانية.
 
@@ -160,11 +160,12 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibr
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «إذ إن الترخيص الوحيد في المملكة ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
 
 <!-- review:end log -->
 

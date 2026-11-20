@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 583
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "NEVIRAPINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Nevirapine: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب لدى القطط (feline acquired immunodeficiency syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -60,7 +60,7 @@ description: "Nevirapine: الاستطباب الجديد المتوقع متل�
 
 ## لماذا يبدو هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. استناداً إلى المعرفة المتاحة، ينتمي نيفيرابين إلى فئة مثبطات النسخ العكسي غير النيوكليوزيدية التي تستهدف إنزيم النسخ العكسي لفيروس HIV-1، وقد ثبتت فعاليته في عدوى HIV.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Nevirapine (ترجمة غير رسمية): «النيفيرابين دواء مضاد للفيروسات القهقرية. […] النيفيرابين مثبّط غير نوكليوزيدي للمنتسخة العكسية (NNRTI) لفيروس HIV-1. يرتبط النيفيرابين مباشرة بالمنتسخة العكسية (RT) ويحصر أنشطة بوليميراز DNA المعتمد على RNA والمعتمد على DNA عن طريق إحداث اضطراب في الموقع التحفيزي للإنزيم.» النص الأصلي بالإنجليزية: "Nevirapine is an antiretroviral drug. […] Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1. Nevirapine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site." ([DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15)، إصدار 2026-10-08؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعرفة المتاحة، ينتمي نيفيرابين إلى فئة مثبطات النسخ العكسي غير النيوكليوزيدية التي تستهدف إنزيم النسخ العكسي لفيروس HIV-1، وقد ثبتت فعاليته في عدوى HIV.
 
 فيروس نقص المناعة لدى القطط (FIV) من الفيروسات العكوسة البطيئة (Lentivirus) كما HIV، ومن هنا جاء الارتباط في الشبكة المعرفية. غير أن إنزيم النسخ العكسي لدى FIV يختلف بنيوياً عن إنزيم HIV-1، وتشير المعرفة المنشورة عموماً إلى أنه مقاوم بطبيعته للعديد من مثبطات NNRTI.
 
@@ -126,11 +126,12 @@ description: "Nevirapine: الاستطباب الجديد المتوقع متل�
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الترخيص في السعودية ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
 
 <!-- review:end log -->
 

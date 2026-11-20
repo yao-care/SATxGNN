@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Clobetasol Propionate: الاستطباب الجديد المتوقع الورم الكيراتيني الجريبي المقلوب في الفرج (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد التأتبي (الإكزيما) والتهاب الجلد التماسي والتهاب الجلد ا…"
 monitor_inn: "CLOBETASOL PROPIONATE"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
@@ -62,7 +62,7 @@ predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis 
 
 ## لماذا يُعدّ هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل. بحسب المعلومات المعروفة، يرتبط كلوبيتازول بمستقبل الغلوكوكورتيكويد (NR3C1)، وهو كورتيكوستيرويد موضعي ثبتت فعاليته في الأمراض الجلدية الالتهابية والمسببة للحكة، ومن حيث الآلية قد ينطبق على مؤشرات جلدية أخرى.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Clobetasol Propionate (ترجمة غير رسمية): «يتمتع كلوبيتاسول بروبيونات، مثله مثل الكورتيكوستيرويدات الموضعية الأخرى، بخصائص مضادة للالتهاب ومضادة للحكة ومقبِّضة للأوعية الدموية. وآلية النشاط المضاد للالتهاب للستيرويدات الموضعية، بوجه عام، غير واضحة.» النص الأصلي بالإنجليزية: "Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear." ([DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069)، إصدار 2026-11-10؛ تاريخ الاطلاع 2026-11-20). بحسب المعلومات المعروفة، يرتبط كلوبيتازول بمستقبل الغلوكوكورتيكويد (NR3C1)، وهو كورتيكوستيرويد موضعي ثبتت فعاليته في الأمراض الجلدية الالتهابية والمسببة للحكة، ومن حيث الآلية قد ينطبق على مؤشرات جلدية أخرى.
 
 الورم الكيراتيني الجريبي المقلوب آفة ظهارية حميدة مرتبطة بالتقرن الدهني (seborrheic keratosis)، وهو أحد المؤشرات الأصلية في الرسم المعرفي. أي صلة علاجية ستكون عبر النشاط المضاد للالتهاب العام للكورتيكوستيرويدات الموضعية، وهذا **افتراضي** في الوقت الحالي، ولم تُقدَّم أي دراسات تؤكده.
 
@@ -154,6 +154,19 @@ predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis 
 - حسم غموض ربط «الطفح» بالحزاز المسطح الفموي قبل أي توصية.
 - مراجعة منهجية للأدبيات الخاصة بالورم الكيراتيني الجريبي المقلوب، واستكشاف مؤشر حَب الشباب الجدري بدراسة مضبوطة.
 - تحديد مدى توفر الشكل الدوائي الموضعي المناسب في السوق السعودي، إذ لا ترخيص ساريًا حاليًا.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

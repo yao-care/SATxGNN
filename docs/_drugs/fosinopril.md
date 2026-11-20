@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Fosinopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Fosinopril: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
@@ -59,7 +59,7 @@ description: "Fosinopril: الاستطباب الجديد المتوقع Maligna
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعلومات المعروفة، فإن فوسينوبريل مثبّط لإنزيم ACE (الجين المستهدف ACE)، وتُستخدم مادته الفعالة لعلاج ارتفاع ضغط الدم، وكعلاج مساعد في قصور القلب الاحتقاني، ولإبطاء تقدم أمراض الكلى.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Fosinopril (ترجمة غير رسمية): «لدى الحيوانات والبشر، يُحلمَه فوسينوبريل الصوديوم بواسطة الإستيرازات إلى الشكل الفعال دوائيًا، الفوسينوبريلات، وهو مثبط تنافسي نوعي للإنزيم المحوِّل للأنجيوتنسين (ACE). والـACE ببتيديل ثنائي الببتيداز يحفز تحويل الأنجيوتنسين I إلى المادة المضيِّقة للأوعية، الأنجيوتنسين II.» النص الأصلي بالإنجليزية: "In animals and humans, fosinopril sodium is hydrolyzed by esterases to the pharmacologically active form, fosinoprilat, a specific competitive inhibitor of angiotensin-converting enzyme (ACE). ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II." ([DailyMed: Fosinopril Sodium (fosinopril) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fc38f1bb-f175-4a81-8ed9-c8701efdea35)، إصدار 2023-11-27؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن فوسينوبريل مثبّط لإنزيم ACE (الجين المستهدف ACE)، وتُستخدم مادته الفعالة لعلاج ارتفاع ضغط الدم، وكعلاج مساعد في قصور القلب الاحتقاني، ولإبطاء تقدم أمراض الكلى.
 
 ارتفاع ضغط الدم الكلوي الوعائي يتأثر بقوة بتنشيط نظام الرينين-أنجيوتنسين، ولذلك فإن تثبيط ACE منطقي من الناحية البيولوجية. غير أن هذا الاستطباب هو في جوهره امتداد للاستطباب المعتمد (ارتفاع ضغط الدم) وليس إعادة توجيه دوائي حقيقية.
 
@@ -138,6 +138,19 @@ description: "Fosinopril: الاستطباب الجديد المتوقع Maligna
 - تنزيل النشرة الدوائية من موقع الهيئة العامة للغذاء والدواء (SFDA) وتحليل التحذيرات وموانع الاستعمال (أولوية حاسمة).
 - استكمال بيانات آلية العمل من DrugBank.
 - البحث عن أدلة سريرية مباشرة لمثبّطات ACE في ارتفاع ضغط الدم الكلوي الوعائي الخبيث، مع تقييم مخاطر تدهور وظائف الكلى في تضيق الشريان الكلوي ثنائي الجانب.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Fosinopril Sodium (fosinopril) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fc38f1bb-f175-4a81-8ed9-c8701efdea35) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

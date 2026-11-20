@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 789
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Telaprevir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L5). الاستطباب الأصلي: عدوى التهاب الكبد C المزمنة (مستمدة من الاستطبابات في قاعدة المعرفة،…"
 monitor_inn: "TELAPREVIR"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "chronic hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "Omsk hemorrhagic fever"]
@@ -62,7 +62,7 @@ predicted_indications: ["HIV infectious disease", "hepatitis B virus infection",
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن تيلابريفير مثبّط تساهمي عكوس لبروتياز NS3/4A في فيروس التهاب الكبد C، وقد أُجيز ضمن علاج مركّب (مع إنترفيرون بيغيلاتي وريبافيرين) للنمط الجيني 1، ورفع معدلات الشفاء من نحو 45% إلى نحو 70%.
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Telaprevir هي (ترجمة غير رسمية): «مثبّط إنزيم السيرين بروتياز NS3/NS4A لفيروس التهاب الكبد C». النص الأصلي بالإنجليزية: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL231813 (telaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231813)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20). المعروف أن تيلابريفير مثبّط تساهمي عكوس لبروتياز NS3/4A في فيروس التهاب الكبد C، وقد أُجيز ضمن علاج مركّب (مع إنترفيرون بيغيلاتي وريبافيرين) للنمط الجيني 1، ورفع معدلات الشفاء من نحو 45% إلى نحو 70%.
 
 أما ارتباطه بـ HIV فهو ضعيف آلياً. فلا يوجد نشاط مضاد لـ HIV معروف لتيلابريفير، وبروتياز HIV يختلف عن بروتياز NS3/4A. والأرجح أن الدرجة العالية تعكس القرب في شبكة المعرفة بسبب العدوى المشتركة HIV/HCV وتشارك أدوية مضادة للفيروسات في الجوار نفسه.
 
@@ -160,12 +160,13 @@ predicted_indications: ["HIV infectious disease", "hepatitis B virus infection",
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «ملغى تسويقياً و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «ملغى في المملكة و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL231813 (telaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231813) |
 
 <!-- review:end log -->
 

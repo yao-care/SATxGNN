@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Amiloride: الاستطباب الجديد المتوقع مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث (malignant hypertensive renal disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
@@ -56,7 +56,7 @@ description: "Amiloride: الاستطباب الجديد المتوقع مرض �
 
 أميلورايد حاصر لقنوات ENaC ومدرّ للبول يحافظ على البوتاسيوم، ويُستخدم أصلاً في أمراض ضغط الدم. وهناك رابط محتمل عبر خفض ضغط الدم وتنظيم معالجة الصوديوم في الكلية.
 
-غير أن ارتفاع ضغط الدم الخبيث مع إصابة الكلى حالة حادة وشديدة تُعالج عادةً بأدوية سريعة المفعول، ولم تتوفر أي تجارب أو منشورات تدعم استخدام أميلورايد فيها. بيانات آلية العمل التفصيلية غير متوفرة حالياً، والدرجة العالية (0.9982) مجرد تنبؤ حاسوبي.
+غير أن ارتفاع ضغط الدم الخبيث مع إصابة الكلى حالة حادة وشديدة تُعالج عادةً بأدوية سريعة المفعول، ولم تتوفر أي تجارب أو منشورات تدعم استخدام أميلورايد فيها. وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Amiloride (ترجمة غير رسمية): «أميلوريد HCl دواء حافظ للبوتاسيوم (مضاد لإدرار البوتاسيوم) يمتلك نشاطاً مُدرّاً للصوديوم ومُدرّاً للبول وخافضاً لضغط الدم ضعيفاً (مقارنةً بمدرات البول الثيازيدية). وقد كانت هذه التأثيرات مضافةً جزئياً إلى تأثيرات مدرات البول الثيازيدية في بعض الدراسات السريرية.» النص الأصلي بالإنجليزية: "Amiloride HCl is a potassium-conserving (antikaliuretic) drug that possesses weak (compared with thiazide diuretics) natriuretic, diuretic, and antihypertensive activity. These effects have been partially additive to the effects of thiazide diuretics in some clinical studies." ([DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68)، إصدار 2026-11-11؛ تاريخ الاطلاع 2026-11-20).
 
 ## الأدلة من التجارب السريرية
 
@@ -92,6 +92,19 @@ description: "Amiloride: الاستطباب الجديد المتوقع مرض �
 - تحميل النشرة الدوائية من هيئة الغذاء والدواء السعودية لاستخراج التحذيرات وموانع الاستعمال، وهو شرط للانتقال إلى مرحلة فحص السلامة.
 - دراسات سريرية أو سريرية قبلية تتناول أميلورايد في مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث.
 - تقييم خطر فرط بوتاسيوم الدم، خصوصاً مع القصور الكلوي والأدوية المتداخلة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

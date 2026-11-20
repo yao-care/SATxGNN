@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Abatacept: الاستطباب الجديد المتوقع التهاب الفقار اللاصق (ankylosing spondylitis) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -54,7 +54,7 @@ description: "Abatacept: الاستطباب الجديد المتوقع الته
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-تفاصيل آلية العمل غير متاحة حالياً في البيانات. لكن المعروف أن أباتاسيبت يحجب التحفيز المشترك عبر CD28 فيقلّل تنشيط الخلايا التائية، وهي خلايا تشارك في التهاب المفاصل المناعي، ومنه الفقار المفصلي (spondyloarthritis).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Abatacept (ترجمة غير رسمية): «أباتاسيبت، وهو مُعدِّل انتقائي للتحفيز المشترك، يثبط تنشيط الخلايا التائية (الخلايا اللمفاوية التائية) عن طريق الارتباط بـ CD80 وCD86، وبذلك يحجب التفاعل مع CD28. يوفر هذا التفاعل إشارة تحفيز مشترك ضرورية للتنشيط الكامل للخلايا اللمفاوية التائية.» النص الأصلي بالإنجليزية: "Abatacept, a selective costimulation modulator, inhibits T-cell (T lymphocyte) activation by binding to CD80 and CD86, thereby blocking interaction with CD28. This interaction provides a costimulatory signal necessary for full activation of T lymphocytes." ([DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb)، إصدار 2025-11-13؛ تاريخ الاطلاع 2026-11-20). لكن المعروف أن أباتاسيبت يحجب التحفيز المشترك عبر CD28 فيقلّل تنشيط الخلايا التائية، وهي خلايا تشارك في التهاب المفاصل المناعي، ومنه الفقار المفصلي (spondyloarthritis).
 
 هذا يعطي معقولية آلية نظرية، لكنها لا تُترجم إلى إشارة سريرية واضحة. فالمراجعات حول العلاج بعد حاصرات TNF (مثل Sieper 2016 وVan den Bosch 2014) تذكر أن العوامل البيولوجية غير الحاصرة لـ TNF، ومنها أباتاسيبت، لم تُظهر فاعلية مقنعة في المرض المحوري. لذا يجب التعامل مع التنبؤ بحذر.
 
@@ -101,6 +101,19 @@ description: "Abatacept: الاستطباب الجديد المتوقع الته
 - تصميم تجربة عشوائية مضبوطة بالدواء الوهمي في التهاب الفقار اللاصق إن وُجد مبرر.
 - استكمال بيانات آلية العمل وتحذيرات النشرة الدوائية وموانع الاستعمال.
 - مقارنة الفائدة المتوقعة مع حاصرات TNF ومثبطات IL-17 المعتمدة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 173
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Chlordiazepoxide: الاستطباب الجديد المتوقع الأرق (مستوى الدليل L5). الاستطباب الأصلي: القلق، وانسحاب الكحول، وقرحة المعدة، والقولون العصبي (بحسب الرسم المع…"
 monitor_inn: "chlordiazepoxide"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "myofascial pain syndrome"]
@@ -58,7 +58,7 @@ predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. استنادًا إلى المعرفة المعروفة، كلورديازيبوكسايد بنزوديازيبين يعزز إشارات مستقبلات GABA-A، مما يعطي تأثيرًا مهدئًا ومزيلًا للقلق. وقد ثبتت فعاليته في القلق وانسحاب الكحول، وقد تنطبق آليته على الأرق، خاصة الأرق المصحوب بالقلق.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Chlordiazepoxide (ترجمة غير رسمية): «يتمتع كلورديازيبوكسيد HCl بتأثيرات مضادة للقلق ومهدئة ومنبهة للشهية ومسكنة ضعيفة. والآلية الدقيقة للتأثير غير معروفة. ويحجب الدواء استثارة مخطط كهربية الدماغ (EEG) الناتجة عن تحفيز التشكيل الشبكي لجذع الدماغ.» النص الأصلي بالإنجليزية: "Chlordiazepoxide HCl has antianxiety, sedative, appetite-stimulating and weak analgesic actions. The precise mechanism of action is not known. The drug blocks EEG arousal from stimulation of the brain stem reticular formation." ([DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937)، إصدار 2026-11-05؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعرفة المعروفة، كلورديازيبوكسايد بنزوديازيبين يعزز إشارات مستقبلات GABA-A، مما يعطي تأثيرًا مهدئًا ومزيلًا للقلق. وقد ثبتت فعاليته في القلق وانسحاب الكحول، وقد تنطبق آليته على الأرق، خاصة الأرق المصحوب بالقلق.
 
 العلاقة بين الاستطباب الأصلي والجديد وثيقة نسبيًا: القلق والأرق كثيرًا ما يتزامنان، والتعديل الإيجابي لمستقبلات GABA-A آلية معتمدة للمساعدة على النوم والحفاظ عليه، وتُستخدم بنزوديازيبينات أخرى لهذا الغرض. غير أن الدواء طويل المفعول وله مستقلبات نشطة، ما يثير مخاوف من النعاس في اليوم التالي والسقوط لدى كبار السن.
 
@@ -130,11 +130,12 @@ predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «والتراخيص المحلية كلها ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937) |
 
 <!-- review:end log -->
 

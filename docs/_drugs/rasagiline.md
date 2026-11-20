@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 711
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Rasagiline: الاستطباب الجديد المتوقع الانحلال العصبي المرتبط بـ PLA2G6 (مستوى الدليل L5). الاستطباب الأصلي: مرض باركنسون (والمتلازمات الباركنسونية المرتبطة به)"
 monitor_inn: "RASAGILINE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
@@ -59,7 +59,7 @@ predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacu
 
 ## لماذا يُعدّ هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا في البيانات المجمّعة لهذا التقرير. استنادًا إلى المعروف عن الدواء، فإن الراسagيلين مثبّط لإنزيم MAO-B، وهو يرفع مستوى الدوبامين في المخطط (striatum)، وقد ثبتت فعاليته في مرض باركنسون.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Rasagiline (ترجمة غير رسمية): «AZILECT مثبط انتقائي وغير عكوس لـ MAO-B، مُستطب لعلاج داء باركنسون مجهول السبب. تشير نتائج تجربة سريرية صُممت لفحص تأثيرات AZILECT على ضغط الدم عند إعطائه مع جرعات متزايدة من التيرامين إلى أن الانتقائية الوظيفية قد تكون غير كاملة عندما يتناول أشخاص أصحاء كميات كبيرة من التيرامين أثناء تلقيهم الجرعات الموصى بها من AZILECT. […] وفي دراسات حيوانية خارج الجسم الحي على أنسجة الدماغ والكبد والأمعاء، تبيّن أن الراساجيلين مثبط انتقائي قوي وغير عكوس لأوكسيداز أحادي الأمين من النوع B (MAO-B).» النص الأصلي بالإنجليزية: "AZILECT is a selective, irreversible MAO-B inhibitor indicated for the treatment of idiopathic Parkinson’s disease. The results of a clinical trial designed to examine the effects of AZILECT on blood pressure when it is administered with increasing doses of tyramine indicates the functional selectivity can be incomplete when healthy subjects ingest large amounts of tyramine while receiving recommended doses of AZILECT. […] In ex vivo animal studies in brain, liver, and intestinal tissues, rasagiline was shown to be a potent, irreversible monoamine oxidase type B (MAO-B) selective inhibitor." ([DailyMed: Azilect (rasagiline mesylate) prescribing information, Teva Neuroscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60)، إصدار 2020-06-30؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعروف عن الدواء، فإن الراسagيلين مثبّط لإنزيم MAO-B، وهو يرفع مستوى الدوبامين في المخطط (striatum)، وقد ثبتت فعاليته في مرض باركنسون.
 
 يشمل الانحلال العصبي المرتبط بـ PLA2G6 الحثل العصبي المحوري الطفلي (infantile neuroaxonal dystrophy) والحثل التوتري–الباركنسوني المرتبط بـ PLA2G6 (PARK14). تتداخل الأعراض الباركنسونية في هذه الحالة مع استطباب مرض باركنسون المعتمد، ولذلك يمكن نظريًا أن يوفّر الراسagيلين فائدة عرضية عبر المسار الدوباميني.
 
@@ -123,11 +123,12 @@ predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacu
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الدواء غير مرخّص حاليًا في السعودية (الترخيص الوحيد ملغى)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Azilect (rasagiline mesylate) prescribing information, Teva Neuroscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 624
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: الاستطباب الجديد المتوقع Hyperthyroidism (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -60,7 +60,7 @@ description: "Palbociclib: الاستطباب الجديد المتوقع Hypert
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل ضمن المعطيات المجمّعة. استنادًا إلى المعلومات المعروفة، فإن بالبوسيكليب يثبّط CDK4/6 فيوقف دورة الخلية في المرحلة G1، وقد ثبتت فعاليته في سرطان الثدي، ومن الناحية الآلية قد ينطبق على التهاب المفاصل الرثياني.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Palbociclib (ترجمة غير رسمية): «البالبوسيكليب مثبط للكينازات المعتمدة على السيكلين (CDK) 4 و6. ويقع السيكلين D1 وCDK4/6 في مرحلة لاحقة لمسارات الإشارات التي تؤدي إلى تكاثر الخلايا. وفي المختبر، قلّل البالبوسيكليب تكاثر خطوط خلايا سرطان الثدي الإيجابية لمستقبلات الإستروجين (ER) عن طريق منع انتقال الخلية من الطور G1 إلى الطور S من دورة الخلية.» النص الأصلي بالإنجليزية: "Palbociclib is an inhibitor of cyclin-dependent kinases (CDK) 4 and 6. Cyclin D1 and CDK4/6 are downstream of signaling pathways which lead to cellular proliferation. In vitro, palbociclib reduced cellular proliferation of estrogen receptor (ER)-positive breast cancer cell lines by blocking progression of the cell from G1 into S phase of the cell cycle." ([DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792)، إصدار 2026-07-06؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعلومات المعروفة، فإن بالبوسيكليب يثبّط CDK4/6 فيوقف دورة الخلية في المرحلة G1، وقد ثبتت فعاليته في سرطان الثدي، ومن الناحية الآلية قد ينطبق على التهاب المفاصل الرثياني.
 
 في التهاب المفاصل الرثياني يحدث فرط تكاثر في الخلايا الليفية الزليلية والخلايا المناعية المنشَّطة. تدعم الأدبيات ما قبل السريرية فكرة أن تثبيط دورة الخلية قد يخفف هذا التكاثر. فقد أظهرت دراسة على الفئران أن تضخم الغشاء الزليلي يعتمد على CDK6 وليس CDK4. وبيّنت دراسة أخرى أن دمج تنظيم دورة الخلية مع حصر السيتوكينات يعزز التأثير المضاد للالتهاب دون زيادة كبت المناعة.
 
@@ -161,12 +161,13 @@ description: "Palbociclib: الاستطباب الجديد المتوقع Hypert
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «وأسباب إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
 
 <!-- review:end log -->
 

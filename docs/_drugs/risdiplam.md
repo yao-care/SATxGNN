@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 727
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Risdiplam: الاستطباب الجديد المتوقع حب الشباب (Acne) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف علمياً: ضمور العضلات الشوكي)"
 monitor_inn: "RISDIPLAM"
 predicted_indications: ["acne (disease)"]
@@ -56,7 +56,7 @@ predicted_indications: ["acne (disease)"]
 
 ## لماذا يُعد هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. المعروف أن ريسديبلام معدِّل لتضفير SMN2 يُستخدم في ضمور العضلات الشوكي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Risdiplam (ترجمة غير رسمية): «ريسديبلام مُعدِّل لتضفير جين بقاء العصبون الحركي 2 ‏(SMN2)، صُمّم لعلاج المرضى المصابين بضمور العضلات الشوكي (SMA) الناجم عن طفرات في الكروموسوم 5q تؤدي إلى نقص بروتين SMN. وباستخدام اختبارات في المختبر ودراسات على نماذج حيوانية معدّلة وراثيًا لـ SMA، ثبت أن ريسديبلام يزيد من تضمين الإكسون 7 في نسخ الحمض النووي الريبي المرسال (mRNA) لـ SMN2 ومن إنتاج بروتين SMN كامل الطول في الدماغ.» النص الأصلي بالإنجليزية: "Risdiplam is a survival of motor neuron 2 (SMN2) splicing modifier designed to treat patients with spinal muscular atrophy (SMA) caused by mutations in chromosome 5q that lead to SMN protein deficiency. Using in vitro assays and studies in transgenic animal models of SMA, risdiplam was shown to increase exon 7 inclusion in SMN2 messenger ribonucleic acid (mRNA) transcripts and production of full-length SMN protein in the brain." ([DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e)، إصدار 2026-11-02؛ تاريخ الاطلاع 2026-11-20). المعروف أن ريسديبلام معدِّل لتضفير SMN2 يُستخدم في ضمور العضلات الشوكي.
 
 لا يمكن إثبات صلة آلية معقولة بين هذا الدواء وفسيولوجيا حب الشباب المرضية (إفراز الدهون، فرط التقرن حول البصيلات، استعمار بكتيريا Cutibacterium acnes، الالتهاب). الدرجة المرتفعة (0.9945) قد تعكس تأثيرات ناتجة عن بنية الشبكة المعرفية، كالجيران المشتركين مع أدوية أخرى، وليس صلة بيولوجية حقيقية.
 
@@ -113,12 +113,13 @@ predicted_indications: ["acne (disease)"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص المحلي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح الاستطباب المعتمد وسبب إلغاء الترخيص المحلي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e) |
 
 <!-- review:end log -->
 

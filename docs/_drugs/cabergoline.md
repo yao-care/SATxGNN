@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CABERGOLINE"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Cabergoline: الاستطباب الجديد المتوقع متلازمة الشيخوخة المبكرة مع قصر القامة والوحمات المصطبغة (progeria-short stature-pigmented nevi syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيان…"
 ---
 
@@ -54,7 +54,7 @@ description: "Cabergoline: الاستطباب الجديد المتوقع متل
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن كابرغولين ناهض لمستقبلات الدوبامين D2، لكن البيانات المجمّعة لهذا التقرير لم تحدد أي رابط آلي معقول بين هذه الآلية وهذه المتلازمة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cabergoline (ترجمة غير رسمية): «الكابرغولين مشتق من الإرغوت وناهض لمستقبلات الدوبامين ذو ألفة عالية لمستقبلات D2. وتُظهر نتائج الدراسات في المختبر (in vitro) أن الكابرغولين يمارس تأثيرًا تثبيطيًا مباشرًا على إفراز البرولاكتين من الخلايا المُفرزة للبرولاكتين في الغدة النخامية لدى الجرذان.» النص الأصلي بالإنجليزية: "Cabergoline is an ergot derivative and dopamine receptor agonist with a high affinity for D2 receptors. Results of in vitro studies demonstrate that cabergoline exerts a direct inhibitory effect on the secretion of prolactin by rat pituitary lactotrophs." ([DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb)، إصدار 2026-06-30؛ تاريخ الاطلاع 2026-11-20). المعروف أن كابرغولين ناهض لمستقبلات الدوبامين D2، لكن البيانات المجمّعة لهذا التقرير لم تحدد أي رابط آلي معقول بين هذه الآلية وهذه المتلازمة.
 
 الدرجة المرتفعة (0.9906) ناتجة عن النموذج الحسابي وحده. لا توجد دراسات سريرية أو منشورات تدعمها، ولم يُحدَّد تشابه واضح بين الاستطباب الأصلي والمتلازمة المتوقعة. لذلك ينبغي التعامل مع التنبؤ كفرضية أولية فقط، لا كدليل على الفعالية.
 
@@ -91,6 +91,19 @@ description: "Cabergoline: الاستطباب الجديد المتوقع متل
 - بيانات تفصيلية عن آلية العمل لتقييم أي رابط محتمل بالمتلازمة.
 - أي دراسة أولية أو سريرية تتناول هذه المتلازمة مباشرة.
 - نص النشرة الدوائية المعتمدة من هيئة الغذاء والدواء السعودية (التحذيرات وموانع الاستعمال) لإجراء فحص السلامة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

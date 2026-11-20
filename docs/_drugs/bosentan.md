@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 114
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Bosentan: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الشريان الرئوي، وتصلب الجلد (المصدر: الرسم المعرفي لـ TxGN…"
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
@@ -58,7 +58,7 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن بوسنتان مضاد ثنائي لمستقبلات الإندوثيلين ETA/ETB، وقد ثبتت فعاليته في ارتفاع ضغط الشريان الرئوي، وقد ينطبق ميكانيكياً على التهاب المفاصل الروماتويدي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Bosentan (ترجمة غير رسمية): «بوسنتان مضاد نوعي وتنافسي لنوعي مستقبلات الإندوثيلين ET A وET B. ويتمتع بوسنتان بألفة أعلى قليلًا لمستقبلات ET A منها لمستقبلات ET B. والتأثير السريري للحصار المزدوج للإندوثيلين غير معروف.» النص الأصلي بالإنجليزية: "Bosentan is a specific and competitive antagonist at endothelin receptor types ET A and ET B. Bosentan has a slightly higher affinity for ET A receptors than for ET B receptors. The clinical impact of dual endothelin blockage is unknown." ([DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c)، إصدار 2025-11-17؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن بوسنتان مضاد ثنائي لمستقبلات الإندوثيلين ETA/ETB، وقد ثبتت فعاليته في ارتفاع ضغط الشريان الرئوي، وقد ينطبق ميكانيكياً على التهاب المفاصل الروماتويدي.
 
 يساهم الإندوثيلين-1 في الالتهاب الزلالي والخلل الوعائي. وفي نموذج التهاب المفاصل الناجم عن الكولاجين لدى الفئران، خفّض بوسنتان الالتهاب المعتمد على TNF وفرط الحساسية للألم المفصلي (PMID 22249931). كما ارتبط مسار الإندوثيلين بالتهاب المفاصل الناجم عن الزيموسان (PMID 18515326).
 
@@ -137,11 +137,12 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن جميع التراخيص المحلية مُلغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c) |
 
 <!-- review:end log -->
 

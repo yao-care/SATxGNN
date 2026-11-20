@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 280
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Doxorubicin: الاستطباب الجديد المتوقع ساركوما إوينغ (مستوى الدليل L1). الاستطباب الأصلي: اللوكيميا الليمفاوية الحادة، لمفوما هودجكن، اللمفوما غير الهودجكنية،…"
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
@@ -60,7 +60,7 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في قاعدة البيانات المجمّعة. استناداً إلى المعلومات المعروفة، دوكسوروبيسين مثبّط لإنزيم توبوإيزوميراز II (TOP2A) ومُقحِم في الحمض النووي DNA، مما يسبب تلفاً في الحمض النووي في الخلايا الورمية سريعة التكاثر. ولا تتوفر بيانات ارتباط منشورة تؤكد الهدف الجزيئي الأساسي بشكل قاطع.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Doxorubicin (ترجمة غير رسمية): «يُعتقد أن التأثير السام للخلايا لهيدروكلوريد الدوكسوروبيسين على الخلايا الخبيثة وتأثيراته السامة على مختلف الأعضاء مرتبطة بنشاطَي الدوكسوروبيسين في الإقحام بين قواعد النوكليوتيدات والارتباط بدهون الغشاء الخلوي. ويثبط الإقحام تضاعف النوكليوتيدات وعمل إنزيمات بوليميراز DNA وRNA.» النص الأصلي بالإنجليزية: "The cytotoxic effect of doxorubicin hydrochloride on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases." ([DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd)، إصدار 2026-11-12؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعلومات المعروفة، دوكسوروبيسين مثبّط لإنزيم توبوإيزوميراز II (TOP2A) ومُقحِم في الحمض النووي DNA، مما يسبب تلفاً في الحمض النووي في الخلايا الورمية سريعة التكاثر. ولا تتوفر بيانات ارتباط منشورة تؤكد الهدف الجزيئي الأساسي بشكل قاطع.
 
 الاستطبابات الأصلية للدواء أورام دموية ولمفاوية، بينما ساركوما إوينغ ورم عظمي ونسيجي رخو يصيب الأطفال والشباب. يشترك المرضان في كون الخلايا الورمية سريعة الانقسام وحساسة للعوامل السامة للخلايا. ويُعد دوكسوروبيسين بالفعل ركيزة أساسية في النظام القياسي VDC/IE (فينكريستين، دوكسوروبيسين، سيكلوفوسفاميد بالتناوب مع إيفوسفاميد وإيتوبوسيد) لعلاج ساركوما إوينغ، مما يدعم معقولية تنبؤ النموذج.
 
@@ -188,11 +188,12 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح مسار إعادة التسجيل أو الاستيراد في السعودية في ظل إلغاء جميع التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
 
 <!-- review:end log -->
 

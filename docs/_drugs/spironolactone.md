@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 769
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Spironolactone: الاستطباب الجديد المتوقع نقص الشعر البسيط في فروة الرأس (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، فشل القلب الاحتقاني، فرط الألدوستيرونية (الأولي)، مت…"
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -60,7 +60,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن سبيرونولاكتون مضاد لمستقبلات المينرالوكورتيكويد، وله أيضاً نشاط مضاد للأندروجينات (حجب مستقبل الأندروجين وتقليل تخليقه). ولذلك يُستخدم خارج الاستطباب المسجّل في الصلع الأندروجيني وتساقط الشعر النسائي، ما يعني وجود صلة بيولوجية محتملة بفقدان شعر فروة الرأس.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Spironolactone (ترجمة غير رسمية): «سبيرونولاكتون ومستقلباته النشطة هي مضادات دوائية نوعية للألدوستيرون، تعمل بصورة رئيسية من خلال الارتباط التنافسي بالمستقبلات في موقع تبادل الصوديوم والبوتاسيوم المعتمد على الألدوستيرون في النبيب الكلوي الملتوي البعيد. يتسبب سبيرونولاكتون في زيادة كميات الصوديوم والماء المُطرَحة، في حين يُحتفَظ بالبوتاسيوم.» النص الأصلي بالإنجليزية: "Spironolactone and its active metabolites are specific pharmacologic antagonists of aldosterone, acting primarily through competitive binding of receptors at the aldosterone-dependent sodium-potassium exchange site in the distal convoluted renal tubule. Spironolactone causes increased amounts of sodium and water to be excreted, while potassium is retained." ([DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc)، إصدار 2025-11-28؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن سبيرونولاكتون مضاد لمستقبلات المينرالوكورتيكويد، وله أيضاً نشاط مضاد للأندروجينات (حجب مستقبل الأندروجين وتقليل تخليقه). ولذلك يُستخدم خارج الاستطباب المسجّل في الصلع الأندروجيني وتساقط الشعر النسائي، ما يعني وجود صلة بيولوجية محتملة بفقدان شعر فروة الرأس.
 
 غير أن الصلة غير مباشرة؛ فنقص الشعر البسيط اضطراب وراثي نادر في الشعر (مرتبط بتغيرات في جينات مثل CDSN وAPCDD1 وRPL21)، وليس ناتجاً أساساً عن الأندروجينات. لذا فالدرجة العالية (0.9926) تعكس تنبؤاً حاسوبياً فقط.
 
@@ -118,6 +118,19 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 - استكمال بيانات آلية العمل من DrugBank لتحليل الصلة الآلية بشكل أدق.
 - إجراء مراجعة منهجية للأدبيات حول سبيرونولاكتون في اضطرابات الشعر الوراثية، والتحقق من وجود تجارب سريرية.
 - توضيح وضع الترخيص في السعودية وإمكانية الحصول على منتج مرخص، وكذلك مدى توافق الشكل الدوائي (فموي مقابل موضعي) مع الاستطباب المقترح.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

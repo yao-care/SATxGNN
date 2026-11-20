@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 878
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "VOXELOTOR"
 predicted_indications: ["hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "acquired monoclonal Ig light chain-associated Fanconi syndrome", "primary release disorder of platelets"]
 description: "Voxelotor: الاستطباب الجديد المتوقع Hereditary thrombocytopenia with normal platelets (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -59,7 +59,7 @@ description: "Voxelotor: الاستطباب الجديد المتوقع Heredita
 
 ## هل هذا التنبؤ منطقي؟
 
-فوكسيلوتور مثبّط لبلمرة الهيموغلوبين S، ويرفع ألفة الهيموغلوبين للأكسجين، مما يقلل تشوه الكريات الحمراء المنجلية. غير أن بيانات آلية العمل التفصيلية غير متوفرة حالياً في البيانات المجمّعة لهذا التقرير.
+فوكسيلوتور مثبّط لبلمرة الهيموغلوبين S، ويرفع ألفة الهيموغلوبين للأكسجين، مما يقلل تشوه الكريات الحمراء المنجلية. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Voxelotor (ترجمة غير رسمية): «فوكسيلوتور هو مثبط لبلمرة الهيموجلوبين S ‏(HbS)، يرتبط بـ HbS بنسبة تكافؤية 1:1، ويُظهر توزّعًا تفضيليًا إلى خلايا الدم الحمراء (RBCs). ومن خلال زيادة ألفة Hb للأكسجين، يُظهر فوكسيلوتور تثبيطًا لبلمرة HbS معتمدًا على الجرعة.» النص الأصلي بالإنجليزية: "Voxelotor is a hemoglobin S (HbS) polymerization inhibitor that binds to HbS with a 1:1 stoichiometry and exhibits preferential partitioning to red blood cells (RBCs). By increasing the affinity of Hb for oxygen, voxelotor demonstrates dose-dependent inhibition of HbS polymerization." ([DailyMed: Oxbryta (voxelotor) prescribing information, Global Blood Therapeutics, Inc, A subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c557fac-29ec-483f-b691-8a935d4decc3)، إصدار 2023-12-26؛ تاريخ الاطلاع 2026-11-20).
 
 لا توجد صلة آلية واضحة بين تثبيط بلمرة الهيموغلوبين وبين اضطرابات عدد الصفيحات أو وظيفتها الموروثة. ويرجّح أن الدرجة المرتفعة تعكس قرباً في شبكة المعرفة (مثل الجوار الدموي المشترك مع فقر الدم المنجلي) وليس تأثيراً علاجياً سببياً.
 
@@ -149,12 +149,13 @@ description: "Voxelotor: الاستطباب الجديد المتوقع Heredita
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص الوحيد في السعودية ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح أسباب إلغاء الترخيص وتقييم جدوى إعادة التسجيل في السوق السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Oxbryta (voxelotor) prescribing information, Global Blood Therapeutics, Inc, A subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c557fac-29ec-483f-b691-8a935d4decc3) |
 
 <!-- review:end log -->
 

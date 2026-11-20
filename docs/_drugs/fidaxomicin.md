@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Fidaxomicin: الاستطباب الجديد المتوقع متلازمة الجلد المسلوق العنقودية (Staphylococcal scalded skin syndrome) (مستوى الدليل L5). الاستطباب الأصلي: التهاب القولون بالمطثية العسيرة، التهاب الأمعاء والقو…"
 monitor_inn: "FIDAXOMICIN"
 predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
@@ -58,7 +58,7 @@ predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetig
 
 ## لماذا يُعدّ هذا التوقع معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل ضمن البيانات المجمعة لهذا التقرير. استناداً إلى المعروف عن الدواء، فإن فيداكسوميسين مضاد حيوي يثبّط إنزيم RNA polymerase البكتيري، ونشاطه الرئيسي ضد البكتيريا موجبة الغرام اللاهوائية مثل المطثية العسيرة. وقد أُبلغ عن نشاط محدود في المختبر ضد المكورات العنقودية الذهبية (*S. aureus*)، وهو ما قد يفسر ارتباط الدواء بهذا المرض في الرسم المعرفي للنموذج.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Fidaxomicin (ترجمة غير رسمية): «فيداكسوميسين هو دواء مضاد للبكتيريا. […] فيداكسوميسين هو ناتج تخمير يُستخلص من الفطر الشعاعي Dactylosporangium aurantiacum. وفيداكسوميسين دواء مضاد للبكتيريا من فئة الماكروليدات يثبط تخليق الحمض النووي الريبي (RNA) عن طريق الارتباط بإنزيمات بوليميراز RNA. ويُعد فيداكسوميسين قاتلًا للبكتيريا ضد C. difficile في المختبر، ويُظهر تأثيرًا تاليًا للمضاد الحيوي ضد C. difficile لمدة 6-10 ساعات.» النص الأصلي بالإنجليزية: "Fidaxomicin is an antibacterial drug. […] Fidaxomicin is a fermentation product obtained from the Actinomycete Dactylosporangium aurantiacum. Fidaxomicin is a macrolide antibacterial drug that inhibits RNA synthesis by binding to RNA polymerases. Fidaxomicin is bactericidal against C. difficile in vitro, and demonstrates a post-antibiotic effect vs. C. difficile of 6-10 hrs." ([DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb)، إصدار 2024-10-16؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف عن الدواء، فإن فيداكسوميسين مضاد حيوي يثبّط إنزيم RNA polymerase البكتيري، ونشاطه الرئيسي ضد البكتيريا موجبة الغرام اللاهوائية مثل المطثية العسيرة. وقد أُبلغ عن نشاط محدود في المختبر ضد المكورات العنقودية الذهبية (*S. aureus*)، وهو ما قد يفسر ارتباط الدواء بهذا المرض في الرسم المعرفي للنموذج.
 
 غير أن هذا الارتباط الآلي ضعيف سريرياً، لأن متلازمة الجلد المسلوق العنقودية مرض تسببه سموم مقشِّرة تفرزها المكورات العنقودية، ويتطلب علاجاً جهازياً مضاداً للمكورات العنقودية. أما فيداكسوميسين فامتصاصه الجهازي ضئيل جداً، ومن غير المرجح أن يبلغ تراكيز فعالة في الجلد أو الدم. وعليه فالتوقع نظري ولا يستند إلى أدلة تجريبية.
 
@@ -139,13 +139,14 @@ predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetig
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص الوحيد ملغى، ولا توجد حالياً تراخيص سارية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «كما أن الترخيص السعودي الوحيد ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-12 | الجدول: DIFICLIR 200 mg Film Coated Tablet مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 742
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: الاستطباب الجديد المتوقع Brain small vessel disease 1 with or without ocular anomalies (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -59,7 +59,7 @@ description: "Sacubitril: الاستطباب الجديد المتوقع Brain s
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا. استنادًا إلى المعلومات المعروفة، ساكوبيتريل طليعة دواء (prodrug) تتحول إلى مثبّط للنيبريليسين، ويُستخدم مع فالسارتان، وهو حاصر لمستقبلات الأنجيوتنسين II من النوع AT1، ضمن مستحضر ENTRESTO. تثبيط النيبريليسين يرفع مستويات الببتيدات الموسِّعة للصوديوم (natriuretic peptides)، بينما يحجب فالسارتان نظام الرينين-أنجيوتنسين.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ sacubitril and valsartan (مستحضر مركب يحتوي على Sacubitril) (ترجمة غير رسمية): «يحتوي الساكوبيتريل والفالسارتان على مثبط للنبريليسين، وهو الساكوبيتريل، وحاصر لمستقبلات الأنجيوتنسين، وهو الفالسارتان. يثبط الساكوبيتريل والفالسارتان النبريليسين (الإندوببتيداز المتعادل؛ NEP) عبر LBQ657، وهو المستقلب النشط لطليعة الدواء الساكوبيتريل، ويحجب مستقبل الأنجيوتنسين II من النوع 1 (AT 1 ) عبر الفالسارتان.» النص الأصلي بالإنجليزية: "Sacubitril and valsartan contains a neprilysin inhibitor, sacubitril, and an angiotensin receptor blocker, valsartan. Sacubitril and valsartan inhibits neprilysin (neutral endopeptidase; NEP) via LBQ657, the active metabolite of the prodrug sacubitril, and blocks the angiotensin II type-1 (AT 1 ) receptor via valsartan." ([DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c)، إصدار 2026-10-30؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعلومات المعروفة، ساكوبيتريل طليعة دواء (prodrug) تتحول إلى مثبّط للنيبريليسين، ويُستخدم مع فالسارتان، وهو حاصر لمستقبلات الأنجيوتنسين II من النوع AT1، ضمن مستحضر ENTRESTO. تثبيط النيبريليسين يرفع مستويات الببتيدات الموسِّعة للصوديوم (natriuretic peptides)، بينما يحجب فالسارتان نظام الرينين-أنجيوتنسين.
 
 يُعد حصار نظام الرينين-أنجيوتنسين حجر الأساس في علاج اعتلال الكلية السكري، لكنه يترك خطرًا متبقيًا كبيرًا. وتشير الدراسات ما قبل السريرية على القوارض (PMIDs 35992034، 36589853، 32596035، 33870733) إلى أن المركّب يقلل الإجهاد التأكسدي والالتهاب المعتمد على NF-κB والتليف، ويؤثر في الميكروبيوتا المعوية. كما أن تحليلًا ثانويًا لتجربة PARADIGM-HF درس تأثير تثبيط النيبريليسين في وظائف الكلى لدى مرضى السكري من النوع الثاني.
 
@@ -144,12 +144,13 @@ description: "Sacubitril: الاستطباب الجديد المتوقع Brain s
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما لا توجد حاليًا تراخيص سارية في السعودية (كلا الترخيصين ملغى)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح سبب إلغاء التراخيص السعودية وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
 
 <!-- review:end log -->
 

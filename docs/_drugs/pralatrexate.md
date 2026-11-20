@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 679
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PRALATREXATE"
 predicted_indications: ["pleural adenomatoid tumor", "relapsing-remitting multiple sclerosis", "pleural biphasic mesothelioma", "pleural epithelioid mesothelioma", "lymphohistiocytoid mesothelioma", "pericardium cancer", "pleural sarcomatoid mesothelioma", "malignant peritoneal mesothelioma", "well differentiated papillary mesothelioma", "pleural mesothelioma"]
 description: "Pralatrexate: الاستطباب الجديد المتوقع Pleural adenomatoid tumor (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -60,7 +60,7 @@ description: "Pralatrexate: الاستطباب الجديد المتوقع Pleur
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. استناداً إلى المعلومات المعروفة، براالاتريكسات مضاد للفولات يثبّط إنزيم اختزال ثنائي هيدروفولات (DHFR)، ويدخل الخلايا بكفاءة عبر ناقل الفولات المختزل (RFC-1) ثم يخضع لعملية تعدد الجلوتامات بواسطة إنزيم folylpolyglutamate synthetase. وقد ثبتت فعاليته في اللمفوما التائية، ومن الناحية الآلية قد يكون قابلاً للتطبيق على الأورام الأخرى الحساسة لمضادات الفولات.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Pralatrexate (ترجمة غير رسمية): «برالاتريكسات مثبط استقلابي مماثل للفولات يثبط بشكل تنافسي إنزيم اختزال ثنائي هيدروفولات. وهو أيضًا مثبط تنافسي لعملية إضافة متعدد الغلوتامات بواسطة إنزيم سينثيتاز فوليل بولي غلوتاميل. ويؤدي هذا التثبيط إلى استنفاد الثيميدين وغيره من الجزيئات الحيوية التي يعتمد تخليقها على نقل وحدة كربونية واحدة.» النص الأصلي بالإنجليزية: "Pralatrexate is a folate analog metabolic inhibitor that competitively inhibits dihydrofolate reductase. It is also a competitive inhibitor for polyglutamylation by the enzyme folylpolyglutamyl synthetase. This inhibition results in the depletion of thymidine and other biological molecules the synthesis of which depends on single carbon transfer." ([DailyMed: Folotyn (pralatrexate) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f3d9c4d-9386-4451-b712-0fbdc5478d8f)، إصدار 2026-09-16؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعلومات المعروفة، براالاتريكسات مضاد للفولات يثبّط إنزيم اختزال ثنائي هيدروفولات (DHFR)، ويدخل الخلايا بكفاءة عبر ناقل الفولات المختزل (RFC-1) ثم يخضع لعملية تعدد الجلوتامات بواسطة إنزيم folylpolyglutamate synthetase. وقد ثبتت فعاليته في اللمفوما التائية، ومن الناحية الآلية قد يكون قابلاً للتطبيق على الأورام الأخرى الحساسة لمضادات الفولات.
 
 يُعد الورم المتوسطي الجنبي مجالاً معروفاً لمضادات الفولات، إذ إن بيميتريكسيد (Pemetrexed) هو العلاج القياسي المعتمد فيه. ويتشابه براالاتريكسات مع بيميتريكسيد في الألفة لـ RFC-1 وفي تعدد الجلوتامات، وهو ما يمنح التنبؤ أساساً آلياً مقبولاً.
 
@@ -151,12 +151,13 @@ description: "Pralatrexate: الاستطباب الجديد المتوقع Pleur
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الدواء حالياً بوضع «ملغى فقط» في السوق السعودي، وهو قيد عملي إضافي، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-12 | الجدول: FOLOTYN 20MG/ML SOLUTION FOR INFUSION مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Folotyn (pralatrexate) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f3d9c4d-9386-4451-b712-0fbdc5478d8f) |
 
 <!-- review:end log -->
 

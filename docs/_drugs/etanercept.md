@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Etanercept: الاستطباب الجديد المتوقع فرط حركة العصعص (hypermobility of coccyx) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -56,7 +56,7 @@ description: "Etanercept: الاستطباب الجديد المتوقع فرط 
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن إيتانرسيبت يعمل بمعادلة عامل نخر الورم ألفا، وهو وسيط التهابي مهم في عدد من أمراض المفاصل والعمود الفقري الالتهابية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Etanercept (ترجمة غير رسمية): «TNF هو سيتوكين يوجد بشكل طبيعي ويشارك في الاستجابات الالتهابية والمناعية الطبيعية. ويؤدي دورًا مهمًا في العمليات الالتهابية لكلٍّ من RA وJIA متعدد المفاصل وPsA وAS، وفي الاعتلال المفصلي الناتج عنها. […] إيتانرسبت هو شكل ذوّاب ثنائي الوحدات من مستقبل TNF p75 قادر على الارتباط بجزيئات TNF.» النص الأصلي بالإنجليزية: "TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. It plays an important role in the inflammatory processes of RA, polyarticular JIA, PsA, and AS and the resulting joint pathology. […] Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind TNF molecules." ([DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f)، إصدار 2026-05-11؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن إيتانرسيبت يعمل بمعادلة عامل نخر الورم ألفا، وهو وسيط التهابي مهم في عدد من أمراض المفاصل والعمود الفقري الالتهابية.
 
 غير أن فرط حركة العصعص حالة ميكانيكية/بنيوية في الأساس، ولم تثبت لها آلية التهابية يحركها عامل نخر الورم. لذلك فإن الدرجة المرتفعة ناتجة عن النموذج الحسابي فقط، ولا يوجد رابط آلي مدعوم بالأدلة بين الدواء وهذه الحالة.
 
@@ -96,6 +96,19 @@ description: "Etanercept: الاستطباب الجديد المتوقع فرط 
 - أدلة سريرية أو مرضية تربط عامل نخر الورم بفرط حركة العصعص.
 - تحليل تحذيرات وموانع الاستعمال من نشرة العبوة المعتمدة.
 - التحقق من مدى توافق طريق الإعطاء مع هذا الاستطباب.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 415
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Hydrocortisone: الاستطباب الجديد المتوقع الثعلبة البقعية (alopecia areata) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 13 (السارية: 13)"
@@ -56,7 +56,7 @@ description: "Hydrocortisone: الاستطباب الجديد المتوقع ا�
 
 ## لماذا يعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، الهيدروكورتيزون جلوكوكورتيكويد له تأثيرات مضادة للالتهاب وكابتة للمناعة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Hydrocortisone (ترجمة غير رسمية): «الهيدروكورتيزون هو جلوكوكورتيكويد. وتُحدث الجلوكوكورتيكويدات، وهي ستيرويدات قشرة الكظر، تأثيرات استقلابية متنوعة. وبالإضافة إلى ذلك، فإنها تعدّل الاستجابات المناعية للجسم تجاه منبّهات متنوعة..» النص الأصلي بالإنجليزية: "Hydrocortisone is a glucocorticoid. Glucocorticoids, adrenocortical steroids, cause varied metabolic effects. In addition, they modify the body's immune responses to diverse stimuli.." ([DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682)، إصدار 2026-04-21؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، الهيدروكورتيزون جلوكوكورتيكويد له تأثيرات مضادة للالتهاب وكابتة للمناعة.
 
 الثعلبة البقعية مرض مناعي ذاتي تتوسطه الخلايا التائية، يهاجم فيه الجهاز المناعي بصيلات الشعر. لذلك فإن كبت النشاط المناعي الموضعي منطقي من الناحية الآلية.
 
@@ -110,6 +110,18 @@ description: "Hydrocortisone: الاستطباب الجديد المتوقع ا�
 - نص النشرة الدوائية الخاص بالتحذيرات وموانع الاستعمال.
 - تجربة مضبوطة تقيّم الهيدروكورتيزون بصفته الدواء المدروس، مع مقارنته بكورتيكويدات أعلى فاعلية.
 - تحديد الشكل الدوائي والمسار الأنسب (موضعي أو حقن داخل الآفة) والفئة العمرية المستهدفة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

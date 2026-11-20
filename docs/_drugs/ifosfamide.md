@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 monitor_inn: "IFOSFAMIDE"
 predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "rhabdomyosarcoma (disease)", "myelodysplastic syndrome", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Ifosfamide: الاستطباب الجديد المتوقع سرطان الثدي لدى النساء (female breast carcinoma) (مستوى الدليل L5)."
@@ -61,7 +61,7 @@ description: "Ifosfamide: الاستطباب الجديد المتوقع سرط�
 
 الإيفوسفاميد دواء أولي (prodrug) يُنشَّط في الكبد بواسطة إنزيمات السيتوكروم P450، فينتج مستقلبات مؤلكِلة ترتبط بالحمض النووي وتسبب روابط تصالبية تقتل الخلايا الورمية سريعة الانقسام. وتُعطى معه عادةً مادة الميسنا (mesna) لحماية المسالك البولية.
 
-تفصيل الآلية الدوائية غير متوفر حالياً في البيانات المجمّعة. لكن المعروف أن الدواء مؤلكِل قريب من السيكلوفوسفاميد، وأن فعاليته مثبتة في عدة أورام صلبة. وقد أُبلغ عن نشاط له في سرطان الثدي النقيلي، سواء منفرداً (معدلات استجابة تراوحت بين 7% و30% في مرضى سبق علاجهم، بحسب مراجعة منشورة) أو ضمن توليفات مع الدوسيتاكسيل أو الفينوريلبين أو الإيتوبوسيد. كما استُخدم بجرعات عالية مع دعم الخلايا الجذعية، وفي أنماط نسيجية نادرة مثل سرطان الثدي الحُؤولي (metaplastic) والأورام الورقية الخبيثة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ifosfamide (ترجمة غير رسمية): «إيفوسفاميد دواء أوّلي يتطلب تنشيطاً استقلابياً بواسطة متماثلات إنزيمات السيتوكروم P450 الكبدية لممارسة نشاطه السام للخلايا. ويحدث التنشيط بالهدركسلة عند ذرة كربون الحلقة، مما يشكل المركب الوسيط غير المستقر 4-هيدروكسي إيفوسفاميد ومتصاوره الألدوي مفتوح الحلقة، الذي يتفكك لينتج المركب السام للخلايا والسام للمسالك البولية الأكرولين، وخردل إيزوفوسفوراميد المؤلكِل.» النص الأصلي بالإنجليزية: "Ifosfamide is a prodrug that requires metabolic activation by hepatic cytochrome P450 isoenzymes to exert its cytotoxic activity. Activation occurs by hydroxylation at the ring carbon atom forming the unstable intermediate 4-hydroxyifosfamide and its ring-opened aldo tautomer, which decomposes to yield the cytotoxic and urotoxic compound acrolein and an alkylating isophosphoramide mustard." ([DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a)، إصدار 2026-10-07؛ تاريخ الاطلاع 2026-11-20). لكن المعروف أن الدواء مؤلكِل قريب من السيكلوفوسفاميد، وأن فعاليته مثبتة في عدة أورام صلبة. وقد أُبلغ عن نشاط له في سرطان الثدي النقيلي، سواء منفرداً (معدلات استجابة تراوحت بين 7% و30% في مرضى سبق علاجهم، بحسب مراجعة منشورة) أو ضمن توليفات مع الدوسيتاكسيل أو الفينوريلبين أو الإيتوبوسيد. كما استُخدم بجرعات عالية مع دعم الخلايا الجذعية، وفي أنماط نسيجية نادرة مثل سرطان الثدي الحُؤولي (metaplastic) والأورام الورقية الخبيثة.
 
 ويتسق ذلك مع الدرجة المرتفعة جداً التي منحها TxGNN. غير أن هذا الدعم غير مباشر: فمعظم الأدلة تتناول توليفات علاجية لا الإيفوسفاميد منفرداً، ولا تتوفر تجارب عشوائية حاسمة خاصة بسرطان الثدي.
 
@@ -152,6 +152,19 @@ description: "Ifosfamide: الاستطباب الجديد المتوقع سرط�
 - التحقق من وضع الترخيص والتوافر الفعلي للدواء في السعودية، وفحص إمكان إعادة تسجيله.
 - مراجعة منهجية للتجارب السريرية الخاصة بالإيفوسفاميد في سرطان الثدي النقيلي، ويفضل أن تشمل بيانات مقارنة بعلاجات المعيار الحالي.
 - وضع خطة مراقبة للسمية الكلوية والعصبية والمثانة (مع الميسنا) وتثبيط نقي العظم، ولا سيما لدى المرضى المصابين بأمراض كلوية أو كبدية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

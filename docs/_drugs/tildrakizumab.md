@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 816
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "TILDRAKIZUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
 description: "Tildrakizumab: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (severe nonproliferative diabetic retinopathy) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -58,7 +58,7 @@ description: "Tildrakizumab: الاستطباب الجديد المتوقع اع
 
 ## لماذا يبدو هذا التنبؤ معقولًا (أو غير معقول)؟
 
-تفاصيل آلية العمل الأصلية غير متوفرة حاليًا. المعروف أن تيلدراكيزوماب يثبّط الوحدة p19 من IL-23، وهو سيتوكين يدعم مسار IL-17/IL-23 الالتهابي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tildrakizumab (ترجمة غير رسمية): «تيلدراكيزوماب جسم مضاد وحيد النسيلة مؤنسن من نوع IgG1/k يرتبط ارتباطاً انتقائياً بالوحيدة الفرعية p19 من IL-23 ويثبط تفاعله مع مستقبل IL-23. وIL-23 سيتوكين طبيعي المنشأ يشارك في الاستجابات الالتهابية والمناعية.» النص الأصلي بالإنجليزية: "Tildrakizumab is a humanized IgG1/k monoclonal antibody that selectively binds to the p19 subunit of IL-23 and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde)، إصدار 2026-11-02؛ تاريخ الاطلاع 2026-11-20). المعروف أن تيلدراكيزوماب يثبّط الوحدة p19 من IL-23، وهو سيتوكين يدعم مسار IL-17/IL-23 الالتهابي.
 
 الرابط المحتمل (وهو افتراضي وغير مختبَر) أن الالتهاب المزمن منخفض الدرجة في اعتلال الشبكية السكري قد يشارك فيه مسار IL-23/IL-17 في التهاب الشبكية والخلل الوعائي. لا توجد بيانات تدعم هذا الافتراض لدى تيلدراكيزوماب.
 
@@ -129,12 +129,13 @@ description: "Tildrakizumab: الاستطباب الجديد المتوقع اع
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «ترخيص المنتج في السعودية ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح الوضع التنظيمي والتجاري للمنتج في السعودية بعد إلغاء الترخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde) |
 
 <!-- review:end log -->
 

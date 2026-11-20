@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 712
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Rasburicase: الاستطباب الجديد المتوقع نقص حمض اليوريك الكلوي (hypouricemia, renal) (مستوى الدليل L5). الاستطباب الأصلي: فرط حمض اليوريك في الدم (مؤشر قديم في الرسم المعرفي)"
 monitor_inn: "RASBURICASE"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
@@ -59,7 +59,7 @@ predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribo
 
 ## لماذا قد يكون هذا التنبؤ معقولاً أو غير معقول؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. وبحسب المعروف، يحوّل راسبوريكاز حمض اليوريك إلى الألانتوين، فيخفض مستواه في المصل، وهذا هو أساس استخدامه في فرط حمض اليوريك.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Rasburicase (ترجمة غير رسمية): «لدى البشر، يمثّل حمض اليوريك الخطوة النهائية في مسار هدم البيورينات. يحفّز راسبوريكاز الأكسدة الإنزيمية لحمض اليوريك ضعيف الذوبان إلى مستقلَب غير نشط وأكثر ذوباناً (ألانتوين).» النص الأصلي بالإنجليزية: "In humans, uric acid is the final step in the catabolic pathway of purines. Rasburicase catalyzes enzymatic oxidation of poorly soluble uric acid into an inactive and more soluble metabolite (allantoin)." ([DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922)، إصدار 2026-07-30؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، يحوّل راسبوريكاز حمض اليوريك إلى الألانتوين، فيخفض مستواه في المصل، وهذا هو أساس استخدامه في فرط حمض اليوريك.
 
 أما نقص حمض اليوريك الكلوي فهو حالة ينخفض فيها يورات المصل أصلاً بسبب خلل في إعادة امتصاص اليورات في الكلية (مثل فقدان وظيفة URAT1/SLC22A12 أو GLUT9/SLC2A9). لذلك **لا يوجد مبرر علاجي** لخفض إضافي، وقد يكون ذلك ضاراً. ويبدو أن الدرجة العالية تعكس ارتباطاً في الشبكة بمسار استقلاب اليورات وليس صلة علاجية حقيقية.
 
@@ -137,12 +137,13 @@ predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribo
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص الوحيد في السعودية ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح وضع الترخيص الملغى وإمكانية توفر المنتج في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922) |
 
 <!-- review:end log -->
 

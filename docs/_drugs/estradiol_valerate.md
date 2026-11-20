@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Estradiol Valerate: الاستطباب الجديد المتوقع الشكل العَرَضي من متلازمة إكس الهشّ لدى الحاملات الإناث (مستوى الدليل L5). الاستطباب الأصلي: الفشل المبيضي الأولي (Primary ovarian failure)"
 monitor_inn: "estradiol valerate"
 predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "ovarian remnant syndrome", "anovulation", "luteoma of pregnancy", "ovarian dysfunction"]
@@ -58,7 +58,7 @@ predicted_indications: ["symptomatic form of fragile X syndrome in female carrie
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبناءً على المعروف، فإن إستراديول فاليرات هو استروجين يُستخدم في العلاج التعويضي، وقد ثبتت فائدته في حالات نقص الاستروجين الناتج عن قصور المبيض، وقد ينطبق ذلك آلياً على الحالة المتوقعة.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Estradiol Valerate (ترجمة غير رسمية): «على الرغم من أن الإستروجينات الجائلة توجد في حالة توازن ديناميكي من التحولات الاستقلابية المتبادلة، فإن الإستراديول هو الإستروجين البشري الرئيسي داخل الخلايا، وهو أقوى بكثير من مستقلباته، الإسترون والإستريول، على مستوى المستقبلات. والمصدر الرئيسي للإستروجين لدى النساء البالغات ذوات الدورات الطبيعية هو الجريب المبيضي، الذي يفرز من 70 إلى 500 mcg من الإستراديول يوميًا، تبعًا لطور الدورة الشهرية.» النص الأصلي بالإنجليزية: "Although circulating estrogens exist in a dynamic equilibrium of metabolic interconversions, estradiol is the principal intracellular human estrogen and is substantially more potent than its metabolites, estrone and estriol, at the receptor level. The primary source of estrogen in normally cycling adult women is the ovarian follicle, which secretes 70 to 500 mcg of estradiol daily, depending on the phase of the menstrual cycle." ([DailyMed: Delestrogen (estradiol valerate) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8f94df9-0692-4462-a7f0-fe019a0a3f07)، إصدار 2026-05-13؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعروف، فإن إستراديول فاليرات هو استروجين يُستخدم في العلاج التعويضي، وقد ثبتت فائدته في حالات نقص الاستروجين الناتج عن قصور المبيض، وقد ينطبق ذلك آلياً على الحالة المتوقعة.
 
 يمكن أن تُصاب حاملات الطفرة الأولية (premutation) في متلازمة إكس الهشّ بـ **القصور المبيضي الأولي المرتبط بإكس الهشّ (FXPOI)**، وهو يتداخل مع الاستطباب الأصلي. لذلك فإن العلاج بالاستروجين مبرَّر بيولوجياً لمعالجة المكوّن المبيضي من الحالة. ومع ذلك، فإن الدرجة المرتفعة لا تعدو كونها تنبؤاً من النموذج ولا يدعمها دليل سريري في البيانات المجمّعة.
 
@@ -144,12 +144,13 @@ predicted_indications: ["symptomatic form of fragile X syndrome in female carrie
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حالياً أي ترخيص ساري في السعودية للمنتجات المحتوية على هذه المادة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «تقييم الجدوى التنظيمية في ظل إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Delestrogen (estradiol valerate) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8f94df9-0692-4462-a7f0-fe019a0a3f07) |
 
 <!-- review:end log -->
 

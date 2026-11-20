@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 853
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Upadacitinib: الاستطباب الجديد المتوقع متلازمة صغر العين مع الكولوبوما وخلل التنسج الجذري الطرفي (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي"
 monitor_inn: "UPADACITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -58,7 +58,7 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 
 ## لماذا يُعدّ هذا التنبؤ معقولًا؟
 
-حاليًا لا تتوفر بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. ومن المعروف أن أوباداسيتينيب مثبّط انتقائي لإنزيم JAK1، وتُستخدم هذه الفئة في الأمراض الالتهابية المناعية مثل التهاب المفاصل الروماتويدي عبر تثبيط مسار JAK-STAT.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Upadacitinib (ترجمة غير رسمية): «أوباداسيتينيب مثبط لإنزيم جانوس كيناز (JAK). إنزيمات JAK هي إنزيمات داخل خلوية تنقل الإشارات الناشئة عن تفاعلات السيتوكينات أو مستقبلات عوامل النمو على الغشاء الخلوي للتأثير على العمليات الخلوية لتكوّن الدم ووظيفة الخلايا المناعية.» النص الأصلي بالإنجليزية: "Upadacitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095)، إصدار 2026-06-30؛ تاريخ الاطلاع 2026-11-20). ومن المعروف أن أوباداسيتينيب مثبّط انتقائي لإنزيم JAK1، وتُستخدم هذه الفئة في الأمراض الالتهابية المناعية مثل التهاب المفاصل الروماتويدي عبر تثبيط مسار JAK-STAT.
 
 أما الاستطباب المتوقع فهو اضطراب خلقي نادر جدًا في النمو، يرجَّح أنه ناتج عن عيوب بنيوية أو جينية في تكوّن العين والهيكل العظمي، وليس عن التهاب. ولا يوجد دور راسخ لمسار JAK-STAT الالتهابي في هذه الحالة.
 
@@ -126,11 +126,12 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الدواء لا يملك حاليًا ترخيصًا ساريًا في المملكة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095) |
 
 <!-- review:end log -->
 

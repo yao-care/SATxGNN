@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 359
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Flucytosine: الاستطباب الجديد المتوقع داء باجيت العظمي (bone Paget disease) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (يُعرف الدواء عمومًا كمضاد للفطريات)"
 monitor_inn: "FLUCYTOSINE"
 drugbank_id: DB01099
@@ -59,7 +59,7 @@ predicted_indications: ["bone Paget disease"]
 
 ## لماذا قد يبدو هذا التنبؤ معقولًا، ولماذا هو ضعيف؟
 
-بيانات آلية العمل الأصلية غير متوفرة حاليًا. المعروف أن فلوسيتوزين مضاد فطري يتحول بواسطة إنزيم السيتوزين دي أميناز الفطري إلى 5-فلورويوراسيل، الذي يثبط تخليق الحمض النووي (DNA) والحمض النووي الريبي (RNA) في الفطريات.
+وفقًا لقسمي «Clinical Pharmacology» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Flucytosine (ترجمة غير رسمية): «تمتص الكائنات الفطرية فلوسيتوزين عبر إنزيم سيتوزين بيرمياز. وداخل الخلية الفطرية، يتحول فلوسيتوزين بسرعة إلى فلورويوراسيل بواسطة إنزيم سيتوزين ديأميناز. ويمارس فلورويوراسيل نشاطه المضاد للفطريات من خلال تحوله لاحقاً إلى عدة مستقلبات نشطة، تثبط تخليق البروتين عبر اندماجها الخاطئ في الحمض النووي الريبي (RNA) الفطري، أو تتداخل مع التخليق الحيوي للحمض النووي الريبي منقوص الأكسجين (DNA) الفطري من خلال تثبيط إنزيم ثيميديلات سينثيتاز.» النص الأصلي بالإنجليزية: "Flucytosine is taken up by fungal organisms via the enzyme cytosine permease. Inside the fungal cell, flucytosine is rapidly converted to fluorouracil by the enzyme cytosine deaminase. Fluorouracil exerts its antifungal activity through the subsequent conversion into several active metabolites, which inhibit protein synthesis by being falsely incorporated into fungal RNA or interfere with the biosynthesis of fungal DNA through the inhibition of the enzyme thymidylate synthetase." ([DailyMed: Ancobon (flucytosine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea0df00-a88c-4a16-abcf-750f3ff2004e)، إصدار 2022-02-02؛ تاريخ الاطلاع 2026-11-20). المعروف أن فلوسيتوزين مضاد فطري يتحول بواسطة إنزيم السيتوزين دي أميناز الفطري إلى 5-فلورويوراسيل، الذي يثبط تخليق الحمض النووي (DNA) والحمض النووي الريبي (RNA) في الفطريات.
 
 داء باجيت العظمي اضطراب في إعادة تشكيل العظم تقوده خلايا ناقضات العظم (osteoclasts) بشكل غير منظم، وكثيرًا ما ترتبط به تغيرات في جين SQSTM1/p62. **لا يوجد رابط آلي معروف** بين نشاط فلوسيتوزين المضاد للأيض وبين وظيفة ناقضات العظم. كما أن الخلايا الثديية تفتقر إلى إنزيم السيتوزين دي أميناز، لذلك لا يُتوقع نشاط جهازي على النسيج العظمي.
 
@@ -139,12 +139,13 @@ predicted_indications: ["bone Paget disease"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص المحلي ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح وضع الترخيص في السعودية (ملغى)، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ancobon (flucytosine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea0df00-a88c-4a16-abcf-750f3ff2004e) |
 
 <!-- review:end log -->
 

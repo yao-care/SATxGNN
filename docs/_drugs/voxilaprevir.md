@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 879
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Voxilaprevir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (لا يوجد نص مؤشر معتمد في بيانات ال…"
 monitor_inn: "voxilaprevir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "chronic hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -60,7 +60,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 ## لماذا يبدو هذا التنبؤ غير مدعوم ميكانيكياً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. استناداً إلى المعرفة المتاحة، فوكسيلابريفير مثبط لبروتياز NS3/4A لفيروس التهاب الكبد C، وفعاليته في هذا المرض مثبتة ضمن التركيبة الثلاثية.
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Voxilaprevir هي (ترجمة غير رسمية): «مثبّط إنزيم السيرين بروتياز NS3/NS4A لفيروس التهاب الكبد C». النص الأصلي بالإنجليزية: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعرفة المتاحة، فوكسيلابريفير مثبط لبروتياز NS3/4A لفيروس التهاب الكبد C، وفعاليته في هذا المرض مثبتة ضمن التركيبة الثلاثية.
 
 أما فيروس التهاب الكبد B فلا يملك نظيراً لبروتياز NS3/4A، إذ يعتمد في تكاثره على إنزيم النسخ العكسي/البوليميراز ودورة تكاثر مختلفة. لذلك لا يوجد أساس ميكانيكي واضح للنشاط المضاد. والأرجح أن الدرجة المرتفعة جداً (0.9984) ناتجة عن أثر على مستوى الفئة، أي الارتباط العام بين الفيروسات الكبدية والأدوية المضادة للفيروسات.
 
@@ -143,12 +143,13 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الترخيص السعودي الوحيد للمنتج ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-12 | الجدول: VOSEVI 400MG/100MG/100MG F.C.TABLET مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372) |
 
 <!-- review:end log -->
 

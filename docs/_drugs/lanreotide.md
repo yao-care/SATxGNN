@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Lanreotide: الاستطباب الجديد المتوقع فرط الشعرانية (Hypertrichosis) (مستوى الدليل L5). الاستطباب الأصلي: تضخم الأطراف (الأكروميغالي)، فرط نشاط الغدة النخامية، العملقة النخامية"
 monitor_inn: "Lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
@@ -59,7 +59,7 @@ predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with 
 
 ## لماذا يُعد هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لانريوتيد نظير طويل المفعول للسوماتوستاتين، يعمل أساساً على مستقبلات السوماتوستاتين SSTR2 وSSTR5، وتشير البيانات المجمّعة أيضاً إلى ارتباطه بالمستقبل SSTR3. يثبّط إفراز هرمون النمو وIGF-1، وهذا هو أساس استخدامه في الأكروميغالي. وبيانات آلية العمل التفصيلية غير متوفرة حالياً.
+لانريوتيد نظير طويل المفعول للسوماتوستاتين، يعمل أساساً على مستقبلات السوماتوستاتين SSTR2 وSSTR5، وتشير البيانات المجمّعة أيضاً إلى ارتباطه بالمستقبل SSTR3. يثبّط إفراز هرمون النمو وIGF-1، وهذا هو أساس استخدامه في الأكروميغالي. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lanreotide (ترجمة غير رسمية): «لانريوتيد، المكوّن الفعّال في SOMATULINE DEPOT، هو نظير ثماني الببتيد للسوماتوستاتين الطبيعي. ويُعتقد أن آلية عمل لانريوتيد مماثلة لآلية عمل السوماتوستاتين الطبيعي.» النص الأصلي بالإنجليزية: "Lanreotide, the active component of SOMATULINE DEPOT is an octapeptide analog of natural somatostatin. The mechanism of action of lanreotide is believed to be similar to that of natural somatostatin." ([DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d)، إصدار 2024-10-11؛ تاريخ الاطلاع 2026-11-20).
 
 لا يوجد مسار آلي مباشر معروف يربط هذه الآلية بفرط الشعرانية. أقصى ما يمكن افتراضه هو صلة نظرية عبر إشارات IGF-1 وعوامل النمو في بصيلات الشعر، ولا توجد بيانات تدعمها. كما أن فرط الشعرانية معروف كأثر جانبي لبعض الأدوية، لذا فأي دور علاجي يحتاج إلى تبرير مستقل.
 
@@ -130,12 +130,13 @@ predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «التحقق من الجدوى التنظيمية في ظل إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d) |
 
 <!-- review:end log -->
 

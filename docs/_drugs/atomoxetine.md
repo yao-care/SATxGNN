@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Atomoxetine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Atomoxetine: الاستطباب الجديد المتوقع اضطراب نمائي نوعي (specific developmental disorder) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
@@ -54,7 +54,7 @@ description: "Atomoxetine: الاستطباب الجديد المتوقع اضط
 
 ## لماذا قد يكون هذا التوقع معقولاً؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. المعروف أن أتوموكسيتين يثبط ناقل النورإبينفرين (NET)، وتشير بيانات الاستهداف الدوائي المجمعة أيضاً إلى ارتباطه بناقلي الدوبامين (DAT) والسيروتونين (SERT).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Atomoxetine (ترجمة غير رسمية): «الآلية الدقيقة التي يُحدث بها ستراتيرا (STRATTERA) تأثيراته العلاجية في اضطراب نقص الانتباه مع فرط النشاط (ADHD) غير معروفة، ولكن يُعتقد أنها مرتبطة بالتثبيط الانتقائي لناقل النورإبينفرين قبل المشبكي، كما تبيّن في دراسات الامتصاص واستنفاد النواقل العصبية خارج الجسم الحي (ex vivo).» النص الأصلي بالإنجليزية: "The precise mechanism by which STRATTERA produces its therapeutic effects in ADHD is unknown, but is thought to be related to selective inhibition of the pre-synaptic norepinephrine transporter, as determined in ex vivo uptake and neurotransmitter depletion studies." ([DailyMed: Strattera (atomoxetine hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=309de576-c318-404a-bc15-660c2b1876fb)، إصدار 2026-06-30؛ تاريخ الاطلاع 2026-11-20). المعروف أن أتوموكسيتين يثبط ناقل النورإبينفرين (NET)، وتشير بيانات الاستهداف الدوائي المجمعة أيضاً إلى ارتباطه بناقلي الدوبامين (DAT) والسيروتونين (SERT).
 
 "الاضطراب النمائي النوعي" فئة واسعة تتداخل مع حالات مصاحبة مثل صعوبات التعلم وأعراض فرط الحركة وتشتت الانتباه لدى المصابين بالتوحد. لذلك يُرجَّح أن الإشارة الحسابية تعكس قرب هذه الحالات من الاستخدام المعروف للدواء، لا اضطراباً نمائياً مستقلاً يمثل استطباباً جديداً.
 
@@ -91,6 +91,19 @@ description: "Atomoxetine: الاستطباب الجديد المتوقع اضط
 - دراسات سريرية أو أدلة منشورة تبحث الاضطراب المتوقع مباشرة.
 - بيانات آلية العمل التفصيلية.
 - تحميل نشرة الدواء من هيئة الغذاء والدواء السعودية ومراجعة التحذيرات وموانع الاستعمال، وهي بيانات ناقصة حالياً.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Strattera (atomoxetine hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=309de576-c318-404a-bc15-660c2b1876fb) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

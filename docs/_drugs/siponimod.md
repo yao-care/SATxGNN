@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 760
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Siponimod: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المحلية"
 monitor_inn: "SIPONIMOD"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]
@@ -61,7 +61,7 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphosco
 
 سيبونيمود معدِّل انتقائي لمستقبلَي S1P1 وS1P5. وتفيد البيانات المجمّعة بأن لإشارات S1P دورًا محتملًا في إعادة تشكيل الأوعية الدموية الرئوية ووظيفة الحاجز البطاني.
 
-حاليًا، لا تتوفر بيانات تفصيلية عن آلية العمل في قاعدة البيانات. وبناءً على المعلومات المعروفة، فإن العلاقة بين الاستطباب الأصلي والاستطباب الجديد غير محددة بعد، والصلة الآلية افتراضية فقط.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Siponimod (ترجمة غير رسمية): «سيبونيمود هو معدِّل لمستقبلات S1P. يرتبط سيبونيمود بألفة عالية بمستقبلات S1P رقم 1 و5. يحجب سيبونيمود قدرة الخلايا اللمفاوية على الخروج من العقد اللمفاوية، مما يقلل عدد الخلايا اللمفاوية في الدم المحيطي.» النص الأصلي بالإنجليزية: "Siponimod is an S1P receptor modulator. Siponimod binds with high affinity to S1P receptors 1 and 5. Siponimod blocks the capacity of lymphocytes to egress from lymph nodes, reducing the number of lymphocytes in peripheral blood." ([DailyMed: Mayzent (siponimod) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44492772-5aed-4627-bd85-e8e89f308bb3)، إصدار 2026-06-30؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، فإن العلاقة بين الاستطباب الأصلي والاستطباب الجديد غير محددة بعد، والصلة الآلية افتراضية فقط.
 
 ومن الجدير بالذكر أن معدِّلات S1P ارتبطت بارتفاع ضغط الدم وبتأثيرات قلبية (بطء القلب، تأخر التوصيل الأذيني البطيني)، وهذا يثير مخاوف سلامة لدى مرضى القلب والرئة. وتُعد درجة TxGNN العالية مؤشرًا حسابيًا فقط ولا تُغني عن أدلة سريرية.
 
@@ -124,11 +124,12 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphosco
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص المحلي الوحيد ملغى، ولا يوجد منتج ساري في السوق السعودي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Mayzent (siponimod) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44492772-5aed-4627-bd85-e8e89f308bb3) |
 
 <!-- review:end log -->
 

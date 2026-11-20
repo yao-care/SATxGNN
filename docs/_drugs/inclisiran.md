@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Inclisiran: الاستطباب الجديد المتوقع نقص البوتاسيوم (potassium deficiency disease) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المتاحة (الدواء معروف بخفض LDL-C)"
 monitor_inn: "INCLISIRAN"
 predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
@@ -58,7 +58,7 @@ predicted_indications: ["potassium deficiency disease", "esophageal disease", "a
 
 ## لماذا هذا التوقع محل شك؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا في البيانات المجمّعة لهذا التقرير. وبحسب المعرفة المتاحة، فإن إنكليسيران يُسكِت جين PCSK9 في الكبد، مما يزيد مستقبِلات LDL ويخفض LDL-C.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Inclisiran (ترجمة غير رسمية): «إنكليسيران حمض نووي ريبي متداخل صغير مزدوج السلسلة (siRNA)، مقترن على السلسلة الحسية بـ N-Acetylgalactosamine ثلاثي الهوائيات (GalNAc) لتسهيل امتصاصه بواسطة خلايا الكبد. في خلايا الكبد، يستخدم إنكليسيران آلية تداخل RNA ويوجّه التكسير التحفيزي لـ mRNA الخاص بـ PCSK9.» النص الأصلي بالإنجليزية: "Inclisiran is a double-stranded small interfering ribonucleic acid (siRNA), conjugated on the sense strand with triantennary N-Acetylgalactosamine (GalNAc) to facilitate uptake by hepatocytes. In hepatocytes, inclisiran utilizes the RNA interference mechanism and directs catalytic breakdown of mRNA for PCSK9." ([DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44)، إصدار 2026-08-19؛ تاريخ الاطلاع 2026-11-20). وبحسب المعرفة المتاحة، فإن إنكليسيران يُسكِت جين PCSK9 في الكبد، مما يزيد مستقبِلات LDL ويخفض LDL-C.
 
 لا توجد صلة آلية معقولة بين إسكات PCSK9 وتوازن البوتاسيوم في الجسم. لذلك فإن الدرجة المرتفعة (0.9993) صادرة عن نموذج TxGNN (التعلم العميق) وقد تعكس تشابهات تعلّمها النموذج بين أمراض مرتبطة، وليست دليلًا بيولوجيًا أو سريريًا. كما أن تقييم التشابه مع الاستطباب الأصلي ما زال معلّقًا.
 
@@ -131,11 +131,12 @@ predicted_indications: ["potassium deficiency disease", "esophageal disease", "a
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح سبب إلغاء الترخيص السعودي وحالة التسويق الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44) |
 
 <!-- review:end log -->
 

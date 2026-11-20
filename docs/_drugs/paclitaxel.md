@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 623
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: الاستطباب الجديد المتوقع Parameningeal embryonal rhabdomyosarcoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
@@ -61,7 +61,7 @@ description: "Paclitaxel: الاستطباب الجديد المتوقع Paramen
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. واستناداً إلى المعروف، ينتمي الباكليتاكسيل إلى فئة التاكسانات التي تثبّت الأنابيب الدقيقة (microtubules) في الخلية، فتوقف الانقسام الخلوي وتحفّز موت الخلايا المبرمج في الأورام سريعة الانقسام.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Paclitaxel (ترجمة غير رسمية): «جسيمات باكليتاكسيل المرتبطة بالبروتين للمعلّق القابل للحقن (المرتبطة بالألبومين) مثبّط للأنيبيبات الدقيقة يعزّز تجميع الأنيبيبات الدقيقة من ثنائيات التوبولين ويثبّت الأنيبيبات الدقيقة عن طريق منع زوال بلمرتها. ويؤدي هذا الثبات إلى تثبيط إعادة التنظيم الديناميكي الطبيعي لشبكة الأنيبيبات الدقيقة الضرورية للوظائف الخلوية الحيوية في الطور البيني والانقسام الفتيلي.» النص الأصلي بالإنجليزية: "Paclitaxel protein-bound particles for injectable suspension (albumin-bound) is a microtubule inhibitor that promotes the assembly of microtubules from tubulin dimers and stabilizes microtubules by preventing depolymerization. This stability results in the inhibition of the normal dynamic reorganization of the microtubule network that is essential for vital interphase and mitotic cellular functions." ([DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c)، إصدار 2025-09-17؛ تاريخ الاطلاع 2026-11-20). واستناداً إلى المعروف، ينتمي الباكليتاكسيل إلى فئة التاكسانات التي تثبّت الأنابيب الدقيقة (microtubules) في الخلية، فتوقف الانقسام الخلوي وتحفّز موت الخلايا المبرمج في الأورام سريعة الانقسام.
 
 سرطان المبيض وسرطان الثدي ورمان صلبان من أورام النساء، ويستجيبان معاً للعلاج الكيميائي القائم على التاكسانات. وتوضح المراجعات المتاحة (مثل PMID 10791395 و9282422) أن الباكليتاكسيل والدوسيتاكسيل من المكوّنات المعتمدة علمياً في علاج سرطانات الثدي والرئة والمبيض.
 
@@ -172,11 +172,12 @@ description: "Paclitaxel: الاستطباب الجديد المتوقع Paramen
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص السبعة وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
 
 <!-- review:end log -->
 

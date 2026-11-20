@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "Lomitapide"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
 description: "Lomitapide: الاستطباب الجديد المتوقع نقص الصفيحات الكبير مع قصور الصمام التاجي (marcothrombocytopenia with mitral valve insufficiency) (مستوى الدليل L5)."
@@ -54,7 +54,7 @@ description: "Lomitapide: الاستطباب الجديد المتوقع نقص 
 
 ## لماذا هذا التنبؤ؟ وهل هو معقول؟
 
-لوميتابيد مثبط لبروتين MTP، وهو بروتين يشارك في تجميع البروتينات الشحمية الغنية بالأبوليبوبروتين B في الكبد والأمعاء. لا توجد بيانات تفصيلية أخرى عن آلية العمل في المعطيات المتاحة لهذا التقرير.
+لوميتابيد مثبط لبروتين MTP، وهو بروتين يشارك في تجميع البروتينات الشحمية الغنية بالأبوليبوبروتين B في الكبد والأمعاء. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lomitapide (ترجمة غير رسمية): «يرتبط JUXTAPID مباشرةً بالبروتين الناقل للدهون الثلاثية الميكروسومي (MTP) ويثبطه، وهو بروتين يوجد في تجويف الشبكة الإندوبلازمية، ومن ثمّ يمنع تجميع البروتينات الدهنية المحتوية على apo B في الخلايا المعوية والخلايا الكبدية. ويؤدي ذلك إلى تثبيط تخليق الكيلومكرونات وVLDL.» النص الأصلي بالإنجليزية: "JUXTAPID directly binds and inhibits microsomal triglyceride transfer protein (MTP), which resides in the lumen of the endoplasmic reticulum, thereby preventing the assembly of apo B-containing lipoproteins in enterocytes and hepatocytes. This inhibits the synthesis of chylomicrons and VLDL." ([DailyMed: Juxtapid (lomitapide mesylate) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=61a0be9d-ee58-43e0-b5cb-141011835081)، إصدار 2026-03-30؛ تاريخ الاطلاع 2026-11-20).
 
 لم يُعثر على صلة آلية داعمة بين تثبيط MTP وإنتاج الصفيحات الدموية أو أمراض الصمام التاجي. وتشير الدرجة المرتفعة (0.9992) على الأرجح إلى قرب العقد المرتبطة بالصفيحات في شبكة النموذج، وهي مجرد تنبؤ حسابي لا يكفي وحده لتكوين فرضية علاجية.
 
@@ -107,6 +107,18 @@ description: "Lomitapide: الاستطباب الجديد المتوقع نقص 
 - دراسات مخبرية أو سريرية أولية تتناول هذه الحالة مباشرة.
 - الحصول على بيانات التحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة.
 - استكمال بيانات آلية العمل التفصيلية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Juxtapid (lomitapide mesylate) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=61a0be9d-ee58-43e0-b5cb-141011835081) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

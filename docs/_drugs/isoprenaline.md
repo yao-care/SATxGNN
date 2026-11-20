@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Isoprenaline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: نزلة البرد، التهاب البلعوم الأنفي، السكتة القلبية، حصار الأذين البطين…"
 monitor_inn: "ISOPRENALINE"
 predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngitis", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "bronchial disease", "endobronchial leiomyoma", "allergic urticaria", "endobronchial lipoma", "bronchus adenoma"]
@@ -58,7 +58,7 @@ predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngiti
 
 ## لماذا قد يبدو هذا التنبؤ معقولًا؟
 
-حاليًا لا تتوفر بيانات تفصيلية عن آلية العمل. المعروف أن إيزوبرينالين منبّه غير انتقائي لمستقبلات بيتا الأدرينالية، وقد يؤثر نظريًا في توتر الأوعية الدموية في الغشاء المخاطي للأنف ويخفف احتقانه. هذا الافتراض نظري بحت ولا يدعمه دليل منشور.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Isoprenaline (ترجمة غير رسمية): «الإيزوبروتيرينول ناهض قوي غير انتقائي لمستقبلات بيتا الأدرينالية، وله ألفة منخفضة جدًا لمستقبلات ألفا الأدرينالية.» النص الأصلي بالإنجليزية: "Isoproterenol is a potent nonselective beta-adrenergic agonist with very low affinity for alpha‑adrenergic receptors." ([DailyMed: isoproterenol hydrochloride prescribing information, KVK-Tech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=051acbc2-7bf8-4059-e063-6394a90a115b)، إصدار 2026-11-12؛ تاريخ الاطلاع 2026-11-20). المعروف أن إيزوبرينالين منبّه غير انتقائي لمستقبلات بيتا الأدرينالية، وقد يؤثر نظريًا في توتر الأوعية الدموية في الغشاء المخاطي للأنف ويخفف احتقانه. هذا الافتراض نظري بحت ولا يدعمه دليل منشور.
 
 الأرجح أن الدرجة المرتفعة تعكس القرب في الشبكة المعرفية بين أمراض التجويف الأنفي والاستطبابات الأصلية (نزلة البرد والتهاب البلعوم الأنفي)، وليست دليلًا جديدًا على الفعالية. لذلك ينبغي التعامل مع التنبؤ كفرضية أولية فقط.
 
@@ -124,11 +124,12 @@ predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngiti
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «المنتجات الوحيدة المرخصة في المملكة ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: isoproterenol hydrochloride prescribing information, KVK-Tech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=051acbc2-7bf8-4059-e063-6394a90a115b) |
 
 <!-- review:end log -->
 

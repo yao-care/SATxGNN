@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 741
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Sacituzumab Govitecan: الاستطباب الجديد المتوقع هشاشة العظام الناجمة عن الأدوية (drug-induced osteoporosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المتاحة (الدواء مضاد للأور…"
 monitor_inn: "SACITUZUMAB GOVITECAN"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
@@ -60,7 +60,7 @@ predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative di
 
 ## لماذا يُعدّ هذا التنبؤ مثيرًا للتساؤل؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في السجل. ومن المعروف أن ساسيتوزوماب غوفيتيكان جسم مضاد موجّه نحو Trop-2 مقترن بـ SN-38، وهو المستقلب الفعال للإيرينوتيكان ومثبط لتوبوإيزوميراز I.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Sacituzumab Govitecan (ترجمة غير رسمية): «ساسيتوزوماب غوفيتيكان-hziy مقترن دواء-جسم مضاد موجَّه ضد Trop-2. وساسيتوزوماب جسم مضاد مؤنسن يتعرف على Trop-2. أما الجزيء الصغير SN-38 فهو مثبط للتوبوإيزوميراز I، ويرتبط بالجسم المضاد ارتباطاً تساهمياً بواسطة رابط.» النص الأصلي بالإنجليزية: "Sacituzumab govitecan-hziy is a Trop-2-directed antibody-drug conjugate. Sacituzumab is a humanized antibody that recognizes Trop-2. The small molecule, SN-38, is a topoisomerase I inhibitor, which is covalently attached to the antibody by a linker." ([DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d)، إصدار 2026-06-24؛ تاريخ الاطلاع 2026-11-20). ومن المعروف أن ساسيتوزوماب غوفيتيكان جسم مضاد موجّه نحو Trop-2 مقترن بـ SN-38، وهو المستقلب الفعال للإيرينوتيكان ومثبط لتوبوإيزوميراز I.
 
 لا يوجد رابط آلي مدعوم بالبيانات بين هذه الآلية وهشاشة العظام. فالعلاج الكيميائي السام للخلايا يرتبط في الغالب بفقدان العظام لا بحمايتها، لذلك فإن الدرجة العالية (0.9978) صادرة عن نموذج TxGNN (التعلم العميق) وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مرتبطة، ولا تشكل دليلًا بيولوجيًا.
 
@@ -154,11 +154,12 @@ predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative di
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص المحلي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 291
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "إيفافيرينز: الاستطباب الجديد المتوقع هو متلازمة نقص المناعة المكتسبة القططية (feline acquired immunodeficiency syndrome) (مستوى الدليل L4، درجة نموذج TxGNN (التعلم العميق) 0.9980). قد تعكس الدرجة أوجه تشابه تعلّمها النموذج بين أمراض ذات صلة، وليست دليلاً بيولوجياً."
 monitor_inn: "efavirenz"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -59,7 +59,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 ## لماذا يُعدّ هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل ضمن البيانات المجمّعة لهذا التقرير. وبحسب المعروف، فإن إيفافيرينز يثبّط إنزيم النسخ العكسي لفيروس HIV-1، وقد ثبتت فعاليته في علاج عدوى HIV.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Efavirenz (ترجمة غير رسمية): «الإيفافيرينز دواء مضاد للفيروسات. […] الإيفافيرينز مثبط غير نوكليوزيدي للمنتسخة العكسية (NNRTI) لفيروس HIV-1. وتتم فعالية الإيفافيرينز بصورة رئيسية عن طريق التثبيط غير التنافسي للمنتسخة العكسية لفيروس HIV-1. ولا يثبط الإيفافيرينز المنتسخة العكسية لفيروس HIV-2 ولا إنزيمات بوليميراز DNA الخلوية البشرية α وβ وγ وδ.» النص الأصلي بالإنجليزية: "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz." ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358)، إصدار 2024-06-28؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإن إيفافيرينز يثبّط إنزيم النسخ العكسي لفيروس HIV-1، وقد ثبتت فعاليته في علاج عدوى HIV.
 
 فيروس نقص المناعة القططي (FIV) فيروس لنتي يسبب في القطط متلازمة تشبه الإيدز، ولا يوجد علاج فعّال له. لذلك درست دراسة عام 2023 مثبطات NNRTI، ومنها إيفافيرينز ونيفيرابين وريلبيفيرين، على إنزيم النسخ العكسي لـ FIV مقارنةً بـ HIV. غير أن ملخص الدراسة المتاح مبتور ولا يؤكد ما إذا كان إيفافيرينز نشطًا فعلًا ضد إنزيم FIV.
 
@@ -134,11 +134,12 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «إذ إن الترخيص الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
 
 <!-- review:end log -->
 

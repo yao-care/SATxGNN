@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 599
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "NORFLOXACIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
 description: "Norfloxacin: الاستطباب الجديد المتوقع Polyclonal hyperviscosity syndrome (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -59,7 +59,7 @@ description: "Norfloxacin: الاستطباب الجديد المتوقع Polycl
 
 ## لماذا قد يكون هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعرفة العامة، يثبّط نورفلوكساسين إنزيمي DNA gyrase وtopoisomerase IV البكتيريين، وهو ما يفسر فعاليته المثبتة ضد الالتهابات البكتيرية.
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Norfloxacin هي (ترجمة غير رسمية): «مثبط التوبوإيزوميراز IV؛ مثبط جيراز DNA البكتيري». النص الأصلي بالإنجليزية: "Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor" ([ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20). وبحسب المعرفة العامة، يثبّط نورفلوكساسين إنزيمي DNA gyrase وtopoisomerase IV البكتيريين، وهو ما يفسر فعاليته المثبتة ضد الالتهابات البكتيرية.
 
 أما متلازمة فرط اللزوجة متعددة النسائل فهي حالة ترتبط بارتفاع الغلوبولينات المناعية في الدم، ولا يُعرف لنورفلوكساسين أي تأثير على لزوجة المصل أو مستويات الغلوبولينات المناعية. لذلك **لا توجد صلة آلية معقولة** بين الاستطباب الأصلي والجديد، ودرجة التنبؤ العالية صادرة عن نموذج TxGNN (التعلم العميق) وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض متقاربة، وليست دليلاً بيولوجياً.
 
@@ -134,11 +134,12 @@ description: "Norfloxacin: الاستطباب الجديد المتوقع Polycl
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «إعادة تقييم الجدوى التجارية والتنظيمية في ظل إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
 
 <!-- review:end log -->
 

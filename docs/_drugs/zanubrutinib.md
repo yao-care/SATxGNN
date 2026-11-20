@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 885
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Zanubrutinib: الاستطباب الجديد المتوقع ابيضاض الدم النقوي (Myeloid leukemia) (مستوى الدليل L5). الاستطباب الأصلي: لمفوما الخلايا الوشاحية، أورام الخلايا البائية، الساركوما اللمفاوية"
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
@@ -60,7 +60,7 @@ predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable en
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل الأصلية. استناداً إلى المعروف عن فئة الدواء، فإن زانوبروتينيب مثبّط BTK من الجيل الثاني، وفاعليته في أورام الخلايا البائية معروفة، وقد ينطبق ميكانيكياً على ابيضاض الدم النقوي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Zanubrutinib (ترجمة غير رسمية): «زانوبروتينيب هو مثبط جزيئي صغير لإنزيم تيروزين كيناز بروتون (BTK). يُكوّن زانوبروتينيب رابطة تساهمية مع بقية سيستئين في الموقع النشط لـ BTK، مما يؤدي إلى تثبيط نشاط BTK. وBTK هو جزيء إشارات في مسارات مستقبل مستضد الخلايا البائية (BCR) ومستقبلات السيتوكينات.» النص الأصلي بالإنجليزية: "Zanubrutinib is a small-molecule inhibitor of Bruton's tyrosine kinase (BTK). Zanubrutinib forms a covalent bond with a cysteine residue in the BTK active site, leading to inhibition of BTK activity. BTK is a signaling molecule of the B-cell antigen receptor (BCR) and cytokine receptor pathways." ([DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902)، إصدار 2026-09-04؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف عن فئة الدواء، فإن زانوبروتينيب مثبّط BTK من الجيل الثاني، وفاعليته في أورام الخلايا البائية معروفة، وقد ينطبق ميكانيكياً على ابيضاض الدم النقوي.
 
 يُعد مسار إشارات BTK نشطاً في أورام الخلايا البائية، وتشير بعض الأعمال قبل السريرية إلى أن لـ BTK دوراً في بقاء الخلايا النقوية وفي إشارات البيئة الدقيقة للورم في ابيضاض الدم النقوي الحاد. غير أن هذا الربط مستنتج من المعرفة العامة بفئة الدواء، وليس من بيانات مُثبتة لهذا الدواء.
 
@@ -156,12 +156,13 @@ predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable en
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص المحلي ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح وضع الترخيص المحلي الملغى وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902) |
 
 <!-- review:end log -->
 

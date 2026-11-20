@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 695
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PROPYLTHIOURACIL"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 description: "Propylthiouracil: الاستطباب الجديد المتوقع Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -59,7 +59,7 @@ description: "Propylthiouracil: الاستطباب الجديد المتوقع R
 
 ## هل هذا التنبؤ معقول؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في المصادر المجمعة. استنادًا إلى المعروف، يثبّط بروبيل ثيويوراسيل إنزيم بيروكسيداز الغدة الدرقية فيقلل تصنيع هرمونات الغدة الدرقية، كما يثبّط التحول المحيطي من T4 إلى T3.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Propylthiouracil (ترجمة غير رسمية): «يثبّط بروبيل ثيويوراسيل تخليق هرمونات الغدة الدرقية، ومن ثم فهو فعّال في علاج فرط نشاط الغدة الدرقية. لا يُعطّل الدواء الثيروكسين وثلاثي يود الثيرونين الموجودين والمخزّنين في الغدة الدرقية أو الدائرين في الدم، كما أنه لا يتداخل مع فعالية هرمونات الغدة الدرقية المُعطاة عن طريق الفم أو بالحقن.» النص الأصلي بالإنجليزية: "Propylthiouracil inhibits the synthesis of thyroid hormones and thus is effective in the treatment of hyperthyroidism. The drug does not inactivate existing thyroxine and triiodothyronine that are stored in the thyroid or circulating in the blood, nor does it interfere with the effectiveness of thyroid hormones given by mouth or by injection." ([DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa)، إصدار 2026-08-27؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعروف، يثبّط بروبيل ثيويوراسيل إنزيم بيروكسيداز الغدة الدرقية فيقلل تصنيع هرمونات الغدة الدرقية، كما يثبّط التحول المحيطي من T4 إلى T3.
 
 في مقاومة هرمون الغدة الدرقية من النوع بيتا تكون استجابة الأنسجة لهرمون T3 ضعيفة، ويرتفع الهرمون في الدم ويرتفع معه TSH. وخفض مستوى الهرمون بمضاد درقي قد يرفع TSH أكثر، ويزيد خطر تضخم الغدة (الدراق) وأعراض قصور الدرقية في الأنسجة المقاومة. لذلك يُعد الأساس الآلي **ضعيفًا وربما معاكسًا للهدف العلاجي**.
 
@@ -140,11 +140,12 @@ description: "Propylthiouracil: الاستطباب الجديد المتوقع R
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص المحلي ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa) |
 
 <!-- review:end log -->
 

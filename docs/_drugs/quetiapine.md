@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 701
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "QUETIAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -68,7 +68,7 @@ description: "Quetiapine: الاستطباب الجديد المتوقع Retinal
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا. استنادًا إلى المعلومات المعروفة، يُعد كيتيابين مضادًا لمستقبلات الدوبامين D2 والسيروتونين 5-HT2A (مع حصر لمستقبلات H1 وألفا-1)، وقد ثبتت فعاليته في الذهان واضطراب المزاج، وقد ينطبق ميكانيكيًا على نتف الشعر القهري.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Quetiapine (ترجمة غير رسمية): «آلية عمل الكيتيابين في دواعي الاستعمال المذكورة غير واضحة. ومع ذلك، يمكن أن تكون فعالية الكيتيابين في دواعي الاستعمال هذه متواسطة من خلال مزيج من تضاد مستقبلات الدوبامين من النوع 2 (D 2 ) ومستقبلات السيروتونين من النوع 2A (5HT 2A ).» النص الأصلي بالإنجليزية: "The mechanism of action of quetiapine in the listed indications is unclear. However, the efficacy of quetiapine in these indications could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2A (5HT 2A ) antagonism." ([DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933)، إصدار 2026-10-08؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعلومات المعروفة، يُعد كيتيابين مضادًا لمستقبلات الدوبامين D2 والسيروتونين 5-HT2A (مع حصر لمستقبلات H1 وألفا-1)، وقد ثبتت فعاليته في الذهان واضطراب المزاج، وقد ينطبق ميكانيكيًا على نتف الشعر القهري.
 
 نتف الشعر القهري اضطراب سلوكي متكرر موجَّه للجسم ويقع ضمن طيف الوسواس القهري. يُستخدم عادةً في هذه الحالات إضافة مضادات الذهان غير النمطية، ويُعد حصر 5-HT2A وD2 أساسًا معقولًا لذلك.
 
@@ -142,13 +142,14 @@ description: "Quetiapine: الاستطباب الجديد المتوقع Retinal
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم يُعَد كتابة نص تنبؤات النموذج؛ ولا تتغير مستويات الأدلة والقرارات إلا بنتيجة إعادة تقييم (خفض أو رفع أو سحب)، والقيم الأصلية في الجدول أدناه.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم يُعَد كتابة نص تنبؤات النموذج؛ ولا تتغير مستويات الأدلة والقرارات إلا بنتيجة إعادة تقييم (خفض أو رفع أو سحب)، والقيم الأصلية في الجدول أدناه. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص كيتيابين في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-12 | التنبؤ الرئيسي بانتظار إعادة التقييم | بانتظار إعادة التقييم ← أُعيد تقييمه (انظر نتيجة إعادة التقييم) | [SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5](https://satxgnn.yao.care/methodology/) |
 | 2026-11-12 | نتيجة إعادة تقييم التنبؤ الرئيسي (Retinal dystrophy with or without extraocular anomalies) | إعادة التقييم: خفض، مستوى الأدلة L4 ← L5؛ مستوى الدليل: «مستوى الدليل / L4 (تقارير حالات ومراجعات فقط، دون تجارب مضبوطة)» ← «مستوى الدليل / L5 (تنبؤ نموذجي فقط؛ لا توجد دراسات عن كيتيابين في حثل الشبكية)» | [PubMed：Central serous chorioretinopathy following oral quetiapine（PMID 37575473）](https://pubmed.ncbi.nlm.nih.gov/37575473/)؛ [PubMed：Quetiapine associated Central Serous Chorioretinopathy: Implicit role of serotonin and dopamine pathways（PMID 30672500）](https://pubmed.ncbi.nlm.nih.gov/30672500/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 513
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Lopinavir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى HIV والإيدز (مأخوذ من الروابط العلاجية في الرسم المعرفي PrimeKG،…"
 monitor_inn: "lopinavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -60,7 +60,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. وبحسب المعلومات المعروفة، فإن لوبينافير مثبط لبروتياز الأسبارتيل في فيروس HIV-1، وقد ثبتت فعاليته في عدوى HIV، ومن الناحية الآلية قد ينطبق على فيروسات قهقرية مشابهة.
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Lopinavir هي (ترجمة غير رسمية): «مثبط بروتياز فيروس العوز المناعي البشري من النوع 1». النص الأصلي بالإنجليزية: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن لوبينافير مثبط لبروتياز الأسبارتيل في فيروس HIV-1، وقد ثبتت فعاليته في عدوى HIV، ومن الناحية الآلية قد ينطبق على فيروسات قهقرية مشابهة.
 
 فيروس SIV من الفيروسات العدسية القريبة جداً من HIV ويملك بروتياز متماثلاً، لذا فإن نشاطه المضاد للفيروسات القهقرية في نماذج القرود المصابة بـ SIV/SHIV أمر معقول آلياً.
 
@@ -135,11 +135,12 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الترخيص الوحيد في السعودية ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
 
 <!-- review:end log -->
 

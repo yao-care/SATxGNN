@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 13
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 monitor_inn: "ACARBOSE"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Acarbose: الاستطباب الجديد المتوقع متلازمة الطرف المتيبس البؤرية (Focal stiff limb syndrome) (مستوى الدليل L5). الاستطباب الأصلي: داء السكري من النوع الثاني (لا يتوفر نص استطباب في تراخيص هيئة الغذاء"
@@ -59,7 +59,7 @@ description: "Acarbose: الاستطباب الجديد المتوقع متلا�
 
 ## لماذا قد يبدو هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمعة. المعروف أن الأكاربوز يثبّط ألفا-غلوكوزيداز في الأمعاء فيُبطئ امتصاص الكربوهيدرات ويخفّض سكر الدم بعد الوجبات.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Acarbose (ترجمة غير رسمية): «على عكس السلفونيل يوريا، لا تعزز أقراص أكاربوز إفراز الإنسولين. ينتج التأثير الخافض لفرط سكر الدم للأكاربوز عن تثبيط تنافسي وعكوس لإنزيم ألفا-أميليز البنكرياسي وإنزيمات ألفا-غلوكوزيد هيدرولاز المعوية المرتبطة بالغشاء.» النص الأصلي بالإنجليزية: "In contrast to sulfonylureas, Acarbose Tablets do not enhance insulin secretion. The antihyperglycemic action of acarbose results from a competitive, reversible inhibition of pancreatic alpha-amylase and membrane-bound intestinal alpha-glucoside hydrolase enzymes." ([DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a)، إصدار 2026-08-11؛ تاريخ الاطلاع 2026-11-20). المعروف أن الأكاربوز يثبّط ألفا-غلوكوزيداز في الأمعاء فيُبطئ امتصاص الكربوهيدرات ويخفّض سكر الدم بعد الوجبات.
 
 أما متلازمة الطرف المتيبس البؤرية فهي اضطراب نادر، يُرجّح أنه مناعي ذاتي أو عصبي، ويقع ضمن طيف متلازمة الرجل المتيبس. **لا توجد صلة آلية مثبتة** بين الدواء والمرض. والدرجة المرتفعة صادرة عن نموذج TxGNN (التعلم العميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض ذات صلة، وليست دليلاً بيولوجياً.
 
@@ -111,6 +111,19 @@ description: "Acarbose: الاستطباب الجديد المتوقع متلا�
 - نشرة الدواء المعتمدة من هيئة الغذاء والدواء السعودية للتحذيرات وموانع الاستعمال (فجوة بيانات حرجة تمنع الانتقال إلى مرحلة فحص السلامة).
 - أدلة سريرية أو ما قبل سريرية تدعم صلة الأكاربوز بالمرض المتوقع.
 - التحقق من وضع الترخيص الحالي وإمكانية إعادة التسجيل.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Guanfacine: الاستطباب الجديد المتوقع المتلازمة الوجهية الإصبعية التناسلية (Faciodigitogenital syndrome) (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم؛ اضطراب فرط الحركة وتشتت الانتباه (مأخوذ م…"
 monitor_inn: "Guanfacine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
@@ -60,7 +60,7 @@ predicted_indications: ["faciodigitogenital syndrome", "specific developmental d
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. بحسب المعلومات المعروفة، جوانفاسين ناهض انتقائي لمستقبل ألفا-2A الأدريني، وهو يعزز عمل الشبكات العصبية في القشرة الجبهية الأمامية، وعلى هذا يقوم استخدامه المعتمد في اضطراب فرط الحركة وتشتت الانتباه. كما تُظهر البيانات أنه يرتبط بمستقبلات ألفا-2A وألفا-2B وألفا-2C.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Guanfacine (ترجمة غير رسمية): «غوانفاسين ناهض مركزي لمستقبِلات ألفا 2A الأدرينالية. غوانفاسين ليس منبهًا للجهاز العصبي المركزي (CNS). آلية عمل غوانفاسين في ADHD غير معروفة.» النص الأصلي بالإنجليزية: "Guanfacine is a central alpha 2A -adrenergic receptor agonist. Guanfacine is not a central nervous system (CNS) stimulant. The mechanism of action of guanfacine in ADHD is not known." ([DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769)، إصدار 2026-10-15؛ تاريخ الاطلاع 2026-11-20). بحسب المعلومات المعروفة، جوانفاسين ناهض انتقائي لمستقبل ألفا-2A الأدريني، وهو يعزز عمل الشبكات العصبية في القشرة الجبهية الأمامية، وعلى هذا يقوم استخدامه المعتمد في اضطراب فرط الحركة وتشتت الانتباه. كما تُظهر البيانات أنه يرتبط بمستقبلات ألفا-2A وألفا-2B وألفا-2C.
 
 المتلازمة الوجهية الإصبعية التناسلية اضطراب نادر مرتبط بالكروموسوم X، ويسببه تغير في جين FGD1 يؤثر في نمو الهيكل العظمي والأعضاء التناسلية. لا يوجد مسار بيولوجي معروف يربط ناهض ألفا-2A بهذا السبب المرضي. أقصى ما يمكن افتراضه نظرياً هو تحسين أعراض شبيهة بفرط الحركة وتشتت الانتباه قد ترافق المتلازمة، لكن هذا مجرد تخمين لا تدعمه البيانات. لذلك تُعد الدرجة المرتفعة (0.9997) ناتجة عن النموذج فقط، ولا تمثل دليلاً سريرياً.
 
@@ -136,12 +136,13 @@ predicted_indications: ["faciodigitogenital syndrome", "specific developmental d
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «إذ إن الترخيص الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «نظراً إلى أن الترخيص الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769) |
 
 <!-- review:end log -->
 

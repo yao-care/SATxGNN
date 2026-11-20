@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 210
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Cobimetinib: الاستطباب الجديد المتوقع التصلب الجانبي الضموري (amyotrophic lateral sclerosis) (مستوى الدليل L5). الاستطباب الأصلي: الورم الميلانيني النقيلي"
 monitor_inn: "COBIMETINIB"
 predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
@@ -58,7 +58,7 @@ predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل ضمن البيانات المجمّعة لهذا التقرير. ومن المعروف أن كوبيميتينيب يثبّط المسار الإشاري MAPK/ERK عبر MEK1/2، وقد أثبت فعاليته في الورم الميلانيني النقيلي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cobimetinib (ترجمة غير رسمية): «كوبيميتينيب مثبط عكوس لكيناز البروتين المنشَّط بالميتوجين (MAPK)/الكيناز 1 المنظَّم بالإشارات خارج الخلوية (MEK1) ولـ MEK2. بروتينات MEK منظِّمات تقع في أعلى مسار الكيناز المرتبط بالإشارات خارج الخلوية (ERK)، وهو مسار يعزز التكاثر الخلوي.» النص الأصلي بالإنجليزية: "Cobimetinib is a reversible inhibitor of mitogen-activated protein kinase (MAPK)/extracellular signal regulated kinase 1 (MEK1) and MEK2. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation." ([DailyMed: Cotellic (cobimetinib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c387579e-cee0-4334-bd1e-73f93ac1bde6)، إصدار 2026-07-29؛ تاريخ الاطلاع 2026-11-20). ومن المعروف أن كوبيميتينيب يثبّط المسار الإشاري MAPK/ERK عبر MEK1/2، وقد أثبت فعاليته في الورم الميلانيني النقيلي.
 
 يُشتبه في أن تنشيط مسار MAPK يشارك في الالتهاب العصبي واستجابات الإجهاد في العصبونات الحركية في التصلب الجانبي الضموري، لذا توجد صلة نظرية. غير أنها تستند فقط إلى درجة التنبؤ الحسابية، دون دليل سريري أو منشور.
 
@@ -123,6 +123,19 @@ predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal
 - إجراء دراسات ما قبل سريرية تثبت وصول الدواء إلى الجهاز العصبي المركزي وتأثيره في نماذج التصلب الجانبي الضموري.
 - مراجعة الأدبيات حول مسار MAPK/ERK في التصلب الجانبي الضموري.
 - تقييم الجدوى التنظيمية في ظل غياب ترخيص ساري في السعودية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cotellic (cobimetinib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c387579e-cee0-4334-bd1e-73f93ac1bde6) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

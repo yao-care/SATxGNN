@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Dextromethorphan: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…"
 monitor_inn: "DEXTROMETHORPHAN"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
@@ -60,7 +60,7 @@ predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigemina
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. ومن المعروف عموماً أن ديكستروميثورفان مضاد لمستقبلات NMDA ومنبّه لمستقبلات سيغما-1 ومثبّط للسعال، لكن هذه المعلومة لم ترد في البيانات المجمّعة ولم يتم ربطها بأمراض الأنف.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ dextromethorphan hydrobromide, bupropion hydrochloride (مستحضر مركب يحتوي على Dextromethorphan) (ترجمة غير رسمية): «ديكستروميثورفان مضاد لا تنافسي لمستقبِل NMDA (مستقبِل غلوتامات مُوجَّه للأيونات) وناهض لمستقبِل سيغما-1. آلية عمل ديكستروميثورفان في علاج MDD والهياج المصاحب للخرف الناجم عن داء ألزهايمر غير واضحة.» النص الأصلي بالإنجليزية: "Dextromethorphan is an uncompetitive antagonist of the NMDA receptor (an ionotropic glutamate receptor) and a sigma-1 receptor agonist. The mechanism of dextromethorphan in the treatment of MDD and agitation associated with dementia due to Alzheimer’s disease is unclear." ([DailyMed: Auvelity (dextromethorphan hydrobromide, bupropion hydrochloride) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79)، إصدار 2026-08-17؛ تاريخ الاطلاع 2026-11-20). ومن المعروف عموماً أن ديكستروميثورفان مضاد لمستقبلات NMDA ومنبّه لمستقبلات سيغما-1 ومثبّط للسعال، لكن هذه المعلومة لم ترد في البيانات المجمّعة ولم يتم ربطها بأمراض الأنف.
 
 يرتبط المرض المتوقع (أمراض التجويف الأنفي) ارتباطاً وثيقاً بالاستطبابات القائمة (التهاب الأنف التحسسي، والتهاب الأنف الحركي الوعائي، والتهاب الأنف). لذلك يرجَّح أن الدرجة المرتفعة ناتجة عن التداخل مع هذه الاستطبابات داخل الرسم المعرفي، وليست دليلاً على استطباب جديد مستقل. ولا يمكن التحقق من أي آلية عمل مدعومة بالأدلة.
 
@@ -145,11 +145,12 @@ predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigemina
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص في السعودية وجدوى إعادة التسجيل إن لزم» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Auvelity (dextromethorphan hydrobromide, bupropion hydrochloride) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "HUMAN IMMUNOGLOBULIN G"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis"]
 description: "Human Immunoglobulin G: الاستطباب الجديد المتوقع Severe nonproliferative diabetic retinopathy (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 8 (السارية: 8)"
@@ -67,7 +67,7 @@ description: "Human Immunoglobulin G: الاستطباب الجديد المتو
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-حاليًا لا تتوفر بيانات تفصيلية عن آلية العمل. المعروف أن الغلوبولين المناعي G منتج بلازمي متعدد النسائل ذو تأثيرات مناعية، وقد يكون من الناحية النظرية قادرًا على تعديل مسارات الالتهاب والمتمم المشاركة في تلف الأوعية الدقيقة في الشبكية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Human Immunoglobulin G (ترجمة غير رسمية): «ASCENIV علاج تعويضي للمرضى المصابين بالعوز المناعي الخلطي الأولي (PI). ويوفر ASCENIV طيفاً واسعاً من أضداد IgG المُطهِّرة (المُأَوْبِسة) والمُعادِلة ضد العوامل الممرضة البكتيرية والفيروسية وذيفاناتها.» النص الأصلي بالإنجليزية: "ASCENIV is a replacement therapy for patients with primary humoral immunodeficiency (PI). ASCENIV provides a broad spectrum of opsonizing and neutralizing IgG antibodies against bacterial and viral pathogens and their toxins." ([DailyMed: Asceniv (human immunoglobulin g) prescribing information, ADMA Biologics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d74f4360-3b51-496c-96fb-84c3976958d2)، إصدار 2026-09-29؛ تاريخ الاطلاع 2026-11-20). المعروف أن الغلوبولين المناعي G منتج بلازمي متعدد النسائل ذو تأثيرات مناعية، وقد يكون من الناحية النظرية قادرًا على تعديل مسارات الالتهاب والمتمم المشاركة في تلف الأوعية الدقيقة في الشبكية.
 
 لكن هذه الفرضية **غير مدعومة** بأي تجربة سريرية أو دراسة منشورة ضمن البيانات المتاحة. درجة TxGNN المرتفعة (0.9975) تعكس تنبؤًا من الرسم المعرفي فقط وليست دليلًا مستقلًا. كذلك فإن العلاجات المعيارية القائمة (مضادات VEGF، والتخثير بالليزر، والعلاج الليزري الشامل للشبكية) مدعومة بأدلة أقوى بكثير.
 
@@ -131,11 +131,12 @@ description: "Human Immunoglobulin G: الاستطباب الجديد المتو
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وكذلك الوضع التسويقي بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Asceniv (human immunoglobulin g) prescribing information, ADMA Biologics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d74f4360-3b51-496c-96fb-84c3976958d2) |
 
 <!-- review:end log -->
 

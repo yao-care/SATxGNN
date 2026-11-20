@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 425
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "ICATIBANT"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
 description: "Icatibant: الاستطباب الجديد المتوقع اضطراب السيربينوباثي مع تبلمر السيربين السام (serpinopathy with toxic serpin polymerization) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -54,7 +54,7 @@ description: "Icatibant: الاستطباب الجديد المتوقع اضطر
 
 ## لماذا هذا التنبؤ؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. المعروف من الصيدلة أن إيكاتيبانت يرتبط بمستقبلات البراديكينين B1 وB2 ويعمل كمضاد لمستقبل B2، أي أنه يخفف الإشارات التي يحفزها البراديكينين.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Icatibant (ترجمة غير رسمية): «إيكاتيبانت هو مضاد تنافسي انتقائي لمستقبل البراديكينين B2، وله ألفة مماثلة لألفة البراديكينين. تنجم الوذمة الوعائية الوراثية عن غياب مثبط استراز C1 أو خلل وظيفته، وهو منظِّم رئيسي للسلسلة التحللية البروتينية للعامل XII/الكاليكرين التي تؤدي إلى إنتاج البراديكينين.» النص الأصلي بالإنجليزية: "Icatibant is a competitive antagonist selective for the bradykinin B2 receptor, with an affinity similar to bradykinin. Hereditary angioedema is caused by an absence or dysfunction of C1-esterase-inhibitor, a key regulator of the Factor XII/kallikrein proteolytic cascade that leads to bradykinin production." ([DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540)، إصدار 2025-07-07؛ تاريخ الاطلاع 2026-11-20). المعروف من الصيدلة أن إيكاتيبانت يرتبط بمستقبلات البراديكينين B1 وB2 ويعمل كمضاد لمستقبل B2، أي أنه يخفف الإشارات التي يحفزها البراديكينين.
 
 يرجَّح أن الدرجة المرتفعة ناتجة عن ارتباط عائلة السيربين (ومنها مثبط C1 المرتبط بالجين SERPING1) بالمجال العلاجي الأصلي للدواء. أما اعتلالات السيربين فتتميز بتراكم بوليمرات سامة، وهي عملية لا تتوسطها مستقبلات البراديكينين B2. لذلك لا تظهر آلية معقولة تربط إيكاتيبانت بهذه الحالة، ويقتصر الدعم على درجة النموذج.
 
@@ -92,6 +92,18 @@ description: "Icatibant: الاستطباب الجديد المتوقع اضطر
 - بيانات آلية العمل التفصيلية للدواء.
 - الحصول على النشرة الدوائية ومراجعة التحذيرات وموانع الاستعمال.
 - مراجعة أدبية منهجية لتحديد أي دراسات مباشرة عن هذه الحالة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

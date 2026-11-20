@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 829
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Tranylcypromine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
 description: "Tranylcypromine: الاستطباب الجديد المتوقع الصَّعَر الانتيابي الحميد في الرضع (benign paroxysmal torticollis of infancy) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -71,7 +71,7 @@ description: "Tranylcypromine: الاستطباب الجديد المتوقع ا
 
 ## لماذا يُعدّ هذا التنبؤ معقولًا؟
 
-تتوفر حاليًا بيانات تفصيلية عن آلية العمل غير متاحة ضمن البيانات المجمّعة لهذا التقرير. استنادًا إلى المعلومات المعروفة، ترانيلسيبرومين مثبّط غير انعكاسي لإنزيمي MAO-A وMAO-B، مما يرفع توافر الأمينات الأحادية في الدماغ. وتُظهر بيانات الارتباط الدوائي المجمّعة أنه يرتبط أيضًا بإنزيم ديميثيلاز اللايسين 1A (LSD1/KDM1A) وبـ PTGIS.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tranylcypromine (ترجمة غير رسمية): «لم تُفهم آلية عمل PARNATE كمضاد للاكتئاب فهماً كاملاً، ولكن يُفترض أنها مرتبطة بتعزيز نشاط النواقل العصبية الأحادية الأمين في الجهاز العصبي المركزي (CNS) الناتج عن تثبيطه غير العكوس لإنزيم أحادي الأمين أوكسيداز (MAO).» النص الأصلي بالإنجليزية: "The mechanism of action of PARNATE as an antidepressant is not fully understood, but is presumed to be linked to potentiation of monoamine neurotransmitter activity in the central nervous system (CNS) resulting from its irreversible inhibition of the enzyme monoamine oxidase (MAO)." ([DailyMed: Parnate (tranylcypromine sulfate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b72d8187-dfcc-4ea0-b5e9-c0be95b69a27)، إصدار 2025-07-02؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعلومات المعروفة، ترانيلسيبرومين مثبّط غير انعكاسي لإنزيمي MAO-A وMAO-B، مما يرفع توافر الأمينات الأحادية في الدماغ. وتُظهر بيانات الارتباط الدوائي المجمّعة أنه يرتبط أيضًا بإنزيم ديميثيلاز اللايسين 1A (LSD1/KDM1A) وبـ PTGIS.
 
 **بالنسبة لعسر المزاج:** هو اضطراب اكتئابي مزمن وثيق الصلة بالاستطباب المعتمد (الاكتئاب أحادي القطب)، لذا فالآليات الأحادية الأمين قابلة للتطبيق منطقيًا. غير أن الدليل الوحيد هو تحليل تلوي لتجارب عشوائية مضبوطة بالدواء الوهمي لمضادات الاكتئاب كفئة، وليس لترانيلسيبرومين تحديدًا.
 
@@ -179,13 +179,14 @@ description: "Tranylcypromine: الاستطباب الجديد المتوقع ا
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص الوحيد **ملغى**؛ لا توجد حاليًا تراخيص سارية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «كما أن الترخيص المحلي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «تحديد وضع الترخيص المحلي وجدوى إعادة التسجيل نظرًا لأن الترخيص الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Parnate (tranylcypromine sulfate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b72d8187-dfcc-4ea0-b5e9-c0be95b69a27) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Loperamide: الاستطباب الجديد المتوقع التهاب الملتحمة المعدي الحاد (acute contagious conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: الإسهال، الدزنتاريا (الزحار)"
 monitor_inn: "LOPERAMIDE"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "parasitic conjunctivitis", "serous conjunctivitis except viral", "Angelucci syndrome"]
@@ -58,7 +58,7 @@ predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً، ولماذا لا يبدو كذلك؟
 
-لوبيراميد ناهض لمستقبلات الأفيون من النوع مو (mu) محدود النفاذ إلى الأنسجة خارج الأمعاء، ويعمل على الخلايا العصبية المعوية لإبطاء حركة الأمعاء. لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في المعلومات المجمعة لهذا التقرير.
+لوبيراميد ناهض لمستقبلات الأفيون من النوع مو (mu) محدود النفاذ إلى الأنسجة خارج الأمعاء، ويعمل على الخلايا العصبية المعوية لإبطاء حركة الأمعاء. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Loperamide (ترجمة غير رسمية): «تُظهر الدراسات المخبرية والحيوانية أن كبسولات هيدروكلوريد اللوبيراميد تعمل عن طريق إبطاء حركية الأمعاء وعن طريق التأثير في حركة الماء والكهارل عبر الأمعاء. يرتبط اللوبيراميد بمستقبل الأفيون في جدار الأمعاء.» النص الأصلي بالإنجليزية: "In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall." ([DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b)، إصدار 2026-07-09؛ تاريخ الاطلاع 2026-11-20).
 
 التهاب الملتحمة المعدي الحاد مرض التهابي أو عدوائي يصيب سطح العين. لم يُعثر على أي صلة آلية معقولة بين دواء يعمل على حركة الأمعاء وبين هذا المرض. الدرجة العالية جداً (0.9997) صادرة عن نموذج TxGNN (التعلم العميق) وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض متقاربة، وليست دليلاً بيولوجياً. وتشترك في درجات مقاربة عدة تسميات أخرى لالتهاب الملتحمة، مما يرجح أن ذلك ناتج عن أوجه التشابه التي تعلّمها النموذج بين هذه الأمراض.
 
@@ -138,11 +138,12 @@ predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة قبل أي تقييم تسويقي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b) |
 
 <!-- review:end log -->
 

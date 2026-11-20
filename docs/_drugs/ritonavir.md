@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 729
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infection) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -56,7 +56,7 @@ description: "Ritonavir: الاستطباب الجديد المتوقع عدوى
 
 ## لماذا يبدو هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعروف، فإن ريتونافير مثبط لبروتياز فيروس نقص المناعة البشرية، كما يُستخدم معزِّزاً دوائياً عبر تثبيط CYP3A4.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ritonavir (ترجمة غير رسمية): «الريتونافير دواء مضاد للفيروسات القهقرية. […] الريتونافير مثبط محاكٍ للببتيد لإنزيم البروتياز الخاص بـ HIV-1. ويؤدي تثبيط بروتياز HIV إلى جعل الإنزيم عاجزًا عن معالجة طليعة البروتين المتعدد Gag-Pol، مما يؤدي إلى إنتاج جسيمات HIV غير ناضجة وغير معدية.» النص الأصلي بالإنجليزية: "Ritonavir is an antiretroviral drug. […] Ritonavir is a peptidomimetic inhibitor of the HIV-1 protease. Inhibition of HIV protease renders the enzyme incapable of processing the Gag-Pol polyprotein precursor which leads to production of non-infectious immature HIV particles." ([DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3)، إصدار 2026-07-23؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإن ريتونافير مثبط لبروتياز فيروس نقص المناعة البشرية، كما يُستخدم معزِّزاً دوائياً عبر تثبيط CYP3A4.
 
 فيروس نقص المناعة القردي من الفيروسات البطيئة (lentivirus) وثيقة القرابة بفيروس نقص المناعة البشرية، وبروتياز كلٍّ منهما مشابه، ما يجعل تثبيط الدواء له معقولاً من الناحية الآلية. وتدعم ذلك دراسة مخبرية وجدت أن ريتونافير يثبط الفيروس القردي بتركيز فعّال نصفي قدره نحو 13 نانومولار، مقابل نحو 25 نانومولار لفيروس نقص المناعة البشرية من النوع الأول.
 
@@ -103,6 +103,18 @@ description: "Ritonavir: الاستطباب الجديد المتوقع عدوى
 - تحميل النشرة الدوائية من هيئة الغذاء والدواء السعودية وتحليل تحذيراتها وموانع استعمالها.
 - مراجعة كاملة لنصوص المنشورات، إذ يبدو بعضها بعيد الصلة بالموضوع.
 - تحديد قيمة تطبيقية واضحة للاستخدام البشري أو البيطري قبل أي استثمار إضافي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

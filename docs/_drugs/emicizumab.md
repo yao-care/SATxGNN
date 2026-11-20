@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "EMICIZUMAB"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Emicizumab: الاستطباب الجديد المتوقع مرض فون ويليبراند الكاذب (pseudo-von Willebrand disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -54,7 +54,7 @@ description: "Emicizumab: الاستطباب الجديد المتوقع مرض 
 
 ## لماذا قد يكون هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعروف، يحاكي إيميسيزوماب نشاط العامل الثامن المنشَّط عبر ربط العاملين IXa وX، وليس له صلة مباشرة بالصفائح أو بعامل فون ويليبراند.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Emicizumab (ترجمة غير رسمية): «يربط هيمليبرا بين العامل IX المنشَّط والعامل X لاستعادة وظيفة العامل VIII المنشَّط المفقود، وهو العامل اللازم للإرقاء الفعّال.» النص الأصلي بالإنجليزية: "HEMLIBRA bridges activated factor IX and factor X to restore the function of missing activated factor VIII that is needed for effective hemostasis." ([DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071)، إصدار 2025-07-11؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، يحاكي إيميسيزوماب نشاط العامل الثامن المنشَّط عبر ربط العاملين IXa وX، وليس له صلة مباشرة بالصفائح أو بعامل فون ويليبراند.
 
 مرض فون ويليبراند الكاذب اضطراب من نوع الصفائح ناتج عن طفرة اكتساب وظيفة في الجين GP1BA، تزيد ارتباط الصفائح بعامل فون ويليبراند. ويعود نزفه إلى فقدان متعددات الأجزاء عالية الوزن الجزيئي من هذا العامل وخلل الصفائح، لا إلى نقص العامل الثامن. لذلك لا يوجد مبرر آلي واضح لمحاكاة العامل الثامن هنا، وتبقى الدرجة العالية نتيجة حسابية فقط.
 
@@ -94,6 +94,19 @@ description: "Emicizumab: الاستطباب الجديد المتوقع مرض 
 - بيانات آلية العمل التفصيلية وتحليل الصلة الآلية بخلل GP1BA وعامل فون ويليبراند.
 - بيانات ما قبل سريرية أو دراسات حالة تدعم الاستخدام في هذا الاضطراب.
 - الحصول على تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة، وتقييم خطر الخثار.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

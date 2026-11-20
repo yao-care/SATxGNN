@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 666
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Polatuzumab Vedotin: الاستطباب الجديد المتوقع سرطان الثدي الإيجابي لـ HER2 (HER2 positive breast carcinoma) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات المجمّعة (نص المؤشر في ترخيص اله…"
 monitor_inn: "POLATUZUMAB VEDOTIN"
 predicted_indications: ["HER2 positive breast carcinoma"]
@@ -59,7 +59,7 @@ predicted_indications: ["HER2 positive breast carcinoma"]
 
 ## لماذا قد يكون هذا التنبؤ معقولاً؟
 
-بيانات آلية العمل الأصلية غير متوفرة حالياً. استناداً إلى المعروف عن الدواء، فإن بولاتوزوماب فيدوتين مقترن جسم مضاد-دواء يرتبط بـ CD79b، وهو أحد مكونات مستقبل الخلايا البائية، ثم يحرر MMAE الذي يعطّل الأنابيب الدقيقة ويوقف انقسام الخلايا.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Polatuzumab Vedotin (ترجمة غير رسمية): «بولاتوزوماب فيدوتين-piiq هو مقترن جسم مضاد-دواء موجَّه ضد CD79b وله نشاط ضد الخلايا البائية المنقسمة. والجزيء الصغير MMAE عامل مضاد للانقسام الخيطي مرتبط تساهميًا بالجسم المضاد عبر رابط قابل للانشطار. ويرتبط الجسم المضاد وحيد النسيلة بـ CD79b، وهو بروتين سطحي نوعي للخلايا البائية، ويُعد أحد مكونات مستقبل الخلايا البائية.» النص الأصلي بالإنجليزية: "Polatuzumab vedotin-piiq is a CD79b-directed antibody-drug conjugate with activity against dividing B cells. The small molecule, MMAE, is an anti-mitotic agent covalently attached to the antibody via a cleavable linker. The monoclonal antibody binds to CD79b, a B-cell specific surface protein, which is a component of the B-cell receptor." ([DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc)، إصدار 2026-08-24؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف عن الدواء، فإن بولاتوزوماب فيدوتين مقترن جسم مضاد-دواء يرتبط بـ CD79b، وهو أحد مكونات مستقبل الخلايا البائية، ثم يحرر MMAE الذي يعطّل الأنابيب الدقيقة ويوقف انقسام الخلايا.
 
 الصلة الآلية بسرطان الثدي الإيجابي لـ HER2 **ضعيفة**. فـ CD79b ليس هدفاً معروفاً في هذا المرض، وأي صلة محتملة تقتصر على النشاط السام العام لـ MMAE تجاه الخلايا سريعة الانقسام، وهو نشاط غير خاص بهذا المرض.
 
@@ -138,11 +138,12 @@ predicted_indications: ["HER2 positive breast carcinoma"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح الوضع التنظيمي للترخيص الملغى وإمكانية التوفر في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc) |
 
 <!-- review:end log -->
 

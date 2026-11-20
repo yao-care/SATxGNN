@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Dutasteride: الاستطباب الجديد المتوقع فرط الشعر الخلقي العام من نوع أمبراس (مستوى الدليل L5). الاستطباب الأصلي: تضخم البروستاتا الحميد"
 monitor_inn: "DUTASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
@@ -58,7 +58,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل ضمن البيانات المجمّعة لهذا التقرير. استناداً إلى المعروف عن هذا الدواء، فإنه يثبّط إنزيم 5-ألفا ريductase من النوعين 1 و2، فيخفض مستوى ثنائي هيدروتستوستيرون (DHT)، وهذا هو أساس فعاليته في تضخم البروستاتا الحميد.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Dutasteride (ترجمة غير رسمية): «يثبّط دوتاستيريد تحويل التستوستيرون إلى DHT. ويُعدّ DHT الأندروجين المسؤول بشكل رئيسي عن النمو الأولي لغدة البروستاتا وتضخمها اللاحق. ويتحوّل التستوستيرون إلى DHT بواسطة إنزيم 5 ألفا-ريدكتاز، الذي يوجد في شكلين إسويين، النوع 1 والنوع 2.» النص الأصلي بالإنجليزية: "Dutasteride inhibits the conversion of testosterone to DHT. DHT is the androgen primarily responsible for the initial development and subsequent enlargement of the prostate gland. Testosterone is converted to DHT by the enzyme 5 alpha-reductase, which exists as 2 isoforms, type 1 and type 2." ([DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3)، إصدار 2026-08-27؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف عن هذا الدواء، فإنه يثبّط إنزيم 5-ألفا ريductase من النوعين 1 و2، فيخفض مستوى ثنائي هيدروتستوستيرون (DHT)، وهذا هو أساس فعاليته في تضخم البروستاتا الحميد.
 
 أما متلازمة أمبراس فهي حالة خلقية من فرط نمو الشعر، ناتجة عن إعادة ترتيب جينومي في الموضع 8q22 يؤثر على تنظيم الجين TRPS1، ولا يبدو أن هذا المسار يعتمد بوضوح على DHT. وبالتالي فإن خفض الإشارات الأندروجينية وسيلة معقولة نظرياً للحد من نمو الشعر، لكنها غير مدعومة بأي دليل.
 
@@ -123,11 +123,12 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الدواء لا يملك أي ترخيص ساري في السعودية حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3) |
 
 <!-- review:end log -->
 

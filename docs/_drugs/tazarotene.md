@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 787
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Tazarotene: الاستطباب الجديد المتوقع التهاب الجلد الدهني (Seborrheic dermatitis) (مستوى الدليل L5). الاستطباب الأصلي: الصدفية، شبه الصدفية، حب الشباب (من الرسم المعرفي لـ TxGNN، إذ لا يتو…"
 monitor_inn: "TAZAROTENE"
 predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar inverted follicular keratosis"]
@@ -58,7 +58,7 @@ predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل المسجلة للدواء. وبحسب المعلومات المعروفة، فإن التازاروتين طليعة دواء (prodrug) من الرتينوئيدات، ومستقلبه الفعال حمض التازاروتينيك يرتبط انتقائياً بمستقبلَي RAR-beta وRAR-gamma. يؤدي ذلك إلى تطبيع تمايز الخلايا الكيراتينية وتقليل فرط تكاثرها والالتهاب المصاحب.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tazarotene (ترجمة غير رسمية): «تازاروتين طليعة دواء ريتينويدية تتحول إلى شكلها الفعال، الحمض الكربوكسيلي لتازاروتين، بنزع الأسترة. ويرتبط حمض التازاروتينيك بجميع الأفراد الثلاثة لعائلة مستقبلات حمض الريتينويك (RAR): RARα وRARβ وRARγ، لكنه يُبدي انتقائية نسبية لـ RARβ وRARγ، وقد يعدّل التعبير الجيني.» النص الأصلي بالإنجليزية: "Tazarotene is a retinoid prodrug which is converted to its active form, the carboxylic acid of tazarotene, by deesterification. Tazarotenic acid binds to all three members of the retinoic acid receptor (RAR) family: RARα, RARβ, and RARγ, but shows relative selectivity for RARβ, and RARγ and may modify gene expression." ([DailyMed: Tazorac (tazarotene) prescribing information, Almirall, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e4e4b81-420e-4492-8a74-80b692a80057)، إصدار 2026-11-04؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن التازاروتين طليعة دواء (prodrug) من الرتينوئيدات، ومستقلبه الفعال حمض التازاروتينيك يرتبط انتقائياً بمستقبلَي RAR-beta وRAR-gamma. يؤدي ذلك إلى تطبيع تمايز الخلايا الكيراتينية وتقليل فرط تكاثرها والالتهاب المصاحب.
 
 الصدفية والتهاب الجلد الدهني كلاهما اضطراب التهابي جلدي مع تقشر وفرط تكاثر في البشرة. لذلك قد تعالج الآلية نفسها التقشر والالتهاب في التهاب الجلد الدهني كما تفعل في الصدفية.
 
@@ -136,11 +136,12 @@ predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الدواء غير مسوّق حالياً في السعودية (الترخيص الوحيد ملغى)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tazorac (tazarotene) prescribing information, Almirall, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e4e4b81-420e-4492-8a74-80b692a80057) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ETODOLAC"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Etodolac: الاستطباب الجديد المتوقع خلل التنسج الأكروميزوملي، نوع هنتر-طومسون (acromesomelic dysplasia, Hunter-Thompson type) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -56,7 +56,7 @@ description: "Etodolac: الاستطباب الجديد المتوقع خلل ا
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. بحسب المعروف، ينتمي إيتودولاك إلى مثبطات إنزيم الأكسدة الحلقية (COX) التي تقلل تصنيع البروستاغلاندينات المسببة للألم والالتهاب.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Etodolac (ترجمة غير رسمية): «إن آلية عمل أقراص إيتودولاك ممتدة المفعول، شأنها شأن مضادات الالتهاب غير الستيرويدية (NSAIDs) الأخرى، غير مفهومة تمامًا، ولكنها قد تكون مرتبطة بتثبيط إنزيم تخليق البروستاغلاندين.» النص الأصلي بالإنجليزية: "The mechanism of action of etodolac extended-release tablets, like that of other NSAIDs, is not completely understood, but may be related to prostaglandin synthetase inhibition." ([DailyMed: Etodolac Er (etodolac) prescribing information, Advanced Rx Pharmacy of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=baebdfb2-17f6-9081-e053-2a95a90ab331)، إصدار 2024-12-31؛ تاريخ الاطلاع 2026-11-20). بحسب المعروف، ينتمي إيتودولاك إلى مثبطات إنزيم الأكسدة الحلقية (COX) التي تقلل تصنيع البروستاغلاندينات المسببة للألم والالتهاب.
 
 أما خلل التنسج الأكروميزوملي من نوع هنتر-طومسون فهو اضطراب هيكلي وراثي نادر ناتج عن خلل في الجين CDMP1/GDF5. تثبيط COX لا يُتوقع أن يعالج هذا الخلل الأساسي. لذلك لم تُحدَّد صلة آلية معقولة بين الدواء وهذا المرض.
 
@@ -98,6 +98,19 @@ description: "Etodolac: الاستطباب الجديد المتوقع خلل ا
 - مراجعة بيانات سلامة النشرة الدوائية الرسمية.
 - أدلة مباشرة (دراسات ما قبل سريرية أو سريرية) تربط إيتودولاك بهذا المرض.
 - تقييم الفائدة المحتملة كتخفيف عرضي للألم فقط، مقابل المخاطر المرتبطة بموانع الاستعمال المذكورة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Etodolac Er (etodolac) prescribing information, Advanced Rx Pharmacy of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=baebdfb2-17f6-9081-e053-2a95a90ab331) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 620
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "OXCARBAZEPINE"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: الاستطباب الجديد المتوقع Restless legs syndrome (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
@@ -58,7 +58,7 @@ description: "Oxcarbazepine: الاستطباب الجديد المتوقع Rest
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. وبحسب المعروف عموماً، يعمل أوكسكاربازيبين عبر مستقلبه الفعال (MHD) على حصر قنوات الصوديوم الحساسة للجهد، وهو علاج راسخ للنوبات البؤرية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Oxcarbazepine (ترجمة غير رسمية): «يُمارَس النشاط الدوائي لـ TRILEPTAL بصورة رئيسية من خلال المستقلب 10-أحادي الهيدروكسي (MHD) للأوكسكاربازيبين. والآلية الدقيقة التي يمارس بها الأوكسكاربازيبين وMHD تأثيرهما المضاد للنوبات غير معروفة؛ ومع ذلك، تشير الدراسات الفيزيولوجية الكهربائية في المختبر إلى أنهما يُحدثان حصراً لقنوات الصوديوم الحساسة للجهد، مما يؤدي إلى استقرار الأغشية العصبية مفرطة الاستثارة، وتثبيط الإطلاق العصبوني المتكرر، وتضاؤل انتشار النبضات المشبكية.» النص الأصلي بالإنجليزية: "The pharmacological activity of TRILEPTAL is primarily exerted through the 10-monohydroxy metabolite (MHD) of oxcarbazepine. The precise mechanism by which oxcarbazepine and MHD exert their anti-seizure effect is unknown; however, in vitro electrophysiological studies indicate that they produce blockade of voltage-sensitive sodium channels, resulting in stabilization of hyperexcited neural membranes, inhibition of repetitive neuronal firing, and diminution of propagation of synaptic impulses." ([DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b)، إصدار 2026-10-28؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عموماً، يعمل أوكسكاربازيبين عبر مستقلبه الفعال (MHD) على حصر قنوات الصوديوم الحساسة للجهد، وهو علاج راسخ للنوبات البؤرية.
 
 الصرع البصري (الحساس للضوء أو المنعكس) نمط من النوبات يتداخل مع مؤشر الصرع البؤري المعتمد، ولذلك فالصلة بين المؤشرين معقولة نظرياً.
 
@@ -149,11 +149,12 @@ description: "Oxcarbazepine: الاستطباب الجديد المتوقع Rest
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
 
 <!-- review:end log -->
 

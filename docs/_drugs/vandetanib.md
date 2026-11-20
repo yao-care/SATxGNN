@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 860
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "VANDETANIB"
 predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
 description: "Vandetanib: الاستطباب الجديد المتوقع سرطان الخلايا الكلوية (renal cell carcinoma (disease)) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -58,7 +58,7 @@ description: "Vandetanib: الاستطباب الجديد المتوقع سرط�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في السجلات المجمعة. وبحسب المعروف عن الدواء، فإن فاندتانيب مثبط كيناز متعدد الأهداف يعمل على VEGFR2 وEGFR وRET، وهو من فئة مثبطات التيروزين كيناز المضادة لتكوّن الأوعية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Vandetanib (ترجمة غير رسمية): «أظهرت الدراسات المختبرية أن فانديتانيب يثبّط نشاط التيروزين كيناز لعائلتي EGFR وVEGFR، وRET، وBRK، وTIE2، وأعضاء عائلتي مستقبلات EPH وكينازات Src. وتشارك مستقبلات التيروزين كيناز هذه في كلٍّ من الوظيفة الخلوية الطبيعية والعمليات المرضية مثل تكوّن الأورام، والنقائل، وتكوّن الأوعية الدموية في الورم، والحفاظ على البيئة الدقيقة للورم.» النص الأصلي بالإنجليزية: "In vitro studies have shown that vandetanib inhibits the tyrosine kinase activity of the EGFR and VEGFR families, RET, BRK, TIE2, and members of the EPH receptor and Src kinase families. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, and maintenance of the tumor microenvironment." ([DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03)، إصدار 2026-10-30؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن الدواء، فإن فاندتانيب مثبط كيناز متعدد الأهداف يعمل على VEGFR2 وEGFR وRET، وهو من فئة مثبطات التيروزين كيناز المضادة لتكوّن الأوعية.
 
 يُعد تثبيط مسار VEGFR آلية مثبتة في سرطان الخلايا الكلوية، ولا سيما النمط الصافي الخلايا، الذي ينشأ غالباً عن فقدان VHL وارتفاع نشاط HIF وVEGF. وهذا ينسجم مع تثبيط فاندتانيب لـ VEGFR2، كما يفسر الاهتمام بدراسته في مرض فون هيبل-ليندو.
 
@@ -125,6 +125,18 @@ description: "Vandetanib: الاستطباب الجديد المتوقع سرط�
 - الحصول على تحذيرات وموانع الاستعمال من نشرة العبوة المعتمدة.
 - وضع خطة مراقبة للسلامة القلبية (تخطيط القلب، الإلكتروليتات) وإدارة التداخلات الدوائية.
 - تحديد فئة المرضى المناسبة، مثل الأنماط الوراثية أو الاستقلابية الفرعية (VHL وHLRCC/SDH).
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

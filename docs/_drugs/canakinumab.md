@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 139
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Canakinumab: الاستطباب الجديد المتوقع احتشاء الكبد (Hepatic infarction) (مستوى الدليل L5). الاستطباب الأصلي: المتلازمات الدورية المرتبطة بالكريوبيرين، حمى البحر المتوسط العائلية،…"
 monitor_inn: "CANAKINUMAB"
 predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
@@ -60,7 +60,7 @@ predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", 
 
 ## لماذا يُعد هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبناءً على المعلومات المعروفة، فإن كاناكينوماب جسم مضاد وحيد النسيلة يستهدف الإنترلوكين-1β (IL-1β)، وقد ثبتت فعاليته في أمراض الالتهاب الذاتي، ومن الناحية الآلية قد ينطبق على احتشاء الكبد.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Canakinumab (ترجمة غير رسمية): «كاناكينوماب هو جسم مضاد بشري وحيد النسيلة مضاد لـ IL-1β البشري من النمط الإسوي IgG1/κ. يرتبط كاناكينوماب بـ IL-1β البشري ويعادل نشاطه عن طريق حجب تفاعله مع مستقبلات IL-1، ولكنه لا يرتبط بـ IL-1α أو بمضاد مستقبل IL-1 ‏(IL-1ra).» النص الأصلي بالإنجليزية: "Canakinumab is a human monoclonal anti-human IL-1β antibody of the IgG1/κ isotype. Canakinumab binds to human IL-1β and neutralizes its activity by blocking its interaction with IL-1 receptors, but it does not bind IL-1α or IL-1 receptor antagonist (IL-1ra)." ([DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e)، إصدار 2026-06-08؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، فإن كاناكينوماب جسم مضاد وحيد النسيلة يستهدف الإنترلوكين-1β (IL-1β)، وقد ثبتت فعاليته في أمراض الالتهاب الذاتي، ومن الناحية الآلية قد ينطبق على احتشاء الكبد.
 
 الصلة المحتملة هي أن الالتهاب الذي يحركه IL-1β قد يسهم في تلف الأنسجة الإقفاري. لكن هذه الفرضية تخمينية ولا تدعمها أي بيانات متاحة.
 كما أن احتشاء الكبد حالة وعائية إقفارية تختلف جوهرياً عن أمراض الالتهاب الذاتي الوراثية التي يُستخدم الدواء فيها. لذلك تبقى درجة TxGNN العالية مؤشراً حسابياً فقط، ولا تعني فعالية سريرية مثبتة.
@@ -128,11 +128,12 @@ predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «المنتج غير مرخص حالياً في المملكة (تراخيصه ملغاة)، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e) |
 
 <!-- review:end log -->
 

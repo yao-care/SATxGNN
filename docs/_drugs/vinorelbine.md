@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 874
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Vinorelbine: الاستطباب الجديد المتوقع ساركوما إيوينغ (مستوى الدليل L2). الاستطباب الأصلي: سرطان الرئة غير صغير الخلايا / سرطان الرئة (وفق الاستطبابات الأصلية ف…"
 monitor_inn: "VINORELBINE"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "lung germ cell tumor", "pulmonary sulcus neoplasm", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
@@ -58,7 +58,7 @@ predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of l
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. غير أن الفينوريلبين، بحسب المعلومات المعروفة، قلويد من فئة الفينكا يثبط تكوّن الأنابيب الدقيقة (microtubules)، فيتسبب في توقف الانقسام الخلوي ثم موت الخلايا المبرمج في الخلايا سريعة الانقسام. وقد ثبتت فعاليته في سرطان الرئة غير صغير الخلايا.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Vinorelbine (ترجمة غير رسمية): «فينوريلبين هو أحد قلويدات الفينكا، ويتداخل مع تجميع الأنيبيبات الدقيقة. ويُعتقد أن النشاط المضاد للأورام لفينوريلبين يعود بصورة رئيسية إلى تثبيط الانقسام الفتيلي في الطور الاستوائي من خلال تفاعله مع التوبولين. وقد يتداخل فينوريلبين أيضًا مع: 1) استقلاب الأحماض الأمينية وAMP الحلقي والجلوتاثيون، 2) نشاط إنزيم ATPase الناقل لـ Ca++ المعتمد على الكالموديولين، 3) التنفس الخلوي، 4) التخليق الحيوي للأحماض النووية والدهون.» النص الأصلي بالإنجليزية: "Vinorelbine is a vinca alkaloid that interferes with microtubule assembly. The antitumor activity of vinorelbine is thought to be due primarily to inhibition of mitosis at metaphase through its interaction with tubulin. Vinorelbine may also interfere with: 1) amino acid, cyclic AMP and glutathione metabolism, 2) calmodulin-dependent Ca++-transport ATPase activity, 3) cellular respiration, and 4) nucleic acid and lipid biosynthesis." ([DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397)، إصدار 2024-08-16؛ تاريخ الاطلاع 2026-11-20). غير أن الفينوريلبين، بحسب المعلومات المعروفة، قلويد من فئة الفينكا يثبط تكوّن الأنابيب الدقيقة (microtubules)، فيتسبب في توقف الانقسام الخلوي ثم موت الخلايا المبرمج في الخلايا سريعة الانقسام. وقد ثبتت فعاليته في سرطان الرئة غير صغير الخلايا.
 
 تُعد ساركوما إيوينغ ورماً عظمياً خبيثاً يتميز بارتفاع معدل الانتكاس، خصوصاً في المرض النقيلي المتعدد، ويستهدف الدواء الخلايا سريعة الانقسام، مما يجعل تطبيقه فيها معقولاً من الناحية الآلية. وتشير الأدلة إلى نشاط الفينوريلبين مع جرعات منخفضة مستمرة (metronomic) من السيكلوفوسفاميد في ساركوما إيوينغ والساركومات الأخرى المنتكسة أو المقاومة عند الأطفال. كما أظهرت دراسات ما قبل السريرية تآزراً بين الأدوية المتداخلة مع الأنابيب الدقيقة ومثبطات PLK1 في خلايا ساركوما إيوينغ. ويجري التفكير في هذا النظام كعلاج صيانة ضمن تجربة INTER-EWING-1 الدولية.
 
@@ -159,12 +159,13 @@ predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of l
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-12 | الجدول: NAVELBINE 10MG-ML I-V VIAL مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 | 2026-11-12 | الجدول: VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397) |
 
 <!-- review:end log -->
 

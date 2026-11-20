@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DORZOLAMIDE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Dorzolamide: الاستطباب الجديد المتوقع تساقط الشعر البسيط في فروة الرأس (hypotrichosis simplex of the scalp) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -54,7 +54,7 @@ description: "Dorzolamide: الاستطباب الجديد المتوقع تسا
 
 ## لماذا يُعدّ هذا التوقع محل نظر؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. المعروف أن دورزولاميد يرتبط بعدة أنزيمات من عائلة أنهيدراز الكربونيك (CA1 وCA7 وCA12 وCA14) ويُستخدم موضعياً في العين لخفض ضغط العين.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Dorzolamide (ترجمة غير رسمية): «الأنهيدراز الكربونية (CA) إنزيم يوجد في العديد من أنسجة الجسم بما فيها العين. ويحفّز التفاعل العكوس الذي يتضمن إماهة ثاني أكسيد الكربون ونزع الماء من حمض الكربونيك. […] يحتوي محلول دورزولاميد هيدروكلوريد العيني على دورزولاميد هيدروكلوريد، وهو مثبط للأنهيدراز الكربونية II البشرية.» النص الأصلي بالإنجليزية: "Carbonic anhydrase (CA) is an enzyme found in many tissues of the body including the eye. It catalyzes the reversible reaction involving the hydration of carbon dioxide and the dehydration of carbonic acid. […] Dorzolamide hydrochloride ophthalmic solution contains dorzolamide hydrochloride, an inhibitor of human carbonic anhydrase II." ([DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea)، إصدار 2026-11-14؛ تاريخ الاطلاع 2026-11-20). المعروف أن دورزولاميد يرتبط بعدة أنزيمات من عائلة أنهيدراز الكربونيك (CA1 وCA7 وCA12 وCA14) ويُستخدم موضعياً في العين لخفض ضغط العين.
 
 لم يُحدَّد أي رابط آلي معقول بين تثبيط أنهيدراز الكربونيك ونمو الشعر. ويرجّح التقييم أن التوقع ناتج عن ارتباطات حاسوبية في النموذج وليس عن أساس دوائي حقيقي. لذلك ينبغي التعامل معه كفرضية بحثية ضعيفة وليس كاتجاه علاجي مدعوم.
 
@@ -92,6 +92,19 @@ description: "Dorzolamide: الاستطباب الجديد المتوقع تسا
 - نصوص التحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة
 - دراسات مخبرية أو سريرية أولية تتناول هذا المرض مباشرة
 - التحقق من جدوى المسار الموضعي (العين) مقابل المسار المطلوب لعلاج فروة الرأس
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

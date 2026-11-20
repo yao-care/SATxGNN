@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 671
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Posaconazole: الاستطباب الجديد المتوقع داء المتكيسات الرئوية (Pneumocystosis) (مستوى الدليل L5). الاستطباب الأصلي: داء الفطار الملوِّن، داء الكوكسيديوديات، داء الرشاشيات، داء المبيضات،…"
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -59,7 +59,7 @@ predicted_indications: ["pneumocystosis"]
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً، وما حدوده؟
 
-يثبّط بوساكونازول إنزيم lanosterol 14-alpha-demethylase (CYP51) في الفطريات، فيمنع تصنيع الإرغوستيرول، وهو مكوّن أساسي في غشاء الخلية الفطرية. وهذه الآلية هي أساس فعاليته في الاستطبابات الأصلية. وتجدر الإشارة إلى أن بيانات آلية العمل التفصيلية غير متوفرة حالياً في المعطيات المجمّعة لهذا التقرير.
+يثبّط بوساكونازول إنزيم lanosterol 14-alpha-demethylase (CYP51) في الفطريات، فيمنع تصنيع الإرغوستيرول، وهو مكوّن أساسي في غشاء الخلية الفطرية. وهذه الآلية هي أساس فعاليته في الاستطبابات الأصلية. وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Posaconazole (ترجمة غير رسمية): «البوساكونازول عامل مضاد للفطريات من فئة الآزولات. […] يحجب البوساكونازول تخليق الإرغوستيرول، وهو مكوّن رئيسي لغشاء الخلية الفطرية، من خلال تثبيط الإنزيم المعتمد على السيتوكروم P-450 لانوستيرول 14α-ديميثيلاز المسؤول عن تحويل اللانوستيرول إلى الإرغوستيرول في غشاء الخلية الفطرية. ويؤدي ذلك إلى تراكم سلائف الستيرولات المُمَثيلة ونضوب الإرغوستيرول داخل غشاء الخلية، مما يُضعف بنية غشاء الخلية الفطرية ووظيفته.» النص الأصلي بالإنجليزية: "Posaconazole is an azole antifungal agent. […] Posaconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84)، إصدار 2026-02-13؛ تاريخ الاطلاع 2026-11-20).
 
 ينتمي داء المتكيسات الرئوية إلى العدوى الانتهازية التي تصيب المرضى ناقصي المناعة، وهي فئة تتقاطع سريرياً مع مرضى العدوى الفطرية الغازية. ويرجّح أن الدرجة العالية لـ TxGNN تعكس هذا القرب في الشبكة المعرفية من الاستطبابات المضادة للفطريات، لا ملاءمة آلية حقيقية.
 
@@ -129,6 +129,19 @@ predicted_indications: ["pneumocystosis"]
 - استكمال بيانات آلية العمل من DrugBank.
 - الحصول على النشرة الدوائية المعتمدة من هيئة الغذاء والدواء السعودية (SFDA) لاستخراج التحذيرات وموانع الاستعمال، وهي ثغرة حرجة تمنع المضي إلى مرحلة فحص السلامة.
 - التحقق من وضع الترخيص والأشكال الدوائية المتاحة إذا استُكمل التقييم.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
 description: "Citric Acid: الاستطباب الجديد المتوقع أمراض المعدة (stomach disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 11 (السارية: 11)"
@@ -54,7 +54,7 @@ description: "Citric Acid: الاستطباب الجديد المتوقع أمر
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، حمض الستريك حمض عضوي يؤثر في حموضة المعدة والفيزيولوجيا المرتبطة بالحمض، وهو مكوّن في مستحضرات فوارة تُستخدم عادة لاضطرابات الجهاز الهضمي، مما يجعل الصلة بأمراض المعدة معقولة نظرياً.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ sodium picosulfate, magnesium oxide, and anhydrous citric acid (مستحضر مركب يحتوي على Citric Acid) (ترجمة غير رسمية): «يتفاعل أكسيد المغنيسيوم وحمض الستريك لتكوين سترات المغنيسيوم في المحلول، وهي عامل تناضحي يتسبب في احتباس الماء داخل السبيل المعدي المعوي.» النص الأصلي بالإنجليزية: "Magnesium oxide and citric acid react to create magnesium citrate in solution, which is an osmotic agent that causes water to be retained within the gastrointestinal tract." ([DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5)، إصدار 2026-04-15؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، حمض الستريك حمض عضوي يؤثر في حموضة المعدة والفيزيولوجيا المرتبطة بالحمض، وهو مكوّن في مستحضرات فوارة تُستخدم عادة لاضطرابات الجهاز الهضمي، مما يجعل الصلة بأمراض المعدة معقولة نظرياً.
 
 غير أن هذه الصلة افتراضية. فالدراسات المسترجعة غير مباشرة في معظمها: تحليلات أيضية في سرطان المعدة، وفيزيولوجيا جرثومة المعدة الحلزونية، وتنظيم إفراز حمض المعدة بواسطة أحماض البيرة المرّة. وهناك دراستان (PMID 31505905 وPMID 30970440) تتناولان وجبة حمض الستريك لرفع دقة اختبار اليوريا التنفسي، وهذا استخدام تشخيصي مساعد وليس علاجاً. أما الدرجة المرتفعة للنموذج فهي تنبؤ حسابي فقط ولا تسندها بيانات علاجية سريرية.
 
@@ -106,6 +106,18 @@ description: "Citric Acid: الاستطباب الجديد المتوقع أمر
 - نص تحذيرات وموانع استعمال من نشرة الدواء المعتمدة.
 - دراسات سريرية أو أولية مباشرة تختبر حمض الستريك في أمراض المعدة، مع تحديد مفهوم "أمراض المعدة" المستهدف.
 - مراجعة التداخلات الدوائية، خاصة مع الكينولونات ومضادات الحموضة المحتوية على الألمنيوم.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

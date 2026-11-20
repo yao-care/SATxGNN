@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Octreotide: الاستطباب الجديد المتوقع الورم الكيراتيني الجُريبي المقلوب في الفرج (vulvar inverted follicula… (مستوى الدليل L5). الاستطباب الأصلي: تضخم الأطراف (أكروميغالي)، فرط نشاط النخامية، متلازمة …"
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
@@ -59,7 +59,7 @@ predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic kera
 
 ## لماذا يبدو هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل الأصلية في البيانات المجمعة. وبحسب المعلومات المعروفة، أوكترريوتايد نظير للسوماتوستاتين يعمل أساسًا على مستقبلات السوماتوستاتين SSTR2 وSSTR3 وSSTR5، وقد ثبتت فعاليته في الحالات المفرزة للهرمونات مثل تضخم الأطراف والأورام الصماوية العصبية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Octreotide (ترجمة غير رسمية): «يمارس Sandostatin Injection تأثيرات دوائية مماثلة للهرمون الطبيعي السوماتوستاتين. وهو مثبط لـ GH والغلوكاغون والإنسولين أقوى حتى من السوماتوستاتين. […] وبفضل هذه التأثيرات الدوائية، استُخدم الأوكتريوتيد لعلاج الأعراض المصاحبة للأورام السرطاوية النقيلية (التورد والإسهال)، والأورام الغدية المفرزة لـ VIP (الإسهال المائي).» النص الأصلي بالإنجليزية: "Sandostatin Injection exerts pharmacologic actions similar to the natural hormone, somatostatin. It is an even more potent inhibitor of GH, glucagon, and insulin than somatostatin. […] By virtue of these pharmacological actions, octreotide has been used to treat the symptoms associated with metastatic carcinoid tumors (flushing and diarrhea), and VIP secreting adenomas (watery diarrhea)." ([DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39)، إصدار 2026-07-22؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، أوكترريوتايد نظير للسوماتوستاتين يعمل أساسًا على مستقبلات السوماتوستاتين SSTR2 وSSTR3 وSSTR5، وقد ثبتت فعاليته في الحالات المفرزة للهرمونات مثل تضخم الأطراف والأورام الصماوية العصبية.
 
 أما الصلة بالورم الكيراتيني الجُريبي المقلوب في الفرج، وهو آفة حميدة، فهي **تخمينية**. لم تُثبت أي آلية من البيانات المتاحة، والدرجة العالية تعكس ارتباطًا في الرسم المعرفي فقط، ولا ينبغي اعتبارها دليلًا على الفعالية.
 
@@ -142,11 +142,12 @@ predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic kera
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح وضع التسجيل والتوافر الفعلي للمنتجات في السعودية بعد إلغاء جميع التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39) |
 
 <!-- review:end log -->
 

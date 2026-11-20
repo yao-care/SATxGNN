@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IOPROMIDE"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Iopromide: الاستطباب الجديد المتوقع الفصال العظمي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفرة في بيانات الترخيص المجمَّعة (نص الإشارة المعتمدة فارغ في ا…"
 ---
 
@@ -58,7 +58,7 @@ description: "Iopromide: الاستطباب الجديد المتوقع الفص
 
 ## لماذا هذا التنبؤ محل شك؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف، إيوبروميد وسيط تباين يودي غير أيوني يُستخدم للتصوير التشخيصي (ومنه تصوير المفاصل بالتباين)، وليس له دور علاجي معروف مضاد للالتهاب أو واقٍ للغضروف.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Iopromide (ترجمة غير رسمية): «يؤدي الحقن داخل الأوعية لإيوبروميد إلى تعتيم الأوعية التي يوجد فيها عامل التباين، مما يتيح التصوير الشعاعي للبنى الداخلية من خلال توهين الفوتونات. وفي تصوير الجسم، تنتشر عوامل التباين المحتوية على اليود من الأوعية إلى الحيز خارج الأوعية.» النص الأصلي بالإنجليزية: "Intravascular injection of iopromide opacifies those vessels where the contrast agent is present, permitting radiographic visualization of the internal structures through attenuation of photons. In imaging of the body, iodinated contrast agents diffuse from the vessels into the extravascular space." ([DailyMed: Ultravist (iopromide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df917c3a-59a2-4ed1-8470-8a5394c73325)، إصدار 2026-03-02؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، إيوبروميد وسيط تباين يودي غير أيوني يُستخدم للتصوير التشخيصي (ومنه تصوير المفاصل بالتباين)، وليس له دور علاجي معروف مضاد للالتهاب أو واقٍ للغضروف.
 
 ولا يوجد رابط آلي معقول بين استخدامه الأصلي والفصال العظمي. ويرجَّح أن الدرجة المرتفعة (0.9953) تعكس قرباً في الرسم المعرفي بين الأمراض المرتبطة بالمفاصل، لا نشاطاً دوائياً حقيقياً. كما أن استخدامه في تصوير المفاصل غرضه التشخيص لا العلاج.
 
@@ -112,6 +112,19 @@ description: "Iopromide: الاستطباب الجديد المتوقع الفص
 - استكمال بيانات آلية العمل من DrugBank.
 - وجود دراسات ما قبل سريرية أو سريرية تتناول الفصال العظمي مباشرة قبل إعادة التقييم.
 - تقييم مسار الإعطاء المطلوب للاستخدام العلاجي المفترض ومدى توافقه مع الأشكال المتوفرة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ultravist (iopromide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df917c3a-59a2-4ed1-8470-8a5394c73325) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

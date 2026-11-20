@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 856
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Ustekinumab: الاستطباب الجديد المتوقع التهاب الجلد (Dermatitis) (مستوى الدليل L2). الاستطباب الأصلي: التهاب المفاصل الصدفي، الصدفية، شبه الصدفية (parapsoriasis)"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -60,7 +60,7 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid",
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-يثبّط أوستيكينوماب الوحدة الفرعية p40 المشتركة بين الإنترلوكين-12 والإنترلوكين-23، فيحدّ من إشارات الخلايا التائية Th1 وTh17. وتفيد البيانات المجمّعة لهذا التقرير بأن معلومات آلية العمل التفصيلية من قاعدة البيانات الدوائية غير متوفرة حالياً، والوصف هنا مبني على التحليل الآلي للعلاقة الآلية.
+يثبّط أوستيكينوماب الوحدة الفرعية p40 المشتركة بين الإنترلوكين-12 والإنترلوكين-23، فيحدّ من إشارات الخلايا التائية Th1 وTh17. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ustekinumab (ترجمة غير رسمية): «منتجات أوستيكينوماب هي أجسام مضادة وحيدة النسيلة بشرية من نوع IgG1κ ترتبط بنوعية بالوحدة الفرعية البروتينية p40 التي يستخدمها كل من السيتوكينين IL-12 وIL-23. إن IL-12 وIL-23 سيتوكينات طبيعية المنشأ تشارك في الاستجابات الالتهابية والمناعية، مثل تنشيط الخلايا القاتلة الطبيعية وتمايز الخلايا التائية CD4+ وتنشيطها.» النص الأصلي بالإنجليزية: "Ustekinumab products are human IgG1κ monoclonal antibodies that bind with specificity to the p40 protein subunit used by both the IL-12 and IL-23 cytokines. IL-12 and IL-23 are naturally occurring cytokines that are involved in inflammatory and immune responses, such as natural killer cell activation and CD4+ T-cell differentiation and activation." ([DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7)، إصدار 2026-11-11؛ تاريخ الاطلاع 2026-11-20).
 
 الصدفية والتهاب الجلد التأتبي كلاهما مرض التهابي جلدي مزمن. ورغم أن التهاب الجلد التأتبي يغلب عليه استقطاب Th2، فإن مساهمات Th1 وTh17 وTh22 تظهر خاصة في الآفات المزمنة، وعند المرضى الآسيويين، وفي الأطفال. وهذا يعطي مبرراً آلياً معقولاً لكنه جزئي.
 
@@ -141,11 +141,12 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid",
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |
 
 <!-- review:end log -->
 

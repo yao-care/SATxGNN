@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 786
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Tamsulosin: الاستطباب الجديد المتوقع فرط الشعر الخلقي العام من نوع أمبراس (مستوى الدليل L5). الاستطباب الأصلي: تضخم البروستات الحميد"
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
@@ -59,7 +59,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 ## لماذا يبدو هذا التنبؤ (غير) معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. المعروف أن تامسولوسين حاصر انتقائي لمستقبلات ألفا-1A وألفا-1D (ويرتبط أيضاً بألفا-1B)، ويُرخي العضلات الملساء في عنق المثانة والبروستات، مما يخفف أعراض انسداد مجرى البول.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tamsulosin (ترجمة غير رسمية): «ترتبط الأعراض المصاحبة لتضخم البروستاتا الحميد (BPH) بانسداد مخرج المثانة، والذي يتألف من مكونين أساسيين: ساكن وديناميكي. ويرتبط المكون الساكن بزيادة حجم البروستاتا الناتجة، جزئيًا، عن تكاثر خلايا العضلات الملساء في سدى البروستاتا. […] يُظهر تامسولوسين، وهو عامل حاصر للمستقبلات الأدرينالية ألفا 1، انتقائية لمستقبلات ألفا 1 في البروستاتا البشرية.» النص الأصلي بالإنجليزية: "The symptoms associated with benign prostatic hyperplasia (BPH) are related to bladder outlet obstruction, which is comprised of two underlying components: static and dynamic. The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Tamsulosin, an alpha 1 adrenoceptor blocking agent, exhibits selectivity for alpha 1 receptors in the human prostate." ([DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f)، إصدار 2026-11-12؛ تاريخ الاطلاع 2026-11-20). المعروف أن تامسولوسين حاصر انتقائي لمستقبلات ألفا-1A وألفا-1D (ويرتبط أيضاً بألفا-1B)، ويُرخي العضلات الملساء في عنق المثانة والبروستات، مما يخفف أعراض انسداد مجرى البول.
 
 أما متلازمة أمبراس فهي اضطراب وراثي نادر ناتج عن إعادة ترتيب في الكروموسوم 8q22 تؤثر على تنظيم الجين TRPS1، ولا يُعرف لها أي ارتباط بالمسارات الأدرينالية. لذلك **لا يوجد رابط آلي مثبت** بين الدواء والمرض.
 
@@ -127,11 +127,12 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وليس للدواء ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f) |
 
 <!-- review:end log -->
 

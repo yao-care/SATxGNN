@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CLEMASTINE"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Clemastine: الاستطباب الجديد المتوقع مرض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -56,7 +56,7 @@ description: "Clemastine: الاستطباب الجديد المتوقع مرض 
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً في البيانات المجمّعة لهذا التقرير. استناداً إلى المعروف عن هذه الفئة الدوائية، يحصر كليماستين مستقبلات الهيستامين H1، وله تأثير مضاد للكولين يقلل إفرازات الأنف (سيلان الأنف).
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Clemastine (ترجمة غير رسمية): «فومارات الكليماستين مضاد للهيستامين ذو آثار جانبية مضادة للفعل الكوليني (مُجففة) ومهدئة. ويبدو أن مضادات الهيستامين تتنافس مع الهيستامين على مواقع المستقبلات الخلوية في الخلايا المستجيبة. وقد ثبتت المدة الطويلة المتأصلة للتأثيرات المضادة للهيستامين لفومارات الكليماستين في دراسات الانتبار والتوهج.» النص الأصلي بالإنجليزية: "Clemastine fumarate is an antihistamine with anticholinergic (drying) and sedative side effects. Antihistamines appear to compete with histamine for cell receptor sites on effector cells. The inherently long duration of antihistaminic effects of clemastine fumarate has been demonstrated in wheal and flare studies." ([DailyMed: Clemsza (clemastine fumarate) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9a35ed77-e35c-4c54-ad7f-1b92e450fa20)، إصدار 2026-10-05؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف عن هذه الفئة الدوائية، يحصر كليماستين مستقبلات الهيستامين H1، وله تأثير مضاد للكولين يقلل إفرازات الأنف (سيلان الأنف).
 
 هذه الآلية قد تنطبق نظرياً على أمراض التجويف الأنفي المصحوبة بالتحسس أو سيلان الأنف. غير أن مصطلح «مرض التجويف الأنفي» واسع جداً وغير محدد بما يكفي لتقييمه بدقة، ولا تتوفر في البيانات المجمّعة دراسات تتناوله مباشرة. لذلك تبقى الصلة الآلية معقولة لكنها غير مثبتة.
 
@@ -96,6 +96,19 @@ description: "Clemastine: الاستطباب الجديد المتوقع مرض 
 - بيانات آلية العمل التفصيلية.
 - الحصول على تحذيرات وموانع الاستعمال من نشرة العبوة المعتمدة لدى هيئة الغذاء والدواء السعودية.
 - تقييم ملاءمة المسار الدوائي (الشكل الدوائي وطريق الإعطاء) للاستطباب الجديد.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Clemsza (clemastine fumarate) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9a35ed77-e35c-4c54-ad7f-1b92e450fa20) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

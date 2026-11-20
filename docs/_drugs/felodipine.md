@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 342
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "FELODIPINE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Felodipine: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي ذو الآلية المتعددة العوامل غير الواضحة (pulmonary hypertension with unclear multifactorial mechanism) (مستوى الدليل L5)."
@@ -54,7 +54,7 @@ description: "Felodipine: الاستطباب الجديد المتوقع ارت�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-يعمل فيلوديبين بحصر قنوات الكالسيوم من النوع L في العضلات الملساء الوعائية، مما يؤدي إلى توسّع الأوعية وخفض المقاومة الوعائية. وهذا يوفّر صلة نظرية بتوسيع الأوعية الرئوية. وبيانات آلية العمل التفصيلية غير متوفرة حالياً في البيانات المجمّعة.
+يعمل فيلوديبين بحصر قنوات الكالسيوم من النوع L في العضلات الملساء الوعائية، مما يؤدي إلى توسّع الأوعية وخفض المقاومة الوعائية. وهذا يوفّر صلة نظرية بتوسيع الأوعية الرئوية. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Felodipine (ترجمة غير رسمية): «الفيلوديبين أحد أفراد فئة ثنائي هيدروبيريدين من مضادات قنوات الكالسيوم (حاصرات قنوات الكالسيوم). وهو ينافس بشكل عكوس النيتريندبين و/أو حاصرات قنوات الكالسيوم الأخرى على مواقع ارتباط ثنائي هيدروبيريدين، ويحصر تيارات Ca ++ المعتمدة على الجهد في العضلات الملساء الوعائية وفي خلايا الأذين المستزرعة لدى الأرانب، ويحصر التقفع المحرَّض بالبوتاسيوم في الوريد البابي لدى الجرذان.» النص الأصلي بالإنجليزية: "Felodipine is a member of the dihydropyridine class of calcium channel antagonists (calcium channel blockers). It reversibly competes with nitrendipine and/or other calcium channel blockers for dihydropyridine binding sites, blocks voltage-dependent Ca ++ currents in vascular smooth muscle and cultured rabbit atrial cells, and blocks potassium-induced contracture of the rat portal vein." ([DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115)، إصدار 2024-08-07؛ تاريخ الاطلاع 2026-11-20).
 
 غير أن حاصرات قنوات الكالسيوم لا تُستخدم في ارتفاع ضغط الشريان الرئوي إلا لدى فئة صغيرة من المرضى الذين يستجيبون لتوسيع الأوعية. لذلك فإن تعميم هذا المنطق على ارتفاع ضغط الدم الرئوي متعدد العوامل غير مؤكد، والصلة هنا حسابية بحتة.
 
@@ -94,6 +94,18 @@ description: "Felodipine: الاستطباب الجديد المتوقع ارت�
 - دراسات توسّع أوعية رئوية أو تجارب سريرية تتناول فيلوديبين مباشرةً في هذه الحالة.
 - بيانات آلية العمل التفصيلية.
 - تحليل التحذيرات وموانع الاستعمال من نشرة الدواء المعتمدة لدى الهيئة العامة للغذاء والدواء.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 784
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-20
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Tadalafil: الاستطباب الجديد المتوقع Ambras type hypertrichosis universalis congenita (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 18 على الأقل"
@@ -59,7 +59,7 @@ description: "Tadalafil: الاستطباب الجديد المتوقع Ambras t
 
 ## هل هذا التنبؤ منطقي؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعرفة العامة، تادالافيل مثبّط للإنزيم PDE5، فيرفع مستوى cGMP ويسبب توسّع الأوعية، وهذا يفسّر فعاليته في ضعف الانتصاب وارتفاع ضغط الدم الرئوي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tadalafil (ترجمة غير رسمية): «ينتج انتصاب القضيب أثناء التحفيز الجنسي عن زيادة تدفق الدم إلى القضيب الناتجة عن ارتخاء شرايين القضيب والعضلات الملساء للجسم الكهفي. وتتوسط هذه الاستجابة إطلاقُ أكسيد النيتريك (NO) من النهايات العصبية والخلايا البطانية، مما يحفز تخليق cGMP في خلايا العضلات الملساء. […] يثبط تادالافيل PDE5.» النص الأصلي بالإنجليزية: "Penile erection during sexual stimulation is caused by increased penile blood flow resulting from the relaxation of penile arteries and corpus cavernosal smooth muscle. This response is mediated by the release of nitric oxide (NO) from nerve terminals and endothelial cells, which stimulates the synthesis of cGMP in smooth muscle cells. […] Tadalafil inhibits PDE5." ([DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895)، إصدار 2026-06-03؛ تاريخ الاطلاع 2026-11-20). وبحسب المعرفة العامة، تادالافيل مثبّط للإنزيم PDE5، فيرفع مستوى cGMP ويسبب توسّع الأوعية، وهذا يفسّر فعاليته في ضعف الانتصاب وارتفاع ضغط الدم الرئوي.
 
 أما متلازمة أمبراس فاضطراب وراثي نادر يصيب نمو الشعر، ولا توجد صلة بيولوجية معروفة بينه وبين مسار PDE5/cGMP. ويرجّح أن الدرجة العالية ناتجة عن تشابه في الرسم المعرفي لا عن آلية حقيقية. بل إن فرط الشعر أثر جانبي معروف لبعض موسّعات الأوعية مثل المينوكسيديل، فاستخدام دواء موسّع للأوعية لعلاجه يبدو معاكسًا من الناحية الآلية.
 
@@ -137,6 +137,19 @@ description: "Tadalafil: الاستطباب الجديد المتوقع Ambras t
 - استكمال بيانات آلية العمل من DrugBank
 - إن رُغب في متابعة أي مسار، فالأجدر دراسة فرضية مرض القلب الحدبي الجنفي (ارتفاع الضغط الرئوي الثانوي) عبر مراجعة منهجية للأدبيات
 - توضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل أو الاستيراد
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

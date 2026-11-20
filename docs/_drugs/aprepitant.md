@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Aprepitant: الاستطباب الجديد المتوقع المتلازمة الكلوية المنشأ لعدم ملاءمة مضادات البول (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات (نصوص الاستطباب في التراخيص فارغة)"
 monitor_inn: "APREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
@@ -60,7 +60,7 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "h
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-أبريبيتانت مضاد لمستقبل NK1. بيانات آلية العمل التفصيلية غير متوفرة حالياً في المعلومات المجمّعة، والمعروف عموماً أن الدواء يحجب ارتباط المادة P بمستقبلات NK1.
+أبريبيتانت مضاد لمستقبل NK1. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Aprepitant (ترجمة غير رسمية): «الأبريبيتانت مضاد انتقائي عالي الألفة لمستقبلات المادة P/نيوروكينين 1 (NK 1 ) البشرية. وللأبريبيتانت ألفة ضئيلة أو معدومة لمستقبلات السيروتونين (5-HT 3 ) والدوبامين والكورتيكوستيرويدات. وقد ثبت في النماذج الحيوانية أن الأبريبيتانت يثبط القيء الناجم عن العوامل الكيميائية العلاجية السامة للخلايا، مثل السيسبلاتين، عبر تأثيرات مركزية.» النص الأصلي بالإنجليزية: "Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK 1 ) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors. Aprepitant has been shown in animal models to inhibit emesis induced by cytotoxic chemotherapeutic agents, such as cisplatin, via central actions." ([DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4)، إصدار 2026-04-01؛ تاريخ الاطلاع 2026-11-20).
 
 توجد صلة نظرية ضعيفة بتوازن الماء عبر إشارات المادة P/NK1 في مسارات مرتبطة بالفازوبريسين. لكن هذه المتلازمة ناجمة عن طفرات اكتساب وظيفة في مستقبل الفازوبريسين V2 (AVPR2)، وهو يعمل في مرحلة لاحقة لأي تأثير مركزي محتمل على NK1. لذلك تُعد الصلة **ضعيفة وتخمينية**. الدرجة المرتفعة جداً (0.9997) ناتجة عن النموذج فقط ولا يدعمها أي دليل سريري.
 
@@ -130,6 +130,19 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "h
 - توضيح الاستطباب الأصلي المعتمد وحالة الترخيص الحالية.
 - إجراء مراجعة منهجية للأدبيات وتجارب ما قبل السريرية تتناول NK1 والمتلازمة المستهدفة.
 - التفكير في الأمراض الأعلى معقولية آلياً (مثل النزف تحت العنكبوتية) إن رُغب في استكشاف بدائل.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

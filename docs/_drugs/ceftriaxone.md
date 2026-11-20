@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CEFTRIAXONE"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Ceftriaxone: الاستطباب الجديد المتوقع متلازمة فرط اللزوجة متعددة النسائل (polyclonal hyperviscosity syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
 ---
 
@@ -54,7 +54,7 @@ description: "Ceftriaxone: الاستطباب الجديد المتوقع متل
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل ضمن البيانات المجمّعة لهذا التقرير. المعروف أن سيفترياكسون مضاد للبكتيريا يثبّط بناء جدار الخلية البكتيرية، وفعاليته في العدوى البكتيرية معروفة.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ceftriaxone (ترجمة غير رسمية): «سيفترياكسون هو دواء مضاد للبكتيريا. […] سيفترياكسون هو عامل قاتل للبكتيريا يعمل عن طريق تثبيط تخليق الجدار الخلوي البكتيري. يتمتع سيفترياكسون بفعالية في وجود بعض إنزيمات بيتا-لاكتاماز، سواء البنسليناز أو السيفالوسبوريناز، التي تنتجها البكتيريا سالبة الغرام وموجبة الغرام.» النص الأصلي بالإنجليزية: "Ceftriaxone is an antibacterial drug. […] Ceftriaxone is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Ceftriaxone has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467)، إصدار 2022-01-13؛ تاريخ الاطلاع 2026-11-20). المعروف أن سيفترياكسون مضاد للبكتيريا يثبّط بناء جدار الخلية البكتيرية، وفعاليته في العدوى البكتيرية معروفة.
 
 أما متلازمة فرط اللزوجة متعددة النسائل فتنشأ عن ارتفاع الغلوبولينات المناعية أو بروتينات المصل، وهي حالة لا يعالجها مضاد حيوي. لذلك لا يوجد رابط آلي واضح بين عمل الدواء وهذه الحالة، والدرجة المرتفعة ناتجة عن تنبؤ حاسوبي لا تدعمه أدلة سريرية أو منشورة.
 
@@ -98,6 +98,18 @@ description: "Ceftriaxone: الاستطباب الجديد المتوقع متل
 - بيانات آلية العمل التفصيلية.
 - مراجعة النشرة الدوائية المعتمدة لتحذيرات السلامة وموانع الاستعمال.
 - أي دليل سريري أو مخبري مباشر يربط الدواء بهذه المتلازمة قبل إعادة النظر في القرار.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

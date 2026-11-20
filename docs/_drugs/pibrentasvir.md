@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 655
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Pibrentasvir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (نص الدلالة المعتمدة غير متوفر في ب…"
 monitor_inn: "pibrentasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -59,7 +59,7 @@ predicted_indications: ["hepatitis B virus infection", "HIV infectious disease",
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن بيبرينتاسفير جزء من تركيبة مضادة للفيروسات المباشرة (DAA)، وقد ثبتت فعاليته في التهاب الكبد C، ويعمل بتثبيط بروتين NS5A الخاص بفيروس HCV.
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Pibrentasvir هي (ترجمة غير رسمية): «مثبط البروتين غير البنيوي 5A». النص الأصلي بالإنجليزية: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن بيبرينتاسفير جزء من تركيبة مضادة للفيروسات المباشرة (DAA)، وقد ثبتت فعاليته في التهاب الكبد C، ويعمل بتثبيط بروتين NS5A الخاص بفيروس HCV.
 
 أما من الناحية الآلية فالصلة ضعيفة: فيروس التهاب الكبد B هو فيروس DNA من عائلة Hepadnaviridae، يتضاعف عبر النسخ العكسي ووسيط cccDNA، وليس له نظير معروف لبروتين NS5A. والأرجح أن الدرجة العالية تعكس القرب في الشبكة المعرفية بين مصطلحات «التهاب الكبد الفيروسي» وليس رابطاً دوائياً حقيقياً.
 
@@ -137,12 +137,13 @@ predicted_indications: ["hepatitis B virus infection", "HIV infectious disease",
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «ليس للمنتج ترخيص ساري في السعودية حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «(إلغاء الترخيص) وأسبابه» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123) |
 
 <!-- review:end log -->
 

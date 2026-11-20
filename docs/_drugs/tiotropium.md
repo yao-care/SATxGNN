@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 818
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "TIOTROPIUM"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: الاستطباب الجديد المتوقع التشوه التنفسي (respiratory malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -54,7 +54,7 @@ description: "Tiotropium: الاستطباب الجديد المتوقع الت�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. المعروف أن تيوتروبيوم مضاد مسكاريني طويل المفعول يرخي العضلات الملساء في القصبات عند استنشاقه، ويُستخدم لتخفيف انسداد الشعب الهوائية الوظيفي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tiotropium (ترجمة غير رسمية): «تيوتروبيوم عامل مضاد للمسكارين طويل المفعول، يُشار إليه غالباً بمضاد الكولين. وله ألفة متماثلة للأنواع الفرعية من المستقبلات المسكارينية، من M 1 إلى M 5. وفي المسالك الهوائية، يُبدي تأثيرات دوائية من خلال تثبيط مستقبلات M 3 في العضلات الملساء مما يؤدي إلى توسع القصبات.» النص الأصلي بالإنجليزية: "Tiotropium is a long-acting, antimuscarinic agent, which is often referred to as an anticholinergic. It has similar affinity to the subtypes of muscarinic receptors, M 1 to M 5. In the airways, it exhibits pharmacological effects through inhibition of M 3 -receptors at the smooth muscle leading to bronchodilation." ([DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9)، إصدار 2025-11-10؛ تاريخ الاطلاع 2026-11-20). المعروف أن تيوتروبيوم مضاد مسكاريني طويل المفعول يرخي العضلات الملساء في القصبات عند استنشاقه، ويُستخدم لتخفيف انسداد الشعب الهوائية الوظيفي.
 
 الدرجة المرتفعة للتنبؤ تعكس على الأرجح قرب هذه الحالة من أمراض انسداد المسالك الهوائية في شبكة العلاقات التي بُني عليها النموذج، وليس آلية دوائية محددة. قد يخفف توسيع القصبات جزءاً من الانسداد الوظيفي المصاحب لبعض التشوهات، لكن لا يوجد دليل على أنه يعالج المرض المرتبط بالتشوه الخلقي نفسه. ويبدو أن التصنيف ناتج عن تطابق في التسميات أكثر منه عن صلة بيولوجية مثبتة.
 
@@ -109,6 +109,18 @@ description: "Tiotropium: الاستطباب الجديد المتوقع الت�
 - تحديد أنواع التشوهات التنفسية المستهدفة وأي منها يتضمن انسداداً وظيفياً قابلاً للاستجابة لموسعات القصبات.
 - دراسات سريرية أو سلسلة حالات تتناول التشوه التنفسي مباشرة.
 - نشرة العبوة المعتمدة لاستكمال بيانات التحذيرات والموانع قبل أي تقييم للسلامة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

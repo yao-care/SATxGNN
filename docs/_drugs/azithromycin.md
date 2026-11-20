@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 89
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Azithromycin: الاستطباب الجديد المتوقع متلازمة فرط لزوجة الدم متعددة النسائل (مستوى الدليل L5). الاستطباب الأصلي: عدوى المكورات العقدية، الالتهاب الرئوي الجرثومي، عدوى المكورات العنقو…"
 monitor_inn: "AZITHROMYCIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
@@ -58,7 +58,7 @@ predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia",
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. بحسب المعلومات المعروفة، الأزيثروميسين مضاد حيوي ماكروليدي ثبتت فاعليته في العدوى الجرثومية، وله خصائص مناعية تعديلية. غير أنه لا توجد بيانات تربطه بفرط لزوجة المصل.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Azithromycin (ترجمة غير رسمية): «أزيثروميسين دواء مضاد للجراثيم من فئة الماكروليدات. […] يعمل أزيثروميسين بالارتباط بالـ 23S rRNA في الوحيدة الريبوسومية الفرعية 50S للكائنات الدقيقة الحساسة، فيثبط تخليق البروتين الجرثومي ويعيق تجميع الوحيدة الريبوسومية الفرعية 50S.» النص الأصلي بالإنجليزية: "Azithromycin is a macrolide antibacterial drug. […] Azithromycin acts by binding to the 23S rRNA of the 50S ribosomal subunit of susceptible microorganisms inhibiting bacterial protein synthesis and impeding the assembly of the 50S ribosomal subunit." ([DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a)، إصدار 2026-09-09؛ تاريخ الاطلاع 2026-11-20). بحسب المعلومات المعروفة، الأزيثروميسين مضاد حيوي ماكروليدي ثبتت فاعليته في العدوى الجرثومية، وله خصائص مناعية تعديلية. غير أنه لا توجد بيانات تربطه بفرط لزوجة المصل.
 
 عملياً، لا تظهر آلية واضحة ومعقولة تربط الدواء بهذه الحالة. درجة التنبؤ العالية (0.9981) تعكس نمطاً إحصائياً في الرسم المعرفي لا دليلاً بيولوجياً أو سريرياً، ولذلك ينبغي التعامل معه كفرضية بحثية ضعيفة.
 
@@ -144,11 +144,12 @@ predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia",
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «إضافة إلى ذلك، جميع تراخيص الدواء في السعودية ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a) |
 
 <!-- review:end log -->
 

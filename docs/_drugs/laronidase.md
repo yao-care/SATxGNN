@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "LARONIDASE"
 predicted_indications: ["Sanfilippo syndrome"]
 description: "Laronidase: الاستطباب الجديد المتوقع Sanfilippo syndrome (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -58,7 +58,7 @@ description: "Laronidase: الاستطباب الجديد المتوقع Sanfili
 
 ## لماذا يُعدّ هذا التوقع معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا في البيانات المجمّعة لهذا التقرير. وبناءً على المعلومات المعروفة، فإن لارونيداز إنزيم ألفا-إل-إيدورونيداز المأشوب الذي يحلل الغليكوزامينوغليكانات، وهما كبريتات الديرماتان وكبريتات الهيباران، وقد ثبتت فعاليته في داء السكريات المخاطية من النوع الأول.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Laronidase (ترجمة غير رسمية): «تنجم اضطرابات اختزان عديدات السكاريد المخاطية عن عوز إنزيمات ليزوزومية محددة لازمة لتقويض الغليكوزأمينوغليكانات (GAG). ويتميز داء عديد السكاريد المخاطي من النمط الأول (MPS I) بعوز إنزيم α-L-إيدورونيداز، وهو هيدرولاز ليزوزومي يحفز حلمهة بقايا حمض α-L-إيدورونيك الطرفية في كبريتات الديرماتان وكبريتات الهيباران. […] ومن المرجح أن امتصاص الخلايا لـ ALDURAZYME إلى داخل الليزوزومات يتواسطه ارتباط سلاسل قليلات السكاريد المنتهية بمانوز-6-فوسفات في لارونيداز بمستقبلات مانوز-6-فوسفات النوعية.» النص الأصلي بالإنجليزية: "Mucopolysaccharide storage disorders are caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis I (MPS I) is characterized by the deficiency of α-L-iduronidase, a lysosomal hydrolase which catalyzes the hydrolysis of terminal α-L-iduronic acid residues of dermatan sulfate and heparan sulfate. […] ALDURAZYME uptake by cells into lysosomes is most likely mediated by the mannose-6-phosphate-terminated oligosaccharide chains of laronidase binding to specific mannose-6-phosphate receptors." ([DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60)، إصدار 2026-09-11؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، فإن لارونيداز إنزيم ألفا-إل-إيدورونيداز المأشوب الذي يحلل الغليكوزامينوغليكانات، وهما كبريتات الديرماتان وكبريتات الهيباران، وقد ثبتت فعاليته في داء السكريات المخاطية من النوع الأول.
 
 تُعدّ الإصابة الهيكلية (خلل التعظم المتعدد) سمة أساسية في MPS I، لذلك فإن هذا الاستطباب «الجديد» هو في الواقع مظهر من مظاهر الاستطباب الأصلي، وليس إعادة توظيف حقيقية للدواء.
 
@@ -148,12 +148,13 @@ description: "Laronidase: الاستطباب الجديد المتوقع Sanfili
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الترخيص السعودي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «تقييم حالة الترخيص (الإلغاء) وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60) |
 
 <!-- review:end log -->
 

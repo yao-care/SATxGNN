@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 501
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Lifitegrast: الاستطباب الجديد المتوقع التليّف الليفي القضيبي (Penile fibromatosis) (مستوى الدليل L5). الاستطباب الأصلي: متلازمة جفاف العين (Dry eye syndrome) / جفاف الملتحمة (Xerophthalmia)"
 monitor_inn: "LIFITEGRAST"
 predicted_indications: ["penile fibromatosis", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -58,7 +58,7 @@ predicted_indications: ["penile fibromatosis", "palmar fibromatosis", "Ledderhos
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-ليفيتغراست مضاد للإنتغرين LFA-1 (ITGAL / CD11a)، إذ يمنع ارتباط LFA-1 بـ ICAM-1، وبالتالي يحدّ من التصاق الخلايا التائية وتنشيطها. وتُظهر الاختبارات المخبرية أنه يثبّط التصاق الخلايا التائية (Jurkat وHuT 78) بتركيزات IC50 تبلغ 2.98 و9 نانومولار على التوالي، وقد صُمم ليكون تعرّضه الجهازي ضئيلاً. أما بيانات آلية العمل الأصلية التفصيلية فغير متوفرة حالياً.
+ليفيتغراست مضاد للإنتغرين LFA-1 (ITGAL / CD11a)، إذ يمنع ارتباط LFA-1 بـ ICAM-1، وبالتالي يحدّ من التصاق الخلايا التائية وتنشيطها. وتُظهر الاختبارات المخبرية أنه يثبّط التصاق الخلايا التائية (Jurkat وHuT 78) بتركيزات IC50 تبلغ 2.98 و9 نانومولار على التوالي، وقد صُمم ليكون تعرّضه الجهازي ضئيلاً. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lifitegrast (ترجمة غير رسمية): «يرتبط ليفيتيغراست بالإنتغرين LFA-1، وهو بروتين على سطح الخلية يوجد على الكريات البيض، ويحجب تفاعل LFA-1 مع ربيطته المماثلة جزيء الالتصاق بين الخلوي-1 (ICAM-1). وقد يُفرَط في التعبير عن ICAM-1 في أنسجة القرنية والملتحمة في DED.» النص الأصلي بالإنجليزية: "Lifitegrast binds to the integrin LFA-1, a cell surface protein found on leukocytes and blocks the interaction of LFA-1 with its cognate ligand intercellular adhesion molecule-1 (ICAM-1). ICAM-1 may be overexpressed in corneal and conjunctival tissues in DED." ([DailyMed: Xiidra (lifitegrast) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8589d376-ac10-4ddb-9c53-2e0c8d5675c4)، إصدار 2025-08-18؛ تاريخ الاطلاع 2026-11-20).
 
 الصلة المحتملة بالتليّف الليفي القضيبي (داء بيروني) تمر عبر الالتهاب المزمن والتليّف المناعي، حيث قد يسهم تعديل نشاط الخلايا التائية في الحدّ من تكاثر الأرومات الليفية. لكن هذه الصلة **تخمينية**، ولا توجد بيانات مباشرة تدعمها. كما أن الدواء موضعي للعين، ولا يُعرف مدى وصوله إلى النسيج المستهدف بتراكيز مؤثرة.
 
@@ -134,11 +134,12 @@ predicted_indications: ["penile fibromatosis", "palmar fibromatosis", "Ledderhos
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الدواء لا يملك ترخيصاً ساري المفعول في المملكة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Xiidra (lifitegrast) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8589d376-ac10-4ddb-9c53-2e0c8d5675c4) |
 
 <!-- review:end log -->
 

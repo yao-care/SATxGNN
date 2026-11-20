@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 581
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Nebivolol: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -58,7 +58,7 @@ description: "Nebivolol: الاستطباب الجديد المتوقع Malignan
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن نيبيفولول حاصر انتقائي لمستقبلات بيتا-1 مع تأثير موسّع للأوعية عبر أكسيد النيتريك، وقد ثبتت فعاليته في ارتفاع ضغط الدم الأساسي. وتشير بيانات الاستخدام السريري إلى استخدامه في ارتفاع ضغط الدم وفشل البطين الأيسر، كما أن له تركيبة ثابتة الجرعة مع حاصر مستقبلات أنجيوتensin (AT1).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Nebivolol (ترجمة غير رسمية): «لم تُحدَّد بشكل قاطع آلية عمل الاستجابة الخافضة لضغط الدم لـ BYSTOLIC. وتشمل العوامل المحتملة التي قد تكون متضمنة: انخفاض معدل ضربات القلب، وانخفاض انقباضية عضلة القلب، وتضاؤل التدفق الودي التوتري من المراكز الدماغية المحركة للأوعية إلى الأطراف، وكبت نشاط الرينين، وتوسع الأوعية وانخفاض المقاومة الوعائية المحيطية.» النص الأصلي بالإنجليزية: "The mechanism of action of the antihypertensive response of BYSTOLIC has not been definitively established. Possible factors that may be involved include: decreased heart rate, decreased myocardial contractility, diminution of tonic sympathetic outflow to the periphery from cerebral vasomotor centers, suppression of renin activity and vasodilation and decreased peripheral vascular resistance." ([DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8)، إصدار 2024-08-01؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن نيبيفولول حاصر انتقائي لمستقبلات بيتا-1 مع تأثير موسّع للأوعية عبر أكسيد النيتريك، وقد ثبتت فعاليته في ارتفاع ضغط الدم الأساسي. وتشير بيانات الاستخدام السريري إلى استخدامه في ارتفاع ضغط الدم وفشل البطين الأيسر، كما أن له تركيبة ثابتة الجرعة مع حاصر مستقبلات أنجيوتensin (AT1).
 
 العلاقة بين الاستطباب الأصلي والجديد هي أن كليهما حالة ارتفاع ضغط دم؛ فارتفاع الضغط الكلوي الوعائي الخبيث شكل ثانوي شديد. ومن المرجح أن درجة التنبؤ العالية ناتجة عن التشابه مع الاستطباب المعتمد.
 
@@ -130,11 +130,12 @@ description: "Nebivolol: الاستطباب الجديد المتوقع Malignan
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح سبب إلغاء التراخيص المحلية وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8) |
 
 <!-- review:end log -->
 

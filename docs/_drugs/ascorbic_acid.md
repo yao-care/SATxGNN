@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "ASCORBIC ACID"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected"]
 description: "Ascorbic Acid: الاستطباب الجديد المتوقع تشوه المريء الخلقي غير المتلازمي (non-syndromic esophageal malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
@@ -56,7 +56,7 @@ description: "Ascorbic Acid: الاستطباب الجديد المتوقع تش
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف عموماً أن حمض الأسكوربيك مضاد للأكسدة وعامل مساعد في تخليق الكولاجين.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ascorbic Acid (ترجمة غير رسمية): «الآلية الدقيقة لعمل حمض الأسكوربيك في علاج أعراض وعلامات الإسقربوط (اضطراب ناجم عن نقص حاد في فيتامين C) غير معروفة؛ ومع ذلك، يُعتقد أن إعطاء حمض الأسكوربيك للمرضى المصابين بالإسقربوط يعيد ملء مخزون الجسم من حمض الأسكوربيك.» النص الأصلي بالإنجليزية: "The exact mechanism of action of ascorbic acid for the treatment of symptoms and signs of scurvy (a disorder caused by severe deficiency in vitamin C) is unknown; however, administration of ascorbic acid in patients with scurvy is thought to restore the body pool of ascorbic acid." ([DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6)، إصدار 2026-09-03؛ تاريخ الاطلاع 2026-11-20). المعروف عموماً أن حمض الأسكوربيك مضاد للأكسدة وعامل مساعد في تخليق الكولاجين.
 
 مع ذلك، لم يُحدَّد أي رابط آلي معقول بين هذه الخصائص وتشوه المريء الخلقي. فالتشوه البنيوي الخلقي لا يُتوقع أن يعالجه مضاد أكسدة أو فيتامين مساعد. الدرجة المرتفعة جداً ناتجة عن تنبؤ حاسوبي فقط، ولا تدعمها تجارب أو دراسات منشورة. لذلك ينبغي التعامل معها بحذر شديد.
 
@@ -95,6 +95,18 @@ description: "Ascorbic Acid: الاستطباب الجديد المتوقع تش
 - بيانات آلية العمل التفصيلية.
 - دراسات أولية أو أدبيات تربط الدواء بهذا التشوه تحديداً.
 - معلومات التحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

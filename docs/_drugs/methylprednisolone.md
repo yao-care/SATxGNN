@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 552
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "METHYLPREDNISOLONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: الاستطباب الجديد المتوقع الثعلبة المخاطية (alopecia mucinosa) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
@@ -54,7 +54,7 @@ description: "Methylprednisolone: الاستطباب الجديد المتوقع
 
 ## لماذا قد يكون هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن ميثيل بريدنيزولون من فئة الجلوكوكورتيكويدات، وتعمل بتثبيط الاستجابات الالتهابية والمناعية. من الناحية الآلية قد ينفع في الحالات الجلدية الالتهابية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Methylprednisolone (ترجمة غير رسمية): «تُستخدم القشرانيات السكرية الطبيعية (الهيدروكورتيزون والكورتيزون)، التي تمتلك أيضاً خصائص احتباس الملح، كعلاج تعويضي في حالات قصور قشرة الكظر. أما نظائرها الاصطناعية فتُستخدم أساساً لتأثيراتها القوية المضادة للالتهاب في اضطرابات العديد من أجهزة الأعضاء.» النص الأصلي بالإنجليزية: "Naturally occurring glucocorticoids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4)، إصدار 2026-07-01؛ تاريخ الاطلاع 2026-11-20). المعروف أن ميثيل بريدنيزولون من فئة الجلوكوكورتيكويدات، وتعمل بتثبيط الاستجابات الالتهابية والمناعية. من الناحية الآلية قد ينفع في الحالات الجلدية الالتهابية.
 
 يبدو أن الدرجة المرتفعة تعكس سمات مشتركة بين أمراض فقدان الشعر والأمراض الجلدية الالتهابية في بيانات النموذج. هذا ارتباط إحصائي وليس دليلاً سريرياً. لم تُسترجع أي تجارب أو دراسات تؤكد فائدة الدواء في الثعلبة المخاطية، لذلك تبقى المعقولية الآلية فرضية تحتاج إلى تحقق.
 
@@ -107,6 +107,18 @@ description: "Methylprednisolone: الاستطباب الجديد المتوقع
 - مراجعة أدبيات جلدية متخصصة، أو دراسات حالة أو تجارب صغيرة للثعلبة المخاطية.
 - تقييم ملاءمة طريق الإعطاء (موضعي أم جهازي) لهذه الحالة.
 - رأي استشاري من أطباء الأمراض الجلدية حول الجدوى السريرية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

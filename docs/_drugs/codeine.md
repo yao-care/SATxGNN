@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Codeine: الاستطباب الجديد المتوقع أمراض تجويف الأنف (nasal cavity disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 11 (السارية: 11)"
 ---
 
@@ -54,7 +54,7 @@ description: "Codeine: الاستطباب الجديد المتوقع أمراض
 
 ## لماذا هذا التوقع؟
 
-الكوديين منبّه لمستقبلات ميو الأفيونية ذو تأثير مضاد للسعال ومسكّن. البيانات التفصيلية عن آلية العمل غير متوفرة حالياً في المعلومات المجمّعة لهذا التقرير.
+الكوديين منبّه لمستقبلات ميو الأفيونية ذو تأثير مضاد للسعال ومسكّن. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Codeine (ترجمة غير رسمية): «كودايين سلفات هو ناهض أفيوني انتقائي نسبيًا لمستقبل mu الأفيوني، ولكن بألفة أضعف بكثير من المورفين. وقد افتُرض أن الخصائص المسكنة للكودايين تأتي من تحوله إلى مورفين، رغم أن الآلية الدقيقة للتأثير المسكن لا تزال غير معروفة.» النص الأصلي بالإنجليزية: "Codeine sulfate is an opioid agonist relatively selective for the mu-opioid receptor, but with a much weaker affinity than morphine. The analgesic properties of codeine have been speculated to come from its conversion to morphine, although the exact mechanism of analgesic action remains unknown." ([DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293)، إصدار 2026-01-16؛ تاريخ الاطلاع 2026-11-20).
 
 درجة التوقع مرتفعة جداً (0.9993)، لكنها على الأرجح تعكس القرب في شبكة العلاقات من استطبابات أنفية مرتبطة بالدواء (مثل التهاب الأنف والتهاب البلعوم الأنفي)، وليس سنداً دوائياً مستقلاً. لا توجد آلية معروفة تجعل الكوديين علاجاً لأمراض الأنف البنيوية أو المخاطية.
 
@@ -96,6 +96,19 @@ description: "Codeine: الاستطباب الجديد المتوقع أمراض
 - بيانات آلية العمل التفصيلية.
 - تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة.
 - دراسات سريرية أو ما قبل سريرية تتناول أمراض تجويف الأنف مباشرة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

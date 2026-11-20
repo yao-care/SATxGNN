@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Alglucosidase Alfa: الاستطباب الجديد المتوقع داء أجسام البوليغلوكوزان لدى البالغين (مستوى الدليل L5). الاستطباب الأصلي: داء تخزين الغليكوجين (وفق قاعدة المعرفة TxGNN)"
 monitor_inn: "ALGLUCOSIDASE ALFA"
 predicted_indications: ["adult polyglucosan body disease", "congenital entropion", "congenital ectropion", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "epiblepharon", "ptosis-strabismus-ectopic pupils syndrome"]
@@ -58,7 +58,7 @@ predicted_indications: ["adult polyglucosan body disease", "congenital entropion
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن ألغلوكوسيداز ألفا إنزيم بشري مأشوب يحلل الغليكوجين داخل الجسيمات الحالّة (الليزوسومات)، وقد أُثبتت فاعليته في داء بومبي (داء تخزين الغليكوجين من النوع II).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Alglucosidase Alfa (ترجمة غير رسمية): «داء بومبي (عوز مالتاز الحمض، داء اختزان الغليكوجين من النوع الثاني، GSD II، تغلكن النوع الثاني) اضطراب وراثي في استقلاب الغليكوجين ينجم عن غياب إنزيم GAA الجسيمي الحالّ أو عوزه الشديد. ويوفر الألغلوكوزيداز ألفا مصدراً خارجياً لـ GAA.» النص الأصلي بالإنجليزية: "Pompe disease (acid maltase deficiency, glycogen storage disease type II, GSD II, glycogenosis type II) is an inherited disorder of glycogen metabolism caused by the absence or marked deficiency of the lysosomal enzyme GAA. Alglucosidase alfa provides an exogenous source of GAA." ([DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df)، إصدار 2025-01-10؛ تاريخ الاطلاع 2026-11-20). المعروف أن ألغلوكوسيداز ألفا إنزيم بشري مأشوب يحلل الغليكوجين داخل الجسيمات الحالّة (الليزوسومات)، وقد أُثبتت فاعليته في داء بومبي (داء تخزين الغليكوجين من النوع II).
 
 يحدث داء أجسام البوليغلوكوزان لدى البالغين بسبب نقص إنزيم التفرع للغليكوجين (GBE1)، فيتراكم بوليغلوكوزان ضعيف التفرع وغير قابل للذوبان. يوفر مسار استقلاب الغليكوجين المشترك رابطاً مفاهيمياً معقولاً بين المرضين.
 
@@ -130,11 +130,12 @@ predicted_indications: ["adult polyglucosan body disease", "congenital entropion
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح وضع الترخيص الملغى وإمكانية توفر المنتج في السوق السعودي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df) |
 
 <!-- review:end log -->
 

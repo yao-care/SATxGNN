@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 871
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "VINBLASTINE"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine: الاستطباب الجديد المتوقع Rhabdomyosarcoma (disease) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -54,7 +54,7 @@ description: "Vinblastine: الاستطباب الجديد المتوقع Rhabdo
 
 ## لماذا يبدو هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. وبحسب المعروف عن هذه الفئة، يرتبط فينبلاستين بالتيوبيولين ويثبّط تجمّع الأنابيب الدقيقة، فيوقف الانقسام الخلوي في الخلايا سريعة التكاثر.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Vinblastine (ترجمة غير رسمية): «تشير دراسات أخرى إلى أن كبريتات فينبلاستين لها تأثير على إنتاج الطاقة الخلوية اللازمة للانقسام الفتيلي، وتتداخل مع تخليق الأحماض النووية. وقد رُبطت آلية عمل فينبلاستين بتثبيط تكوين الأنيبيبات الدقيقة في المغزل الانقسامي، مما يؤدي إلى توقف الخلايا المنقسمة في الطور الاستوائي.» النص الأصلي بالإنجليزية: "Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage." ([DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77)، إصدار 2025-04-15؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن هذه الفئة، يرتبط فينبلاستين بالتيوبيولين ويثبّط تجمّع الأنابيب الدقيقة، فيوقف الانقسام الخلوي في الخلايا سريعة التكاثر.
 
 هذه الآلية قابلة للتطبيق في الساركوما العضلية المخططة، إذ تدخل قلويدات الفينكا (وخاصة فينكريستين) في بروتوكولات العلاج القياسية لهذا الورم. كما ظهر فينبلاستين ضمن أنظمة كيميائية للأطفال وفي تقارير حالات. وتشير دراسات ما قبل سريرية إلى تآزر بين مثبطات PLK1 والأدوية المزعزعة لاستقرار الأنابيب الدقيقة في نماذج هذا الورم.
 
@@ -123,6 +123,18 @@ description: "Vinblastine: الاستطباب الجديد المتوقع Rhabdo
 - نص نشرة العبوة المعتمدة من الهيئة (التحذيرات وموانع الاستعمال).
 - أدلة سريرية أقوى (تجارب مسجلة أو سلاسل حالات مقارنة بفينكريستين، العلاج القياسي).
 - خطة لمراقبة السمّية الدموية والعصبية، مع مراجعة التداخلات الدوائية الشديدة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

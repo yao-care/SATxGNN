@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AVATROMBOPAG"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "monomelic amyotrophy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Avatrombopag: الاستطباب الجديد المتوقع نقص الصفيحات الكبير مع قصور الصمام التاجي (marcothrombocytopenia with mitral valve insufficiency) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المح…"
 ---
 
@@ -54,7 +54,7 @@ description: "Avatrombopag: الاستطباب الجديد المتوقع نق�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-أفاترومبوباغ ناهض لمستقبل الثرومبوبويتين، ويحفّز تكاثر الخلايا النواء (الميغاكاريوسايت) وإنتاج الصفيحات. وبيانات آلية العمل التفصيلية غير متوفرة حالياً في البيانات المجمّعة، لذا فإن هذا الوصف مبني على المعرفة العامة بفئة الدواء.
+أفاترومبوباغ ناهض لمستقبل الثرومبوبويتين، ويحفّز تكاثر الخلايا النواء (الميغاكاريوسايت) وإنتاج الصفيحات. وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Avatrombopag هي (ترجمة غير رسمية): «ناهض مستقبل الثرومبوبويتين». النص الأصلي بالإنجليزية: "Thrombopoietin receptor agonist" ([ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20).
 
 قد يكون الرابط الآلي معقولاً فقط إذا كان نقص الصفيحات ناتجاً عن انخفاض إنتاجها. غير أن الحالة المتوقعة يُرجَّح أن تكون وراثية وبنيوية، كما أن قصور الصمام التاجي لا يعالجه هذا الدواء. ولذلك فالدعم الآلي محدود، ولا توجد بيانات سريرية تعززه.
 
@@ -90,6 +90,19 @@ description: "Avatrombopag: الاستطباب الجديد المتوقع نق�
 - تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة لدى الهيئة العامة للغذاء والدواء.
 - دراسات أو تقارير حالات تتناول هذه الحالة تحديداً.
 - توضيح التعريف الدقيق للحالة المتوقعة وآلية نقص الصفيحات فيها.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

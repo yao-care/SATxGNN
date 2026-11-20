@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 611
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "OLARATUMAB"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "progesterone-receptor negative breast cancer", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "transitional cell carcinoma", "breast tumor luminal A or B"]
 description: "Olaratumab: الاستطباب الجديد المتوقع Prostatic urethra urothelial carcinoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -58,7 +58,7 @@ description: "Olaratumab: الاستطباب الجديد المتوقع Prostat
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً؟
 
-يرتبط أولاراتوماب ببروتين PDGFR-alpha ويمنع ارتباط الليغاند به، وبالتالي يعطّل تنشيط المستقبل. أما بيانات آلية العمل الأصلية في الحقل المخصص فهي غير متوفرة حالياً.
+يرتبط أولاراتوماب ببروتين PDGFR-alpha ويمنع ارتباط الليغاند به، وبالتالي يعطّل تنشيط المستقبل. وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Olaratumab هي (ترجمة غير رسمية): «مضاد مستقبل ألفا لعامل النمو المشتق من الصفائح الدموية». النص الأصلي بالإنجليزية: "Platelet-derived growth factor receptor alpha antagonist" ([ChEMBL CHEMBL1743049 (olaratumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1743049)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20).
 
 لا توجد حالياً أدلة مقدمة تربط تثبيط PDGFR-alpha بسرطان الظهارة البولية في الإحليل البروستاتي، ودور PDGFRA في هذا الورم غير مثبت. درجة التنبؤ المرتفعة ناتجة عن نموذج حسابي قائم على الرسم المعرفي، وهي لا تعد دليلاً بيولوجياً أو سريرياً.
 
@@ -154,12 +154,13 @@ description: "Olaratumab: الاستطباب الجديد المتوقع Prostat
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «(ترخيص ملغى)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «إذ إن ترخيصه الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL1743049 (olaratumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1743049) |
 
 <!-- review:end log -->
 

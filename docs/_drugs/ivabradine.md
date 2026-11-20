@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 466
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Ivabradine: الاستطباب الجديد المتوقع فرط الشعر (Hypertrichosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات المجمّعة (نص الاستطباب في تراخيص هيئة الغذاء وا…"
 monitor_inn: "IVABRADINE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -59,7 +59,7 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 ## لماذا يبدو هذا التوقع معقولًا (أو لا)؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا. استنادًا إلى المعلومات المعروفة، إيفابرادين مثبّط انتقائي لقناة HCN (تيار If) في العقدة الجيبية الأذينية، ولا يوجد في البيانات المجمّعة أي رابط موثّق بينه وبين دورة نمو بصيلات الشعر.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ivabradine (ترجمة غير رسمية): «يحجب Corlanor القناة المبوّبة بالنوكليوتيدات الحلقية والمُفعَّلة بفرط الاستقطاب (HCN) المسؤولة عن تيار ناظمة الخطى القلبية I f، الذي ينظّم معدل ضربات القلب. وفي دراسات الفيزيولوجيا الكهربية السريرية، كانت التأثيرات القلبية أكثر وضوحًا في العقدة الجيبية الأذينية (SA)، إلا أنه حدث تطاول في فاصل AH، كما حدث تطاول في فاصل PR.» النص الأصلي بالإنجليزية: "Corlanor blocks the hyperpolarization-activated cyclic nucleotide-gated (HCN) channel responsible for the cardiac pacemaker I f current, which regulates heart rate. In clinical electrophysiology studies, the cardiac effects were most pronounced in the sinoatrial (SA) node, but prolongation of the AH interval has occurred as has PR interval prolongation." ([DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d)، إصدار 2026-11-09؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعلومات المعروفة، إيفابرادين مثبّط انتقائي لقناة HCN (تيار If) في العقدة الجيبية الأذينية، ولا يوجد في البيانات المجمّعة أي رابط موثّق بينه وبين دورة نمو بصيلات الشعر.
 
 الدرجة المرتفعة (0.9979) صادرة عن نموذج TxGNN (التعلّم العميق)، وقد تعكس تشابهات تعلّمها النموذج بين أمراض مرتبطة ببعضها، وليست دليلًا بيولوجيًا. وأي رابط محتمل (مثل تعبير قنوات HCN في الجلد أو خلايا البصيلات) يبقى تخمينيًا.
 
@@ -133,11 +133,12 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح سبب إلغاء التراخيص المحلية وتقييم الجدوى التنظيمية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d) |
 
 <!-- review:end log -->
 

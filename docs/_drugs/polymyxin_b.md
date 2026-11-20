@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 668
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "polymyxin b"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"
@@ -56,7 +56,7 @@ description: "Polymyxin B: الاستطباب الجديد المتوقع الت
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-بوليميكسين ب ببتيد عديد موجب الشحنة يعطّل الغشاء الخارجي للبكتيريا سلبية الغرام. لذلك فإن فاعليته ضد مسببات الأمراض التنفسية سلبية الغرام، مثل *Pseudomonas aeruginosa* و*Acinetobacter baumannii* المقاومة لأدوية متعددة، أمر مقبول مبدئياً. وهذه المعلومة مستمدة من الوصف الدوائي العام، إذ لا تتوفر بيانات تفصيلية عن آلية العمل ضمن البيانات المجمّعة.
+بوليميكسين ب ببتيد عديد موجب الشحنة يعطّل الغشاء الخارجي للبكتيريا سلبية الغرام. لذلك فإن فاعليته ضد مسببات الأمراض التنفسية سلبية الغرام، مثل *Pseudomonas aeruginosa* و*Acinetobacter baumannii* المقاومة لأدوية متعددة، أمر مقبول مبدئياً. وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Polymyxin B (ترجمة غير رسمية): «تمتلك كبريتات البوليميكسين B تأثيرًا قاتلًا للجراثيم ضد جميع العصيات سالبة الغرام تقريبًا باستثناء مجموعة المتقلبات. تزيد البوليميكسينات من نفاذية الغشاء الخلوي البكتيري مما يؤدي إلى موت الخلية. جميع البكتيريا موجبة الغرام والفطريات والمكورات سالبة الغرام مقاومة للبوليميكسين B. للحصول على معلومات محددة بشأن معايير اختبار الحساسية وطرق الاختبار المرتبطة بها ومعايير ضبط الجودة المعترف بها من قبل FDA لهذا الدواء، يرجى مراجعة: www.fda.gov/STIC.» النص الأصلي بالإنجليزية: "Polymyxin B sulfate has a bactericidal action against almost all gram-negative bacilli except the Proteus group. Polymyxins increase the permeability of bacterial cell membrane leading to death of the cell. All gram positive bacteria, fungi, and gram-negative cocci are resistant to polymyxin B. For specific information regarding susceptibility test criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: www.fda.gov/STIC." ([DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6)، إصدار 2026-06-22؛ تاريخ الاطلاع 2026-11-20).
 
 الأدلة المتاحة تقتصر على التهاب القصبة الهوائية والرئة المرتبطين بجهاز التنفس الاصطناعي والناجمين عن بكتيريا مقاومة. وهذا دليل غير مباشر على التهاب الشعب الهوائية عموماً، لأن أغلبه فيروسي أو غير ناجم عن بكتيريا سلبية الغرام. ولذلك فإن الدرجة المرتفعة للنموذج لا تدعمها أدلة سريرية مباشرة.
 
@@ -119,6 +119,18 @@ description: "Polymyxin B: الاستطباب الجديد المتوقع الت
 ---
 
 **تصحيح على الملخص أعلاه:** ورد في الجملة الافتتاحية رقم خاطئ لعدد المراجع (43). الصحيح أن البيانات المجمّعة تضم **12 مرجعاً** ولا تتضمن أي تجربة سريرية مسجلة، ودرجة التنبؤ 0.9987 ومستوى الأدلة L3.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

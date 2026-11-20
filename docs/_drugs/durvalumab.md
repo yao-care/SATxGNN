@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DURVALUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Durvalumab: الاستطباب الجديد المتوقع Uterine ligament adenocarcinoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -56,7 +56,7 @@ description: "Durvalumab: الاستطباب الجديد المتوقع Uterine
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. بحسب المعروف عن فئة الدواء، فإن ديورفالوماب يحجب PD-L1 ويعيد تنشيط الخلايا التائية ضد الورم.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Durvalumab (ترجمة غير رسمية): «يمكن تحفيز التعبير عن ربيطة موت الخلايا المبرمج-1 (PD-L1) بواسطة إشارات التهابية (مثل IFN-gamma)، ويمكن أن يُعبَّر عنها على كل من الخلايا الورمية والخلايا المناعية المرتبطة بالورم في البيئة الدقيقة للورم. تحجب PD-L1 وظيفة الخلايا التائية وتنشيطها من خلال التفاعل مع PD-1 وCD80 (B7.1). […] دورفالوماب هو جسم مضاد وحيد النسيلة بشري من نوع الغلوبولين المناعي G1 كابا (IgG1κ) يرتبط بـ PD-L1 ويحجب تفاعل PD-L1 مع PD-1 وCD80 (B7.1).» النص الأصلي بالإنجليزية: "Expression of programmed cell death ligand-1 (PD-L1) can be induced by inflammatory signals (e.g., IFN-gamma) and can be expressed on both tumor cells and tumor-associated immune cells in the tumor microenvironment. PD-L1 blocks T-cell function and activation through interaction with PD-1 and CD80 (B7.1). […] Durvalumab is a human immunoglobulin G1 kappa (IgG1κ) monoclonal antibody that binds to PD-L1 and blocks the interaction of PD-L1 with PD-1 and CD80 (B7.1)." ([DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3)، إصدار 2026-08-31؛ تاريخ الاطلاع 2026-11-20). بحسب المعروف عن فئة الدواء، فإن ديورفالوماب يحجب PD-L1 ويعيد تنشيط الخلايا التائية ضد الورم.
 
 سرطانات عنق الرحم ترتبط غالباً بفيروس الورم الحليمي البشري (HPV) وكثيراً ما تعبّر عن PD-L1، وهذا يمنح مبرراً بيولوجياً لتثبيط نقاط التفتيش المناعية. كما أن العلاج الإشعاعي قد يعزز تحرير المستضدات وتهيئة الاستجابة المناعية.
 
@@ -107,6 +107,19 @@ description: "Durvalumab: الاستطباب الجديد المتوقع Uterine
 - بيانات آلية العمل من DrugBank.
 - نشرة العبوة المعتمدة من هيئة الغذاء والدواء السعودية (التحذيرات وموانع الاستعمال والاستطبابات المرخصة).
 - تجارب المرحلة الثانية أو دراسات رصدية تتناول هذا المرض مباشرة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

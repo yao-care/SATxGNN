@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 618
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "orphenadrine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
 description: "Orphenadrine: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -60,7 +60,7 @@ description: "Orphenadrine: الاستطباب الجديد المتوقع Retin
 
 ## لماذا يُعد هذا التنبؤ معقولًا (أو غير معقول)؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا. المعروف أن أورفينادرين مضاد للكولين ومضاد للهيستامين وله نشاط مضاد لمستقبلات NMDA، ويُستخدم في علاج الباركنسونية وكمرخٍ للعضلات.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Orphenadrine (ترجمة غير رسمية): «لم يُحدَّد نمط التأثير بوضوح، ولكنه قد يكون مرتبطاً بالخصائص المسكّنة. ويمتلك سيترات الأورفينادرين تأثيرات مضادة للفعل الكوليني.» النص الأصلي بالإنجليزية: "The mode of action has not been clearly identified but may be related to analgesic properties. Orphenadrine citrate possesses anticholinergic actions." ([DailyMed: orphenadrine citrate prescribing information, Actavis Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aec8ad3a-f717-4e74-b7b9-19debdaad79a)، إصدار 2016-07-20؛ تاريخ الاطلاع 2026-11-20). المعروف أن أورفينادرين مضاد للكولين ومضاد للهيستامين وله نشاط مضاد لمستقبلات NMDA، ويُستخدم في علاج الباركنسونية وكمرخٍ للعضلات.
 
 العلاقة بالفصام **غير مباشرة**. فمعظم الدراسات تتناول استخدامه لعلاج الأعراض خارج الهرمية (الباركنسونية الناجمة عن مضادات الذهان) لدى مرضى الفصام، وليس علاج الأعراض الأساسية للمرض. وتوحي دراسة ما قبل سريرية (PMID 12459931) بصلة محتملة بين حصر قنوات NMDA ونماذج الذهان، لكنها ملاحظة دوائية لا دليل على فائدة، بل قد يُتوقع أن يؤدي مضادّ NMDA إلى تفاقم الأعراض الذهانية. كما قد تضعف مضادات الكولين الإدراك لدى هذه الفئة.
 
@@ -163,12 +163,13 @@ description: "Orphenadrine: الاستطباب الجديد المتوقع Retin
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حاليًا أي ترخيص ساري المفعول لأورفينادرين في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح حالة التسجيل في السعودية وأسباب إلغاء الترخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: orphenadrine citrate prescribing information, Actavis Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aec8ad3a-f717-4e74-b7b9-19debdaad79a) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 638
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
 description: "Peginterferon Alfa-2A: الاستطباب الجديد المتوقع Hepatitis E virus infection (مستوى الدليل L1). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -60,7 +60,7 @@ description: "Peginterferon Alfa-2A: الاستطباب الجديد المتو�
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل. وبناءً على المعلومات المعروفة، فإن بيجينترفيرون ألفا-2a إنترفيرون مُعدَّل بالبَجيلة (PEG)، وقد ثبتت فعاليته في التهاب الكبد C المزمن، وآليًا يمكن تطبيقه على التهاب الكبد B.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Peginterferon Alfa-2A (ترجمة غير رسمية): «الإنترفيرون ألفا-2a البشري المأشوب المقترن بالبولي إيثيلين غليكول محرِّض للاستجابة المناعية الفطرية المضادة للفيروسات. […] يُستمد النشاط البيولوجي لـ PEGASYS من شقّ الإنترفيرون α-2a البشري المأشوب فيه. ويرتبط بيغإنترفيرون α-2a بمستقبل الإنترفيرون البشري من النوع 1، مما يؤدي إلى تثنّي المستقبل. ويُنشّط تثنّي المستقبل مسارات متعددة لنقل الإشارات داخل الخلوية يتواسطها في البداية مسار JAK/STAT.» النص الأصلي بالإنجليزية: "Pegylated recombinant human interferon alfa-2a is an inducer of the innate antiviral immune response. […] The biological activity of PEGASYS is derived from its recombinant human interferon α-2a moiety. Peginterferon α-2a binds to the human type 1 interferon receptor leading to receptor dimerization. Receptor dimerization activates multiple intracellular signal transduction pathways initially mediated by the JAK/STAT pathway." ([DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916)، إصدار 2026-10-16؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، فإن بيجينترفيرون ألفا-2a إنترفيرون مُعدَّل بالبَجيلة (PEG)، وقد ثبتت فعاليته في التهاب الكبد C المزمن، وآليًا يمكن تطبيقه على التهاب الكبد B.
 
 يعمل الدواء عبر تأثير مضاد للفيروسات ومنظِّم للمناعة، من خلال تحفيز الجينات المحفَّزة بالإنترفيرون وتعزيز استجابات الخلايا التائية النوعية لفيروس التهاب الكبد B. والتهاب الكبد B والتهاب الكبد C كلاهما التهاب كبدي فيروسي مزمن، ويشتركان في الاستجابة للإنترفيرون.
 
@@ -147,11 +147,12 @@ description: "Peginterferon Alfa-2A: الاستطباب الجديد المتو�
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «غير أن ترخيصَي السعودية ملغيان، فلا يتوفر حاليًا منتج مرخّص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916) |
 
 <!-- review:end log -->
 

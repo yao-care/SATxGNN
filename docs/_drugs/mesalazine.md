@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 542
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Mesalazine: الاستطباب الجديد المتوقع نقص الشعر الخلقي مع حثل البقعة الشبابي (مستوى الدليل L5). الاستطباب الأصلي: التهاب القولون التقرحي، مرض الأمعاء الالتهابي، التهاب المستقيم والسين…"
 monitor_inn: "MESALAZINE"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
@@ -56,7 +56,7 @@ predicted_indications: ["congenital hypotrichosis with juvenile macular dystroph
 
 ## لماذا هذا التنبؤ معقول (أو غير معقول)؟
 
-تفاصيل آلية العمل غير متوفرة حالياً في البيانات المجمعة. وبحسب المعلومات المعروفة، يُعرف ميسالازين بتأثيرات مضادة للالتهاب (تثبيط COX/LOX، وتنشيط PPAR-gamma، وتعديل NF-kB)، وقد ثبتت فعاليته في التهاب القولون التقرحي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Mesalazine (ترجمة غير رسمية): «آلية عمل الميسالامين غير مفهومة تمامًا، لكن يبدو أن له تأثيرًا موضعيًا مضادًا للالتهاب في الخلايا الظهارية القولونية. ويزداد الإنتاج المخاطي لمستقلبات حمض الأراكيدونيك، عبر مساري إنزيمات الأكسدة الحلقية والأكسجيناز الشحمي كليهما، لدى مرضى التهاب القولون التقرحي، ومن الممكن أن يقلل الميسالامين الالتهاب بحصر إنزيمات الأكسدة الحلقية وتثبيط إنتاج البروستاغلاندين في القولون.» النص الأصلي بالإنجليزية: "The mechanism of action of mesalamine is not fully understood, but it appears to have a topical anti-inflammatory effect on the colonic epithelial cells. Mucosal production of arachidonic acid metabolites, both through the cyclooxygenase and lipoxygenase pathways, is increased in patients with ulcerative colitis, and it is possible that mesalamine diminishes inflammation by blocking cyclooxygenase and inhibiting prostaglandin production in the colon." ([DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7)، إصدار 2026-10-26؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، يُعرف ميسالازين بتأثيرات مضادة للالتهاب (تثبيط COX/LOX، وتنشيط PPAR-gamma، وتعديل NF-kB)، وقد ثبتت فعاليته في التهاب القولون التقرحي.
 
 - **نقص الشعر الخلقي مع حثل البقعة الشبابي:** اضطراب وراثي نادر (طفرة CDH3) يصيب بصيلات الشعر والشبكية، ولا توجد صلة آلية معروفة بعمل ميسالازين. الدرجة العالية ناتجة عن تنبؤ رسومي فقط.
 - **التهاب العظم والمفاصل:** صلة نظرية محتملة عبر الالتهاب منخفض الدرجة في الزليل، لكنها غير مثبتة.
@@ -134,12 +134,13 @@ predicted_indications: ["congenital hypotrichosis with juvenile macular dystroph
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «ولا يوجد حالياً ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «تقييم توافق مسار الإعطاء والوضع التنظيمي بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7) |
 
 <!-- review:end log -->
 

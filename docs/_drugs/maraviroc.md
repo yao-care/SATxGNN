@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 529
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Maraviroc: الاستطباب الجديد المتوقع الأورام الصماوية المتعددة (multiple endocrine neoplasia) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمَّعة (المعروف عموماً: عدوى HIV-1)"
 monitor_inn: "MARAVIROC"
 predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous B-cell lymphoma", "candidiasis", "complement component 4a deficiency", "cytomegalovirus infection", "HER2 positive breast carcinoma"]
@@ -60,7 +60,7 @@ predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "prima
 
 ## لماذا يُعد هذا التوقع معقولاً؟
 
-تفاصيل آلية العمل غير متوفرة حالياً في البيانات المجمَّعة. المعروف أن مارافيروك مضاد لمستقبل الكيموكين CCR5، ويعمل بمنع دخول الفيروس إلى الخلايا المناعية.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Maraviroc (ترجمة غير رسمية): «المارافيروك دواء مضاد لفيروس HIV-1. […] المارافيروك أحد أفراد فئة علاجية تسمى مضادات المستقبل المساعد CCR5. ويرتبط المارافيروك انتقائيًا بمستقبل الكيموكين البشري CCR5 الموجود على غشاء الخلية، مانعًا التفاعل بين gp120 الخاص بـHIV-1 وCCR5 اللازم لدخول HIV-1 ذي الانتحاء لـCCR5 إلى الخلايا.» النص الأصلي بالإنجليزية: "Maraviroc is an HIV-1 antiviral drug. […] Maraviroc is a member of a therapeutic class called CCR5 co-receptor antagonists. Maraviroc selectively binds to the human chemokine receptor CCR5 present on the cell membrane, preventing the interaction of HIV-1 gp120 and CCR5 necessary for CCR5-tropic HIV-1 to enter cells." ([DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5)، إصدار 2023-11-10؛ تاريخ الاطلاع 2026-11-20). المعروف أن مارافيروك مضاد لمستقبل الكيموكين CCR5، ويعمل بمنع دخول الفيروس إلى الخلايا المناعية.
 
 أما العلاقة بين هذه الآلية والأورام الصماوية المتعددة (المرتبطة غالباً بطفرات MEN1 أو RET) فلا تدعمها البيانات المتاحة. لا يوجد رابط بيولوجي واضح بين حجب CCR5 وتكوّن هذه الأورام، والتوقع قائم على أنماط الشبكة المعرفية للنموذج وليس على دليل آلي مثبت. ولذلك يجب التعامل معه كفرضية أولية فقط.
 
@@ -130,11 +130,12 @@ predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "prima
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5) |
 
 <!-- review:end log -->
 

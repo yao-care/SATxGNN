@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 22
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
 description: "Acyclovir: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (punctate epithelial keratoconjunctivitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 19 على الأقل"
@@ -54,7 +54,7 @@ description: "Acyclovir: الاستطباب الجديد المتوقع الته
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-يثبّط أسيكلوفير بوليميراز الحمض النووي لفيروسات الهربس بعد أن يتحول إلى صورته الفعالة بفعل إنزيم الثيميدين كيناز الفيروسي. تفاصيل آلية العمل الأخرى غير متوفرة حالياً في البيانات المجمّعة لهذا التقرير.
+يثبّط أسيكلوفير بوليميراز الحمض النووي لفيروسات الهربس بعد أن يتحول إلى صورته الفعالة بفعل إنزيم الثيميدين كيناز الفيروسي. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Acyclovir (ترجمة غير رسمية): «الأسيكلوفير نظير نيوكليوزيد بوريني مُخلَّق يتمتع بنشاط تثبيطي في المختبر وفي الجسم الحي ضد فيروس الهربس البسيط من النوعين 1 (HSV-1) و2 (HSV-2)، وفيروس الحماق النطاقي (VZV). ويتسم النشاط التثبيطي للأسيكلوفير بانتقائية عالية بسبب ألفته لإنزيم ثيميدين كيناز (TK) الذي يرمّزه HSV وVZV.» النص الأصلي بالإنجليزية: "Acyclovir is a synthetic purine nucleoside analogue with in vitro and in vivo inhibitory activity against herpes simplex virus types 1 (HSV-1), 2 (HSV-2), and varicella-zoster virus (VZV). The inhibitory activity of acyclovir is highly selective due to its affinity for the enzyme thymidine kinase (TK) encoded by HSV and VZV." ([DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4)، إصدار 2026-06-26؛ تاريخ الاطلاع 2026-11-20).
 
 قد يكون لالتهاب القرنية الظهاري النقطي مكوّن فيروسي، ومنه فيروس الهربس البسيط، وهذا هو الأساس النظري الوحيد للتنبؤ. غير أنه لا يوجد في البيانات ما يدعم ذلك، فالدرجة العالية (0.9967) لا تكفي وحدها لإثبات الفائدة السريرية.
 
@@ -101,6 +101,18 @@ description: "Acyclovir: الاستطباب الجديد المتوقع الته
 - مراجعة منهجية للأدبيات في التهاب القرنية الظهاري النقطي والعلاج المضاد للفيروسات.
 - بيانات موثقة عن آلية العمل والنشرة الدوائية (التحذيرات وموانع الاستعمال).
 - التحقق من توافر الأشكال العينية المناسبة (مثل مرهم العين) ضمن التراخيص المحلية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

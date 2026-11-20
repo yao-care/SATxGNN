@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Busulfan: الاستطباب الجديد المتوقع متلازمة خلل التنسج النقوي (myelodysplastic syndrome) (مستوى الدليل L1). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -56,7 +56,7 @@ description: "Busulfan: الاستطباب الجديد المتوقع متلا�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل ضمن البيانات المجمّعة. المعروف أن بوسولفان عامل مؤلكل يُحدث ارتباطات تقاطعية في الـDNA، وهو مثبّط قوي لنخاع العظم.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Busulfan (ترجمة غير رسمية): «بوسولفان هو عامل مؤلكل ثنائي الوظيفة ترتبط فيه مجموعتا ميثان سلفونات غير مستقرتين بطرفين متقابلين لسلسلة ألكيل رباعية الكربون. في الأوساط المائية، يتحلل بوسولفان مائيًا ليحرر مجموعتي الميثان سلفونات.» النص الأصلي بالإنجليزية: "Busulfan is a bifunctional alkylating agent in which two labile methanesulfonate groups are attached to opposite ends of a four-carbon alkyl chain. In aqueous media, busulfan hydrolyzes to release the methanesulfonate groups." ([DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203)، إصدار 2026-07-29؛ تاريخ الاطلاع 2026-11-20). المعروف أن بوسولفان عامل مؤلكل يُحدث ارتباطات تقاطعية في الـDNA، وهو مثبّط قوي لنخاع العظم.
 
 في متلازمة خلل التنسج النقوي، تبقى زراعة الخلايا الجذعية المُكوِّنة للدم من متبرع (allo-HSCT) الخيار العلاجي الوحيد الذي قد يكون شافياً. ويُستخدم بوسولفان فيها عنصراً أساسياً في نظام التهيئة، إذ يقضي على الخلايا الخبيثة ويفسح مجالاً في النخاع لاستنبات خلايا المتبرع.
 
@@ -128,6 +128,19 @@ description: "Busulfan: الاستطباب الجديد المتوقع متلا�
 - استكمال بيانات آلية العمل.
 - وضع خطة للمراقبة الدوائية (مثل مراقبة مستويات الدواء) ومراقبة السمّية لدى الفئات الخاصة كالمسنين والأطفال.
 - الاقتصار على استخدام بوسولفان ضمن بروتوكولات تهيئة لزراعة الخلايا الجذعية في مراكز متخصصة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

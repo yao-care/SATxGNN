@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 708
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "RAMUCIRUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
 description: "Ramucirumab: الاستطباب الجديد المتوقع Uterine ligament adenocarcinoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -58,7 +58,7 @@ description: "Ramucirumab: الاستطباب الجديد المتوقع Uterin
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في المصدر المعتمد. وبناءً على المعروف عن الدواء، فإن راموسيروماب مضاد لمستقبل VEGFR-2 يحجب تكوّن الأوعية الدموية الذي يحفزه VEGF. وهذا الربط يعتمد على الهدف الدوائي المعروف وليس على بيانات المصدر.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ramucirumab (ترجمة غير رسمية): «الراموسيروماب مضاد لـ VEGFR2 يرتبط بشكل نوعي بـ VEGFR2 ويحجب ارتباط روابط VEGFR، وهي VEGF-A وVEGF-C وVEGF-D. ونتيجة لذلك، يثبط الراموسيروماب تنشيط VEGFR2 المحفَّز بالروابط، وبالتالي يثبط تكاثر الخلايا البطانية البشرية وهجرتها المحفَّزين بالروابط. وقد ثبّط الراموسيروماب تكوّن الأوعية الدموية في نموذج حيواني في الجسم الحي.» النص الأصلي بالإنجليزية: "Ramucirumab is a VEGFR2 antagonist that specifically binds VEGFR2 and blocks binding of VEGFR ligands, VEGF-A, VEGF-C, and VEGF-D. As a result, ramucirumab inhibits ligand-stimulated activation of VEGFR2, thereby inhibiting ligand-induced proliferation, and migration of human endothelial cells. Ramucirumab inhibited angiogenesis in an in vivo animal model." ([DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4)، إصدار 2026-06-09؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعروف عن الدواء، فإن راموسيروماب مضاد لمستقبل VEGFR-2 يحجب تكوّن الأوعية الدموية الذي يحفزه VEGF. وهذا الربط يعتمد على الهدف الدوائي المعروف وليس على بيانات المصدر.
 
 يشترك الاستطباب الأصلي (السرطانات الغدية كسرطان المعدة) مع الاستطباب الجديد في كون الأورام غدية يعتمد نموها جزئيًا على تكوّن الأوعية، لذلك فإن حجب هذا المسار معقول نظريًا. غير أن هذا الاستنتاج افتراضي، ولم تُقدَّم أي أدلة سريرية أو سابقة لهذا الاستطباب تحديدًا.
 
@@ -135,12 +135,13 @@ description: "Ramucirumab: الاستطباب الجديد المتوقع Uterin
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الترخيص الوحيد في السعودية ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح وضع الترخيص المحلي الملغى وإمكانية توفر الدواء في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4) |
 
 <!-- review:end log -->
 

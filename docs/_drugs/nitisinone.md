@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 590
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Nitisinone: الاستطباب الجديد المتوقع الحماض الأنبوبي الكلوي (مستوى الدليل L5). الاستطباب الأصلي: التيروزينemia (من الرسم المعرفي لـ TxGNN؛ لا يوجد نص استطباب معتمد في…"
 monitor_inn: "NITISINONE"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
@@ -59,7 +59,7 @@ predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy 
 
 ## لماذا قد يكون هذا التنبؤ معقولاً؟
 
-تفاصيل آلية العمل غير متاحة حالياً في البيانات المجمّعة لهذا التقرير. وتشير المعرفة العامة إلى أن نيتيسينون يثبّط إنزيم 4-هيدروكسي فينيل بيروفات ديوكسيجيناز (HPPD)، فيقلل تكوّن النواتج الاستقلابية السامة مثل السكسينيل أسيتون، ومالييل أسيتو أسيتات، وفيوماريل أسيتو أسيتات.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Nitisinone (ترجمة غير رسمية): «النيتيسينون مثبط تنافسي لإنزيم 4-هيدروكسي فينيل بيروفات ثنائي الأوكسيجيناز، وهو إنزيم يقع في مرحلة سابقة لإنزيم فوماريل أسيتو أسيتات هيدرولاز (FAH) في مسار تقويض التيروزين. ومن خلال تثبيط التقويض الطبيعي للتيروزين لدى المرضى المصابين بـ HT-1، يمنع النيتيسينون تراكم المركبات الوسيطة التقويضية ماليل أسيتو أسيتات وفوماريل أسيتو أسيتات.» النص الأصلي بالإنجليزية: "Nitisinone is a competitive inhibitor of 4-hydroxyphenyl-pyruvate dioxygenase, an enzyme upstream of fumarylacetoacetate hydrolase (FAH) in the tyrosine catabolic pathway. By inhibiting the normal catabolism of tyrosine in patients with HT-1, nitisinone prevents the accumulation of the catabolic intermediates maleylacetoacetate and fumarylacetoacetate." ([DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526)، إصدار 2026-10-21؛ تاريخ الاطلاع 2026-11-20). وتشير المعرفة العامة إلى أن نيتيسينون يثبّط إنزيم 4-هيدروكسي فينيل بيروفات ديوكسيجيناز (HPPD)، فيقلل تكوّن النواتج الاستقلابية السامة مثل السكسينيل أسيتون، ومالييل أسيتو أسيتات، وفيوماريل أسيتو أسيتات.
 
 تترافق التيروزينemia من النوع الأول مع اعتلال أنبوبي قريب من نمط فانكوني في الكلى. لذلك يوجد ارتباط محتمل بخلل الأنابيب الكلوية القريبة. غير أن هذا أثر ثانوي للتيروزينemia نفسها، وليس آلية عامة تنطبق على الحماض الأنبوبي الكلوي ذي الأسباب الأخرى.
 
@@ -136,12 +136,13 @@ predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «(توجد ترخيصان ملغيان آخران: ORFADIN 10 MG وORFADIN 20 MG capsule.)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «مع النظر في وضع التراخيص الملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526) |
 
 <!-- review:end log -->
 

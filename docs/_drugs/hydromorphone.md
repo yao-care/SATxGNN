@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Hydromorphone: الاستطباب الجديد المتوقع التهاب البلعوم (Pharyngitis) (مستوى الدليل L5). الاستطباب الأصلي: نزلة البرد، التهاب البلعوم الأنفي (من الرسم المعرفي؛ لا يوجد نص دلالة…"
 monitor_inn: "Hydromorphone"
 predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -60,7 +60,7 @@ predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disea
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-الهيدرومورفون ناهض لمستقبلات الأفيون من نوع ميو (μ)، ويرتبط كذلك بمستقبلات دلتا (δ) وكابا (κ). وهو يوفّر تسكيناً مركزياً للألم. وبيانات آلية العمل التفصيلية غير متوفرة حالياً في المعطيات المُجمَّعة لهذا التقرير.
+الهيدرومورفون ناهض لمستقبلات الأفيون من نوع ميو (μ)، ويرتبط كذلك بمستقبلات دلتا (δ) وكابا (κ). وهو يوفّر تسكيناً مركزياً للألم. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Hydromorphone (ترجمة غير رسمية): «هيدرومورفون ناهض أفيوني كامل وانتقائي نسبيًا لمستقبل mu الأفيوني، رغم أنه قد يرتبط بمستقبلات أفيونية أخرى عند جرعات أعلى. التأثير العلاجي الرئيسي لهيدرومورفون هو التسكين.» النص الأصلي بالإنجليزية: "Hydromorphone is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of hydromorphone is analgesia." ([DailyMed: Dilaudid (hydromorphone hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9eebd88a-5632-460f-b7b6-26c8a180540d)، إصدار 2026-07-15؛ تاريخ الاطلاع 2026-11-20).
 
 العلاقة بين الدلالة الأصلية والجديدة هي في الغالب تداخل في **أعراض الألم** (ألم الحلق) وليس نشاطاً علاجياً مباشراً للمرض. ومن المرجح أن الدرجة المرتفعة جداً تعكس قرباً داخل شبكة المعرفة من دلالة نزلة البرد والتهاب البلعوم الأنفي، لا فعالية مثبتة ضد العدوى أو الالتهاب.
 
@@ -133,11 +133,12 @@ predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disea
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح وضع الترخيص بعد إلغاء جميع المنتجات المحلية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Dilaudid (hydromorphone hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9eebd88a-5632-460f-b7b6-26c8a180540d) |
 
 <!-- review:end log -->
 

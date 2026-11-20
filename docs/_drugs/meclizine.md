@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 532
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Meclizine: الاستطباب الجديد المتوقع الشرى التحسسي (Allergic Urticaria) (مستوى الدليل L5). الاستطباب الأصلي: الدوار ذو المنشأ في الجهاز العصبي المركزي، ودوار الحركة"
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
@@ -60,7 +60,7 @@ predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disea
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبناءً على المعلومات المعروفة، فإن ميكليزين مضاد لمستقبلات الهيستامين H1 من الجيل الأول وله نشاط مضاد للكولين، وقد ثبتت فعاليته في الدوار ودوار الحركة. ومن الناحية الآلية قد ينطبق على الشرى التحسسي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Meclizine (ترجمة غير رسمية): «إن الآلية الدقيقة التي يمارس بها ميكليزين تأثيره العلاجي غير معروفة، ولكن يُفترض أنها تنطوي على مناهضة مستقبل الهيستامين H1.» النص الأصلي بالإنجليزية: "The precise mechanism by which meclizine exerts its therapeutic effect is unknown but is presumed to involve antagonism of the histamine H1 receptor." ([DailyMed: Meclizine Hydrochloride (meclizine) prescribing information, St. Mary's Medical Park Pharmacy](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d2ff762-041d-74ed-e063-6394a90ac588)، إصدار 2026-10-06؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، فإن ميكليزين مضاد لمستقبلات الهيستامين H1 من الجيل الأول وله نشاط مضاد للكولين، وقد ثبتت فعاليته في الدوار ودوار الحركة. ومن الناحية الآلية قد ينطبق على الشرى التحسسي.
 
 الشرى حالة تتوسطها الهيستامينات، وحصر مستقبلات H1 آلية معقولة بيولوجياً. غير أن هذه الصلة تستند إلى فئة الدواء ودرجة النموذج المرتفعة (0.9967) فقط، ولا يوجد دليل خاص بالميكليزين في هذا الاستطباب.
 
@@ -149,12 +149,13 @@ predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disea
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن جميع تراخيص المنتج في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «إذ لا يوجد حالياً ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Meclizine Hydrochloride (meclizine) prescribing information, St. Mary's Medical Park Pharmacy](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d2ff762-041d-74ed-e063-6394a90ac588) |
 
 <!-- review:end log -->
 

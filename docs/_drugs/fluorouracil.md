@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Fluorouracil: الاستطباب الجديد المتوقع الساركوما العضلية المخططة الجنينية من النوع العنقودي في المهبل (مستوى الدليل L5). الاستطباب الأصلي: سرطان المعدة، النقائل من سرطان القولون، سرطان البنكر…"
 monitor_inn: "FLUOROURACIL"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
@@ -58,7 +58,7 @@ predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina"
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمعة. وبحسب المعروف عموماً، فإن فلورويوراسيل مثبط لإنزيم ثيميديلات سينثاز ومضاد للأيضات، ويندمج في الحمض النووي الريبي والحمض النووي منقوص الأكسجين، فيؤثر في الخلايا سريعة الانقسام. وقد ثبتت فعاليته في أورام الجهاز الهضمي، ويمكن نظرياً أن ينطبق التأثير المضاد للتكاثر على ساركوما سريعة النمو.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Fluorouracil (ترجمة غير رسمية): «الفلورويوراسيل مثبط استقلابي نوكليوسيدي يتداخل مع تخليق الحمض النووي الريبي منقوص الأكسجين (DNA) ويثبط بدرجة أقل تكوين الحمض النووي الريبي (RNA)؛ وتؤثر هذه في الخلايا سريعة النمو وقد تؤدي إلى موت الخلايا. ويتحول الفلورويوراسيل إلى ثلاثة مستقلبات فعالة رئيسية: 5-فلورو-2′-ديوكسي يوريدين-5′-أحادي الفوسفات (FdUMP)، و5-فلورو يوريدين-5′ثلاثي الفوسفات (FUTP)، و5-فلورو-2′-ديوكسي يوريدين-5′-ثلاثي الفوسفات (FdUTP).» النص الأصلي بالإنجليزية: "Fluorouracil is a nucleoside metabolic inhibitor that interferes with the synthesis of deoxyribonucleic acid (DNA) and to a lesser extent inhibits the formation of ribonucleic acid (RNA); these affect rapidly growing cells and may lead to cell death. Fluorouracil is converted to three main active metabolites: 5-fluoro-2′-deoxyuridine-5′-monophosphate (FdUMP), 5-fluorouridine-5′triphosphate (FUTP) and 5-fluoro-2′-deoxyuridine-5′-triphosphate (FdUTP)." ([DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b)، إصدار 2026-10-23؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عموماً، فإن فلورويوراسيل مثبط لإنزيم ثيميديلات سينثاز ومضاد للأيضات، ويندمج في الحمض النووي الريبي والحمض النووي منقوص الأكسجين، فيؤثر في الخلايا سريعة الانقسام. وقد ثبتت فعاليته في أورام الجهاز الهضمي، ويمكن نظرياً أن ينطبق التأثير المضاد للتكاثر على ساركوما سريعة النمو.
 
 غير أن الدرجة العالية على الأرجح تعكس القرب في الرسم المعرفي من عقدة الساركوما العضلية المخططة الأم، لا أدلة خاصة بكل نوع فرعي. كما أن البروتوكولات المعيارية لهذا الورم (مثل VAC وVAI) لا تعتمد على فلورويوراسيل.
 
@@ -160,13 +160,14 @@ predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina"
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «التحقق من الوضع التنظيمي والتوافر الفعلي للدواء في السعودية بعد إلغاء جميع التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-12 | الجدول: EFUDIX 5% OINTMENT (مرهم) مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 | 2026-11-12 | الجدول: FLUOROURACIL 500MG-10ML VIAL / 250MG-10ML VIAL مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b) |
 
 <!-- review:end log -->
 

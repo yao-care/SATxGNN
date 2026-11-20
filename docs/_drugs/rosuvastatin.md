@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 735
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "ROSUVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin: الاستطباب الجديد المتوقع نقص بروتين نقل إسترات الكوليسترول (cholesterol-ester transfer protein deficiency) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -54,7 +54,7 @@ description: "Rosuvastatin: الاستطباب الجديد المتوقع نق�
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. المعروف أن روزوفاستاتين يخفض كوليسترول LDL عبر تثبيط إنزيم اختزال HMG-CoA.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Rosuvastatin (ترجمة غير رسمية): «CRESTOR مثبط لمختزلة HMG‑CoA، وهو الإنزيم المحدِّد للسرعة الذي يحول 3‑هيدروكسي‑3‑ميثيل غلوتاريل مرافق الإنزيم A إلى الميفالونات، وهو مادة أولية للكوليسترول.» النص الأصلي بالإنجليزية: "CRESTOR is an inhibitor of HMG‑CoA reductase, the rate-limiting enzyme that converts 3‑hydroxy‑3‑methylglutaryl coenzyme A to mevalonate, a precursor of cholesterol." ([DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee)، إصدار 2026-09-23؛ تاريخ الاطلاع 2026-11-20). المعروف أن روزوفاستاتين يخفض كوليسترول LDL عبر تثبيط إنزيم اختزال HMG-CoA.
 
 يؤدي نقص بروتين نقل إسترات الكوليسترول إلى ارتفاع كوليسترول HDL وتغيّر في استقلاب LDL. ويمكن نظرياً أن يرتبط التأثير الخافض للدهون لروزوفاستاتين بهذا الاضطراب في استقلاب الدهون.
 
@@ -99,6 +99,18 @@ description: "Rosuvastatin: الاستطباب الجديد المتوقع نق�
 - بيانات آلية العمل التفصيلية وتحليل مبرر آلياً لتأثير الدواء في هذه الحالة.
 - الحصول على تحذيرات وموانع الاستعمال من نشرة العبوة المعتمدة.
 - في حال توفر مبرر علمي، تصميم دراسة استكشافية صغيرة أو سلسلة حالات قبل أي قرار آخر.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

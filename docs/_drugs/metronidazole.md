@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 555
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Metronidazole: الاستطباب الجديد المتوقع داء المتكيسة الرئوية (Pneumocystosis) (مستوى الدليل L5). الاستطباب الأصلي: العدوى اللاهوائية، التهاب الصفاق، الجيارديا، التهاب المهبل الجرثومي،…"
 monitor_inn: "METRONIDAZOLE"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
@@ -58,7 +58,7 @@ predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivi
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن ميترونيدازول من النيتروإيميدازولات، ويعمل ضد البكتيريا اللاهوائية والأوالي عبر تنشيط يعتمد على إنزيمات النيتروريدوكتاز.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Metronidazole (ترجمة غير رسمية): «يمارس ميترونيدازول، وهو من النيتروإيميدازولات، تأثيرات مضادة للبكتيريا في بيئة لاهوائية ضد معظم اللاهوائيات المجبرة. فبمجرد دخول ميترونيدازول إلى الكائن الحي بالانتشار السلبي وتنشيطه في سيتوبلازم البكتيريا اللاهوائية الحساسة، يُختزل؛ وتشمل هذه العملية مانحات نقل الإلكترونات داخل الخلوية مثل الفيريدوكسين، ونقل إلكترون إلى مجموعة النيترو في ميترونيدازول، مما يؤدي إلى تكوّن جذر حر نيتروزي قصير العمر.» النص الأصلي بالإنجليزية: "Metronidazole, a nitroimidazole, exerts antibacterial effects in an anaerobic environment against most obligate anaerobes. Once metronidazole enters the organism by passive diffusion and activated in the cytoplasm of susceptible anaerobic bacteria, it is reduced; this process includes intra-cellular electron transport donors such as ferredoxin and transfer of an electron to the nitro group of the metronidazole leading to formation of a short-lived nitroso free radical." ([DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255)، إصدار 2026-11-02؛ تاريخ الاطلاع 2026-11-20). المعروف أن ميترونيدازول من النيتروإيميدازولات، ويعمل ضد البكتيريا اللاهوائية والأوالي عبر تنشيط يعتمد على إنزيمات النيتروريدوكتاز.
 
 أما Pneumocystis فهو فطر يفتقر إلى مسار التنشيط هذا، لذا **لا يوجد مبرر آلي واضح** لهذا التنبؤ. والأدبيات المسترجعة عبارة عن مراجعات عامة لمضادات الطفيليات وأوراق عن العدوى الانتهازية المرتبطة بالإيدز، ولا تُظهر فعالية ميترونيدازول ضد هذا الكائن. ويُرجَّح أن الدرجة العالية ناتجة عن قرب الدواء في الشبكة المعرفية من أدوية مضادة للأوالي، لا عن دليل بيولوجي.
 
@@ -136,11 +136,12 @@ predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivi
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «ليس للدواء ترخيص ساري في السعودية حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255) |
 
 <!-- review:end log -->
 

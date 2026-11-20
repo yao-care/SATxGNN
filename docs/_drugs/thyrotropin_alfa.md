@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 812
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Thyrotropin Alfa: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الغدة الدرقية (عامل تشخيصي ومساعد)؛ نص الاستطباب المعتمد غير مت…"
 monitor_inn: "THYROTROPIN ALFA"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
@@ -58,7 +58,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Ra
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً؟ (وحدوده)
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. ومن المعروف أن ثيروتروبين ألفا ينشّط مستقبل TSH على الخلايا الجريبية الدرقية، فيحفّز امتصاص اليود وإنتاج الهرمونات الدرقية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Thyrotropin Alfa (ترجمة غير رسمية): «الثيروتروبين (TSH) هو هرمون نخامي يحفّز الغدة الدرقية على إنتاج هرمون الغدة الدرقية. ويؤدي ارتباط الثيروتروبين ألفا بمستقبلات TSH على الخلايا الظهارية الدرقية الطبيعية أو على نسيج سرطان الغدة الدرقية جيد التمايز إلى تحفيز امتصاص اليود وتعضيته، وتخليق وإفراز الثيروغلوبولين (Tg) وثلاثي يود الثيرونين (T3) والثيروكسين (T4).» النص الأصلي بالإنجليزية: "Thyrotropin (TSH) is a pituitary hormone that stimulates the thyroid gland to produce thyroid hormone. Binding of thyrotropin alfa to TSH receptors on normal thyroid epithelial cells or on well-differentiated thyroid cancer tissue stimulates iodine uptake and organification, and synthesis and secretion of thyroglobulin (Tg), triiodothyronine (T3) and thyroxine (T4)." ([DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b)، إصدار 2023-02-24؛ تاريخ الاطلاع 2026-11-20). ومن المعروف أن ثيروتروبين ألفا ينشّط مستقبل TSH على الخلايا الجريبية الدرقية، فيحفّز امتصاص اليود وإنتاج الهرمونات الدرقية.
 
 لا يوجد رابط آلي معروف بين تنشيط مستقبل TSH وفيزيولوجيا الصداع النصفي (CGRP، الانتشار القشري المثبِّط، تنشيط الجهاز الوعائي العصبي الثلاثي التوائم). وتأتي الدرجة المرتفعة من نموذج TxGNN (التعلم العميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض ذات صلة، لا دليلاً بيولوجياً.
 
@@ -128,12 +128,13 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Ra
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الترخيص المحلي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «إذ إن الترخيص الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b) |
 
 <!-- review:end log -->
 

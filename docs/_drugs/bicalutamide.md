@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 107
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Bicalutamide: الاستطباب الجديد المتوقع فرط الشعر (Hypertrichosis) (مستوى الدليل L4). الاستطباب الأصلي: سرطان البروستاتا (بحسب المعرفة العامة بالدواء؛ نص الاستطباب غير متوفر…"
 monitor_inn: "BICALUTAMIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -58,7 +58,7 @@ predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with 
 
 ## لماذا يبدو هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا. بيكالوتاميد مضاد غير ستيرويدي لمستقبلات الأندروجين. تعتمد إشارات الأندروجين في نمو بصيلات الشعر وتحولها إلى الشعر الانتهائي، لذلك قد يؤدي حجب المستقبل إلى تقليل نمو الشعر المعتمد على الأندروجين.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Bicalutamide (ترجمة غير رسمية): «كاسوديكس (CASODEX) مثبط غير ستيرويدي لمستقبلات الأندروجين. يثبط تنافسيًا عمل الأندروجينات عن طريق الارتباط بمستقبلات الأندروجين العصارية الخلوية في النسيج المستهدف. ومن المعروف أن سرطانة البروستاتا حساسة للأندروجين وتستجيب للعلاج الذي يعاكس تأثير الأندروجين و/أو يزيل مصدر الأندروجين.» النص الأصلي بالإنجليزية: "CASODEX is a non-steroidal androgen receptor inhibitor. It competitively inhibits the action of androgens by binding to cytosol androgen receptors in the target tissue. Prostatic carcinoma is known to be androgen sensitive and responds to treatment that counteracts the effect of androgen and/or removes the source of androgen." ([DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67)، إصدار 2026-02-27؛ تاريخ الاطلاع 2026-11-20). بيكالوتاميد مضاد غير ستيرويدي لمستقبلات الأندروجين. تعتمد إشارات الأندروجين في نمو بصيلات الشعر وتحولها إلى الشعر الانتهائي، لذلك قد يؤدي حجب المستقبل إلى تقليل نمو الشعر المعتمد على الأندروجين.
 
 الصلة بالاستطباب الأصلي آلية مشتركة هي تثبيط مسار مستقبل الأندروجين. وقد ظهر منشور يناقش استخدام بيكالوتاميد لعلاج فرط الشعر الناتج عن المينوكسيديل لدى مريضات تساقط الشعر الأنثوي النمطي، وهذا يتسق مع التنبؤ.
 
@@ -136,6 +136,19 @@ predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with 
 - تقييم موازنة الفائدة والمخاطر لدى المريضات، نظرًا لأمراض الكبد وغيرها من موانع الاستعمال المرتبطة في الرسم المعرفي.
 
 **ملاحظة:** من بين الاستطبابات الأخرى المتنبأ بها، يتمتع **سرطان الثدي الأنثوي** (خصوصًا النمط الثلاثي السلبي الموجب لمستقبل الأندروجين) بدليل أقوى: تجربة المرحلة الثانية [NCT03650894](https://clinicaltrials.gov/study/NCT03650894) النشطة (30 مشاركًا، بيكالوتاميد مع نيفولوماب وإيبيليموماب)، ودراسات أولية عديدة. ومستوى الدليل لذلك الاستطباب L2 مع توصية "المتابعة مع ضوابط"، لذا يُنصح بتقييمه بشكل مستقل، مع اشتراط اختيار المرضى بحسب التعبير عن مستقبل الأندروجين.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

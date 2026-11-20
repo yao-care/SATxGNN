@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 637
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Pegfilgrastim: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص هيئة الغذاء والدواء السعودية فارغ…"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -59,7 +59,7 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-تفاصيل آلية العمل الأصلية غير متوفرة حالياً. وبحسب المعروف، فبيغفيلغراستيم نظير مُبَيْغَل للعامل G-CSF، ويحفّز إنتاج العدلات ويحشد الخلايا السلفية المكوّنة للدم والخلايا السلفية البطانية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Pegfilgrastim (ترجمة غير رسمية): «منتجات البيغفيلغراستيم عامل منبّه للمستعمرات يعمل على الخلايا المكوّنة للدم عن طريق الارتباط بمستقبلات نوعية على سطح الخلية، وبالتالي تنبيه التكاثر والتمايز والالتزام والتنشيط الوظيفي للخلايا النهائية.» النص الأصلي بالإنجليزية: "Pegfilgrastim products are colony-stimulating factor that acts on hematopoietic cells by binding to specific cell surface receptors, thereby stimulating proliferation, differentiation, commitment, and end cell functional activation." ([DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83)، إصدار 2026-10-29؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فبيغفيلغراستيم نظير مُبَيْغَل للعامل G-CSF، ويحفّز إنتاج العدلات ويحشد الخلايا السلفية المكوّنة للدم والخلايا السلفية البطانية.
 
 الصلة التخمينية: قد تدعم الخلايا السلفية المحشودة إصلاح الأوعية الدقيقة التالفة في الشبكية. غير أن تنشيط العدلات والالتهاب الناجم عن G-CSF، والتأثيرات المحتملة المحفّزة لتكوّن الأوعية، قد تزيد الأمراض الوعائية الشبكية سوءاً، لذلك فاتجاه التأثير غير مؤكد.
 
@@ -126,11 +126,12 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «ومراجعة وضع الترخيص الملغى والتداخلات الدوائية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
 
 <!-- review:end log -->
 

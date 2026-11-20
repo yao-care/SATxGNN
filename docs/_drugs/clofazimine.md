@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Clofazimine: الاستطباب الجديد المتوقع داء المتكيسات الرئوية (Pneumocystosis) (مستوى الدليل L5). الاستطباب الأصلي: الجذام، الجذام متعدد الجراثيم، الغرغرينا القيحية (من الرسم المعرفي؛ ل…"
 monitor_inn: "CLOFAZIMINE"
 predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormality"]
@@ -59,7 +59,7 @@ predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormal
 
 ## لماذا يُعد هذا التوقع معقولاً؟
 
-تفصيل آلية العمل غير متوفر حالياً في البيانات المجمعة لهذا التقرير. وبحسب المعلومات المعروفة، كلوفازيمين من فئة الريمينوفينازين، له نشاط مضاد للبكتيريا الفطرية وخصائص مناعية معدّلة وقدرة على تعطيل الأغشية، وقد ثبتت فعاليته في الجذام.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Clofazimine (ترجمة غير رسمية): «LAMPRENE دواء مضاد للمتفطرات. […] يمارس الكلوفازيمين تأثيراً قاتلاً للجراثيم بطيئاً على المتفطرة الجذامية (عصية هانسن). ويثبط الكلوفازيمين نمو المتفطرات ويرتبط بصورة تفضيلية بالحمض النووي DNA للمتفطرات. كما يمارس الكلوفازيمين خصائص مضادة للالتهاب في علاج تفاعلات الحمامى العقدة الجذامية.» النص الأصلي بالإنجليزية: "LAMPRENE is an anti-mycobacterial drug. […] Clofazimine exerts a slow bactericidal effect on Mycobacterium leprae (Hansen’s bacillus). Clofazimine inhibits mycobacterial growth and binds preferentially to mycobacterial DNA. Clofazimine also exerts anti-inflammatory properties in treating erythema nodosum leprosum reactions." ([DailyMed: Lamprene (clofazimine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e07448f-f888-4747-80ab-570c1b621250)، إصدار 2026-08-17؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، كلوفازيمين من فئة الريمينوفينازين، له نشاط مضاد للبكتيريا الفطرية وخصائص مناعية معدّلة وقدرة على تعطيل الأغشية، وقد ثبتت فعاليته في الجذام.
 
 **لم يتحدد رابط آلي واضح** بين الدواء وداء المتكيسات الرئوية. فلا يوجد نشاط معروف للكلوفازيمين ضد *Pneumocystis jirovecii*. والدرجة العالية (0.999) ناتجة عن تنبؤ النموذج الحاسوبي فقط. وفي الأدبيات المسترجعة يظهر هذا الميكروب كعدوى مصاحبة لدى مرضى الإيدز، لا كهدف علاجي للكلوفازيمين.
 
@@ -136,11 +136,12 @@ predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormal
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «إذ الترخيص الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Lamprene (clofazimine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e07448f-f888-4747-80ab-570c1b621250) |
 
 <!-- review:end log -->
 

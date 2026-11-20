@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 235
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Deferasirox: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L4). الاستطباب الأصلي: بيتا ثلاسيميا وأمراض الهيموغلوبين (من قاعدة المعرفة PrimeKG؛ لا يتوفر…"
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
@@ -56,7 +56,7 @@ predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus inf
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن ديفيراسيروكس مخلّب للحديد، وقد ثبتت فاعليته في علاج فرط حمل الحديد المصاحب لأمراض الهيموغلوبين، وقد يكون مرتبطًا من الناحية الآلية بعدوى HIV عبر تأثير توازن الحديد.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Deferasirox (ترجمة غير رسمية): «إكسجيد (ديفيراسيروكس) عامل مخلِّب فعّال عن طريق الفم وانتقائي للحديد (بصورة Fe 3+ ). وهو ربيطة ثلاثية المخلب ترتبط بالحديد بألفة عالية بنسبة 2:1. وعلى الرغم من أن ألفة ديفيراسيروكس للزنك والنحاس منخفضة جدًا، فإن هناك انخفاضات متفاوتة في التركيز المصلي لهذين الفلزين النزرين بعد إعطاء ديفيراسيروكس.» النص الأصلي بالإنجليزية: "Exjade (deferasirox) is an orally active chelator that is selective for iron (as Fe 3+ ). It is a tridentate ligand that binds iron with high affinity in a 2:1 ratio. Although deferasirox has very low affinity for zinc and copper there are variable decreases in the serum concentration of these trace metals after the administration of deferasirox." ([DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85)، إصدار 2026-01-28؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن ديفيراسيروكس مخلّب للحديد، وقد ثبتت فاعليته في علاج فرط حمل الحديد المصاحب لأمراض الهيموغلوبين، وقد يكون مرتبطًا من الناحية الآلية بعدوى HIV عبر تأثير توازن الحديد.
 
 تشير دراسة آلية منشورة عام 2021 (PMID 34550543) إلى أن الحديد داخل الحويصلات الداخلية والليزوزومية يقيّد تنشيط نسخ HIV-1 LTR بوساطة بروتين Tat، من خلال زيادة تجمّع Tat وتعبير β-catenin. أي أن توازن الحديد قد يؤثر في نسخ الفيروس.
 
@@ -126,11 +126,12 @@ predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus inf
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة وإمكانية توفر المنتج في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 329
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Etonogestrel: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص؛ المنتج المرخّص غرسة لمنع الحمل (Implanon…"
 monitor_inn: "ETONOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
@@ -58,7 +58,7 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 ## لماذا يُعد هذا التوقع معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا. استنادًا إلى المعلومات المعروفة، إيتونوجستريل بروجستين قوي يثبّط الإباضة ويرقّق بطانة الرحم، وهذا مرتبط بيولوجيًا بالدورة الطمثية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Etonogestrel (ترجمة غير رسمية): «يتحقق التأثير المانع للحمل لـ NEXPLANON عن طريق تثبيط الإباضة، وزيادة لزوجة مخاط عنق الرحم، وإحداث تغيرات في بطانة الرحم.» النص الأصلي بالإنجليزية: "The contraceptive effect of NEXPLANON is achieved by suppression of ovulation, increased viscosity of the cervical mucus, and alterations in the endometrium." ([DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594)، إصدار 2026-05-28؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعلومات المعروفة، إيتونوجستريل بروجستين قوي يثبّط الإباضة ويرقّق بطانة الرحم، وهذا مرتبط بيولوجيًا بالدورة الطمثية.
 
 غير أن انقطاع الطمث أثر دوائي متوقع أو عَرَض جانبي معروف لغرسات إيتونوجستريل، إذ يعقب النزف غير المنتظم انقطاعٌ للطمث لدى نسبة كبيرة من المستخدمات. فهو ليس استطبابًا علاجيًا مدعومًا بتجارب. كما أن اتجاه التأثير غامض: هل يسبّب الدواء انقطاع الطمث أم يعالجه؟ ولذلك فالدرجة العالية (0.9984) مجرد توقع من النموذج.
 
@@ -146,12 +146,13 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الترخيص الوحيد في السعودية ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «تقييم جدوى الاستطباب الجديد في ظل أن الترخيص الحالي ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594) |
 
 <!-- review:end log -->
 

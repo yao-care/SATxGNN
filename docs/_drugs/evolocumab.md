@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 monitor_inn: "EVOLOCUMAB"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
 description: "Evolocumab: الاستطباب الجديد المتوقع Symptomatic form of hemophilia in female carriers (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -59,7 +59,7 @@ description: "Evolocumab: الاستطباب الجديد المتوقع Symptom
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل ضمن البيانات المجمّعة لهذا التقرير. المعروف أن إيفولوكوماب يرتبط بـ PCSK9، فيزيد إعادة تدوير مستقبلات LDL ويخفض كوليسترول LDL.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Evolocumab (ترجمة غير رسمية): «إيفولوكوماب هو جسم مضاد بشري وحيد النسيلة من نوع IgG2 موجه ضد بروبروتين كونفرتاز سوبتيليسين/كيكسين من النوع 9 (PCSK9) البشري. يرتبط PCSK9 بمستقبل البروتين الدهني منخفض الكثافة (LDLR) على سطح خلايا الكبد لتعزيز تحلل LDLR داخل الكبد.» النص الأصلي بالإنجليزية: "Evolocumab is a human monoclonal IgG2 directed against human proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein receptor (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver." ([DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e)، إصدار 2026-10-12؛ تاريخ الاطلاع 2026-11-20). المعروف أن إيفولوكوماب يرتبط بـ PCSK9، فيزيد إعادة تدوير مستقبلات LDL ويخفض كوليسترول LDL.
 
 أما أعراض حاملات الهيموفيليا فتنتج عن انخفاض نشاط العامل الثامن أو التاسع بسبب طفرات مرتبطة بالصبغي X وعدم انتظام تعطيله. ولم يُحدَّد أي رابط آلي معقول بين تثبيط PCSK9 وهذه الحالة.
 
@@ -122,6 +122,19 @@ description: "Evolocumab: الاستطباب الجديد المتوقع Symptom
 - إجراء مراجعة منهجية للأدبيات وفحص السجلات الدولية للتجارب.
 - النظر في إعطاء الأولوية لمرشح أكثر معقولية بيولوجياً، مثل نقص أبوليبوبروتين C-II العائلي، مع تقييم آلي تفصيلي.
 - التحقق من وضع الترخيص في السعودية، إذ إن الدواء مسوّق ولديه ترخيصان ساريان من أصل ترخيصين.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 568
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -58,7 +58,7 @@ description: "Montelukast: الاستطباب الجديد المتوقع الت
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-بيانات آلية العمل التفصيلية غير متاحة حالياً. تُظهر البيانات المجمَّعة أن مونتيلوكاست مضاد انتقائي لمستقبل CysLT1 البشري، وهو المستقبل الذي تعمل عليه الليوكوترينات الحاوية على السيستين، وهي وسائط التهابية تُفرَز في المسالك التنفسية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Montelukast (ترجمة غير رسمية): «الليكوترينات السيستينية (LTC 4، LTD 4، LTE 4) هي نواتج استقلاب حمض الأراكيدونيك، وتُطلَق من خلايا مختلفة، بما في ذلك الخلايا البدينة والحمضات. وترتبط هذه الإيكوسانويدات بمستقبلات الليكوترينات السيستينية (CysLT). […] مونتيلوكاست مركب فعال عن طريق الفم يرتبط بألفة وانتقائية عاليتين بمستقبل CysLT 1 (مفضَّلًا إياه على غيره من مستقبلات المسالك الهوائية المهمة دوائيًا، مثل مستقبلات البروستانويد أو المستقبلات الكولينية أو مستقبلات β الأدرينالية).» النص الأصلي بالإنجليزية: "The cysteinyl leukotrienes (LTC 4, LTD 4, LTE 4 ) are products of arachidonic acid metabolism and are released from various cells, including mast cells and eosinophils. These eicosanoids bind to cysteinyl leukotriene (CysLT) receptors. […] Montelukast is an orally active compound that binds with high affinity and selectivity to the CysLT 1 receptor (in preference to other pharmacologically important airway receptors, such as the prostanoid, cholinergic, or β-adrenergic receptor)." ([DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842)، إصدار 2025-04-30؛ تاريخ الاطلاع 2026-11-20). تُظهر البيانات المجمَّعة أن مونتيلوكاست مضاد انتقائي لمستقبل CysLT1 البشري، وهو المستقبل الذي تعمل عليه الليوكوترينات الحاوية على السيستين، وهي وسائط التهابية تُفرَز في المسالك التنفسية.
 
 تلعب هذه الوسائط دوراً في الالتهاب والتقبّض القصبي وزيادة الإفرازات. يوفّر ذلك أساساً آلياً لتجربته في أمراض الشعب الهوائية الالتهابية، ومنها التهاب الشعب الهوائية الحُمَضي اللاربوي حيث تلعب الخلايا الحُمَضية والخلايا البدينة دوراً في فرط حساسية السعال، كما تشير مراجعة منشورة عام 2025.
 
@@ -131,6 +131,18 @@ description: "Montelukast: الاستطباب الجديد المتوقع الت
 - تحديد الفئة المستهدفة (بالغون أم أطفال، ونمط التهاب الشعب الهوائية) والجرعة المناسبة.
 - استكمال بيانات آلية العمل التفصيلية.
 - الحصول على تحذيرات النشرة الدوائية وموانع الاستعمال من هيئة الغذاء والدواء السعودية ومراجعتها قبل أي تقييم للسلامة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

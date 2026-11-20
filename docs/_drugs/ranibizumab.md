@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 709
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: الاستطباب الجديد المتوقع Immature cataract (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -64,7 +64,7 @@ description: "Ranibizumab: الاستطباب الجديد المتوقع Immatu
 
 ## لماذا يُعد هذا التوقع معقولاً؟
 
-رانيبيزوماب جزء من جسم مضاد يثبّط VEGF-A. وفي اعتلال الشبكية السكري يرتفع VEGF في العين، فيزيد نفاذية الأوعية الشبكية وعدم التروية والتكوّن الوعائي الجديد. لذلك فإن حصر VEGF يستهدف آلية المرض مباشرة. وبيانات آلية العمل التفصيلية غير متوفرة حالياً في المعطيات المجمّعة لهذا التقرير، لكن الآلية المعروفة لهذه الفئة الدوائية كافية لتفسير المنطق.
+رانيبيزوماب جزء من جسم مضاد يثبّط VEGF-A. وفي اعتلال الشبكية السكري يرتفع VEGF في العين، فيزيد نفاذية الأوعية الشبكية وعدم التروية والتكوّن الوعائي الجديد. لذلك فإن حصر VEGF يستهدف آلية المرض مباشرة. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ranibizumab (ترجمة غير رسمية): «ترتبط منتجات رانيبيزوماب بموقع الارتباط بالمستقبل في الأشكال النشطة من VEGF-A، بما في ذلك الشكل المشطور النشط حيويًا من هذا الجزيء، VEGF110. وقد ثبت أن VEGF-A يسبب تكوّن الأوعية الجديدة والتسرب في نماذج تكوّن الأوعية العينية وانسداد الأوعية، ويُعتقد أنه يسهم في الفيزيولوجيا المرضية لكل من AMD الوعائي الجديد وmCNV وDR وDME والوذمة البقعية التالية لـ RVO.» النص الأصلي بالإنجليزية: "Ranibizumab products bind to the receptor binding site of active forms of VEGF-A, including the biologically active, cleaved form of this molecule, VEGF110. VEGF-A has been shown to cause neovascularization and leakage in models of ocular angiogenesis and vascular occlusion and is thought to contribute to pathophysiology of neovascular AMD, mCNV, DR, DME and macular edema following RVO." ([DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a)، إصدار 2026-11-05؛ تاريخ الاطلاع 2026-11-20).
 
 اعتلال الشبكية السكري غير التكاثري الشديد مرحلة من المرض نفسه الذي يُستخدم له الدواء أصلاً، ولذلك فالتوقع متسق مع الاستطبابات الأصلية. وتتضمن الأدبيات تحليلات لتجربتي RIDE/RISE من المرحلة الثالثة (تراجع اعتلال الشبكية المبكر)، وتجربة عشوائية لنظام توصيل عبر منفذ (Port Delivery System) مع رانيبيزوماب مقابل المراقبة في اعتلال الشبكية غير التكاثري.
 
@@ -150,7 +150,7 @@ description: "Ranibizumab: الاستطباب الجديد المتوقع Immatu
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم يُعَد كتابة نص تنبؤات النموذج؛ ولا تتغير مستويات الأدلة والقرارات إلا بنتيجة إعادة تقييم (خفض أو رفع أو سحب)، والقيم الأصلية في الجدول أدناه.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم يُعَد كتابة نص تنبؤات النموذج؛ ولا تتغير مستويات الأدلة والقرارات إلا بنتيجة إعادة تقييم (خفض أو رفع أو سحب)، والقيم الأصلية في الجدول أدناه. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
@@ -158,6 +158,7 @@ description: "Ranibizumab: الاستطباب الجديد المتوقع Immatu
 | 2026-11-06 | حُذف: «توضيح وضع الترخيص في السعودية (إلغاء التراخيص الحالية) وخيارات إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-12 | التنبؤ الرئيسي بانتظار إعادة التقييم | بانتظار إعادة التقييم ← أُعيد تقييمه (انظر نتيجة إعادة التقييم) | [SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5](https://satxgnn.yao.care/methodology/) |
 | 2026-11-12 | نتيجة إعادة تقييم التنبؤ الرئيسي (Immature cataract) | إعادة التقييم: خفض، مستوى الأدلة L1 ← L5؛ مستوى الدليل: «مستوى الدليل / L1 (مبني على عناوين منشورات فقط، ويلزم التحقق من التقارير الأساسية للتجارب)» ← «مستوى الدليل / L5 (تنبؤ نموذجي فقط؛ لا يوجد دليل على علاج الساد، والحقن المتكرر يرتبط بزيادة خطره)»؛ القرار الموصى به: «القرار الموصى به / المتابعة مع ضوابط (Proceed with Guardrails)» ← «القرار الموصى به / Hold (إيقاف مؤقت)» | [PubMed：Impact of Intravitreal Anti-VEGF Injections on Cataract Development（PMID 41825596）](https://pubmed.ncbi.nlm.nih.gov/41825596/)؛ [ClinicalTrials.gov：The Effect of Ranibizumab on Eye Lens Opacity in Cases With Age-Related Macular Degeneration（NCT01330797）](https://clinicaltrials.gov/study/NCT01330797) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a) |
 
 <!-- review:end log -->
 

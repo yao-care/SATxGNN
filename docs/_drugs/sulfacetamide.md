@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 776
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Sulfacetamide: الاستطباب الجديد المتوقع التهاب الأوعية الدموية التالي للعدوى (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب، التهاب الجلد الدهني، التهاب الملتحمة، التهاب العنبية، داء…"
 monitor_inn: "SULFACETAMIDE"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "parasitic eyelid infestation"]
@@ -59,7 +59,7 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 
 ## لماذا يبدو هذا التوقع معقولاً (أو غير معقول)؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. المعروف أن سلفاسيتاميد مضاد بكتيري موضعي من فئة السلفوناميدات، يثبّط إنزيم ثنائي هيدروبتيروات سينثاز البكتيري، وقد ثبتت فائدته في العدوى السطحية للعين والجلد.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Sulfacetamide (ترجمة غير رسمية): «إن آلية عمل السلفوناميدات الأكثر قبولاً على نطاق واسع هي نظرية وودز-فيلدز، القائمة على عمل السلفوناميدات كمثبّط تنافسي لاستخدام حمض بارا-أمينوبنزويك (PABA)، وهو مكوّن أساسي لنمو البكتيريا.» النص الأصلي بالإنجليزية: "The most widely accepted mechanism of action of sulfonamides is the Woods-Fildes theory, based on sulfonamides acting as a competitive inhibitor of para-aminobenzoic acid (PABA) utilization, an essential component for bacterial growth." ([DailyMed: Klaron (sulfacetamide sodium) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66ab38ea-5cea-47be-97f2-486517999fb0)، إصدار 2020-08-31؛ تاريخ الاطلاع 2026-11-20). المعروف أن سلفاسيتاميد مضاد بكتيري موضعي من فئة السلفوناميدات، يثبّط إنزيم ثنائي هيدروبتيروات سينثاز البكتيري، وقد ثبتت فائدته في العدوى السطحية للعين والجلد.
 
 أما التهاب الأوعية الدموية التالي للعدوى فهو عملية مناعية المنشأ، ولذلك لا توجد صلة آلية واضحة بين النشاط المضاد للبكتيريا وهذه الحالة. درجة النموذج العالية لا تقابلها أي أدلة سريرية أو آلية، ويُنظر إلى التوقع على أنه إشارة حاسبية فقط.
 
@@ -157,11 +157,12 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وتقييم الجدوى في ظل إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Klaron (sulfacetamide sodium) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66ab38ea-5cea-47be-97f2-486517999fb0) |
 
 <!-- review:end log -->
 

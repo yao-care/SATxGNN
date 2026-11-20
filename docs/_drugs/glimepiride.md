@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-20
 description: "Glimepiride: الاستطباب الجديد المتوقع متلازمة الطرف المتيبس البؤرية (Focal stiff limb syndrome) (مستوى الدليل L5). الاستطباب الأصلي: داء السكري من النوع الثاني"
 monitor_inn: "GLIMEPIRIDE"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -58,7 +58,7 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 
 ## لماذا قد يبدو هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا. استنادًا إلى المعروف، غليمبيريد من السلفونيل يوريا؛ يغلق قنوات البوتاسيوم الحساسة لـATP (K-ATP) في خلايا بيتا البنكرياسية فيحفّز إفراز الإنسولين، وقد ثبتت فعاليته في السكري من النوع الثاني.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Glimepiride (ترجمة غير رسمية): «يخفض غليميبيريد غلوكوز الدم بصورة رئيسية عن طريق تحفيز إطلاق الإنسولين من خلايا بيتا البنكرياسية. ترتبط مركبات السلفونيل يوريا بمستقبِل السلفونيل يوريا في الغشاء البلازمي لخلايا بيتا البنكرياسية، مما يؤدي إلى إغلاق قناة البوتاسيوم الحساسة لـ ATP، وبذلك يحفز إطلاق الإنسولين.» النص الأصلي بالإنجليزية: "Glimepiride primarily lowers blood glucose by stimulating the release of insulin from pancreatic beta cells. Sulfonylureas bind to the sulfonylurea receptor in the pancreatic beta-cell plasma membrane, leading to closure of the ATP-sensitive potassium channel, thereby stimulating the release of insulin." ([DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa)، إصدار 2024-08-20؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعروف، غليمبيريد من السلفونيل يوريا؛ يغلق قنوات البوتاسيوم الحساسة لـATP (K-ATP) في خلايا بيتا البنكرياسية فيحفّز إفراز الإنسولين، وقد ثبتت فعاليته في السكري من النوع الثاني.
 
 الارتباط المحتمل (غير مثبت) أن متلازمات تيبس الطرف/الشخص المتيبس ترتبط بخلل في نقل GABA (غالبًا بوجود أجسام مضادة ضد GAD65) وكثيرًا ما تترافق مع السكري المناعي الذاتي. وتأتي درجة التنبؤ العالية من نموذج TxGNN (التعلم العميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مترابطة، وليست دليلًا بيولوجيًا.
 
@@ -113,6 +113,19 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 - تحميل النشرة الدوائية الخاصة بهيئة الغذاء والدواء السعودية (SFDA) واستخلاص التحذيرات وموانع الاستعمال، وهو شرط حاجز قبل الانتقال إلى مرحلة فحص السلامة.
 - إجراء مراجعة منهجية للأدبيات ولتجارب السجلات لدعم فرضية الارتباط بين تيبس الطرف والسكري المناعي.
 - التحقق من وضع الترخيص والتوفر الفعلي للدواء في السوق السعودي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

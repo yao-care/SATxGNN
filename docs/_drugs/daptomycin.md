@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "DAPTOMYCIN"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Daptomycin: الاستطباب الجديد المتوقع الفصال العظمي (osteoarthritis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -54,7 +54,7 @@ description: "Daptomycin: الاستطباب الجديد المتوقع الف�
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن داپتومايسين مضاد حيوي ضد البكتيريا إيجابية الغرام، ولا يوجد ارتباط آلي مباشر بينه وبين الفصال العظمي التنكسي.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Daptomycin (ترجمة غير رسمية): «دابتومايسين دواء مضاد للبكتيريا. […] يرتبط دابتومايسين بالأغشية الخلوية البكتيرية ويسبب إزالة استقطاب سريعة لكمون الغشاء. يؤدي فقدان كمون الغشاء هذا إلى تثبيط تخليق DNA وRNA والبروتين، مما ينتج عنه موت الخلية البكتيرية.» النص الأصلي بالإنجليزية: "Daptomycin is an antibacterial drug. […] Daptomycin binds to bacterial cell membranes and causes a rapid depolarization of membrane potential. This loss of membrane potential causes inhibition of DNA, RNA, and protein synthesis, which results in bacterial cell death." ([DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8)، إصدار 2022-01-25؛ تاريخ الاطلاع 2026-11-20). المعروف أن داپتومايسين مضاد حيوي ضد البكتيريا إيجابية الغرام، ولا يوجد ارتباط آلي مباشر بينه وبين الفصال العظمي التنكسي.
 
 الدراسات المسترجعة تتناول استخدامه مضاداً للبكتيريا في عدوى العظام والمفاصل (مثل عدوى المفاصل الاصطناعية بالمكورات العنقودية). هذا استخدام مضاد للعدوى في نسيج العظم والمفصل، وليس علاجاً للعملية المرضية للفصال العظمي. وغالباً تعكس الدرجة المرتفعة جداً قرباً بين المصطلحات في النموذج (مفاصل/عظام) وليس آلية حقيقية معدِّلة للمرض.
 
@@ -109,6 +109,18 @@ description: "Daptomycin: الاستطباب الجديد المتوقع الف�
 - تحليل التحذيرات وموانع الاستعمال من نشرة العبوة.
 - دراسات أولية (مخبرية وحيوانية) تبيّن أي تأثير في العملية المرضية للفصال العظمي قبل التفكير في دراسات سريرية.
 - تقييم جدوى الإعطاء الوريدي في مرض مزمن، مع مراقبة العضلات (CPK).
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

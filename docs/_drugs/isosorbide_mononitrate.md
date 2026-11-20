@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Isosorbide Mononitrate: الاستطباب الجديد المتوقع فرط الشعرانية (hypertrichosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (لا يوجد نص استطباب في بيانات الترخيص المسجلة)"
 monitor_inn: "ISOSORBIDE MONONITRATE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "alopecia", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pulmonary arterial hypertension"]
@@ -60,7 +60,7 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً (أو غير معقول)؟
 
-بيانات آلية العمل التفصيلية غير متاحة حاليًا في المعلومات المجمّعة. استنادًا إلى المعرفة العامة، أيزوسوربايد مونونيترات مانح لأكسيد النيتريك (NO) يؤدي إلى توسّع الأوعية عبر مسار cGMP.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Isosorbide Mononitrate (ترجمة غير رسمية): «أقراص إيزوسوربيد أحادي النترات ممتدة المفعول هي تركيبة فموية ممتدة المفعول من ISMN، وهو المستقلب النشط الرئيسي لإيزوسوربيد ثنائي النترات؛ ويُعزى معظم النشاط السريري لثنائي النترات إلى أحادي النترات. ويتمثل الفعل الدوائي الرئيسي لـ ISMN ولجميع النترات العضوية عمومًا في إرخاء العضلات الملساء الوعائية، مما يؤدي إلى توسع الشرايين والأوردة المحيطية، ولا سيما الأخيرة.» النص الأصلي بالإنجليزية: "Isosorbide mononitrate extended-release tablet are an oral extended-release formulation of ISMN, the major active metabolite of isosorbide dinitrate; most of the clinical activity of the dinitrate is attributable to the mononitrate. The principal pharmacological action of ISMN and all organic nitrates in general is relaxation of vascular smooth muscle, producing dilatation of peripheral arteries and veins, especially the latter." ([DailyMed: isosorbide mononitrate prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=86be0e85-5337-bee4-e053-2a91aa0a8158)، إصدار 2026-11-10؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعرفة العامة، أيزوسوربايد مونونيترات مانح لأكسيد النيتريك (NO) يؤدي إلى توسّع الأوعية عبر مسار cGMP.
 
 **لا توجد صلة آلية راسخة** بين هذا المسار وفرط الشعرانية. الدرجة العالية جدًا للنموذج هي تنبؤ حاسوبي فقط، ويُرجَّح أنها ناتجة عن قرب الدواء من أمراض شبيهة في الرسم المعرفي، لا عن دليل بيولوجي أو سريري.
 
@@ -133,11 +133,12 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «والترخيص المحلي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: isosorbide mononitrate prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=86be0e85-5337-bee4-e053-2a91aa0a8158) |
 
 <!-- review:end log -->
 

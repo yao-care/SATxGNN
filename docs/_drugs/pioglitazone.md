@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Pioglitazone: الاستطباب الجديد المتوقع Opsismodysplasia (مستوى الدليل L5). الاستطباب الأصلي: داء السكري من النوع الثاني"
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -58,7 +58,7 @@ predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classi
 
 ## لماذا قد يكون هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. استناداً إلى المعروف عن هذه الفئة الدوائية، يعمل بيوغليتازون كمنشّط لمستقبل PPAR-gamma ويحسّن حساسية الأنسجة للإنسولين، وقد ثبتت فعاليته في السكري من النوع الثاني.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Pioglitazone (ترجمة غير رسمية): «ACTOS هو ثيازوليدينديون يعتمد على وجود الإنسولين في آلية عمله. يقلّل ACTOS مقاومة الإنسولين في الأطراف وفي الكبد، مما يؤدي إلى زيادة التخلص من الغلوكوز المعتمد على الإنسولين وانخفاض إنتاج الكبد للغلوكوز. […] البيوغليتازون ليس من محفّزات إفراز الإنسولين.» النص الأصلي بالإنجليزية: "ACTOS is a thiazolidinedione that depends on the presence of insulin for its mechanism of action. ACTOS decreases insulin resistance in the periphery and in the liver resulting in increased insulin-dependent glucose disposal and decreased hepatic glucose output. […] Pioglitazone is not an insulin secretagogue." ([DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c)، إصدار 2025-03-28؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف عن هذه الفئة الدوائية، يعمل بيوغليتازون كمنشّط لمستقبل PPAR-gamma ويحسّن حساسية الأنسجة للإنسولين، وقد ثبتت فعاليته في السكري من النوع الثاني.
 
 ينتج Opsismodysplasia عن طفرات في جين INPPL1 (بروتين SHIP2)، وهو منظّم سلبي لمسار PI3K/الإنسولين. وبذلك قد توجد صلة نظرية بين مسارات الإشارة الإنسولينية أو المرتبطة بـPPAR-gamma وبين هذا المرض. غير أن هذه الصلة **تأملية** ولا يدعمها أي دليل سريري أو منشور، ولا يمكن اعتبار الدرجة العالية للنموذج دليلاً بحد ذاتها.
 
@@ -144,12 +144,13 @@ predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classi
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «(سبب إلغاء التراخيص)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
 
 <!-- review:end log -->
 

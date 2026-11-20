@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "ALBENDAZOLE"
 predicted_indications: ["coenurosis"]
 description: "Albendazole: الاستطباب الجديد المتوقع كوينوروزيس (coenurosis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -54,7 +54,7 @@ description: "Albendazole: الاستطباب الجديد المتوقع كوي
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف، يُعتقد أن الألبendazole يثبّط بيتا-توبيولين في الطفيليات، وهي آلية يُتوقع أن تنطبق على اليرقات الكيسية للديدان الشريطية.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Albendazole (ترجمة غير رسمية): «ألبنزا (ALBENZA) (ألبيندازول) دواء اصطناعي مضاد للديدان من فئة البنزيميدازول. […] يرتبط ألبنزا (ALBENZA) بالموقع الحساس للكولشيسين في β-tubulin مما يثبط بلمرتها إلى أنيبيبات دقيقة. ويؤدي انخفاض الأنيبيبات الدقيقة في الخلايا المعوية للطفيليات إلى تقليل وظيفتها الامتصاصية، ولا سيما امتصاص الغلوكوز من قِبل الأشكال البالغة واليرقية للطفيليات، كما يستنفد مخزون الغليكوجين.» النص الأصلي بالإنجليزية: "ALBENZA (albendazole) is a synthetic, antihelminthic drug of the class benzimidazole. […] ALBENZA binds to the colchicine-sensitive site of β-tubulin inhibiting their polymerization into microtubules. The decrease in microtubules in the intestinal cells of the parasites decreases their absorptive function, especially the uptake of glucose by the adult and larval forms of the parasites, and also depletes glycogen storage." ([DailyMed: Albenza (albendazole) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1977a867-0ee1-44c0-8da3-fe59c48699f5)، إصدار 2019-09-23؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، يُعتقد أن الألبendazole يثبّط بيتا-توبيولين في الطفيليات، وهي آلية يُتوقع أن تنطبق على اليرقات الكيسية للديدان الشريطية.
 
 الكوينوروزيس ينتج عن الطور اليرقي لدودة *Taenia multiceps* وأقاربها، وهي دودة شريطية قريبة جداً من *Taenia solium* المسببة لداء الكيسات الذنبية العصبي. هذا التقارب البيولوجي هو الأساس المنطقي للتنبؤ.
 
@@ -122,6 +122,18 @@ description: "Albendazole: الاستطباب الجديد المتوقع كوي
 - الحصول على تحذيرات وموانع الاستعمال من نشرة الدواء المعتمدة لدى الهيئة العامة للغذاء والدواء، وهي بيانات ناقصة وتمنع الانتقال إلى مرحلة فحص السلامة.
 - وضع خطة لمراقبة الدم ووظائف الكبد، نظراً لحالات الخطر المسجلة (قلة العدلات وأمراض الكبد وفقر الدم).
 - مراجعة التداخلات الدوائية ذات الأهمية السريرية قبل الاستخدام.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Albenza (albendazole) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1977a867-0ee1-44c0-8da3-fe59c48699f5) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

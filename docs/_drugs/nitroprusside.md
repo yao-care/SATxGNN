@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 594
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Nitroprusside: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المحلية"
 monitor_inn: "nitroprusside"
 drugbank_id: DB00325
@@ -57,7 +57,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "al
 
 ## لماذا قد يبدو هذا التنبؤ منطقياً، ولماذا يُعدّ ضعيفاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في قاعدة البيانات المستخدمة. لكن من المعروف أن نيتروبروسيد يمنح أكسيد النيتريك مباشرة، فينشّط إنزيم غوانيلات سيكلاز القابل للذوبان ويرفع مستوى cGMP، مما يرخّي العضلات الملساء الوعائية.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Nitroprusside (ترجمة غير رسمية): «يتفاعل نيتروبروسيد الصوديوم مع الأوكسي هيموغلوبين لإنتاج الميثيموغلوبين والسيانيد وأكسيد النيتريك (NO). ثم يتفاعل NO مع إنزيم غوانيلات سيكلاز في العضلات الملساء الوعائية لإنتاج cGMP الذي يخفض تراكيز الكالسيوم داخل الخلايا، مما يؤدي إلى إرخاء العضلات الملساء الوعائية وما يترتب على ذلك من توسع الشرايين والأوردة المحيطية.» النص الأصلي بالإنجليزية: "Sodium nitroprusside interacts with oxyhemoglobin to produce methemoglobin, cyanide, and nitric oxide (NO). NO then reacts with guanylate cyclase in vascular smooth muscle to produce cGMP that reduces intracellular calcium concentrations resulting in relaxation of vascular smooth muscle and consequent dilatation of peripheral arteries and veins." ([DailyMed: Nipride Rtu (sodium nitroprusside) prescribing information, EXELA PHARMA SCIENCES, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5acf0836-93ff-4064-b888-3f560e8a558d)، إصدار 2018-07-20؛ تاريخ الاطلاع 2026-11-20). لكن من المعروف أن نيتروبروسيد يمنح أكسيد النيتريك مباشرة، فينشّط إنزيم غوانيلات سيكلاز القابل للذوبان ويرفع مستوى cGMP، مما يرخّي العضلات الملساء الوعائية.
 
 يرتبط مساري NO وCGRP ارتباطاً وثيقاً بفيزيولوجيا الصداع النصفي. غير أن مانحات NO (مثل النيتروغليسرين) تُستخدم أصلاً **لإثارة** نوبات الصداع النصفي في الأبحاث. ودراسات الدورة الدموية الدقيقة لدى المرضى (PMID 18384419، 21122149، 19528518، 16396667) تستخدم نيتروبروسيد **كمسبار** لقياس استجابة الأوعية، وليس كعلاج. وعليه فالدرجة العالية لـ TxGNN تعكس على الأرجح ارتباطاً شبكياً بمسار NO/cGMP، ولا تدل على فائدة علاجية.
 
@@ -116,11 +116,12 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "al
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Nipride Rtu (sodium nitroprusside) prescribing information, EXELA PHARMA SCIENCES, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5acf0836-93ff-4064-b888-3f560e8a558d) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 616
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Oritavancin: الاستطباب الجديد المتوقع العدوى بفصيلة Bacteroidaceae (مستوى الدليل L5). الاستطباب الأصلي: الأمراض الجلدية الناجمة عن العدوى"
 monitor_inn: "ORITAVANCIN"
 predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes zoster", "Mycoplasma pneumoniae pneumonia"]
@@ -60,7 +60,7 @@ predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes 
 
 ## لماذا يُعدّ هذا التوقع معقولًا (أو غير معقول)؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا في البيانات المجمّعة لهذا التقرير. استنادًا إلى المعلومات المعروفة، أوريتافانسين من فئة الجليكوببتيدات الدهنية، ويثبّط تخليق جدار الخلية البكتيرية (خطوتا transglycosylase وtranspeptidase) ويُخلّ بسلامة الغشاء الخلوي. وقد ثبتت فعاليته في عدوى الجلد والأنسجة الرخوة البكتيرية.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Oritavancin (ترجمة غير رسمية): «أوريتافانسين دواء مضاد للبكتيريا. […] لأوريتافانسين ثلاث آليات عمل: (i) تثبيط خطوة نقل الغليكوزيل (البلمرة) في التخليق الحيوي للجدار الخلوي عن طريق الارتباط بالببتيد الجذعي لسلائف الببتيدوغليكان؛ (ii) تثبيط خطوة نقل الببتيد (الربط التشابكي) في التخليق الحيوي للجدار الخلوي عن طريق الارتباط بالقطع الببتيدية الجسرية في الجدار الخلوي؛ و(iii) الإخلال بسلامة الغشاء البكتيري، مما يؤدي إلى زوال الاستقطاب وزيادة النفاذية وموت الخلية. وتسهم هذه الآليات المتعددة في النشاط القاتل للبكتيريا المعتمد على التركيز لأوريتافانسين.» النص الأصلي بالإنجليزية: "Oritavancin is an antibacterial drug. […] Oritavancin has three mechanisms of action: (i) inhibition of the transglycosylation (polymerization) step of cell wall biosynthesis by binding to the stem peptide of peptidoglycan precursors; (ii) inhibition of the transpeptidation (crosslinking) step of cell wall biosynthesis by binding to the peptide bridging segments of the cell wall; and (iii) disruption of bacterial membrane integrity, leading to depolarization, permeabilization, and cell death. These multiple mechanisms contribute to the concentration-dependent bactericidal activity of oritavancin." ([DailyMed: Orbactiv (oritavancin) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff09a726-9f9b-4e30-b509-396781293220)، إصدار 2026-09-15؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعلومات المعروفة، أوريتافانسين من فئة الجليكوببتيدات الدهنية، ويثبّط تخليق جدار الخلية البكتيرية (خطوتا transglycosylase وtranspeptidase) ويُخلّ بسلامة الغشاء الخلوي. وقد ثبتت فعاليته في عدوى الجلد والأنسجة الرخوة البكتيرية.
 
 غير أن نطاق نشاطه يتركز على البكتيريا موجبة الغرام. أما بكتيريا Bacteroidaceae (مثل Bacteroides) فهي لاهوائية سالبة الغرام ذات غشاء خارجي لا تستطيع الجليكوببتيدات اختراقه عمومًا. لذلك فإن الدرجة العالية (0.9948) **لا تدعمها حجة آلية واضحة**. وقد يقتصر الدعم غير المباشر على نشاط محتمل في المختبر ضد بعض اللاهوائيات، وهو أمر يحتاج إلى التحقق منه.
 
@@ -129,12 +129,13 @@ predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن المنتج الوحيد المرخّص في السعودية ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «تقييم الجدوى التنظيمية والتجارية في ظل إلغاء الترخيص الحالي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Orbactiv (oritavancin) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff09a726-9f9b-4e30-b509-396781293220) |
 
 <!-- review:end log -->
 

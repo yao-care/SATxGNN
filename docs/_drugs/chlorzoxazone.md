@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 179
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Chlorzoxazone: الاستطباب الجديد المتوقع الصداع النصفي (Migraine Disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء فارغ…"
 monitor_inn: "CHLORZOXAZONE"
 predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine with brainstem aura", "pulmonary hypertension", "atrophoderma vermiculata", "ulerythema ophryogenesis", "kyphoscoliotic heart disease", "rheumatoid arthritis"]
@@ -59,7 +59,7 @@ predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropri
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبناءً على المعروف، فإن كلورزوكسازون مرخٍّ عضلي مركزي، ويُعرف بأنه منشّط للقنوات البوتاسية المعتمدة على الكالسيوم (SK/IK/BK).
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Chlorzoxazone (ترجمة غير رسمية): «تشير البيانات المتاحة من التجارب على الحيوانات وكذلك من دراسة على البشر إلى أن الكلورزوكسازون يعمل بصورة رئيسية على مستوى النخاع الشوكي والمناطق تحت القشرية من الدماغ، حيث يثبط أقواس المنعكسات متعددة المشابك المشاركة في إحداث تشنج العضلات الهيكلية متنوع المسببات واستمراره. والنتيجة السريرية هي انخفاض تشنج العضلات الهيكلية مع تخفيف الألم وزيادة حركية العضلات المعنية.» النص الأصلي بالإنجليزية: "Data available from animal experiments as well as human study indicate that chlorzoxazone acts primarily at the level of the spinal cord and subcortical areas of the brain where it inhibits multisynaptic reflex arcs involved in producing and maintaining skeletal muscle spasm of varied etiology. The clinical result is a reduction of the skeletal muscle spasm with relief of pain and increased mobility of the involved muscles." ([DailyMed: chlorzoxazone prescribing information, Solubiomix](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c3d40a90-6df8-4b44-bc61-d7655c52bacb)، إصدار 2026-10-05؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعروف، فإن كلورزوكسازون مرخٍّ عضلي مركزي، ويُعرف بأنه منشّط للقنوات البوتاسية المعتمدة على الكالسيوم (SK/IK/BK).
 
 توجد فرضية قائمة على اعتلال القنوات الأيونية: فالطفرات في جين CACNA1A (قناة CaV2.1) ترتبط بالصداع النصفي الفالجي العائلي والرنح النوبي. وقد أظهرت دراسة على فئران حاملة لطفرة Cacna1a(S218L) أن منشّطات القنوات البوتاسية المعتمدة على الكالسيوم تخفف الرنح الناتج عن زيادة تيارات CaV2.1.
 
@@ -131,11 +131,12 @@ predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropri
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «تقييم الوضع التنظيمي والتجاري في المملكة نظراً لإلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: chlorzoxazone prescribing information, Solubiomix](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c3d40a90-6df8-4b44-bc61-d7655c52bacb) |
 
 <!-- review:end log -->
 

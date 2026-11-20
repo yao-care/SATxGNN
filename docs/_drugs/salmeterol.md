@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 745
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: الاستطباب الجديد المتوقع تشوه الجهاز التنفسي (respiratory malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 13 على الأقل"
@@ -56,7 +56,7 @@ description: "Salmeterol: الاستطباب الجديد المتوقع تشو�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن سالميتيرول ناهض لمستقبلات بيتا-2 الأدرينالية، وقد تزيد هذه الفئة من تردد نبض الأهداب ومن إزالة المخاط، وهو ما يهم حالات خلل الأهداب مثل خلل الحركة الهدبية الأولي والتليف الكيسي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Salmeterol (ترجمة غير رسمية): «سالميتيرول هو ناهض بيتا طويل المفعول (LABA) انتقائي. تُظهر الدراسات في المختبر أن سالميتيرول أكثر انتقائية للمستقبلات الأدرينالية بيتا 2 بما لا يقل عن 50 ضعفًا مقارنةً بألبوتيرول. وعلى الرغم من أن المستقبلات الأدرينالية بيتا 2 هي المستقبلات الأدرينالية السائدة في العضلات الملساء القصبية وأن المستقبلات الأدرينالية بيتا 1 هي المستقبلات السائدة في القلب، فإن هناك أيضًا مستقبلات أدرينالية بيتا 2 في قلب الإنسان تشكل من 10% إلى 50% من إجمالي المستقبلات الأدرينالية بيتا.» النص الأصلي بالإنجليزية: "Salmeterol is a selective LABA. In vitro studies show salmeterol to be at least 50 times more selective for beta 2 -adrenoceptors than albuterol. Although beta 2 -adrenoceptors are the predominant adrenergic receptors in bronchial smooth muscle and beta 1 -adrenoceptors are the predominant receptors in the heart, there are also beta 2 -adrenoceptors in the human heart comprising 10% to 50% of the total beta-adrenoceptors." ([DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4)، إصدار 2022-10-10؛ تاريخ الاطلاع 2026-11-20). المعروف أن سالميتيرول ناهض لمستقبلات بيتا-2 الأدرينالية، وقد تزيد هذه الفئة من تردد نبض الأهداب ومن إزالة المخاط، وهو ما يهم حالات خلل الأهداب مثل خلل الحركة الهدبية الأولي والتليف الكيسي.
 
 غير أن العلاقة هنا غير مباشرة. فـ«تشوه الجهاز التنفسي» فئة غير متجانسة من العيوب البنيوية، والسالميتيرول لا يصحح التشوهات. ويرجَّح أن الدرجة المرتفعة ناتجة عن قرب المرض من أمراض مجرى الهواء في شبكة النموذج، لا عن آلية نوعية تخص العيوب البنيوية.
 
@@ -118,6 +118,18 @@ description: "Salmeterol: الاستطباب الجديد المتوقع تشو�
 - نشرة العبوة المعتمدة لاستخراج التحذيرات وموانع الاستعمال.
 - تعريف دقيق للفئة الفرعية من تشوهات الجهاز التنفسي المستهدفة، ودراسات تتناولها مباشرةً.
 - فحص توافق طريق الإعطاء والشكل الصيدلاني.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

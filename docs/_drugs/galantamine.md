@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Galantamine: الاستطباب الجديد المتوقع اضطرابات الحركة ذات المنشأ النفسي (psychogenic movement disorders) (مستوى الدليل L5). الاستطباب الأصلي: مرض الزهايمر"
 monitor_inn: "GALANTAMINE"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
@@ -58,7 +58,7 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. استناداً إلى المعلومات المعروفة، فالغالانتامين مثبط لإنزيم الأسيتيل كولينستراز ومعدِّل خيفي لمستقبلات الأسيتيل كولين النيكوتينية، وقد ثبتت فعاليته في أعراض مرض الزهايمر.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Galantamine (ترجمة غير رسمية): «على الرغم من أن مسببات الضعف الإدراكي في داء ألزهايمر (AD) غير مفهومة تماماً، فقد أُفيد بأن الخلايا العصبية المنتجة للأسيتيل كولين تتنكس في أدمغة المرضى المصابين بداء ألزهايمر. وقد رُبطت درجة هذا الفقدان الكوليني بدرجة الضعف الإدراكي وبكثافة لويحات الأميلويد (وهي سمة مرضية عصبية مميزة لداء ألزهايمر). […] غالانتامين، وهو قلواني ثلاثي، مثبط تنافسي وعكوس لإنزيم أسيتيل كولين إستراز.» النص الأصلي بالإنجليزية: "Although the etiology of cognitive impairment in Alzheimer’s disease (AD) is not fully understood, it has been reported that acetylcholine-producing neurons degenerate in the brains of patients with Alzheimer’s disease. The degree of this cholinergic loss has been correlated with degree of cognitive impairment and density of amyloid plaques (a neuropathological hallmark of Alzheimer’s disease). […] Galantamine, a tertiary alkaloid, is a competitive and reversible inhibitor of acetylcholinesterase." ([DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1)، إصدار 2026-07-02؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعلومات المعروفة، فالغالانتامين مثبط لإنزيم الأسيتيل كولينستراز ومعدِّل خيفي لمستقبلات الأسيتيل كولين النيكوتينية، وقد ثبتت فعاليته في أعراض مرض الزهايمر.
 
 أما بالنسبة لاضطرابات الحركة النفسية المنشأ، فلا يوجد دليل يربط التعديل الكولينرجي بهذه الحالة. والدرجة المرتفعة (0.9990) صادرة عن نموذج TxGNN (التعلم العميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مترابطة، وليست دليلاً بيولوجياً.
 
@@ -126,6 +126,19 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 - إجراء مراجعة منهجية للأدبيات وتقييم قابلية التطبيق السريري للاستطباب المتنبأ به.
 - تقييم نسبة الفائدة إلى الخطر، مع مراعاة احتمال الآثار خارج الهرمية.
 - دراسة الاستطبابات البديلة ذات الأدلة غير المباشرة (مثل الخلل الحركي المتأخر، المصنفة كسؤال بحثي) قبل تخصيص موارد للاستطباب الأول.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

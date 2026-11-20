@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 790
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Telavancin: الاستطباب الجديد المتوقع متلازمة فرط اللزوجة متعددة النسائل (مستوى الدليل L5). الاستطباب الأصلي: الالتهاب الرئوي البكتيري، والالتهاب الرئوي بالمكورات العنقودية الذهبي…"
 monitor_inn: "Telavancin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "septicemic plague", "premalignant hematological system disease", "hematological disease associated with an acquired peripheral neuropathy", "monoclonal gammopathy", "congenital hematological disorder"]
@@ -59,7 +59,7 @@ predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia",
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً، وما حدوده؟
 
-بيانات آلية العمل الأصلية غير متاحة حالياً. المعروف أن تيلافانسين مضاد حيوي ليبوغليكوببتيدي يثبّط تصنيع جدار الخلية البكتيرية ويُخلّ بسلامة الغشاء الخلوي، وهو فعّال أساساً ضد البكتيريا موجبة الغرام.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Telavancin (ترجمة غير رسمية): «تيلافانسين دواء مضاد للبكتيريا. […] يثبط تيلافانسين التخليق الحيوي للجدار الخلوي عن طريق الارتباط بطلائع الببتيدوغليكان في المرحلة المتأخرة، بما في ذلك الليبيد II. كما يرتبط تيلافانسين بالغشاء البكتيري ويُخِلّ بوظيفة الغشاء الحاجزة. التداخلات مع الأدوية الأخرى المضادة للبكتيريا: أظهرت الدراسات المختبرية عدم وجود تضاد بين تيلافانسين وكل من أميكاسين، وأزتريونام، وسيفيبيم، وسيفترياكسون، وسيبروفلوكساسين، وجنتاميسين، وإيميبينيم، وميروبينيم، وأوكساسيلين، وبيبيراسيلين/تازوباكتام، وريفامبين، وتريميثوبريم/سلفاميثوكسازول عند اختبارها في توليفات مختلفة ضد المكورات العنقودية والمكورات العقدية والمكورات المعوية الحساسة لتيلافانسين.» النص الأصلي بالإنجليزية: "Telavancin is an antibacterial drug. […] Telavancin inhibits cell wall biosynthesis by binding to late-stage peptidoglycan precursors, including lipid II. Telavancin also binds to the bacterial membrane and disrupts membrane barrier function. Interactions with Other Antibacterial Drugs In vitro investigations demonstrated no antagonism between telavancin and amikacin, aztreonam, cefepime, ceftriaxone, ciprofloxacin, gentamicin, imipenem, meropenem, oxacillin, piperacillin/tazobactam, rifampin, and trimethoprim/sulfamethoxazole when tested in various combinations against telavancin-susceptible staphylococci, streptococci, and enterococci." ([DailyMed: Vibativ (telavancin hydrochloride) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5359b759-db7c-4672-9e8a-59c93869bd91)، إصدار 2025-12-19؛ تاريخ الاطلاع 2026-11-20). المعروف أن تيلافانسين مضاد حيوي ليبوغليكوببتيدي يثبّط تصنيع جدار الخلية البكتيرية ويُخلّ بسلامة الغشاء الخلوي، وهو فعّال أساساً ضد البكتيريا موجبة الغرام.
 
 أما متلازمة فرط اللزوجة متعددة النسائل فتنتج عن ارتفاع الغلوبولينات المناعية أو بروتينات البلازما، ولا يعالج مضاد حيوي هذه الآلية. لذلك لا يوجد رابط آلي موثوق بين الاستطباب الأصلي والجديد. والدرجة المرتفعة (0.9963) صادرة عن نموذج TxGNN (التعلّم العميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين الأمراض المترابطة، وليست دليلاً بيولوجياً.
 
@@ -154,12 +154,13 @@ predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia",
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «والترخيصان المحليان ملغيان، فلا يوجد منتج سارٍ في السوق السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «تقييم الجدوى التجارية والتنظيمية في ظل إلغاء التراخيص المحلية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Vibativ (telavancin hydrochloride) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5359b759-db7c-4672-9e8a-59c93869bd91) |
 
 <!-- review:end log -->
 

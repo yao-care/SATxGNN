@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 732
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Romiplostim: الاستطباب الجديد المتوقع اضطراب إفراز الصفائح الدموية الأولي (مستوى الدليل L5). الاستطباب الأصلي: فقر الدم اللاتنسجي مجهول السبب، فقر الدم اللاتنسجي، نقص الصفائح المنا…"
 monitor_inn: "ROMIPLOSTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "platelet-type bleeding disorder", "autosomal dominant macrothrombocytopenia", "Ehlers-Danlos syndrome, fibronectinemic type"]
@@ -60,7 +60,7 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 ## لماذا يُعدّ هذا التنبؤ معقولًا (أو غير معقول)؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل ضمن البيانات المجمّعة لهذا التقرير. ومن المعروف أن روميبلوستيم ناهض لمستقبل الثرومبوبويتين (MPL) يحفّز تكاثر الخلايا النوّاءة (الميغاكاريوسيتات) وإنتاج الصفائح، ولذلك يُستخدم لرفع عدد الصفائح في نقص الصفائح المناعي المزمن.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Romiplostim (ترجمة غير رسمية): «يزيد Nplate إنتاج الصفائح الدموية من خلال الارتباط بمستقبل TPO وتنشيطه، وهي آلية مماثلة لآلية TPO الذاتي المنشأ.» النص الأصلي بالإنجليزية: "Nplate increases platelet production through binding and activation of the TPO receptor, a mechanism analogous to endogenous TPO." ([DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037)، إصدار 2026-06-23؛ تاريخ الاطلاع 2026-11-20). ومن المعروف أن روميبلوستيم ناهض لمستقبل الثرومبوبويتين (MPL) يحفّز تكاثر الخلايا النوّاءة (الميغاكاريوسيتات) وإنتاج الصفائح، ولذلك يُستخدم لرفع عدد الصفائح في نقص الصفائح المناعي المزمن.
 
 أما اضطراب إفراز الصفائح فهو خلل **نوعي** في إفراز حبيبات الصفائح، لا نقص في العدد. وبالتالي فإن رفع عدد الصفائح لا يُتوقع أن يصحّح الخلل الوظيفي. والورقة الوحيدة المرتبطة (PMID 25682608) تتناول أجسامًا مضادة ذاتية تثبط تكوّن الصفائح الأولية في نقص الصفائح المناعي، وهو مرض مختلف.
 
@@ -121,6 +121,19 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 - استكمال بيانات آلية العمل من DrugBank.
 - التفكير في إعطاء الأولوية لنقص الصفائح الوليدي والجنيني المناعي (FNAIT) كسؤال بحثي، مع مراجعة منهجية للأدلة وبيانات سلامة الجنين والوليد.
 - تحديد النمط الفرعي الوراثي واحتياطي نخاع العظم قبل صياغة أي فرضية في نقص الصفائح التكويني.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

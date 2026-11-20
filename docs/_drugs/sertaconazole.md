@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Sertaconazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Sertaconazole: الاستطباب الجديد المتوقع Ectothrix infectious disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -55,7 +55,7 @@ description: "Sertaconazole: الاستطباب الجديد المتوقع Ecto
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-بيانات آلية العمل الأصلية غير متوفرة حالياً ضمن البيانات المجمّعة. المعروف عن هذه الفئة من الأدوية أن مضادات الإيميدازول الفطرية تثبّط تخليق الإرغوستيرول في الغشاء الفطري، وهو ما يُظن أن سيرتاكونازول يشاركها فيه. وقد يضيف تركيبه الحاوي على حلقة بنزوثيوفين تأثيراً مباشراً على الغشاء، وهذا افتراض غير مؤكد في البيانات المتاحة.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Sertaconazole (ترجمة غير رسمية): «نترات السيرتاكونازول مضاد فطري من فئة الآزولات. […] يثبط السيرتاكونازول، وهو عامل مضاد للفطريات من فئة الآزولات، إنزيم 14 ألفا-لانوستيرول ديميثيلاز الفطري المتواسط بالسيتوكروم P-450. ويعمل هذا الإنزيم على تحويل اللانوستيرول إلى الإرغوستيرول. والإرغوستيرول مكون رئيسي لأغشية الخلايا الفطرية، ويؤدي نقص هذا المكون إلى إصابة الخلية الفطرية من خلال تسرب المكونات الرئيسية في السيتوبلازم من الخلية.» النص الأصلي بالإنجليزية: "Sertaconazole nitrate is an azole antifungal. […] Sertaconazole, an azole antifungal agent, inhibits fungal cytochrome P-450-mediated 14 alpha-lanosterol demethylase enzyme. This enzyme functions to convert lanosterol to ergosterol. Ergosterol is a key component of fungal cell membranes and lack of this component leads to fungal cell injury by leakage of key constituents in the cytoplasm from the cell." ([DailyMed: Ertaczo (sertaconazole nitrate) prescribing information, Coral Way Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6fa8dc4-2620-474e-a9b4-6657d9cbfa96)، إصدار 2026-04-07؛ تاريخ الاطلاع 2026-11-20). المعروف عن هذه الفئة من الأدوية أن مضادات الإيميدازول الفطرية تثبّط تخليق الإرغوستيرول في الغشاء الفطري، وهو ما يُظن أن سيرتاكونازول يشاركها فيه. وقد يضيف تركيبه الحاوي على حلقة بنزوثيوفين تأثيراً مباشراً على الغشاء، وهذا افتراض غير مؤكد في البيانات المتاحة.
 
 سعفة القدم والعدوى الخارجية الشعر كلتاهما عدوى بالفطريات الجلدية (dermatophytes). لذلك يبدو منطقياً من الناحية الآلية أن يؤثر دواء فعّال ضد هذه الفطريات في الحالة الأولى على الثانية. وهذا يفسّر جزئياً ارتفاع درجة التنبؤ.
 
@@ -96,6 +96,19 @@ description: "Sertaconazole: الاستطباب الجديد المتوقع Ecto
 - مراجعة منهجية للأدبيات حول سيرتاكونازول في التهابات فروة الرأس الفطرية.
 
 يدعمه منشوران علميان على الأقل: دراسة سريرية منشورة عام 1992 (PMID 1627203) ومراجعات علمية. هذا التنبؤ أقرب إلى الإمكانية العملية، ويستحق تقييماً مستقلاً بوصفه سؤالاً بحثياً.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ertaczo (sertaconazole nitrate) prescribing information, Coral Way Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6fa8dc4-2620-474e-a9b4-6657d9cbfa96) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

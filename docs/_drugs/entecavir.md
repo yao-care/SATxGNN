@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Entecavir: الاستطباب الجديد المتوقع التهاب الكبد C الفيروسي المزمن (chronic hepatitis C virus infection) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 (السارية: 17)"
 ---
 
@@ -54,7 +54,7 @@ description: "Entecavir: الاستطباب الجديد المتوقع الته
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن إنتكافير نظير نيوكليوزيدي يثبّط بوليميراز فيروس التهاب الكبد B ونسخه العكسي.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Entecavir (ترجمة غير رسمية): «إنتيكافير دواء مضاد للفيروسات يعمل ضد فيروس التهاب الكبد B. […] إنتيكافير، وهو نظير نوكليوزيدي للديوكسي غوانوزين ذو نشاط ضد المنتسخة العكسية (rt) لفيروس HBV، يُفسفَر بكفاءة إلى الشكل الفعّال ثلاثي الفوسفات، الذي يبلغ عمر النصف داخل الخلية له 15 ساعة. ومن خلال التنافس مع الركيزة الطبيعية ديوكسي غوانوزين ثلاثي الفوسفات، يُثبّط إنتيكافير ثلاثي الفوسفات وظيفيًا الأنشطة الثلاثة جميعها للمنتسخة العكسية لفيروس HBV: تمهيد القواعد، والانتساخ العكسي للسلسلة السالبة من الرنا المرسال قبل الجينومي، وتخليق السلسلة الموجبة من دنا HBV.» النص الأصلي بالإنجليزية: "Entecavir is an antiviral drug against hepatitis B virus. […] Entecavir, a deoxyguanosine nucleoside analogue with activity against HBV reverse transcriptase (rt), is efficiently phosphorylated to the active triphosphate form, which has an intracellular half-life of 15 hours. By competing with the natural substrate deoxyguanosine triphosphate, entecavir triphosphate functionally inhibits all three activities of the HBV reverse transcriptase: base priming, reverse transcription of the negative strand from the pregenomic messenger RNA, and synthesis of the positive strand of HBV DNA." ([DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20)، إصدار 2019-11-06؛ تاريخ الاطلاع 2026-11-20). المعروف أن إنتكافير نظير نيوكليوزيدي يثبّط بوليميراز فيروس التهاب الكبد B ونسخه العكسي.
 
 أما فيروس التهاب الكبد C فهو فيروس RNA يعتمد على إنزيم NS5B، وليس لإنتكافير نشاط مباشر معروف ضده. لذلك فالرابط الآلي ضعيف، ولا يتجاوز كونه رابطاً سريرياً غير مباشر: في المرضى المصابين بالفيروسين معاً، قد يعاود فيروس B النشاط بعد العلاج المضاد لفيروس C بالمضادات المباشرة (DAA)، فيُستخدم إنتكافير للوقاية من ذلك أو لعلاجه. أي أن فائدته تخص فيروس B وليس فيروس C.
 
@@ -95,6 +95,19 @@ description: "Entecavir: الاستطباب الجديد المتوقع الته
 - تحديد ما إذا كان المقصود هو استخدامه في الوقاية في العدوى المشتركة B/C، وهو استخدام يتعلق بفيروس B.
 - بيانات آلية العمل ونشرة العبوة المعتمدة (التحذيرات وموانع الاستعمال).
 - التحقق من وضع التراخيص المحلية الحالية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

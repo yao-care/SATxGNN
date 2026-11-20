@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Candesartan Cilexetil: الاستطباب الجديد المتوقع اعتلال الكلى الناجم عن ارتفاع الضغط الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (اضطراب ارتفاع ضغط الدم)، بحسب الرسم المعرفي لـ TxGN…"
 monitor_inn: "CANDESARTAN CILEXETIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
@@ -58,7 +58,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. استناداً إلى المعرفة الدوائية العامة، فإن كانديسارتان سيليكسيتيل حاصر لمستقبلات الأنجيوتensين II من النوع 1 (AT1)، وهو من فئة حاصرات مستقبلات الأنجيوتensين (ARBs). وهذا الاستنتاج مبني على الفارماكولوجيا العامة وليس على البيانات المرفقة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Candesartan Cilexetil (ترجمة غير رسمية): «يتكوّن الأنجيوتنسين II من الأنجيوتنسين I في تفاعل يحفزه الإنزيم المحوّل للأنجيوتنسين (ACE، كينيناز II). الأنجيوتنسين II هو العامل الرئيسي الرافع للضغط في نظام الرينين-أنجيوتنسين، وتشمل تأثيراته تضيق الأوعية الدموية، وتحفيز تخليق الألدوستيرون وإفرازه، وتحفيز القلب، وإعادة امتصاص الصوديوم في الكلى. […] يحجب كانديسارتان التأثيرات المضيقة للأوعية والمحفزة لإفراز الألدوستيرون للأنجيوتنسين II عن طريق الحجب الانتقائي لارتباط الأنجيوتنسين II بمستقبل AT 1 في العديد من الأنسجة، مثل العضلات الملساء الوعائية والغدة الكظرية.» النص الأصلي بالإنجليزية: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Candesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10)، إصدار 2025-12-22؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعرفة الدوائية العامة، فإن كانديسارتان سيليكسيتيل حاصر لمستقبلات الأنجيوتensين II من النوع 1 (AT1)، وهو من فئة حاصرات مستقبلات الأنجيوتensين (ARBs). وهذا الاستنتاج مبني على الفارماكولوجيا العامة وليس على البيانات المرفقة.
 
 ينشط نظام الرينين–الأنجيوتensين–الألدوستيرون (RAAS) بصورة محورية في ارتفاع ضغط الدم الخبيث وما يرافقه من إصابة كلوية، ولذلك فإن حجب مستقبلات AT1 معقول من الناحية البيولوجية. كما أن هذا الاستطباب وثيق الصلة بارتفاع ضغط الدم المعتمد أصلاً للدواء.
 
@@ -140,11 +140,12 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «(أسباب إلغاء التراخيص وإمكانية إعادة التسجيل)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10) |
 
 <!-- review:end log -->
 

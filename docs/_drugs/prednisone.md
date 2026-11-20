@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 685
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: الاستطباب الجديد المتوقع الثعلبة البقعية (alopecia areata) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -56,7 +56,7 @@ description: "Prednisone: الاستطباب الجديد المتوقع الث�
 
 الثعلبة البقعية مرض مناعي ذاتي تهاجم فيه الخلايا التائية بصيلات الشعر. بريدنيزون جلوكوكورتيكويد جهازي واسع التأثير في تثبيط المناعة والالتهاب، ويكبح استجابة الخلايا التائية الذاتية التفاعل. هذا ينسجم بيولوجياً مع النشاط الدوائي المعروف للبريدنيزون في الأمراض المناعية الذاتية.
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً في البيانات المجمعة لهذا التقرير. ومع ذلك، يتسق التأثير المثبط للمناعة المعروف للبريدنيزون مع الآلية المناعية لهذا المرض.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Prednisone (ترجمة غير رسمية): «تُستخدم الكورتيكوستيرويدات الطبيعية (الهيدروكورتيزون والكورتيزون)، التي تمتلك أيضاً خصائص احتباس الملح، كعلاج تعويضي في حالات قصور قشرة الكظر. أما نظائرها الاصطناعية، مثل البريدنيزون، فتُستخدم أساساً لتأثيراتها القوية المضادة للالتهاب في اضطرابات العديد من أجهزة الأعضاء.» النص الأصلي بالإنجليزية: "Naturally occurring corticosteroids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs, such as prednisone, are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a)، إصدار 2026-09-23؛ تاريخ الاطلاع 2026-11-20). ومع ذلك، يتسق التأثير المثبط للمناعة المعروف للبريدنيزون مع الآلية المناعية لهذا المرض.
 
 لهذا الاستخدام حدود واضحة. يقيّد الاستعمال الجهازي طويل الأمد ظهور الآثار الجانبية، ويشيع انتكاس المرض بعد التوقف عن العلاج. وتشير دراسة متابعة قديمة إلى أن الفائدة طويلة الأمد لم تكن كبيرة رغم الاستجابة الأولية.
 
@@ -112,6 +112,18 @@ description: "Prednisone: الاستطباب الجديد المتوقع الث�
 - تسجيل تجارب سريرية مضبوطة تقيّم الجرعة والمدة ومعدل الانتكاس.
 - وضع خطة لمراقبة السلامة طويلة الأمد، تشمل الضغط والسكر والعيون والعظام.
 - التحقق من الأشكال الصيدلانية المسجلة محلياً وتوافقها مع الاستخدام المقترح.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

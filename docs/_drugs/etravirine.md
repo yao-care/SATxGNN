@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "ETRAVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
 description: "Etravirine: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infection) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -57,7 +57,7 @@ description: "Etravirine: الاستطباب الجديد المتوقع عدو�
 
 إترافيرين يثبط إنزيم النسخ العكسي لفيروس HIV-1 بارتباطه غير التنافسي بالإنزيم. وفيروس نقص المناعة القردي (SIV) قريب من HIV ضمن الفيروسات البطيئة (Lentivirus)، وهذا ما يفسر ارتفاع الدرجة التي منحها النموذج.
 
-غير أن الانتقال الآلي ضعيف؛ فالـ SIV، مثل HIV-2، مقاوم بطبيعته لمعظم مثبطات NNRTI. كما أن هذا المرض ذو صلة بيطرية أو بنماذج ما قبل السريرية في الأساس. ولا تتوفر حالياً بيانات تفصيلية عن آلية الفعل لهذا الدواء ضمن البيانات المجمّعة لهذا التقرير.
+غير أن الانتقال الآلي ضعيف؛ فالـ SIV، مثل HIV-2، مقاوم بطبيعته لمعظم مثبطات NNRTI. كما أن هذا المرض ذو صلة بيطرية أو بنماذج ما قبل السريرية في الأساس. وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Etravirine (ترجمة غير رسمية): «إترافيرين دواء مضاد للفيروسات القهقرية. […] إترافيرين هو NNRTI لفيروس HIV-1. يرتبط إترافيرين مباشرة بالمنتسخة العكسية (RT) ويحجب أنشطة بوليميراز DNA المعتمدة على RNA والمعتمدة على DNA عن طريق إحداث اضطراب في الموقع التحفيزي للإنزيم. لا يثبط إترافيرين بوليميرازات DNA البشرية α وβ وγ.» النص الأصلي بالإنجليزية: "Etravirine is an antiretroviral drug. […] Etravirine is an NNRTI of HIV-1. Etravirine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site. Etravirine does not inhibit the human DNA polymerases α, β, and γ." ([DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d)، إصدار 2023-08-15؛ تاريخ الاطلاع 2026-11-20).
 
 ## الأدلة من التجارب السريرية
 
@@ -93,6 +93,18 @@ description: "Etravirine: الاستطباب الجديد المتوقع عدو�
 - بيانات آلية الفعل التفصيلية للدواء.
 - الحصول على تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة لدى هيئة الغذاء والدواء السعودية.
 - تحديد مدى وجود حاجة سريرية بشرية فعلية لهذا الاستطباب قبل أي استثمار إضافي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

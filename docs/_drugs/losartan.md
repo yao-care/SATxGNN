@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 517
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"
@@ -59,7 +59,7 @@ description: "Losartan: الاستطباب الجديد المتوقع Malignant
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. استناداً إلى المعلومات المعروفة، يحجب لوسارتان مستقبل AT1 (الجين AGTR1)، وقد ثبتت فعاليته في ارتفاع ضغط الدم واعتلال الكلية السكري.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Losartan (ترجمة غير رسمية): «الأنجيوتنسين II [المتكوّن من الأنجيوتنسين I في تفاعل يحفّزه الإنزيم المحوِّل للأنجيوتنسين (ACE، الكينيناز II)] مقبّض قوي للأوعية، وهو الهرمون الرئيسي الفعّال وعائياً في نظام الرينين-أنجيوتنسين، ومكوّن مهم في الفيزيولوجيا المرضية لارتفاع ضغط الدم. كما أنه يحفّز إفراز الألدوستيرون من قشرة الكظر. […] يحجب لوسارتان ومستقلبه الفعّال الرئيسي التأثيرات المقبّضة للأوعية والمحفّزة لإفراز الألدوستيرون للأنجيوتنسين II عن طريق الحجب الانتقائي لارتباط الأنجيوتنسين II بالمستقبل AT 1 الموجود في العديد من الأنسجة (مثل العضلات الملساء الوعائية، والغدة الكظرية).» النص الأصلي بالإنجليزية: "Angiotensin II [formed from angiotensin I in a reaction catalyzed by angiotensin converting enzyme (ACE, kininase II)] is a potent vasoconstrictor, the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. It also stimulates aldosterone secretion by the adrenal cortex. […] Losartan and its principal active metabolite block the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor found in many tissues, (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41)، إصدار 2026-09-15؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعلومات المعروفة، يحجب لوسارتان مستقبل AT1 (الجين AGTR1)، وقد ثبتت فعاليته في ارتفاع ضغط الدم واعتلال الكلية السكري.
 
 يرتبط ارتفاع ضغط الدم الكلوي الوعائي بتنشيط جهاز الرينين–أنجيوتensin، لذا فإن حجب مستقبل AT1 منطقي نظرياً. ويدعم ذلك جزئياً تقرير حالة لمريضة بالتهاب الشرايين تاكاياسو تحسّن ضغطها باستخدام إينالابريل مع لوسارتان.
 
@@ -138,11 +138,12 @@ description: "Losartan: الاستطباب الجديد المتوقع Malignant
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «(تراخيص ملغاة)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41) |
 
 <!-- review:end log -->
 

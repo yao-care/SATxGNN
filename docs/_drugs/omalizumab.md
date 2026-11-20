@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 614
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -54,7 +54,7 @@ description: "Omalizumab: الاستطباب الجديد المتوقع الت�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-أوماليزوماب جسم مضاد يستهدف سلسلة IgE الثقيلة الثابتة (الجين IGHE)، فيخفض مستوى IgE الحر ويقلل التنشيط التحسسي للخلايا البدينة والخلايا القاعدية. بيانات آلية العمل التفصيلية غير متوفرة في البيانات المجمّعة لهذا التقرير، والوصف هنا مبني على المعلومات الدوائية المتاحة.
+أوماليزوماب جسم مضاد يستهدف سلسلة IgE الثقيلة الثابتة (الجين IGHE)، فيخفض مستوى IgE الحر ويقلل التنشيط التحسسي للخلايا البدينة والخلايا القاعدية. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Omalizumab (ترجمة غير رسمية): «الربو، والتهاب الجيوب الأنفية المزمن المصحوب بسلائل أنفية، والحساسية الغذائية المتواسطة بـ IgE تثبط منتجات أوماليزوماب ارتباط IgE بمستقبل IgE عالي الألفة (FcεRI) على سطح الخلايا البدينة والخلايا القاعدية والخلايا المتغصنة، مما يؤدي إلى تنظيم سلبي لـ FcεRI على هذه الخلايا. لدى مرضى الربو التحسسي، يثبط العلاج بمنتجات أوماليزوماب الالتهاب المتواسط بـ IgE، كما يتضح من انخفاض الحمضات في الدم والأنسجة وانخفاض الوسائط الالتهابية، بما في ذلك IL-4 وIL-5 وIL-13.» النص الأصلي بالإنجليزية: "Asthma, Chronic Rhinosinusitis with Nasal Polyps, and IgE-Mediated Food Allergy Omalizumab products inhibit the binding of IgE to the high-affinity IgE receptor (FcεRI) on the surface of mast cells, basophils, and dendritic cells, resulting in FcεRI down-regulation on these cells. In allergic asthmatics, treatment with omalizumab products inhibit IgE-mediated inflammation, as evidenced by reduced blood and tissue eosinophils and reduced inflammatory mediators, including IL-4, IL-5, and IL-13." ([DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84)، إصدار 2026-10-06؛ تاريخ الاطلاع 2026-11-20).
 
 الصلة بالتهاب الشعب الهوائية غير مباشرة. قد يسهم الالتهاب المرتبط بـ IgE في بعض أنماط التهاب الشعب الهوائية، مثل الالتهاب اليوزيني المستمر. غير أن هذا الاستنتاج آلي ولم تؤكده دراسة سريرية موجّهة لهذا المرض. لا توجد تجربة تستهدف التهاب الشعب الهوائية بذاته، ولا تؤيد الدراسات المنشورة فعالية أوماليزوماب فيه.
 
@@ -106,6 +106,18 @@ description: "Omalizumab: الاستطباب الجديد المتوقع الت�
 - تحميل النشرة الدوائية من موقع هيئة الغذاء والدواء السعودية (SFDA) لاستخراج التحذيرات وموانع الاستعمال.
 - استكمال بيانات آلية العمل التفصيلية.
 - مراجعة أمان الاستخدام عند الفئات الخاصة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

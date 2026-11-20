@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 746
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "SEBELIPASE ALFA"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
 description: "Sebelipase Alfa: الاستطباب الجديد المتوقع متلازمة شايي (Scheie syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -54,7 +54,7 @@ description: "Sebelipase Alfa: الاستطباب الجديد المتوقع م
 
 ## لماذا هذا التوقع؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن سيبيليباز ألفا إنزيم ليباز حمضي لايسوسومي مأشوب يعوّض نقص هذا الإنزيم.
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Sebelipase Alfa هي (ترجمة غير رسمية): «إنزيم حالّ لإسترات الكوليسترول؛ إنزيم حالّ للدهون الثلاثية». النص الأصلي بالإنجليزية: "Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme" ([ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20). المعروف أن سيبيليباز ألفا إنزيم ليباز حمضي لايسوسومي مأشوب يعوّض نقص هذا الإنزيم.
 
 متلازمة شايي (الشكل الخفيف من داء MPS I) سببها نقص إنزيم ألفا-إل-إيدورونيداز، وهو إنزيم مختلف عن الليباز الحمضي اللايسوسومي، ولا يعوّضه سيبيليباز ألفا. ويرجح أن الدرجة المرتفعة تعكس تشابهاً عاماً في سمات شبكة اضطرابات التخزين اللايسوسومي، لا مسوّغاً آلياً نوعياً. لذلك يبقى التوقع فرضية ضعيفة الأساس الآلي.
 
@@ -90,6 +90,18 @@ description: "Sebelipase Alfa: الاستطباب الجديد المتوقع م
 - بيانات آلية العمل التفصيلية
 - نص تحذيرات وموانع الاستعمال من النشرة الداخلية المعتمدة
 - تقييم جدوى طريق الإعطاء والتوافق معه
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

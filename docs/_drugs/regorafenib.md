@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 715
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "REGORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
 description: "Regorafenib: الاستطباب الجديد المتوقع الساركوما الشحمية (liposarcoma) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -58,7 +58,7 @@ description: "Regorafenib: الاستطباب الجديد المتوقع الس
 
 غير أن الصورة السريرية أكثر تعقيداً: فقد أظهرت تجربة REGOSARC العشوائية من المرحلة الثانية فائدة في الساركوما غير الشحمية، لكن ليس في الساركوما الشحمية. وبالتالي يجب تفسير التأثير بحسب النمط الفرعي بحذر.
 
-ملاحظة: بيانات آلية العمل التفصيلية غير متوفرة في البيانات المجمّعة لهذا التقرير، والوصف أعلاه مبني على المعلومات المعروفة عن فئة الدواء.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Regorafenib (ترجمة غير رسمية): «الريغورافينيب مثبط من الجزيئات الصغيرة لكينازات متعددة مرتبطة بالغشاء وداخل الخلايا تشارك في الوظائف الخلوية الطبيعية وفي العمليات المرضية مثل تكوّن الأورام وتكوّن الأوعية الدموية الورمية والنقائل والمناعة الورمية. وفي الاختبارات الكيميائية الحيوية أو الخلوية في المختبر، ثبّط الريغورافينيب أو مستقلباه النشطان الرئيسيان لدى البشر M-2 وM-5 نشاط RET وVEGFR1 وVEGFR2 وVEGFR3 وKIT وPDGFR-alpha وPDGFR-beta وFGFR1 وFGFR2 وTIE2 وDDR2 وTrkA وEph2A وRAF-1 وBRAF وBRAF V600E وSAPK2 وPTK5 وAbl وCSF1R عند تراكيز من الريغورافينيب تم بلوغها سريريًا.» النص الأصلي بالإنجليزية: "Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically." ([DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7)، إصدار 2026-02-09؛ تاريخ الاطلاع 2026-11-20).
 
 ## الأدلة من التجارب السريرية
 
@@ -123,11 +123,12 @@ description: "Regorafenib: الاستطباب الجديد المتوقع الس
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-12 | الجدول: STIVARGA 40 mg film-coated tablet مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7) |
 
 <!-- review:end log -->
 

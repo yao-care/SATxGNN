@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Hydroquinone: الاستطباب الجديد المتوقع التقرن الدهني (Seborrheic Keratosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص السعودية (نصوص المؤشرات المعتمدة فارغة)"
 monitor_inn: "HYDROQUINONE"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
@@ -58,7 +58,7 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا. وبحسب المعروف، يثبّط الهيدروكينون إنزيم التيروزيناز ويقلل تخليق الميلانين، ولذلك قد يخفف تصبغ آفات التقرن الدهني.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Hydroquinone (ترجمة غير رسمية): «يُحدث التطبيق الموضعي للهيدروكينون إزالة تصبّغ عكوسة للجلد عن طريق تثبيط الأكسدة الإنزيمية للتيروزين إلى 3,4-ثنائي هيدروكسي فينيل ألانين (دوبا) (Denton, C. et al., 1952)1 وكبح العمليات الاستقلابية الأخرى للخلايا الصباغية (Jimbow, K. et al., 1974)2. ويؤدي التعرض لأشعة الشمس أو للأشعة فوق البنفسجية إلى عودة التصبّغ إلى المناطق المُبيَّضة (Parrish, L.A. et al., 1978)3.» النص الأصلي بالإنجليزية: "Topical application of hydroquinone produces a reversible depigmentation of the skin by inhibition of the enzymatic oxidation of tyrosine to 3,4-dihydroxyphenylalanine (dopa) (Denton, C. et al., 1952)1 and suppression of other melanocyte metabolic processes (Jimbow, K. et al., 1974)2. Exposure to sunlight or ultraviolet light will cause repigmentation of bleached areas (Parrish, L.A. et al., 1978)3." ([DailyMed: Hydroquinone 4% (hydroquinone) prescribing information, Acella Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595dfc50-ee6f-41b5-ab5b-4c293aee342b)، إصدار 2026-07-10؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، يثبّط الهيدروكينون إنزيم التيروزيناز ويقلل تخليق الميلانين، ولذلك قد يخفف تصبغ آفات التقرن الدهني.
 
 غير أن هذا التأثير سيكون تجميليًا فقط، ولا يعالج التكاثر البشروي الحميد الكامن وراء المرض. والدليل الوحيد المرتبط دراسة رصدية مستقبلية لعلاج مركّب لاضطرابات التصبغ في الوجه، وبالتالي فالدعم لهذا المؤشر غير مباشر.
 
@@ -133,11 +133,12 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وأسباب إلغاء التراخيص الثمانية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Hydroquinone 4% (hydroquinone) prescribing information, Acella Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595dfc50-ee6f-41b5-ab5b-4c293aee342b) |
 
 <!-- review:end log -->
 

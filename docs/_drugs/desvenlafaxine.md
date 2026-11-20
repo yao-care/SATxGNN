@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 245
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Desvenlafaxine: الاستطباب الجديد المتوقع اضطراب الوسواس القهري (مستوى الدليل L4). الاستطباب الأصلي: الاكتئاب الأحادي القطب، اضطراب الاكتئاب الرئيسي، اضطراب القلق (من الر…"
 monitor_inn: "Desvenlafaxine"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -59,7 +59,7 @@ predicted_indications: ["obsessive-compulsive disorder", "histrionic personality
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. استناداً إلى المعلومات المعروفة، ديسفينلافاكسين من فئة مثبطات إعادة امتصاص السيروتونين والنورإبينفرين، وقد ثبتت فعاليته في الاكتئاب، ومن الناحية الآلية قد ينطبق على اضطراب الوسواس القهري. وتشير بيانات الاستهداف الدوائي إلى ارتباطه بالناقلات SERT وNET وDAT.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Desvenlafaxine (ترجمة غير رسمية): «الآلية الدقيقة للتأثير المضاد للاكتئاب للديسفينلافاكسين غير معروفة، ولكن يُعتقد أنها مرتبطة بتعزيز السيروتونين والنورإبينفرين في الجهاز العصبي المركزي، من خلال تثبيط إعادة امتصاصهما. وقد أظهرت الدراسات غير السريرية أن الديسفينلافاكسين مثبط SNRI قوي وانتقائي.» النص الأصلي بالإنجليزية: "The exact mechanism of the antidepressant action of desvenlafaxine is unknown, but is thought to be related to the potentiation of serotonin and norepinephrine in the central nervous system, through inhibition of their reuptake. Non-clinical studies have shown that desvenlafaxine is a potent and selective SNRI." ([DailyMed: Pristiq Extended-Release (desvenlafaxine succinate) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce)، إصدار 2026-04-28؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعلومات المعروفة، ديسفينلافاكسين من فئة مثبطات إعادة امتصاص السيروتونين والنورإبينفرين، وقد ثبتت فعاليته في الاكتئاب، ومن الناحية الآلية قد ينطبق على اضطراب الوسواس القهري. وتشير بيانات الاستهداف الدوائي إلى ارتباطه بالناقلات SERT وNET وDAT.
 
 يعتمد علاج الوسواس القهري أساساً على التعديل السيروتونيني (مثبطات SSRI وكلوميبرامين)، لذلك توجد حجة آلية معقولة. غير أن فاعلية ديسفينلافاكسين على السيروتونين أقل من فاعلية مثبطات SSRI، ولا يوجد دليل سريري مباشر في الوسواس القهري. وهذا الربط مستنتج من فئة الدواء فقط.
 
@@ -124,6 +124,19 @@ predicted_indications: ["obsessive-compulsive disorder", "histrionic personality
 ### ملاحظة إضافية
 
 من بين الاستطبابات المتنبأ بها الأخرى، يتمتع **اضطراب عسر المزاج (Dysthymic disorder)** بأدلة أقوى بكثير (مستوى L3): تجربتان مكتملتان تختبران ديسفينلافاكسين مباشرة (NCT01537068، المرحلة 4، مضبوطة بالدواء الوهمي، 59 مشاركاً؛ وNCT01948895، مفتوحة التسمية، 30 مشاركاً)، إضافة إلى تحليل تجميعي لتجارب عشوائية يدعم فعالية مضادات الاكتئاب في هذه الحالة (PMID: 21527126). ومع ذلك، فهو قريب من الاستطباب الأصلي، ويُوصى بتقييمه كسؤال بحثي منفصل.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Pristiq Extended-Release (desvenlafaxine succinate) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

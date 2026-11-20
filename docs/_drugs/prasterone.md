@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 681
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Prasterone: الاستطباب الجديد المتوقع نقص العامل المساعد للهيبارين 2 (مستوى الدليل L5). الاستطباب الأصلي: الذئبة الحمامية الجهازية (إضافة إلى الذئبة الجهازية عند الأطفال وعسر…"
 monitor_inn: "PRASTERONE"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy", "thrombophilia due to protein S deficiency, autosomal recessive", "scleroderma (disease)", "complement component 4a deficiency", "pseudo-von Willebrand disease", "primary release disorder of platelets"]
@@ -58,7 +58,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with s
 
 ## لماذا يُعد هذا التنبؤ معقولًا (أو غير معقول)؟
 
-لا تتوفر حاليًا بيانات مفصلة عن آلية العمل. براستيرون هو DHEA، سلف لهرمونات الأندروجين والإستروجين. تُظهر بيانات الدراسات الدوائية أنه يرتبط بمستقبل الغليسين، ولكن لا يوجد ارتباط معروف بنشاط العامل المساعد للهيبارين 2 (SERPIND1).
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Prasterone (ترجمة غير رسمية): «البراستيرون ستيرويد داخلي المنشأ غير نشط، ويتحول إلى أندروجينات و/أو إستروجينات نشطة. ولم تثبت آلية عمل INTRAROSA بشكل كامل لدى النساء بعد سن اليأس المصابات بضمور الفرج والمهبل.» النص الأصلي بالإنجليزية: "Prasterone is an inactive endogenous steroid and is converted into active androgens and/or estrogens. The mechanism of action of INTRAROSA in postmenopausal women with vulvar and vaginal atrophy is not fully established." ([DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7)، إصدار 2026-07-17؛ تاريخ الاطلاع 2026-11-20). براستيرون هو DHEA، سلف لهرمونات الأندروجين والإستروجين. تُظهر بيانات الدراسات الدوائية أنه يرتبط بمستقبل الغليسين، ولكن لا يوجد ارتباط معروف بنشاط العامل المساعد للهيبارين 2 (SERPIND1).
 
 لا يوجد رابط آلي مثبت بين براستيرون وهذا المرض. درجة TxGNN مرتفعة جدًا (0.9999) لكنها صادرة عن نموذج TxGNN (تعلّم عميق) وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض ذات صلة، وليست دليلًا بيولوجيًا. أي علاقة محتملة، كالتأثير الهرموني في عوامل التخثر، تظل تخمينية.
 
@@ -125,12 +125,13 @@ predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with s
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن المنتج الوحيد المرخص في السعودية ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «نظرًا لأن ترخيص المنتج الوحيد ملغى وأن المسارات الدوائية لم تُحدد بعد» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7) |
 
 <!-- review:end log -->
 

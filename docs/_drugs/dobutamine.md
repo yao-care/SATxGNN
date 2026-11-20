@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Dobutamine: الاستطباب الجديد المتوقع الثعلبة (Alopecia) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نصوص الاستطباب فارغة)؛ المعروف دوائياً:…"
 monitor_inn: "DOBUTAMINE"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "headache disorder", "hypertrichosis (disease)", "migraine disorder"]
@@ -60,7 +60,7 @@ predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "conge
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً؟ (ولماذا هو في الواقع ضعيف)
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. ومن المعروف أن الدوبوتامين محفّز لمستقبلات بيتا-1 يزيد انقباض عضلة القلب، مع تأثير خفيف موسّع للأوعية عبر بيتا-2.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Dobutamine (ترجمة غير رسمية): «هيدروكلوريد دوبوتامين عامل مؤثر في قوة التقلص مباشر التأثير ينتج نشاطه الأساسي عن تحفيز مستقبلات بيتا في القلب، مع إحداث تأثيرات خفيفة نسبيًا على معدل ضربات القلب ورافعة لضغط الدم ومسببة لاضطراب النظم وموسعة للأوعية. ولا يسبب تحرير النورإبينفرين الداخلي المنشأ، كما يفعل الدوبامين.» النص الأصلي بالإنجليزية: "Dobutamine hydrochloride is a direct-acting inotropic agent whose primary activity results from stimulation of the beta-receptors of the heart while producing comparatively mild chronotropic, hypertensive, arrhythmogenic, and vasodilative effects. It does not cause the release of endogenous norepinephrine, as does dopamine." ([DailyMed: Dobutamine Hydrochloride In Dextrose (dobutamine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b17b98b-e06d-42ed-925f-69aa2699dead)، إصدار 2023-09-08؛ تاريخ الاطلاع 2026-11-20). ومن المعروف أن الدوبوتامين محفّز لمستقبلات بيتا-1 يزيد انقباض عضلة القلب، مع تأثير خفيف موسّع للأوعية عبر بيتا-2.
 
 لا توجد آلية معروفة تربط تحفيز بيتا-1 بيولوجياً بنمو بصيلات الشعر. ويرجّح أن الدرجة المرتفعة ناتجة عن قرب الدواء في الشبكة المعرفية من موسّعات الأوعية مثل المينوكسيديل، المعروف باستخدامه في الثعلبة. والمنشور الوحيد المرتبط حالة بيطرية لقصور قلب بسبب تسمم بالمينوكسيديل في قطة، استُخدم فيها الدوبوتامين لعلاج انخفاض الضغط؛ فهو لا يخص فعالية الدوبوتامين في الثعلبة، وهو ارتباط زائف.
 
@@ -117,6 +117,19 @@ predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "conge
 - استكمال بيانات آلية العمل من DrugBank.
 - إثبات وجود آلية بيولوجية معقولة وبيانات ما قبل سريرية تدعم تأثير الدواء على بصيلات الشعر.
 - النظر في الأولويات الأخرى ضمن قائمة التنبؤات، علماً أن جميعها بمستوى L5 دون دعم سريري، وأن مراجعة الصلة المعقولة (مثل الرينود) لا تزال ضعيفة الأدلة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Dobutamine Hydrochloride In Dextrose (dobutamine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b17b98b-e06d-42ed-925f-69aa2699dead) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 233
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Daunorubicin: الاستطباب الجديد المتوقع لمفومة هودجكين (مستوى الدليل L3). الاستطباب الأصلي: اللوكيميا اللمفاوية الحادة واللوكيميا النقوية الحادة (لا يتوفر نص است…"
 monitor_inn: "DAUNORUBICIN"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
@@ -58,7 +58,7 @@ predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable e
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في السجلات المتاحة. وبناءً على المعرفة العامة، داونوروبيسين من فئة الأنثراسيكلينات التي تتداخل مع الحمض النووي (DNA) وتثبط إنزيم توبويزوميراز II، وهي آلية فعالة في الأورام اللمفاوية الخبيثة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Daunorubicin (ترجمة غير رسمية): «يتمتع دونوروبيسين بنشاط مضاد للانقسام الخيطي وسام للخلايا من خلال عدد من آليات التأثير المقترحة. يُكوّن دونوروبيسين معقدات مع DNA عن طريق الإقحام بين أزواج القواعد. ويثبط نشاط topoisomerase II عن طريق تثبيت معقد DNA-topoisomerase II، مما يمنع جزء إعادة الربط من تفاعل الربط وإعادة الربط الذي يحفزه topoisomerase II.» النص الأصلي بالإنجليزية: "Daunorubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action. Daunorubicin forms complexes with DNA by intercalation between base pairs. It inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes." ([DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f)، إصدار 2025-05-21؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعرفة العامة، داونوروبيسين من فئة الأنثراسيكلينات التي تتداخل مع الحمض النووي (DNA) وتثبط إنزيم توبويزوميراز II، وهي آلية فعالة في الأورام اللمفاوية الخبيثة.
 
 تشترك اللوكيميا الحادة ولمفومة هودجكين في كونهما من الأورام الدموية اللمفاوية، وتشكل الأنثراسيكلينات جزءاً من أساس بروتوكولات العلاج الكيميائي لكليهما، كما تشير مراجعة عام 2018 حول سمية الأنثراسيكلينات.
 
@@ -161,11 +161,12 @@ predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable e
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «إذ إن الترخيص الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f) |
 
 <!-- review:end log -->
 

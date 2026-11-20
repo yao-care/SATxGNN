@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Esketamine: الاستطباب الجديد المتوقع رهاب الساحات (Agoraphobia) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق، الاضطراب العصابي، الاضطراب الديستيمي (من الرسم المعرفي؛…"
 monitor_inn: "Esketamine"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
@@ -58,7 +58,7 @@ predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف عموماً، إسكيتامين مضاد لمستقبلات NMDA ويعدّل النقل الغلوتاماتي، ويُستخدم في الاكتئاب المقاوم للعلاج. وتتداخل استطباباته الأصلية (القلق والاضطراب العصابي) مع طيف القلق الذي ينتمي إليه رهاب الساحات، وهذا هو الرابط المحتمل الوحيد.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Esketamine (ترجمة غير رسمية): «إسكيتامين، وهو المتماكب المرآتي S للكيتامين الراسيمي، مضاد غير انتقائي وغير تنافسي لمستقبِل N -ميثيل- D -أسبارتات (NMDA)، وهو مستقبِل غلوتامات مُوجَّه للأيونات. الآلية التي يُحدث بها إسكيتامين تأثيره المضاد للاكتئاب غير معروفة.» النص الأصلي بالإنجليزية: "Esketamine, the S-enantiomer of racemic ketamine, is a non-selective, non-competitive antagonist of the N -methyl- D -aspartate (NMDA) receptor, an ionotropic glutamate receptor. The mechanism by which esketamine exerts its antidepressant effect is unknown." ([DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed)، إصدار 2026-09-22؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عموماً، إسكيتامين مضاد لمستقبلات NMDA ويعدّل النقل الغلوتاماتي، ويُستخدم في الاكتئاب المقاوم للعلاج. وتتداخل استطباباته الأصلية (القلق والاضطراب العصابي) مع طيف القلق الذي ينتمي إليه رهاب الساحات، وهذا هو الرابط المحتمل الوحيد.
 
 هذا الرابط **تخميني ولم يُتحقق منه** في البيانات المتاحة. كما أن الآثار الجانبية التفارقية والمولّدة للقلق للإسكيتامين قد تفاقم أعراض الرهاب أو الهلع، لذا فاتجاه التأثير غير مؤكد.
 
@@ -135,11 +135,12 @@ predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed) |
 
 <!-- review:end log -->
 

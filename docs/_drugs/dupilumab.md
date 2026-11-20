@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Dupilumab: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -54,7 +54,7 @@ description: "Dupilumab: الاستطباب الجديد المتوقع الته
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعروف عن دوبيلوماب، فهو يحجب المستقبل IL-4Rα فيثبّط مساري الإنترلوكين-4 والإنترلوكين-13. هذان المساران يقودان الالتهاب الإيوزيني في المجاري الهوائية وفرط إفراز المخاط وإعادة تشكّل المجاري الهوائية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Dupilumab (ترجمة غير رسمية): «دوبيلوماب ضد وحيد النسيلة بشري من نوع IgG4 يثبط إشارات الإنترلوكين-4 (IL-4) والإنترلوكين-13 (IL-13) بالارتباط النوعي بالوحيدة الفرعية IL-4Rα المشتركة بين معقدي مستقبلات IL-4 وIL-13. ويثبط دوبيلوماب إشارات IL-4 عبر المستقبل من النمط I، وإشارات كل من IL-4 وIL-13 عبر المستقبل من النمط II.» النص الأصلي بالإنجليزية: "Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor." ([DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780)، إصدار 2026-04-22؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن دوبيلوماب، فهو يحجب المستقبل IL-4Rα فيثبّط مساري الإنترلوكين-4 والإنترلوكين-13. هذان المساران يقودان الالتهاب الإيوزيني في المجاري الهوائية وفرط إفراز المخاط وإعادة تشكّل المجاري الهوائية.
 
 تأتي البيانات الداعمة أساساً من الربو (دراسة التمديد طويلة الأمد TRAVERSE وتحليل تلوي لتجارب عشوائية)، ومن داء الانسداد الرئوي المزمن من النوع الثاني (سلاسل حالات ودراسات واقعية)، ومن تقارير حالات عن التهاب الشعب الهوائية اللدائني الإيوزيني عند الأطفال. أما التجربة السريرية الوحيدة المرتبطة فتخص التهاب الجيوب الأنفية المزمن دون سلائل، وهو مرض في المجاري الهوائية العليا وليس التهاب الشعب الهوائية.
 
@@ -113,6 +113,19 @@ description: "Dupilumab: الاستطباب الجديد المتوقع الته
 - بيانات آلية العمل التفصيلية من مصدر موثوق.
 - تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة في الهيئة العامة للغذاء والدواء.
 - خطة لمراقبة السلامة، خصوصاً عند الاستعمال مع أدوية مثبطة للمناعة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

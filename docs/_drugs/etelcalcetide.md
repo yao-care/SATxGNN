@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 323
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Etelcalcetide: الاستطباب الجديد المتوقع فرط فوسفات الدم (Hyperphosphatemia) (مستوى الدليل L4). الاستطباب الأصلي: فرط نشاط جارات الدرق (Hyperparathyroidism)"
 monitor_inn: "ETELCALCETIDE"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices with bleeding", "esophageal varices without bleeding", "varicose disease"]
@@ -59,7 +59,7 @@ predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices with 
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في قاعدة البيانات. وبحسب المعلومات المعروفة، فإيتيلكالسيتايد ينشّط مستقبل الكالسيوم الحساس (CaSR) في خلايا جارات الدرق فيخفّض هرمون الغدة (PTH)، وقد ثبتت فعاليته في فرط نشاط جارات الدرق الثانوي لدى مرضى غسيل الكلى.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Etelcalcetide (ترجمة غير رسمية): «إيتيلكالسيتيد هو عامل محاكٍ للكالسيوم يعدِّل تفارغيًا (allosterically) المستقبل الحساس للكالسيوم (CaSR). يرتبط إيتيلكالسيتيد بالمستقبل CaSR ويعزز تنشيط المستقبل بواسطة الكالسيوم خارج الخلية. ويؤدي تنشيط المستقبل CaSR على الخلايا الرئيسية للغدة جار الدرقية إلى خفض إفراز PTH.» النص الأصلي بالإنجليزية: "Etelcalcetide is a calcimimetic agent that allosterically modulates the calcium-sensing receptor (CaSR). Etelcalcetide binds to the CaSR and enhances activation of the receptor by extracellular calcium. Activation of the CaSR on parathyroid chief cells decreases PTH secretion." ([DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c)، إصدار 2026-03-08؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإيتيلكالسيتايد ينشّط مستقبل الكالسيوم الحساس (CaSR) في خلايا جارات الدرق فيخفّض هرمون الغدة (PTH)، وقد ثبتت فعاليته في فرط نشاط جارات الدرق الثانوي لدى مرضى غسيل الكلى.
 
 قد ينخفض الفوسفات ومنتج الكالسيوم والفوسفات بدرجة متواضعة نتيجة انخفاض PTH وتراجع دوران العظم. ويكون هذا التأثير ثانوياً، فالدواء ليس رابطاً للفوسفات ولا يمنع امتصاصه المعوي مباشرة. ويرتبط فرط فوسفات الدم وفرط نشاط جارات الدرق ارتباطاً وثيقاً في اضطراب المعادن والعظام المرتبط بأمراض الكلى المزمنة (CKD-MBD)، لذلك فإن جزءاً كبيراً من الأدبيات متداخل مع المؤشر الأصلي.
 
@@ -139,12 +139,13 @@ predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices with 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص السعودي الوحيد ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح وضع الترخيص السعودي (سبب الإلغاء وإمكانية إعادة التسجيل)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c) |
 
 <!-- review:end log -->
 

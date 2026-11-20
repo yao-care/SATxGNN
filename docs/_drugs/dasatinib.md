@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 description: "Dasatinib: الاستطباب الجديد المتوقع ساركوما إيوينغ (Ewing sarcoma) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 9 (السارية: 9)"
 ---
 
@@ -55,7 +55,7 @@ description: "Dasatinib: الاستطباب الجديد المتوقع سارك
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في المعلومات المجمّعة. غير أن المعروف عن داساتينيب أنه مثبط لكينازات SRC ولمستقبلات PDGFR وc-KIT إضافة إلى BCR-ABL.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Dasatinib (ترجمة غير رسمية): «يثبط داساتينيب، بتراكيز نانومولارية، الكينازات التالية: BCR-ABL، وعائلة SRC (SRC، LCK، YES، FYN)، وc-KIT، وEPHA2، وPDGFRβ. واستنادًا إلى دراسات النمذجة، يُتوقع أن يرتبط داساتينيب بتشكلات متعددة لكيناز ABL.» النص الأصلي بالإنجليزية: "Dasatinib, at nanomolar concentrations, inhibits the following kinases: BCR-ABL, SRC family (SRC, LCK, YES, FYN), c-KIT, EPHA2, and PDGFRβ. Based on modeling studies, dasatinib is predicted to bind to multiple conformations of the ABL kinase." ([DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df)، إصدار 2026-10-16؛ تاريخ الاطلاع 2026-11-20). غير أن المعروف عن داساتينيب أنه مثبط لكينازات SRC ولمستقبلات PDGFR وc-KIT إضافة إلى BCR-ABL.
 
 تُظهر الدراسات قبل السريرية أن إشارات SRC وFAK-Src تقود الغزو والهجرة وتكوّن الأقدام الغازية (invadopodia) في خلايا ساركوما إيوينغ. وقد أظهر داساتينيب نشاطاً مضاداً للانتشار والهجرة في خطوط خلايا ساركوما إيوينغ والورم الأرومي العصبي، وحثّ موت الخلايا المبرمج في خلايا ساركوما العظم المعتمدة على SRC. وهذا يوفر أساساً آلياً معقولاً.
 
@@ -123,6 +123,18 @@ description: "Dasatinib: الاستطباب الجديد المتوقع سارك
 - تصميم دراسة تقيّم داساتينيب ضمن نظام علاجي مركّب في ساركوما إيوينغ.
 - الحصول على نص نشرة العبوة المعتمدة (التحذيرات وموانع الاستعمال) وبيانات آلية العمل.
 - وضع خطة مراقبة سلامة قلبية ودموية وخطة لإدارة التداخلات الدوائية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

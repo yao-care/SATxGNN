@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "كلوميفين: الاستطباب الجديد المتوقع هو اضطراب تمايز الجنس 46,XY الناجم عن عيب في تخليق الستيرويدات الخصوية (46,XY disorder of sex development due to testicular steroidogenesis defect) (مستوى الدليل L5). الاستطباب الأصلي: العقم عند النساء. الدرجة 0.9990 صادرة عن نموذج TxGNN (تعلّم عميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مترابطة، وليست دليلًا بيولوجيًا."
 monitor_inn: "CLOMIFENE"
 predicted_indications: ["46,XY disorder of sex development due to testicular steroidogenesis defect", "longitudinal vaginal septum", "transverse vaginal septum", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "ovarian remnant syndrome"]
@@ -58,7 +58,7 @@ predicted_indications: ["46,XY disorder of sex development due to testicular ste
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. وبحسب المعلومات المعروفة، فإن كلوميفين **معدِّل انتقائي لمستقبلات الإستروجين (SERM)**؛ فهو يحجب التغذية الراجعة السلبية للإستروجين في منطقة تحت المهاد، فيرتفع GnRH ومعه الهرمونان LH وFSH. ويرتبط بمستقبل الإستروجين ألفا (ESR1) وفق بيانات الدوائيات المتاحة.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Clomifene (ترجمة غير رسمية): «سيترات الكلوميفين قادرة على التآثر مع الأنسجة الحاوية على مستقبلات الإستروجين، بما في ذلك الوطاء والغدة النخامية والمبيض وبطانة الرحم والمهبل وعنق الرحم. وقد تتنافس مع الإستروجين على مواقع الارتباط بمستقبلات الإستروجين، وقد تؤخر تجديد مستقبلات الإستروجين داخل الخلايا.» النص الأصلي بالإنجليزية: "Clomiphene citrate is capable of interacting with estrogen-receptor-containing tissues, including the hypothalamus, pituitary, ovary, endometrium, vagina, and cervix. It may compete with estrogen for estrogen-receptor-binding sites and may delay replenishment of intracellular estrogen receptors." ([DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e)، إصدار 2025-10-07؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإن كلوميفين **معدِّل انتقائي لمستقبلات الإستروجين (SERM)**؛ فهو يحجب التغذية الراجعة السلبية للإستروجين في منطقة تحت المهاد، فيرتفع GnRH ومعه الهرمونان LH وFSH. ويرتبط بمستقبل الإستروجين ألفا (ESR1) وفق بيانات الدوائيات المتاحة.
 
 الصلة المحتملة بالاستطباب الجديد هي تحفيز ما تبقى من نشاط خلايا ليديغ لتصنيع الستيرويدات. غير أن الخلل في هذا الاضطراب يكمن في **الإنزيمات الستيرويدية، أي في مرحلة تلي إشارة LH**، ولذلك فمن غير المرجح أن يؤدي ارتفاع الغونادوتروبينات إلى استعادة تصنيع التستوستيرون. **الصلة تأملية**، والدرجة المرتفعة (0.999) هي مخرج نموذج فقط.
 
@@ -128,11 +128,12 @@ predicted_indications: ["46,XY disorder of sex development due to testicular ste
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وتقييم استمرار جدوى الدواء تجارياً في ظل إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e) |
 
 <!-- review:end log -->
 

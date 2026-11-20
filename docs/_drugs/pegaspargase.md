@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 636
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: الاستطباب الجديد المتوقع Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -60,7 +60,7 @@ description: "Pegaspargase: الاستطباب الجديد المتوقع Prege
 
 ## لماذا يُعدّ هذا التنبؤ منطقياً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في المصدر الدوائي. ومع ذلك فالمعروف عن بيجاسبارغاز أنه صيغة طويلة المفعول من إنزيم L-أسباراجيناز المشتق من الإشريكية القولونية، وهو يستنزف الأسباراجين المتداول في البلازما. الخلايا اللمفاوية الأرومية ضعيفة التعبير عن إنزيم تخليق الأسباراجين (asparagine synthetase)، وتعتمد على الأسباراجين الخارجي، فيؤدي استنزافه إلى موتها الانتقائي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Pegaspargase (ترجمة غير رسمية): «L-أسباراجيناز إنزيم يحفّز تحويل الحمض الأميني L-أسباراجين إلى حمض الأسبارتيك والأمونيا. ويُعتقد أن التأثير الدوائي لـ ONCASPAR يقوم على قتل خلايا الدم البيضاء اللوكيمية نتيجة استنفاد الأسباراجين في البلازما.» النص الأصلي بالإنجليزية: "L-asparaginase is an enzyme that catalyzes the conversion of the amino acid L-asparagine into aspartic acid and ammonia. The pharmacological effect of ONCASPAR is thought to be based on the killing of leukemic cells due to depletion of plasma asparagine." ([DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce)، إصدار 2024-10-07؛ تاريخ الاطلاع 2026-11-20). ومع ذلك فالمعروف عن بيجاسبارغاز أنه صيغة طويلة المفعول من إنزيم L-أسباراجيناز المشتق من الإشريكية القولونية، وهو يستنزف الأسباراجين المتداول في البلازما. الخلايا اللمفاوية الأرومية ضعيفة التعبير عن إنزيم تخليق الأسباراجين (asparagine synthetase)، وتعتمد على الأسباراجين الخارجي، فيؤدي استنزافه إلى موتها الانتقائي.
 
 أما العلاقة بين الاستطباب الأصلي والجديد فهي وثيقة جداً: ابيضاض الخلايا اللمفاوية السلفية واللمفوما الأرومية اللمفاوية هما في الواقع الطيف المرضي نفسه الذي يشمله ALL. لذلك فإن الآلية نفسها قابلة للتطبيق مباشرة، وما تعكسه الأدلة هو معيار الرعاية المعمول به، لا استخداماً جديداً بحق.
 
@@ -163,12 +163,13 @@ description: "Pegaspargase: الاستطباب الجديد المتوقع Prege
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حالياً أي ترخيص ساري المفعول لهذا الدواء في السعودية؛ فالترخيص الوحيد المسجّل ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «ترخيصه في السعودية ملغى، فأي استخدام يتطلب التحقق من الموافقات الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce) |
 
 <!-- review:end log -->
 

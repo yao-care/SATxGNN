@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Desmopressin: الاستطباب الجديد المتوقع نقص البروثرومبين الخلقي (congenital prothrombin deficiency) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 8 (السارية: 8)"
 ---
 
@@ -54,7 +54,7 @@ description: "Desmopressin: الاستطباب الجديد المتوقع نق�
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً (أو غير معقول)؟
 
-يعمل ديسموبريسين عبر مستقبل V2، فيحفّز تحرير عامل فون ويلبراند (VWF) والعامل الثامن (FVIII) من مخازن البطانة الوعائية. تتوفر بيانات عن ارتباطه بمستقبلات V1A وV1B وV2 ومستقبل الأوكسيتوسين. لم تتوفر بيانات تفصيلية أخرى عن آلية العمل ضمن البيانات المجمَّعة لهذا التقرير.
+يعمل ديسموبريسين عبر مستقبل V2، فيحفّز تحرير عامل فون ويلبراند (VWF) والعامل الثامن (FVIII) من مخازن البطانة الوعائية. تتوفر بيانات عن ارتباطه بمستقبلات V1A وV1B وV2 ومستقبل الأوكسيتوسين. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Desmopressin (ترجمة غير رسمية): «يزيد ديزموبريسين أسيتات المستويات البلازمية لنشاط العامل الثامن (factor VIII) لدى المرضى المصابين بالهيموفيليا وداء فون ويلبراند من النوع I. وتتواسط التأثيرات المضادة لإدرار البول لديزموبريسين أسيتات عن طريق تنبيه مستقبلات الفازوبريسين 2 (V2)، مما يزيد من إعادة امتصاص الماء في الكلية، وبالتالي يقلل من إنتاج البول. ويُعد ديزموبريسين أسيتات هرمونًا بديلًا للهرمون المضاد لإدرار البول في علاج البوالة التفهة المركزية.» النص الأصلي بالإنجليزية: "Desmopressin acetate increases plasma levels of factor VIII activity in patients with hemophilia and von Willebrand's disease Type I. The antidiuretic effects of desmopressin acetate are mediated by stimulation of vasopressin 2 (V2) receptors, thereby increasing water re-absorption in the kidney, and hence reducing urine production. Desmopressin acetate is a replacement hormone for antidiuretic hormone in the treatment of central diabetes insipidus." ([DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244)، إصدار 2022-09-28؛ تاريخ الاطلاع 2026-11-20).
 
 البروثرومبين (العامل II) ليس معروفاً بأنه يتحرر بهذه الآلية، لذا لا توجد صلة آلية مباشرة معقولة. ويرجّح أن الدرجة المرتفعة تعكس قرباً شبكياً داخل مجموعة اضطرابات النزف، لا أثراً علاجياً حقيقياً.
 
@@ -103,11 +103,12 @@ description: "Desmopressin: الاستطباب الجديد المتوقع نق�
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وتفيد السجلات بأن عدد التراخيص المسجلة 8 وأنها كلها مصنفة ضمن حالة «ملغاة» في حقل التراخيص، بينما تُظهر حقول العدّ الأخرى 8 تراخيص سارية؛ هذ» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244) |
 
 <!-- review:end log -->
 

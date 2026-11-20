@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 540
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: الاستطباب الجديد المتوقع ابيضاض الدم النقوي (myeloid leukemia) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -54,7 +54,7 @@ description: "Mercaptopurine: الاستطباب الجديد المتوقع ا�
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-الميركابتوبورين نظير بيورين تتحول نواتجه الأيضية (نيوكليوتيدات الثيوغوانين) إلى مكوّنات تُدمج في الحمض النووي وتثبط تخليق البيورين من جديد. هذه الآلية تستهدف الخلايا سريعة الانقسام، ومنها الخلايا الأرومية النقوية. بيانات آلية العمل التفصيلية غير متوفرة حالياً في السجلات المجمعة، ويستند هذا الشرح إلى المعرفة الدوائية العامة.
+الميركابتوبورين نظير بيورين تتحول نواتجه الأيضية (نيوكليوتيدات الثيوغوانين) إلى مكوّنات تُدمج في الحمض النووي وتثبط تخليق البيورين من جديد. هذه الآلية تستهدف الخلايا سريعة الانقسام، ومنها الخلايا الأرومية النقوية. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Mercaptopurine (ترجمة غير رسمية): «الميركابتوبورين نظير للبورين يخضع للنقل والتنشيط داخل الخلايا لتكوين مستقلبات منها نيوكليوتيدات الثيوغوانين (TGNs). يؤدي دمج TGNs في DNA أو RNA إلى توقف دورة الخلية وموت الخلية.» النص الأصلي بالإنجليزية: "Mercaptopurine is a purine analog that undergoes intracellular transport and activation to form metabolites including thioguanine nucleotides (TGNs). Incorporation of TGNs into DNA or RNA results in cell-cycle arrest and cell death." ([DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15)، إصدار 2026-07-22؛ تاريخ الاطلاع 2026-11-20).
 
 يدعم التنبؤ دراسة أترابية (cohort) استخدمت علاجاً صيانياً فموياً بالميركابتوبورين مع الميثوتريكسات لدى مرضى ابيضاض الدم النقوي الحاد غير المؤهلين للزرع (PMID 26425037)، ودراسة تجريبية استطلاعية مستقبلية للعلاج الإيقاعي (metronomic) بالميركابتوبورين الفموي لدى كبار السن (PMID 27275453). كلتاهما لا تتضمنان تجربة عشوائية تختبر الميركابتوبورين وحده، ولذلك يبقى مستوى الأدلة L3.
 
@@ -115,6 +115,18 @@ description: "Mercaptopurine: الاستطباب الجديد المتوقع ا�
 - تحذيرات وموانع الاستعمال من نشرة العبوة المعتمدة.
 - دراسة مضبوطة تعزل مساهمة الميركابتوبورين ضمن النظم العلاجية المركبة.
 - خطة مراقبة السلامة، ولا سيما تثبيط نقي العظم وفحص تعدد الأشكال الجيني لإنزيمي TPMT وNUDT15.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

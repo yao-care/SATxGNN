@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Erdafitinib: الاستطباب الجديد المتوقع فرط ضغط الدم الرئوي (Pulmonary Hypertension) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمعة"
 monitor_inn: "ERDAFITINIB"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
@@ -59,7 +59,7 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 
 ## لماذا يُعدّ هذا التوقع معقولًا؟
 
-إيردافيتينيب مثبّط كيناز التيروزين واسع الطيف لمستقبلات FGFR1-4. بيانات آلية العمل التفصيلية غير متوفرة حاليًا في البيانات المجمعة، لكن المعروف عن هذه الفئة الدوائية يتيح طرح فرضية.
+إيردافيتينيب مثبّط كيناز التيروزين واسع الطيف لمستقبلات FGFR1-4. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Erdafitinib (ترجمة غير رسمية): «إردافيتينيب هو مثبط للكيناز يرتبط بـ FGFR1 وFGFR2 وFGFR3 وFGFR4 ويُثبّط نشاطها الإنزيمي استنادًا إلى بيانات مختبرية (in vitro). وقد ثبّط إردافيتينيب فسفرة FGFR وإشاراته وخفّض حيوية الخلايا في سلالات خلوية تُعبّر عن تغيرات جينية في FGFR، بما في ذلك الطفرات النقطية والتضخيمات والاندماجات.» النص الأصلي بالإنجليزية: "Erdafitinib is a kinase inhibitor that binds to and inhibits enzymatic activity of FGFR1, FGFR2, FGFR3 and FGFR4 based on in vitro data. Erdafitinib inhibited FGFR phosphorylation and signaling and decreased cell viability in cell lines expressing FGFR genetic alterations, including point mutations, amplifications, and fusions." ([DailyMed: Balversa (erdafitinib) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee)، إصدار 2025-10-24؛ تاريخ الاطلاع 2026-11-20).
 
 تشير الأدبيات العامة إلى أن إشارات FGF/FGFR ترتبط بإعادة تشكيل الأوعية الرئوية وتكاثر الخلايا العضلية الملساء، وهذا يمثل صلة نظرية بين آلية الدواء والمرض. غير أن هذه الصلة افتراضية، ولا تدعمها أي تجربة أو دراسة ضمن البيانات المتاحة. ولم يمكن تقييم التشابه بين الاستطباب الأصلي والجديد لغياب بيانات الاستطباب الأصلي.
 
@@ -130,11 +130,12 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح الاستطباب الأصلي وسبب إلغاء الترخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Balversa (erdafitinib) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee) |
 
 <!-- review:end log -->
 

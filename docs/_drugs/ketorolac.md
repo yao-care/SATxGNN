@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 471
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Ketorolac: الاستطباب الجديد المتوقع اضطراب الصداع (Headache disorder) (مستوى الدليل L1). الاستطباب الأصلي: التهاب الملتحمة التأتبي، والحُليمي، والربيعي"
 monitor_inn: "Ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -58,7 +58,7 @@ predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigemin
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل الأصلية غير متوفرة حاليًا في البيانات المجمّعة لهذا التقرير. استنادًا إلى المعرفة الدوائية المعروفة، فإن كيتورولاك مثبّط غير انتقائي لإنزيمي COX-1 وCOX-2، وتؤكد بيانات الاستهداف المتوفرة ذلك (الجينان PTGS1 وPTGS2). يؤدي تثبيط تخليق البروستاغلاندينات إلى تقليل التحسس المحيطي والمركزي والالتهاب العصبي المنشأ المشارك في ألم الصداع النصفي والصداع التوتري.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ketorolac (ترجمة غير رسمية): «كيتورولاك تروميثامين هو دواء مضاد للالتهاب غير ستيرويدي (NSAID) يُبدي نشاطًا مسكّنًا للألم في النماذج الحيوانية. وآلية عمل كيتورولاك، شأنها شأن مضادات الالتهاب غير الستيرويدية الأخرى، غير مفهومة تمامًا، ولكنها قد تكون مرتبطة بتثبيط إنزيم تخليق البروستاغلاندين.» النص الأصلي بالإنجليزية: "Ketorolac tromethamine is a nonsteroidal anti-inflammatory drug (NSAID) that exhibits analgesic activity in animal models. The mechanism of action of ketorolac, like that of other NSAIDs, is not completely understood but may be related to prostaglandin synthetase inhibition." ([DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f)، إصدار 2026-11-13؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعرفة الدوائية المعروفة، فإن كيتورولاك مثبّط غير انتقائي لإنزيمي COX-1 وCOX-2، وتؤكد بيانات الاستهداف المتوفرة ذلك (الجينان PTGS1 وPTGS2). يؤدي تثبيط تخليق البروستاغلاندينات إلى تقليل التحسس المحيطي والمركزي والالتهاب العصبي المنشأ المشارك في ألم الصداع النصفي والصداع التوتري.
 
 العلاقة بين الاستطباب الأصلي والجديد تقوم على الآلية الالتهابية المشتركة: ففي التهاب الملتحمة يخفف الدواء الالتهاب الذي تتوسطه البروستاغلاندينات، وفي الصداع يخفف الألم المرتبط بالمسار نفسه. وهو مرخّص أيضًا لتسكين الألم الحاد المتوسط إلى الشديد قصير الأمد.
 
@@ -151,6 +151,19 @@ predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigemin
 - التحقق من توفر المستحضرات (وريدي/عضلي/أنفي) وإمكانية إعادة الترخيص في السعودية.
 - وضع خطة مراقبة سلامة (الجهاز الهضمي، الكلى، النزف، القلب والأوعية) مع الاقتصار على الاستخدام قصير الأمد وتجنب الجمع مع الليثيوم.
 - تقييم مراجعة منهجية للتجارب ذات الصلة المباشرة التي لم تُصنَّف بعد.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

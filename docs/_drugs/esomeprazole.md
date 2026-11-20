@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ESOMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Esomeprazole: الاستطباب الجديد المتوقع انسداد الإثني عشر (duodenal obstruction) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 على الأقل"
 ---
 
@@ -54,7 +54,7 @@ description: "Esomeprazole: الاستطباب الجديد المتوقع ان�
 
 ## لماذا يُعدّ هذا التنبؤ محل نظر؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن إيسوميبرازول يثبّط إفراز الحمض في المعدة، وهو فعّال في الأمراض المرتبطة بالحمض.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Esomeprazole (ترجمة غير رسمية): «ينتمي إيزوميبرازول إلى فئة من المركبات المضادة للإفراز، وهي البنزيميدازولات المستبدَلة، التي تثبّط إفراز حمض المعدة عن طريق التثبيط النوعي لنظام إنزيم H+/K+ ATPase على السطح الإفرازي للخلية الجدارية المعدية. ويُضاف بروتون إلى إيزوميبرازول ويتحوّل في الحيّز الحمضي للخلية الجدارية مكوّنًا المثبّط الفعّال، وهو السلفيناميد غير المراوِن.» النص الأصلي بالإنجليزية: "Esomeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H+/K+ ATPase enzyme system at the secretory surface of the gastric parietal cell. Esomeprazole is protonated and converted in the acidic compartment of the parietal cell forming the active inhibitor, the achiral sulphenamide." ([DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96)، إصدار 2025-12-19؛ تاريخ الاطلاع 2026-11-20). المعروف أن إيسوميبرازول يثبّط إفراز الحمض في المعدة، وهو فعّال في الأمراض المرتبطة بالحمض.
 
 أما انسداد الإثني عشر فحالة ميكانيكية سببها تضيّق أو ورم أو بنكرياس حلقي وما شابه. تثبيط الحمض لا يُتوقع أن يعالج الانسداد نفسه. أقصى ما يمكن أن يقدمه هو دعم علاجي لأعراض ثانوية مثل القرحة أو الارتجاع المصاحب.
 
@@ -93,6 +93,19 @@ description: "Esomeprazole: الاستطباب الجديد المتوقع ان�
 - بيانات آلية العمل التفصيلية.
 - الحصول على نشرة العبوة المعتمدة (التحذيرات وموانع الاستعمال) من هيئة الغذاء والدواء السعودية.
 - تحديد ما إذا كان هناك أي دور داعم محتمل (مثل علاج القرحة الثانوية) وتقييمه بشكل منفصل.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

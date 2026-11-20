@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 815
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Ticagrelor: الاستطباب الجديد المتوقع تصلب الشرايين داخل الجمجمة (مستوى الدليل L5). الاستطباب الأصلي: المتلازمة الإكليلية الحادة، مرض الأوعية الطرفية، العرج المتقطع، مرض ا…"
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
@@ -58,7 +58,7 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية منظمة عن آلية العمل. لكن المعروف أن تيكاغريلور مثبط عكوس لمستقبل P2Y12 على الصفيحات الدموية، فيقلل تراكمها وتجلطها.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ticagrelor (ترجمة غير رسمية): «يتفاعل تيكاغريلور ومستقلبه الرئيسي بشكل عكوس مع مستقبل ADP من نوع P2Y 12 على الصفيحات الدموية لمنع نقل الإشارة وتنشيط الصفيحات. يتمتع تيكاغريلور ومستقلبه النشط بفعالية متساوية تقريباً.» النص الأصلي بالإنجليزية: "Ticagrelor and its major metabolite reversibly interact with the platelet P2Y 12 ADP-receptor to prevent signal transduction and platelet activation. Ticagrelor and its active metabolite are approximately equipotent." ([DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8)، إصدار 2026-05-07؛ تاريخ الاطلاع 2026-11-20). لكن المعروف أن تيكاغريلور مثبط عكوس لمستقبل P2Y12 على الصفيحات الدموية، فيقلل تراكمها وتجلطها.
 
 التضيق الشرياني الأعراضي داخل الجمجمة يتأثر بالتخثر المدفوع بالصفيحات وبالانصمام من شريان إلى آخر. لذلك فإن تثبيط P2Y12 معقول من الناحية الآلية، وهو الآلية نفسها التي يعمل بها الدواء في أمراض الشرايين التاجية.
 
@@ -138,11 +138,12 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «أي سبب إلغاء التراخيص وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
 
 <!-- review:end log -->
 

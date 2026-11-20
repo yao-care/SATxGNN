@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Amlodipine: الاستطباب الجديد المتوقع احتشاء جذع الدماغ (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (إضافة إلى السكتة الدماغية والاضطرابات الوعائية الدما…"
 monitor_inn: "Amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
@@ -60,7 +60,7 @@ predicted_indications: ["brain stem infarction", "pulmonary hypertension owing t
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-تفاصيل آلية العمل غير متوفرة حاليًا في البيانات المجمّعة لهذا التقرير. استنادًا إلى المعلومات المعروفة، أملوديبين حاصر لقنوات الكالسيوم من نوع ثنائي هيدروبيريدين، ويخفض ضغط الدم عبر إرخاء العضلات الملساء الوعائية. وقد ثبتت فعاليته في ارتفاع ضغط الدم، ومن الناحية الآلية قد ينطبق على احتشاء جذع الدماغ.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Amlodipine (ترجمة غير رسمية): «أملوديبين هو مضاد للكالسيوم من فئة ثنائي هيدروبيريدين (مضاد لأيونات الكالسيوم أو حاصر للقنوات البطيئة) يثبط التدفق عبر الغشاء لأيونات الكالسيوم إلى داخل العضلات الملساء الوعائية وعضلة القلب. تشير البيانات التجريبية إلى أن أملوديبين يرتبط بكل من مواقع الارتباط الخاصة بثنائي هيدروبيريدين وغير الخاصة بثنائي هيدروبيريدين.» النص الأصلي بالإنجليزية: "Amlodipine is a dihydropyridine calcium antagonist (calcium ion antagonist or slow-channel blocker) that inhibits the transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle. Experimental data suggest that amlodipine binds to both dihydropyridine and nondihydropyridine binding sites." ([DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487)، إصدار 2026-09-28؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعلومات المعروفة، أملوديبين حاصر لقنوات الكالسيوم من نوع ثنائي هيدروبيريدين، ويخفض ضغط الدم عبر إرخاء العضلات الملساء الوعائية. وقد ثبتت فعاليته في ارتفاع ضغط الدم، ومن الناحية الآلية قد ينطبق على احتشاء جذع الدماغ.
 
 العلاقة بين الاستطباب الأصلي والجديد واضحة. فالاستطبابات الأصلية تشمل السكتة الدماغية والاضطرابات الوعائية الدماغية والاحتشاء الدماغي، واحتشاء جذع الدماغ نوع من الاحتشاء الدماغي. وخفض ضغط الدم عامل معروف في الوقاية الثانوية من السكتات، لذلك يبدو الامتداد منطقيًا نظريًا.
 
@@ -129,11 +129,12 @@ predicted_indications: ["brain stem infarction", "pulmonary hypertension owing t
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «(جميعها بحالة «ملغاة»، ونصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 821
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Tocilizumab: الاستطباب الجديد المتوقع التهاب الفقار اللاصق (مستوى الدليل L3). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، التهاب المفاصل مجهول السبب لدى الأحداث، ا…"
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
@@ -59,7 +59,7 @@ predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "in
 
 ## لماذا يبدو هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. ومن المعروف أن توسيليزوماب يحجب مستقبل الإنترلوكين-6، وهو سيتوكين التهابي يرتفع لدى المصابين بالتهاب الفقار المحوري، لذا فالربط الآلي منطقي من الناحية البيولوجية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tocilizumab (ترجمة غير رسمية): «ترتبط منتجات توسيليزوماب بكلٍّ من مستقبلات IL-6 الذائبة والمرتبطة بالغشاء (sIL-6R وmIL-6R)، وقد ثبت أنها تثبّط الإشارات التي يتوسطها IL-6 عبر هذه المستقبلات. وIL-6 سيتوكين محرّض للالتهاب متعدد التأثيرات تنتجه أنواع متعددة من الخلايا، بما فيها الخلايا التائية والبائية، والخلايا اللمفاوية، والخلايا الوحيدة، والخلايا الليفية.» النص الأصلي بالإنجليزية: "Tocilizumab products bind to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and have been shown to inhibit IL-6-mediated signaling through these receptors. IL-6 is a pleiotropic pro-inflammatory cytokine produced by a variety of cell types including T- and B-cells, lymphocytes, monocytes and fibroblasts." ([DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d)، إصدار 2026-10-20؛ تاريخ الاطلاع 2026-11-20). ومن المعروف أن توسيليزوماب يحجب مستقبل الإنترلوكين-6، وهو سيتوكين التهابي يرتفع لدى المصابين بالتهاب الفقار المحوري، لذا فالربط الآلي منطقي من الناحية البيولوجية.
 
 ومع ذلك، تشير الأدلة إلى أن التجربتين المرحليتين الثالثتين في التهاب الفقار اللاصق أُنهيتا مبكراً دون تأكيد فائدة، ويُعتبر توسيليزوماب عموماً أقل فعالية في هذا المرض من مثبطات TNF وIL-17. فالمعقولية الآلية قائمة، لكن الدليل السريري لا يدعمها.
 
@@ -132,6 +132,19 @@ predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "in
 ### ملاحظة حول الاستطبابات الأخرى المتوقعة
 
 ضمن القائمة، أظهر **التهاب المفاصل الروماتويدي المتعدد المفاصل لدى الأحداث** أقوى دعم (المستوى L1، بتجربة المرحلة الثالثة NCT00988221 وعدة تجارب تمديدية)، لكنه يتداخل مع استطباب أصلي قائم، فهو تأكيد لاستخدام معروف وليس إعادة توظيف حقيقية. القرار المقترح له: Proceed with Guardrails (فحص العدوى والسل، ومراقبة الكبد والدهون والعدلات، والانتباه لمتلازمة تنشيط البلاعم). أما بقية التوقعات (مثل تحرك العصعص، ومرض كومل، وعوز IL12B) فهي تنبؤات حسابية بلا أدلة، ويُنصح بإبقائها في وضع Hold.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 169
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Cetrorelix: الاستطباب الجديد المتوقع فرط الشعر (hypertrichosis) (مستوى الدليل L5). الاستطباب الأصلي: منع الارتفاع المبكر لهرمون LH أثناء تحفيز المبيض المُراقَب (وفق الاست…"
 monitor_inn: "CETRORELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
@@ -60,7 +60,7 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 ## لماذا يُعد هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. استناداً إلى المعروف، سيتروريليكس مضاد لمستقبل GnRH (الجين GNRHR)، يثبط إفراز LH وFSH وبالتالي الهرمونات الجنسية الستيرويدية المنبثقة من الغدد التناسلية.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cetrorelix (ترجمة غير رسمية): «يحفّز GnRH إنتاج الهرمون الملوتن (LH) والهرمون المنبه للجريب (FSH) وإطلاقهما من الخلايا الموجهة للغدد التناسلية في الغدة النخامية الأمامية. ونظرًا للتلقيم الراجع الإيجابي للإستراديول (E2) في منتصف الدورة، يتعزز تحرر GnRH مما يؤدي إلى طفرة في LH.» النص الأصلي بالإنجليزية: "GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge." ([DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79)، إصدار 2025-09-22؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف، سيتروريليكس مضاد لمستقبل GnRH (الجين GNRHR)، يثبط إفراز LH وFSH وبالتالي الهرمونات الجنسية الستيرويدية المنبثقة من الغدد التناسلية.
 
 الصلة بفرط الشعر **ضعيفة**. فرط الشعر ليس مدفوعاً أساساً بالغدد الصماء التناسلية. وأي صلة محتملة ستكون غير مباشرة، كخفض الأندروجينات في حالات الشعرانية (hirsutism) الناتجة عن فرط الأندروجين، وهي حالة مختلفة عن فرط الشعر. أما الدرجة العالية (0.9998) فهي صادرة عن نموذج TxGNN (التعلم العميق) وقد تعكس تشابهات تعلّمها النموذج بين أمراض ذات صلة، وليست دليلاً بيولوجياً، ودون أدلة سريرية أو منشورة تسندها.
 
@@ -139,12 +139,13 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن التراخيص السعودية الوحيدة ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «(حالة الترخيص الملغاة)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79) |
 
 <!-- review:end log -->
 

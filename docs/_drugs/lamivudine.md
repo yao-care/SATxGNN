@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 476
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Lamivudine: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الكبد B المزمن، عدوى HIV، الإيدز (من الرسم المعرفي PrimeKG، إذ…"
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
@@ -60,7 +60,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، لاميفودين مثبط نيوكليوسيدي للنسخ العكسي، وقد ثبتت فعاليته في HIV-1 وفي التهاب الكبد B، ومن الناحية الآلية قد ينطبق على SIV.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lamivudine (ترجمة غير رسمية): «لاميفودين عامل مضاد للفيروسات القهقرية. […] لاميفودين هو نظير نوكليوسيدي مُخلَّق. وداخل الخلية، يُفسفَر لاميفودين إلى مستقلَبه الفعّال 5′-ثلاثي الفوسفات، وهو لاميفودين ثلاثي الفوسفات (3TC-TP). ويتمثل نمط العمل الرئيسي لـ 3TC-TP في تثبيط إنزيم النسخ العكسي (RT) لفيروس HIV-1 عن طريق إنهاء سلسلة DNA بعد إدماج النظير النوكليوتيدي.» النص الأصلي بالإنجليزية: "Lamivudine is an antiretroviral agent. […] Lamivudine is a synthetic nucleoside analogue. Intracellularly, lamivudine is phosphorylated to its active 5′-triphosphate metabolite, lamivudine triphosphate (3TC-TP). The principal mode of action of 3TC-TP is inhibition of HIV-1 reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8)، إصدار 2024-08-15؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، لاميفودين مثبط نيوكليوسيدي للنسخ العكسي، وقد ثبتت فعاليته في HIV-1 وفي التهاب الكبد B، ومن الناحية الآلية قد ينطبق على SIV.
 
 إنزيم النسخ العكسي في SIV قريب جدًا من نظيره في HIV، لذلك فالتشابه الآلي معقول بيولوجيًا. وتدعمه دراسات القرود (الماكاك) التي تناولت طفرة M184V، والوقاية بعد التعرض، والعلاج المركّب الذي خفّض الحمل الفيروسي.
 
@@ -157,12 +157,13 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حاليًا أي ترخيص ساري، فقد أُلغيت التراخيص السبعة المسجلة جميعها» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «جميع تراخيص لاميفودين في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 600
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Norgestimate: الاستطباب الجديد المتوقع ارتفاع الزنك في البلازما (مستوى الدليل L5). الاستطباب الأصلي: لا يتوفر نص استطباب معتمد في تراخيص الهيئة العامة للغذاء والدواء السع…"
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
@@ -59,7 +59,7 @@ predicted_indications: ["zinc, elevated plasma"]
 
 ## لماذا يُعد هذا التنبؤ معقولًا (أو غير معقول)؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل. المعروف أن نورجيستيمات بروجستين يُستقلب إلى ليفونورجستريل ونورألجيسترومين، ويُستخدم عادةً مع الإيثينيل إستراديول.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ norgestimate and ethinyl estradiol (مستحضر مركب يحتوي على Norgestimate) (ترجمة غير رسمية): «على الرغم من أن الجمع بين الإيثينيل إستراديول والنورجستيمات يزيد الغلوبولين الرابط للهرمونات الجنسية (SHBG) ويخفض التستوستيرون الحر، فإن العلاقة بين هذه التغيرات وانخفاض شدة حب الشباب الوجهي لدى النساء السليمات فيما عدا ذلك المصابات بهذه الحالة الجلدية لم تُثبت.» النص الأصلي بالإنجليزية: "While the combination of ethinyl estradiol and norgestimate increases sex hormone-binding globulin (SHBG) and decreases free testosterone, the relationship between these changes and a decrease in the severity of facial acne in otherwise healthy women with this skin condition has not been established." ([DailyMed: Tri-Sprintec (norgestimate and ethinyl estradiol) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f8b9aad-f31f-4cda-861d-c08a977fc923)، إصدار 2026-10-12؛ تاريخ الاطلاع 2026-11-20). المعروف أن نورجيستيمات بروجستين يُستقلب إلى ليفونورجستريل ونورألجيسترومين، ويُستخدم عادةً مع الإيثينيل إستراديول.
 
 هناك تقارير بأن الإستروجينات في موانع الحمل الفموية قد تغيّر مستويات الزنك والنحاس في الدم، لكنه تأثير هرموني عام وليس خاصًا بنورجيستيمات.
 
@@ -114,6 +114,19 @@ predicted_indications: ["zinc, elevated plasma"]
 - استكمال بيانات آلية العمل من DrugBank.
 - إجراء مراجعة أدبية منهجية حول تأثير نورجيستيمات والهرمونات المصاحبة على مستويات الزنك.
 - إعادة تقييم جدوى الاستطباب المتوقع بوصفه هدفًا علاجيًا، ثم تقييم توافق مسار الإعطاء والتشابه مع الاستطباب الأصلي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tri-Sprintec (norgestimate and ethinyl estradiol) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f8b9aad-f31f-4cda-861d-c08a977fc923) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

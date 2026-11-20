@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Docetaxel: الاستطباب الجديد المتوقع ساركوما إيوينغ (Ewing sarcoma) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 14 (السارية: 14)"
 ---
 
@@ -58,7 +58,7 @@ description: "Docetaxel: الاستطباب الجديد المتوقع سارك
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل ضمن البيانات المجمّعة لهذا التقرير. وبحسب المعروف عن هذه الفئة، فإن دوسيتاكسيل مضاد للانقسام الخلوي (Antimitotic)، ويؤثر في الخلايا سريعة التكاثر، وهي صفة تتشارك فيها الساركومات.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Docetaxel (ترجمة غير رسمية): «دوسيتاكسيل عامل مضاد للأورام يعمل عن طريق تعطيل الشبكة الأنيبيبية في الخلايا، وهي شبكة ضرورية للوظائف الخلوية الانقسامية ووظائف الطور البيني. يرتبط دوسيتاكسيل بالتوبيولين الحر ويعزز تجميع التوبيولين في أنيبيبات دقيقة مستقرة، بينما يثبط في الوقت نفسه تفككها.» النص الأصلي بالإنجليزية: "Docetaxel is an antineoplastic agent that acts by disrupting the microtubular network in cells that is essential for mitotic and interphase cellular functions. Docetaxel binds to free tubulin and promotes the assembly of tubulin into stable microtubules while simultaneously inhibiting their disassembly." ([DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b)، إصدار 2025-12-17؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن هذه الفئة، فإن دوسيتاكسيل مضاد للانقسام الخلوي (Antimitotic)، ويؤثر في الخلايا سريعة التكاثر، وهي صفة تتشارك فيها الساركومات.
 
 في الممارسة السريرية يُستخدم دوسيتاكسيل في ساركوما إيوينغ غالباً بالاقتران مع جيمسيتابين (بشكل متتابع أو ضمن نظام GEMDOX)، وقد أُشير في دراسات مخبرية إلى تآزر بين الدوائين. أما فعاليته كعامل منفرد في الأورام الصلبة لدى الأطفال فمتواضعة، والنتائج في ساركوما إيوينغ المنتكسة أو المقاومة للعلاج محدودة ومبنية على دراسات صغيرة من المرحلة الثانية.
 
@@ -134,6 +134,19 @@ description: "Docetaxel: الاستطباب الجديد المتوقع سارك
 - تحديد نظام العلاج المقترن الأنسب (مثل جيمسيتابين) والجرعات، وخطة مراقبة تثبيط نقي العظم والاعتلال العصبي.
 - تقييم التداخلات الدوائية، وبخاصة مع كلاريثروميسين.
 - تأكيد وضع التراخيص المحلية وملاءمة المستحضرات المتاحة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 865
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: الاستطباب الجديد المتوقع Obsolete bundle branch block (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -59,7 +59,7 @@ description: "Verapamil: الاستطباب الجديد المتوقع Obsolete
 
 ## لماذا يُعد هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن فيراباميل حاصر لقنوات الكالسيوم من النوع L، ويبطئ التوصيل في العقدة الأذينية البطينية، وقد ثبتت فعاليته في ارتفاع ضغط الدم واضطرابات النظم.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Verapamil (ترجمة غير رسمية): «الذبحة الصدرية: لا تزال الآلية الدقيقة لعمل فيراباميل هيدروكلوريد كعامل مضاد للذبحة الصدرية بحاجة إلى تحديد كامل، ولكنها تشمل الآليتين التاليتين: 1. إرخاء تشنج الشرايين التاجية والوقاية منه: يوسّع فيراباميل هيدروكلوريد الشرايين التاجية الرئيسية والشرينات التاجية، في المناطق الطبيعية والإقفارية على حد سواء، وهو مثبط قوي لتشنج الشرايين التاجية، سواء كان تلقائياً أو محرَّضاً بالإرغونوفين.» النص الأصلي بالإنجليزية: "Angina: The precise mechanism of action of verapamil hydrochloride as an antianginal agent remains to be fully determined, but includes the following two mechanisms: 1. Relaxation and prevention of coronary artery spasm: Verapamil hydrochloride dilates the main coronary arteries and coronary arterioles, both in normal and ischemic regions, and is a potent inhibitor of coronary artery spasm, whether spontaneous or ergonovine-induced." ([DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c)، إصدار 2026-10-30؛ تاريخ الاطلاع 2026-11-20). المعروف أن فيراباميل حاصر لقنوات الكالسيوم من النوع L، ويبطئ التوصيل في العقدة الأذينية البطينية، وقد ثبتت فعاليته في ارتفاع ضغط الدم واضطرابات النظم.
 
 لكن الصلة الآلية هنا ضعيفة، بل قد تكون ضارة. فإبطاء التوصيل الكهربائي غير مرغوب فيه عادةً، أو يُعد مضاد استطباب، في أمراض الجهاز الناقل للقلب مثل كتلة الحزمة. كما أن الرسم المعرفي نفسه يسجّل الكتلة الأذينية البطينية وقصور القلب ضمن موانع الاستعمال. يضاف إلى ذلك أن المصطلح المرضي مصنّف «متقادماً» في الأنطولوجيا، مما يقلل موثوقية التنبؤ.
 
@@ -128,6 +128,19 @@ description: "Verapamil: الاستطباب الجديد المتوقع Obsolete
 - التحقق من المصطلح المرضي المتقادم وإعادة ربطه بمصطلح حديث ملائم.
 - إجراء مراجعة منهجية للأدبيات تخص الفيراباميل واضطرابات التوصيل.
 - بحث الاستطبابات الأخرى المتنبأ بها ذات الأساس الآلي الأقوى، مثل ارتفاع الضغط الرئوي الناتج عن نقص الأكسجين، مع تقييم السلامة بعناية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

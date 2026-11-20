@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 35
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Alfuzosin: الاستطباب الجديد المتوقع فرط الشعر الخلقي العام من نوع أمبراس (مستوى الدليل L5). الاستطباب الأصلي: تضخم البروستاتا الحميد"
 monitor_inn: "ALFUZOSIN"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -58,7 +58,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً (أو لا)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المُجمّعة لهذا التقرير. المعروف أن ألفوزوسين حاصر انتقائي لمستقبلات ألفا-1 في الجهاز البولي التناسلي، ويُستخدم لإرخاء العضلات الملساء في البروستاتا وعنق المثانة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Alfuzosin (ترجمة غير رسمية): «الألفوزوسين مضاد انتقائي لمستقبلات ألفا 1 الأدرينالية بعد المشبكية، والتي توجد في البروستاتة وقاعدة المثانة وعنق المثانة ومحفظة البروستاتة والإحليل البروستاتي.» النص الأصلي بالإنجليزية: "Alfuzosin is a selective antagonist of post-synaptic alpha 1 -adrenoreceptors, which are located in the prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra." ([DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3)، إصدار 2024-12-05؛ تاريخ الاطلاع 2026-11-20). المعروف أن ألفوزوسين حاصر انتقائي لمستقبلات ألفا-1 في الجهاز البولي التناسلي، ويُستخدم لإرخاء العضلات الملساء في البروستاتا وعنق المثانة.
 
 متلازمة أمبراس اضطراب وراثي نادر مرتبط بإعادة ترتيب كروموسومية في المنطقة 8q22 تؤثر على تنظيم الجين TRPS1. ولا يوجد رابط آلي بيولوجي معروف بين حصار ألفا-1 ونمو الشعر. والدرجة المرتفعة جداً على الأرجح تعكس قرب العقد في الرسم المعرفي من الأنماط الظاهرية المتعلقة بالشعر، لا مساراً بيولوجياً مقبولاً.
 
@@ -162,12 +162,13 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «وتوضيح وضع التراخيص الملغاة قبل أي تخطيط للتسويق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3) |
 
 <!-- review:end log -->
 

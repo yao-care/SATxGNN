@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol: الاستطباب الجديد المتوقع التشوه التنفسي (respiratory malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 13 (السارية: 13)"
@@ -54,7 +54,7 @@ description: "Formoterol: الاستطباب الجديد المتوقع الت�
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن فورموتيرول ناهض لمستقبلات بيتا-2 يرخي العضلات الملساء في الشعب الهوائية، وهذا ما يفسر استخدامه في أمراض مثل الربو وداء الانسداد الرئوي المزمن.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Formoterol (ترجمة غير رسمية): «فورموتيرول فومارات هو ناهض لمستقبِلات بيتا 2 الأدرينالية طويل المفعول (ناهض بيتا 2). ويعمل فورموتيرول فومارات المُستنشَق موضعيًا في الرئة بوصفه موسّعًا للقصبات. وقد أظهرت الدراسات المختبرية (in vitro) أن نشاط فورموتيرول الناهض على مستقبِلات بيتا 2 يفوق نشاطه على مستقبِلات بيتا 1 بأكثر من 200 ضعف.» النص الأصلي بالإنجليزية: "Formoterol fumarate is a long-acting, beta 2 -adrenergic receptor agonist (beta 2 -agonist). Inhaled formoterol fumarate acts locally in the lung as a bronchodilator. In vitro studies have shown that formoterol has more than 200-fold greater agonist activity at beta 2 -receptors than at beta 1 -receptors." ([DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79)، إصدار 2025-12-10؛ تاريخ الاطلاع 2026-11-20). المعروف أن فورموتيرول ناهض لمستقبلات بيتا-2 يرخي العضلات الملساء في الشعب الهوائية، وهذا ما يفسر استخدامه في أمراض مثل الربو وداء الانسداد الرئوي المزمن.
 
 أما التشوهات التنفسية فهي عيوب تشريحية نمائية، وليس لآلية استرخاء العضلات الملساء ارتباط سببي مثبت بها. ويبدو أن الدرجة المرتفعة ناتجة عن قرب هذا المرض من عقد أمراض الشعب الهوائية في شبكة النموذج، لا عن آلية علاجية مثبتة.
 
@@ -104,6 +104,18 @@ description: "Formoterol: الاستطباب الجديد المتوقع الت�
 - بيانات تفصيلية عن آلية العمل ومراجعة الصلة الآلياتية بالتشوهات التنفسية.
 - دراسات قبل سريرية أو سريرية تتناول هذا المرض مباشرة.
 - الحصول على معلومات التحذيرات وموانع الاستعمال من النشرة الدوائية لإجراء تقييم السلامة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 740
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "RUXOLITINIB"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 description: "Ruxolitinib: الاستطباب الجديد المتوقع Uterine corpus perivascular epithelioid cell tumor (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -60,7 +60,7 @@ description: "Ruxolitinib: الاستطباب الجديد المتوقع Uterin
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعروف عن الدواء، فإن روكسوليتينيب مثبّط لمسار JAK-STAT، وقد ثبتت فعاليته في الأورام التكاثرية النقوية. ومن الناحية الآلية قد ينطبق على ورم PEComa عبر تقاطع مساري JAK-STAT وmTOR، لكن هذا الافتراض **تخميني ولا تدعمه البيانات المتوفرة**.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ruxolitinib (ترجمة غير رسمية): «يثبط الروكسوليتينيب، وهو مثبط للكيناز، كينازات جانوس المرتبطة (JAKs)، وهي JAK1 وJAK2، التي تتوسط إرسال إشارات عدد من السيتوكينات وعوامل النمو المهمة لتكوين الدم والوظيفة المناعية. وتتضمن إشارات JAK استقطاب بروتينات STAT (محولات الإشارة ومنشطات النسخ) إلى مستقبلات السيتوكينات، وتنشيطها، ثم تموضع بروتينات STAT لاحقًا في النواة مما يؤدي إلى تعديل التعبير الجيني.» النص الأصلي بالإنجليزية: "Ruxolitinib, a kinase inhibitor, inhibits Janus Associated Kinases (JAKs), JAK1 and JAK2, which mediate the signaling of a number of cytokines and growth factors that are important for hematopoiesis and immune function. JAK signaling involves recruitment of STATs (signal transducers and activators of transcription) to cytokine receptors, activation, and subsequent localization of STATs to the nucleus leading to modulation of gene expression." ([DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b)، إصدار 2026-07-20؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن الدواء، فإن روكسوليتينيب مثبّط لمسار JAK-STAT، وقد ثبتت فعاليته في الأورام التكاثرية النقوية. ومن الناحية الآلية قد ينطبق على ورم PEComa عبر تقاطع مساري JAK-STAT وmTOR، لكن هذا الافتراض **تخميني ولا تدعمه البيانات المتوفرة**.
 
 أما العلاقة بين الاستطباب الأصلي والجديد فلم تُقيَّم بعد (تشابه الأمراض: قيد الانتظار). وقد يعكس التنبؤ قرباً في شبكة المعرفة بين هذا الورم وأمراض أخرى من عائلة PEComa، وليس صلة دوائية مثبتة. ويُذكر أن التنبؤات الثلاثة التالية في الترتيب (benign PEComa وlymphangiomyoma وlymphangioleiomyomatosis) تقع في الفئة المرضية نفسها. وفي داء LAM تحديداً يُعتقد أن فرط تنشيط mTOR هو المحرّك الرئيسي، ولا يوجد في البيانات ما يثبت دوراً لتثبيط JAK-STAT.
 
@@ -145,12 +145,13 @@ description: "Ruxolitinib: الاستطباب الجديد المتوقع Uterin
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري للدواء في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «تحديد وضع التراخيص الملغاة، ومعرفة إمكانية إعادة التسجيل أو الاستيراد الاستثنائي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Asfotase Alfa: الاستطباب الجديد المتوقع اضطراب الفسفرة التأكسدية الميتوكوندرية الناجم عن شذوذات الحمض النووي النووي (مستوى الدليل L5). الاستطباب الأصلي: نقص الفوسفاتاز (Hypophosphatasia) (مصدره رسم المعرفة…"
 monitor_inn: "ASFOTASE ALFA"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices with bleeding", "esophageal varices without bleeding", "cystinosis"]
@@ -58,7 +58,7 @@ predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to
 
 ## لماذا يُعد هذا التوقع معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل الأصلية للدواء. وبحسب المعروف، فإن أسفوتاز ألفا إنزيم TNAP مؤتلف يحلل ركائز خارج الخلية مثل البيروفوسفات غير العضوي (PPi) والبيريدوكسال-5'-فوسفات (PLP)، وقد ثبتت فاعليته في نقص الفوسفاتاز.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Asfotase Alfa (ترجمة غير رسمية): «ينجم HPP عن نقص في نشاط إنزيم TNSALP، مما يؤدي إلى ارتفاع مستويات عدة ركائز لـ TNSALP، بما في ذلك البيروفوسفات غير العضوي (PPi). وTNSALP إنزيم معدني يحفّز حلمهة الإسترات الفوسفاتية الأحادية مع تحرير الفوسفات غير العضوي والكحول.» النص الأصلي بالإنجليزية: "HPP is caused by a deficiency in TNSALP enzyme activity, which leads to elevations in several TNSALP substrates, including inorganic pyrophosphate (PPi). TNSALP is a metallo-enzyme that catalyzes the hydrolysis of phosphomonoesters with release of inorganic phosphate and alcohol." ([DailyMed: Strensiq (asfotase alfa) prescribing information, Alexion Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3387574f-5eaa-4501-a71d-4cbfbd563031)، إصدار 2025-12-12؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإن أسفوتاز ألفا إنزيم TNAP مؤتلف يحلل ركائز خارج الخلية مثل البيروفوسفات غير العضوي (PPi) والبيريدوكسال-5'-فوسفات (PLP)، وقد ثبتت فاعليته في نقص الفوسفاتاز.
 
 **لا توجد صلة آلية واضحة** بين هذه الآلية والاستطباب المتوقع. فاضطرابات الفسفرة التأكسدية الميتوكوندرية الناجمة عن عيوب الحمض النووي النووي تتعلق بعملية استقلاب الطاقة داخل الخلية، ومن غير المرجح أن يعالجها إنزيم بديل يعمل خارج الخلية. ودرجة 0.9995 صادرة عن نموذج TxGNN (تعلّم عميق) وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مترابطة، وليست دليلاً بيولوجياً، ولا تسندها أدلة سريرية أو منشورات.
 
@@ -136,12 +136,13 @@ predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الترخيص المحلي الوحيد ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح سبب إلغاء ترخيص STRENSIQ وحالة توفره الفعلية في المملكة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Strensiq (asfotase alfa) prescribing information, Alexion Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3387574f-5eaa-4501-a71d-4cbfbd563031) |
 
 <!-- review:end log -->
 

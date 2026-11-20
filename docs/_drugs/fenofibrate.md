@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FENOFIBRATE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Fenofibrate: الاستطباب الجديد المتوقع هو نقص بروتين نقل إستر الكوليسترول (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع الدهون الثلاثية وفرط شحميات الدم…"
 ---
 
@@ -54,7 +54,7 @@ description: "Fenofibrate: الاستطباب الجديد المتوقع هو �
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-الفينوفيبرات ينتمي إلى فئة الفيبرات، ويعمل كمحفّز لمستقبل PPARα، ويرفع كوليسترول HDL ويخفض الدهون الثلاثية. ملاحظة: بيانات آلية العمل التفصيلية غير متوفرة حالياً في البيانات المجمّعة لهذا التقرير، وما ورد هنا مستند إلى المعرفة العامة والأدبيات المرفقة.
+الفينوفيبرات ينتمي إلى فئة الفيبرات، ويعمل كمحفّز لمستقبل PPARα، ويرفع كوليسترول HDL ويخفض الدهون الثلاثية. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Fenofibrate (ترجمة غير رسمية): «الشق الفعال في Antara هو حمض الفينوفيبريك. وقد دُرست التأثيرات الدوائية لحمض الفينوفيبريك لدى الحيوانات والبشر على حد سواء من خلال الإعطاء الفموي للفينوفيبرات. وقد فُسِّرت التأثيرات المعدِّلة للدهون لحمض الفينوفيبريك الملاحظة في الممارسة السريرية في الجسم الحي لدى الفئران المعدلة جينيًا وفي المختبر في مزارع الخلايا الكبدية البشرية بتفعيل مستقبل PPAR ألفا.» النص الأصلي بالإنجليزية: "The active moiety of Antara is fenofibric acid. The pharmacological effects of fenofibric acid in both animals and humans have been studied through oral administration of fenofibrate. The lipid-modifying effects of fenofibric acid seen in clinical practice have been explained in vivo in transgenic mice and in vitro in human hepatocyte cultures by the activation of PPAR alpha receptor." ([DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce)، إصدار 2025-10-01؛ تاريخ الاطلاع 2026-11-20).
 
 نقص بروتين نقل إستر الكوليسترول (CETP) يتميز بارتفاع شديد في HDL وضعف نقل إسترات الكوليسترول. تشير الدراسات المرفقة إلى تداخل غير مباشر على مستوى المسارات: تحفيز PPARα يرفع HDL ويزيد التعبير عن بروتين نقل الفوسفوليبيد (PLTP) مما يغيّر حجم جسيمات HDL.
 
@@ -110,6 +110,19 @@ description: "Fenofibrate: الاستطباب الجديد المتوقع هو �
 - نصوص التحذيرات والموانع من نشرات العبوة لدى هيئة الغذاء والدواء السعودية، إذ إن غيابها يمنع الانتقال إلى فحص السلامة
 - دراسات مباشرة على نقص CETP تبيّن وجود فائدة سريرية فعلية
 - تحديد الاستطباب المعتمد في تراخيص السوق السعودي
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

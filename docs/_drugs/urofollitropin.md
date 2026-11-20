@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 854
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Urofollitropin: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (تحفيز المبيض وفق المعرفة العامة بالدواء)"
 monitor_inn: "UROFOLLITROPIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "His bundle tachycardia", "restless legs syndrome", "obsolete neurogenic bladder (disease)", "multifocal atrial tachycardia (disease)", "postural orthostatic tachycardia syndrome", "Raynaud disease"]
@@ -58,7 +58,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ca
 
 ## لماذا يُعدّ هذا التنبؤ محل نظر؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. استناداً إلى المعروف، يوروفوليتروبين مستحضر FSH بولي المصدر يُستخدم لتحفيز المبيضين، ولا يوجد دور مثبت للـ FSH في الفيزيولوجيا المرضية للصداع النصفي.
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Urofollitropin هي (ترجمة غير رسمية): «ناهض لمستقبل الهرمون المنبه للجريب». النص الأصلي بالإنجليزية: "Follicle stimulating hormone receptor agonist" ([ChEMBL CHEMBL1201520 (urofollitropin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201520)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف، يوروفوليتروبين مستحضر FSH بولي المصدر يُستخدم لتحفيز المبيضين، ولا يوجد دور مثبت للـ FSH في الفيزيولوجيا المرضية للصداع النصفي.
 
 الصلة الوحيدة المحتملة غير مباشرة، وهي أن تقلبات الهرمونات الجنسية تؤثر في نوبات الصداع النصفي. غير أن هذا لا يعني أن إعطاء FSH له أثر علاجي. فالدرجة العالية (0.9985) صادرة عن نموذج TxGNN (التعلم العميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين الأمراض المترابطة، وليست دليلاً بيولوجياً، ولا تسندها أي تجربة أو دراسة.
 
@@ -144,12 +144,13 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ca
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «ملغى كذلك» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح الوضع التنظيمي في ظل إلغاء جميع التراخيص (أسباب الإلغاء وإمكانية إعادة التسجيل)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL1201520 (urofollitropin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201520) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "BENRALIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Benralizumab: الاستطباب الجديد المتوقع نقص الصفيحات المناعي (thrombocytopenia due to immune destruction) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -54,7 +54,7 @@ description: "Benralizumab: الاستطباب الجديد المتوقع نق�
 
 ## لماذا يُعد هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمَّعة لهذا التقرير. المعروف أن بنراليزوماب يرتبط بالوحدة ألفا لمستقبِل الإنترلوكين-5 (IL5RA) ويُحدث استنفاداً للخلايا الحمضية والقاعدية عبر السمية الخلوية المعتمدة على الأجسام المضادة (ADCC).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Benralizumab (ترجمة غير رسمية): «بنراليزوماب جسم مضاد وحيد النسيلة مؤنسن منزوع الفوكوز (IgG1، كابا) يرتبط مباشرةً بالوحدة الفرعية ألفا لمستقبل الإنترلوكين-5 البشري (IL-5Rα) بثابت تفكك قدره 11 pM. ويُعبَّر عن مستقبل IL-5 على سطح الخلايا الحمضية والخلايا القاعدية.» النص الأصلي بالإنجليزية: "Benralizumab is a humanized afucosylated, monoclonal antibody (IgG1, kappa) that directly binds to the alpha subunit of the human interleukin-5 receptor (IL-5Rα) with a dissociation constant of 11 pM. The IL-5 receptor is expressed on the surface of eosinophils and basophils." ([DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784)، إصدار 2026-05-13؛ تاريخ الاطلاع 2026-11-20). المعروف أن بنراليزوماب يرتبط بالوحدة ألفا لمستقبِل الإنترلوكين-5 (IL5RA) ويُحدث استنفاداً للخلايا الحمضية والقاعدية عبر السمية الخلوية المعتمدة على الأجسام المضادة (ADCC).
 
 غير أن البيانات المتاحة لا تدعم مساراً آلياً واضحاً يربط هذه الآلية بنقص الصفيحات المناعي، الذي ينجم أساساً عن تدمير الصفيحات بوساطة أجسام مضادة ذاتية، وليس عن التهاب حمضي المنشأ. لذلك فإن الدرجة المرتفعة (0.9934) مجرد مخرَج حسابي من النموذج ولا يعكس دليلاً سريرياً أو آلياً مثبتاً.
 
@@ -91,6 +91,19 @@ description: "Benralizumab: الاستطباب الجديد المتوقع نق�
 - نشرة الدواء المعتمدة من هيئة الغذاء والدواء السعودية (التحذيرات وموانع الاستعمال).
 - دراسات ما قبل سريرية أو سريرية تبحث دور مسار الإنترلوكين-5 والخلايا الحمضية في نقص الصفيحات المناعي.
 - التحقق من حالة التراخيص المحلية وتفاصيلها (الشكل الدوائي والاستطباب المسجَّل).
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

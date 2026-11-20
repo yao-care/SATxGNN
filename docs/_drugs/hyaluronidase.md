@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
 description: "Hyaluronidase: الاستطباب الجديد المتوقع Esotropia (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -60,7 +60,7 @@ description: "Hyaluronidase: الاستطباب الجديد المتوقع Esot
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في قاعدة البيانات. وبحسب المعروف، فإن الهيالورونيداز إنزيم يفكك حمض الهيالورونيك في المصفوفة خارج الخلوية، ويُستخدم عادة لزيادة انتشار الأدوية المحقونة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Hyaluronidase (ترجمة غير رسمية): «هيالورونيداز عامل منشِّر يعدّل نفاذية النسيج الضام من خلال حلمهة حمض الهيالورونيك، وهو عديد سكاريد موجود في المادة الأساسية بين الخلوية للنسيج الضام، وفي بعض الأنسجة المتخصصة، مثل الحبل السري والخلط الزجاجي. ويوجد حمض الهيالورونيك أيضاً في محافظ العقديات الحالّة للدم من النمطين A وC.» النص الأصلي بالإنجليزية: "Hyaluronidase is a dispersion agent, which modifies the permeability of connective tissue through the hydrolysis of hyaluronic acid, a polysaccharide found in the intercellular ground substance of connective tissue, and of certain specialized tissues, such as the umbilical cord and vitreous humor. Hyaluronic acid is also present in the capsules of type A and C hemolytic streptococci." ([DailyMed: Hylenex Recombinant (hyaluronidase) prescribing information, Antares Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3023cc56-ed4b-4e87-b3a1-81b20943f658)، إصدار 2024-11-11؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإن الهيالورونيداز إنزيم يفكك حمض الهيالورونيك في المصفوفة خارج الخلوية، ويُستخدم عادة لزيادة انتشار الأدوية المحقونة.
 
 في العين، يُقترح أن الحقن داخل الجسم الزجاجي يُحدث ما يسمى «انحلال الزجاجي الدوائي» (pharmacologic vitreolysis)، أي تسييل الجسم الزجاجي وتحفيز انفصاله الخلفي، مما يساعد على تصريف النزف الزجاجي وتحسين انتشار الأكسجين والمغذيات. وتدعم ذلك دراسات ما قبل السريرية، منها دراسة على الجرذان السكرية أظهرت أن انحلال الزجاجي بالإنزيم قد يبطئ تطور المرض عبر مسار HIF-1α، ودراسة حديثة (2026) تشير إلى أن اضطراب استقلاب الهيالورونان يحرّك الالتهاب وتكوّن الأوعية في اعتلال الشبكية السكري التكاثري.
 
@@ -155,12 +155,13 @@ description: "Hyaluronidase: الاستطباب الجديد المتوقع Esot
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وتجدر الإشارة إلى أن الرخصة السعودية الوحيدة ملغاة، مما يوحي بأن هذا البرنامج لم يتحول إلى اعتماد مستدام» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «والترخيص السعودي ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Hylenex Recombinant (hyaluronidase) prescribing information, Antares Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3023cc56-ed4b-4e87-b3a1-81b20943f658) |
 
 <!-- review:end log -->
 

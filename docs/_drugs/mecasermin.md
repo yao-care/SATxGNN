@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 531
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Mecasermin: الاستطباب الجديد المتوقع أحادية الصبغي X (monosomy X) (مستوى الدليل L5). الاستطباب الأصلي: متلازمة عدم الحساسية لهرمون النمو، ومتلازمة لارون (من الرسم المعرفي ل…"
 monitor_inn: "MECASERMIN"
 predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]
@@ -60,7 +60,7 @@ predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia a
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف، فإن ميكاسيرمين هو IGF-1 مؤتلف يعمل على محور هرمون النمو/IGF-1، وقد ثبتت فعاليته في حالات نقص IGF-1 الأولي الشديد وعدم الحساسية لهرمون النمو.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Mecasermin (ترجمة غير رسمية): «عامل النمو الشبيه بالإنسولين-1 (IGF-1) وسيط هرموني رئيسي في النمو القامي. وفي الظروف الطبيعية، يرتبط هرمون النمو (GH) بمستقبله في الكبد والأنسجة الأخرى، ويحفز تخليق/إفراز IGF-1.» النص الأصلي بالإنجليزية: "Insulin-like growth factor-1 (IGF-1) is a key hormonal mediator on statural growth. Under normal circumstances, growth hormone (GH) binds to its receptor in the liver, and other tissues, and stimulates the synthesis/secretion of IGF-1." ([DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce)، إصدار 2026-05-18؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فإن ميكاسيرمين هو IGF-1 مؤتلف يعمل على محور هرمون النمو/IGF-1، وقد ثبتت فعاليته في حالات نقص IGF-1 الأولي الشديد وعدم الحساسية لهرمون النمو.
 
 تتسم أحادية الصبغي X (متلازمة تيرنر) بقصر القامة، وهذا يفسّر الصلة البيولوجية المحتملة بمحور النمو. غير أن علاج هذه المتلازمة يعتمد عادةً على هرمون النمو نفسه، وإشارته ليست معطلة فيها، ولذلك لا يوجد مبرر واضح لتعويض IGF-1.
 
@@ -120,11 +120,12 @@ predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia a
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص الوحيد في المملكة ملغى، ولا توجد حالياً قناة تسويق فعالة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce) |
 
 <!-- review:end log -->
 

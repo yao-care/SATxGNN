@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
 description: "Cyclophosphamide: الاستطباب الجديد المتوقع التشوهات الفقرية مع خلل صماوي وخلل متغير في الخلايا التائية (vertebral anomalies and variable endocrine and T-cell dysfunction) (مستوى الدليل L5)."
@@ -54,7 +54,7 @@ description: "Cyclophosphamide: الاستطباب الجديد المتوقع �
 
 ## لماذا يُعدّ هذا التنبؤ محل نظر؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. بحسب المعلومات المعروفة، سيكلوفوسفاميد عامل مؤلكل سام للخلايا وكابت للمناعة. آلية عمله المعروفة تقوم على تلف الحمض النووي في الخلايا سريعة الانقسام، ومنها الخلايا اللمفاوية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cyclophosphamide (ترجمة غير رسمية): «لم تُوصَّف آلية العمل بشكل كامل. ومع ذلك، قد يكون الربط المتصالب للحمض النووي (DNA) في الخلايا الورمية متضمنًا في ذلك. تتداخل المستقلبات المؤلكلة النشطة لسيكلوفوسفاميد مع نمو الخلايا الخبيثة سريعة التكاثر القابلة للتأثر.» النص الأصلي بالإنجليزية: "The mechanism of action has not been fully characterized. However, cross-linking of tumor cell DNA may be involved. The active alkylating metabolites of cyclophosphamide interfere with the growth of susceptible rapidly proliferating malignant cells." ([DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e)، إصدار 2026-08-26؛ تاريخ الاطلاع 2026-11-20). بحسب المعلومات المعروفة، سيكلوفوسفاميد عامل مؤلكل سام للخلايا وكابت للمناعة. آلية عمله المعروفة تقوم على تلف الحمض النووي في الخلايا سريعة الانقسام، ومنها الخلايا اللمفاوية.
 
 هذه الآلية لا تدعم منطقياً علاج متلازمة يكون فيها خلل الخلايا التائية جزءاً أساسياً من المرض. فالمتوقع من كابت مناعي سام للخلايا أن يزيد نقص المناعة الخلوية سوءاً لا أن يحسّنه. ولم نجد أي مبرر علاجي مقنع لهذا التنبؤ.
 
@@ -114,6 +114,18 @@ description: "Cyclophosphamide: الاستطباب الجديد المتوقع �
 - أي دليل مباشر، سريري أو مخبري، يتناول هذه المتلازمة.
 - بيانات التحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة.
 - تقييم مدى ملاءمة دواء كابت للمناعة لمرضى يعانون أصلاً من خلل في الخلايا التائية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

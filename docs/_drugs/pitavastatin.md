@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "PITAVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Pitavastatin: الاستطباب الجديد المتوقع Cholesterol-ester transfer protein deficiency (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
@@ -60,7 +60,7 @@ description: "Pitavastatin: الاستطباب الجديد المتوقع Chole
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف، يثبّط بيتافاستاتين إنزيم HMG-CoA ريدكتاز فيخفض الكوليسترول منخفض الكثافة (LDL-C)، وهذا مفيد في اضطرابات الدهون.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Pitavastatin (ترجمة غير رسمية): «بيتافاستاتين مثبط لإنزيم 3-هيدروكسي-3-ميثيل غلوتاريل-مرافق الإنزيم A (HMG-CoA) المختزل، وهو الإنزيم الذي يحفز تحويل HMG-CoA إلى ميفالونات، وهي خطوة محددة للمعدل في مسار التخليق الحيوي للكوليسترول. ونتيجة لذلك، يتسارع التعبير عن مستقبلات LDL يليه امتصاص LDL من الدم إلى الكبد، ومن ثم ينخفض TC في البلازما.» النص الأصلي بالإنجليزية: "Pitavastatin is an inhibitor of 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase, the enzyme that catalyzes the conversion of HMG-CoA to mevalonate, a rate-limiting step in the biosynthetic pathway for cholesterol. As a result, the expression of LDL-receptors followed by the uptake of LDL from blood to liver is accelerated and then the plasma TC decreases." ([DailyMed: Livalo (pitavastatin calcium) prescribing information, Kowa Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44dcbf97-99ec-427c-ba50-207e0069d6d2)، إصدار 2026-03-31؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، يثبّط بيتافاستاتين إنزيم HMG-CoA ريدكتاز فيخفض الكوليسترول منخفض الكثافة (LDL-C)، وهذا مفيد في اضطرابات الدهون.
 
 يعاني المصابون بفيروس نقص المناعة البشرية من تنشّط مناعي والتهاب مزمن، ومن اضطراب دهون مرتبط بالعلاج المضاد للفيروسات القهقرية، مما يرفع خطر تصلب الشرايين. ولبيتافاستاتين تأثيرات خافضة لـ LDL-C ومضادة للالتهاب، كما أن استقلابه عبر CYP3A4 ضئيل، فاحتمال تداخله مع أدوية الفيروس منخفض نسبياً.
 
@@ -134,6 +134,19 @@ description: "Pitavastatin: الاستطباب الجديد المتوقع Chole
 - التحقق من أن الاستطباب الجديد غير مشمول في الترخيص المحلي الحالي، إذ إن نصوص الاستطباب غير متوفرة.
 
 **ملاحظة حول التنبؤات الأخرى:** المرشحات الأخرى (نقص بروتين نقل إستر الكوليسترول، والاضطراب النمائي العصبي النادر، وعدوى فيروس نقص المناعة القردي) تقوم على القرب في الرسم المعرفي دون دراسات مباشرة، لذا مستوى أدلتها L5 والقرار «إيقاف مؤقت».
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Livalo (pitavastatin calcium) prescribing information, Kowa Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44dcbf97-99ec-427c-ba50-207e0069d6d2) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

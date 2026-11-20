@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 619
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Oxaliplatin: الاستطباب الجديد المتوقع الورم المتوسطي الجنبي الخبيث (مستوى الدليل L2). الاستطباب الأصلي: نقائل الأورم الخبيث في القولون (من قاعدة المعرفة TxGNN، إذ لا يتوفر ن…"
 monitor_inn: "OXALIPLATIN"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
@@ -60,7 +60,7 @@ predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-أوكساليبلاتين مركّب بلاتيني من الجيل الثالث يعمل عبر تكوين روابط متصالبة في الحمض النووي، مما يعطّل تضاعفه ويؤدي إلى موت الخلية السرطانية. وتجدر الإشارة إلى أن بيانات آلية العمل التفصيلية غير متوفرة حالياً في البيانات المجمّعة لهذا التقرير، والوصف أعلاه يستند إلى المعرفة العامة بهذه الفئة من الأدوية.
+أوكساليبلاتين مركّب بلاتيني من الجيل الثالث يعمل عبر تكوين روابط متصالبة في الحمض النووي، مما يعطّل تضاعفه ويؤدي إلى موت الخلية السرطانية. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Oxaliplatin (ترجمة غير رسمية): «يخضع الأوكساليبلاتين لتحويل غير إنزيمي في المحاليل الفيزيولوجية إلى مشتقات نشطة عن طريق إزاحة لجين الأوكسالات غير المستقر. وتتكون عدة أنواع تفاعلية عابرة، من بينها أحادي الأكوا وثنائي الأكوا DACH بلاتين، التي ترتبط تساهميًا بالجزيئات الكبيرة.» النص الأصلي بالإنجليزية: "Oxaliplatin undergoes nonenzymatic conversion in physiologic solutions to active derivatives via displacement of the labile oxalate ligand. Several transient reactive species are formed, including monoaquo and diaquo DACH platinum, which covalently bind with macromolecules." ([DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5)، إصدار 2026-08-24؛ تاريخ الاطلاع 2026-11-20).
 
 مركّبات البلاتين الأخرى (سيسبلاتين وكاربوبلاتين) هي العمود الفقري للعلاج الكيميائي في الورم المتوسطي. لذلك فإن آلية التلف الجيني المسببة للسمية الخلوية مبررة نظرياً. كما أظهرت عدة دراسات من المرحلة الثانية لتوليفات أوكساليبلاتين (مع جيمسيتابين، رالتيتريكسيد، فينوريلبين، بورتيزوميب) نشاطاً سريرياً معيناً.
 
@@ -157,11 +157,12 @@ predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن جميع تراخيص المنتج في السعودية ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5) |
 
 <!-- review:end log -->
 

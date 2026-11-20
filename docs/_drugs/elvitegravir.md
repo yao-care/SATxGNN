@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 297
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Elvitegravir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى فيروس نقص المناعة البشرية (HIV) والإيدز"
 monitor_inn: "elvitegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -56,7 +56,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في قاعدة البيانات المجمّعة. استناداً إلى المعلومات المعروفة، فإن إلفيتغرافير مثبط لنقل الشريط (strand transfer) الذي يقوم به إنزيم الإنتغريز في HIV-1، وقد ثبتت فعاليته في عدوى HIV، ومن الناحية الآلية قد ينطبق على SIV.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate (مستحضر مركب يحتوي على Elvitegravir) (ترجمة غير رسمية): «STRIBILD هو تركيبة ثابتة الجرعة من الأدوية المضادة للفيروسات القهقرية إلفيتغرافير (المعزَّز بمثبّط CYP3A كوبيسيستات)، وإمتريسيتابين، وTDF.» النص الأصلي بالإنجليزية: "STRIBILD is a fixed-dose combination of antiretroviral drugs elvitegravir (boosted by the CYP3A inhibitor cobicistat), emtricitabine, and TDF." ([DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee)، إصدار 2025-02-04؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعلومات المعروفة، فإن إلفيتغرافير مثبط لنقل الشريط (strand transfer) الذي يقوم به إنزيم الإنتغريز في HIV-1، وقد ثبتت فعاليته في عدوى HIV، ومن الناحية الآلية قد ينطبق على SIV.
 
 يتشارك فيروسا HIV-1 وSIV موقعاً فعالاً محفوظاً بدرجة عالية في الإنتغريز، ولذلك فإن نشاط مثبطات INSTI ضد SIV معقول آلياً. وتدعم الدراسات ما قبل السريرية ذلك: فقد أظهر إلفيتغرافير نشاطاً مضاداً للفيروسات القهقرية ضد بنى SIV والفيروسات الهجينة، وجرى توصيف طفرات المقاومة للإنتغريز في SIVmac239، كما منحت إدخالات موضعية تجمع تينوفوفير ألافيناميد وإلفيتغرافير حماية جزئية بعد التعرض في نموذج SHIV لدى القرود.
 
@@ -126,12 +126,13 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن وضع السوق «ملغى فقط» مما يحد من الجدوى العملية للتطوير» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح وضع الترخيص الملغى وإمكانية توفر المنتج في السوق السعودي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee) |
 
 <!-- review:end log -->
 

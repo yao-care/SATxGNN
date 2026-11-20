@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Entacapone: الاستطباب الجديد المتوقع التنكس العصبي المرتبط بجين PLA2G6 (PLA2G6-associated neurodegeneration) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -58,7 +58,7 @@ description: "Entacapone: الاستطباب الجديد المتوقع الت�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-بيانات آلية العمل التفصيلية غير متاحة حالياً. استناداً إلى المعلومات المعروفة، إنتاكابون مثبّط لإنزيم COMT (كاتيكول-أو-ميثيل ترانسفيراز)، ويُعرف باستخدامه مع الليفودوبا لإطالة أثرها في الأعراض الباركنسونية، ومن ناحية آلية العمل قد يكون قابلاً للتطبيق على الأمراض ذات الطابع الباركنسوني.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Entacapone (ترجمة غير رسمية): «إنتاكابون مثبط انتقائي وعكوس لـ COMT. في الثدييات، يتوزع COMT في مختلف الأعضاء، وتوجد أعلى أنشطته في الكبد والكلية. ويوجد COMT أيضًا في القلب والرئة والعضلات الملساء والهيكلية والسبيل المعوي والأعضاء التناسلية ومختلف الغدد والنسيج الشحمي والجلد وخلايا الدم والأنسجة العصبية، وخاصة في الخلايا الدبقية.» النص الأصلي بالإنجليزية: "Entacapone is a selective and reversible inhibitor of COMT. In mammals, COMT is distributed throughout various organs with the highest activities in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells, and neuronal tissues, especially in glial cells." ([DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd)، إصدار 2026-02-16؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعلومات المعروفة، إنتاكابون مثبّط لإنزيم COMT (كاتيكول-أو-ميثيل ترانسفيراز)، ويُعرف باستخدامه مع الليفودوبا لإطالة أثرها في الأعراض الباركنسونية، ومن ناحية آلية العمل قد يكون قابلاً للتطبيق على الأمراض ذات الطابع الباركنسوني.
 
 يشمل التنكس العصبي المرتبط بجين PLA2G6 اعتلال الأعصاب المحوري الطفلي (infantile neuroaxonal dystrophy) والخلل التوتري الباركنسوني المرتبط بالجين نفسه. لذلك فإن وجود ارتباط دوباميني أو عبر تثبيط COMT بالنمط الظاهري الباركنسوني أمر معقول نظرياً. غير أنه لا توجد بيانات آلية أو سريرية مباشرة تدعم ذلك، والدرجة العالية قد تعكس القرب الشبكي بين الأمراض أكثر مما تعكس آلية مثبتة.
 
@@ -104,6 +104,19 @@ description: "Entacapone: الاستطباب الجديد المتوقع الت�
 - دراسات مخبرية أو نماذج حيوانية في التنكس العصبي المرتبط بجين PLA2G6.
 - تقارير حالات أو دراسات استكشافية عن استخدام إنتاكابون في الخلل التوتري الباركنسوني المرتبط بهذا الجين.
 - الحصول على تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Mannitol: الاستطباب الجديد المتوقع متلازمة عدم الإدرار المناسب لمضاد الإدرار الكلوية المنشأ (NSIAD) (مستوى الدليل L5). الاستطباب الأصلي: الوذمة الدماغية، ارتفاع الضغط داخل الجمجمة، ارتفاع ضغط العين، …"
 monitor_inn: "MANNITOL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
@@ -58,7 +58,7 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "a
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل. وبناءً على المعلومات المعروفة، المانيتول عامل أسموزي يرفع الأسمولية في البلازما والأنابيب الكلوية، فيسحب الماء من الأنسجة ويزيد الإدرار الأسموزي. وهذا هو أساس استخدامه في خفض الضغط داخل الجمجمة والعين.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Mannitol (ترجمة غير رسمية): «يمارس المانيتول، عند إعطائه عن طريق الوريد، تأثيره المدر للبول التناضحي بوصفه مذاباً ذا حجم جزيئي صغير نسبياً يظل محصوراً إلى حد كبير في الحيز خارج الخلوي. ويعيق المانيتول إعادة الامتصاص الأنبوبي للماء ويعزز إفراغ الصوديوم والكلوريد عن طريق رفع الأسمولية في الرشاحة الكبيبية.» النص الأصلي بالإنجليزية: "Mannitol, when administered intravenously, exerts its osmotic diuretic effect as a solute of relatively small molecular size being largely confined to the extracellular space. Mannitol hinders tubular reabsorption of water and enhances excretion of sodium and chloride by elevating the osmolarity of the glomerular filtrate." ([DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc)، إصدار 2025-08-26؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، المانيتول عامل أسموزي يرفع الأسمولية في البلازما والأنابيب الكلوية، فيسحب الماء من الأنسجة ويزيد الإدرار الأسموزي. وهذا هو أساس استخدامه في خفض الضغط داخل الجمجمة والعين.
 
 أما NSIAD فهو اضطراب احتباس للماء مع نقص صوديوم الدم. والرابط المحتمل نظريًا هو أن الإدرار الأسموزي قد يعزز إخراج الماء الحر. غير أن المانيتول قد يفاقم نقص الصوديوم أيضًا عبر انتقال الماء الأسموزي. والمنشور الوحيد المدعوم هو مراجعة عامة عن أخطاء تقييم نقص الصوديوم، ولا تحتوي على بيانات خاصة بـ NSIAD. لذلك فالدرجة المرتفعة جدًا هي تنبؤ نموذجي فقط.
 
@@ -123,6 +123,19 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "a
 - أدلة مباشرة من دراسات سريرية أو ما قبل سريرية خاصة بـ NSIAD.
 - تقييم لإمكانية إعادة ترخيص منتج مانيتول وريدي في السوق السعودي.
 - تقييم بدائل المؤشرات الأخرى المتوقعة في القائمة، وهي في الغالب أدلتها غير مباشرة أيضًا (مثل دور المانيتول كحامل أو سواغ في الشلل الدوري ونقص البوتاسيوم والحمى الخبيثة)، ولا تدعم إعادة توظيفه علاجيًا.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

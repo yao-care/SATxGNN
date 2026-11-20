@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Ambrisentan: الاستطباب الجديد المتوقع التشوه الشرياني الوريدي الرئوي (pulmonary arteriovenous malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -54,7 +54,7 @@ description: "Ambrisentan: الاستطباب الجديد المتوقع الت
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-أمبريسنتان مضاد انتقائي لمستقبل الإندوثيلين من النوع A (ETA). ولا تتوفر حالياً بيانات تفصيلية عن آلية العمل ضمن البيانات المجمعة لهذا التقرير، لذا يستند التحليل إلى الفئة الدوائية المعروفة.
+أمبريسنتان مضاد انتقائي لمستقبل الإندوثيلين من النوع A (ETA). وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ambrisentan (ترجمة غير رسمية): «الإندوثيلين-1 (ET-1) ببتيد قوي ذو تأثير صماوي ذاتي ونظير صماوي. ويتواسط نوعان فرعيان من المستقبلات، هما ET A وET B، تأثيرات ET-1 في العضلات الملساء الوعائية وفي البطانة. […] أمبريسنتان مضاد لمستقبل ET A عالي الألفة (K i =0.011 nM) ذو انتقائية عالية لمستقبل ET A مقابل مستقبل ET B (>4000 ضعف).» النص الأصلي بالإنجليزية: "Endothelin-1 (ET-1) is a potent autocrine and paracrine peptide. Two receptor subtypes, ET A and ET B, mediate the effects of ET-1 in the vascular smooth muscle and endothelium. […] Ambrisentan is a high-affinity (K i =0.011 nM) ET A receptor antagonist with a high selectivity for the ET A versus ET B receptor (>4000-fold)." ([DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844)، إصدار 2026-06-22؛ تاريخ الاطلاع 2026-11-20).
 
 تحدث التشوهات الشريانية الوريدية الرئوية غالباً مع داء الأوعية النزفي الوراثي (HHT)، وتنطوي على اضطراب في إعادة تشكيل الأوعية الدموية. هذا يتيح ربطاً نظرياً بدواء يؤثر على المسار الوعائي للإندوثيلين.
 
@@ -97,6 +97,19 @@ description: "Ambrisentan: الاستطباب الجديد المتوقع الت
 - دراسات سريرية أو ما قبل سريرية تتناول التشوه الشرياني الوريدي الرئوي مباشرة.
 - الحصول على نشرة العبوة المعتمدة من هيئة الغذاء والدواء السعودية ومراجعة التحذيرات وموانع الاستعمال.
 - تقييم السلامة، وخاصةً السمية الجنينية وقصور القلب وفقر الدم، في الفئة المستهدفة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

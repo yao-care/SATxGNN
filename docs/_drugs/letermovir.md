@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 490
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Letermovir: الاستطباب الجديد المتوقع داء المبيضات الفرجي المهبلي (مستوى الدليل L5). الاستطباب الأصلي: عدوى الفيروس المضخم للخلايا (CMV)"
 monitor_inn: "LETERMOVIR"
 predicted_indications: ["vulvovaginal candidiasis"]
@@ -58,7 +58,7 @@ predicted_indications: ["vulvovaginal candidiasis"]
 
 ## لماذا قد يبدو هذا التوقع معقولاً (أو لا)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. غير أن المعروف عن ليترموفير أنه مضاد فيروسي نوعي للفيروس المضخم للخلايا، يثبّط مركّب الـ terminase الفيروسي (الوحدات pUL56 وpUL51 وpUL89).
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Letermovir (ترجمة غير رسمية): «PREVYMIS دواء مضاد للفيروسات ضد CMV. […] يثبط الليتيرموفير معقد التيرميناز الخاص بالحمض النووي DNA لفيروس CMV (pUL51 وpUL56 وpUL89) اللازم لمعالجة الحمض النووي DNA الفيروسي وتعبئته. وقد أثبت التوصيف الكيميائي الحيوي والفحص بالمجهر الإلكتروني أن الليتيرموفير يؤثر في إنتاج جينومات ذات طول وحدة سليم ويتداخل مع نضج الفيريونات.» النص الأصلي بالإنجليزية: "PREVYMIS is an antiviral drug against CMV. […] Letermovir inhibits the CMV DNA terminase complex (pUL51, pUL56, and pUL89) which is required for viral DNA processing and packaging. Biochemical characterization and electron microscopy demonstrated that letermovir affects the production of proper unit length genomes and interferes with virion maturation." ([DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b)، إصدار 2026-01-14؛ تاريخ الاطلاع 2026-11-20). غير أن المعروف عن ليترموفير أنه مضاد فيروسي نوعي للفيروس المضخم للخلايا، يثبّط مركّب الـ terminase الفيروسي (الوحدات pUL56 وpUL51 وpUL89).
 
 **هذا الهدف غير موجود في فطريات المبيضات (Candida)**، ولذلك لا توجد آلية مضادة للفطريات مباشرة ومعقولة. الصلة الوحيدة الممكنة غير مباشرة، مثلاً عبر تقليل مضاعفات العدوى الفيروسية أو مضاعفات كبت المناعة لدى مرضى الزرع المعرّضين للإصابة بالمبيضات. هذه الفرضية تخمينية ولم تُختبر.
 
@@ -130,12 +130,13 @@ predicted_indications: ["vulvovaginal candidiasis"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص السعودي الوحيد ملغى، ما يزيد صعوبة المضي قدماً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «ولا سيما سبب إلغاء الترخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b) |
 
 <!-- review:end log -->
 

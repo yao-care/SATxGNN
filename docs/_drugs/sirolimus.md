@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 761
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: الاستطباب الجديد المتوقع ساركوما شحمية (liposarcoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -54,7 +54,7 @@ description: "Sirolimus: الاستطباب الجديد المتوقع سارك
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل ضمن البيانات المجمّعة لهذا التقرير. استناداً إلى المعروف عن الدواء، فإن سيروليموس يثبط المعقد mTORC1، ويُعد مسار PI3K/AKT/mTOR من المسارات المرتبطة بنمو الساركوما، ما يوفر مبرراً بيولوجياً نظرياً لاستخدامه.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Sirolimus (ترجمة غير رسمية): «سيروليموس في FYARRO مثبط لكيناز الهدف الآلي للرابامايسين (mTOR، المعروف سابقاً بالهدف الثديي للرابامايسين). وmTOR، وهو كيناز سيرين ثريونين، يقع في مجرى مسار PI3K/AKT، ويتحكم في عمليات خلوية رئيسية مثل بقاء الخلية ونموها وتكاثرها، وكثيراً ما يكون مختل التنظيم في العديد من السرطانات البشرية. وفي الخلايا، يرتبط سيروليموس بالإيمونوفيلين، البروتين الرابط لـ FK-12 (FKBP-12)، لتوليد معقد كابت للمناعة.» النص الأصلي بالإنجليزية: "Sirolimus in FYARRO is an inhibitor of mechanistic target of rapamycin kinase (mTOR, previously known as mammalian target of rapamycin). mTOR, a serine threonine kinase, is downstream of the PI3K/AKT pathway, controls key cellular processes such as cell survival, growth, and proliferation, and is commonly dysregulated in several human cancers. In cells, sirolimus binds to the immunophilin, FK Binding Protein-12 (FKBP-12), to generate an immunosuppressive complex." ([DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf)، إصدار 2026-09-09؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف عن الدواء، فإن سيروليموس يثبط المعقد mTORC1، ويُعد مسار PI3K/AKT/mTOR من المسارات المرتبطة بنمو الساركوما، ما يوفر مبرراً بيولوجياً نظرياً لاستخدامه.
 
 غير أن هذا المبرر آلي فقط. فلا توجد دراسة منشورة تثبت فعالية سيروليموس في الساركوما الشحمية، ولذلك لا يمكن رفع مستوى الدليل فوق L5.
 
@@ -103,6 +103,18 @@ description: "Sirolimus: الاستطباب الجديد المتوقع سارك
 - بيانات تفصيلية عن آلية العمل
 - مراجعة النشرة الدوائية المعتمدة للتحذيرات وموانع الاستعمال
 - دراسات تُظهر أثر سيروليموس منفرداً في الساركوما الشحمية
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

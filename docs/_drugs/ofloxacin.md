@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 608
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "OFLOXACIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
 description: "Ofloxacin: الاستطباب الجديد المتوقع Hyperamylasemia (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 9 (السارية: 9)"
@@ -68,7 +68,7 @@ description: "Ofloxacin: الاستطباب الجديد المتوقع Hyperamy
 
 ## لماذا يُعدّ هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا. وبحسب المعروف عن هذه الفئة، يثبّط الأوفلوكساسين إنزيمي DNA gyrase وtopoisomerase IV البكتيريين، فيمنع تضاعف الحمض النووي البكتيري.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ofloxacin (ترجمة غير رسمية): «يمارس الأوفلوكساسين نشاطه المضاد للجراثيم بتثبيط DNA gyrase، وهو إنزيم توبوإيزوميراز جرثومي. وDNA gyrase إنزيم أساسي يتحكم في طوبولوجيا DNA ويساعد في تضاعف DNA وإصلاحه وتعطيله ونسخه.» النص الأصلي بالإنجليزية: "Ofloxacin exerts its antibacterial activity by inhibiting DNA gyrase, a bacterial topoisomerase. DNA gyrase is an essential enzyme which controls DNA topology and assists in DNA replication, repair, deactivation, and transcription." ([DailyMed: Ofloxacin Otic (ofloxacin) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42366170-e536-46a1-9735-d76e5820a9de)، إصدار 2026-10-23؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن هذه الفئة، يثبّط الأوفلوكساسين إنزيمي DNA gyrase وtopoisomerase IV البكتيريين، فيمنع تضاعف الحمض النووي البكتيري.
 
 الطاعون سببه بكتيريا *Yersinia pestis* سلبية الغرام، وهي حساسة للفلوروكينولونات. لذا فالأمر أقرب إلى **توسيع الطيف المضاد للبكتيريا** منه إلى إعادة توظيف حقيقية بآلية جديدة. وتدعم ذلك دراسات الحساسية المخبرية ونماذج الفئران، ومنها دراسة خاصة بالأوفلوكساسين.
 
@@ -160,12 +160,13 @@ description: "Ofloxacin: الاستطباب الجديد المتوقع Hyperamy
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «والمستحضر **ملغى التسجيل** في السوق السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «المستحضر ملغى التسجيل بالكامل في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ofloxacin Otic (ofloxacin) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42366170-e536-46a1-9735-d76e5820a9de) |
 
 <!-- review:end log -->
 

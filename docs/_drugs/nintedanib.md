@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 589
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: الاستطباب الجديد المتوقع الساركوما الليفية الجلدية الناتئة (dermatofibrosarcoma protuberans) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -54,7 +54,7 @@ description: "Nintedanib: الاستطباب الجديد المتوقع الس�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر في البيانات المجمعة لهذا التقرير معلومات تفصيلية عن آلية العمل. لكن المعروف أن نينتيدانيب يثبّط مستقبلات PDGFR ألفا/بيتا وVEGFR 1–3 وFGFR 1–3.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Nintedanib (ترجمة غير رسمية): «النينتيدانيب جزيء صغير يثبط العديد من كينازات التيروزين المستقبلية (RTKs) وكينازات التيروزين غير المستقبلية (nRTKs). ويثبط النينتيدانيب كينازات RTKs التالية: مستقبل عامل النمو المشتق من الصفائح الدموية (PDGFR) α وβ، ومستقبل عامل نمو الأرومات الليفية (FGFR) 1-3، ومستقبل عامل نمو البطانة الوعائية (VEGFR) 1-3، ومستقبل العامل المحفز للمستعمرات 1 (CSF1R)، وكيناز التيروزين الشبيه بـ Fms-3 (FLT-3).» النص الأصلي بالإنجليزية: "Nintedanib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs) and non-receptor tyrosine kinases (nRTKs). Nintedanib inhibits the following RTKs: platelet-derived growth factor receptor (PDGFR) α and β, fibroblast growth factor receptor (FGFR) 1-3, vascular endothelial growth factor receptor (VEGFR) 1-3, colony stimulating factor 1 receptor (CSF1R), and Fms-like tyrosine kinase-3 (FLT-3)." ([DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa)، إصدار 2026-04-21؛ تاريخ الاطلاع 2026-11-20). لكن المعروف أن نينتيدانيب يثبّط مستقبلات PDGFR ألفا/بيتا وVEGFR 1–3 وFGFR 1–3.
 
 ينشأ هذا الورم من اندماج جيني (COL1A1-PDGFB) يؤدي إلى تنشيط مستمر لإشارات PDGFRB. لذلك فإن تثبيط هذا المسار يوفّر مبرراً آلياً نظرياً. غير أن الدليل الوحيد المتاح مراجعة عام 2018 عن مثبطات PDGFR الصغيرة، وهي تخص الفئة الدوائية عموماً (مثل إيماتينيب) ولا تتناول نينتيدانيب تحديداً.
 
@@ -100,6 +100,18 @@ description: "Nintedanib: الاستطباب الجديد المتوقع الس�
 - بيانات آلية العمل التفصيلية.
 - تحذيرات وموانع الاستعمال من نشرة العبوة المعتمدة.
 - مقارنة مع العلاج المعتمد لهذا الورم (مثبطات PDGFR مثل إيماتينيب) لتحديد القيمة المضافة المحتملة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

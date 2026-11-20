@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DIPYRIDAMOLE"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Dipyridamole: الاستطباب الجديد المتوقع Sick sinus syndrome 2, autosomal dominant (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -58,7 +58,7 @@ description: "Dipyridamole: الاستطباب الجديد المتوقع Sick 
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. المعروف عموماً أن ديبيريدامول يثبّط تراكم الصفيحات ويزيد من تأثير الأدينوزين.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Dipyridamole (ترجمة غير رسمية): «يثبط ديبيريدامول التقاط الأدينوزين إلى داخل الصفائح الدموية والخلايا البطانية وكريات الدم الحمراء في المختبر وفي الجسم الحي؛ ويحدث التثبيط بطريقة معتمدة على الجرعة عند التراكيز العلاجية (0.5 إلى 1.9 mcg/mL). يؤدي هذا التثبيط إلى زيادة التراكيز الموضعية للأدينوزين الذي يعمل على مستقبِل A 2 في الصفائح الدموية، فيحفز بذلك إنزيم أدينيلات سيكلاز الصفيحي ويزيد مستويات أحادي فوسفات الأدينوزين الحلقي-3',5' (cAMP) في الصفائح الدموية.» النص الأصلي بالإنجليزية: "Dipyridamole inhibits the uptake of adenosine into platelets, endothelial cells and erythrocytes in vitro and in vivo; the inhibition occurs in a dose-dependent manner at therapeutic concentrations (0.5 to 1.9 mcg/mL). This inhibition results in an increase in local concentrations of adenosine which acts on the platelet A 2 -receptor thereby stimulating platelet adenylate cyclase and increasing platelet cyclic-3',5'-adenosine monophosphate (cAMP) levels." ([DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5)، إصدار 2026-04-29؛ تاريخ الاطلاع 2026-11-20). المعروف عموماً أن ديبيريدامول يثبّط تراكم الصفيحات ويزيد من تأثير الأدينوزين.
 
 أما العلاقة بالمرض المتنبأ به فلا يوجد رابط آلي واضح. هذه المتلازمة اضطراب وراثي في التوصيل القلبي مرتبط بالجين HCN4 (من نوع اعتلالات القنوات)، ولا توجد صلة معروفة بين التأثير المضاد للصفيحات أو المعدِّل للأدينوزين وبين هذا الاضطراب. بل قد يؤثر تعزيز الأدينوزين نظرياً في وظيفة العقدة الجيبية ويزيد من بطء القلب.
 
@@ -111,6 +111,18 @@ description: "Dipyridamole: الاستطباب الجديد المتوقع Sick 
 - الحصول على تحذيرات وموانع استعمال النشرة الدوائية المعتمدة من هيئة الغذاء والدواء السعودية.
 - دراسات مخبرية أو نماذج حيوانية تبحث في تأثير الدواء على وظيفة العقدة الجيبية في اعتلالات HCN4.
 - تقييم السلامة القلبية، خصوصاً خطر بطء القلب، قبل التفكير في أي دراسة سريرية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

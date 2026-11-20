@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 571
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Moxifloxacin: الاستطباب الجديد المتوقع فرط أميلاز الدم (Hyperamylasemia) (مستوى الدليل L5). الاستطباب الأصلي: العدوى العقدية، الالتهاب الرئوي البكتيري، التهاب الصفاق، العدوى بالمك…"
 monitor_inn: "Moxifloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
@@ -59,7 +59,7 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 ## لماذا قد يبدو هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. المعروف أن موكسيفلوكساسين يثبّط إنزيمي DNA gyrase وtopoisomerase IV البكتيريين، وهذا أساس نشاطه المضاد للجراثيم.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Moxifloxacin (ترجمة غير رسمية): «أقراص موكسيفلوكساسين من أعضاء فئة الفلوروكينولونات من العوامل المضادة للبكتيريا. […] ينتج التأثير القاتل للبكتيريا للموكسيفلوكساسين عن تثبيط إنزيم التوبوإيزوميراز II (جيراز DNA) والتوبوإيزوميراز IV اللازمين لتضاعف DNA البكتيري ونسخه وإصلاحه وإعادة تركيبه.» النص الأصلي بالإنجليزية: "Moxifloxacin Tablet is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of moxifloxacin results from inhibition of the topoisomerase II (DNA gyrase) and topoisomerase IV required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5)، إصدار 2026-11-06؛ تاريخ الاطلاع 2026-11-20). المعروف أن موكسيفلوكساسين يثبّط إنزيمي DNA gyrase وtopoisomerase IV البكتيريين، وهذا أساس نشاطه المضاد للجراثيم.
 
 أما فرط أميلاز الدم فهو نتيجة مخبرية وليس عدوى بكتيرية، وليس له هدف دوائي مضاد للجراثيم معروف. لذلك **لم يُحدَّد أي رابط آلي منطقي** بين الدواء وهذه الحالة. الدرجة العالية (0.9998) ناتجة عن أنماط الشبكة المعرفية فقط، ولا تعكس دليلًا بيولوجيًا أو سريريًا.
 
@@ -132,6 +132,19 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 - **الطاعون الدبلي (Bubonic Plague):** يُعد الأكثر معقولية بيولوجيًا (مستوى الأدلة L4، توصية: سؤال بحثي). لدى موكسيفلوكساسين نشاط ضد *Yersinia pestis* في دراسات حيوانية ونماذج مخبرية دوائية، لكن لا توجد تجارب بشرية. والطاعون والطاعون الرئوي مدرجان أصلًا ضمن استطباباته، فهو امتداد ضمن الطيف المضاد للجراثيم أكثر منه إعادة توظيف حقيقية.
 - **المؤشرات الأخرى** (متلازمة فرط اللزوجة متعددة النسائل، نقص ألبومين الدم الخلقي، عدم توافق فصائل الدم، أمراض الدم السابقة للخباثة، الغلوبولين المناعي وحيد النسيلة، اضطرابات الدم الخلقية، أورام الجهاز الدموي واللمفاوي): لا يوجد دعم ميكانيكي أو سريري مباشر. التجارب المرتبطة تتناول علاج العدوى أو الوقاية منها لدى مرضى نقص العدلات، أو استخدام الموكسيفلوكساسين كعنصر ضابط في دراسات QT. وفي حالة الاعتلال العصبي المحيطي المرتبط بأمراض الدم، يُعد الاعتلال العصبي أثرًا جانبيًا معروفًا للفلوروكينولونات، مما يعارض الاستخدام.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

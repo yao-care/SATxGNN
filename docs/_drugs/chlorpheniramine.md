@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Chlorpheniramine: الاستطباب الجديد المتوقع أمراض تجويف الأنف (nasal cavity disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 (السارية: 17)"
 ---
 
@@ -54,7 +54,7 @@ description: "Chlorpheniramine: الاستطباب الجديد المتوقع �
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-تفصيل آلية العمل الدقيقة غير متوفر حالياً في البيانات المجمعة لهذا التقرير. لكن المعروف أن كلورفينيرامين يحصر مستقبل الهيستامين H1 (HRH1)، وهو الهدف الدوائي المسجل له في بيانات الصيدلة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ codeine phosphate and chlorpheniramine maleate (مستحضر مركب يحتوي على Chlorpheniramine) (ترجمة غير رسمية): «كلورفينيرامين كلورفينيرامين مضاد للهيستامين (مضاد لمستقبلات H 1) مشتق من البروبيلامين ومن فئة الألكيل أمين، ويمتلك أيضًا نشاطًا مضادًا للفعل الكوليني ونشاطًا مهدئًا.» النص الأصلي بالإنجليزية: "Chlorpheniramine Chlorpheniramine is a propylamine derivative antihistamine (H 1 -receptor antagonist) of the alkylamine class that also possesses anticholinergic and sedative activity." ([DailyMed: Tuxarin (codeine phosphate and chlorpheniramine maleate) prescribing information, Mainpointe Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7cfab67-6087-4ab4-b7cd-4f9295413180)، إصدار 2024-01-10؛ تاريخ الاطلاع 2026-11-20). لكن المعروف أن كلورفينيرامين يحصر مستقبل الهيستامين H1 (HRH1)، وهو الهدف الدوائي المسجل له في بيانات الصيدلة.
 
 يؤدي حصر مستقبلات H1 إلى تقليل سيلان الأنف والعطاس وزيادة النفاذية الوعائية الناتجة عن الهيستامين في مخاطية الأنف. ولذلك فالآلية قابلة للتطبيق على اضطرابات تجويف الأنف. غير أن المصطلح واسع ويتداخل في معظمه مع الاستخدامات القائمة للدواء، ما يعني أن قيمة التنبؤ كاستخدام «جديد» محدودة.
 
@@ -111,6 +111,19 @@ description: "Chlorpheniramine: الاستطباب الجديد المتوقع �
 - تحديد المرض الأنفي المقصود بدقة (مثل الاحتقان غير التحسسي) بدلاً من المصطلح الواسع.
 - دراسات سريرية بشرية تقيّم كلورفينيرامين في هذا الاستطباب المحدد.
 - التحقق من توافق طرق الإعطاء المطلوبة مع الأشكال الدوائية المتاحة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tuxarin (codeine phosphate and chlorpheniramine maleate) prescribing information, Mainpointe Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7cfab67-6087-4ab4-b7cd-4f9295413180) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

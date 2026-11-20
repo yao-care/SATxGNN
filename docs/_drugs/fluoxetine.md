@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FLUOXETINE"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Fluoxetine: الاستطباب الجديد المتوقع اضطراب الشخصية الفصامية (schizoid personality disorder) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 13 (السارية: 13)"
 ---
 
@@ -56,7 +56,7 @@ description: "Fluoxetine: الاستطباب الجديد المتوقع اضط�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن فلوكسيتين ينتمي إلى مثبطات إعادة امتصاص السيروتونين الانتقائية، وأن هذه الفئة تعدّل النقل العصبي السيروتونيني. وقد يؤثر هذا نظرياً في التبلّد العاطفي أو في أعراض الاكتئاب والقلق المصاحبة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Fluoxetine (ترجمة غير رسمية): «على الرغم من أن الآلية الدقيقة لبروزاك غير معروفة، يُفترض أنها مرتبطة بتثبيطه لالتقاط العصبونات للسيروتونين في CNS.» النص الأصلي بالإنجليزية: "Although the exact mechanism of PROZAC is unknown, it is presumed to be linked to its inhibition of CNS neuronal uptake of serotonin." ([DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299)، إصدار 2026-01-08؛ تاريخ الاطلاع 2026-11-20). المعروف أن فلوكسيتين ينتمي إلى مثبطات إعادة امتصاص السيروتونين الانتقائية، وأن هذه الفئة تعدّل النقل العصبي السيروتونيني. وقد يؤثر هذا نظرياً في التبلّد العاطفي أو في أعراض الاكتئاب والقلق المصاحبة.
 
 لا توجد آلية معروفة خاصة باضطراب الشخصية الفصامية، ولا دليل مباشر على فائدة الدواء فيه. الدرجة العالية للنموذج تعكس نمطاً إحصائياً في العلاقات بين الأدوية والأمراض، ولا تُعدّ بينة سريرية.
 
@@ -113,6 +113,18 @@ description: "Fluoxetine: الاستطباب الجديد المتوقع اضط�
 - مراجعة تحذيرات النشرة الدوائية المعتمدة وموانع الاستعمال لدى هيئة الغذاء والدواء السعودية.
 - إجراء دراسات تجريبية أو تجارب سريرية مضبوطة تتناول فلوكسيتين مباشرة في اضطراب الشخصية الفصامية.
 - وضع خطة لمراقبة السلامة، تشمل التداخلات الدوائية الكبيرة والأعراض الذهانية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

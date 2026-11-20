@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
 description: "Midodrine: الاستطباب الجديد المتوقع Variably protease-sensitive prionopathy (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -60,7 +60,7 @@ description: "Midodrine: الاستطباب الجديد المتوقع Variably
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حاليًا في البيانات المجمعة لهذا التقرير. استنادًا إلى المعرفة المتاحة، فإن ميدودرين دواء أولي (prodrug) يتحول إلى مستقلبه الفعال ديسغليميدودرين (desglymidodrine)، وهو مُنبِّه انتقائي لمستقبلات ألفا-1 الطرفية. يزيد هذا المستقلب من التوتر الوعائي ويرفع ضغط الدم.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Midodrine (ترجمة غير رسمية): «يُكوِّن هيدروكلوريد الميدودرين مستقلباً فعّالاً، هو ديسغليميدودرين، وهو ناهض لمستقبلات ألفا 1، ويمارس تأثيراته عبر تنشيط المستقبلات الأدرينالية ألفا في الأوعية الشُرينية والوريدية، مما يؤدي إلى زيادة في التوتر الوعائي وارتفاع ضغط الدم. ولا يحفّز ديسغليميدودرين المستقبلات الأدرينالية بيتا القلبية.» النص الأصلي بالإنجليزية: "Midodrine hydrochloride forms an active metabolite, desglymidodrine, that is an alpha 1 -agonist, and exerts its actions via activation of the alpha-adrenergic receptors of the arteriolar and venous vasculature, producing an increase in vascular tone and elevation of blood pressure. Desglymidodrine does not stimulate cardiac beta-adrenergic receptors." ([DailyMed: midodrine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6705af-bb72-4edb-863a-93a351bd6dba)، إصدار 2026-11-12؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعرفة المتاحة، فإن ميدودرين دواء أولي (prodrug) يتحول إلى مستقلبه الفعال ديسغليميدودرين (desglymidodrine)، وهو مُنبِّه انتقائي لمستقبلات ألفا-1 الطرفية. يزيد هذا المستقلب من التوتر الوعائي ويرفع ضغط الدم.
 
 انخفاض ضغط الدم الانتصابي واضطرابات انخفاض ضغط الدم مرتبطان ارتباطًا مباشرًا بالآلية نفسها، أي ضعف التوتر الوعائي والتعويض اللاإرادي. لذلك فالصلة الآلية هنا قوية ومباشرة.
 
@@ -136,11 +136,12 @@ description: "Midodrine: الاستطباب الجديد المتوقع Variably
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كلا الترخيصين ملغى، ولا توجد حاليًا تراخيص سارية لهذا الدواء» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: midodrine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6705af-bb72-4edb-863a-93a351bd6dba) |
 
 <!-- review:end log -->
 

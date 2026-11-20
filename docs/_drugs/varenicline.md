@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 861
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Varenicline: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine Disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف: الإقلاع عن التدخين)"
 monitor_inn: "VARENICLINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
@@ -60,7 +60,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "co
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل ضمن البيانات المجمعة لهذا التقرير. وبحسب المعرفة المتاحة، فإن فارينيكلين **ناهض جزئي لمستقبلات الأسيتيل كولين النيكوتينية α4β2**، وهي الآلية التي تفسر دوره في تقليل الرغبة الشديدة بالتدخين وأعراض الانسحاب.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Varenicline (ترجمة غير رسمية): «يرتبط فارينيكلين بألفة وانتقائية عاليتين بمستقبلات الأسيتيل كولين النيكوتينية العصبية α4β2. ويُعتقد أن فعالية CHANTIX في الإقلاع عن التدخين ناتجة عن نشاط فارينيكلين على النوع الفرعي α4β2 من المستقبل النيكوتيني، حيث ينتج عن ارتباطه نشاط ناهض، بينما يمنع في الوقت نفسه ارتباط النيكوتين بهذه المستقبلات.» النص الأصلي بالإنجليزية: "Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors." ([DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696)، إصدار 2026-01-23؛ تاريخ الاطلاع 2026-11-20). وبحسب المعرفة المتاحة، فإن فارينيكلين **ناهض جزئي لمستقبلات الأسيتيل كولين النيكوتينية α4β2**، وهي الآلية التي تفسر دوره في تقليل الرغبة الشديدة بالتدخين وأعراض الانسحاب.
 
 من الناحية النظرية، قد تتقاطع الإشارات النيكوتينية مع مسارات الأعصاب الثلاثية التوائم الوعائية (trigeminovascular) وظاهرة الانتشار القشري المثبط المرتبطة بالصداع النصفي. غير أن هذه الفرضية **تأملية بحتة** ولا تدعمها أي بيانات ضمن المادة المتاحة، كما أن درجة TxGNN المرتفعة وحدها لا تثبت وجود رابط آلي.
 
@@ -140,6 +140,19 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "co
 - دراسات ما قبل سريرية أو استكشافية تختبر دور المستقبلات النيكوتينية في الصداع النصفي.
 - تقييم جدوى إعادة تسجيل المنتج في السعودية، وتحليل التوازن بين الفائدة والخطر نظراً لكون الصداع أثراً جانبياً معروفاً.
 - مراجعة الاستطباب الأصلي في بيانات التراخيص لأنه غير مسجل حالياً.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DUVELISIB"
 predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Duvelisib: الاستطباب الجديد المتوقع ليمفوما هودجكين (Hodgkins lymphoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -56,7 +56,7 @@ description: "Duvelisib: الاستطباب الجديد المتوقع ليمف
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-تفاصيل آلية العمل غير متوفرة حالياً في البيانات المجمّعة. ومع ذلك، من المعروف أن ديفيليسيب يثبّط PI3K-دلتا وPI3K-غاما، وهما إنزيمان يدعمان بقاء الخلايا الليمفاوية الخبيثة وتكاثرها والإشارات الدقيقة في بيئتها المحيطة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Duvelisib (ترجمة غير رسمية): «دوفيليسيب مثبط لـ PI3K ذو نشاط تثبيطي موجه أساسًا ضد الأشكال الإسوية PI3K-δ وPI3K-γ المُعبَّر عنها في الخلايا البائية الطبيعية والخبيثة. وقد أحدث دوفيليسيب تثبيطًا للنمو وخفضًا للحيوية في سلالات خلوية مشتقة من خلايا بائية خبيثة وفي خلايا ورمية أولية من CLL.» النص الأصلي بالإنجليزية: "Duvelisib is an inhibitor of PI3K with inhibitory activity predominantly against PI3K-δ and PI3K-γ isoforms expressed in normal and malignant B-cells. Duvelisib induced growth inhibition and reduced viability in cell lines derived from malignant B-cells and in primary CLL tumor cells." ([DailyMed: Copiktra (duvelisib) prescribing information, Secura Bio, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3c5ac56-e1f6-473a-bc73-687836534780)، إصدار 2025-12-18؛ تاريخ الاطلاع 2026-11-20). ومع ذلك، من المعروف أن ديفيليسيب يثبّط PI3K-دلتا وPI3K-غاما، وهما إنزيمان يدعمان بقاء الخلايا الليمفاوية الخبيثة وتكاثرها والإشارات الدقيقة في بيئتها المحيطة.
 
 الأدلة السريرية الحالية تأتي أساساً من الليمفوما اللاهودجكينية الخاملة (المرحلة الثانية، NCT01882803) ومن ليمفوما الخلايا التائية (ديفيليسيب مع روميدبسين). لا توجد تجربة خاصة بليمفوما هودجكين الكلاسيكية، لذا فالصلة استقراء من أورام ليمفاوية مشابهة وليست دليلاً مباشراً.
 
@@ -118,6 +118,19 @@ description: "Duvelisib: الاستطباب الجديد المتوقع ليمف
 - تنزيل نشرة العبوة من موقع هيئة الغذاء والدواء السعودية وتحليلها للتحذيرات وموانع الاستعمال.
 - بيانات آلية العمل التفصيلية من DrugBank.
 - التحقق من حالة ترخيص Copiktra الحالية في السوق السعودي.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Copiktra (duvelisib) prescribing information, Secura Bio, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3c5ac56-e1f6-473a-bc73-687836534780) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

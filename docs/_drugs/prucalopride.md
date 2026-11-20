@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 697
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Prucalopride: الاستطباب الجديد المتوقع نقص البروتين الدهني ألفا (hypoalphalipoproteinemia) (مستوى الدليل L5). الاستطباب الأصلي: الإمساك (constipation disorder)"
 monitor_inn: "PRUCALOPRIDE"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
@@ -58,7 +58,7 @@ predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hyperch
 
 ## لماذا يُعد هذا التنبؤ معقولاً (أو غير معقول)؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. استناداً إلى المعروف، بروكالوبرايد ناهض انتقائي لمستقبلات 5-HT4 يعمل على مسارات الحركة في الجهاز الهضمي، وقد ثبتت فعاليته في الإمساك.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Prucalopride (ترجمة غير رسمية): «البروكالوبرايد، وهو ناهض انتقائي لمستقبلات السيروتونين من النوع 4 (5-HT 4 )، عامل محرّك للجهاز الهضمي (GI) ينبّه التمعّج القولوني (التقلصات المنتشرة عالية السعة [HAPCs])، مما يزيد حركية الأمعاء. وكان البروكالوبرايد خالياً من التأثيرات المتواسطة عبر مستقبلات 5-HT 2A أو 5-HT 2B أو 5-HT 3 أو الموتيلين أو CCK-A في المختبر عند تراكيز تتجاوز ألفة مستقبلات 5-HT 4 بمقدار 150 ضعفاً أو أكثر.» النص الأصلي بالإنجليزية: "Prucalopride, a selective serotonin type 4 (5-HT 4 ) receptor agonist, is a gastrointestinal (GI) prokinetic agent that stimulates colonic peristalsis (high-amplitude propagating contractions [HAPCs]), which increases bowel motility. Prucalopride was devoid of effects mediated via 5-HT 2A, 5-HT 2B, 5-HT 3, motilin or CCK-A receptors in vitro at concentrations exceeding 5-HT 4 receptor affinity by 150-fold or greater." ([DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b)، إصدار 2025-07-17؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف، بروكالوبرايد ناهض انتقائي لمستقبلات 5-HT4 يعمل على مسارات الحركة في الجهاز الهضمي، وقد ثبتت فعاليته في الإمساك.
 
 لم يُحدد أي رابط آلي معقول بين تنشيط مستقبلات 5-HT4 واستقلاب البروتين الدهني عالي الكثافة (HDL). الدرجة المرتفعة من TxGNN ناتجة عن تنبؤ شبكي فقط، دون دعم من تجارب أو أدبيات. لذلك يجب التعامل مع هذا التنبؤ بحذر شديد.
 
@@ -119,11 +119,12 @@ predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hyperch
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b) |
 
 <!-- review:end log -->
 

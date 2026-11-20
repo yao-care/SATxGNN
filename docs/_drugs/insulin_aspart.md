@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 description: "Insulin Aspart: الاستطباب الجديد المتوقع التهاب المبيض المناعي الذاتي (autoimmune oophoritis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -58,7 +58,7 @@ description: "Insulin Aspart: الاستطباب الجديد المتوقع ا�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن إنسولين أسبارت يعمل عبر مستقبلات الإنسولين لخفض سكر الدم، ولا تدعم البيانات المجمّعة لهذا التقرير أي رابط آلي معقول بين هذا الدواء وحالة مناعية ذاتية في المبيض.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Insulin Aspart (ترجمة غير رسمية): «النشاط الأساسي للإنسولين، بما في ذلك NOVOLOG MIX 70/30، هو تنظيم استقلاب الجلوكوز. يخفض الإنسولين ونظيره مستوى الجلوكوز في الدم عن طريق تحفيز امتصاص الجلوكوز في الأنسجة الطرفية، ولا سيما العضلات الهيكلية والدهون، وعن طريق تثبيط إنتاج الجلوكوز في الكبد.» النص الأصلي بالإنجليزية: "The primary activity of insulin, including NOVOLOG MIX 70/30 is the regulation of glucose metabolism. Insulin and its analog lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85)، إصدار 2026-05-18؛ تاريخ الاطلاع 2026-11-20). المعروف أن إنسولين أسبارت يعمل عبر مستقبلات الإنسولين لخفض سكر الدم، ولا تدعم البيانات المجمّعة لهذا التقرير أي رابط آلي معقول بين هذا الدواء وحالة مناعية ذاتية في المبيض.
 
 الدرجة المرتفعة (0.9992) ناتجة عن حساب النموذج وحده، ولا ينبغي تفسيرها كدليل على فعالية سريرية. وقد تعكس ارتباطات عامة بين الأمراض المناعية الذاتية والاضطرابات الاستقلابية، وهذا غير مثبت هنا.
 
@@ -108,6 +108,18 @@ description: "Insulin Aspart: الاستطباب الجديد المتوقع ا�
 - مراجعة نشرة الدواء لدى هيئة الغذاء والدواء السعودية (تحذيرات وموانع الاستعمال).
 - دراسات أولية أو أدبيات تربط الدواء بالتهاب المبيض المناعي الذاتي مباشرة.
 - تحديد مسار الإعطاء المطلوب وتوافقه مع المنتجات المتاحة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

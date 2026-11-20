@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 60
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "AMPICILLIN"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 description: "Ampicillin: الاستطباب الجديد المتوقع التهاب الحنجرة (laryngitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
@@ -54,7 +54,7 @@ description: "Ampicillin: الاستطباب الجديد المتوقع الت�
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف، فالأمبيسيلين من البيتا-لاكتام ويعمل ضد عدد من البكتيريا موجبة وسالبة الغرام الحساسة له. وقد تكون عدوى الحنجرة والغطاء الحنجري البكتيرية (مثل العدوى بالمستدمية النزلية أو العقديات) هدفاً معقولاً نظرياً.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ampicillin (ترجمة غير رسمية): «يشبه الأمبيسيلين البنسلين في تأثيره القاتل للجراثيم ضد البكتيريا الحساسة خلال مرحلة التكاثر النشط. ويعمل من خلال تثبيط التخليق الحيوي لجدار الخلية مما يؤدي إلى موت البكتيريا.» النص الأصلي بالإنجليزية: "Ampicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1)، إصدار 2026-07-27؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فالأمبيسيلين من البيتا-لاكتام ويعمل ضد عدد من البكتيريا موجبة وسالبة الغرام الحساسة له. وقد تكون عدوى الحنجرة والغطاء الحنجري البكتيرية (مثل العدوى بالمستدمية النزلية أو العقديات) هدفاً معقولاً نظرياً.
 
 غير أن هذا الارتباط نظري فقط. فالأمبيسيلين وحده غير مثبت كعلاج، وكثير من حالات التهاب الحنجرة فيروسية أو غير معدية ولن تستجيب لمضاد حيوي. كما أن بعض سلالات المستدمية النزلية المنتجة للبيتا-لاكتاماز مقاومة له.
 
@@ -106,6 +106,18 @@ description: "Ampicillin: الاستطباب الجديد المتوقع الت�
 - بيانات آلية العمل التفصيلية.
 - تحليل أنماط الحساسية والمقاومة المحلية للمسببات المحتملة.
 - الحصول على التحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 52
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Aminocaproic Acid: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (severe nonproliferative di… (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص"
 monitor_inn: "AMINOCAPROIC ACID"
 predicted_indications: ["severe nonproliferative diabetic retinopathy"]
@@ -59,7 +59,7 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy"]
 
 ## لماذا يبدو هذا التوقع معقولاً؟
 
-بيانات آلية العمل التفصيلية غير متوفرة حالياً. وبحسب المعروف عن هذا الدواء، فهو مثبّط لتنشيط البلازمينوجين ونشاط البلازمين (مضاد للانحلال الفبريني من فئة نظائر الليسين).
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Aminocaproic Acid (ترجمة غير رسمية): «يبدو أن التأثيرات المثبطة لانحلال الفبرين لحمض الأمينوكابرويك تتم أساسًا عبر تثبيط منشطات البلازمينوجين، وبدرجة أقل من خلال النشاط المضاد للبلازمين.» النص الأصلي بالإنجليزية: "The fibrinolysis-inhibitory effects of aminocaproic acid appear to be exerted principally via inhibition of plasminogen activators and to a lesser degree through antiplasmin activity." ([DailyMed: aminocaproic acid prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e5ebfcb-c3a2-1fcf-e063-6394a90a356a)، إصدار 2026-11-09؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن هذا الدواء، فهو مثبّط لتنشيط البلازمينوجين ونشاط البلازمين (مضاد للانحلال الفبريني من فئة نظائر الليسين).
 
 الصلة المحتملة بالمرض: قد يقلل الدواء من النزف المرتبط بانحلال الفبرين في الأوعية الشبكية الجديدة الهشة أو في الجسم الزجاجي. لكن هذه الفرضية **تخمينية**؛ فآلية العمل الأصلية غير متاحة، والدرجة المحسوبة (0.9927) هي توقع حاسوبي فقط.
 
@@ -130,12 +130,13 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وتراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: aminocaproic acid prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e5ebfcb-c3a2-1fcf-e063-6394a90a356a) |
 
 <!-- review:end log -->
 

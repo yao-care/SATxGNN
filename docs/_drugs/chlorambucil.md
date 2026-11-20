@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CHLORAMBUCIL"
 predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Chlorambucil: الاستطباب الجديد المتوقع ALK-positive large B-cell lymphoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -54,7 +54,7 @@ description: "Chlorambucil: الاستطباب الجديد المتوقع ALK-p
 
 ## لماذا يُعد هذا التوقع معقولاً؟
 
-لم تتوفر في البيانات المجمعة لهذا التقرير تفاصيل آلية العمل. المعروف أن كلورامبوسيل عامل ألكلة يُحدث روابط تشابكية في الحمض النووي فيعطل تضاعف الخلايا الليمفاوية سريعة الانقسام، وهي آلية قابلة نظرياً للانطباق على هذا النوع الفرعي من ابيضاض الدم الليمفاوي المزمن.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Chlorambucil (ترجمة غير رسمية): «كلورامبوسيل، وهو مشتق عطري من خردل النيتروجين، عامل مؤلكِل. يتداخل كلورامبوسيل مع تضاعف DNA ويحرّض الاستماتة الخلوية عبر تراكم p53 العصاري الخلوي وما يليه من تنشيط Bax، وهو محفّز للاستماتة.» النص الأصلي بالإنجليزية: "Chlorambucil, an aromatic nitrogen mustard derivative, is an alkylating agent. Chlorambucil interferes with DNA replication and induces cellular apoptosis via the accumulation of cytosolic p53 and subsequent activation of Bax, an apoptosis promoter." ([DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213)، إصدار 2025-01-08؛ تاريخ الاطلاع 2026-11-20). المعروف أن كلورامبوسيل عامل ألكلة يُحدث روابط تشابكية في الحمض النووي فيعطل تضاعف الخلايا الليمفاوية سريعة الانقسام، وهي آلية قابلة نظرياً للانطباق على هذا النوع الفرعي من ابيضاض الدم الليمفاوي المزمن.
 
 غير أن هذا النوع الفرعي جزء من المرض الأوسع نفسه الذي يُستخدم فيه الدواء أصلاً، فلا يُعد ذلك دليلاً مستقلاً على إعادة التوظيف. والدرجة المرتفعة تعكس القرب من الأمراض المرتبطة بالدواء في النموذج، وهي توقع فقط.
 
@@ -104,6 +104,19 @@ description: "Chlorambucil: الاستطباب الجديد المتوقع ALK-p
 - بيانات آلية العمل التفصيلية
 - نص النشرة الدوائية المعتمدة (التحذيرات وموانع الاستعمال) من هيئة الغذاء والدواء
 - مقارنة مع العلاجات الحديثة المعتمدة لهذا المرض
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 780
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Sulpiride: الاستطباب الجديد المتوقع الحثل الشبكي (مع أو بدون تشوهات خارج العين) (مستوى الدليل L4). الاستطباب الأصلي: الفصام"
 monitor_inn: "SULPIRIDE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "syndromic myopia", "atypical glycine encephalopathy"]
@@ -62,7 +62,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 تلعب مستقبلات الدوبامين من نوع D2 دورًا في تعديل استجابات الخلايا العقدية الشبكية للضوء. وفي نموذج الفأر P23H للتهاب الشبكية الصبغي، بدا أن مضادات D2 (ومنها سولبيريد) تحسّن الاستجابات البصرية للخلايا العقدية الشبكية، عبر زيادة حساسيتها للضوء وتحويل الخلايا ON ذات الكمون الطويل غير الطبيعي إلى خلايا OFF.
 
-مع ذلك فهذه الصلة **غير مباشرة** وتقتصر على التعديل العصبي. لا يوجد دليل على أن حصر مستقبلات D2 يبطئ تنكس المستقبلات الضوئية أو يعالج الأسباب الوراثية للحثل الشبكي. ودرجة TxGNN العالية هي تنبؤ حسابي فقط. كما أن بيانات آلية العمل التفصيلية غير متوفرة حاليًا في المصدر الرئيسي.
+مع ذلك فهذه الصلة **غير مباشرة** وتقتصر على التعديل العصبي. لا يوجد دليل على أن حصر مستقبلات D2 يبطئ تنكس المستقبلات الضوئية أو يعالج الأسباب الوراثية للحثل الشبكي. ودرجة TxGNN العالية هي تنبؤ حسابي فقط. وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Sulpiride هي (ترجمة غير رسمية): «مضاد لمستقبلات الدوبامين D2». النص الأصلي بالإنجليزية: "Dopamine D2 receptor antagonist" ([ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-20).
 
 ---
 
@@ -115,6 +115,19 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 - النظر في وضع التسجيل الدوائي في السعودية وتوفر مسار إعادة التسجيل أو الاستيراد.
 
 **ملاحظة:** تتضمن التنبؤات الأخرى لهذا الدواء (قصور الدماغ المائي، اعتلال الأعصاب CMT1G، قِصَر النظر المرتبط بالصبغي X وغيرها) درجات عالية في TxGNN، لكنها بلا أدلة سريرية أو أدبية. وفي حالة قِصَر النظر، يشير اتجاه التأثير المعروف (حصر D2 يميل إلى زيادة استطالة المحور) إلى ضرر محتمل لا فائدة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

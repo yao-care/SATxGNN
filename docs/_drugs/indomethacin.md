@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Indomethacin: الاستطباب الجديد المتوقع متلازمة قصر الأصابع مع التحام الأصابع (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجراب، التهاب الغشاء الزليلي، التهاب غمد الوتر، التهاب المفاص…"
 monitor_inn: "indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
@@ -59,7 +59,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً، وما حدوده؟
 
-آلية العمل التفصيلية لهذا الدواء غير متوفرة حالياً في البيانات المجمّعة لهذا التقرير. المعروف أن إندوميثاسين يثبّط إنزيمي COX-1 وCOX-2 ويقلل الالتهاب والألم والحمى الناتجة عن البروستاغلاندينات. وقد ثبتت فعاليته في الأمراض الالتهابية للمفاصل.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Indomethacin (ترجمة غير رسمية): «يمتلك إندوميثاسين خصائص مسكّنة للألم ومضادة للالتهاب وخافضة للحرارة. وآلية عمل INDOCIN، شأنها شأن آلية عمل مضادات الالتهاب غير الستيرويدية NSAIDs الأخرى، غير مفهومة تمامًا، لكنها تتضمن تثبيط إنزيم الأكسدة الحلقية (COX-1 وCOX-2).» النص الأصلي بالإنجليزية: "Indomethacin has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of INDOCIN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Indocin (indomethacin) prescribing information, Zyla Life Sciences US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73878376-1d24-423b-9f37-3666e83c95da)، إصدار 2024-12-16؛ تاريخ الاطلاع 2026-11-20). المعروف أن إندوميثاسين يثبّط إنزيمي COX-1 وCOX-2 ويقلل الالتهاب والألم والحمى الناتجة عن البروستاغلاندينات. وقد ثبتت فعاليته في الأمراض الالتهابية للمفاصل.
 
 أما متلازمة قصر الأصابع مع التحام الأصابع فهي اضطراب خلقي نادر في تشكّل الأطراف، وأساسه نمائي وراثي. لا يوجد دور معقول لتثبيط COX في تصحيح عيوب تشكّل الهيكل العظمي. الأرجح أن الدرجة المرتفعة (0.9997) ناتجة عن اشتراك العقد في صفات هيكلية وطرفية داخل الرسم المعرفي، لا عن علاقة دوائية فعلية.
 
@@ -141,11 +141,12 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Indocin (indomethacin) prescribing information, Zyla Life Sciences US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73878376-1d24-423b-9f37-3666e83c95da) |
 
 <!-- review:end log -->
 

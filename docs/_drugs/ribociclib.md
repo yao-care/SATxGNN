@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 721
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Ribociclib: الاستطباب الجديد المتوقع ابيضاض الدم النقوي (Myeloid Leukemia) (مستوى الدليل L4). الاستطباب الأصلي: سرطان الثدي الإيجابي لمستقبلات الهرمون والسلبي لـHER2 (بحسب الأدبيات…"
 monitor_inn: "RIBOCICLIB"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
@@ -58,7 +58,7 @@ predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocyt
 
 ## لماذا يبدو هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في قاعدة البيانات المجمّعة لهذا التقرير. وبناءً على المعلومات المعروفة، يثبّط ريبوسيكليب CDK4/6، وهما كينازان ينظّمان الانتقال من الطور G1 إلى الطور S في دورة الخلية. وقد ثبتت فعاليته في سرطان الثدي، ومن الناحية الآلية قد ينطبق على الأورام التي تعتمد خلاياها على هذا المسار في التكاثر.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ribociclib (ترجمة غير رسمية): «ريبوسيكليب مثبط للكيناز المعتمد على السيكلين (CDK) 4 و6. وتُنشَّط هذه الكينازات عند ارتباطها بالسيكلينات D، وتقع في مجرى مسارات الإشارات التي تؤدي إلى تقدم دورة الخلية والتكاثر الخلوي.» النص الأصلي بالإنجليزية: "Ribociclib is an inhibitor of cyclin-dependent kinase (CDK) 4 and 6. These kinases are activated upon binding to D-cyclins and are downstream of signaling pathways which lead to cell cycle progression and cellular proliferation." ([DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8)، إصدار 2026-07-01؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، يثبّط ريبوسيكليب CDK4/6، وهما كينازان ينظّمان الانتقال من الطور G1 إلى الطور S في دورة الخلية. وقد ثبتت فعاليته في سرطان الثدي، ومن الناحية الآلية قد ينطبق على الأورام التي تعتمد خلاياها على هذا المسار في التكاثر.
 
 تعتمد خلايا ابيضاض الدم النقوي الحاد (AML) غالبًا على إشارات CDK4/6 للتكاثر. وتشير دراسة قبل سريرية منشورة عام 2020 (PMID 32560251) إلى أن مثبّطات CDK4/6 قد تستهدف مقاومة الأدوية الحركية الدوائية في خلايا AML (المرتبطة بفرط التعبير عن ناقلات ABCB1 وABCG2)، مما يوحي بإمكانية استخدامها كاستراتيجية لزيادة حساسية الخلايا للعلاج الكيميائي.
 
@@ -142,11 +142,12 @@ predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocyt
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «التحقق من وضع الترخيص الملغى وإمكانية إعادة التسجيل في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8) |
 
 <!-- review:end log -->
 

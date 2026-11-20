@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "EPLERENONE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Eplerenone: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي غير واضح الآلية متعدد العوامل (pulmonary hypertension with unclear multifactorial mechanism) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل …"
 ---
 
@@ -54,7 +54,7 @@ description: "Eplerenone: الاستطباب الجديد المتوقع ارت�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل المسجلة للدواء. ومن المعروف أن إيبلرينون مضاد انتقائي لمستقبل الستيرويد المعدني (MR). ويُفترض أن إشارات الألدوستيرون/MR تسهم في إعادة تشكيل الأوعية والتليّف والالتهاب في الدورة الدموية الرئوية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Eplerenone (ترجمة غير رسمية): «يرتبط إبليرينون بمستقبل القشرانيات المعدنية ويحجب ارتباط الألدوستيرون، وهو أحد مكونات نظام الرينين-أنجيوتنسين-ألدوستيرون (RAAS). ويخضع تخليق الألدوستيرون، الذي يحدث بشكل رئيسي في الغدة الكظرية، لتعديل عوامل متعددة، بما في ذلك الأنجيوتنسين II ووسائط من خارج نظام RAAS مثل الهرمون الموجه لقشر الكظر (ACTH) والبوتاسيوم.» النص الأصلي بالإنجليزية: "Eplerenone binds to the mineralocorticoid receptor and blocks the binding of aldosterone, a component of the renin-angiotensin-aldosterone-system (RAAS). Aldosterone synthesis, which occurs primarily in the adrenal gland, is modulated by multiple factors, including angiotensin II and non-RAAS mediators such as adrenocorticotropic hormone (ACTH) and potassium." ([DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a)، إصدار 2025-06-23؛ تاريخ الاطلاع 2026-11-20). ومن المعروف أن إيبلرينون مضاد انتقائي لمستقبل الستيرويد المعدني (MR). ويُفترض أن إشارات الألدوستيرون/MR تسهم في إعادة تشكيل الأوعية والتليّف والالتهاب في الدورة الدموية الرئوية.
 
 هذه الصلة نظرية فقط؛ إذ لم تتوفر تجارب أو منشورات تتناول هذا الاستطباب تحديداً. وقد أظهرت دراسات ما قبل السريرية في نماذج أخرى لارتفاع ضغط الدم الرئوي (مثل ارتفاع الضغط الشرياني الرئوي في الجرذان) أن حصار MR قد يخفف إعادة تشكيل الأوعية الرئوية، لكنها لا تتعلق بهذا المرض المتنبأ به بعينه، ولذلك لا ترفع مستوى الأدلة.
 
@@ -93,6 +93,19 @@ description: "Eplerenone: الاستطباب الجديد المتوقع ارت�
 - نصوص التحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة لدى الهيئة العامة للغذاء والدواء.
 - دراسات سريرية أو ما قبل سريرية تقيّم ضغط الشريان الرئوي ونتائج المرض مباشرة.
 - تقييم مخاطر فرط بوتاسيوم الدم وأداء الكلى، نظراً لتداخلات البوتاسيوم الشديدة المسجلة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

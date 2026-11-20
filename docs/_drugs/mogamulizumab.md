@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 567
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "MOGAMULIZUMAB"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "human herpesvirus 8-related tumor", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor"]
 description: "Mogamulizumab: الاستطباب الجديد المتوقع Prostatic urethra urothelial carcinoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -60,7 +60,7 @@ description: "Mogamulizumab: الاستطباب الجديد المتوقع Pros
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-البيانات المفصلة عن آلية العمل الأصلية غير متوفرة حالياً. استناداً إلى المعلومات المعروفة، موغاموليزوماب جسم مضاد موجَّه ضد CCR4 يستنفد الخلايا الحاملة لهذا المستقبل، ومنها الخلايا التائية التنظيمية (Tregs). وفعاليته في الأورام اللمفية الجلدية التائية مثبتة سريرياً.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Mogamulizumab (ترجمة غير رسمية): «موغاموليزوماب-kpkc جسم مضاد وحيد النسيلة من نوع IgG1 kappa، مُؤنسَن ومنزوع الفوكوز، يرتبط بـ CCR4، وهو مستقبل مقترن بالبروتين G لكيموكينات CC يشارك في انتقال الخلايا اللمفاوية إلى أعضاء مختلفة. وتُظهر الدراسات غير السريرية في المختبر أن ارتباط موغاموليزوماب-kpkc يستهدف الخلية للسمية الخلوية المعتمدة على الأجسام المضادة (ADCC)، مما يؤدي إلى استنفاد الخلايا المستهدفة.» النص الأصلي بالإنجليزية: "Mogamulizumab-kpkc is a defucosylated, humanized IgG1 kappa monoclonal antibody that binds to CCR4, a G protein-coupled receptor for CC chemokines that is involved in the trafficking of lymphocytes to various organs. Non-clinical in vitro studies demonstrate mogamulizumab-kpkc binding targets a cell for antibody-dependent cellular cytotoxicity (ADCC) resulting in depletion of the target cells." ([DailyMed: Poteligeo (mogamulizumab-kpkc) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f)، إصدار 2026-03-02؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعلومات المعروفة، موغاموليزوماب جسم مضاد موجَّه ضد CCR4 يستنفد الخلايا الحاملة لهذا المستقبل، ومنها الخلايا التائية التنظيمية (Tregs). وفعاليته في الأورام اللمفية الجلدية التائية مثبتة سريرياً.
 
 الصلة النظرية هي أن استنفاد الخلايا التنظيمية قد يعزز المناعة المضادة للورم في سرطان الظهارة البولية. ومع ذلك، لا توجد تجارب أو دراسات تدعم هذه الفرضية، كما أن التعبير عن CCR4 في هذا النوع من الأورام غير موثق في البيانات المتاحة. تشابه الاستطباب الجديد مع الأصلي لم يُقيَّم بعد، والدرجة المرتفعة (0.994) تعكس تنبؤاً حاسوبياً فقط.
 
@@ -145,11 +145,12 @@ description: "Mogamulizumab: الاستطباب الجديد المتوقع Pros
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الترخيص المحلي ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Poteligeo (mogamulizumab-kpkc) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f) |
 
 <!-- review:end log -->
 

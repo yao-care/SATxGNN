@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FOSFOMYCIN"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Fosfomycin: الاستطباب الجديد المتوقع Uterine inflammatory disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -54,7 +54,7 @@ description: "Fosfomycin: الاستطباب الجديد المتوقع Uterine
 
 ## لماذا يبدو هذا التوقع معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية موثقة عن آلية العمل في بيانات التقرير. وبحسب المعروف عن هذا الدواء، يثبّط فوسفوميسين الإنزيم MurA (UDP-N-acetylglucosamine enolpyruvyl transferase)، فيمنع الخطوة المبكرة من تخليق جدار الخلية البكتيرية. ولذلك قد يكون له نشاط ضد الميكروبات الحساسة في عدوى الجهاز البولي التناسلي والحوض.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Fosfomycin (ترجمة غير رسمية): «CONTEPO دواء مضاد للجراثيم. […] الفوسفومايسين دواء مضاد للجراثيم من فئة الإيبوكسيدات يعطّل تخليق الجدار الخلوي الجرثومي بالارتباط التساهمي بإنزيم ناقلة الفوسفوإينول بيروفات (MurA) وتثبيطه، وبذلك يحصر تخليق الببتيدوغليكان. والفوسفومايسين قاتل للجراثيم ضد Enterobacterales.» النص الأصلي بالإنجليزية: "CONTEPO is an antibacterial drug. […] Fosfomycin is an epoxide antibacterial drug that disrupts bacterial cell wall synthesis by covalently binding and inhibiting phosphoenolpyruvate transferase (MurA), thereby blocking the synthesis of peptidoglycan. Fosfomycin is bactericidal against Enterobacterales." ([DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94)، إصدار 2025-11-04؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن هذا الدواء، يثبّط فوسفوميسين الإنزيم MurA (UDP-N-acetylglucosamine enolpyruvyl transferase)، فيمنع الخطوة المبكرة من تخليق جدار الخلية البكتيرية. ولذلك قد يكون له نشاط ضد الميكروبات الحساسة في عدوى الجهاز البولي التناسلي والحوض.
 
 العلاقة بين العدوى البولية والتهاب الرحم هي قرب التشريح والمسببات الميكروبية المحتملة فقط. ولا توجد بيانات مباشرة عن استخدام فوسفوميسين في أمراض الرحم، فالتوقع يستند إلى النموذج وإلى هذا المنطق الآلي العام، وليس إلى دليل سريري.
 
@@ -103,6 +103,19 @@ description: "Fosfomycin: الاستطباب الجديد المتوقع Uterine
 - استكمال بيانات آلية العمل من DrugBank.
 - إجراء دراسات تتناول التهاب الرحم مباشرة، مثل مراجعة منهجية للأدبيات أو دراسة استكشافية.
 - مراجعة استطباب قريب هو التهاب الحويضة (ضمن طيف التهاب الحويضة والكلية والعدوى البولية المعقدة)، فقد ظهر له في التحليل دليل أقوى منه، وأبرزه تجربة ZEUS من المرحلتين 2/3 (PMID 30861061).
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

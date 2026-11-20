@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "APOMORPHINE"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Apomorphine: الاستطباب الجديد المتوقع تعدد التلافيف الصغيرة حول الشق السيلفي مع ضمور المخيخ والتعقّد المفصلي (polymicrogyria, perisylvian… (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات ال…"
 ---
 
@@ -54,7 +54,7 @@ description: "Apomorphine: الاستطباب الجديد المتوقع تعد
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن أبومورفين منبّه مباشر لمستقبلات الدوبامين D1 وD2.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Apomorphine (ترجمة غير رسمية): «ONAPGO هو ناهض للدوبامين من غير مشتقات الإرغولين، ذو ألفة ارتباط عالية في المختبر لمستقبل الدوبامين D4، وألفة متوسطة لمستقبلات الدوبامين D2 وD3 وD5، والمستقبلات الأدرينالية α1D وα2B وα2C. آلية عمل ONAPGO الدقيقة كعلاج لمرض باركنسون غير معروفة، على الرغم من أنه يُعتقد أنها تعود إلى تحفيز مستقبلات الدوبامين بعد المشبكية من النوع D2 داخل النواة المذنبة والبطامة في الدماغ.» النص الأصلي بالإنجليزية: "ONAPGO is a non-ergoline dopamine agonist with high in vitro binding affinity for the dopamine D4 receptor, and moderate affinity for the dopamine D2, D3, and D5, and adrenergic α1D, α2B, α2C receptors. The precise mechanism of action of ONAPGO as a treatment for Parkinson's disease is unknown, although it is believed to be due to stimulation of post-synaptic dopamine D2-type receptors within the caudate-putamen in the brain." ([DailyMed: Onapgo (apomorphine hydrochloride) prescribing information, MDD US Operations, LLC, a subsidiary of Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3552b6e-5ae7-4993-aa1a-e399c4a7080a)، إصدار 2026-10-05؛ تاريخ الاطلاع 2026-11-20). المعروف أن أبومورفين منبّه مباشر لمستقبلات الدوبامين D1 وD2.
 
 لا توجد صلة آلية واضحة بين هذه الآلية وهذا الاضطراب. فهو اضطراب نادر في تطوّر الدماغ يتميّز بتشوّه بنيوي في القشرة المخية والمخيخ، ولا يُعرف دور لمسار الدوبامين فيه. ولا يُتوقع من منبّه دوباميني أن يصحّح عيباً تكوينياً في بنية القشرة أو المخيخ.
 
@@ -99,6 +99,19 @@ description: "Apomorphine: الاستطباب الجديد المتوقع تعد
 - بيانات آلية العمل التفصيلية.
 - أي دليل مخبري أو سريري يربط الدواء بهذا المرض.
 - الاطلاع على التحذيرات وموانع الاستعمال في النشرة الدوائية المعتمدة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Onapgo (apomorphine hydrochloride) prescribing information, MDD US Operations, LLC, a subsidiary of Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3552b6e-5ae7-4993-aa1a-e399c4a7080a) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

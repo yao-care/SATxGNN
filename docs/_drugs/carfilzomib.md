@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Carfilzomib: الاستطباب الجديد المتوقع CMM7 — وهو الاستطباب الأعلى أدلة بين خمسة تنبؤات، أم… (مستوى الدليل L5). الاستطباب الأصلي: الورم النخاعي البلازمي (Plasma cell myeloma)"
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
@@ -59,7 +59,7 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبناءً على المعرفة العامة، فإن كارفيلزوميب يثبط بشكل غير عكوس النشاط الشبيه بالكيموتربسين في بروتيازوم 20S، مما يؤدي إلى تراكم البروتينات غير المطوية بشكل صحيح، وإجهاد الشبكة الإندوبلازمية، ثم موت الخلايا المبرمج.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Carfilzomib (ترجمة غير رسمية): «كارفيلزوميب مثبط للبروتيازوم من فئة إيبوكسي كيتون رباعي الببتيد يرتبط بشكل غير عكوس بالمواقع النشطة المحتوية على الثريونين الطرفي N للبروتيازوم 20S، وهو الجسيم اللبي المحلل للبروتين داخل البروتيازوم 26S. أظهر كارفيلزوميب أنشطة مضادة للتكاثر ومحفزة للاستماتة في المختبر في خلايا الأورام الصلبة والدموية.» النص الأصلي بالإنجليزية: "Carfilzomib is a tetrapeptide epoxyketone proteasome inhibitor that irreversibly binds to the N-terminal threonine-containing active sites of the 20S proteasome, the proteolytic core particle within the 26S proteasome. Carfilzomib had antiproliferative and proapoptotic activities in vitro in solid and hematologic tumor cells." ([DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6)، إصدار 2025-06-18؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعرفة العامة، فإن كارفيلزوميب يثبط بشكل غير عكوس النشاط الشبيه بالكيموتربسين في بروتيازوم 20S، مما يؤدي إلى تراكم البروتينات غير المطوية بشكل صحيح، وإجهاد الشبكة الإندوبلازمية، ثم موت الخلايا المبرمج.
 
 فعاليته في الورم النخاعي البلازمي معروفة، إذ تعتمد خلايا البلازما الخبيثة بشدة على البروتيازوم. ومن حيث المبدأ، قد تعتمد خلايا الميلانوما أيضاً على مسار البروتيازوم، وهذا هو الأساس النظري للتنبؤ. غير أن هذه الفرضية لم تُختبر سريرياً في هذا الاستطباب.
 
@@ -151,11 +151,12 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «مراجعة وضع التراخيص الملغاة والتحقق من إمكانية توفر الدواء محلياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6) |
 
 <!-- review:end log -->
 

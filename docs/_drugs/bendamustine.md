@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 98
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Bendamustine: الاستطباب الجديد المتوقع لمفوما الخلايا الوشاحية (مستوى الدليل L1). الاستطباب الأصلي: اللمفوما الجريبية، أورام الخلايا البائية الناضجة، ابيضاض الدم الليمفا…"
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
@@ -58,7 +58,7 @@ predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, B
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-تفاصيل آلية العمل غير متاحة حاليًا في البيانات المجمّعة. استنادًا إلى المعلومات المعروفة، البنداموستين عامل مؤلكل ثنائي الوظيفة ذو خصائص تشبه نظائر البيورين؛ فهو يسبب ارتباطات تشابكية في الحمض النووي ويحفّز موت الخلايا المبرمج في أورام الخلايا البائية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Bendamustine (ترجمة غير رسمية): «البينداموستين مشتق ثنائي الوظيفة من الميكلوريثامين يحتوي على حلقة بنزيميدازول شبيهة بالبيورين. يُكوّن الميكلوريثامين ومشتقاته مجموعات ألكيل محبة للإلكترونات. وتُكوّن هذه المجموعات روابط تساهمية مع الأجزاء المحبة للنواة الغنية بالإلكترونات، مما يؤدي إلى تشابكات بين سلسلتي DNA.» النص الأصلي بالإنجليزية: "Bendamustine is a bifunctional mechlorethamine derivative containing a purine-like benzimidazole ring. Mechlorethamine and its derivatives form electrophilic alkyl groups. These groups form covalent bonds with electron-rich nucleophilic moieties, resulting in interstrand DNA crosslinks." ([DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f)، إصدار 2026-10-28؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعلومات المعروفة، البنداموستين عامل مؤلكل ثنائي الوظيفة ذو خصائص تشبه نظائر البيورين؛ فهو يسبب ارتباطات تشابكية في الحمض النووي ويحفّز موت الخلايا المبرمج في أورام الخلايا البائية.
 
 لمفوما الخلايا الوشاحية ورم ناضج من الخلايا البائية، وهو وثيق الصلة بالاستطبابات الأصلية للدواء (اللمفوما الجريبية وأورام الخلايا البائية الناضجة)، لذلك فإن الآلية قابلة للتطبيق مباشرة. كما أن توليفة البنداموستين مع ريتوكسيماب تُعد نظامًا أساسيًا راسخًا في هذا المرض، وتُستخدم شريكًا أو مقارِنًا في عدة تجارب من المرحلة الثالثة مع مثبطات BTK.
 
@@ -169,11 +169,12 @@ predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, B
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص السوق السعودي ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "DEXMEDETOMIDINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Dexmedetomidine: الاستطباب الجديد المتوقع متلازمة عدم تناسب إدرار البول المنشأ الكلوي (nephrogenic syndrome of inappropriate antidiuresis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات ال…"
 ---
 
@@ -58,7 +58,7 @@ description: "Dexmedetomidine: الاستطباب الجديد المتوقع م
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن ديكسميديتوميدين منبّه لمستقبلات ألفا-2 الأدرينالية، ويمكنه التأثير في تعامل الكلى مع الماء وفي إفراز الفازوبريسين.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Dexmedetomidine (ترجمة غير رسمية): «بريسيدكس ناهض لمستقبِلات ألفا 2 الأدرينالية انتقائي نسبيًا ذو تأثير مركزي وله خصائص مهدئة. تُلاحَظ انتقائية ألفا 2 لدى الحيوانات بعد التسريب الوريدي البطيء لجرعات منخفضة ومتوسطة (10-300 mcg/kg).» النص الأصلي بالإنجليزية: "PRECEDEX is a relatively selective centrally acting alpha 2 -adrenergic agonist with sedative properties. Alpha 2 selectivity is observed in animals following slow intravenous infusion of low and medium doses (10-300 mcg/kg)." ([DailyMed: Precedex (dexmedetomidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92b7ddaa-e45a-4b64-a802-bb5df8771dd6)، إصدار 2026-06-17؛ تاريخ الاطلاع 2026-11-20). المعروف أن ديكسميديتوميدين منبّه لمستقبلات ألفا-2 الأدرينالية، ويمكنه التأثير في تعامل الكلى مع الماء وفي إفراز الفازوبريسين.
 
 غير أن هذه المتلازمة ناجمة عن طفرات اكتساب وظيفة في مستقبل الفازوبريسين V2 (AVPR2)، وهذا يعمل في مرحلة لاحقة لأي تأثير ودّي مركزي. لذلك فالرابط الآلي ضعيف وغير مدعوم ببيانات.
 
@@ -109,6 +109,19 @@ description: "Dexmedetomidine: الاستطباب الجديد المتوقع م
 - بيانات آلية العمل التفصيلية.
 - دراسات ما قبل سريرية تختبر تأثير الدواء في مسار AVPR2 المفرط النشاط.
 - الحصول على نشرة الدواء المعتمدة لتقييم التحذيرات وموانع الاستعمال.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Precedex (dexmedetomidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92b7ddaa-e45a-4b64-a802-bb5df8771dd6) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 804
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Teriparatide: الاستطباب الجديد المتوقع قرحة الاثني عشر (مستوى الدليل L5). الاستطباب الأصلي: هشاشة العظام بعد انقطاع الطمث / هشاشة العظام"
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
@@ -61,7 +61,7 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 
 ## لماذا قد يبدو هذا التوقع معقولاً؟
 
-يعمل تيريباراتيد منبّهاً لمستقبل PTH1R، فيحفّز تكوين العظم. وتشير بيانات الدواء المجمّعة إلى ارتباطه أيضاً بمستقبل PTH2R. ولا تتوفر بيانات تفصيلية أخرى عن آلية العمل.
+يعمل تيريباراتيد منبّهاً لمستقبل PTH1R، فيحفّز تكوين العظم. وتشير بيانات الدواء المجمّعة إلى ارتباطه أيضاً بمستقبل PTH2R. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Teriparatide (ترجمة غير رسمية): «هرمون الغدة جار الدرقية (PTH) الداخلي المنشأ المكوّن من 84 حمضاً أمينياً هو المنظم الرئيسي لاستقلاب الكالسيوم والفوسفات في العظام والكلى. تشمل الأفعال الفسيولوجية لـ PTH تنظيم استقلاب العظام، وإعادة الامتصاص الأنبوبي الكلوي للكالسيوم والفوسفات، وامتصاص الكالسيوم من الأمعاء. […] تتم الأفعال البيولوجية لـ PTH وتيريباراتيد عبر الارتباط بمستقبلات نوعية عالية الألفة على سطح الخلية.» النص الأصلي بالإنجليزية: "Endogenous 84-amino acid parathyroid hormone (PTH) is the primary regulator of calcium and phosphate metabolism in bone and kidney. Physiological actions of PTH include regulation of bone metabolism, renal tubular reabsorption of calcium and phosphate, and intestinal calcium absorption. […] The biological actions of PTH and teriparatide are mediated through binding to specific high-affinity cell-surface receptors." ([DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c)، إصدار 2026-08-31؛ تاريخ الاطلاع 2026-11-20).
 
 لا يوجد رابط آلي معقول بين هذه الآلية وقرحة الاثني عشر. فالدواء ليس له دور معروف في تثبيط حمض المعدة أو التئام الغشاء المخاطي. ودرجة التوقع المرتفعة ناتجة عن علاقات في الرسم المعرفي فقط، ولا يدعمها دليل سريري أو أدبي. لذلك يُعدّ هذا التوقع ضعيف المعقولية آلياً.
 
@@ -132,11 +132,12 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
 
 <!-- review:end log -->
 

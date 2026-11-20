@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Budesonide: الاستطباب الجديد المتوقع الإكزيما التأتبية (atopic eczema) (مستوى الدليل L5). الاستطباب الأصلي: داء كرون، التهاب الأمعاء، الربو، التهاب الأنف التحسسي (مستمد من الرسم…"
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -59,7 +59,7 @@ predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "po
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-البيانات التفصيلية عن آلية العمل غير متوفرة حالياً. استناداً إلى المعلومات المعروفة، البوديزونيد غلوكوكورتيكويد ذو نشاط مضاد للالتهاب وكابت للمناعة، وقد ثبتت فعاليته في أمراض التهابية مخاطية (الأمعاء والمسالك التنفسية)، ومن حيث الآلية قد ينطبق على الالتهاب الجلدي الذي تقوده استجابة Th2 في الإكزيما التأتبية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Budesonide (ترجمة غير رسمية): «بوديسونيد كورتيكوستيرويد مضاد للالتهاب يُظهر نشاطًا قشرانيًا سكريًا قويًا ونشاطًا قشرانيًا معدنيًا ضعيفًا. وفي النماذج القياسية في المختبر والنماذج الحيوانية، يتمتع بوديسونيد بألفة لمستقبل القشرانيات السكرية أعلى بنحو 200 ضعف، وبفعالية موضعية مضادة للالتهاب أعلى بـ 1000 ضعف مقارنةً بالكورتيزول (اختبار وذمة أذن الجرذ بزيت الكروتون).» النص الأصلي بالإنجليزية: "Budesonide is an anti-inflammatory corticosteroid that exhibits potent glucocorticoid activity and weak mineralocorticoid activity. In standard in vitro and animal models, budesonide has approximately a 200-fold higher affinity for the glucocorticoid receptor and a 1000-fold higher topical anti-inflammatory potency than cortisol (rat croton oil ear edema assay)." ([DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da)، إصدار 2026-06-10؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعلومات المعروفة، البوديزونيد غلوكوكورتيكويد ذو نشاط مضاد للالتهاب وكابت للمناعة، وقد ثبتت فعاليته في أمراض التهابية مخاطية (الأمعاء والمسالك التنفسية)، ومن حيث الآلية قد ينطبق على الالتهاب الجلدي الذي تقوده استجابة Th2 في الإكزيما التأتبية.
 
 ومع ذلك، فإن الأدبيات المسترجعة لا تُظهر فعالية سريرية للبوديزونيد في الإكزيما التأتبية. الورقة العلاجية الوحيدة (2024) دراسة تحضيرية لجسيمات نانوية هلامية، أي ما قبل سريرية. أما بقية الأوراق فتتناول التهاب المريء اليوزيني، والحساسية التماسية للكورتيكوستيرويدات، وتثبيط الغدة الكظرية، وحالات فردية لفرط الحساسية للستيرويدات. لذا فالدرجة العالية للنموذج مجرد تنبؤ.
 
@@ -127,6 +127,19 @@ predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "po
 - إجراء دراسات سريرية أولية للبوديزونيد الموضعي في الإكزيما التأتبية ومقارنته بالكورتيكوستيرويدات الموضعية القياسية.
 - تحديد مسار الإعطاء والتركيبة الملائمة (جلدية) ومدى توفرها.
 - ملاحظة: ظهر في بيانات التحليل مرشحون آخرون أقوى نسبياً، أبرزهم **التهاب القصبات** (مستوى أدلة L2، مع تجارب من المرحلتين 2 و4 تشمل دراسة NCT02002715 في التهاب القصبات اليوزيني بـ106 مشاركين)، ويستحق تقييماً مستقلاً.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

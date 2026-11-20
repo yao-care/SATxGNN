@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 730
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Rivaroxaban: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص المؤشرات المعتمدة في تراخيص الهيئة العامة للغذاء والد…"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -60,7 +60,7 @@ predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease"
 
 ## لماذا قد يكون هذا التنبؤ معقولًا؟
 
-بيانات آلية العمل الأصلية غير متوفرة حاليًا. استنادًا إلى المعروف، ريفاروكسابان مثبّط مباشر للعامل Xa في سلسلة التخثر.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Rivaroxaban (ترجمة غير رسمية): «XARELTO مثبّط انتقائي لـ FXa. ولا يحتاج إلى عامل مساعد (مثل مضاد الثرومبين III) لكي يكون فعّالاً. يثبّط ريفاروكسابان FXa الحر ونشاط البروثرومبيناز. ليس لريفاروكسابان تأثير مباشر على تراصّ الصفائح الدموية، لكنه يثبّط بشكل غير مباشر تراصّ الصفائح الدموية المُحدَث بالثرومبين.» النص الأصلي بالإنجليزية: "XARELTO is a selective inhibitor of FXa. It does not require a cofactor (such as Anti-thrombin III) for activity. Rivaroxaban inhibits free FXa and prothrombinase activity. Rivaroxaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610)، إصدار 2026-09-10؛ تاريخ الاطلاع 2026-11-20). استنادًا إلى المعروف، ريفاروكسابان مثبّط مباشر للعامل Xa في سلسلة التخثر.
 
 يرتبط التهاب المفاصل الروماتويدي بتداخل بين الالتهاب والتخثر، مثل تغيّر توليد الثرومبين وارتفاع خطر الجلطات الوريدية. لذلك لا يمكن استبعاد دور نظري مساعد أو معدِّل للمرض.
 
@@ -148,11 +148,12 @@ predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease"
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
 
 <!-- review:end log -->
 

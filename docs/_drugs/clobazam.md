@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 198
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Clobazam: الاستطباب الجديد المتوقع متلازمة الصرع المرتبط بالعدوى الحموية (FIRES) (مستوى الدليل L4). الاستطباب الأصلي: متلازمة لينوكس-غاستو (بحسب رسم المعرفة PrimeKG؛ لا يتوفر نص استطباب ف…"
 monitor_inn: "CLOBAZAM"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms", "photosensitive occipital lobe epilepsy", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
@@ -58,7 +58,7 @@ predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. استناداً إلى المعروف، كلوبازام معدِّل تفارغي إيجابي لمستقبلات GABA-A، وقد ثبتت فعاليته في الصرع المقاوم لدى متلازمة لينوكس-غاستو.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Clobazam (ترجمة غير رسمية): «إن آلية التأثير الدقيقة لكلوبازام، وهو من مركبات 1,5-بنزوديازيبين، غير مفهومة تمامًا، ولكن يُعتقد أنها تنطوي على تعزيز النقل العصبي الغاباني (GABAergic) الناتج عن الارتباط بموقع البنزوديازيبين في مستقبل GABA A.» النص الأصلي بالإنجليزية: "The exact mechanism of action for clobazam, a 1,5-benzodiazepine, is not fully understood but is thought to involve potentiation of GABAergic neurotransmission resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c)، إصدار 2026-10-16؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف، كلوبازام معدِّل تفارغي إيجابي لمستقبلات GABA-A، وقد ثبتت فعاليته في الصرع المقاوم لدى متلازمة لينوكس-غاستو.
 
 FIRES صرع مقاوم شديد يصيب أطفالاً أصحاء سابقاً، وتُستخدم فيه أدوية تعزز نظام GABA مثل الميدازولام والباربيتورات واللورازيبام. لذلك فالصلة الآلية معقولة نظرياً. غير أن الدراسات المسترجعة تتناول عوامل أخرى (اللورازيبام المعوي والبيرامبانيل) ولا تختبر كلوبازام مباشرة، فالتنبؤ يبقى في مستوى الفرضية البحثية.
 
@@ -134,12 +134,13 @@ FIRES صرع مقاوم شديد يصيب أطفالاً أصحاء سابقاً
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وكلاهما ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «التحقق من إمكانية توفير مستحضر كلوبازام في السوق السعودي بعد إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c) |
 
 <!-- review:end log -->
 

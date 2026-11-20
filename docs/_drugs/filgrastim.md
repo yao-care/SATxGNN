@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Filgrastim: الاستطباب الجديد المتوقع اضطراب إفراز الصفائح الدموية الأولي (primary release disorder of plat… (مستوى الدليل L5). الاستطباب الأصلي: نقص العدلات الخلقي الشديد، ونقص العدلات التكويني، واضط…"
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
@@ -59,7 +59,7 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 ## لماذا يُعدّ هذا التوقع محل تساؤل؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل. وبحسب المعروف، فيلغراستيم عامل G-CSF يرتبط بمستقبل G-CSF على سلالة العدلات فيحفّز تكاثرها وتمايزها وإطلاقها من نقي العظم، وقد ثبتت فعاليته في أنواع نقص العدلات.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Filgrastim (ترجمة غير رسمية): «عوامل تحفيز المستعمرات بروتينات سكرية تؤثر في الخلايا المكونة للدم بالارتباط بمستقبلات نوعية على سطح الخلية وتحفيز التكاثر والالتزام بالتمايز وبعض التفعيل الوظيفي للخلايا النهائية. وG-CSF الداخلي المنشأ عامل محفز للمستعمرات نوعي للسلالة تنتجه الخلايا الوحيدة والأرومات الليفية والخلايا البطانية.» النص الأصلي بالإنجليزية: "Colony-stimulating factors are glycoproteins which act on hematopoietic cells by binding to specific cell surface receptors and stimulating proliferation‚ differentiation commitment‚ and some end-cell functional activation. Endogenous G-CSF is a lineage-specific colony-stimulating factor that is produced by monocytes‚ fibroblasts, and endothelial cells." ([DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7)، إصدار 2026-11-10؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف، فيلغراستيم عامل G-CSF يرتبط بمستقبل G-CSF على سلالة العدلات فيحفّز تكاثرها وتمايزها وإطلاقها من نقي العظم، وقد ثبتت فعاليته في أنواع نقص العدلات.
 
 أما اضطرابات إفراز الصفائح فهي عيوب في وظيفة الصفائح (إفراز الحبيبات والتنشيط)، وليست نقصًا في العدلات. ولا توجد في البيانات المتاحة صلة آلية معقولة بين إشارات G-CSF وهذه الاضطرابات. لذلك يُعدّ التوقع ناتجًا حسابيًا لا تدعمه أدلة، ويحتاج إلى تحقق مختبري وسريري قبل أي استنتاج.
 
@@ -123,6 +123,19 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 - استكمال بيانات آلية العمل من DrugBank.
 - إجراء مراجعة منهجية للأدبيات وأبحاث ما قبل سريرية لاختبار أي صلة بين إشارات G-CSF ووظيفة الصفائح.
 - التحقق من إمكانية إعادة الترخيص أو توفر منتج بديل مرخّص في السعودية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

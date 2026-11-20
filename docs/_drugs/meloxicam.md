@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 537
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "MELOXICAM"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Meloxicam: الاستطباب الجديد المتوقع Acromesomelic dysplasia, Hunter-Thompson type (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 14 (السارية: 14)"
@@ -58,7 +58,7 @@ description: "Meloxicam: الاستطباب الجديد المتوقع Acromeso
 
 ## لماذا قد يبدو هذا التنبؤ معقولًا (أو لا)؟
 
-تفاصيل آلية العمل الدقيقة غير متوفرة حاليًا في البيانات المجمّعة. ومن المعروف أن ميلوكسيكام مثبّط تفضيلي لـ COX-2 يقلل تصنيع البروستاغلاندينات الالتهابية، وهذا يفسر فعاليته في أمراض المفاصل الالتهابية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Meloxicam (ترجمة غير رسمية): «يتمتع ميلوكسيكام بخصائص مسكّنة ومضادة للالتهاب وخافضة للحرارة. وآلية عمل Zybic™، كآلية عمل مضادات الالتهاب غير الستيرويدية (NSAIDs) الأخرى، ليست مفهومة تماماً، لكنها تنطوي على تثبيط إنزيمات الأكسدة الحلقية (COX-1 وCOX-2).» النص الأصلي بالإنجليزية: "Meloxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Zybic™, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec)، إصدار 2026-09-25؛ تاريخ الاطلاع 2026-11-20). ومن المعروف أن ميلوكسيكام مثبّط تفضيلي لـ COX-2 يقلل تصنيع البروستاغلاندينات الالتهابية، وهذا يفسر فعاليته في أمراض المفاصل الالتهابية.
 
 أما خلل التنسج الطرفي المتوسط من نوع هانتر-طومسون فهو اضطراب هيكلي وراثي ناتج عن طفرات فقدان وظيفة في الجين CDMP1/GDF5 تؤثر في تكوّن الغضروف. لا يصحح ميلوكسيكام الخلل الأساسي في إشارات BMP/GDF5، ولذلك **لا توجد صلة آلية معتبرة**.
 
@@ -136,12 +136,13 @@ description: "Meloxicam: الاستطباب الجديد المتوقع Acromeso
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن الدواء لا يملك حاليًا أي ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «والتحقق من الوضع التنظيمي بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec) |
 
 <!-- review:end log -->
 

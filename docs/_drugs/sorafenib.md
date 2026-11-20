@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 767
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "SORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
 description: "Sorafenib: الاستطباب الجديد المتوقع الساركوما الشحمية (liposarcoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -54,7 +54,7 @@ description: "Sorafenib: الاستطباب الجديد المتوقع السا
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر في البيانات المجمّعة لهذا التقرير تفاصيل رسمية عن آلية العمل. غير أن المعروف أن سورافينيب يثبّط مسار RAF/MEK/ERK، ويثبّط أيضاً مستقبلات VEGFR وPDGFR التي تقود تكوّن الأوعية الدموية ونمو الورم في الساركومات الرخوة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Sorafenib (ترجمة غير رسمية): «سورافينيب مثبط للكينازات يقلل تكاثر الخلايا الورمية في المختبر. وقد ثبت أن سورافينيب يثبط كينازات متعددة داخل الخلايا (c-CRAF وBRAF وBRAF الطافر) وكينازات على سطح الخلية (KIT وFLT- 3 وRET وRET/PTC وVEGFR-1 وVEGFR- 2 وVEGFR- 3 وPDGFR-ß).» النص الأصلي بالإنجليزية: "Sorafenib is a kinase inhibitor that decreases tumor cell proliferation in vitro. Sorafenib was shown to inhibit multiple intracellular (c-CRAF, BRAF and mutant BRAF) and cell surface kinases (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3, and PDGFR-ß)." ([DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0)، إصدار 2023-08-28؛ تاريخ الاطلاع 2026-11-20). غير أن المعروف أن سورافينيب يثبّط مسار RAF/MEK/ERK، ويثبّط أيضاً مستقبلات VEGFR وPDGFR التي تقود تكوّن الأوعية الدموية ونمو الورم في الساركومات الرخوة.
 
 تدعم دراسات ما قبل السريرية صلة هذه المسارات بالمرض. فقد درست إحداها خطوطاً خلوية لساركومة شحمية غير متمايزة ولأورام غمد العصب المحيطي الخبيثة، وأظهرت نماذج الطعوم ال異種 للساركومة الشحمية غير المتمايزة انخفاضاً في PTEN واستجابة لتثبيط مسار PI3K.
 
@@ -118,6 +118,18 @@ description: "Sorafenib: الاستطباب الجديد المتوقع السا
 - الحصول على النشرة الدوائية من الهيئة العامة للغذاء والدواء واستخراج التحذيرات وموانع الاستعمال منها.
 - استكمال بيانات آلية العمل من DrugBank.
 - تقييم التداخلات الدوائية الشديدة والمتوسطة ضمن خطة متابعة السلامة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Bupropion: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (attention deficit-hyperactivity disorder) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -58,7 +58,7 @@ description: "Bupropion: الاستطباب الجديد المتوقع اضطر
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل ضمن البيانات المجمّعة لهذا التقرير. وبحسب المعرفة الدوائية العامة، يثبّط بوبروبيون إعادة امتصاص النورإبينفرين والدوبامين، ولا يملك نشاطاً سيروتونينياً. ويؤكد ذلك ارتباطه بالناقل NET (SLC6A2) والناقل DAT (SLC6A3) في بيانات الدراسات الدوائية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Bupropion (ترجمة غير رسمية): «الآلية الدقيقة التي تعزز بها أقراص هيدروكلوريد البوبروبيون ممتدة الإطلاق (SR) قدرة المرضى على الامتناع عن التدخين غير معروفة، ولكن يُفترض أنها مرتبطة بآليات نورأدرينالية و/أو دوبامينية. والبوبروبيون مثبط ضعيف نسبياً لإعادة الامتصاص العصبوني للنورإبينفرين والدوبامين، ولا يثبط إعادة امتصاص السيروتونين.» النص الأصلي بالإنجليزية: "The exact mechanism by which bupropion hydrochloride extended-release tablets (SR) enhances the ability of patients to abstain from smoking is not known but is presumed to be related to noradrenergic and/or dopaminergic mechanisms. Bupropion is a relatively weak inhibitor of the neuronal reuptake of norepinephrine and dopamine, and does not inhibit the reuptake of serotonin." ([DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119)، إصدار 2026-11-11؛ تاريخ الاطلاع 2026-11-20). وبحسب المعرفة الدوائية العامة، يثبّط بوبروبيون إعادة امتصاص النورإبينفرين والدوبامين، ولا يملك نشاطاً سيروتونينياً. ويؤكد ذلك ارتباطه بالناقل NET (SLC6A2) والناقل DAT (SLC6A3) في بيانات الدراسات الدوائية.
 
 هذان المساران الكاتيكولاميني هما نفسهما المستهدفان في علاجات اضطراب فرط الحركة وتشتت الانتباه المعتمدة، كالمنبّهات والأتوموكسيتين. ولذلك فإن الأساس الآلي معقول لتأثير محتمل في أعراض قلة الانتباه وفرط الحركة. ويُصنَّف البوبروبيون عادةً ضمن البدائل غير المنبّهة عند عدم استجابة المريض للمنبّهات أو عدم تحمّله لها.
 
@@ -128,6 +128,19 @@ description: "Bupropion: الاستطباب الجديد المتوقع اضطر
 - التحقق من العنوان الكامل والفئة السكانية والمقارن في التجربة NCT00048360.
 - وضع خطة لمراقبة السلامة، مع الانتباه إلى خطر خفض عتبة النوبات التشنجية وإلى الحالات المصاحبة كاضطرابات تعاطي المواد.
 - توضيح الوضع الفعلي لتراخيص المنتجات الثلاثة المسجّلة، إذ لم تُسجَّل نصوص استطباب لها.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

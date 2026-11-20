@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 115
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Brentuximab Vedotin: الاستطباب الجديد المتوقع اللمفوما الجُريبية (Follicular Lymphoma) (مستوى الدليل L3). الاستطباب الأصلي: لمفوما هودجكين (الكلاسيكية وأنماطها الفرعية) — مأخوذ من الرسم المعرفي…"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -60,7 +60,7 @@ predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lympho
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، يستهدف برينتوكسيماب فيدوتين بروتين CD30 على سطح الخلايا ويوصل إليها MMAE، وهو مثبط للأنابيب الدقيقة، وقد ثبتت فعاليته في لمفوما هودجكين، وقد ينطبق ميكانيكياً على اللمفوما الجُريبية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Brentuximab Vedotin (ترجمة غير رسمية): «CD30 عضو في عائلة مستقبلات عامل نخر الورم ويُعبَّر عنه على سطح خلايا sALCL وعلى خلايا هودجكين ريد-ستيرنبرغ (HRS) في cHL. ويُعبَّر عن CD30 بدرجات متفاوتة في أورام لمفية أخرى من الخلايا التائية. […] برينتوكسيماب فيدوتين مقترن دوائي بالجسم المضاد (ADC).» النص الأصلي بالإنجليزية: "CD30 is a member of the tumor necrosis factor receptor family and is expressed on the surface of sALCL cells and on Hodgkin Reed-Sternberg (HRS) cells in cHL. CD30 is variably expressed in other T-cell lymphomas. […] Brentuximab vedotin is an antibody-drug conjugate (ADC)." ([DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f)، إصدار 2025-11-11؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، يستهدف برينتوكسيماب فيدوتين بروتين CD30 على سطح الخلايا ويوصل إليها MMAE، وهو مثبط للأنابيب الدقيقة، وقد ثبتت فعاليته في لمفوما هودجكين، وقد ينطبق ميكانيكياً على اللمفوما الجُريبية.
 
 غير أن التعبير عن CD30 في اللمفوما الجُريبية متغير وغالباً منخفض، لذا يعتمد المنطق الآلي على وجود مرض إيجابي لـ CD30 أو على تأثير «المجاور» (bystander killing) الذي يقتل الخلايا القريبة. وهذا يجعل الفرضية مشروطة وليست مباشرة.
 
@@ -155,12 +155,13 @@ predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lympho
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الترخيص السعودي الوحيد ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح حالة الترخيص (الإلغاء) وإمكانية توفر المنتج في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f) |
 
 <!-- review:end log -->
 

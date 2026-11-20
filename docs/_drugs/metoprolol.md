@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Metoprolol: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
 ---
 
@@ -58,7 +58,7 @@ description: "Metoprolol: الاستطباب الجديد المتوقع Maligna
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن ميتوبرولول يحجب مستقبلات بيتا-1 فيخفض معدل ضربات القلب والنتاج القلبي وإفراز الرينين، وهو ما يفسر استخدامه في ارتفاع الضغط وأمراض الشريان التاجي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Metoprolol (ترجمة غير رسمية): «الميتوبرولول عامل حاصر لمستقبلات الأدرينالين انتقائي لمستقبلات beta 1 (انتقائي للقلب). غير أن هذا التأثير التفضيلي ليس مطلقاً، وعند تراكيز البلازما الأعلى، يثبّط الميتوبرولول أيضاً مستقبلات beta 2 الأدرينالية، الموجودة بصورة رئيسية في عضلات القصبات والأوعية الدموية.» النص الأصلي بالإنجليزية: "Metoprolol is a beta 1 -selective (cardioselective) adrenergic receptor blocking agent. This preferential effect is not absolute, however, and at higher plasma concentrations, metoprolol also inhibits beta 2 -adrenoreceptors, chiefly located in the bronchial and vascular musculature." ([DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a)، إصدار 2026-03-03؛ تاريخ الاطلاع 2026-11-20). المعروف أن ميتوبرولول يحجب مستقبلات بيتا-1 فيخفض معدل ضربات القلب والنتاج القلبي وإفراز الرينين، وهو ما يفسر استخدامه في ارتفاع الضغط وأمراض الشريان التاجي.
 
 العلاقة بين الاستطباب الأصلي والجديد غير مباشرة: ترتبط أمراض القلب الرئوية المزمنة غالباً بمرض رئوي مزمن، ومعظم الأدلة المتاحة تبحث في **سلامة** ميتوبرولول لدى مرضى قصور القلب أو الشريان التاجي المصابين بالانسداد الرئوي المزمن، وليس في فعاليته علاجاً لهذا المرض. ويبدو أن الدرجة المرتفعة تعكس القرب في الرسم المعرفي أكثر من كونها إشارة علاجية مستقلة.
 
@@ -121,6 +121,19 @@ description: "Metoprolol: الاستطباب الجديد المتوقع Maligna
 - بيانات آلية العمل التفصيلية من DrugBank.
 - نصوص الاستطبابات والتحذيرات وموانع الاستعمال من نشرات SFDA، إذ لا تتضمن بيانات التراخيص الحالية نصاً للاستطباب.
 - خطة مراقبة سلامة للمرضى المصابين بأمراض رئوية مزمنة.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

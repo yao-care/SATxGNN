@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 439
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
 description: "Insulin Degludec: الاستطباب الجديد المتوقع Autoimmune oophoritis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -60,7 +60,7 @@ description: "Insulin Degludec: الاستطباب الجديد المتوقع A
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-حالياً لا تتوفر بيانات تفصيلية عن آلية العمل. وبناءً على المعلومات المعروفة، فإن إنسولين ديغلوديك نظير إنسولين قاعدي فائق طول المفعول يرتبط بمستقبل الإنسولين ويعوّض الإنسولين الداخلي المنشأ الناقص. وقد ثبتت فعاليته في داء السكري عموماً.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Insulin Degludec (ترجمة غير رسمية): «النشاط الأساسي للإنسولين، بما في ذلك TRESIBA، هو تنظيم استقلاب الغلوكوز. يخفض الإنسولين ونظائره غلوكوز الدم عن طريق تحفيز امتصاص الغلوكوز المحيطي، وخاصة بواسطة العضلات الهيكلية والدهون، وعن طريق تثبيط إنتاج الغلوكوز الكبدي.» النص الأصلي بالإنجليزية: "The primary activity of insulin, including TRESIBA, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17)، إصدار 2024-02-22؛ تاريخ الاطلاع 2026-11-20). وبناءً على المعلومات المعروفة، فإن إنسولين ديغلوديك نظير إنسولين قاعدي فائق طول المفعول يرتبط بمستقبل الإنسولين ويعوّض الإنسولين الداخلي المنشأ الناقص. وقد ثبتت فعاليته في داء السكري عموماً.
 
 الاستطباب المتوقع (النوع الأول) هو في جوهره ضمن نطاق الاستطباب الأصلي نفسه أو قريب منه، ولذلك فهو أقرب إلى استخدام مرخّص منه إلى إعادة توجيه حقيقية للدواء. وهذا ينسجم مع الدرجة المرتفعة للتنبؤ.
 
@@ -156,12 +156,13 @@ description: "Insulin Degludec: الاستطباب الجديد المتوقع A
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وتجدر الإشارة إلى أن حالة السوق «ملغاة فقط»، لذا يجب التحقق من توفر الدواء إقليمياً قبل أي توصية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «وجميع تراخيص المملكة ملغاة، لذلك يلزم التحقق من التوفر والوضع التنظيمي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
 
 <!-- review:end log -->
 

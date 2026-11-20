@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: الاستطباب الجديد المتوقع Nasal cavity disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
@@ -60,7 +60,7 @@ description: "Ipratropium: الاستطباب الجديد المتوقع Nasal 
 
 ## لماذا يُعد هذا التنبؤ منطقياً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. وبحسب المعلومات المعروفة، فإيبراتروبيوم مضاد مسكاريني غير انتقائي يحجب مستقبلات M3 في العضلات الملساء للمجاري الهوائية، فيمنع تضيّق القصبات الناتج عن التنبيه الودي المبهم (المسار الكولينيّ). وتؤكد بيانات الارتباط الدوائي المتاحة ارتباطه بمستقبلات M1 وM2 وM3 وM4 وM5.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ipratropium (ترجمة غير رسمية): «بروميد إبراتروبيوم عامل مضاد للكولين (حال للودي)، يبدو، استناداً إلى دراسات على الحيوانات، أنه يثبط المنعكسات المتواسطة بالعصب المبهم عن طريق مضادة تأثير الأسيتيل كولين، وهو العامل الناقل المتحرر عند الوصلات العصبية العضلية في الرئة. وتمنع مضادات الكولين الزيادات في التركيز داخل الخلوي لـ Ca++ الناجمة عن تفاعل الأسيتيل كولين مع المستقبلات المسكارينية على العضلات الملساء القصبية.» النص الأصلي بالإنجليزية: "Ipratropium bromide is an anticholinergic (parasympatholytic) agent which, based on animal studies, appears to inhibit vagally-mediated reflexes by antagonizing the action of acetylcholine, the transmitter agent released at the neuromuscular junctions in the lung. Anticholinergics prevent the increases in intracellular concentration of Ca++ which is caused by interaction of acetylcholine with the muscarinic receptors on bronchial smooth muscle." ([DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884)، إصدار 2025-11-05؛ تاريخ الاطلاع 2026-11-20). وبحسب المعلومات المعروفة، فإيبراتروبيوم مضاد مسكاريني غير انتقائي يحجب مستقبلات M3 في العضلات الملساء للمجاري الهوائية، فيمنع تضيّق القصبات الناتج عن التنبيه الودي المبهم (المسار الكولينيّ). وتؤكد بيانات الارتباط الدوائي المتاحة ارتباطه بمستقبلات M1 وM2 وM3 وM4 وM5.
 
 مرض الرئة الانسدادي مظلة تشمل COPD والنفاخ والتهاب الشعب المزمن، وهي حالات هي بالأصل ضمن استطبابات الدواء. لذلك فالتنبؤ منسجم مع الآلية، لكنه لا يمثل استطباباً جديداً فعلياً.
 
@@ -149,11 +149,12 @@ description: "Ipratropium: الاستطباب الجديد المتوقع Nasal 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «ملاحظة مهمة: وضع السوق في السعودية «ملغاة فقط»، لذا يلزم التحقق من حالة التوفر والتسجيل قبل أي توصية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
 
 <!-- review:end log -->
 

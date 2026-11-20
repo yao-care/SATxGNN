@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 536
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "MEGESTROL ACETATE"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
 description: "Megestrol Acetate: الاستطباب الجديد المتوقع Hereditary breast ovarian cancer syndrome (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -58,7 +58,7 @@ description: "Megestrol Acetate: الاستطباب الجديد المتوقع 
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. استناداً إلى المعرفة المتاحة، فإن ميجيسترول أسيتات بروجستين صناعي، وتُظهر آلية عمله المعروفة أن إشارات مستقبلات البروجسترون تقاوم تكاثر بطانة الرحم المدفوع بالإستروجين. وقد ثبتت فعاليته في الاستطباب الأصلي، ما يجعل ملاءمته الآلية لهذا المؤشر محتملة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Megestrol Acetate (ترجمة غير رسمية): «أفاد العديد من الباحثين بخاصية تعزيز الشهية لأسيتات الميجسترول واستخدامها المحتمل في الدنف. ولا تُعرف في الوقت الحاضر الآلية الدقيقة التي تُحدث بها أسيتات الميجسترول تأثيراتها في فقدان الشهية والدنف.» النص الأصلي بالإنجليزية: "Several investigators have reported on the appetite enhancing property of megestrol acetate and its possible use in cachexia. The precise mechanism by which megestrol acetate produces effects in anorexia and cachexia is unknown at the present time." ([DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651)، إصدار 2026-04-14؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعرفة المتاحة، فإن ميجيسترول أسيتات بروجستين صناعي، وتُظهر آلية عمله المعروفة أن إشارات مستقبلات البروجسترون تقاوم تكاثر بطانة الرحم المدفوع بالإستروجين. وقد ثبتت فعاليته في الاستطباب الأصلي، ما يجعل ملاءمته الآلية لهذا المؤشر محتملة.
 
 العلاقة بين الاستطباب الأصلي والجديد وثيقة جداً، إذ إن كلاهما يشير عملياً إلى سرطان بطانة الرحم. ولذلك فإن درجة التنبؤ المرتفعة تعكس في الغالب هذا التطابق، وليس اكتشافاً جديداً في إعادة التوظيف.
 
@@ -161,11 +161,12 @@ description: "Megestrol Acetate: الاستطباب الجديد المتوقع 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «ملاحظة أن الترخيص المحلي ملغى، ما يستلزم مساراً تنظيمياً جديداً أو إعادة تسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651) |
 
 <!-- review:end log -->
 

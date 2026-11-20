@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 683
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: الاستطباب الجديد المتوقع HIV infectious disease (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -59,7 +59,7 @@ description: "Pravastatin: الاستطباب الجديد المتوقع HIV in
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. استناداً إلى المعروف عن الفئة الدوائية، يثبّط براڤاستاتين إنزيم HMG-CoA ريدكتاز ويزيد تعبير مستقبلات LDL الكبدية، وقد ثبتت فعاليته في اضطرابات شحوم الدم، ومن حيث المبدأ قد ينطبق على فرط الكوليسترول العائلي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Pravastatin (ترجمة غير رسمية): «البرافاستاتين مثبط عكوس لمختزلة HMG-CoA، وهو الإنزيم المحدِّد للسرعة الذي يحول HMG-CoA إلى الميفالونات، وهو مادة أولية للكوليسترول.» النص الأصلي بالإنجليزية: "Pravastatin is a reversible inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d)، إصدار 2026-10-23؛ تاريخ الاطلاع 2026-11-20). استناداً إلى المعروف عن الفئة الدوائية، يثبّط براڤاستاتين إنزيم HMG-CoA ريدكتاز ويزيد تعبير مستقبلات LDL الكبدية، وقد ثبتت فعاليته في اضطرابات شحوم الدم، ومن حيث المبدأ قد ينطبق على فرط الكوليسترول العائلي.
 
 غير أن الحالة المتماثلة الزيجوت تتميز بنقص أو خلل شديد في مستقبلات LDL، لذا تكون الاستجابة للستاتينات محدودة وتعتمد على النشاط المتبقي للمستقبل. وتشير إحدى المراجعات المتاحة (Prescrire 2004) إلى أن الستاتينات ليست فعّالة جداً في هذه الحالة. كما أن هذا الاستطباب يتداخل إلى حد كبير مع استخدامه المعتمد في فرط شحوم الدم، فهو ليس إعادة توظيف حقيقية بالمعنى الدقيق.
 
@@ -136,11 +136,12 @@ description: "Pravastatin: الاستطباب الجديد المتوقع HIV in
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن السوق السعودي لا يضم حالياً ترخيصاً ساري المفعول» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
 
 <!-- review:end log -->
 

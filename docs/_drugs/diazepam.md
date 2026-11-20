@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 255
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
 description: "Diazepam: الاستطباب الجديد المتوقع الأرق (insomnia (disease)) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 18 (السارية: 18)"
@@ -56,7 +56,7 @@ description: "Diazepam: الاستطباب الجديد المتوقع الأر�
 
 يعمل الديازيبام كمُعدِّل ألوستيري إيجابي لمستقبلات GABA-A، فيزيد فعالية التثبيط العصبي ويُنتج تأثيراً مهدئاً ومنوِّماً. وهذا مبرر بيولوجياً في الأرق، إذ تُستخدم البنزوديازيبينات كفئة لتقصير زمن بدء النوم وتحسين استمراريته. وتذكر مراجعة حديثة عن معدِّلات GABA-A (2024) الديازيبام ضمن النماذج المعروفة لهذه الفئة التي لها آثار مهدئة.
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير، والتحليل أعلاه يعتمد على المعروف عن الفئة الدوائية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Diazepam (ترجمة غير رسمية): «يُعتقد أن آلية تأثير ديازيبام في دواعي الاستعمال المذكورة تنطوي على تعزيز حمض غاما أمينوبيوتيريك (GABA)، وهو ناقل عصبي مثبط، الناتج عن الارتباط بموقع البنزوديازيبين في مستقبل GABA A.» النص الأصلي بالإنجليزية: "The mechanism of action of diazepam for the listed indications is thought to involve potentiation of gamma aminobutyric acid (GABA), an inhibitory neurotransmitter, resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6)، إصدار 2026-10-06؛ تاريخ الاطلاع 2026-11-20).
 
 ومع ذلك فالدليل الخاص بالديازيبام نفسه محدود. معظم الأدبيات مراجعات أو دراسات دوائية عامة أو أعمال عن الأعشاب الطبية، ولا توجد تجارب مضبوطة بالدواء الوهمي. والديازيبام طويل المفعول، ما يرفع احتمال النعاس المتبقي والتحمّل والاعتماد والأرق الارتدادي.
 
@@ -118,6 +118,18 @@ description: "Diazepam: الاستطباب الجديد المتوقع الأر�
 - بيانات تفصيلية عن آلية العمل من DrugBank.
 - نص النشرة الدوائية المعتمد للتحذيرات وموانع الاستعمال.
 - خطة ضوابط تحدّ من مدة الاستخدام وتراقب الاعتماد، مع عناية خاصة بكبار السن.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

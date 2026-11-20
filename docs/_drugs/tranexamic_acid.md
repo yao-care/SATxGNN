@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 828
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Tranexamic Acid: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L5). الاستطباب الأصلي: داء بطانة الرحم المهاجرة (الانتباذ البطاني الرحمي) — بحسب الرسم المعر…"
 monitor_inn: "TRANEXAMIC ACID"
 predicted_indications: ["amenorrhea (disease)"]
@@ -58,7 +58,7 @@ predicted_indications: ["amenorrhea (disease)"]
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-حاليًا لا تتوفر بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. وبحسب المعروف عن الدواء، فحمض الترانيكساميك مثبّط تنافسي من نوع نظير الليسين، يمنع ارتباط البلازمينوجين بالفبرين فيقلل تحلل الجلطات، ويُستخدم لتقليل النزف الطمثي الغزير.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tranexamic Acid (ترجمة غير رسمية): «حمض الترانيكساميك مشتق اصطناعي من الحمض الأميني ليسين، يُقلّل من إذابة الفيبرين المُرقئ بواسطة البلازمين. وفي وجود حمض الترانيكساميك، تُشغَل مواقع ارتباط مستقبلات الليسين في البلازمين الخاصة بالفيبرين، مما يمنع الارتباط بمونومرات الفيبرين، وبالتالي يحافظ على البنية الشبكية للفيبرين ويُثبّتها.» النص الأصلي بالإنجليزية: "Tranexamic acid is a synthetic lysine amino acid derivative, which diminishes the dissolution of hemostatic fibrin by plasmin. In the presence of tranexamic acid, the lysine receptor binding sites of plasmin for fibrin are occupied, preventing binding to fibrin monomers, thus preserving and stabilizing fibrin's matrix structure." ([DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5)، إصدار 2025-09-03؛ تاريخ الاطلاع 2026-11-20). وبحسب المعروف عن الدواء، فحمض الترانيكساميك مثبّط تنافسي من نوع نظير الليسين، يمنع ارتباط البلازمينوجين بالفبرين فيقلل تحلل الجلطات، ويُستخدم لتقليل النزف الطمثي الغزير.
 
 هذا يعطي صلة غير مباشرة محتملة بـ«كبت الطمث» أو الوقاية من النزف الطمثي في حالات مثل أورام الدم الخبيثة، حيث يكون الهدف تقليل النزف. غير أن الدواء لا يُحدث انقطاع الطمث بآلية هرمونية، ولا يعالج أسباب انقطاع الطمث الأساسية (الوطاء أو النخامية أو المبيض أو التشوهات التشريحية).
 
@@ -123,6 +123,19 @@ predicted_indications: ["amenorrhea (disease)"]
 - التحقق مما إذا كان المقصود فعليًا هو كبت الطمث/النزف الطمثي، وليس انقطاع الطمث، وإعادة تعريف المؤشر المستهدف.
 - مراجعة الأدبيات بحثًا عن دراسات سريرية فعلية.
 - تقييم مخاطر التخثر عند الجمع مع الأدوية الهرمونية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

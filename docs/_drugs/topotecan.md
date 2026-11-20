@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 825
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "TOPOTECAN"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 description: "Topotecan: الاستطباب الجديد المتوقع سرطان الثدي لدى النساء (female breast carcinoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -60,7 +60,7 @@ description: "Topotecan: الاستطباب الجديد المتوقع سرطا
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-تفاصيل آلية العمل غير متوفرة حالياً في البيانات المجمّعة. لكن توبوتيكان معروف بأنه مثبّط لإنزيم توبوإيزوميراز I، فيسبب تلفاً في الحمض النووي وموتاً مبرمجاً للخلايا سريعة الانقسام. وقد تكون هذه الآلية قابلة للتطبيق على أورام الثدي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Topotecan (ترجمة غير رسمية): «يخفف التوبوإيزوميراز I إجهاد الالتواء في الحمض النووي DNA عن طريق إحداث كسور عكوسة أحادية السلسلة. يرتبط توبوتيكان بمعقد التوبوإيزوميراز I-DNA ويمنع إعادة ربط هذه الكسور أحادية السلسلة. ويُعتقد أن السمية الخلوية لتوبوتيكان ترجع إلى تلف الحمض النووي DNA ثنائي السلسلة الناتج أثناء تخليق DNA، عندما تتفاعل إنزيمات التضاعف مع المعقد الثلاثي المكوَّن من توبوتيكان والتوبوإيزوميراز I والحمض النووي DNA.» النص الأصلي بالإنجليزية: "Topoisomerase I relieves torsional strain in DNA by inducing reversible single-strand breaks. Topotecan binds to the topoisomerase I-DNA complex and prevents re-ligation of these single-strand breaks. The cytotoxicity of topotecan is thought to be due to double-strand DNA damage produced during DNA synthesis, when replication enzymes interact with the ternary complex formed by topotecan, topoisomerase I, and DNA." ([DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579)، إصدار 2023-09-18؛ تاريخ الاطلاع 2026-11-20). لكن توبوتيكان معروف بأنه مثبّط لإنزيم توبوإيزوميراز I، فيسبب تلفاً في الحمض النووي وموتاً مبرمجاً للخلايا سريعة الانقسام. وقد تكون هذه الآلية قابلة للتطبيق على أورام الثدي.
 
 تشير دراسة ما قبل سريرية (PMID 37987734) إلى أن تثبيط TOP1 قد يحدث "قتلاً تركيبياً" في السرطانات المدفوعة بـMYC، وهي مجموعة تشمل بعض سرطانات الثدي. كما أن ناقل الإفراز BCRP/ABCG2 يُخرج توبوتيكان من الخلايا وقد يؤثر في الاستجابة في أورام الثدي.
 
@@ -140,6 +140,18 @@ description: "Topotecan: الاستطباب الجديد المتوقع سرطا
 - بيانات عن آلية العمل التفصيلية.
 - الحصول على نشرة العبوة لاستكمال التحذيرات وموانع الاستعمال.
 - خطة لمتابعة السلامة، خصوصاً تثبيط نقي العظم.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

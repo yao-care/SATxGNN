@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: الاستطباب الجديد المتوقع Manic bipolar affective disorder (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
@@ -65,7 +65,7 @@ description: "Lacosamide: الاستطباب الجديد المتوقع Manic b
 
 يشترك الصرع والصداع النصفي في فرط الاستثارة العصبية، ولذلك تُستخدم عدة أدوية مضادة للنوبات (مثل توبيراميت) للوقاية من الصداع النصفي. وتدعم البيانات قبل السريرية هذا الاتجاه، إذ أظهرت دراسة على الفئران تأثيراً للاكوساميد على الانتشار القشري المثبِّط (cortical spreading depolarization)، كما أظهرت نماذج قبل سريرية للألم الرأسي فعالية له.
 
-يجدر التنبيه إلى أن بيانات آلية العمل التفصيلية غير متوفرة حالياً في المعطيات المجمّعة، والوصف أعلاه مستند إلى المعرفة المنشورة في الأدبيات المرفقة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lacosamide (ترجمة غير رسمية): «لا تزال الآلية الدقيقة التي يمارس بها محلول لاكوساميد الفموي تأثيراته المضادة للصرع لدى البشر بحاجة إلى توضيح كامل. وقد أظهرت دراسات الفيزيولوجيا الكهربية في المختبر أن لاكوساميد يعزّز بشكل انتقائي التعطيل البطيء لقنوات الصوديوم المبوّبة بالجهد، مما يؤدي إلى استقرار الأغشية العصبونية مفرطة الاستثارة وتثبيط الإطلاق العصبوني المتكرر.» النص الأصلي بالإنجليزية: "The precise mechanism by which Lacosamide oral solution exerts its antiepileptic effects in humans remains to be fully elucidated. In vitro electrophysiological studies have shown that lacosamide selectively enhances slow inactivation of voltage-gated sodium channels, resulting in stabilization of hyperexcitable neuronal membranes and inhibition of repetitive neuronal firing." ([DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738)، إصدار 2026-09-09؛ تاريخ الاطلاع 2026-11-20).
 
 ---
 
@@ -167,11 +167,12 @@ description: "Lacosamide: الاستطباب الجديد المتوقع Manic b
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CERTOLIZUMAB PEGOL"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Certolizumab Pegol: الاستطباب الجديد المتوقع فرط حركة العصعص (hypermobility of coccyx) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -54,7 +54,7 @@ description: "Certolizumab Pegol: الاستطباب الجديد المتوقع
 
 ## لماذا قد يكون هذا التنبؤ معقولاً؟
 
-سيرتوليزوماب بيغول هو شظية Fab' من جسم مضاد أحادي النسيلة، مرتبطة بالبولي إيثيلين غليكول. يرتبط بعامل نخر الورم ألفا ويعادله، وهو وسيط التهابي رئيسي في عدد من الأمراض المناعية الالتهابية. لا تتوفر في البيانات المجمّعة بيانات تفصيلية إضافية عن آلية العمل.
+سيرتوليزوماب بيغول هو شظية Fab' من جسم مضاد أحادي النسيلة، مرتبطة بالبولي إيثيلين غليكول. يرتبط بعامل نخر الورم ألفا ويعادله، وهو وسيط التهابي رئيسي في عدد من الأمراض المناعية الالتهابية. وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Certolizumab Pegol (ترجمة غير رسمية): «يرتبط السيرتوليزوماب بيغول بـ TNFα البشري بثابت تفكك KD قدره 90pM. ويُعد TNFα سيتوكيناً رئيسياً محرضاً للالتهاب يؤدي دوراً محورياً في العمليات الالتهابية. ويعادل السيرتوليزوماب بيغول TNFα بصورة انتقائية (IC 90 قدره 4 ng/mL لتثبيط TNFα البشري في مقايسة السمية الخلوية للساركوما الليفية الفأرية L929 في المختبر)، ولكنه لا يعادل اللمفوتوكسين α (TNFβ).» النص الأصلي بالإنجليزية: "Certolizumab pegol binds to human TNFα with a KD of 90pM. TNFα is a key pro-inflammatory cytokine with a central role in inflammatory processes. Certolizumab pegol selectively neutralizes TNFα (IC 90 of 4 ng/mL for inhibition of human TNFα in the in vitro L929 murine fibrosarcoma cytotoxicity assay) but does not neutralize lymphotoxin α (TNFβ)." ([DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d)، إصدار 2026-10-29؛ تاريخ الاطلاع 2026-11-20).
 
 أما فرط حركة العصعص فهو حالة ميكانيكية أو رضحية في المقام الأول. لم يُثبت له مسار التهابي مرتبط بعامل نخر الورم ألفا يبرر تثبيطه. لذلك فإن الدرجة العالية للنموذج تبقى نتيجة حسابية، ولا يوجد أساس آلي واضح يدعمها حتى الآن.
 
@@ -100,6 +100,19 @@ description: "Certolizumab Pegol: الاستطباب الجديد المتوقع
 - مراجعة نشرة الدواء المعتمدة للحصول على التحذيرات وموانع الاستعمال.
 - دليل آلي أو دراسات أولية تربط الالتهاب المعتمد على عامل نخر الورم ألفا بفرط حركة العصعص.
 - دراسات سريرية أو منشورات تتناول هذه الحالة مباشرة قبل إعادة التقييم.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
