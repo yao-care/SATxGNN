@@ -60,7 +60,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية عمل الدواء ضمن البيانات المجمّعة لهذا التقرير. استناداً إلى المعروف، دوكسازوسين حاصر انتقائي لمستقبلات ألفا-1 الأدرينالية، وهو ما يفسر تأثيره في خفض ضغط الدم عبر توسيع الأوعية، وفي إرخاء العضلات الملساء في البروستات.
+وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Doxazosin (ترجمة غير رسمية): «تضخم البروستاتا الحميد (BPH) ترتبط الأعراض المصاحبة لتضخم البروستاتا الحميد (BPH)، مثل تكرار التبول، والتبول الليلي، وضعف تدفق البول، والتردد في بدء التبول، وعدم اكتمال الإفراغ، بمكوّنين: تشريحي (ساكن) ووظيفي (ديناميكي). ويرتبط المكوّن الساكن بزيادة حجم البروستاتا الناجمة، جزئيًا، عن تكاثر خلايا العضلات الملساء في سدى البروستاتا. […] وقد أظهرت دراسات أُجريت على أشخاص أصحاء من البشر أن دوكسازوسين قد ضادّ تنافسيًا التأثيرات الرافعة للضغط للفينيليفرين (ناهض لمستقبلات ألفا 1) والتأثير الرافع للضغط الانقباضي للنورإبينفرين.» النص الأصلي بالإنجليزية: "Benign Prostatic Hyperplasia (BPH) The symptoms associated with benign prostatic hyperplasia (BPH), such as urinary frequency, nocturia, weak stream, hesitancy, and incomplete emptying are related to two components, anatomical (static) and functional (dynamic). The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Studies in normal human subjects have shown that doxazosin competitively antagonized the pressor effects of phenylephrine (an alpha 1 agonist) and the systolic pressor effect of norepinephrine." ([DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82)، إصدار 2023-10-15؛ تاريخ الاطلاع 2026-11-19). استناداً إلى المعروف، دوكسازوسين حاصر انتقائي لمستقبلات ألفا-1 الأدرينالية، وهو ما يفسر تأثيره في خفض ضغط الدم عبر توسيع الأوعية، وفي إرخاء العضلات الملساء في البروستات.
 
 يُعتقد أن الإشارات الأدرينالية وتنظيم توتر الأوعية الدموية يسهمان في فيزيولوجيا الصداع النصفي، كما تُستخدم أو تُدرس أدوية أخرى معدِّلة للجهاز الأدريناليني (مثل بروبرانولول وكلونيدين) للوقاية منه. وهذا يوفر مبرراً آلياً معقولاً لكنه غير مباشر.
 
@@ -151,13 +151,14 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وهو ملغى كذلك» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح الوضع التنظيمي والتجاري للدواء في السعودية بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-12 | الجدول: DOXAGEN 1 / 2 / 4 مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82) |
 
 <!-- review:end log -->
 

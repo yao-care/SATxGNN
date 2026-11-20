@@ -58,7 +58,7 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pha
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية عمل الدواء. بحسب المعروف، السالبوتامول ناهض انتقائي لمستقبلات بيتا-2 الأدرينالية، وفعاليته في الربو مثبتة، وقد يكون قابلاً للتطبيق آلياً في التهاب الملتحمة الحليمي.
+وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Salbutamol (ترجمة غير رسمية): «ألبوتيرول سلفات (Albuterol sulfate) ناهض لمستقبلات بيتا 2 الأدرينالية. تُعزى التأثيرات الدوائية لألبوتيرول سلفات إلى تنشيط مستقبلات بيتا 2 الأدرينالية في العضلات الملساء للمسالك الهوائية. ويؤدي تنشيط مستقبلات بيتا 2 الأدرينالية إلى تنشيط إنزيم الأدينيل سيكلاز وإلى زيادة التركيز داخل الخلايا لأحادي فوسفات الأدينوزين الحلقي-3'، 5' (AMP الحلقي).» النص الأصلي بالإنجليزية: "Albuterol sulfate is a beta 2 -adrenergic agonist. The pharmacologic effects of albuterol sulfate are attributable to activation of beta 2 -adrenergic receptors on airway smooth muscle. Activation of beta 2 -adrenergic receptors leads to the activation of adenylcyclase and to an increase in the intracellular concentration of cyclic-3', 5’-adenosine monophosphate (cyclic AMP)." ([DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d)، إصدار 2024-12-20؛ تاريخ الاطلاع 2026-11-19). بحسب المعروف، السالبوتامول ناهض انتقائي لمستقبلات بيتا-2 الأدرينالية، وفعاليته في الربو مثبتة، وقد يكون قابلاً للتطبيق آلياً في التهاب الملتحمة الحليمي.
 
 الأساس البيولوجي الوحيد المطروح ضعيف. يُعتقد أن ناهضات بيتا-2 قد تعدّل نشاط الخلايا البدينة (Mast cells) والالتهاب التحسسي، والتهاب الملتحمة الحليمي حالة التهابية تحسسية ذات صلة بهذه الآليات. لكن لا شيء في البيانات المتاحة يدعم ذلك لهذا المرض تحديداً. أما التشابه بين الاستطباب الأصلي (أمراض تنفسية) والجديد (مرض عيني) فلم يُقيَّم بعد.
 
@@ -136,12 +136,13 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pha
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص الدواء في المملكة ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «إذ لا يوجد حالياً ترخيص ساري» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d) |
 
 <!-- review:end log -->
 

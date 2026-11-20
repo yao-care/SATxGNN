@@ -58,7 +58,7 @@ predicted_indications: ["thrombophilia due to protein C deficiency, autosomal re
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية عمل الهيبارين ضمن البيانات المجمعة. ومن المعروف أن الهيبارين يعزز نشاط مضاد الثرومبين III، فيثبط الثرومبين والعامل Xa، وقد يحد ذلك من تكوّن الخثرات في حالة تخثر غير مكبوح ناتجة عن نقص البروتين C.
+وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Heparin (ترجمة غير رسمية): «يتفاعل الهيبارين مع بروتين البلازما الموجود طبيعياً، مضاد الثرومبين III، لإحداث تغيير في التشكل، مما يعزز بشكل ملحوظ نشاط البروتياز السيريني لمضاد الثرومبين III، وبذلك يثبط عوامل التخثر المنشطة المشاركة في التسلسل الختامي، ولا سيما Xa وIIa. وتثبط الكميات الصغيرة من الهيبارين العامل Xa، بينما تثبط الكميات الأكبر الثرومبين (العامل IIa).» النص الأصلي بالإنجليزية: "Heparin interacts with the naturally occurring plasma protein, antithrombin III, to induce a conformational change, which markedly enhances the serine protease activity of antithrombin III, thereby inhibiting the activated coagulation factors involved in the closing sequence, particularly Xa and IIa. Small amounts of heparin inhibit Factor Xa, and larger amounts inhibit thrombin (Factor IIa)." ([DailyMed: Heparin Sodium And Dextrose (heparin sodium) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eede8a0c-5ae6-4166-84b3-12081405f08e)، إصدار 2026-05-25؛ تاريخ الاطلاع 2026-11-19). ومن المعروف أن الهيبارين يعزز نشاط مضاد الثرومبين III، فيثبط الثرومبين والعامل Xa، وقد يحد ذلك من تكوّن الخثرات في حالة تخثر غير مكبوح ناتجة عن نقص البروتين C.
 
 ويتسق هذا مع استخدامه في الفرفرية الخاطفة، بما فيها المكتسبة، وهي حالة تنشأ كثيراً عن نقص حاد في البروتين C. فالمرضان يشتركان في اضطراب التوازن التخثري.
 
@@ -132,11 +132,12 @@ predicted_indications: ["thrombophilia due to protein C deficiency, autosomal re
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Heparin Sodium And Dextrose (heparin sodium) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eede8a0c-5ae6-4166-84b3-12081405f08e) |
 
 <!-- review:end log -->
 

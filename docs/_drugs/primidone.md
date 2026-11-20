@@ -58,7 +58,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "be
 
 ## لماذا قد يكون هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية عمل الدواء. المعروف أن بريميدون مضاد اختلاج يُستقلب إلى فينوباربيتال وPEMA، وأن فعاليته في الصرع مثبتة منذ زمن طويل.
+وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Primidone (ترجمة غير رسمية): «يرفع MYSOLINE عتبات النوبات المحدثة بالصدمة الكهربائية أو الكيميائية أو يغير أنماط النوبات لدى حيوانات التجارب. إن آلية (آليات) التأثير المضاد للصرع لـ primidone غير معروفة. يتمتع Primidone بحد ذاته بنشاط مضاد للاختلاج، وكذلك مستقلباه، phenobarbital وphenylethylmalonamide (PEMA).» النص الأصلي بالإنجليزية: "MYSOLINE raises electro- or chemoshock seizure thresholds or alters seizure patterns in experimental animals. The mechanism(s) of primidone’s antiepileptic action is not known. Primidone per se has anticonvulsant activity as do its two metabolites, phenobarbital and phenylethylmalonamide (PEMA)." ([DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46)، إصدار 2026-09-10؛ تاريخ الاطلاع 2026-11-19). المعروف أن بريميدون مضاد اختلاج يُستقلب إلى فينوباربيتال وPEMA، وأن فعاليته في الصرع مثبتة منذ زمن طويل.
 
 أما ورم العصب مثلث التوائم فلا يظهر له أي مبرر آلي واضح؛ فبريميدون ليس له نشاط معروف مضاد للأورام. والأرجح أن الدرجة المرتفعة جداً ناتجة عن قرب العصب مثلث التوائم من عقد الألم العصبي والصرع في الرسم المعرفي، وليست إشارة علاجية حقيقية.
 
@@ -123,11 +123,12 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "be
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الدواء بلا ترخيص ساري في السعودية (ترخيص واحد ملغى)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46) |
 
 <!-- review:end log -->
 

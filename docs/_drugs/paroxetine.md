@@ -58,7 +58,7 @@ predicted_indications: ["Ohdo syndrome and variants"]
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية عمل الدواء في البيانات المجمّعة لهذا التقرير. المعروف أن باروكسيتين من مثبطات إعادة امتصاص السيروتونين الانتقائية، وأن فعاليته في الاضطرابات النفسية مثبتة.
+وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Paroxetine (ترجمة غير رسمية): «آلية عمل PAXIL CR في علاج الاضطراب الاكتئابي الرئيسي (MDD) واضطراب الهلع (PD) واضطراب القلق الاجتماعي (SAD) واضطراب ما قبل الحيض المزعج (PMDD) غير معروفة، ولكن يُفترض أنها مرتبطة بتعزيز النشاط السيروتونيني في الجهاز العصبي المركزي الناتج عن تثبيط إعادة الامتصاص العصبي للسيروتونين (5-HT).» النص الأصلي بالإنجليزية: "The mechanism of action of PAXIL CR in the treatment of major depressive disorder (MDD), panic disorder (PD), social anxiety disorder (SAD), and premenstrual dysphoric disorder (PMDD) is unknown, but is presumed to be linked to potentiation of serotonergic activity in the central nervous system resulting from inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c)، إصدار 2026-09-30؛ تاريخ الاطلاع 2026-11-19). المعروف أن باروكسيتين من مثبطات إعادة امتصاص السيروتونين الانتقائية، وأن فعاليته في الاضطرابات النفسية مثبتة.
 
 أما متلازمة أوهدو (بما فيها متغير Say-Barber-Biesecker-Young-Simpson) فهي اضطراب وراثي نادر يرتبط عادة بتغيرات في جين KAT6B، وتتميز بضيق الشقوق الجفنية وإعاقة ذهنية وانخفاض التوتر العضلي. وهذا السبب فوق-جيني/نمائي لا يُرجَّح أن يعالجه دواء عصبي-نفسي.
 
@@ -134,11 +134,12 @@ predicted_indications: ["Ohdo syndrome and variants"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c) |
 
 <!-- review:end log -->
 

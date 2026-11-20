@@ -60,7 +60,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofib
 
 ## لماذا هذا التنبؤ معقول؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية عمل الدواء في البيانات المجمعة لهذا التقرير. وبحسب المعروف، يثبّط إيفيروليمس مركّب mTORC1 الواقع أسفل مسار PI3K/AKT، وقد ثبتت فعاليته في سرطان الخلايا الكلوية، وقد تنطبق آليته على الساركوما الشحمية.
+وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Everolimus (ترجمة غير رسمية): «يثبّط إيفيروليموس تنشيط وتكاثر الخلايا اللمفاوية التائية والبائية المحفَّزين بالمستضدات وبالإنترلوكينات (IL-2 وIL-15). وفي الخلايا، يرتبط إيفيروليموس ببروتين سيتوبلازمي، هو البروتين الرابط لـ FK506-12 (FKBP-12)، لتكوين معقّد مثبط للمناعة (إيفيروليموس: FKBP-12) يرتبط بالهدف الثديي للراباميسين (mTOR)، وهو كيناز تنظيمي رئيسي، ويثبّطه.» النص الأصلي بالإنجليزية: "Everolimus inhibits antigenic and interleukin (IL-2 and IL-15) stimulated activation and proliferation of T and B lymphocytes. In cells, everolimus binds to a cytoplasmic protein, the FK506 Binding Protein-12 (FKBP-12), to form an immunosuppressive complex (everolimus: FKBP-12) that binds to and inhibits the mammalian target of rapamycin (mTOR), a key regulatory kinase." ([DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a)، إصدار 2026-09-16؛ تاريخ الاطلاع 2026-11-19). وبحسب المعروف، يثبّط إيفيروليمس مركّب mTORC1 الواقع أسفل مسار PI3K/AKT، وقد ثبتت فعاليته في سرطان الخلايا الكلوية، وقد تنطبق آليته على الساركوما الشحمية.
 
 في الساركوما الشحمية غير المتمايزة (المتضخمة فيها جينات CDK4/MDM2)، يُعد الجمع بين تثبيط mTOR وتثبيط CDK4/6 بواسطة ريبوسيكليب استراتيجية منطقية ثنائية المسار تستهدف دورة الخلية وإشارات النمو والبقاء. وتدعم بيانات ما قبل السريرية في نماذج الساركوما أساليب العلاج المركّب.
 
@@ -152,12 +152,13 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofib
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وجميعها ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص السبعة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a) |
 
 <!-- review:end log -->
 

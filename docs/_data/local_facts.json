@@ -21,13 +21,14 @@
   "items_current": 3504
  },
  "reviews": {
-  "records": 706,
-  "pages": 473,
-  "public_pages_with_records": 473,
+  "records": 829,
+  "pages": 541,
+  "public_pages_with_records": 541,
   "by_action": {
    "correct": 690,
    "description_level": 2,
    "header_level": 2,
+   "mechanism": 123,
    "rereview": 6,
    "rereview_result": 6
   }
@@ -150,22 +151,22 @@
    "i": "hepatitis B virus infection"
   },
   {
-   "t": "Procyclidine",
-   "u": "/drugs/procyclidine/",
+   "t": "Defibrotide",
+   "u": "/drugs/defibrotide/",
    "l": "L5",
-   "lt": 3,
-   "lv": 3,
+   "lt": 1,
+   "lv": 1,
    "r": 4,
-   "i": "التهاب الدماغ تحت الحاد لراسموسن"
+   "i": "مرض فون ويلبراند الكاذب"
   },
   {
-   "t": "Ranibizumab",
-   "u": "/drugs/ranibizumab/",
-   "l": "L5",
-   "lt": 2,
-   "lv": 2,
+   "t": "Doxazosin",
+   "u": "/drugs/doxazosin/",
+   "l": "L4",
+   "lt": 8,
+   "lv": 8,
    "r": 4,
-   "i": "immature cataract"
+   "i": "migraine disorder"
   }
  ],
  "example": {

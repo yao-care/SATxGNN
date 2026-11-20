@@ -60,7 +60,7 @@ predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية عمل الدواء في المصادر المجمَّعة. بوناتينيب معروف بأنه مثبط متعدد الأهداف للتيروزين كيناز (BCR-ABL، FGFR، PDGFR، VEGFR، SRC). ثبتت فعاليته في ابيضاض الدم النخاعي المزمن، ومن الناحية النظرية قد تساهم إشارات عوامل النمو غير الطبيعية في تكاثر الخلايا الليفية في حالات فرط النمو والتليف.
+وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ponatinib (ترجمة غير رسمية): «بوناتينيب (Ponatinib) مثبط للكينازات. ثبّط بوناتينيب في المختبر نشاط التيروزين كيناز لـ ABL و ABL الطافر T315I بتراكيز IC 50 بلغت 0.4 nM و 2.0 nM على التوالي. وثبّط بوناتينيب في المختبر نشاط كينازات إضافية بتراكيز IC 50 تتراوح بين 0.1 nM و 20 nM، بما في ذلك أعضاء عائلات الكينازات VEGFR و PDGFR و FGFR ومستقبلات EPH و SRC، وكذلك KIT و RET و TIE2 و FLT3.» النص الأصلي بالإنجليزية: "Ponatinib is a kinase inhibitor. Ponatinib inhibited the in vitro tyrosine kinase activity of ABL and T315I mutant ABL with IC 50 concentrations of 0.4 nM and 2.0 nM, respectively. Ponatinib inhibited the in vitro activity of additional kinases with IC 50 concentrations between 0.1 nM and 20 nM, including members of the VEGFR, PDGFR, FGFR, EPH receptors and SRC families of kinases, and KIT, RET, TIE2, and FLT3." ([DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac)، إصدار 2026-08-14؛ تاريخ الاطلاع 2026-11-19). بوناتينيب معروف بأنه مثبط متعدد الأهداف للتيروزين كيناز (BCR-ABL، FGFR، PDGFR، VEGFR، SRC). ثبتت فعاليته في ابيضاض الدم النخاعي المزمن، ومن الناحية النظرية قد تساهم إشارات عوامل النمو غير الطبيعية في تكاثر الخلايا الليفية في حالات فرط النمو والتليف.
 
 **تنبيه مهم:** هذا التفسير تخميني، ولا تدعمه أي تجربة أو منشور. السند الوحيد هو الدرجة المرتفعة التي أعطاها النموذج. كما أن التشابه بين الاستطباب الأصلي والجديد لم يُقيَّم بعد.
 
@@ -141,11 +141,12 @@ predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «الدواء غير مرخص حالياً في السعودية (الترخيص الوحيد ملغى)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac) |
 
 <!-- review:end log -->
 

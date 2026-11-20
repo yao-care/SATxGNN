@@ -60,7 +60,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis exte
 
 ## لماذا يبدو هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية عمل دوكسيسيكلين في المصادر المجمعة. المعروف عنه أنه مضاد حيوي واسع الطيف يثبط تخليق البروتين البكتيري، وله نشاط ضد المتدثرة (Chlamydia).
+وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Doxycycline (ترجمة غير رسمية): «يثبط دوكسيسيكلين تخليق البروتين البكتيري عن طريق الارتباط بالوحيدة الفرعية الريبوسومية 30S. ويتمتع دوكسيسيكلين بنشاط كابح للجراثيم ضد طيف واسع من البكتيريا إيجابية الغرام وسلبية الغرام.» النص الأصلي بالإنجليزية: "Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria." ([DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8)، إصدار 2026-07-09؛ تاريخ الاطلاع 2026-11-19). المعروف عنه أنه مضاد حيوي واسع الطيف يثبط تخليق البروتين البكتيري، وله نشاط ضد المتدثرة (Chlamydia).
 
 يُعتقد أن له كذلك تأثيرات مضادة للالتهاب وتثبيطًا لإنزيمات المعدنية البروتينية للمصفوفة (MMP) على سطح العين. وهذا يجعل استخدامه في أمراض سطح العين مقبولًا من الناحية النظرية.
 
@@ -125,6 +125,19 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis exte
 - الحصول على النشرة الدوائية المعتمدة وتحليل تحذيراتها وموانع استعمالها.
 - تقييم إمكانية استخدام شكل صيدلاني مناسب للعين وسلامته، مع مراعاة ملاحظة السمية الخلوية للتتراسيكلينات.
 - التحقق من الوضع التنظيمي في المملكة (إعادة التسجيل أو الاستيراد) قبل أي تخطيط للاستخدام.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

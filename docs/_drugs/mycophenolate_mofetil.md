@@ -60,7 +60,7 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية عمل الدواء ضمن البيانات المجمّعة لهذا التقرير. وبحسب المعطيات المتاحة، فإن حمض الميكوفينوليك (المستقلب الفعال) يثبّط إنزيم IMPDH، فيستنزف مخزون نيوكليوتيدات الغوانوزين. وهذا يحدّ من تكاثر الخلايا الليمفاوية، ومنها الخلايا التائية CD4+ المنشّطة التي يستهدفها الفيروس.
+وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Mycophenolate Mofetil (ترجمة غير رسمية): «يُمتص ميكوفينولات موفيتيل (MMF) بعد تناوله عن طريق الفم ويتحلمه إلى حمض الميكوفينوليك (MPA)، وهو المستقلب النشط. وMPA مثبط انتقائي لاتنافسي للشكلين الإسويين (النوع I والنوع II) لإنزيم نازعة هيدروجين أحادي فوسفات الإينوزين (IMPDH)، مما يؤدي إلى تثبيط مسار التخليق من جديد لنيوكليوتيدات الغوانوزين ويحجب تخليق DNA.» النص الأصلي بالإنجليزية: "Mycophenolate mofetil (MMF) is absorbed following oral administration and hydrolyzed to mycophenolic acid (MPA), the active metabolite. MPA is a selective uncompetitive inhibitor of the two isoforms (type I and type II) of inosine monophosphate dehydrogenase (IMPDH) leading to inhibition of the de novo pathway of guanosine nucleotide synthesis and blocks DNA synthesis." ([DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9)، إصدار 2026-07-31؛ تاريخ الاطلاع 2026-11-19). وبحسب المعطيات المتاحة، فإن حمض الميكوفينوليك (المستقلب الفعال) يثبّط إنزيم IMPDH، فيستنزف مخزون نيوكليوتيدات الغوانوزين. وهذا يحدّ من تكاثر الخلايا الليمفاوية، ومنها الخلايا التائية CD4+ المنشّطة التي يستهدفها الفيروس.
 
 كما تشير الدراسات المخبرية والسريرية الصغيرة إلى أن استنزاف dGTP داخل الخلايا قد يعزّز نشاط مثبطات النسخ العكسي النيوكليوزيدية (مثل أباكافير وديدانوزين) ضد الفيروس، بما في ذلك السلالات المقاومة.
 
@@ -147,11 +147,12 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «تحديد سبب إلغاء التراخيص السعودية وإمكانية توفر الدواء في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
 
 <!-- review:end log -->
 

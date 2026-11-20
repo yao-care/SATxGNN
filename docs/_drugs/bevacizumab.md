@@ -59,7 +59,7 @@ predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tum
 
 ## لماذا يبدو هذا التوقع معقولًا؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية عمل الدواء. ومع ذلك، تشير المعلومات المعروفة إلى أن بيفاسيزوماب يعمل بتحييد عامل النمو البطاني الوعائي (VEGF-A) وتثبيط تكوّن الأوعية الدموية الورمية (Angiogenesis)، وهي آلية يُحتمل أن تنطبق على أورام الرأس والعنق.
+وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Bevacizumab (ترجمة غير رسمية): «ترتبط منتجات البيفاسيزوماب بـ VEGF وتمنع تفاعل VEGF مع مستقبلاته (Flt-1 وKDR) على سطح الخلايا البطانية. ويؤدي تفاعل VEGF مع مستقبلاته إلى تكاثر الخلايا البطانية وتكوين أوعية دموية جديدة في نماذج تكوّن الأوعية في المختبر (in vitro).» النص الأصلي بالإنجليزية: "Bevacizumab products bind VEGF and prevent the interaction of VEGF to its receptors (Flt-1 and KDR) on the surface of endothelial cells. The interaction of VEGF with its receptors leads to endothelial cell proliferation and new blood vessel formation in in vitro models of angiogenesis." ([DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe)، إصدار 2026-08-21؛ تاريخ الاطلاع 2026-11-19). ومع ذلك، تشير المعلومات المعروفة إلى أن بيفاسيزوماب يعمل بتحييد عامل النمو البطاني الوعائي (VEGF-A) وتثبيط تكوّن الأوعية الدموية الورمية (Angiogenesis)، وهي آلية يُحتمل أن تنطبق على أورام الرأس والعنق.
 
 يشترك الاستطباب الأصلي، أي الأورام الصلبة المعتمدة على تكوّن الأوعية، مع ورم لسان المزمار في الاعتماد على الإمداد الدموي الجديد. ولهذا يبدو الربط بينهما معقولًا من الناحية النظرية.
 
@@ -148,11 +148,12 @@ predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tum
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حاليًا ترخيص ساري للدواء في المملكة، وهو ما يزيد صعوبة أي مسار تنظيمي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe) |
 
 <!-- review:end log -->
 

@@ -1,93 +1,678 @@
 {
-  "_doc": "藥物頁待查清單（2026-11-12 建，比照 TwTxGNN／UsTxGNN docs/_data/drug_reviews_uncertain.json）。項目不刪：查清標 status: resolved（附 record_ids，指向 docs/_data/drug_reviews.json 的紀錄），查不出定論標 status: unresolvable（附 searched、unresolvable_reason）。",
-  "items": [
-    {
-      "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
-      "drug": "dasabuvir",
-      "file": "dasabuvir.md",
-      "status": "resolved",
-      "claim": "L3 (دراسات رصدية ومراجعات فقط، بلا دليل فعالية مباشر)",
-      "note": "頁首 L5；總覽格第一個等級 L3。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
-      "record_ids": [
-        "sa-rr-20261112-dasabuvir-1",
-        "sa-rr-20261112-dasabuvir-1-result"
-      ],
-      "resolved_on": "2026-11-12",
-      "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
-    },
-    {
-      "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
-      "drug": "favipiravir",
-      "file": "favipiravir.md",
-      "status": "resolved",
-      "claim": "L4 (دليل غير مباشر من دراسات آلية/مراجعات؛ دون تجارب سريرية)",
-      "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
-      "record_ids": [
-        "sa-rr-20261112-favipiravir-1",
-        "sa-rr-20261112-favipiravir-1-result"
-      ],
-      "resolved_on": "2026-11-12",
-      "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
-    },
-    {
-      "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
-      "drug": "quetiapine",
-      "file": "quetiapine.md",
-      "status": "resolved",
-      "claim": "L4 (تقارير حالات ومراجعات فقط، دون تجارب مضبوطة)",
-      "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
-      "record_ids": [
-        "sa-rr-20261112-quetiapine-1",
-        "sa-rr-20261112-quetiapine-1-result"
-      ],
-      "resolved_on": "2026-11-12",
-      "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
-    },
-    {
-      "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
-      "drug": "ranibizumab",
-      "file": "ranibizumab.md",
-      "status": "resolved",
-      "claim": "L1 (مبني على عناوين منشورات فقط، ويلزم التحقق من التقارير الأساسية للتجارب)",
-      "note": "頁首 L5；總覽格第一個等級 L1。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
-      "record_ids": [
-        "sa-rr-20261112-ranibizumab-1",
-        "sa-rr-20261112-ranibizumab-1-result"
-      ],
-      "resolved_on": "2026-11-12",
-      "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
-    },
-    {
-      "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
-      "drug": "trifluoperazine",
-      "file": "trifluoperazine.md",
-      "status": "resolved",
-      "claim": "L4 (تنبؤ حاسوبي مع دراسات مراجعة وآلية فقط، دون تجارب سريرية)",
-      "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
-      "record_ids": [
-        "sa-rr-20261112-trifluoperazine-1",
-        "sa-rr-20261112-trifluoperazine-1-result",
-        "sa-hl-20261112-trifluoperazine",
-        "sa-dl-20261112-trifluoperazine"
-      ],
-      "resolved_on": "2026-11-12",
-      "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
-    },
-    {
-      "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
-      "drug": "warfarin",
-      "file": "warfarin.md",
-      "status": "resolved",
-      "claim": "L1 وفق التصنيف الوارد في البيانات (مع تحفظ: التجربة الوحيدة حالتها «غير معروفة» ودور وارفارين فيها غير واضح؛ لذلك فالدليل الفعلي أقرب إلى L3)",
-      "note": "頁首 L5；總覽格第一個等級 L1（格內另寫實際證據較接近 L3）。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
-      "record_ids": [
-        "sa-rr-20261112-warfarin-1",
-        "sa-rr-20261112-warfarin-1-result",
-        "sa-hl-20261112-warfarin",
-        "sa-dl-20261112-warfarin"
-      ],
-      "resolved_on": "2026-11-12",
-      "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
-    }
-  ]
+ "_doc": "藥物頁待查清單（2026-11-12 建，比照 TwTxGNN／UsTxGNN docs/_data/drug_reviews_uncertain.json）。項目不刪：查清標 status: resolved（附 record_ids，指向 docs/_data/drug_reviews.json 的紀錄），查不出定論標 status: unresolvable（附 searched、unresolvable_reason）。",
+ "items": [
+  {
+   "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
+   "drug": "dasabuvir",
+   "file": "dasabuvir.md",
+   "status": "resolved",
+   "claim": "L3 (دراسات رصدية ومراجعات فقط، بلا دليل فعالية مباشر)",
+   "note": "頁首 L5；總覽格第一個等級 L3。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
+   "record_ids": [
+    "sa-rr-20261112-dasabuvir-1",
+    "sa-rr-20261112-dasabuvir-1-result"
+   ],
+   "resolved_on": "2026-11-12",
+   "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
+  },
+  {
+   "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
+   "drug": "favipiravir",
+   "file": "favipiravir.md",
+   "status": "resolved",
+   "claim": "L4 (دليل غير مباشر من دراسات آلية/مراجعات؛ دون تجارب سريرية)",
+   "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
+   "record_ids": [
+    "sa-rr-20261112-favipiravir-1",
+    "sa-rr-20261112-favipiravir-1-result"
+   ],
+   "resolved_on": "2026-11-12",
+   "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
+  },
+  {
+   "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
+   "drug": "quetiapine",
+   "file": "quetiapine.md",
+   "status": "resolved",
+   "claim": "L4 (تقارير حالات ومراجعات فقط، دون تجارب مضبوطة)",
+   "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
+   "record_ids": [
+    "sa-rr-20261112-quetiapine-1",
+    "sa-rr-20261112-quetiapine-1-result"
+   ],
+   "resolved_on": "2026-11-12",
+   "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
+  },
+  {
+   "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
+   "drug": "ranibizumab",
+   "file": "ranibizumab.md",
+   "status": "resolved",
+   "claim": "L1 (مبني على عناوين منشورات فقط، ويلزم التحقق من التقارير الأساسية للتجارب)",
+   "note": "頁首 L5；總覽格第一個等級 L1。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
+   "record_ids": [
+    "sa-rr-20261112-ranibizumab-1",
+    "sa-rr-20261112-ranibizumab-1-result"
+   ],
+   "resolved_on": "2026-11-12",
+   "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
+  },
+  {
+   "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
+   "drug": "trifluoperazine",
+   "file": "trifluoperazine.md",
+   "status": "resolved",
+   "claim": "L4 (تنبؤ حاسوبي مع دراسات مراجعة وآلية فقط، دون تجارب سريرية)",
+   "note": "頁首 L5；總覽格第一個等級 L4。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
+   "record_ids": [
+    "sa-rr-20261112-trifluoperazine-1",
+    "sa-rr-20261112-trifluoperazine-1-result",
+    "sa-hl-20261112-trifluoperazine",
+    "sa-dl-20261112-trifluoperazine"
+   ],
+   "resolved_on": "2026-11-12",
+   "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
+  },
+  {
+   "source": "頁首等級實測（2026-11-12，本站查核機制建立時）",
+   "drug": "warfarin",
+   "file": "warfarin.md",
+   "status": "resolved",
+   "claim": "L1 وفق التصنيف الوارد في البيانات (مع تحفظ: التجربة الوحيدة حالتها «غير معروفة» ودور وارفارين فيها غير واضح؛ لذلك فالدليل الفعلي أقرب إلى L3)",
+   "note": "頁首 L5；總覽格第一個等級 L1（格內另寫實際證據較接近 L3）。頁首照用戶決定維持現有等級（site.py HEADER_EXCEPTIONS），待依 methodology 的 L1–L5 定義重審；重審後寫 rereview_result 改等級，再從 HEADER_EXCEPTIONS 拿掉",
+   "record_ids": [
+    "sa-rr-20261112-warfarin-1",
+    "sa-rr-20261112-warfarin-1-result",
+    "sa-hl-20261112-warfarin",
+    "sa-dl-20261112-warfarin"
+   ],
+   "resolved_on": "2026-11-12",
+   "resolved_note": "已依 methodology 重審（PubMed、ClinicalTrials.gov），結論見 record_ids 的 rereview_result；已從 site.py HEADER_EXCEPTIONS 拿掉"
+  },
+  {
+   "file": "aceclofenac.md",
+   "drug": "aceclofenac",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'aceclofenac' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'aceclofenac'"
+  },
+  {
+   "file": "alanine.md",
+   "drug": "alanine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'alanine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'alanine'"
+  },
+  {
+   "file": "alfentanil.md",
+   "drug": "alfentanil",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'alfentanil' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL634 has no mechanism entry"
+  },
+  {
+   "file": "ambroxol.md",
+   "drug": "ambroxol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'ambroxol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'ambroxol'"
+  },
+  {
+   "file": "ammonium_chloride.md",
+   "drug": "ammonium_chloride",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'ammonium' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'ammonium'"
+  },
+  {
+   "file": "amodiaquine.md",
+   "drug": "amodiaquine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'amodiaquine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL682 has no mechanism entry"
+  },
+  {
+   "file": "antazoline.md",
+   "drug": "antazoline",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'antazoline' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1305 has no mechanism entry"
+  },
+  {
+   "file": "avibactam.md",
+   "drug": "avibactam",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'avibactam' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1689063 has no mechanism entry"
+  },
+  {
+   "file": "butenafine.md",
+   "drug": "butenafine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'butenafine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL990 has no mechanism entry"
+  },
+  {
+   "file": "carbocisteine.md",
+   "drug": "carbocisteine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'carbocisteine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'carbocisteine'"
+  },
+  {
+   "file": "cefoperazone.md",
+   "drug": "cefoperazone",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'cefoperazone' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL507674 has no mechanism entry"
+  },
+  {
+   "file": "clidinium.md",
+   "drug": "clidinium",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'clidinium' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL620 has no mechanism entry"
+  },
+  {
+   "file": "dapoxetine.md",
+   "drug": "dapoxetine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'dapoxetine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'dapoxetine'"
+  },
+  {
+   "file": "dexbrompheniramine.md",
+   "drug": "dexbrompheniramine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'dexbrompheniramine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1201287 has no mechanism entry"
+  },
+  {
+   "file": "diethylcarbamazine.md",
+   "drug": "diethylcarbamazine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'diethylcarbamazine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL684 has no mechanism entry"
+  },
+  {
+   "file": "felbinac.md",
+   "drug": "felbinac",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'felbinac' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL413965 has no mechanism entry"
+  },
+  {
+   "file": "felypressin.md",
+   "drug": "felypressin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'felypressin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'felypressin'"
+  },
+  {
+   "file": "ferrous_gluconate.md",
+   "drug": "ferrous_gluconate",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'ferrous' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'ferrous'"
+  },
+  {
+   "file": "glutamic_acid.md",
+   "drug": "glutamic_acid",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'glutamic acid' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'glutamic acid'"
+  },
+  {
+   "file": "glycerin.md",
+   "drug": "glycerin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'glycerin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL692 has no mechanism entry"
+  },
+  {
+   "file": "glycine.md",
+   "drug": "glycine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'glycine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL773 has no mechanism entry"
+  },
+  {
+   "file": "hesperidin.md",
+   "drug": "hesperidin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'hesperidin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'hesperidin'"
+  },
+  {
+   "file": "hymecromone.md",
+   "drug": "hymecromone",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'hymecromone' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'hymecromone'"
+  },
+  {
+   "file": "interferon_alfa-2b.md",
+   "drug": "interferon_alfa-2b",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'interferon alfa 2b' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'interferon alfa 2b'"
+  },
+  {
+   "file": "iron.md",
+   "drug": "iron",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'iron' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'iron'"
+  },
+  {
+   "file": "isoleucine.md",
+   "drug": "isoleucine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'isoleucine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'isoleucine'"
+  },
+  {
+   "file": "levamisole.md",
+   "drug": "levamisole",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'levamisole' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1454 has no mechanism entry"
+  },
+  {
+   "file": "magnesium_sulfate.md",
+   "drug": "magnesium_sulfate",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no INN; no approved ChEMBL molecule named ''"
+  },
+  {
+   "file": "methionine.md",
+   "drug": "methionine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'methionine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'methionine'"
+  },
+  {
+   "file": "pentoxyverine.md",
+   "drug": "pentoxyverine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'pentoxyverine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'pentoxyverine'"
+  },
+  {
+   "file": "pheniramine.md",
+   "drug": "pheniramine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'pheniramine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1193 has no mechanism entry"
+  },
+  {
+   "file": "potassium_gluconate.md",
+   "drug": "potassium_gluconate",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no INN; no approved ChEMBL molecule named ''"
+  },
+  {
+   "file": "rutin.md",
+   "drug": "rutin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'rutin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'rutin'"
+  },
+  {
+   "file": "serine.md",
+   "drug": "serine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'serine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'serine'"
+  },
+  {
+   "file": "silibinin.md",
+   "drug": "silibinin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'silibinin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'silibinin'"
+  },
+  {
+   "file": "sorbitol.md",
+   "drug": "sorbitol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'sorbitol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1682 has no mechanism entry"
+  },
+  {
+   "file": "tenoxicam.md",
+   "drug": "tenoxicam",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'tenoxicam' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'tenoxicam'"
+  },
+  {
+   "file": "threonine.md",
+   "drug": "threonine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'threonine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'threonine'"
+  },
+  {
+   "file": "tiaprofenic_acid.md",
+   "drug": "tiaprofenic_acid",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'tiaprofenic acid' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL365795 has no mechanism entry"
+  },
+  {
+   "file": "triclocarban.md",
+   "drug": "triclocarban",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'triclocarban' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'triclocarban'"
+  },
+  {
+   "file": "tyrosine.md",
+   "drug": "tyrosine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'tyrosine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL925 has no mechanism entry"
+  },
+  {
+   "file": "valine.md",
+   "drug": "valine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'valine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'valine'"
+  },
+  {
+   "file": "vindesine.md",
+   "drug": "vindesine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'vindesine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL238071 has no mechanism entry"
+  },
+  {
+   "file": "vitamin_a.md",
+   "drug": "vitamin_a",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'vitamin a' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'vitamin a'"
+  },
+  {
+   "file": "vitamin_e.md",
+   "drug": "vitamin_e",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'vitamin e' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL3989727 has no mechanism entry"
+  }
+ ]
 }

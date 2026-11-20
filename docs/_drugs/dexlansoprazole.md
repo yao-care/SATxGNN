@@ -54,7 +54,7 @@ description: "Dexlansoprazole: الاستطباب الجديد المتوقع ا
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية عمل الدواء ضمن البيانات المجمّعة لهذا التقرير. وبناءً على المعروف عن هذه الفئة الدوائية، فإن ديكسلانسوبرازول يثبّط إفراز حمض المعدة.
+وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Dexlansoprazole (ترجمة غير رسمية): «ينتمي ديكسلانسوبرازول إلى فئة من المركبات المضادة للإفراز، وهي البنزيميدازولات المستبدلة، التي تثبط إفراز حمض المعدة عن طريق التثبيط النوعي لإنزيم (H +, K + )-ATPase على السطح الإفرازي للخلية الجدارية المعدية. ونظراً لأن هذا الإنزيم يُعدّ مضخة الحمض (البروتون) داخل الخلية الجدارية، فقد وُصف ديكسلانسوبرازول بأنه مثبط لمضخة البروتون المعدية، إذ إنه يحجب الخطوة النهائية من إنتاج الحمض.» النص الأصلي بالإنجليزية: "Dexlansoprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the (H +, K + )-ATPase at the secretory surface of the gastric parietal cell. Because this enzyme is regarded as the acid (proton) pump within the parietal cell, dexlansoprazole has been characterized as a gastric proton-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Dexlansoprazole Delayed Release (dexlansoprazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55c550b4-eb8b-4e69-9c09-fa5125a52e65)، إصدار 2026-11-04؛ تاريخ الاطلاع 2026-11-19). وبناءً على المعروف عن هذه الفئة الدوائية، فإن ديكسلانسوبرازول يثبّط إفراز حمض المعدة.
 
 من الناحية النظرية، قد يخفف خفض الحمض الالتهاب المخاطي المرتبط بالحمض في المعدة والاثني عشر، وهذا ما يجعل التنبؤ معقولاً من حيث المبدأ. غير أن هذا الارتباط يبقى افتراضياً، إذ لا توجد دراسات مرتبطة بالدواء في هذا المرض بالذات. ولم يُقيَّم بعد التشابه مع الاستطباب الأصلي، ولا توافق مسارات الإعطاء.
 
@@ -93,6 +93,19 @@ description: "Dexlansoprazole: الاستطباب الجديد المتوقع ا
 - الحصول على تحذيرات وموانع الاستعمال من النشرة الدوائية المعتمدة لدى هيئة الغذاء والدواء السعودية.
 - إجراء مراجعة منهجية للأدبيات أو دراسات استكشافية في التهاب المعدة والاثني عشر.
 - تقييم التشابه مع الاستطباب الأصلي وتوافق مسارات الإعطاء.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Dexlansoprazole Delayed Release (dexlansoprazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55c550b4-eb8b-4e69-9c09-fa5125a52e65) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

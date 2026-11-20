@@ -58,7 +58,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion 
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-لا تتوفر حالياً بيانات تفصيلية عن آلية عمل الدواء ضمن البيانات المجمّعة لهذا التقرير. استناداً إلى المعروف، جيفيتينيب مثبّط لإنزيم التيروزين كيناز الخاص بـ EGFR، وقد ثبتت فعاليته في سرطان الرئة غير صغير الخلايا الحامل لطفرات EGFR، ومن الناحية النظرية قد ينطبق على أمراض أخرى تتأثر بالمسار نفسه.
+وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Gefitinib (ترجمة غير رسمية): «يُعبَّر عن مستقبل عامل نمو البشرة (EGFR) على سطح كلٍّ من الخلايا الطبيعية والخلايا السرطانية، ويؤدي دورًا في عمليات نمو الخلايا وتكاثرها. وقد تبيّن أن بعض الطفرات المنشّطة لـ EGFR (حذف الإكسون 19 أو الطفرة النقطية L858R في الإكسون 21) داخل خلايا NSCLC تسهم في تعزيز نمو الخلايا الورمية، وحجب الاستماتة، وزيادة إنتاج العوامل المولّدة للأوعية، وتسهيل عمليات النقائل. […] يثبّط جيفيتينيب بشكل عكوس نشاط الكيناز لـ EGFR من النمط البري ولبعض طفراته المنشّطة، مما يمنع الفسفرة الذاتية لبقايا التيروزين المرتبطة بالمستقبل، وبالتالي يثبّط الإشارات اللاحقة في المسار ويحجب التكاثر المعتمد على EGFR.» النص الأصلي بالإنجليزية: "The epidermal growth factor receptor (EGFR) is expressed on the cell surface of both normal and cancer cells and plays a role in the processes of cell growth and proliferation. Some EGFR activating mutations (exon 19 deletion or exon 21 point mutation L858R) within NSCLC cells have been identified as contributing to the promotion of tumor cell growth, blocking of apoptosis, increasing the production of angiogenic factors and facilitating the processes of metastasis. […] Gefitinib reversibly inhibits the kinase activity of wild-type and certain activating mutations of EGFR, preventing autophosphorylation of tyrosine residues associated with the receptor, thereby inhibiting further downstream signaling and blocking EGFR-dependent proliferation." ([DailyMed: Iressa (gefitinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=827d60e8-7e07-41b7-c28b-49ef1c4a5a41)، إصدار 2023-02-28؛ تاريخ الاطلاع 2026-11-19). استناداً إلى المعروف، جيفيتينيب مثبّط لإنزيم التيروزين كيناز الخاص بـ EGFR، وقد ثبتت فعاليته في سرطان الرئة غير صغير الخلايا الحامل لطفرات EGFR، ومن الناحية النظرية قد ينطبق على أمراض أخرى تتأثر بالمسار نفسه.
 
 يتميز الورم الليفي اللثوي بتكاثر الخلايا الليفية، وترتبط به مسارات إشارات TGF-beta وEGFR، لذلك فإن تثبيط EGFR معقول نظرياً. لكن هذه الفرضية نظرية بحتة، ولم تُقدَّم أي بيانات تدعمها. كما أن علاقة هذا المرض بالاستطباب الأصلي (ورم خبيث رئوي) ضعيفة، والدرجة الناتجة عن نموذج TxGNN (التعلم العميق) قد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مترابطة، وليست دليلاً بيولوجياً.
 
@@ -146,11 +146,12 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion 
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «حالة هذا الترخيص: **ملغى**» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Iressa (gefitinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=827d60e8-7e07-41b7-c28b-49ef1c4a5a41) |
 
 <!-- review:end log -->
 

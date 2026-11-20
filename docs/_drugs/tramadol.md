@@ -58,7 +58,7 @@ description: "Tramadol: الاستطباب الجديد المتوقع Acromesom
 
 ## لماذا يبدو هذا التنبؤ معقولًا (أو غير معقول)؟
 
-لا تتوفر حاليًا بيانات تفصيلية عن آلية عمل الدواء. المعروف أن ترامادول يعمل على مستقبلات الأفيون (µ وδ وκ) وفق بيانات الارتباط الدوائي المتاحة، وهو مسكّن للألم المتوسط إلى الشديد.
+وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Tramadol (ترجمة غير رسمية): «تحتوي كبسولات ترامادول هيدروكلوريد ممتدة المفعول على ترامادول، وهو ناهض أفيوني ومثبط لإعادة امتصاص النورإبينفرين والسيروتونين. على الرغم من أن طريقة عمله غير مفهومة بالكامل، يبدو من الاختبارات على الحيوانات أن آليتين متكاملتين على الأقل قابلتان للتطبيق: ارتباط المركب الأصلي والمستقلب M1 بمستقبلات ميو الأفيونية، والتثبيط الضعيف لإعادة امتصاص النورإبينفرين والسيروتونين.» النص الأصلي بالإنجليزية: "Tramadol Hydrochloride Extended-Release Capsules contain tramadol, an opioid agonist, and an inhibitor of reuptake of norepinephrine and serotonin. Although its mode of action is not completely understood, from animal tests, at least two complementary mechanisms appear applicable: binding of parent and M1 metabolite to mu-opioid receptors and weak inhibition of reuptake of norepinephrine and serotonin." ([DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9)، إصدار 2026-01-23؛ تاريخ الاطلاع 2026-11-19). المعروف أن ترامادول يعمل على مستقبلات الأفيون (µ وδ وκ) وفق بيانات الارتباط الدوائي المتاحة، وهو مسكّن للألم المتوسط إلى الشديد.
 
 أما خلل التنسج الطرفي المتوسط من نوع هانتر-طومسون فهو اضطراب هيكلي وراثي نادر مرتبط بالجين CDMP1/GDF5. **لا توجد صلة آلية مثبتة** بين ترامادول وهذا المسار المرضي، إذ لا يؤثر الدواء على المسار الكامن وراء المرض.
 
@@ -115,6 +115,19 @@ description: "Tramadol: الاستطباب الجديد المتوقع Acromesom
 - استكمال بيانات آلية العمل من DrugBank.
 - إجراء مراجعة أدبية مستهدفة لدور ترامادول في تسكين الألم في الحالات الهيكلية النادرة، مع اعتباره علاجًا عَرَضيًا فقط.
 - النظر في مؤشرات أخرى ضمن القائمة المتنبأ بها (مثل التهاب المفاصل مجهول السبب لدى الأطفال) مع تقييم مخاطر السلامة لدى الأطفال.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9) |
+
+<!-- review:end log -->
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

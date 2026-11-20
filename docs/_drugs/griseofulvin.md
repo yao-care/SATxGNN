@@ -59,7 +59,7 @@ predicted_indications: ["myiasis", "creeping myiasis", "furuncular myiasis", "wo
 
 ## لماذا يبدو هذا التنبؤ (غير) معقول؟
 
-البيانات التفصيلية عن آلية عمل الدواء الأصلية غير متوفرة حالياً في البيانات المجمعة لهذا التقرير. المعروف عموماً أن غريزيوفولفين مضاد فطري يتداخل مع وظيفة الأنابيب الدقيقة (microtubules) وانقسام الخلايا في الفطريات الجلدية، ويتركز في الطبقة القرنية (الكيراتين).
+وفقًا لـقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Griseofulvin (ترجمة غير رسمية): «تتمثل آلية عمل غريزيوفولفين في الارتباط بالبروتينات الأنيبيبية، اللازمة للانقسام الفتيلي. […] تتمثل آلية عمل غريزيوفولفين في الارتباط بالبروتينات الأنيبيبية، اللازمة للانقسام الفتيلي. النشاط في الجسم الحي قد يكون غريزيوفولفين فعالًا ضد معظم سلالات الفطريات الجلدية التالية كما هو موضح في قسم دواعي الاستعمال والاستخدام: Epidermophyton floccosum، وMicrosporum audouinii، وMicrosporum canis، وMicrosporum gypseum، وTrichophyton crateriformis، وTrichophyton gallinae، وTrichophyton interdigitalis، وTrichophyton megnini، وTrichophyton mentagrophytes، وTrichophyton rubrum، وTrichophyton sulphureum، وTrichophyton schoenleini، وTrichophyton tonsurans، وTrichophyton verrucosum.» النص الأصلي بالإنجليزية: "The mechanism of griseofulvin consists of binding microtubular proteins, which are required for mitosis. […] The mechanism of griseofulvin consists of binding microtubular proteins, which are required for mitosis. Activity In Vivo Griseofulvin may be active against most strains of the following dermatophytes as described in the INDICATIONS AND USAGE section: Epidermophyton floccosum, Microsporum audouinii, Microsporum canis, Microsporum gypseum, Trichophyton crateriformis, Trichophyton gallinae, Trichophyton interdigitalis, Trichophyton megnini, Trichophyton mentagrophytes, Trichophyton rubrum, Trichophyton sulphureum, Trichophyton schoenleini, Trichophyton tonsurans and Trichophyton verrucosum." ([DailyMed: griseofulvin prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98829d90-b289-4bec-a625-7af412a5cb2d)، إصدار 2025-05-14؛ تاريخ الاطلاع 2026-11-19). المعروف عموماً أن غريزيوفولفين مضاد فطري يتداخل مع وظيفة الأنابيب الدقيقة (microtubules) وانقسام الخلايا في الفطريات الجلدية، ويتركز في الطبقة القرنية (الكيراتين).
 
 أما داء الذباب فهو إصابة بيرقات ذباب (حشرات ذات الجناحين)، أي مرض طفيلي مفصلي الأرجل، وليس عدوى فطرية. لا توجد صلة آلية مثبتة بين الدواء وهذه الحالة، وأي تأثير محتمل على توبولين اليرقات هو افتراض نظري بحت. ويُرجَّح أن الدرجة المرتفعة ناتجة عن قرب العقد في الشبكة المعرفية وليست دليلاً بيولوجياً.
 
@@ -140,11 +140,12 @@ predicted_indications: ["myiasis", "creeping myiasis", "furuncular myiasis", "wo
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «إعادة تقييم الجدوى في ظل إلغاء التراخيص وعدم توفر المنتج في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: griseofulvin prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98829d90-b289-4bec-a625-7af412a5cb2d) |
 
 <!-- review:end log -->
 
