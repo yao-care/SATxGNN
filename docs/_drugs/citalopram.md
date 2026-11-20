@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 189
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder"]
 description: "Citalopram: الاستطباب الجديد المتوقع اضطراب الوسواس القهري (obsessive-compulsive disorder) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"

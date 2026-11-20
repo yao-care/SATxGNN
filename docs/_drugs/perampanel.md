@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: الاستطباب الجديد المتوقع نقص بيتا-كيتوثيولاز (beta-ketothiolase deficiency) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"

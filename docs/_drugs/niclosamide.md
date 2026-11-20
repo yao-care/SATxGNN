@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 585
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Niclosamide: الاستطباب الجديد المتوقع أمراض القلب (heart disease) (مستوى الدليل L4). الاستطباب الأصلي: طارد للديدان (مضاد للطفيليات). لا يتوفر نص الاستطباب المعتمد في تراخي…"
 monitor_inn: "NICLOSAMIDE"
 drugbank_id: DB06803

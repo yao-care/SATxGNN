@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 205
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Clonazepam: الاستطباب الجديد المتوقع متلازمة تململ الساقين (مستوى الدليل L3). الاستطباب الأصلي: الصرع (صرع الغياب، متلازمة لينوكس-غاستو، اعتلال الدماغ العضلي الرمعي…"
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
