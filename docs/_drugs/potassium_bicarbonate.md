@@ -60,7 +60,7 @@ description: "Potassium Bicarbonate: الاستطباب الجديد المتو�
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Potassium Bicarbonate (ترجمة غير رسمية): «يؤدي العلاج ببيكربونات الصوديوم عن طريق الوريد إلى زيادة بيكربونات البلازما، ومعادلة التركيز الزائد لأيونات الهيدروجين، ورفع الأس الهيدروجيني (pH) للدم.» النص الأصلي بالإنجليزية: "Intravenous sodium bicarbonate therapy increases plasma bicarbonate, buffers excess hydrogen ion concentration, raises blood pH." ([DailyMed: sodium bicarbonate prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50c858a-00c8-4cb2-ad73-8797f19e656d)، إصدار 2026-08-14؛ تاريخ الاطلاع 2026-11-19). ومن المعروف عموماً أن بيكربونات البوتاسيوم عامل قلوي قد يعادل حموضة المعدة. وهذا ينسجم مع استطباباته الأصلية في حالات الجهاز الهضمي العلوي المرتبطة بالحمض. وهذا الاستنتاج مبني على الصيدلة العامة وليس على البيانات المجمّعة لهذا التقرير.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Potassium Bicarbonate (ترجمة غير رسمية): «يؤدي العلاج ببيكربونات الصوديوم عن طريق الوريد إلى زيادة بيكربونات البلازما، ومعادلة التركيز الزائد لأيونات الهيدروجين، ورفع الأس الهيدروجيني (pH) للدم.» النص الأصلي بالإنجليزية: "Intravenous sodium bicarbonate therapy increases plasma bicarbonate, buffers excess hydrogen ion concentration, raises blood pH." ([DailyMed: sodium bicarbonate prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50c858a-00c8-4cb2-ad73-8797f19e656d)، إصدار 2026-08-14؛ تاريخ الاطلاع 2026-11-19). ومن المعروف عموماً أن بيكربونات البوتاسيوم عامل قلوي قد يعادل حموضة المعدة. وهذا ينسجم مع استطباباته الأصلية في حالات الجهاز الهضمي العلوي المرتبطة بالحمض. وهذا الاستنتاج مبني على الصيدلة العامة وليس على البيانات المجمّعة لهذا التقرير.
 
 التهاب المعدة والاثني عشر (gastroduodenitis) حالة التهابية تصيب مخاطية الجهاز الهضمي العلوي. الدرجة العالية (0.9972) صادرة عن نموذج TxGNN (التعلم العميق)، وقد تعكس تشابهات تعلّمها النموذج بين أمراض متقاربة، وليست دليلاً بيولوجياً.
 
@@ -144,7 +144,7 @@ description: "Potassium Bicarbonate: الاستطباب الجديد المتو�
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «التحقق من وضع التسجيل في السعودية وسبب إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: sodium bicarbonate prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50c858a-00c8-4cb2-ad73-8797f19e656d) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: sodium bicarbonate prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50c858a-00c8-4cb2-ad73-8797f19e656d) |
 
 <!-- review:end log -->
 

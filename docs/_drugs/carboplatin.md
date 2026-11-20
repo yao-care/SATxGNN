@@ -58,7 +58,7 @@ description: "Carboplatin: الاستطباب الجديد المتوقع سرط
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Carboplatin (ترجمة غير رسمية): «كاربوبلاتين دواء قائم على البلاتين يرتبط بالحمض النووي DNA ويشكّل روابط متصالبة في الحمض النووي DNA. تثبط هذه الروابط المتصالبة تضاعف الحمض النووي DNA ونسخه، وتُطلق عمليات سامة للخلايا تؤدي إلى موت الخلية.» النص الأصلي بالإنجليزية: "Carboplatin is a platinum-based drug that binds to DNA and forms DNA cross-links. These crosslinks inhibit DNA replication and transcription and trigger cytotoxic processes that lead to cell death." ([DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b)، إصدار 2026-11-09؛ تاريخ الاطلاع 2026-11-19). المعروف عن كاربوبلاتين أنه مركّب بلاتيني سام للخلايا، تتمثل آليته الدوائية العامة في تكوين روابط تشابكية مع الحمض النووي تعيق تضاعف الخلايا السرطانية. من الناحية النظرية قد تنطبق هذه الآلية على أورام غدية أخرى، ومنها الأورام الغدية المخاطية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Carboplatin (ترجمة غير رسمية): «كاربوبلاتين دواء قائم على البلاتين يرتبط بالحمض النووي DNA ويشكّل روابط متصالبة في الحمض النووي DNA. تثبط هذه الروابط المتصالبة تضاعف الحمض النووي DNA ونسخه، وتُطلق عمليات سامة للخلايا تؤدي إلى موت الخلية.» النص الأصلي بالإنجليزية: "Carboplatin is a platinum-based drug that binds to DNA and forms DNA cross-links. These crosslinks inhibit DNA replication and transcription and trigger cytotoxic processes that lead to cell death." ([DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b)، إصدار 2026-11-09؛ تاريخ الاطلاع 2026-11-19). المعروف عن كاربوبلاتين أنه مركّب بلاتيني سام للخلايا، تتمثل آليته الدوائية العامة في تكوين روابط تشابكية مع الحمض النووي تعيق تضاعف الخلايا السرطانية. من الناحية النظرية قد تنطبق هذه الآلية على أورام غدية أخرى، ومنها الأورام الغدية المخاطية.
 
 لكن هذا الاستدلال ضعيف. لا توجد دراسة تختبر كاربوبلاتين في هذا النوع المحدد من أورام المستقيم، ولا يقوم التنبؤ إلا على الدرجة العالية التي أعطاها النموذج. لذلك ينبغي التعامل معه كفرضية بحثية فقط.
 
@@ -124,7 +124,7 @@ description: "Carboplatin: الاستطباب الجديد المتوقع سرط
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b) |
 
 <!-- review:end log -->
 

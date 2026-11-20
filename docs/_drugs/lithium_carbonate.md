@@ -58,7 +58,7 @@ description: "Lithium Carbonate: الاستطباب الجديد المتوقع 
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lithium Carbonate (ترجمة غير رسمية): «آلية عمل الليثيوم كعامل مثبت للمزاج غير معروفة.» النص الأصلي بالإنجليزية: "The mechanism of action of lithium as a mood stabilizing agent is unknown." ([DailyMed: Lithium Carbonate Lithium Carbonate (lithium carbonate) prescribing information, Alembic Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ca2b977-b94c-4232-9b7e-835db97c9544)، إصدار 2022-11-03؛ تاريخ الاطلاع 2026-11-19). وبحسب المعلومات المعروفة، فإن الليثيوم يثبّط إنزيم GSK-3 ويعدّل مسار إشارات Wnt/بيتا-كاتينين، وهو مسار مهم في بيولوجيا الخلايا الغضروفية ونمو الهيكل العظمي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lithium Carbonate (ترجمة غير رسمية): «آلية عمل الليثيوم كعامل مثبت للمزاج غير معروفة.» النص الأصلي بالإنجليزية: "The mechanism of action of lithium as a mood stabilizing agent is unknown." ([DailyMed: Lithium Carbonate Lithium Carbonate (lithium carbonate) prescribing information, Alembic Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ca2b977-b94c-4232-9b7e-835db97c9544)، إصدار 2022-11-03؛ تاريخ الاطلاع 2026-11-19). وبحسب المعلومات المعروفة، فإن الليثيوم يثبّط إنزيم GSK-3 ويعدّل مسار إشارات Wnt/بيتا-كاتينين، وهو مسار مهم في بيولوجيا الخلايا الغضروفية ونمو الهيكل العظمي.
 
 ينتج خلل التنسج الغضروفي الكاذب عن طفرات في جين COMP تؤدي إلى إجهاد الشبكة الإندوبلازمية في الخلايا الغضروفية واضطراب صفيحة النمو. ويمكن نظريًا أن يؤثر تعديل مسار Wnt/GSK-3 في هذه العمليات.
 
@@ -127,7 +127,7 @@ description: "Lithium Carbonate: الاستطباب الجديد المتوقع 
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Lithium Carbonate Lithium Carbonate (lithium carbonate) prescribing information, Alembic Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ca2b977-b94c-4232-9b7e-835db97c9544) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Lithium Carbonate Lithium Carbonate (lithium carbonate) prescribing information, Alembic Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ca2b977-b94c-4232-9b7e-835db97c9544) |
 
 <!-- review:end log -->
 

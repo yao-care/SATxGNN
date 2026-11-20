@@ -54,7 +54,7 @@ description: "Famotidine: الاستطباب الجديد المتوقع انس�
 
 ## لماذا يبدو هذا التنبؤ معقولاً (أو لا)؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Famotidine (ترجمة غير رسمية): «فاموتيدين مثبط تنافسي لمستقبلات الهيستامين-2 (H2). والنشاط الدوائي الرئيسي ذو الأهمية السريرية لفاموتيدين هو تثبيط الإفراز المعدي. ويثبط فاموتيدين كلاً من تركيز الحمض وحجم الإفراز المعدي، بينما تتناسب التغيرات في إفراز البيبسين مع حجم الناتج.» النص الأصلي بالإنجليزية: "Famotidine is a competitive inhibitor of histamine-2 (H2) receptors. The primary clinically important pharmacologic activity of famotidine is inhibition of gastric secretion. Both the acid concentration and volume of gastric secretion are suppressed by famotidine, while changes in pepsin secretion are proportional to volume output." ([DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def)، إصدار 2024-06-01؛ تاريخ الاطلاع 2026-11-19). المعروف عن الفاموتيدين أنه يخفض إفراز الحمض في المعدة، وهو فعّال في الاضطرابات المرتبطة بالحمض.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Famotidine (ترجمة غير رسمية): «فاموتيدين مثبط تنافسي لمستقبلات الهيستامين-2 (H2). والنشاط الدوائي الرئيسي ذو الأهمية السريرية لفاموتيدين هو تثبيط الإفراز المعدي. ويثبط فاموتيدين كلاً من تركيز الحمض وحجم الإفراز المعدي، بينما تتناسب التغيرات في إفراز البيبسين مع حجم الناتج.» النص الأصلي بالإنجليزية: "Famotidine is a competitive inhibitor of histamine-2 (H2) receptors. The primary clinically important pharmacologic activity of famotidine is inhibition of gastric secretion. Both the acid concentration and volume of gastric secretion are suppressed by famotidine, while changes in pepsin secretion are proportional to volume output." ([DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def)، إصدار 2024-06-01؛ تاريخ الاطلاع 2026-11-19). المعروف عن الفاموتيدين أنه يخفض إفراز الحمض في المعدة، وهو فعّال في الاضطرابات المرتبطة بالحمض.
 
 أما انسداد الاثني عشر فهو مشكلة ميكانيكية أو بنيوية، وقد يخفف كبح الحمض على أبعد تقدير من قرحة ثانوية مصاحبة، ولا يعالج الانسداد نفسه. لذلك لا نرى رابطاً آلياً مقنعاً. ويُرجَّح أن الدرجة المرتفعة ناتجة عن قرب هذه الحالة من مؤشرات أخرى في النموذج، لا عن دليل دوائي حقيقي.
 
@@ -106,7 +106,7 @@ description: "Famotidine: الاستطباب الجديد المتوقع انس�
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def) |
 
 <!-- review:end log -->
 

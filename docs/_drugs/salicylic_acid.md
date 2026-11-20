@@ -60,7 +60,7 @@ predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia
 
 ## لماذا يُعد هذا التوقع معقولاً؟
 
-وفقًا لـقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Salicylic Acid (ترجمة غير رسمية): «على الرغم من أن طريقة العمل الدقيقة لحمض الساليسيليك في علاج الثآليل غير معروفة، يبدو أن نشاطه مرتبط بتأثيره الحال للطبقة القرنية، الذي يؤدي إلى إزالة ميكانيكية للخلايا البشروية المصابة بفيروسات الثآليل.» النص الأصلي بالإنجليزية: "Although the exact mode of action for salicylic acid in the treatment of warts is unknown, its activity appears to be associated with its keratolytic action, which results in mechanical removal of epidermal cells infected with wart viruses." ([DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b)، إصدار 2025-10-15؛ تاريخ الاطلاع 2026-11-19). وبحسب المعلومات المعروفة، يُعتقد أن حمض الساليسيليك يعمل جزئياً عبر تثبيط إنزيمات COX وتقليل تخليق البروستاغلاندينات، مما يمنحه نشاطاً مضاداً للالتهاب. ولم تتوفر بيانات نشاط حيوي منشورة تؤكد هدفاً جزيئياً رئيسياً له.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Salicylic Acid (ترجمة غير رسمية): «على الرغم من أن طريقة العمل الدقيقة لحمض الساليسيليك في علاج الثآليل غير معروفة، يبدو أن نشاطه مرتبط بتأثيره الحال للطبقة القرنية، الذي يؤدي إلى إزالة ميكانيكية للخلايا البشروية المصابة بفيروسات الثآليل.» النص الأصلي بالإنجليزية: "Although the exact mode of action for salicylic acid in the treatment of warts is unknown, its activity appears to be associated with its keratolytic action, which results in mechanical removal of epidermal cells infected with wart viruses." ([DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b)، إصدار 2025-10-15؛ تاريخ الاطلاع 2026-11-19). وبحسب المعلومات المعروفة، يُعتقد أن حمض الساليسيليك يعمل جزئياً عبر تثبيط إنزيمات COX وتقليل تخليق البروستاغلاندينات، مما يمنحه نشاطاً مضاداً للالتهاب. ولم تتوفر بيانات نشاط حيوي منشورة تؤكد هدفاً جزيئياً رئيسياً له.
 
 يتصل هذا النشاط نظرياً بالأمراض الالتهابية والتحسسية لسطح العين، ويوجد تشابه مفاهيمي ضعيف مع استطباب التهاب الأنف التحسسي. إلا أن هذه الصلة تأملية، ولا تدعمها أي تجارب أو دراسات في البيانات المجمعة. كما أن استخدام حمض الساليسيليك في العين يثير مخاوف تتعلق بالتهيج والتحمل بسبب خصائصه المهيجة والمقشّرة للكيراتين.
 
@@ -121,7 +121,7 @@ predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b) |
 
 <!-- review:end log -->
 

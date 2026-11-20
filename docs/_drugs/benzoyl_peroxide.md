@@ -58,7 +58,7 @@ predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl 
 
 ## لماذا يبدو هذا التوقع معقولًا؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Benzoyl Peroxide (ترجمة غير رسمية): «بيروكسيد البنزويل عامل مؤكسد ذو تأثيرات قاتلة للجراثيم وحالّة للقرنين، إلا أن آلية العمل الدقيقة في علاج الوردية غير معروفة.» النص الأصلي بالإنجليزية: "Benzoyl peroxide is an oxidizing agent with bactericidal and keratolytic effects but the precise mechanism of action in the treatment of rosacea is unknown." ([DailyMed: Epsolay (benzoyl peroxide) prescribing information, Mayne Pharma Commercial LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=641981e6-460b-44dd-8146-306c47e5367c)، إصدار 2025-08-11؛ تاريخ الاطلاع 2026-11-19). وبحسب المعروف عامة، فهو عامل مؤكسد موضعي له نشاط مضاد للبكتيريا (ضد Cutibacterium acnes) وتأثير حالّ للكومدونات ومضاد للالتهاب، وقد ثبتت فعاليته في حب الشباب.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Benzoyl Peroxide (ترجمة غير رسمية): «بيروكسيد البنزويل عامل مؤكسد ذو تأثيرات قاتلة للجراثيم وحالّة للقرنين، إلا أن آلية العمل الدقيقة في علاج الوردية غير معروفة.» النص الأصلي بالإنجليزية: "Benzoyl peroxide is an oxidizing agent with bactericidal and keratolytic effects but the precise mechanism of action in the treatment of rosacea is unknown." ([DailyMed: Epsolay (benzoyl peroxide) prescribing information, Mayne Pharma Commercial LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=641981e6-460b-44dd-8146-306c47e5367c)، إصدار 2025-08-11؛ تاريخ الاطلاع 2026-11-19). وبحسب المعروف عامة، فهو عامل مؤكسد موضعي له نشاط مضاد للبكتيريا (ضد Cutibacterium acnes) وتأثير حالّ للكومدونات ومضاد للالتهاب، وقد ثبتت فعاليته في حب الشباب.
 
 التقرن الجريبي المقلوب آفة حميدة متقرنة ترتبط بالتقرن الدهني (seborrheic keratosis)، وهو من الاستطبابات الأصلية للدواء في الرسم المعرفي. لذلك قد يكون لتأثيره المقشِّر والمنظِّم للجريبات صلة نظرية بهذه الآفة.
 
@@ -138,7 +138,7 @@ predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl 
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Epsolay (benzoyl peroxide) prescribing information, Mayne Pharma Commercial LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=641981e6-460b-44dd-8146-306c47e5367c) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Epsolay (benzoyl peroxide) prescribing information, Mayne Pharma Commercial LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=641981e6-460b-44dd-8146-306c47e5367c) |
 
 <!-- review:end log -->
 

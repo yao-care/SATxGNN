@@ -54,7 +54,7 @@ description: "Apixaban: الاستطباب الجديد المتوقع الصد�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Apixaban (ترجمة غير رسمية): «الأبيكسابان مثبّط انتقائي لـ FXa. ولا يحتاج إلى مضاد الثرومبين III لنشاطه المضاد للتخثّر. ويثبّط الأبيكسابان FXa الحرّ والمرتبط بالجلطة، ونشاط البروثرومبيناز. وليس للأبيكسابان تأثير مباشر على تكدّس الصفائح الدموية، ولكنه يثبّط بشكل غير مباشر تكدّس الصفائح الدموية المُحرَّض بالثرومبين.» النص الأصلي بالإنجليزية: "Apixaban is a selective inhibitor of FXa. It does not require antithrombin III for antithrombotic activity. Apixaban inhibits free and clot-bound FXa, and prothrombinase activity. Apixaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25)، إصدار 2026-09-24؛ تاريخ الاطلاع 2026-11-19). المعروف أنه مثبط مباشر للعامل Xa ويُستخدم كمضاد تخثر.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Apixaban (ترجمة غير رسمية): «الأبيكسابان مثبّط انتقائي لـ FXa. ولا يحتاج إلى مضاد الثرومبين III لنشاطه المضاد للتخثّر. ويثبّط الأبيكسابان FXa الحرّ والمرتبط بالجلطة، ونشاط البروثرومبيناز. وليس للأبيكسابان تأثير مباشر على تكدّس الصفائح الدموية، ولكنه يثبّط بشكل غير مباشر تكدّس الصفائح الدموية المُحرَّض بالثرومبين.» النص الأصلي بالإنجليزية: "Apixaban is a selective inhibitor of FXa. It does not require antithrombin III for antithrombotic activity. Apixaban inhibits free and clot-bound FXa, and prothrombinase activity. Apixaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25)، إصدار 2026-09-24؛ تاريخ الاطلاع 2026-11-19). المعروف أنه مثبط مباشر للعامل Xa ويُستخدم كمضاد تخثر.
 
 درجة التنبؤ مرتفعة (0.9902)، لكن لا توجد آلية راسخة تربط تثبيط العامل Xa بالوقاية من الصداع النصفي أو علاجه. توجد فرضية نظرية تقوم على الانسداد التناقضي المرتبط بالثقبة البيضوية السالكة (PFO) والتخثر المرتبط بالأجسام المضادة للفوسفوليبيد، وقد يخفف فيها التخثر المحفزات الصمّية الدقيقة أو المهيِّئة للتخثر للصداع النصفي مع الهالة.
 
@@ -114,7 +114,7 @@ description: "Apixaban: الاستطباب الجديد المتوقع الصد�
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25) |
 
 <!-- review:end log -->
 

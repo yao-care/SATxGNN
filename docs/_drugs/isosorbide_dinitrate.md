@@ -58,7 +58,7 @@ description: "Isosorbide Dinitrate: الاستطباب الجديد المتوق
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ hydralazine hydrochloride and isosorbide dinitrate (مستحضر مركب يحتوي على Isosorbide Dinitrate) (ترجمة غير رسمية): «ثنائي نترات الإيزوسوربيد موسّع للأوعية يؤثر في كلٍّ من الشرايين والأوردة.» النص الأصلي بالإنجليزية: "Isosorbide dinitrate is a vasodilator affecting both arteries and veins." ([DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00)، إصدار 2025-11-30؛ تاريخ الاطلاع 2026-11-19). المعروف عن هذه الفئة أن النيترات تعمل كمانحات لأكسيد النيتريك، فتُرخي العضلات الملساء الوعائية وتوسّع الأوعية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ hydralazine hydrochloride and isosorbide dinitrate (مستحضر مركب يحتوي على Isosorbide Dinitrate) (ترجمة غير رسمية): «ثنائي نترات الإيزوسوربيد موسّع للأوعية يؤثر في كلٍّ من الشرايين والأوردة.» النص الأصلي بالإنجليزية: "Isosorbide dinitrate is a vasodilator affecting both arteries and veins." ([DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00)، إصدار 2025-11-30؛ تاريخ الاطلاع 2026-11-19). المعروف عن هذه الفئة أن النيترات تعمل كمانحات لأكسيد النيتريك، فتُرخي العضلات الملساء الوعائية وتوسّع الأوعية.
 
 الفرضية الوحيدة المطروحة هنا أن توسّع الأوعية بوساطة أكسيد النيتريك قد يزيد تروية فروة الرأس، على غرار الآلية المقترحة لفاتحات قنوات البوتاسيوم مثل المينوكسيديل. هذه الفرضية **معقولة نظرياً لكنها غير مثبتة**، ولا توجد بيانات تدعمها.
 
@@ -144,7 +144,7 @@ description: "Isosorbide Dinitrate: الاستطباب الجديد المتوق
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00) |
 
 <!-- review:end log -->
 

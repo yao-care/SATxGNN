@@ -60,7 +60,7 @@ predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy w
 
 ## لماذا يُعد هذا التوقع معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Propranolol (ترجمة غير رسمية): «لم تُحدَّد آلية التأثير الخافض لضغط الدم لـ propranolol. ومن بين العوامل التي تسهم في التأثير الخافض لضغط الدم: انخفاض النتاج القلبي، وتثبيط إفراز الرينين من الكليتين، وتقليل التدفق العصبي الودي التوتري من المراكز الحركية الوعائية في الدماغ.» النص الأصلي بالإنجليزية: "The mechanism of the antihypertensive effect of propranolol has not been established. Among factors that contribute to the antihypertensive action are: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain." ([DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade)، إصدار 2026-08-27؛ تاريخ الاطلاع 2026-11-19). بروبرانولول حاصر بيتا-أدرينالي غير انتقائي، وقد ثبتت فعاليته في ارتفاع ضغط الدم واضطرابات النظم واعتلال عضلة القلب الضخامي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Propranolol (ترجمة غير رسمية): «لم تُحدَّد آلية التأثير الخافض لضغط الدم لـ propranolol. ومن بين العوامل التي تسهم في التأثير الخافض لضغط الدم: انخفاض النتاج القلبي، وتثبيط إفراز الرينين من الكليتين، وتقليل التدفق العصبي الودي التوتري من المراكز الحركية الوعائية في الدماغ.» النص الأصلي بالإنجليزية: "The mechanism of the antihypertensive effect of propranolol has not been established. Among factors that contribute to the antihypertensive action are: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain." ([DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade)، إصدار 2026-08-27؛ تاريخ الاطلاع 2026-11-19). بروبرانولول حاصر بيتا-أدرينالي غير انتقائي، وقد ثبتت فعاليته في ارتفاع ضغط الدم واضطرابات النظم واعتلال عضلة القلب الضخامي.
 
 الدرجة العالية (0.9940) ناتجة عن توقع الرسم المعرفي فقط. لا توجد في البيانات المتاحة صلة آلية واضحة بين حصر مستقبلات بيتا واعتلال العضلات الدانية النادر هذا. كما أن الاستطباب الأصلي مرتبط بالقلب والأوعية، أما الاستطباب المتوقع فمرض عضلي هيكلي، فالتشابه بينهما غير مثبت.
 
@@ -138,7 +138,7 @@ predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy w
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
 
 <!-- review:end log -->
 

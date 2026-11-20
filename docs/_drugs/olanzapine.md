@@ -61,7 +61,7 @@ description: "Olanzapine: الاستطباب الجديد المتوقع Benign 
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Olanzapine (ترجمة غير رسمية): «آلية عمل olanzapine في دواعي الاستعمال المذكورة غير واضحة. ومع ذلك، يمكن أن تكون فعالية olanzapine في الفصام ناتجة عن مزيج من مضادة مستقبلات الدوبامين ومستقبلات السيروتونين من النوع 2 (5HT 2 ).» النص الأصلي بالإنجليزية: "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c)، إصدار 2026-10-26؛ تاريخ الاطلاع 2026-11-19). وبحسب المعرفة المتاحة، يعمل الدواء كمضاد لمستقبلات الدوبامين D2 والسيروتونين 5-HT2A/2C والهيستامين H1، وقد يخفف فرط الاستثارة والقلق.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Olanzapine (ترجمة غير رسمية): «آلية عمل olanzapine في دواعي الاستعمال المذكورة غير واضحة. ومع ذلك، يمكن أن تكون فعالية olanzapine في الفصام ناتجة عن مزيج من مضادة مستقبلات الدوبامين ومستقبلات السيروتونين من النوع 2 (5HT 2 ).» النص الأصلي بالإنجليزية: "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c)، إصدار 2026-10-26؛ تاريخ الاطلاع 2026-11-19). وبحسب المعرفة المتاحة، يعمل الدواء كمضاد لمستقبلات الدوبامين D2 والسيروتونين 5-HT2A/2C والهيستامين H1، وقد يخفف فرط الاستثارة والقلق.
 
 يرتبط الرُّهاب الساحة ارتباطاً وثيقاً باضطراب الهلع واضطرابات القلق، وهي مجالات تتقاطع مع الاستطبابات الأصلية للدواء. لذلك فالصلة السريرية معقولة نظرياً، خاصة في الحالات المقاومة للعلاج بمثبطات استرداد السيروتونين الانتقائية (SSRIs).
 
@@ -148,7 +148,7 @@ description: "Olanzapine: الاستطباب الجديد المتوقع Benign 
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
 
 <!-- review:end log -->
 

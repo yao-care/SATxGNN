@@ -60,7 +60,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 ## لماذا يُعد هذا التوقع معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Naproxen (ترجمة غير رسمية): «يمتلك نابروكسين خصائص مسكّنة للألم ومضادة للالتهاب وخافضة للحرارة. وآلية عمل NAPRELAN، كآلية عمل غيره من مضادات الالتهاب غير الستيرويدية (NSAIDs)، غير مفهومة تمامًا، لكنها تنطوي على تثبيط إنزيم الأكسدة الحلقية (COX-1 وCOX-2).» النص الأصلي بالإنجليزية: "Naproxen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of NAPRELAN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893)، إصدار 2026-01-08؛ تاريخ الاطلاع 2026-11-19). ومن المعروف عموماً أن النابروكسين مثبط غير انتقائي لإنزيم الأكسدة الحلقية (COX)، وله تأثير مسكّن ومضاد للالتهاب.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Naproxen (ترجمة غير رسمية): «يمتلك نابروكسين خصائص مسكّنة للألم ومضادة للالتهاب وخافضة للحرارة. وآلية عمل NAPRELAN، كآلية عمل غيره من مضادات الالتهاب غير الستيرويدية (NSAIDs)، غير مفهومة تمامًا، لكنها تنطوي على تثبيط إنزيم الأكسدة الحلقية (COX-1 وCOX-2).» النص الأصلي بالإنجليزية: "Naproxen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of NAPRELAN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893)، إصدار 2026-01-08؛ تاريخ الاطلاع 2026-11-19). ومن المعروف عموماً أن النابروكسين مثبط غير انتقائي لإنزيم الأكسدة الحلقية (COX)، وله تأثير مسكّن ومضاد للالتهاب.
 
 أما متلازمة قِصَر الأصابع والتصاق الأصابع فهي اضطراب خلقي في تكوين الهيكل العظمي ذو منشأ وراثي. وقد يكون استخدام مضادات الالتهاب غير الستيرويدية لتخفيف الألم أمراً متصوراً، لكنه سيكون علاجاً عرضياً فقط ولا يعدّل مسار المرض.
 
@@ -143,7 +143,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وتحديد وضع التراخيص الملغاة وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893) |
 
 <!-- review:end log -->
 

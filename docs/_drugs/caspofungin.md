@@ -54,7 +54,7 @@ description: "Caspofungin: الاستطباب الجديد المتوقع اضط
 
 ## لماذا قد يكون هذا التنبؤ معقولاً؟
 
-وفقًا لـقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Caspofungin (ترجمة غير رسمية): «كاسبوفنجين دواء مضاد للفطريات من فئة الإيكينوكاندينات. […] يثبط كاسبوفنجين، وهو أحد الإيكينوكاندينات، تخليق بيتا (1,3)-D-غلوكان، وهو مكوّن أساسي في الجدار الخلوي لأنواع Aspergillus وأنواع Candida الحساسة. لا يوجد بيتا (1,3)-D-غلوكان في خلايا الثدييات.» النص الأصلي بالإنجليزية: "Caspofungin is an echinocandin antifungal drug. […] Caspofungin, an echinocandin, inhibits the synthesis of beta (1,3)-D-glucan, an essential component of the cell wall of susceptible Aspergillus species and Candida species. Beta (1,3)-D-glucan is not present in mammalian cells." ([DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c)، إصدار 2024-10-11؛ تاريخ الاطلاع 2026-11-19). المعروف عن كاسبوفنجين أنه من فئة الإكينوكاندين، وهي تثبّط إنزيم بيتا-(1,3)-د-غلوكان سينثيز وتعطّل بذلك بناء جدار الخلية الفطرية.
+وفقًا لقسمي «Mechanism of Action» و«Microbiology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Caspofungin (ترجمة غير رسمية): «كاسبوفنجين دواء مضاد للفطريات من فئة الإيكينوكاندينات. […] يثبط كاسبوفنجين، وهو أحد الإيكينوكاندينات، تخليق بيتا (1,3)-D-غلوكان، وهو مكوّن أساسي في الجدار الخلوي لأنواع Aspergillus وأنواع Candida الحساسة. لا يوجد بيتا (1,3)-D-غلوكان في خلايا الثدييات.» النص الأصلي بالإنجليزية: "Caspofungin is an echinocandin antifungal drug. […] Caspofungin, an echinocandin, inhibits the synthesis of beta (1,3)-D-glucan, an essential component of the cell wall of susceptible Aspergillus species and Candida species. Beta (1,3)-D-glucan is not present in mammalian cells." ([DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c)، إصدار 2024-10-11؛ تاريخ الاطلاع 2026-11-19). المعروف عن كاسبوفنجين أنه من فئة الإكينوكاندين، وهي تثبّط إنزيم بيتا-(1,3)-د-غلوكان سينثيز وتعطّل بذلك بناء جدار الخلية الفطرية.
 
 هذا الإنزيم غير موجود في الخلايا البشرية، وإفراز الغاسترين لا يعتمد على هدف مرتبط بجدار الخلية الفطرية. لذلك لا توجد صلة آلية راسخة بين الدواء والاضطراب المتوقع.
 
@@ -103,7 +103,7 @@ description: "Caspofungin: الاستطباب الجديد المتوقع اضط
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c) |
 
 <!-- review:end log -->
 

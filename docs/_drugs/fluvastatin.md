@@ -58,7 +58,7 @@ description: "Fluvastatin: الاستطباب الجديد المتوقع عدو
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Fluvastatin (ترجمة غير رسمية): «فلوفاستاتين مثبط تنافسي لإنزيم HMG-CoA ريدكتاز، وهو الإنزيم المحدِّد للمعدل الذي يحوّل 3-هيدروكسي-3-ميثيل غلوتاريل-مرافق الإنزيم A (HMG-CoA) إلى ميفالونات، وهو سليفة للكوليسترول.» النص الأصلي بالإنجليزية: "Fluvastatin is a competitive inhibitor of HMG-CoA reductase, the rate limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) to mevalonate, a precursor of cholesterol." ([DailyMed: Fluvastatin Sodium Er (fluvastatin sodium) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ab4296c-87c2-4c64-b218-d620eef51310)، إصدار 2024-01-31؛ تاريخ الاطلاع 2026-11-19). المعروف أن فلوفاستاتين من الستاتينات التي تخفض الكوليسترول، وأن العلاقات المسجلة له في الرسم المعرفي تتركز في تصلب الشرايين واضطرابات الدهون.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Fluvastatin (ترجمة غير رسمية): «فلوفاستاتين مثبط تنافسي لإنزيم HMG-CoA ريدكتاز، وهو الإنزيم المحدِّد للمعدل الذي يحوّل 3-هيدروكسي-3-ميثيل غلوتاريل-مرافق الإنزيم A (HMG-CoA) إلى ميفالونات، وهو سليفة للكوليسترول.» النص الأصلي بالإنجليزية: "Fluvastatin is a competitive inhibitor of HMG-CoA reductase, the rate limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) to mevalonate, a precursor of cholesterol." ([DailyMed: Fluvastatin Sodium Er (fluvastatin sodium) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ab4296c-87c2-4c64-b218-d620eef51310)، إصدار 2024-01-31؛ تاريخ الاطلاع 2026-11-19). المعروف أن فلوفاستاتين من الستاتينات التي تخفض الكوليسترول، وأن العلاقات المسجلة له في الرسم المعرفي تتركز في تصلب الشرايين واضطرابات الدهون.
 
 لا يُقترح الدواء هنا كعلاج مضاد للفيروس. تدعم الأدبيات المتاحة استخدامه لعلاج **اضطراب الدهون المصاحب للعدوى**، خاصة لدى من يتناولون مثبطات البروتياز أو العلاج المضاد للفيروسات القهقرية عالي الفعالية. يُستقلب فلوفاستاتين أساساً عبر CYP2C9، ولذلك فتداخلاته مع أدوية HIV عبر CYP3A4 أقل من معظم الستاتينات الأخرى. وتشير بيانات ما قبل السريرية إلى أنه قد يحمي الخلايا البودية الكلوية في نموذج فأري لاعتلال الكلية المرتبط بالفيروس. كما ظهرت إشارات إلى دور محتمل في الالتهاب وتنشيط المناعة، لكنها ما زالت غير حاسمة.
 
@@ -131,7 +131,7 @@ description: "Fluvastatin: الاستطباب الجديد المتوقع عدو
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Fluvastatin Sodium Er (fluvastatin sodium) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ab4296c-87c2-4c64-b218-d620eef51310) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Fluvastatin Sodium Er (fluvastatin sodium) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ab4296c-87c2-4c64-b218-d620eef51310) |
 
 <!-- review:end log -->
 

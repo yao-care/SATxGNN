@@ -58,7 +58,7 @@ predicted_indications: ["papillary conjunctivitis", "manic bipolar affective dis
 
 ## لماذا يبدو هذا التوقع معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Prilocaine (ترجمة غير رسمية): «يعمل Prilocaine على تثبيت الغشاء العصبي عن طريق تثبيط التدفقات الأيونية اللازمة لبدء النبضات وتوصيلها، محققًا بذلك تأثير التخدير الموضعي.» النص الأصلي بالإنجليزية: "Prilocaine stabilizes the neuronal membrane by inhibiting the ionic fluxes required for the initiation and conduction of impulses, thereby effecting local anesthetic action." ([DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41)، إصدار 2021-11-10؛ تاريخ الاطلاع 2026-11-19). بحسب المعلومات المعروفة، البريلوكايين مخدّر موضعي من فئة الأميدات يحجب قنوات الصوديوم الجهدية في الألياف العصبية الحسية. ثبتت فعاليته في تخدير الأنسجة الموضعي وفي مؤشراته الأصلية، ومن حيث الآلية قد ينطبق على تخفيف تهيّج سطح العين.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Prilocaine (ترجمة غير رسمية): «يعمل Prilocaine على تثبيت الغشاء العصبي عن طريق تثبيط التدفقات الأيونية اللازمة لبدء النبضات وتوصيلها، محققًا بذلك تأثير التخدير الموضعي.» النص الأصلي بالإنجليزية: "Prilocaine stabilizes the neuronal membrane by inhibiting the ionic fluxes required for the initiation and conduction of impulses, thereby effecting local anesthetic action." ([DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41)، إصدار 2021-11-10؛ تاريخ الاطلاع 2026-11-19). بحسب المعلومات المعروفة، البريلوكايين مخدّر موضعي من فئة الأميدات يحجب قنوات الصوديوم الجهدية في الألياف العصبية الحسية. ثبتت فعاليته في تخدير الأنسجة الموضعي وفي مؤشراته الأصلية، ومن حيث الآلية قد ينطبق على تخفيف تهيّج سطح العين.
 
 هذه الصلة نظرية بحتة. لا يوجد دليل يدعم استخدام البريلوكايين في العين، واستخدامه العيني غير معتمد. كما أن التخدير الموضعي يخفف الأعراض فقط ولا يعالج الالتهاب أو الحساسية المسببة لهذا المرض. لذلك تظل درجة التوقع المرتفعة مؤشراً حاسوبياً يحتاج إلى تحقق تجريبي، وليست دليلاً على الفعالية.
 
@@ -134,7 +134,7 @@ predicted_indications: ["papillary conjunctivitis", "manic bipolar affective dis
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41) |
 
 <!-- review:end log -->
 

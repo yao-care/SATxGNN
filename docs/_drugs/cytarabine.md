@@ -54,7 +54,7 @@ description: "Cytarabine: الاستطباب الجديد المتوقع سرط�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cytarabine (ترجمة غير رسمية): «على الرغم من أن آلية التأثير غير مفهومة تماماً، يبدو أن السيتارابين يعمل عن طريق تثبيط بوليميراز الـ DNA. كما أُبلغ عن اندماج محدود، ولكنه ملحوظ، للسيتارابين في كلٍّ من الـ DNA والـ RNA.» النص الأصلي بالإنجليزية: "Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported." ([DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd)، إصدار 2026-10-19؛ تاريخ الاطلاع 2026-11-19). وبحسب المعروف عنه، فهو نظير نيوكليوزيدي بيريميدي يثبّط تخليق الحمض النووي (DNA) في الخلايا سريعة الانقسام. هذا يعطي مبرراً نظرياً لنشاط مضاد للتكاثر في الأورام سريعة النمو، ومنها سرطان الرئة صغير الخلايا.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cytarabine (ترجمة غير رسمية): «على الرغم من أن آلية التأثير غير مفهومة تماماً، يبدو أن السيتارابين يعمل عن طريق تثبيط بوليميراز الـ DNA. كما أُبلغ عن اندماج محدود، ولكنه ملحوظ، للسيتارابين في كلٍّ من الـ DNA والـ RNA.» النص الأصلي بالإنجليزية: "Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported." ([DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd)، إصدار 2026-10-19؛ تاريخ الاطلاع 2026-11-19). وبحسب المعروف عنه، فهو نظير نيوكليوزيدي بيريميدي يثبّط تخليق الحمض النووي (DNA) في الخلايا سريعة الانقسام. هذا يعطي مبرراً نظرياً لنشاط مضاد للتكاثر في الأورام سريعة النمو، ومنها سرطان الرئة صغير الخلايا.
 
 غير أن هذا المبرر نظري في أغلبه. فالمنشورات المسترجعة تتناول في معظمها سرطان الرئة غير صغير الخلايا، ومنها تجارب من المرحلة الثانية في أوائل التسعينيات جمعت السيتارابين مع السيسبلاتين، وكانت الاستجابة فيها محدودة (14% في إحدى الدراسات مع سمية دموية واضحة). وهناك أيضاً أبحاث على نظائر مشابهة مثل الجيمسيتابين والديسيتابين وعلى خطوط خلايا في المختبر. لا توجد أدلة سريرية حديثة خاصة بالسيتارابين في سرطان الرئة صغير الخلايا، ولذلك لا تدعم الأدلة الدرجة المرتفعة جداً التي أعطاها النموذج.
 
@@ -124,7 +124,7 @@ description: "Cytarabine: الاستطباب الجديد المتوقع سرط�
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
 
 <!-- review:end log -->
 

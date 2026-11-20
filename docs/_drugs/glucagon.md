@@ -54,7 +54,7 @@ description: "Glucagon: الاستطباب الجديد المتوقع متلا�
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Glucagon (ترجمة غير رسمية): «يزيد الغلوكاغون تركيز الغلوكوز في الدم عن طريق تنشيط مستقبلات الغلوكاغون الكبدية، مما يحفز تحلل الغليكوجين وإطلاق الغلوكوز من الكبد. ومخازن الغليكوجين الكبدية ضرورية كي يُحدث الغلوكاغون تأثيراً مضاداً لنقص سكر الدم.» النص الأصلي بالإنجليزية: "Glucagon increases blood glucose concentration by activating hepatic glucagon receptors, thereby stimulating glycogen breakdown and release of glucose from the liver. Hepatic stores of glycogen are necessary for glucagon to produce an antihypoglycemic effect." ([DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84)، إصدار 2020-09-16؛ تاريخ الاطلاع 2026-11-19). والمعروف أن الغلوكاغون يثبّط حركة العضلات الملساء في الجهاز الهضمي، ويُستخدم سريرياً كمضاد للتشنج أثناء التنظير والتصوير الشعاعي. وهذا يوفر أساساً نظرياً لتخفيف اضطراب الحركة والتشنج الحشوي في القولون العصبي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Glucagon (ترجمة غير رسمية): «يزيد الغلوكاغون تركيز الغلوكوز في الدم عن طريق تنشيط مستقبلات الغلوكاغون الكبدية، مما يحفز تحلل الغليكوجين وإطلاق الغلوكوز من الكبد. ومخازن الغليكوجين الكبدية ضرورية كي يُحدث الغلوكاغون تأثيراً مضاداً لنقص سكر الدم.» النص الأصلي بالإنجليزية: "Glucagon increases blood glucose concentration by activating hepatic glucagon receptors, thereby stimulating glycogen breakdown and release of glucose from the liver. Hepatic stores of glycogen are necessary for glucagon to produce an antihypoglycemic effect." ([DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84)، إصدار 2020-09-16؛ تاريخ الاطلاع 2026-11-19). والمعروف أن الغلوكاغون يثبّط حركة العضلات الملساء في الجهاز الهضمي، ويُستخدم سريرياً كمضاد للتشنج أثناء التنظير والتصوير الشعاعي. وهذا يوفر أساساً نظرياً لتخفيف اضطراب الحركة والتشنج الحشوي في القولون العصبي.
 
 غير أن الإشارة السريرية والأدبية المتوفرة تتعلق أساساً بـ GLP-1 ونظائره (مثل ROSE-010 ومحفزات مستقبل GLP-1) وليس بالغلوكاغون ذاته. فالصلة غير مباشرة، وتقوم على اشتراك الببتيدين في أصل البروغلوكاغون وتشابه تأثيريهما على حركة الأمعاء، لا على دليل مباشر على مستوى المستقبلات. كما أن الدرجة المرتفعة من النموذج هي تنبؤ حسابي ولا تُعد دليلاً سريرياً.
 
@@ -118,7 +118,7 @@ description: "Glucagon: الاستطباب الجديد المتوقع متلا�
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84) |
 
 <!-- review:end log -->
 

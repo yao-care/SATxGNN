@@ -54,7 +54,7 @@ description: "Pirfenidone: الاستطباب الجديد المتوقع ورم
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Pirfenidone (ترجمة غير رسمية): «لم تثبت آلية عمل بيرفينيدون (pirfenidone) في علاج التليف الرئوي مجهول السبب (IPF).» النص الأصلي بالإنجليزية: "The mechanism of action of pirfenidone in the treatment of IPF has not been established." ([DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e)، إصدار 2025-12-05؛ تاريخ الاطلاع 2026-11-19). المعروف عموماً أن نشاط بيرفينيدون المضاد للتليف يرتبط بتثبيط مسار TGF-β وعوامل نمو أخرى تحد من تكاثر الخلايا الليفية وتخليق الكولاجين.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Pirfenidone (ترجمة غير رسمية): «لم تثبت آلية عمل بيرفينيدون (pirfenidone) في علاج التليف الرئوي مجهول السبب (IPF).» النص الأصلي بالإنجليزية: "The mechanism of action of pirfenidone in the treatment of IPF has not been established." ([DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e)، إصدار 2025-12-05؛ تاريخ الاطلاع 2026-11-19). المعروف عموماً أن نشاط بيرفينيدون المضاد للتليف يرتبط بتثبيط مسار TGF-β وعوامل نمو أخرى تحد من تكاثر الخلايا الليفية وتخليق الكولاجين.
 
 أما أورام الخلايا البدينة فتعتمد في الغالب على إشارات مستقبل KIT، ولا يوجد رابط آلية مثبت بين نشاط بيرفينيدون المضاد للتليف وهذا النوع من الأورام. ولذلك فالدرجة المرتفعة للنموذج تمثل إشارة حاسوبية فقط، ولا تدعمها حتى الآن أي بيانات سريرية أو آلية.
 
@@ -103,7 +103,7 @@ description: "Pirfenidone: الاستطباب الجديد المتوقع ورم
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
 
 <!-- review:end log -->
 

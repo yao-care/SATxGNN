@@ -54,7 +54,7 @@ description: "Ranitidine: الاستطباب الجديد المتوقع ثقب 
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ranitidine (ترجمة غير رسمية): «إن Ranitidine Tablets مثبط تنافسي عكوس لتأثير الهيستامين على مستقبلات الهيستامين H 2 ، بما في ذلك المستقبلات الموجودة على الخلايا المعدية. لا تخفض Ranitidine Tablets مستوى Ca ++ في المصل في حالات فرط كالسيوم الدم.» النص الأصلي بالإنجليزية: "Ranitidine Tablets are a competitive, reversible inhibitor of the action of histamine at the histamine H 2 -receptors, including receptors on the gastric cells. Ranitidine Tablets do not lower serum Ca ++ in hypercalcemic states." ([DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9)، إصدار 2026-09-24؛ تاريخ الاطلاع 2026-11-19). ومن المعروف عموماً أنه يحجب مستقبلات الهيستامين H2 في خلايا المعدة الجدارية، فيقلل إفراز الحمض.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ranitidine (ترجمة غير رسمية): «إن Ranitidine Tablets مثبط تنافسي عكوس لتأثير الهيستامين على مستقبلات الهيستامين H 2 ، بما في ذلك المستقبلات الموجودة على الخلايا المعدية. لا تخفض Ranitidine Tablets مستوى Ca ++ في المصل في حالات فرط كالسيوم الدم.» النص الأصلي بالإنجليزية: "Ranitidine Tablets are a competitive, reversible inhibitor of the action of histamine at the histamine H 2 -receptors, including receptors on the gastric cells. Ranitidine Tablets do not lower serum Ca ++ in hypercalcemic states." ([DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9)، إصدار 2026-09-24؛ تاريخ الاطلاع 2026-11-19). ومن المعروف عموماً أنه يحجب مستقبلات الهيستامين H2 في خلايا المعدة الجدارية، فيقلل إفراز الحمض.
 
 قد يكون لخفض الحمض دور مساعد في الوقاية من القرحة التي يتولد عنها الثقب أو في التئامها. لكن الثقب حالة جراحية طارئة، والرانيتيدين لا يعالج الثقب نفسه. وتتناول الدراسات المتاحة غالباً منع نكس القرحة أو منع مضاعفات الجهاز الهضمي، ولا تتناول الثقب كنتيجة علاجية مباشرة. لذلك يُعد الرابط الآلي غير مباشر.
 
@@ -123,7 +123,7 @@ description: "Ranitidine: الاستطباب الجديد المتوقع ثقب 
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9) |
 
 <!-- review:end log -->
 

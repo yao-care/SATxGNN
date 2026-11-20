@@ -58,7 +58,7 @@ predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ur
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Sodium Fluoride (ترجمة غير رسمية): «يثبط الفلورايد المُطلَق من Clinpro 5000 إزالة المعادن من الأسنان السليمة ويعزز إعادة تمعدن (أي إصلاح) الأسنان منزوعة المعادن. وأثناء تنظيف الأسنان بالفرشاة، تمتص الأسنان واللويحة السنية الفلورايد.» النص الأصلي بالإنجليزية: "Fluoride delivered from Clinpro 5000 inhibits the demineralization of sound teeth and enhances the remineralization (i.e., repair) of demineralized teeth. During tooth brushing, fluoride is taken up by teeth and dental plaque." ([DailyMed: Clinpro 5000 (sodium fluoride) prescribing information, Solventum US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a20d3cf0-2e1f-4191-971e-9e47936b4580)، إصدار 2024-08-01؛ تاريخ الاطلاع 2026-11-19). فلوريد الصوديوم يُعطى ضمن مستحضرات العناصر النزرة كمصدر للفلوريد، ولم يُثبت له دور علاجي في الالتهابات.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Sodium Fluoride (ترجمة غير رسمية): «يثبط الفلورايد المُطلَق من Clinpro 5000 إزالة المعادن من الأسنان السليمة ويعزز إعادة تمعدن (أي إصلاح) الأسنان منزوعة المعادن. وأثناء تنظيف الأسنان بالفرشاة، تمتص الأسنان واللويحة السنية الفلورايد.» النص الأصلي بالإنجليزية: "Fluoride delivered from Clinpro 5000 inhibits the demineralization of sound teeth and enhances the remineralization (i.e., repair) of demineralized teeth. During tooth brushing, fluoride is taken up by teeth and dental plaque." ([DailyMed: Clinpro 5000 (sodium fluoride) prescribing information, Solventum US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a20d3cf0-2e1f-4191-971e-9e47936b4580)، إصدار 2024-08-01؛ تاريخ الاطلاع 2026-11-19). فلوريد الصوديوم يُعطى ضمن مستحضرات العناصر النزرة كمصدر للفلوريد، ولم يُثبت له دور علاجي في الالتهابات.
 
 الدرجة المرتفعة (0.999) ناتجة عن تنبؤ قائم على الرسم المعرفي فقط. التهاب لسان المزمار عادةً عدوى بكتيرية حادة (مثل المستدمية النزلية من النمط b) تُعالج بالمضادات الحيوية وتأمين مجرى الهواء. ولم تُحدد آلية مضادة للبكتيريا معقولة لفلوريد الصوديوم عند الجرعات العلاجية الآمنة جهازياً، كما أن غياب بيانات آلية العمل الأصلية يحد من إمكانية التحليل الآلي.
 
@@ -135,7 +135,7 @@ predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ur
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Clinpro 5000 (sodium fluoride) prescribing information, Solventum US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a20d3cf0-2e1f-4191-971e-9e47936b4580) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Clinpro 5000 (sodium fluoride) prescribing information, Solventum US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a20d3cf0-2e1f-4191-971e-9e47936b4580) |
 
 <!-- review:end log -->
 

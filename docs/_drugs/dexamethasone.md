@@ -54,7 +54,7 @@ description: "Dexamethasone: الاستطباب الجديد المتوقع ال
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Dexamethasone (ترجمة غير رسمية): «ديكساميثازون كورتيكوستيرويد ذو تأثيرات مضادة للالتهاب ونشاط قشراني معدني منخفض. آلية العمل الدقيقة في الورم النقوي المتعدد غير معروفة. يحرّض ديكساميثازون الاستماتة في خلايا الورم النقوي المتعدد.» النص الأصلي بالإنجليزية: "Dexamethasone is a corticosteroid with anti-inflammatory effects and low mineralocorticoid activity. The precise mechanism of action in multiple myeloma is unknown. Dexamethasone induces apoptosis of multiple myeloma cells." ([DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129)، إصدار 2026-01-09؛ تاريخ الاطلاع 2026-11-19). استناداً إلى المعروف عن هذه الفئة الدوائية، فإن الكورتيكوستيرويدات القشرية السكرية تثبّط الاستجابة الالتهابية والمناعية، وقد يكون ذلك مناسباً من الناحية الآلية للثعلبة المخاطية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Dexamethasone (ترجمة غير رسمية): «ديكساميثازون كورتيكوستيرويد ذو تأثيرات مضادة للالتهاب ونشاط قشراني معدني منخفض. آلية العمل الدقيقة في الورم النقوي المتعدد غير معروفة. يحرّض ديكساميثازون الاستماتة في خلايا الورم النقوي المتعدد.» النص الأصلي بالإنجليزية: "Dexamethasone is a corticosteroid with anti-inflammatory effects and low mineralocorticoid activity. The precise mechanism of action in multiple myeloma is unknown. Dexamethasone induces apoptosis of multiple myeloma cells." ([DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129)، إصدار 2026-01-09؛ تاريخ الاطلاع 2026-11-19). استناداً إلى المعروف عن هذه الفئة الدوائية، فإن الكورتيكوستيرويدات القشرية السكرية تثبّط الاستجابة الالتهابية والمناعية، وقد يكون ذلك مناسباً من الناحية الآلية للثعلبة المخاطية.
 
 الثعلبة المخاطية (الموصوفة أيضاً بالتهاب الجريبات المخاطي) حالة التهابية تصيب الجريبات الشعرية. ومن المعقول نظرياً أن يفيد فيها دواء مضاد للالتهاب. غير أن هذا استنتاج نظري فقط، ولم تُقدَّم أي تجارب أو دراسات تؤكده. كما أن العلاقة بين الاستطباب الأصلي والجديد لم تُحلَّل بعد.
 
@@ -112,7 +112,7 @@ description: "Dexamethasone: الاستطباب الجديد المتوقع ال
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129) |
 
 <!-- review:end log -->
 

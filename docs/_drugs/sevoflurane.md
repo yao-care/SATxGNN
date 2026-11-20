@@ -58,7 +58,7 @@ predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia"
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Sevoflurane هي (ترجمة غير رسمية): «معدِّل إيجابي لمستقبل الغلايسين (ألفا-1/بيتا)؛ مستقبل GABA-A؛ معدِّل تفارغي إيجابي للقناة الأنيونية؛ فاتح لعضو القناة البوتاسيومية من الفصيلة الفرعية K رقم 10؛ فاتح لعضو القناة البوتاسيومية من الفصيلة الفرعية K رقم 18» النص الأصلي بالإنجليزية: "Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener" ([ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-19). وبحسب المعروف عن المخدرات الطيارة عموماً، فإن لها تأثيراً موسعاً للأوعية وتأثيراً معدلاً لقنوات الكالسيوم في العضلات الملساء الوعائية. ويمكن نظرياً أن يرتبط ذلك بالتشنج الوعائي التاجي الذي يميز الذبحة المتغايرة.
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Sevoflurane هي (ترجمة غير رسمية): «معدِّل إيجابي لمستقبل الغلايسين (ألفا-1/بيتا)؛ مستقبل GABA-A؛ معدِّل تفارغي إيجابي للقناة الأنيونية؛ فاتح لعضو القناة البوتاسيومية من الفصيلة الفرعية K رقم 10؛ فاتح لعضو القناة البوتاسيومية من الفصيلة الفرعية K رقم 18». النص الأصلي بالإنجليزية: "Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener" ([ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-19). وبحسب المعروف عن المخدرات الطيارة عموماً، فإن لها تأثيراً موسعاً للأوعية وتأثيراً معدلاً لقنوات الكالسيوم في العضلات الملساء الوعائية. ويمكن نظرياً أن يرتبط ذلك بالتشنج الوعائي التاجي الذي يميز الذبحة المتغايرة.
 
 غير أن هذه الصلة تخمينية بحتة ولا يدعمها أي دليل سريري أو منشور. كما أن سيفوفلوران دواء قصير المفعول يُعطى بالاستنشاق أثناء التخدير ولا يُستخدم علاجاً مزمناً، مما يجعل استخدامه في حالة مزمنة كالذبحة المتغايرة غير عملي.
 
@@ -146,7 +146,7 @@ predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia"
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «وجميع تراخيصه في السعودية ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ predicted_indications: ["Malan overgrowth syndrome"]
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lithium Citrate (ترجمة غير رسمية): «آلية عمل الليثيوم كعامل مثبت للمزاج غير معروفة.» النص الأصلي بالإنجليزية: "The mechanism of action of lithium as a mood stabilizing agent is unknown." ([DailyMed: lithium prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be1346df-4a39-45e8-874b-e2a496847fd5)، إصدار 2026-10-23؛ تاريخ الاطلاع 2026-11-19). ومن المعروف أن الليثيوم يثبّط إنزيم GSK-3 ويعدّل مسار إشارات Wnt/بيتا-كاتنين ومسارات النمو العصبي المرتبطة به.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Lithium Citrate (ترجمة غير رسمية): «آلية عمل الليثيوم كعامل مثبت للمزاج غير معروفة.» النص الأصلي بالإنجليزية: "The mechanism of action of lithium as a mood stabilizing agent is unknown." ([DailyMed: lithium prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be1346df-4a39-45e8-874b-e2a496847fd5)، إصدار 2026-10-23؛ تاريخ الاطلاع 2026-11-19). ومن المعروف أن الليثيوم يثبّط إنزيم GSK-3 ويعدّل مسار إشارات Wnt/بيتا-كاتنين ومسارات النمو العصبي المرتبطة به.
 
 تنشأ متلازمة مالان عن نقص جرعة جين NFIX (haploinsufficiency) أو عن طفرات فقدان الوظيفة فيه. ويُفترض، على مستوى الفرضية فقط، أن تتقاطع مسارات الليثيوم مع برامج نمو الخلايا السلفية العصبية ونمو الدماغ التي ينظّمها NFIX.
 
@@ -125,7 +125,7 @@ predicted_indications: ["Malan overgrowth syndrome"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: lithium prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be1346df-4a39-45e8-874b-e2a496847fd5) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: lithium prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be1346df-4a39-45e8-874b-e2a496847fd5) |
 
 <!-- review:end log -->
 

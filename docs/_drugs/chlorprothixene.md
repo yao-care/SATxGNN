@@ -54,7 +54,7 @@ description: "Chlorprothixene: الاستطباب الجديد المتوقع ا
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Chlorprothixene هي (ترجمة غير رسمية): «مناهض لمستقبلات الدوبامين D2؛ مناهض لمستقبلات الدوبامين D3؛ مناهض لمستقبلات السيروتونين 2a (5-HT2a)؛ مناهض لمستقبلات السيروتونين 2c (5-HT2c)» النص الأصلي بالإنجليزية: "Dopamine D2 receptor antagonist; Dopamine D3 receptor antagonist; Serotonin 2a (5-HT2a) receptor antagonist; Serotonin 2c (5-HT2c) receptor antagonist" ([ChEMBL CHEMBL908 (chlorprothixene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL908)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-19). المعروف من بيانات الدواء الدوائية أنه يرتبط بمستقبلات الدوبامين D2 وD3 ومستقبل الهستامين H1، وهو ما يتسق مع كونه مضاداً للذهان.
+وفقًا لقاعدة بيانات ChEMBL (EMBL-EBI)، فإن آلية العمل المسجلة لـ Chlorprothixene هي (ترجمة غير رسمية): «مناهض لمستقبلات الدوبامين D2؛ مناهض لمستقبلات الدوبامين D3؛ مناهض لمستقبلات السيروتونين 2a (5-HT2a)؛ مناهض لمستقبلات السيروتونين 2c (5-HT2c)». النص الأصلي بالإنجليزية: "Dopamine D2 receptor antagonist; Dopamine D3 receptor antagonist; Serotonin 2a (5-HT2a) receptor antagonist; Serotonin 2c (5-HT2c) receptor antagonist" ([ChEMBL CHEMBL908 (chlorprothixene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL908)، CC BY-SA 3.0؛ تاريخ الاطلاع 2026-11-19). المعروف من بيانات الدواء الدوائية أنه يرتبط بمستقبلات الدوبامين D2 وD3 ومستقبل الهستامين H1، وهو ما يتسق مع كونه مضاداً للذهان.
 
 لا تدعم البيانات المتاحة وجود رابط آلي واضح بين هذه الآليات والحثل الشبكي الوراثي. الدرجة المرتفعة التي أعطاها النموذج ناتجة عن حساب علاقات الشبكة الحسابية للنموذج، وليست دليلاً بيولوجياً أو سريرياً. لذلك ينبغي التعامل مع هذا التنبؤ كفرضية بحثية أولية فقط.
 
@@ -95,7 +95,7 @@ description: "Chlorprothixene: الاستطباب الجديد المتوقع ا
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL908 (chlorprothixene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL908) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [ChEMBL CHEMBL908 (chlorprothixene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL908) |
 
 <!-- review:end log -->
 

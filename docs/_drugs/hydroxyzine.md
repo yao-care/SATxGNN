@@ -54,7 +54,7 @@ description: "Hydroxyzine: الاستطباب الجديد المتوقع الت
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Hydroxyzine (ترجمة غير رسمية): «هيدروكسيزين ليس مثبطًا للقشرة الدماغية، ولكن قد يُعزى تأثيره إلى تثبيط النشاط في مناطق رئيسية معيّنة من المنطقة تحت القشرية في الجهاز العصبي المركزي. وقد ثبت تجريبيًا حدوث ارتخاء أولي في العضلات الهيكلية.» النص الأصلي بالإنجليزية: "Hydroxyzine is not a cortical depressant, but its action may be due to a suppression of activity in certain key regions of the subcortical area of the central nervous system. Primary skeletal muscle relaxation has been demonstrated experimentally." ([DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1)، إصدار 2026-11-12؛ تاريخ الاطلاع 2026-11-19). المعروف أنه يرتبط بمستقبل الهيستامين H1 (الجين HRH1)، وأن تأثيره المضاد للهيستامين يخفف الحكة ذات الطابع التحسسي.
+وفقًا لقسم «Clinical Pharmacology» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Hydroxyzine (ترجمة غير رسمية): «هيدروكسيزين ليس مثبطًا للقشرة الدماغية، ولكن قد يُعزى تأثيره إلى تثبيط النشاط في مناطق رئيسية معيّنة من المنطقة تحت القشرية في الجهاز العصبي المركزي. وقد ثبت تجريبيًا حدوث ارتخاء أولي في العضلات الهيكلية.» النص الأصلي بالإنجليزية: "Hydroxyzine is not a cortical depressant, but its action may be due to a suppression of activity in certain key regions of the subcortical area of the central nervous system. Primary skeletal muscle relaxation has been demonstrated experimentally." ([DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1)، إصدار 2026-11-12؛ تاريخ الاطلاع 2026-11-19). المعروف أنه يرتبط بمستقبل الهيستامين H1 (الجين HRH1)، وأن تأثيره المضاد للهيستامين يخفف الحكة ذات الطابع التحسسي.
 
 يرتبط التهاب الملتحمة الوردي في الغالب بخلل غدد ميبوميوس والالتهاب والعوامل الميكروبية أو عث الديموديكس، وليس بالآلية التحسسية وحدها. لذلك قد يخفف حصر H1 بعض أعراض الحكة من النوع التحسسي، لكن لا يوجد مسوّغ آلي واضح لتعديل مسار المرض نفسه. والصلة بالالتهابات الملتحمية التحسسية الأخرى غير مباشرة وفضفاضة. الدرجة المرتفعة إذن مجرد نتيجة حسابية للنموذج، ولا يدعمها دليل سريري أو أدبي.
 
@@ -103,7 +103,7 @@ description: "Hydroxyzine: الاستطباب الجديد المتوقع الت
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1) |
 
 <!-- review:end log -->
 

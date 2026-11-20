@@ -54,7 +54,7 @@ description: "Aliskiren: الاستطباب الجديد المتوقع ارتف
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Aliskiren (ترجمة غير رسمية): «تُفرز الكلية الرينين استجابةً لانخفاض حجم الدم والتروية الكلوية. ويشطر الرينين مولّد الأنجيوتنسين لتكوين الببتيد العشاري غير النشط أنجيوتنسين I (Ang I). ويتحوّل Ang I إلى الببتيد الثماني النشط أنجيوتنسين II (Ang II) بواسطة ACE ومسارات غير معتمدة على ACE.» النص الأصلي بالإنجليزية: "Renin is secreted by the kidney in response to decreases in blood volume and renal perfusion. Renin cleaves angiotensinogen to form the inactive decapeptide angiotensin I (Ang I). Ang I is converted to the active octapeptide angiotensin II (Ang II) by ACE and non-ACE pathways." ([DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb)، إصدار 2022-12-30؛ تاريخ الاطلاع 2026-11-19). وبحسب المعروف، فإن أليسكيرين مثبّط مباشر للرينين، أي أنه يعمل على الخطوة الأولى المحددة لسرعة نظام الرينين–أنجيوتنسين.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Aliskiren (ترجمة غير رسمية): «تُفرز الكلية الرينين استجابةً لانخفاض حجم الدم والتروية الكلوية. ويشطر الرينين مولّد الأنجيوتنسين لتكوين الببتيد العشاري غير النشط أنجيوتنسين I (Ang I). ويتحوّل Ang I إلى الببتيد الثماني النشط أنجيوتنسين II (Ang II) بواسطة ACE ومسارات غير معتمدة على ACE.» النص الأصلي بالإنجليزية: "Renin is secreted by the kidney in response to decreases in blood volume and renal perfusion. Renin cleaves angiotensinogen to form the inactive decapeptide angiotensin I (Ang I). Ang I is converted to the active octapeptide angiotensin II (Ang II) by ACE and non-ACE pathways." ([DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb)، إصدار 2022-12-30؛ تاريخ الاطلاع 2026-11-19). وبحسب المعروف، فإن أليسكيرين مثبّط مباشر للرينين، أي أنه يعمل على الخطوة الأولى المحددة لسرعة نظام الرينين–أنجيوتنسين.
 
 تشير الدراسات المتاحة إلى أن نقص الأكسجة المتقطع المزمن ينشّط هذا النظام (زيادة الرينين الموضعي، وارتفاع أنجيوتنسين II في الدوران، وفرط التنبيه الودّي). ومن ثَمّ فإن تثبيط الرينين قد يعاكس هذا المسار من الناحية النظرية، وهذا هو الأساس الآلي للتنبؤ.
 
@@ -113,7 +113,7 @@ description: "Aliskiren: الاستطباب الجديد المتوقع ارتف
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb) |
 
 <!-- review:end log -->
 

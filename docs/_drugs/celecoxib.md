@@ -54,7 +54,7 @@ description: "Celecoxib: الاستطباب الجديد المتوقع خلل �
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Celecoxib (ترجمة غير رسمية): «يتمتع سيليكوكسيب بخصائص مسكّنة للألم ومضادة للالتهاب وخافضة للحرارة. يُعتقد أن آلية عمل سيليكوكسيب تعود إلى تثبيط تخليق البروستاغلاندين، بشكل رئيسي عبر تثبيط COX-2. سيليكوكسيب مثبط قوي لتخليق البروستاغلاندين في المختبر.» النص الأصلي بالإنجليزية: "Celecoxib has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of celecoxib is believed to be due to inhibition of prostaglandin synthesis, primarily via inhibition of COX-2. Celecoxib is a potent inhibitor of prostaglandin synthesis in vitro." ([DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d)، إصدار 2025-07-31؛ تاريخ الاطلاع 2026-11-19). المعروف عموماً أن سيليكوكسيب يثبط إنزيم COX-2 ويخفف الالتهاب والألم في أمراض المفاصل.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Celecoxib (ترجمة غير رسمية): «يتمتع سيليكوكسيب بخصائص مسكّنة للألم ومضادة للالتهاب وخافضة للحرارة. يُعتقد أن آلية عمل سيليكوكسيب تعود إلى تثبيط تخليق البروستاغلاندين، بشكل رئيسي عبر تثبيط COX-2. سيليكوكسيب مثبط قوي لتخليق البروستاغلاندين في المختبر.» النص الأصلي بالإنجليزية: "Celecoxib has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of celecoxib is believed to be due to inhibition of prostaglandin synthesis, primarily via inhibition of COX-2. Celecoxib is a potent inhibitor of prostaglandin synthesis in vitro." ([DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d)، إصدار 2025-07-31؛ تاريخ الاطلاع 2026-11-19). المعروف عموماً أن سيليكوكسيب يثبط إنزيم COX-2 ويخفف الالتهاب والألم في أمراض المفاصل.
 
 أما هذا المرض فهو خلل تنسج هيكلي وراثي ناتج عن فقدان وظيفة في الجين GDF5 (CDMP1). وتثبيط COX-2 لا يُتوقع أن يصحح هذا الخلل الجيني الأساسي. لذلك لا توجد صلة آلية موثوقة بين الدواء والمرض، والدرجة المرتفعة التي أعطاها النموذج تبقى تنبؤاً حسابياً فقط، وقد تعكس تشابه الأمراض الهيكلية في شبكة العلاقات أكثر مما تعكس أساساً دوائياً.
 
@@ -105,7 +105,7 @@ description: "Celecoxib: الاستطباب الجديد المتوقع خلل �
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d) |
 
 <!-- review:end log -->
 

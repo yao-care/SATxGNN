@@ -60,7 +60,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis exte
 
 ## لماذا يبدو هذا التنبؤ معقولًا؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Doxycycline (ترجمة غير رسمية): «يثبط دوكسيسيكلين تخليق البروتين البكتيري عن طريق الارتباط بالوحيدة الفرعية الريبوسومية 30S. ويتمتع دوكسيسيكلين بنشاط كابح للجراثيم ضد طيف واسع من البكتيريا إيجابية الغرام وسلبية الغرام.» النص الأصلي بالإنجليزية: "Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria." ([DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8)، إصدار 2026-07-09؛ تاريخ الاطلاع 2026-11-19). المعروف عنه أنه مضاد حيوي واسع الطيف يثبط تخليق البروتين البكتيري، وله نشاط ضد المتدثرة (Chlamydia).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Doxycycline (ترجمة غير رسمية): «يثبط دوكسيسيكلين تخليق البروتين البكتيري عن طريق الارتباط بالوحيدة الفرعية الريبوسومية 30S. ويتمتع دوكسيسيكلين بنشاط كابح للجراثيم ضد طيف واسع من البكتيريا إيجابية الغرام وسلبية الغرام.» النص الأصلي بالإنجليزية: "Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria." ([DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8)، إصدار 2026-07-09؛ تاريخ الاطلاع 2026-11-19). المعروف عنه أنه مضاد حيوي واسع الطيف يثبط تخليق البروتين البكتيري، وله نشاط ضد المتدثرة (Chlamydia).
 
 يُعتقد أن له كذلك تأثيرات مضادة للالتهاب وتثبيطًا لإنزيمات المعدنية البروتينية للمصفوفة (MMP) على سطح العين. وهذا يجعل استخدامه في أمراض سطح العين مقبولًا من الناحية النظرية.
 
@@ -134,7 +134,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis exte
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
 
 <!-- review:end log -->
 

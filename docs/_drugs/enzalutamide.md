@@ -54,7 +54,7 @@ description: "Enzalutamide: الاستطباب الجديد المتوقع ور�
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Enzalutamide (ترجمة غير رسمية): «إنزالوتاميد مثبط لمستقبلات الأندروجين يعمل على خطوات مختلفة في مسار إشارات مستقبلات الأندروجين. وقد ثبت أن إنزالوتاميد يثبط تنافسياً ارتباط الأندروجين بمستقبلات الأندروجين؛ وبالتالي يثبط الانتقال النووي لمستقبلات الأندروجين وتفاعلها مع DNA.» النص الأصلي بالإنجليزية: "Enzalutamide is an androgen receptor inhibitor that acts on different steps in the androgen receptor signaling pathway. Enzalutamide has been shown to competitively inhibit androgen binding to androgen receptors; and consequently, inhibits nuclear translocation of androgen receptors and their interaction with DNA." ([DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf)، إصدار 2026-07-28؛ تاريخ الاطلاع 2026-11-19). وبحسب المعروف عن هذا الدواء، فهو يثبّط مسار مستقبلات الأندروجين، وهو مسار مهم في نسيج البروستاتا.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Enzalutamide (ترجمة غير رسمية): «إنزالوتاميد مثبط لمستقبلات الأندروجين يعمل على خطوات مختلفة في مسار إشارات مستقبلات الأندروجين. وقد ثبت أن إنزالوتاميد يثبط تنافسياً ارتباط الأندروجين بمستقبلات الأندروجين؛ وبالتالي يثبط الانتقال النووي لمستقبلات الأندروجين وتفاعلها مع DNA.» النص الأصلي بالإنجليزية: "Enzalutamide is an androgen receptor inhibitor that acts on different steps in the androgen receptor signaling pathway. Enzalutamide has been shown to competitively inhibit androgen binding to androgen receptors; and consequently, inhibits nuclear translocation of androgen receptors and their interaction with DNA." ([DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf)، إصدار 2026-07-28؛ تاريخ الاطلاع 2026-11-19). وبحسب المعروف عن هذا الدواء، فهو يثبّط مسار مستقبلات الأندروجين، وهو مسار مهم في نسيج البروستاتا.
 
 الورم العضلي الأملس في البروستاتا ورم حميد في العضلات الملساء للبروستاتا. قد تكون إشارات مستقبلات الأندروجين ذات صلة بهذا النسيج من الناحية النظرية، لكن التنبؤ مبني على النموذج فقط، ولا توجد تجارب أو منشورات، ولم تثبت حاجة سريرية لعلاج آفة حميدة كهذه. لذلك يبقى الأساس الآلي تخمينياً.
 
@@ -115,7 +115,7 @@ description: "Enzalutamide: الاستطباب الجديد المتوقع ور�
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf) |
 
 <!-- review:end log -->
 

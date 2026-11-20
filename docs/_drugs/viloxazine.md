@@ -54,7 +54,7 @@ description: "Viloxazine: الاستطباب الجديد المتوقع متل�
 
 ## لماذا هذا التوقع؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Viloxazine (ترجمة غير رسمية): «آلية عمل viloxazine في علاج اضطراب فرط الحركة ونقص الانتباه (ADHD) غير واضحة؛ ومع ذلك، يُعتقد أنها تتم من خلال تثبيط إعادة امتصاص النورإبينفرين.» النص الأصلي بالإنجليزية: "The mechanism of action of viloxazine in the treatment of ADHD is unclear; however, it is thought to be through inhibiting the reuptake of norepinephrine." ([DailyMed: Qelbree (viloxazine hydrochloride) prescribing information, Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aedf408d-0f84-418d-9416-7c39ddb0d29a)، إصدار 2026-10-05؛ تاريخ الاطلاع 2026-11-19). ومن المعروف عموماً أنه يثبّط إعادة امتصاص النورإبينفرين.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Viloxazine (ترجمة غير رسمية): «آلية عمل viloxazine في علاج اضطراب فرط الحركة ونقص الانتباه (ADHD) غير واضحة؛ ومع ذلك، يُعتقد أنها تتم من خلال تثبيط إعادة امتصاص النورإبينفرين.» النص الأصلي بالإنجليزية: "The mechanism of action of viloxazine in the treatment of ADHD is unclear; however, it is thought to be through inhibiting the reuptake of norepinephrine." ([DailyMed: Qelbree (viloxazine hydrochloride) prescribing information, Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aedf408d-0f84-418d-9416-7c39ddb0d29a)، إصدار 2026-10-05؛ تاريخ الاطلاع 2026-11-19). ومن المعروف عموماً أنه يثبّط إعادة امتصاص النورإبينفرين.
 
 هذه المتلازمة اضطراب نمائي نادر، ولا توجد صلة آلية معقولة بينه وبين تثبيط إعادة امتصاص النورإبينفرين. ولم تُعثر على أي تجارب أو دراسات في هذا الشأن. لذلك يُرجَّح أن الدرجة المرتفعة ناتجة عن ارتباط إحصائي في النموذج لا عن أساس دوائي حقيقي.
 
@@ -98,7 +98,7 @@ description: "Viloxazine: الاستطباب الجديد المتوقع متل�
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Qelbree (viloxazine hydrochloride) prescribing information, Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aedf408d-0f84-418d-9416-7c39ddb0d29a) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Qelbree (viloxazine hydrochloride) prescribing information, Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aedf408d-0f84-418d-9416-7c39ddb0d29a) |
 
 <!-- review:end log -->
 

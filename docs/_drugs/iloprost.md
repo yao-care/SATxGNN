@@ -60,7 +60,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Iloprost (ترجمة غير رسمية): «إيلوبروست نظير اصطناعي للبروستاسيكلين PGI 2. وإيلوبروست موسع للأوعية ويثبط تكدس الصفائح الدموية.» النص الأصلي بالإنجليزية: "Iloprost is a synthetic analog of prostacyclin PGI 2. Iloprost is a vasodilator and inhibits platelet aggregation." ([DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4)، إصدار 2026-08-13؛ تاريخ الاطلاع 2026-11-19). إيلوبروست نظير مستقر للبروستاسايكلين، وهو ينشّط مستقبلات البروستاسايكلين (IP)، فيحدث توسعاً وعائياً ويثبّط تكاثر الخلايا ويقلل تكدس الصفائح. ثبتت فعاليته في ارتفاع ضغط الدم الشرياني الرئوي، وقد تنطبق آليته نظرياً على أمراض أخرى ترتبط بالأوعية الدموية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Iloprost (ترجمة غير رسمية): «إيلوبروست نظير اصطناعي للبروستاسيكلين PGI 2. وإيلوبروست موسع للأوعية ويثبط تكدس الصفائح الدموية.» النص الأصلي بالإنجليزية: "Iloprost is a synthetic analog of prostacyclin PGI 2. Iloprost is a vasodilator and inhibits platelet aggregation." ([DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4)، إصدار 2026-08-13؛ تاريخ الاطلاع 2026-11-19). إيلوبروست نظير مستقر للبروستاسايكلين، وهو ينشّط مستقبلات البروستاسايكلين (IP)، فيحدث توسعاً وعائياً ويثبّط تكاثر الخلايا ويقلل تكدس الصفائح. ثبتت فعاليته في ارتفاع ضغط الدم الشرياني الرئوي، وقد تنطبق آليته نظرياً على أمراض أخرى ترتبط بالأوعية الدموية.
 
 الصلة المحتملة بنقص الشعر البسيط افتراضية فقط: قد تؤثر نظائر البروستاسايكلين في الدورة الدموية الدقيقة حول بصيلات الشعر. لكن نقص الشعر البسيط اضطراب وراثي في بصيلات الشعر، ومن غير المرجح أن يعالج موسّع وعائي سببه الأساسي. وعلى الأرجح فإن الدرجة المرتفعة صادرة عن نموذج TxGNN (التعلم العميق) وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مترابطة، لا دليلاً بيولوجياً أو سريرياً.
 
@@ -141,7 +141,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «لا يوجد حالياً أي ترخيص ساري المفعول للدواء في المملكة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ description: "Adalimumab: الاستطباب الجديد المتوقع فرط 
 
 ## لماذا هذا التنبؤ معقول (أو غير معقول)؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Adalimumab (ترجمة غير رسمية): «ترتبط منتجات الأداليموماب ارتباطاً نوعياً بـ TNF-alpha وتحجب تفاعله مع مستقبلات TNF السطحية الخلوية p55 وp75. كما تُحلّل منتجات الأداليموماب الخلايا المُعبِّرة عن TNF السطحي في المختبر (in vitro) بوجود المتمّمة.» النص الأصلي بالإنجليزية: "Adalimumab products bind specifically to TNF-alpha and block its interaction with the p55 and p75 cell surface TNF receptors. Adalimumab products also lyse surface TNF expressing cells in vitro in the presence of complement." ([DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc)، إصدار 2026-11-11؛ تاريخ الاطلاع 2026-11-19). المعروف أن أداليموماب جسم مضاد يثبط عامل نخر الورم ألفا، وهو وسيط التهابي مركزي في عدة أمراض مناعية التهابية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Adalimumab (ترجمة غير رسمية): «ترتبط منتجات الأداليموماب ارتباطاً نوعياً بـ TNF-alpha وتحجب تفاعله مع مستقبلات TNF السطحية الخلوية p55 وp75. كما تُحلّل منتجات الأداليموماب الخلايا المُعبِّرة عن TNF السطحي في المختبر (in vitro) بوجود المتمّمة.» النص الأصلي بالإنجليزية: "Adalimumab products bind specifically to TNF-alpha and block its interaction with the p55 and p75 cell surface TNF receptors. Adalimumab products also lyse surface TNF expressing cells in vitro in the presence of complement." ([DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc)، إصدار 2026-11-11؛ تاريخ الاطلاع 2026-11-19). المعروف أن أداليموماب جسم مضاد يثبط عامل نخر الورم ألفا، وهو وسيط التهابي مركزي في عدة أمراض مناعية التهابية.
 
 أما فرط حركة العصعص فهو في الغالب حالة ميكانيكية أو رضحية، ولا توجد آلية واضحة يتوسطها عامل نخر الورم ألفا تربطه بهذه الحالة. لذلك فإن الدرجة المرتفعة ناتجة عن حساب نموذجي فقط، ولا تسندها آلية دوائية معقولة ولا دراسات.
 
@@ -108,7 +108,7 @@ description: "Adalimumab: الاستطباب الجديد المتوقع فرط 
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc) |
 
 <!-- review:end log -->
 

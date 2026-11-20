@@ -54,7 +54,7 @@ description: "Bimatoprost: الاستطباب الجديد المتوقع متل
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً أو غير معقول؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Bimatoprost (ترجمة غير رسمية): «البيماتوبروست، وهو نظير للبروستاغلاندين، نظير بنيوي اصطناعي للبروستاغلاندين ذو نشاط خافض لضغط العين. ويُعتقد أن البيماتوبروست يخفض ضغط العين (IOP) لدى البشر عن طريق زيادة تدفّق الخلط المائي إلى الخارج عبر كلٍّ من الشبكة التربيقية (المسار التقليدي) والمسار العنبي الصلبوي (المسار غير التقليدي).» النص الأصلي بالإنجليزية: "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional)." ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341)، إصدار 2024-10-16؛ تاريخ الاطلاع 2026-11-19). المعروف أن بيماتوبروست نظير للبروستاميد/البروستاغلاندين F2α يعمل على مستقبلات من نوع FP، ويُعرف بتأثيره على نمو الشعر (إطالة طور النمو).
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Bimatoprost (ترجمة غير رسمية): «البيماتوبروست، وهو نظير للبروستاغلاندين، نظير بنيوي اصطناعي للبروستاغلاندين ذو نشاط خافض لضغط العين. ويُعتقد أن البيماتوبروست يخفض ضغط العين (IOP) لدى البشر عن طريق زيادة تدفّق الخلط المائي إلى الخارج عبر كلٍّ من الشبكة التربيقية (المسار التقليدي) والمسار العنبي الصلبوي (المسار غير التقليدي).» النص الأصلي بالإنجليزية: "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional)." ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341)، إصدار 2024-10-16؛ تاريخ الاطلاع 2026-11-19). المعروف أن بيماتوبروست نظير للبروستاميد/البروستاغلاندين F2α يعمل على مستقبلات من نوع FP، ويُعرف بتأثيره على نمو الشعر (إطالة طور النمو).
 
 لم يُحدَّد أي رابط آلي بين هذه الآلية وهذه المتلازمة. فهي متلازمة تشوّه نمائي خلقي، ولا يوجد دور معروف لمستحضر موضعي أو عيني من هذه الفئة في فيزيولوجيتها المرضية. الدرجة المرتفعة ناتجة عن التنبؤ الحسابي للنموذج فقط، وليست مدعومة بدليل سريري أو أدبي.
 
@@ -98,7 +98,7 @@ description: "Bimatoprost: الاستطباب الجديد المتوقع متل
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hep
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Famciclovir (ترجمة غير رسمية): «فامسيكلوفير طليعة دواء تُعطى عن طريق الفم للعامل المضاد لفيروسات الهربس ألفا بنسيكلوفير.» النص الأصلي بالإنجليزية: "Famciclovir is an orally administered prodrug of the anti-alpha herpes viral agent penciclovir." ([DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761)، إصدار 2026-11-13؛ تاريخ الاطلاع 2026-11-19). وبحسب المعرفة المتاحة، فامسيكلوفير مركب أولي (prodrug) يتحول في الجسم إلى بنسيكلوفير، وهو نظير للغوانوزين يثبط بلمرة الحمض النووي الفيروسي بعد أن تفسفره إنزيم الثيميدين كيناز الفيروسي. وقد ثبتت فعاليته في الهربس النطاقي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Famciclovir (ترجمة غير رسمية): «فامسيكلوفير طليعة دواء تُعطى عن طريق الفم للعامل المضاد لفيروسات الهربس ألفا بنسيكلوفير.» النص الأصلي بالإنجليزية: "Famciclovir is an orally administered prodrug of the anti-alpha herpes viral agent penciclovir." ([DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761)، إصدار 2026-11-13؛ تاريخ الاطلاع 2026-11-19). وبحسب المعرفة المتاحة، فامسيكلوفير مركب أولي (prodrug) يتحول في الجسم إلى بنسيكلوفير، وهو نظير للغوانوزين يثبط بلمرة الحمض النووي الفيروسي بعد أن تفسفره إنزيم الثيميدين كيناز الفيروسي. وقد ثبتت فعاليته في الهربس النطاقي.
 
 الألم العصبي بعد الهربس هو أشيع مضاعفات الهربس النطاقي. لذلك من المعقول نظريًا أن يقلل العلاج المضاد للفيروسات في المرحلة الحادة من تلف الأعصاب ومن خطر الألم العصبي اللاحق.
 
@@ -130,7 +130,7 @@ predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hep
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، ولا يوجد منتج مسوّق حاليًا» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ description: "Piroxicam: الاستطباب الجديد المتوقع Coloboma
 
 ## لماذا يبدو هذا التوقع معقولاً (أو غير معقول)؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Piroxicam (ترجمة غير رسمية): «يتمتع Piroxicam بخصائص مسكنة للألم ومضادة للالتهاب وخافضة للحرارة. إن آلية عمل Piroxicam Capsules، كغيره من مضادات الالتهاب غير الستيرويدية (NSAIDs)، غير مفهومة تمامًا، لكنها تتضمن تثبيط إنزيم الأكسدة الحلقية (COX-1 وCOX-2).» النص الأصلي بالإنجليزية: "Piroxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Piroxicam Capsules, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4)، إصدار 2026-09-29؛ تاريخ الاطلاع 2026-11-19). المعروف أن بيروكسيكام مثبط غير انتقائي لإنزيم الأكسدة الحلقية (COX)، ويُستخدم لتخفيف الالتهاب والألم في أمراض المفاصل.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Piroxicam (ترجمة غير رسمية): «يتمتع Piroxicam بخصائص مسكنة للألم ومضادة للالتهاب وخافضة للحرارة. إن آلية عمل Piroxicam Capsules، كغيره من مضادات الالتهاب غير الستيرويدية (NSAIDs)، غير مفهومة تمامًا، لكنها تتضمن تثبيط إنزيم الأكسدة الحلقية (COX-1 وCOX-2).» النص الأصلي بالإنجليزية: "Piroxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Piroxicam Capsules, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4)، إصدار 2026-09-29؛ تاريخ الاطلاع 2026-11-19). المعروف أن بيروكسيكام مثبط غير انتقائي لإنزيم الأكسدة الحلقية (COX)، ويُستخدم لتخفيف الالتهاب والألم في أمراض المفاصل.
 
 لم يُعثر على صلة آلية معقولة بين هذا الدواء والمتلازمة المتوقعة. فهي متلازمة نادرة ذات أساس وراثي، تؤثر في نمو الهيكل العظمي والعين. تثبيط COX لا يؤثر في المسارات التطورية المسؤولة عنها.
 
@@ -154,7 +154,7 @@ description: "Piroxicam: الاستطباب الجديد المتوقع Coloboma
 |------|------|------|------|
 | 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «وتوضيح وضعه التنظيمي في السعودية بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
 
 <!-- review:end log -->
 

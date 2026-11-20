@@ -54,7 +54,7 @@ description: "Ubrogepant: الاستطباب الجديد المتوقع ضمو�
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ubrogepant (ترجمة غير رسمية): «إن Ubrogepant مضاد لمستقبلات الببتيد المرتبط بجين الكالسيتونين.» النص الأصلي بالإنجليزية: "Ubrogepant is a calcitonin gene-related peptide receptor antagonist." ([DailyMed: Ubrelvy (ubrogepant) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=36106b14-d410-4faf-a361-2871de8198c3)، إصدار 2026-09-29؛ تاريخ الاطلاع 2026-11-19). المعروف عن أوبروجيبانت أنه مضاد لمستقبل CGRP، وهي آلية مرتبطة بعلاج الصداع النصفي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Ubrogepant (ترجمة غير رسمية): «إن Ubrogepant مضاد لمستقبلات الببتيد المرتبط بجين الكالسيتونين.» النص الأصلي بالإنجليزية: "Ubrogepant is a calcitonin gene-related peptide receptor antagonist." ([DailyMed: Ubrelvy (ubrogepant) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=36106b14-d410-4faf-a361-2871de8198c3)، إصدار 2026-09-29؛ تاريخ الاطلاع 2026-11-19). المعروف عن أوبروجيبانت أنه مضاد لمستقبل CGRP، وهي آلية مرتبطة بعلاج الصداع النصفي.
 
 أما ضمور الجلد الدودي فهو اضطراب جلدي نادر يصيب بصيلات الشعر ويسبب ضموراً. ولم يُحدَّد أي دور مثبت لإشارات CGRP في نشأة هذا المرض، ولذلك لا يظهر رابط آلي واضح بين الدواء والمرض.
 
@@ -108,7 +108,7 @@ description: "Ubrogepant: الاستطباب الجديد المتوقع ضمو�
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ubrelvy (ubrogepant) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=36106b14-d410-4faf-a361-2871de8198c3) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Ubrelvy (ubrogepant) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=36106b14-d410-4faf-a361-2871de8198c3) |
 
 <!-- review:end log -->
 

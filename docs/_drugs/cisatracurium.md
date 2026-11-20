@@ -58,7 +58,7 @@ predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neuro
 
 ## لماذا قد يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cisatracurium (ترجمة غير رسمية): «يرتبط بيسيلات السيساتراكوريوم تنافسيًا بالمستقبلات الكولينية على الصفيحة الانتهائية الحركية لمناهضة عمل الأسيتيل كولين، مما يؤدي إلى حجب النقل العصبي العضلي. ويُناهَض هذا التأثير بواسطة مثبطات إنزيم الأسيتيل كولين إستراز مثل النيوستيغمين.» النص الأصلي بالإنجليزية: "Cisatracurium besylate binds competitively to cholinergic receptors on the motor end-plate to antagonize the action of acetylcholine, resulting in blockade of neuromuscular transmission. This action is antagonized by acetylcholinesterase inhibitors such as neostigmine." ([DailyMed: cisatracurium besylate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67908e20-044d-454d-9c51-bf106e817bd0)، إصدار 2026-10-14؛ تاريخ الاطلاع 2026-11-19). ومن المعروف أن سيساتراكوريوم حاصر تنافسي للمستقبلات النيكوتينية للأسيتيل كولين عند الوصلة العصبية العضلية، ويُستخدم في المستشفيات عن طريق الحقن الوريدي.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Cisatracurium (ترجمة غير رسمية): «يرتبط بيسيلات السيساتراكوريوم تنافسيًا بالمستقبلات الكولينية على الصفيحة الانتهائية الحركية لمناهضة عمل الأسيتيل كولين، مما يؤدي إلى حجب النقل العصبي العضلي. ويُناهَض هذا التأثير بواسطة مثبطات إنزيم الأسيتيل كولين إستراز مثل النيوستيغمين.» النص الأصلي بالإنجليزية: "Cisatracurium besylate binds competitively to cholinergic receptors on the motor end-plate to antagonize the action of acetylcholine, resulting in blockade of neuromuscular transmission. This action is antagonized by acetylcholinesterase inhibitors such as neostigmine." ([DailyMed: cisatracurium besylate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67908e20-044d-454d-9c51-bf106e817bd0)، إصدار 2026-10-14؛ تاريخ الاطلاع 2026-11-19). ومن المعروف أن سيساتراكوريوم حاصر تنافسي للمستقبلات النيكوتينية للأسيتيل كولين عند الوصلة العصبية العضلية، ويُستخدم في المستشفيات عن طريق الحقن الوريدي.
 
 لا يوجد رابط آلي معقول بين هذه الآلية ومتلازمة ذنب الفرس، وهي حالة طارئة عصبية انضغاطية تُعالَج جراحياً. والدرجة المرتفعة التي أعطاها TxGNN ناتجة عن تحليل الرسم المعرفي فقط، دون أي دعم سريري. لذلك لا يمكن اعتبار هذا التنبؤ مدعوماً آلياً.
 
@@ -135,7 +135,7 @@ predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neuro
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: cisatracurium besylate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67908e20-044d-454d-9c51-bf106e817bd0) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: cisatracurium besylate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67908e20-044d-454d-9c51-bf106e817bd0) |
 
 <!-- review:end log -->
 

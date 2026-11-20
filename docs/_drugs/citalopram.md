@@ -60,7 +60,7 @@ description: "Citalopram: الاستطباب الجديد المتوقع اضط�
 
 ## لماذا يُعد هذا التنبؤ معقولًا؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Citalopram (ترجمة غير رسمية): «آلية عمل سيتالوبرام غير واضحة، ولكن يُفترض أنها مرتبطة بتقوية النشاط السيروتونيني في الجهاز العصبي المركزي (CNS) الناتجة عن تثبيطه لإعادة الامتصاص العصبي للسيروتونين (5-HT) في الجهاز العصبي المركزي.» النص الأصلي بالإنجليزية: "The mechanism of action of citalopram is unclear, but is presumed to be related to potentiation of serotonergic activity in the central nervous system (CNS) resulting from its inhibition of CNS neuronal reuptake of serotonin (5-HT)." ([DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177)، إصدار 2023-10-09؛ تاريخ الاطلاع 2026-11-19). وبناءً على المعلومات المعروفة، فإن سيتالوبرام من فئة مثبطات إعادة امتصاص السيروتونين الانتقائية، وقد ثبتت فعاليته في الاكتئاب والقلق، وآليًا قد يكون قابلًا للتطبيق في اضطراب الوسواس القهري.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Citalopram (ترجمة غير رسمية): «آلية عمل سيتالوبرام غير واضحة، ولكن يُفترض أنها مرتبطة بتقوية النشاط السيروتونيني في الجهاز العصبي المركزي (CNS) الناتجة عن تثبيطه لإعادة الامتصاص العصبي للسيروتونين (5-HT) في الجهاز العصبي المركزي.» النص الأصلي بالإنجليزية: "The mechanism of action of citalopram is unclear, but is presumed to be related to potentiation of serotonergic activity in the central nervous system (CNS) resulting from its inhibition of CNS neuronal reuptake of serotonin (5-HT)." ([DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177)، إصدار 2023-10-09؛ تاريخ الاطلاع 2026-11-19). وبناءً على المعلومات المعروفة، فإن سيتالوبرام من فئة مثبطات إعادة امتصاص السيروتونين الانتقائية، وقد ثبتت فعاليته في الاكتئاب والقلق، وآليًا قد يكون قابلًا للتطبيق في اضطراب الوسواس القهري.
 
 يُعد اختلال الجهاز السيروتونيني آلية راسخة في اضطراب الوسواس القهري، وتُعتبر مثبطات إعادة امتصاص السيروتونين علاجًا دوائيًا من الخط الأول لهذا الاضطراب. ولذلك فإن الانتقال من الاكتئاب والقلق إلى الوسواس القهري يقوم على آلية مشتركة تخص الفئة الدوائية كلها.
 
@@ -164,7 +164,7 @@ description: "Citalopram: الاستطباب الجديد المتوقع اضط�
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص الـ15 وجدوى إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177) |
 
 <!-- review:end log -->
 

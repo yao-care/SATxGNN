@@ -58,7 +58,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ abacavir and lamivudine (مستحضر مركب يحتوي على Abacavir) (ترجمة غير رسمية): «أباكافير ولاميفودين عامل مضاد للفيروسات القهقرية ذو فعالية ضد HIV-1.» النص الأصلي بالإنجليزية: "Abacavir and lamivudine is an antiretroviral agent with activity against HIV-1." ([DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c)، إصدار 2026-09-18؛ تاريخ الاطلاع 2026-11-19). استناداً إلى المعرفة المتاحة، أباكافير مثبط نوكليوزيدي لإنزيم النسخ العكسي، يتحول داخل الخلية إلى كاربوفير ثلاثي الفوسفات الذي يوقف استطالة سلسلة الحمض النووي الفيروسي. وقد ثبتت فعاليته في عدوى HIV.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ abacavir and lamivudine (مستحضر مركب يحتوي على Abacavir) (ترجمة غير رسمية): «أباكافير ولاميفودين عامل مضاد للفيروسات القهقرية ذو فعالية ضد HIV-1.» النص الأصلي بالإنجليزية: "Abacavir and lamivudine is an antiretroviral agent with activity against HIV-1." ([DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c)، إصدار 2026-09-18؛ تاريخ الاطلاع 2026-11-19). استناداً إلى المعرفة المتاحة، أباكافير مثبط نوكليوزيدي لإنزيم النسخ العكسي، يتحول داخل الخلية إلى كاربوفير ثلاثي الفوسفات الذي يوقف استطالة سلسلة الحمض النووي الفيروسي. وقد ثبتت فعاليته في عدوى HIV.
 
 فيروس نقص المناعة القردي (SIV) فيروس بطيء (lentivirus) وثيق الصلة بفيروس HIV، ويمتلك إنزيم نسخ عكسي مماثل، ما يوفر أساساً آلياً معقولاً. غير أن SIV عدوى تصيب القرود وهي نموذج حيواني، وليست استطباباً علاجياً للبشر، لذلك تكمن قيمتها في الأبحاث قبل السريرية لا في إعادة توظيف الدواء سريرياً.
 
@@ -130,7 +130,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-06 | حُذف: «كلا الترخيصين ملغى، ولا يوجد حالياً ترخيص ساري» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c) |
 
 <!-- review:end log -->
 

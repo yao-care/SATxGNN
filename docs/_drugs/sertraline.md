@@ -58,7 +58,7 @@ description: "Sertraline: الاستطباب الجديد المتوقع اضط�
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Sertraline (ترجمة غير رسمية): «يعزز سيرترالين (Sertraline) النشاط السيروتونيني في الجهاز العصبي المركزي من خلال تثبيط إعادة الامتصاص العصبوني للسيروتونين (5-HT).» النص الأصلي بالإنجليزية: "Sertraline potentiates serotonergic activity in the central nervous system through inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7)، إصدار 2023-08-08؛ تاريخ الاطلاع 2026-11-19). وبحسب المعروف عموماً، ينتمي سيرترالين إلى فئة مثبطات إعادة امتصاص السيروتونين الانتقائية، وقد يعالج التأثير السيروتونيني أعراضاً مصاحبة مثل تسطّح الوجدان أو القلق والاكتئاب المصاحبين.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Sertraline (ترجمة غير رسمية): «يعزز سيرترالين (Sertraline) النشاط السيروتونيني في الجهاز العصبي المركزي من خلال تثبيط إعادة الامتصاص العصبوني للسيروتونين (5-HT).» النص الأصلي بالإنجليزية: "Sertraline potentiates serotonergic activity in the central nervous system through inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7)، إصدار 2023-08-08؛ تاريخ الاطلاع 2026-11-19). وبحسب المعروف عموماً، ينتمي سيرترالين إلى فئة مثبطات إعادة امتصاص السيروتونين الانتقائية، وقد يعالج التأثير السيروتونيني أعراضاً مصاحبة مثل تسطّح الوجدان أو القلق والاكتئاب المصاحبين.
 
 الدرجة المرتفعة (0.9993) تبدو استدلالاً قائماً على قرب الشبكة بين اضطرابات الشخصية، إذ حصلت عدة اضطرابات شخصية أخرى على الدرجة نفسها تماماً. لذلك لا ينبغي اعتبارها دليلاً خاصاً بهذا الاضطراب، ولا توجد حالياً أدلة آلية محددة له.
 
@@ -122,7 +122,7 @@ description: "Sertraline: الاستطباب الجديد المتوقع اضط�
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7) |
 
 <!-- review:end log -->
 

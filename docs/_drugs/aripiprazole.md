@@ -54,7 +54,7 @@ description: "Aripiprazole: الاستطباب الجديد المتوقع شل�
 
 ## لماذا قد يكون هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Aripiprazole (ترجمة غير رسمية): «آلية عمل أريبيبرازول في علاج الفصام والاضطراب ثنائي القطب من النوع الأول غير معروفة. قد تكون فعالية أريبيبرازول متواسطة من خلال مزيج من نشاط ناهض جزئي على مستقبلات الدوبامين D 2 والسيروتونين 5-HT 1A ونشاط مناهض على مستقبلات 5-HT 2A.» النص الأصلي بالإنجليزية: "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be)، إصدار 2025-04-04؛ تاريخ الاطلاع 2026-11-19). المعروف عن أريبيبرازول أنه يعمل عبر تعديل مسارات الدوبامين والسيروتونين في الدماغ، وأن فعاليته في استطباباته المعتمدة مثبتة.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Aripiprazole (ترجمة غير رسمية): «آلية عمل أريبيبرازول في علاج الفصام والاضطراب ثنائي القطب من النوع الأول غير معروفة. قد تكون فعالية أريبيبرازول متواسطة من خلال مزيج من نشاط ناهض جزئي على مستقبلات الدوبامين D 2 والسيروتونين 5-HT 1A ونشاط مناهض على مستقبلات 5-HT 2A.» النص الأصلي بالإنجليزية: "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be)، إصدار 2025-04-04؛ تاريخ الاطلاع 2026-11-19). المعروف عن أريبيبرازول أنه يعمل عبر تعديل مسارات الدوبامين والسيروتونين في الدماغ، وأن فعاليته في استطباباته المعتمدة مثبتة.
 
 أما المرض المتنبَّأ به فهو اضطراب وراثي نادر يصيب حركة العينين ويصاحبه جنف تدريجي، ويرتبط بخلل في توجيه المحاور العصبية أثناء النمو. لا تقدم البيانات المتاحة رابطاً آلياً واضحاً بين تعديل الدوبامين والسيروتونين وهذا الاضطراب النمائي العصبي. لذلك تبقى الدرجة المرتفعة إشارة من النموذج وحده، ولا يدعمها حالياً أي دليل بحثي أو سريري.
 
@@ -111,7 +111,7 @@ description: "Aripiprazole: الاستطباب الجديد المتوقع شل�
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
 
 <!-- review:end log -->
 

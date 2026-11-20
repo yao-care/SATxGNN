@@ -54,7 +54,7 @@ description: "Denosumab: الاستطباب الجديد المتوقع اعتل
 
 ## لماذا يبدو هذا التنبؤ معقولاً؟
 
-وفقًا لـقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Denosumab (ترجمة غير رسمية): «ترتبط منتجات دينوسوماب بـ RANKL، وهو بروتين عابر للغشاء أو ذائب ضروري لتكوين ناقضات العظم ووظيفتها وبقائها، وهي الخلايا المسؤولة عن ارتشاف العظم. وتمنع منتجات دينوسوماب RANKL من تنشيط مستقبله، RANK، على سطح ناقضات العظم وسلائفها.» النص الأصلي بالإنجليزية: "Denosumab products bind to RANKL, a transmembrane or soluble protein essential for the formation, function, and survival of osteoclasts, the cells responsible for bone resorption. Denosumab products prevent RANKL from activating its receptor, RANK, on the surface of osteoclasts and their precursors." ([DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd)، إصدار 2026-11-04؛ تاريخ الاطلاع 2026-11-19). المعروف أن دينوسوماب يثبّط RANKL، وقد طُرح افتراضاً أن لمسار RANK/RANKL صلة بالالتهاب وبأمراض الأوعية الدموية.
+وفقًا لقسم «Mechanism of Action» في معلومات الوصف المعتمدة من إدارة الغذاء والدواء الأمريكية (Prescribing Information) لـ Denosumab (ترجمة غير رسمية): «ترتبط منتجات دينوسوماب بـ RANKL، وهو بروتين عابر للغشاء أو ذائب ضروري لتكوين ناقضات العظم ووظيفتها وبقائها، وهي الخلايا المسؤولة عن ارتشاف العظم. وتمنع منتجات دينوسوماب RANKL من تنشيط مستقبله، RANK، على سطح ناقضات العظم وسلائفها.» النص الأصلي بالإنجليزية: "Denosumab products bind to RANKL, a transmembrane or soluble protein essential for the formation, function, and survival of osteoclasts, the cells responsible for bone resorption. Denosumab products prevent RANKL from activating its receptor, RANK, on the surface of osteoclasts and their precursors." ([DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd)، إصدار 2026-11-04؛ تاريخ الاطلاع 2026-11-19). المعروف أن دينوسوماب يثبّط RANKL، وقد طُرح افتراضاً أن لمسار RANK/RANKL صلة بالالتهاب وبأمراض الأوعية الدموية.
 
 هذه الصلة فرضية فقط ولا تدعمها البيانات المتاحة، ولا يمكن التحقق من التفسير الآلي في غياب بيانات آلية العمل. درجة النموذج العالية (0.9963) نتيجة حسابية وليست دليلاً سريرياً.
 
@@ -104,7 +104,7 @@ description: "Denosumab: الاستطباب الجديد المتوقع اعتل
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd) |
+| 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd) |
 
 <!-- review:end log -->
 
