@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CEFTIZOXIME"
 predicted_indications: ["Ureaplasma urethritis", "xanthogranulomatous pyelonephritis", "uterine inflammatory disease", "epiglottitis", "urogenital tuberculosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ceftizoxime: الاستطباب الجديد المتوقع التهاب الإحليل باليوريا بلازما (Ureaplasma urethritis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
 ---
 
@@ -65,6 +65,20 @@ description: "Ceftizoxime: الاستطباب الجديد المتوقع الت
 ## الأدلة من الأدبيات العلمية
 
 لا توجد حالياً أدبيات ذات صلة بهذا الاستطباب.
+
+## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CEFIZOX 1000 VIAL I-V | CEFTIZOXIME | Hikma Farmaceutica | ساري |
+| CEFIZOX 1000MG I-M VIAL+SOLV 0.5%LIDOCAI | CEFTIZOXIME | Hikma Farmaceutica | ساري |
+| CEFIZOX 2000 VIAL | CEFTIZOXIME | Hikma Pharmaceuticals PLC | ساري |
+| CEFIZOX 500 VIAL I-V | CEFTIZOXIME | Hikma Farmaceutica | ساري |
+| CEFIZOX 500MG I-M VIAL+SOLV 0.5%LIDOCAIN | CEFTIZOXIME | Hikma Farmaceutica | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

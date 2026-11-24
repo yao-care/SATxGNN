@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CAPTOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Captopril: الاستطباب الجديد المتوقع مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث (malignant hypertensive renal disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"
 ---
 
@@ -69,6 +69,22 @@ description: "Captopril: الاستطباب الجديد المتوقع مرض �
 | [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | تقرير حالة | Clinical Nuclear Medicine | حالة مريض ظهر لديه تصوير كلوي إيجابي بالكابتوبريل رغم سلامة الشرايين الكلوية. كان السبب ورم الخلايا الكلوية من نوع الكروموفوب، وزال ارتفاع الضغط المعتمد على الرينين بعد استئصال الكلية. التقرير تشخيصي ولا يثبت فائدة علاجية. |
 
 لا توجد دراسة أخرى ضمن البيانات المجمعة تتناول هذا المرض مباشرةً.
+
+## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ACETAB 25 MG TABLETS | CAPTOPRIL | KUWAIT SAUDI PHARMACEUTICAL INDUSTRIES | ساري |
+| ACETAB 50 MG TABLETS | CAPTOPRIL | KUWAIT SAUDI PHARMACEUTICAL INDUSTRIES | ساري |
+| CAPOCARD 25MG TAB | CAPTOPRIL | DAR ALDAWA | ساري |
+| CAPOCARD 50MG TAB | CAPTOPRIL | DAR ALDAWA | ساري |
+| CAPOTEN 25MG TAB | CAPTOPRIL | SPIMACO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 15 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

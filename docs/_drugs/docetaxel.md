@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Docetaxel: الاستطباب الجديد المتوقع ساركوما إيوينغ (Ewing sarcoma) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 14 (السارية: 14)"
 ---
 
@@ -94,6 +94,22 @@ description: "Docetaxel: الاستطباب الجديد المتوقع سارك
 | [20132000](https://pubmed.ncbi.nlm.nih.gov/20132000/) | 2010 | مراجعة | Expert Rev Anticancer Ther | دور العلاج الكيميائي في الساركومات الرخوة |
 
 ---
+
+## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DOCADEX 20 mg/ml Injection | DOCETAXEL | S.C Sindan pharma SRL | ساري |
+| DOCADEX 80MG/4ML | DOCETAXEL | S.C.SINDAN PHARMA S.R.L | ساري |
+| DOCETAXEL ACCORD 20 mg/ml Vial | DOCETAXEL | INTAS PHARMACEUTICALS LIMITED | ساري |
+| DOCETAXEL Actavis 40 mg/ml concentrate for solution for infusion | DOCETAXEL | S.C.SINDAN PHARMA S.R.L | ساري |
+| DOCETAXEL EBEWE 10 mg/ml concentration For Solution For Infusion | DOCETAXEL | Fareva Unterach GmbH | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 14 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## الاعتبارات السلامية
 

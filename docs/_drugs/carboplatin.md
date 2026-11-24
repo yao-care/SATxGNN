@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CARBOPLATIN"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "adult germ cell tumor", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mixed adenocarcinoma", "extrahepatic bile duct mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carboplatin: الاستطباب الجديد المتوقع سرطان غدي مخاطي في المستقيم (rectum mucinous adenocarcinoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
 ---
 
@@ -75,6 +75,22 @@ description: "Carboplatin: الاستطباب الجديد المتوقع سرط
 لا توجد حالياً أدبيات ذات صلة.
 
 ---
+
+## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CARBOPLATIN "EBEWE" 50MG-5ML | CARBOPLATIN | Fareva Unterach GmbH | ساري |
+| CARBOPLATIN 10MG-ML VIAL | CARBOPLATIN | HOSPIRA AUSTRALIA | ساري |
+| CARBOTINOL 10MG/ML INJECTION | CARBOPLATIN | EMIC UNITED PHARMACEUTICALS | ساري |
+| CARTINUM 10 MG/ML VIAL | CARBOPLATIN | INTAS PHARMACEUTICALS LIMITED | ساري |
+| CARTINUM 150 MG/15 ML | CARBOPLATIN | INTAS PHARMACEUTICALS LIMITED | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## السمية الخلوية
 

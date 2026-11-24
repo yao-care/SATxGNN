@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: الاستخدامات المعروفة فقط (لا توجد تنبؤات جديدة)
 nav_order: 598
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "NORETHISTERONE"
 description: "Norethisterone: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
@@ -45,6 +45,16 @@ evidence_level: N/A
 | عدد التراخيص | 1 (السارية: 1) |
 
 ---
+
+## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PRIMOLUT-N TAB 5 MG. | NORETHISTERONE | BAYER WEIMAR GmbH UND CO. KG | ساري |
+
+<!-- licenses:end -->
 
 ## إخلاء المسؤولية
 

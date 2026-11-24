@@ -77,14 +77,18 @@ description: "Zolpidem: الاستطباب الجديد المتوقع Benign pa
 | [22424586](https://pubmed.ncbi.nlm.nih.gov/22424586/) | 2012 | مراجعة | Expert Opin Pharmacother | زولبيديم أكثر المنوّمات وصفًا في الولايات المتحدة، ويعمل كمحفّز لمستقبلات البنزوديازيبين |
 | [28671376](https://pubmed.ncbi.nlm.nih.gov/28671376/) | 2017 | مراجعة | Am Fam Physician | تُحفظ أدوية Z كخيار ثانٍ بعد الميلاتونين والدوكسيبين لدى كبار السن |
 
-## الأدوية المرخّصة في السعودية
+## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الدلالة المعتمدة |
-|---------|------|------|-----------|
-| ZOLPIGEN | ZOLPIGEN (Riyadh Pharma) | غير محدد | غير متوافرة (ترخيص ساري) |
-| STILNOX 10MG F-C TABS | STILNOX 10MG F-C TABS (sanofi-aventis) | غير محدد | غير متوافرة (ترخيص ساري) |
-| ZOLONIA 10 mg Film Coated Tablet | ZOLONIA 10 mg (SPIMACO) | أقراص مغلفة | غير متوافرة (ترخيص ساري) |
-| ZOLONIA 5 mg Film Coated Tablet | ZOLONIA 5 mg (SPIMACO) | أقراص مغلفة | غير متوافرة (ترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| STILNOX 10MG F-C TABS | ZOLPIDEM | sanofi-aventis | ساري |
+| ZOLONIA 10 mg Film Coated Tablet | ZOLPIDEM | SPIMACO | ساري |
+| ZOLONIA 5 mg Film Coated Tablet | ZOLPIDEM | SPIMACO | ساري |
+| ZOLPIGEN | ZOLPIDEM | RIYADH PHARMA | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

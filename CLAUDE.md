@@ -103,3 +103,10 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - 其他劑型全稱說法（「فقط／حصرًا／كلها」＋劑型）31 句逐句對照證據包產品名：都成立，不改。
 - 缺表：atazanavir（「## الترخيص والسوق في السعودية」）、sacubitril（「## معلومات السوق السعودي」）的市場段落標題是別的寫法，第一輪沒換到；site.MARKET_SECTIONS 與 sync_license_tables.SECS 加這兩個寫法、config/license_table_pins.json 依原表補 pins，換成程式表，快照重建（只有 atazanavir 的 rows 變）。沒有市場段落的 11 個公開頁照規則不加表。
 - checker 前後 0／0，gate exit 0。
+
+## 缺市場段落的公開頁補程式表（2026-11-24 第三輪）
+
+用戶 2026-11-24 決定（比照 JpTxGNN 第二輪 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有市場段落、證據包卻有許可證紀錄的，
+`scripts/sync_license_tables.py` 的 `add_section` 在安全性段之前（沒有就結論、查核紀錄、免責聲明段之前）補「## معلومات السوق في السعودية」與程式表；noindex 頁、證據包沒有紀錄的頁不補。
+gate（licenses.py 的 page_problems 第 5 項）擋「公開頁快照有程式表列卻沒有市場段落」；PAGE_NOTE 放行新標題行。
+2026-11-24 全量量測 11 頁（atomoxetine、benazepril、busulfan、captopril、carboplatin、ceftizoxime、docetaxel、eletriptan、entecavir、norethisterone、zolpidem；zolpidem 的市場段落原本用別的標題「## الأدوية المرخّصة في السعودية」，改成本站標題、AI 表換成程式表），補上；正文沒有跟新表矛盾的句子，沒有新查核紀錄。checker 前後都是 0、gate exit 0。

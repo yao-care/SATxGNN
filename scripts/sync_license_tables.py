@@ -181,7 +181,14 @@ def process(text, tf, pins=(), migrate=False, protect=()):
     lines = strip_marks(text.split("\n"))
     a, b = bounds(lines)
     if a is None:
-        return None
+        # 2026-11-24 第三輪：市場段落用了別的標題（zolpidem「## الأدوية المرخّصة في السعودية」）的公開頁改成本站標題，表照常換成程式表；
+        # 整頁沒有市場段落的公開頁補段落（add_section）
+        alt = next((i for i, l in enumerate(lines) if l.strip() in ALT_SECS), None)
+        if alt is None or not uniq(tf.get("records") or []) or not is_public(text):
+            t2 = add_section(text, tf, pins)
+            return t2 if t2 and t2 != text else None
+        lines[alt] = "## " + SECS[0]
+        a, b = bounds(lines)
     x, y = _first_table(lines, a, b)
     if x is None:
         lines = lines[:a] + [""] + wrap(block_for(tf, None, pins)) + [""] + [l for l in lines[a:] if not _prog_line(l)]
@@ -198,6 +205,29 @@ def process(text, tf, pins=(), migrate=False, protect=()):
         lines = lines[:x] + ([""] if lines[x - 1].strip() else []) + wrap(block_for(tf, n, pins)) + [""] + rest + lines[b:]
     t2 = re.sub(r"\n{3,}", "\n\n", "\n".join(lines))
     return t2 if t2 != text else None
+
+
+# 2026-11-24 第三輪（用戶決定，比照 JpTxGNN 第二輪）：公開頁沒有市場段落、但證據包有 SFDA 註冊品項的，補「## معلومات السوق في السعودية」段落放程式表。
+# 位置：安全性段（「الأمان／السلامة／اعتبارات السلامة／الاعتبارات السلامية」）、細胞毒性段（「السمية الخلوية」）、結論（「الخلاصة…」）、
+# 查核紀錄（「سجل المراجعة」）、免責聲明（「إخلاء المسؤولية」）中最前面的一個之前。noindex 頁與證據包沒有紀錄的頁不補。
+ALT_SECS = ("## الأدوية المرخّصة في السعودية",)
+ADD_BEFORE = re.compile(r"^## (الأمان|السلامة|اعتبارات السلامة|الاعتبارات السلامية|السم[ّ]?ية الخلوية|الخلاصة|سجل المراجعة|إخلاء المسؤولية)")
+
+
+def is_public(text):
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    return not re.search(r"^noindex:\s*true", fm, re.M)
+
+
+def add_section(text, tf, pins=()):
+    if not is_public(text) or not uniq(tf.get("records") or []):
+        return None
+    lines = text.split("\n")
+    at = next((i for i, l in enumerate(lines) if ADD_BEFORE.match(l)), None)
+    if at is None:
+        return None
+    sec = ["## " + SECS[0], ""] + wrap(block_for(tf, None, pins)) + [""]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:at] + sec + lines[at:]))
 
 
 def carry_block(old_text, new_text):

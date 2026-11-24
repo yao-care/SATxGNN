@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Busulfan: الاستطباب الجديد المتوقع متلازمة خلل التنسج النقوي (myelodysplastic syndrome) (مستوى الدليل L1). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -91,6 +91,17 @@ description: "Busulfan: الاستطباب الجديد المتوقع متلا�
 | [34692485](https://pubmed.ncbi.nlm.nih.gov/34692485/) | 2021 | تحليل تلوي لتجارب عشوائية | Frontiers in Oncology | التهيئة مخفضة الشدة مقابل المثبّطة للنخاع قبل الزراعة |
 | [40079242](https://pubmed.ncbi.nlm.nih.gov/40079242/) | 2025 | مراجعة | American Journal of Hematology | مراجعة حديثة لزراعة الخلايا الجذعية في متلازمة خلل التنسج النقوي والتليف النقوي |
 | [38197938](https://pubmed.ncbi.nlm.nih.gov/38197938/) | 2024 | دراسة أترابية (المرحلة 1) | Blood Advances | علاج وقائي صيانة بفينيتوكلاكس/أزاسيتيدين بعد تهيئة بفينيتوكلاكس وفلودارابين/بوسولفان |
+
+## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BUSULCAN 6 mg/ml Vial | BUSULFAN | PHARMASCIENCE INC. | ساري |
+| MYLERAN | BUSULFAN | EXCELLA GmbH & Co. KG | ساري |
+
+<!-- licenses:end -->
 
 ## الأمان
 

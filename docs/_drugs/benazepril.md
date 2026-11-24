@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "BENAZEPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benazepril: الاستطباب الجديد المتوقع مرض الكلى الناجم عن ارتفاع ضغط الدم الخبيث (malignant hypertensive renal disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -65,6 +65,18 @@ description: "Benazepril: الاستطباب الجديد المتوقع مرض 
 ## الأدلة من المنشورات العلمية
 
 لا توجد حالياً منشورات ذات صلة.
+
+## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CIBACEN 10MG F.C.TAB | BENAZEPRIL | NOVARTIS | ساري |
+| CIBACEN 20MG F.C.TAB | BENAZEPRIL | NOVARTIS | ساري |
+| CIBACEN 5MG F.C.TAB | BENAZEPRIL | NOVARTIS | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

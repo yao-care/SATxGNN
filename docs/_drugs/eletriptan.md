@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ELETRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Eletriptan: الاستطباب الجديد المتوقع ضمور الجلد الدودي (atrophoderma vermiculata) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
@@ -65,6 +65,19 @@ description: "Eletriptan: الاستطباب الجديد المتوقع ضمو�
 ## الأدلة من الأدبيات العلمية
 
 لا توجد حالياً أدبيات ذات صلة.
+
+## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Eletrivaz | ELETRIPTAN | APL Health Care Limited | ساري |
+| Migrotan | ELETRIPTAN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| RELPAX 20MG TABLET | ELETRIPTAN | MACK | ساري |
+| RELPAX 40MG TABLET | ELETRIPTAN | MACK | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

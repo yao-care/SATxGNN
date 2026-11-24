@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Entecavir: الاستطباب الجديد المتوقع التهاب الكبد C الفيروسي المزمن (chronic hepatitis C virus infection) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 (السارية: 17)"
 ---
 
@@ -77,6 +77,22 @@ description: "Entecavir: الاستطباب الجديد المتوقع الته
 | [16937041](https://pubmed.ncbi.nlm.nih.gov/16937041/) | 2006 | مراجعة | Wiener Medizinische Wochenschrift | العلاج الحالي لالتهاب الكبد B وC وآفاقه |
 
 تُظهر هذه الأدلة أن إنتكافير مفيد في العدوى المشتركة من جهة فيروس B فقط، ولا توجد دراسة منشورة تقيس تأثيره على فيروس C.
+
+## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ARVIDA 0.5 mg Tablet | ENTECAVIR | APOTEX RESEARCH PRIVATE LIMITED | ساري |
+| BARACLUDE 0.5MG F.C. TABLETS | ENTECAVIR | BRISTOL-MYERS SQUIBB | ساري |
+| BARACLUDE 1MG F.C. TABLETS | ENTECAVIR | BRISTOL-MYERS SQUIBB | ساري |
+| ELIVE | ENTECAVIR | AJA PHARMACEUTICAL INDUSTRIES | ساري |
+| ENTAVIR 0.5 mg Film Coated Tablet | ENTECAVIR | SPIMACO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 17 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## السلامة
 

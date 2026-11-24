@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Atomoxetine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atomoxetine: الاستطباب الجديد المتوقع اضطراب نمائي نوعي (specific developmental disorder) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
@@ -73,6 +73,22 @@ description: "Atomoxetine: الاستطباب الجديد المتوقع اضط
 | [30653855](https://pubmed.ncbi.nlm.nih.gov/30653855/) | 2019 | مراجعة منهجية وتحليل تلوي | Autism Research | حللت ثلاث تجارب عشوائية مضبوطة بالدواء الوهمي شملت 241 طفلاً مصاباً بالتوحد، لتقييم فعالية الدواء وسلامته في هذه الفئة |
 | [27721971](https://pubmed.ncbi.nlm.nih.gov/27721971/) | 2016 | مراجعة | Therapeutic Advances in Psychopharmacology | تتناول فعالية الدواء لدى المرضى ذوي الحالات النفسية المصاحبة، ومنها اضطرابات النمو الشاملة |
 | [39701638](https://pubmed.ncbi.nlm.nih.gov/39701638/) | 2025 | مراجعة منهجية وتحليل شبكي تلوي | The Lancet Psychiatry | مقارنة فعالية التدخلات الدوائية والنفسية والتحفيز العصبي وقبولها لدى البالغين، وهي غير موجهة للاضطراب النمائي النوعي |
+
+## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Attencare | ATOMOXETINE HYDROCHLORIDE | Multi Apex for Pharmaceutical Industries | ساري |
+| Axepta | ATOMOXETINE HYDROCHLORIDE | UNITED PHARMACEUTICAL COMPANY | ساري |
+| STRATTERA 10MG CAPSULES | ATOMOXETINE HYDROCHLORIDE | LILLY DEL CARIBE, INC. | ساري |
+| STRATTERA 18MG CAPSULES | ATOMOXETINE HYDROCHLORIDE | LILLY DEL CARIBE, INC. | ساري |
+| STRATTERA 25MG CAPSULES | ATOMOXETINE HYDROCHLORIDE | LILLY DEL CARIBE, INC. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## الأمان
 
