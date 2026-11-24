@@ -1,5 +1,5 @@
 {
- "_doc": "2026-11-24 換表時報告原表依序列出的品項（對到證據包 tfda.records 的 license_id），scripts/sync_license_tables.py 的程式表照這個順序列；對不到的列不收",
+ "_doc": "2026-11-24 換表時報告原表依序列出的品項（對到證據包 tfda.records 的 license_id），scripts/sync_license_tables.py 的程式表照這個順序列；對不到的列不收；atazanavir、sacubitril 2026-11-24 第二輪補（市場段落標題是別的寫法，第一輪沒換到）",
  "built": "2026-11-24",
  "stats": {
   "pages": 849,
@@ -4193,6 +4193,14 @@
    "CLOPIXOL TABS 10MG",
    "CLOPIXOL-ACUPHASE 50MG-ML OILY AMP",
    "CLOPIXOL INJ 10MG-ML"
+  ],
+  "atazanavir": [
+   "REYATAZ 200MG CAPSULE",
+   "REYATAZ 150MG CAPSULE"
+  ],
+  "sacubitril": [
+   "ENTRESTO",
+   "ENTRESTO 200 mg film-coated tablet"
   ]
  }
 }

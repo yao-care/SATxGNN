@@ -94,10 +94,14 @@ description: "Sacubitril: الاستطباب الجديد المتوقع Brain s
 
 ## معلومات السوق السعودي
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ENTRESTO | ENTRESTO | غير محدد | غير متوفر (الترخيص ساري) |
-| ENTRESTO 200 mg film-coated tablet | ENTRESTO 200 mg film-coated tablet | غير محدد | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ENTRESTO | VALSARTAN,SACUBITRIL | NOVARTIS | ساري |
+| ENTRESTO 200 mg film-coated tablet | VALSARTAN,SACUBITRIL | NOVARTIS | ساري |
+
+<!-- licenses:end -->
 
 ---
 

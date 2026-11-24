@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ATAZANAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atazanavir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infection) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -82,10 +82,14 @@ description: "Atazanavir: الاستطباب الجديد المتوقع عدو�
 
 ## الترخيص والسوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| REYATAZ 200MG CAPSULE | REYATAZ 200MG CAPSULE | كبسولة | غير مسجل |
-| REYATAZ 150MG CAPSULE | REYATAZ 150MG CAPSULE | كبسولة | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| REYATAZ 200MG CAPSULE | ATAZANAVIR | AstraZeneca Pharmaceuticals LP | ساري |
+| REYATAZ 150MG CAPSULE | ATAZANAVIR | BRISTOL-MYERS SQUIBB | ساري |
+
+<!-- licenses:end -->
 
 ---
 
