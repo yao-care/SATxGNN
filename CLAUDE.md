@@ -66,3 +66,30 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 例：abatacept「الاستطباب الأصلي: غير مسجل في البيانات المحلية」→「المنتجات المسجلة لدى SFDA: 2 (السارية: 2)」；2026-11-19 改了 346 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site SATxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 市場段落許可證表與正文張數改由程式維護（2026-11-24）
+
+用戶 2026-11-24 決定（30 站「許可證張數與狀態不再每週過期」，本站做表＋B）：每週許可證排程只改得到概覽表狀態列／張數列，AI 寫的自由格式許可證表（表頭十幾種寫法，劑型、適應症欄多半寫「غير مسجّل」，
+狀態寫在品名格「(ملغى)」或狀態欄；2026-11-12 就以 33 筆 sa-row 紀錄人工更正過）與正文寫死的張數，會跟主管機關資料矛盾、checker 擋頁。
+- 量測（改前，公開藥物頁 882 頁，沒有 noindex 頁）：有市場段落 869 頁，其中 849 頁有 AI 許可證表、20 頁段落裡沒有表，13 頁沒有市場段落；正文含許可證數字的句子 336 句（非 partial 頁 293、partial 頁 43），
+  跟事實層不符的 0 句（另 25 句是講表上列了幾筆）。本站事實層：SFDA 已註冊人用藥清單只列已註冊品項，有效數＝總數、註銷數＝0。
+- A. `scripts/sync_license_tables.py`（照 HkTxGNN 同名檔）：市場段落（site.MARKET_SECTIONS）第一張表換成程式依證據包 tfda.records 產生的
+  「| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |」：第一欄＝license_id（產品註冊名，SFDA 沒有獨立許可證號，同 site.ID_MATCH），
+  成分、廠商照 SFDA 英文原文（不翻譯、表頭註明），狀態 ساري（license_status＝cancelled 才寫 مُلغى；目前沒有）。選列照換表當時報告原表依序列出的品項（`config/license_table_pins.json`，
+  849 頁 2,513 列中 2,489 列對到證據包 license_id；對不到的 24 列是報告列了、SFDA 清單沒有的品項（例 dapoxetine 的 DEPOJOY、LEJAM、Elong，原表標 ملغى；正文沒有提到這些品名），不收），
+  其餘依單一成分在前、品名排序；列數＝原表列數（最多 20）；總數較多時表下「يعرض الجدول أعلاه N من أصل M من المنتجات المسجلة في البيانات.」，證據包只收部分品項（55 頁）時加
+  「تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.」；段落裡沒有表的 20 頁在標題下補 min(5, 總數) 列。單一成分／複方照成分欄「,」個數（事實層用「;;」切，本站每張都算單方，不能用）。
+  換表時（`--migrate`）拿掉緊鄰舊表、只講表上筆數的說明行 19 行（例「(عُرضت 5 من أصل 7 تراخيص.)」；講其餘品名的說明句不動）。前後 `<!-- licenses:begin/end -->`。
+  快照另存 rows／nrows／partial_line／mix（`scripts/build_license_snapshot.py`）；gate 第 18 項（`src/satxgnn/regulatory/licenses.py` 的 program_block_problems）擋程式區塊≠快照重算、市場段落有程式區塊以外的表。
+  接進：每週排程 `scripts/license_adapter.py` 的 sync_tables（全站重排）與 PAGE_NOTE、`scripts/sync_notes_to_docs.py`（carry_block 移植舊頁程式區塊，寫完再跑 sync_license_tables）。
+- B. `scripts/rewrite_license_counts.py`＋`src/satxgnn/regulatory/count_prose.py`（移植 Kr／My／Hk，阿拉伯文句型）：只改阿拉伯數字＋許可證名詞（ترخيص／تراخيص／ترخيصًا）或講許可證的「(N من M)」；
+  有保留、相對數（آخر／أخرى／إضافي）、講資料或查詢、劑型或廠商子集（數字所在子句有英文字母也算）、顯示筆數（عُرضت／أبرز／أول／منها、「X من أصل Y」的 X）、partial 頁、查核紀錄 replacement／anchor 所在句不動；
+  同一句用文字數詞（الأربعة、ترخيصان…）講張數、同一行另講「其餘幾張」時整行不動；數詞配合：數字後接許可證名詞而新舊數字不在同一組（3～10「تراخيص」、11～99「ترخيصًا」）就不改、列 agreement；
+  單一成分／複方只驗不改；改成 0、原本 0 不改。`apply_drug_reviews.py`（非 --check）結尾與 `build_license_snapshot.py` 結尾自動跑（不帶 --ws 時只依現有快照改寫）；gate 第 22 項擋「再跑一次會變」。
+  2026-11-24 全站跑：改寫 0 句（現行正文張數都跟事實層一致），判斷不了的 0 句；模擬事實變動（每頁總數＝有效數＋1）時改寫 148 行、107 頁，判斷不了的列出：文字數詞 134、ambiguous 8、premise 5、agreement 4、子集 4。
+- 查核紀錄：錨在舊表列上的 33 筆 `sa-row-20261112-*` 標 `status: superseded`＋`superseded_by`；說明框寫死「عدد التراخيص في البيانات: N، منها سارية: V」的 642 筆、更正文字寫死張數／舊表筆數的 6 筆
+  （amlodipine、diclofenac、everolimus、imipenem、insulin_lispro、pantoprazole）同 id 重發（共 645 筆，前版存 history），改成不寫數字、指向概覽表與程式表；site.py 的 FIGURES 同步改成不寫數字。
+  獨立寬偵測另找到單一成分說法跟成分欄相反的 3 頁（diphenylpyraline、ginseng、polymyxin_b，實為全部複方）與決策理由寫唯一許可已註銷的 lonoctocog_alfa（Afstyla 在 SFDA 清單），以 4 筆 `sa-lic-20261124-*` 更正。
+  「下一步」待辦條目以「許可證已全部註銷」為前提的 12 句（11 頁 partial 頁＋lonoctocog_alfa）照規則不改，列進待查清單。
+- 驗證：checker 全量改前 0／改後 0；`--row-status` 0 列；gate exit 0；寬偵測（正文張數不在事實層總數／有效數／程式表列數裡、寫註銷、寫全部單方而成分欄是複方）剩：張數 11 句（劑量、「其餘 N 張」相對數、點名表外品項的說明，都跟事實一致）、待辦條目 11 句（已列待查）。
+- 已知：母目錄 `.claude/license_labels/SATxGNN.json` 把「مُلغى」對到 valid（看起來應是 cancelled）；本站資料目前沒有註銷品項，程式表不會寫到，沒有改母目錄。

@@ -1,0 +1,4198 @@
+{
+ "_doc": "2026-11-24 換表時報告原表依序列出的品項（對到證據包 tfda.records 的 license_id），scripts/sync_license_tables.py 的程式表照這個順序列；對不到的列不收",
+ "built": "2026-11-24",
+ "stats": {
+  "pages": 849,
+  "rows": 2513,
+  "mapped": 2489
+ },
+ "pins": {
+  "abacavir": [
+   "ZIAGEN 300MG TAB",
+   "ZIAGEN 20MG\\ML ORAL SOLUTION"
+  ],
+  "abatacept": [
+   "ORENCIA 125MG Solution for injection in pre-filled syringe",
+   "ORENCIA 250MG POWDER FOR SOLUTION FOR INFUSION"
+  ],
+  "acarbose": [
+   "ACAROSE 25MG TABLETS",
+   "ACAROSE 50MG TABLETS",
+   "ACAROSE 100MG TABLETS",
+   "GLUCOBAY 100MG TAB",
+   "GLUCOBAY 50MG TAB"
+  ],
+  "aceclofenac": [
+   "AIRTAL 100 MG F- C TABLETS",
+   "GLADIO"
+  ],
+  "acemetacin": [
+   "RANTUDIL 90MG RETARD CAPS",
+   "RANTUDIL 60MG FORTE CAPS"
+  ],
+  "acetaminophen": [
+   "TYLENOL SUPP 200 MG",
+   "VONAL 100MG-ML ORAL DROP",
+   "DOLOMOL 325MG SUPP",
+   "EMIDOL 120MG\\5ML SYRUP",
+   "FEVADOL 160MG FAST MELTING TABLETS",
+   "VONAL 500MG TAB.",
+   "CETAMOL 100 MG SUPP",
+   "ADOL 500MG CAPLET",
+   "REVANIN 250MG SUPP FOR CHILDREN",
+   "DOLOMOL 500MG TAB",
+   "OMOL 120MG\\5ML SYRUP",
+   "ADOL DROPS 100MG-ML",
+   "FEVADOL 500MG TAB",
+   "Paracetamol Kabi",
+   "PANADOL SOLUBLE 500MG TAB",
+   "FEVADOL SF 120MG\\5ML SYRUP",
+   "Panda Advance",
+   "PANADOL JUNIOR SACHET 240MG",
+   "TYLENOL FORTE TAB 500MG"
+  ],
+  "acetazolamide": [
+   "DIAMOX TAB 125MG",
+   "DIAMOX 250MG TAB.",
+   "DIAMOX SUSTETS 500 MG",
+   "DIAMOX VIALS 500 MG"
+  ],
+  "acetic_acid": [
+   "HAEMODIALYSIS ACID CONC. SOLU. 35X F-12",
+   "HAEMODIALYSIS ACID CONC. SOLU. 35X F-13",
+   "NON PYROGENIC ACID CONC (12-110-005)I.V",
+   "ACID CONC. HAEMODIALYSIS KSP-05 (1+44)",
+   "ACETATE HEMODIALYSIS CAT.NO 3-085-005"
+  ],
+  "acetylcysteine": [
+   "ACETYLCISTEINE EFFE INSTANT 200MG SACHET",
+   "ACC LONG 600MG EFFERVESCENT TABLETS",
+   "ACC 200MG POWDER FOR ORAL SOLUTION",
+   "ACETYLCYSTEINE 200mg/ml Injection",
+   "FLUIMUCIL 200MG/1GM GRANULES FOR ORAL SOLUTION"
+  ],
+  "acitretin": [
+   "NEOTIGASON 25MG CAPS",
+   "NEOTIGASON 10MG CAPS"
+  ],
+  "acyclovir": [
+   "ZOVIRAX",
+   "ZOVIRAX 200MG\\5ML SUSP",
+   "CLOVIR 200MG TAB",
+   "ACYCLOVIR JPI 500 mg vial",
+   "CLOVIRAX 5% cream"
+  ],
+  "adalimumab": [
+   "Abrilada",
+   "SIMLANDI 40MG/0.4ML SOLUTION FOR INJECTION PFS",
+   "Hyrimoz",
+   "Idacio",
+   "HADLIMA 40MG/0.8ML INJECTION IN PFP"
+  ],
+  "adapalene": [
+   "WATENE 0.1% GEL",
+   "ADOLIN 0.1% W-W CREAM",
+   "DIFFERIN 0.1% GEL",
+   "ADOLIN 0.1% W-W GEL",
+   "WATENE 0.1% CREAM"
+  ],
+  "adefovir_dipivoxil": [
+   "HEPSERA 10MG TABLET"
+  ],
+  "adenosine": [
+   "ADENOCOR 6MG-2ML VIAL",
+   "Xoria",
+   "Cardesine 6mg/2ml Solution for Injection",
+   "ADENOHARDT 30MG/10ML SOLUTION FOR INFUSION",
+   "ADENOHARDT 6MG/2ML SOLUTION FOR INFUSION"
+  ],
+  "aflibercept": [
+   "EYLEA 40 mg/ml solution for injection",
+   "Eylea 40 mg/ml Solution for injection in pre-filled syringe"
+  ],
+  "agomelatine": [
+   "VALDOXAN 25MG FILM COATED TABLET"
+  ],
+  "alanine": [
+   "AMINOPLASMAL B BRAUN 10%",
+   "AMINOPLASMAL 15 % I.V INFUSION SOLN",
+   "OLIMEL N9 emulsion for infusion",
+   "OLIMEL N5E emulsion for infusion",
+   "SMOFKABIVEN PERIPHERAL EMULSION for infusion"
+  ],
+  "albendazole": [
+   "ALBENDA 200 MG TAB",
+   "ALBENDA 100MG\\5ML SUSP"
+  ],
+  "alclometasone": [
+   "PERDERM CREAM 0.05%",
+   "PERDERM OINT 0.05%"
+  ],
+  "alectinib": [
+   "ALECENSA 150 Mg Capsule"
+  ],
+  "alfacalcidol": [
+   "ONE-ALPHA CAPS 0.25 MICROGM",
+   "ONE-ALPHA DROPS 2MICROGRAM-ML",
+   "ONE-ALPHA CAPS 1.0 MICROGM",
+   "ONE-ALPHA 2MCG-ML AMP."
+  ],
+  "alfentanil": [
+   "RAPIFEN 500MCG-ML AMP"
+  ],
+  "alfuzosin": [
+   "XATRAL 5MG S.R.TAB",
+   "XATRAL XL 10 MG",
+   "Hi-Alfa SR",
+   "URITAB XL 10MG EXTENDED RELEASE TABLETS",
+   "ALFOSIN XR 10 mg prolonged-release tablet",
+   "XATRAL 2.5MG TAB"
+  ],
+  "alglucosidase_alfa": [
+   "MYOZYME 50mg Powder For Concentrate For Solution For Infusion"
+  ],
+  "alirocumab": [
+   "PRALUENT 150 mg Prefilled Pen",
+   "PRALUENT 75 mg Prefilled Pen",
+   "PRALUENT 150 mg Prefilled Syringe",
+   "PRALUENT 75 mg Prefilled Syringe",
+   "Praluent 300 mg per 2 ml"
+  ],
+  "aliskiren": [
+   "RASILEZ 300MG F.C. TABLETS",
+   "RASILEZ 150MG F.C. TABLETS"
+  ],
+  "allantoin": [
+   "CONTRACTUBEX"
+  ],
+  "allopurinol": [
+   "UROQUAD TABS 300 MG",
+   "ZYLORIC",
+   "NO-URIC TAB 300MG",
+   "PURINOL 100 MG",
+   "Purout 100 MG TABLETS"
+  ],
+  "alpelisib": [
+   "piqray"
+  ],
+  "alprazolam": [
+   "XANAX 1MG TAB",
+   "XANAX TAB 0.5MG",
+   "XANAX TAB 0.25MG",
+   "XANAX 1 MG TABLET",
+   "XANAX 0.25 MG TABLET"
+  ],
+  "alprostadil": [
+   "CAVERJECT 20MCG VIAL",
+   "VITAROS 3MG/GM CREAM",
+   "PROSTIN VR AMP"
+  ],
+  "alteplase": [
+   "ACTILYSE SET(2VLS+2SOLV&INFSET)"
+  ],
+  "aluminum_acetate": [
+   "NEO-HAEMORRHAN OINT",
+   "NEO-HAEMORRHAN SUPP."
+  ],
+  "aluminum_hydroxide": [
+   "ALUGEL SUSP"
+  ],
+  "amantadine": [
+   "PK-MERZ"
+  ],
+  "ambrisentan": [
+   "VOLIBRIS 5 mg film-coated tablet",
+   "VOLIBRIS 10 mg film-coated tablet"
+  ],
+  "ambroxol": [
+   "MUCOSOLVAN 15MG-5ML ORAL LIQUID",
+   "MUCOSOLVAN LA 75MG CAPS",
+   "MUCOSOLVAN TAB 30MG",
+   "MUCUM 30MG TABLETS",
+   "AMBOLAR"
+  ],
+  "amikacin": [
+   "AMIKIN AMP 500MG-2ML",
+   "AMIKIN AMP 100MG-2ML",
+   "AMCOCID 500MG-2 ML AMP",
+   "MIACIN 500MG-2ML AMP",
+   "AMIKACIN 500MG-2ML INJ VIAL (I.V,IM)"
+  ],
+  "amiloride": [
+   "MODURETIC",
+   "MODURETIC 5-50MG TABLETS",
+   "AMURETIC 5MG/50MG TAB",
+   "APO-AMILZIDE"
+  ],
+  "aminocaproic_acid": [
+   "EPSIKAPRON EFF. POWDER 9 GM",
+   "EPSIKAPRON AMP 4G+WATER FOR INJ 10ML"
+  ],
+  "aminophylline": [
+   "AMINOPHYLLINE 250 Mg Injection*",
+   "NEOPHYLLIN TAB 100MG",
+   "AMINOPHYLLINE INJ 250MG"
+  ],
+  "amiodarone": [
+   "SEDACORON 200MG TAB",
+   "CORDARONE 150MG-3ML AMP.",
+   "AMIRONE 200MG TABLET",
+   "SEDACORON solution for injection",
+   "CORDARONE 200MG TAB"
+  ],
+  "amlodipine": [
+   "ZILDAFIT 10 MG TABLET",
+   "LODIPAM 2.5 mg Film-Coated Tablet",
+   "LOTENSE 10MG CAPSULES",
+   "AMEP 10 mg Tablet",
+   "AMLOR 10MG CAPSULES"
+  ],
+  "ammonium_chloride": [
+   "DRAMYLIN SYRUP",
+   "BRONCHOLASE SYP",
+   "VISCODRIL EXPECTORANT 100ML SYRUP",
+   "ROMILAR EXP SYRUP",
+   "AMYDRAMINE EXPECTORANT SYRUP"
+  ],
+  "amodiaquine": [
+   "KITNOS TABLETS 200MG"
+  ],
+  "amorolfine": [
+   "LOCERYL 5% NAIL LACQUER",
+   "Kurenail"
+  ],
+  "amoxicillin": [
+   "FLEMOXIN SYRUP 125 MG-5 ML",
+   "Juvamox",
+   "HYMOX 200MG-5ML POWDER FOR SUSPENSION",
+   "OSPAMOX 500MG TAB",
+   "MOXIDAD CAPSULES 250 MG"
+  ],
+  "ampicillin": [
+   "EPICOCILLIN VIAL 500MG",
+   "STANDACILLIN 500MG INJ WITH SOLVENT",
+   "AMPICILLIN 1GM POWDER FOR IV AND IM INJECTION",
+   "PENBRITIN VIAL 250 MG",
+   "AMPICILLIN 500MG POWDER FOR IV AND IM INJECTION"
+  ],
+  "amylmetacresol": [
+   "STREPSILS PAIN RELIEF PLUS LOZENGE"
+  ],
+  "anakinra": [
+   "Kineret"
+  ],
+  "antazoline": [
+   "APIHIST EYE\\NOSE DROP",
+   "SPERSALLERG  EYE DROPS",
+   "NAZOLIN NASAL DROPS",
+   "NOSCAM",
+   "OCURED"
+  ],
+  "antihemophilic_factor_human_recombinant": [
+   "KOGENATE FS"
+  ],
+  "apixaban": [
+   "ELIQUIS 5MG FILM COATED TABLET",
+   "ELIQUIS 2.5MG FILM COATED TABLET",
+   "PAQUIX 5 MG FILM COATED TABLET",
+   "Pexapan",
+   "Xcard"
+  ],
+  "apomorphine": [
+   "Dacepton"
+  ],
+  "apraclonidine": [
+   "IOPIDINE 0.5% OPTH.SOLN."
+  ],
+  "aprepitant": [
+   "ENEVOM 80 MG CAPSULE",
+   "ENEVOM 125 MG CAPSULE"
+  ],
+  "arginine": [
+   "AMINOPLASMAL B BRAUN 10%",
+   "AMINOPLASMAL 15 % I.V INFUSION SOLN",
+   "OLIMEL N9 emulsion for infusion",
+   "OLIMEL N5E emulsion for infusion",
+   "OLIMEL N7E emulsion for infusion"
+  ],
+  "aripiprazole": [
+   "ZOLINDA 15 mg tablet",
+   "ABILIFY MAINTENA 400 mg Powder And Solvent For Prolonged-Release",
+   "ARPENIA 10 mg tablet",
+   "ARIPO 10 mg tablet",
+   "ARIPEX 15 mg tablet"
+  ],
+  "articaine": [
+   "POSICAINE 200 INJECTION"
+  ],
+  "ascorbic_acid": [
+   "REDOXON EFFERVESCENT TAB",
+   "CEBION DROPS",
+   "VIFORCIT EFFERVESCENT TABLET",
+   "CEVILENE DROPS",
+   "JOSWE C 100MG EFFERVESCENT TABLETS"
+  ],
+  "asfotase_alfa": [
+   "STRENSIQ"
+  ],
+  "aspartic_acid": [
+   "AMINOPLASMAL B BRAUN 10%",
+   "AMINOPLASMAL 15 % I.V INFUSION SOLN",
+   "OLIMEL N9 emulsion for infusion",
+   "OLIMEL N5E emulsion for infusion",
+   "OLIMEL N7E emulsion for infusion"
+  ],
+  "ataluren": [
+   "TRANSLARNA"
+  ],
+  "atenolol": [
+   "POTOLAN 100MG TAB",
+   "NORMOTEN 50 MG F.C. TAB",
+   "CARDOL 100MG TAB",
+   "TENORMIN TAB 100MG",
+   "TENORMIN INJ 500MCG-ML"
+  ],
+  "atezolizumab": [
+   "TECENTRIQ 60 mg/ml Concentrate For Solution For Infusion"
+  ],
+  "atorvastatin": [
+   "LIPITOR 20MG F.C TAB",
+   "APO-ATORVASTATIN 10 mg Tablet",
+   "TULIP 80 mg film-coated tablet",
+   "LIPIGARD 40 mg film-coated tablet",
+   "TOVAST 20 MG F-C TABLETS"
+  ],
+  "atosiban": [
+   "TRACTOCILE concentrate for solution for infusion",
+   "PREMABAN",
+   "TRACTOCILE solution for injection"
+  ],
+  "avatrombopag": [
+   "Doptelet"
+  ],
+  "avelumab": [
+   "BAVENCIO"
+  ],
+  "avibactam": [
+   "ZAVICEFTA 2 g/0.5 g Vial"
+  ],
+  "axitinib": [
+   "INLYTA 5 mg film-coated tablet",
+   "INLYTA 1 mg film-coated tablet"
+  ],
+  "azapropazone": [
+   "PROLIXAN 300MG CAPS"
+  ],
+  "azithromycin": [
+   "ZITHROMAX 200MG-5ML SUSP.AFTER RECONSTIT",
+   "ZITHROMAX 250MG CAPS",
+   "ZITHROMAX 500 MG POWDER FOR IV INFUSION",
+   "ZIMAX 500MG F.C. TABLETS",
+   "ZOCIN 250MG CAPSULE"
+  ],
+  "bacampicillin": [
+   "BACACIL 400MG TAB"
+  ],
+  "bacitracin": [
+   "BANEOCIN OINTMENT",
+   "BATRAMYCIN POWDER",
+   "BANEOCIN POWDER",
+   "POLYSPECTRAN EYE & EAR OINTMENT",
+   "MULTISOL AEROSOL SPRAY (150 GM )"
+  ],
+  "baclofen": [
+   "BACLOFEN INTRATHECAL SINTETICA 0.05MG/ML INJECTION",
+   "LIORESAL 10MG TAB",
+   "BACLOFEN INTRATHECAL SINTETICA 0.5MG/ML INJECTION",
+   "LIORESAL 25MG TAB",
+   "BACLOFEN INTRATHECAL SINTETICA 2MG/ML INJECTION"
+  ],
+  "baricitinib": [
+   "OLUMIANT 2 mg Film Coated Tablet",
+   "OLUMIANT 4 mg Film Coated Tablet"
+  ],
+  "beclomethasone_dipropionate": [
+   "BECLAZONE 100MCG CFC-FREE INHALER",
+   "CLENIL FORTE 250MCG PUFF METERED INHALER",
+   "RINO-CLENIL 50MCG-PUFF NASAL SPRAY SOLU.",
+   "BECONASE AQUEOUS NASAL SPRAY",
+   "BECLOHALE 250MCG-DOSE INHALER"
+  ],
+  "befunolol": [
+   "GLAUCONEX 0.5% EYE DROPS",
+   "GLAUCONEX 0.25% EYE DROPS"
+  ],
+  "belimumab": [
+   "BENLYSTA 400MG POWDER FOR SOLUTION FOR INFUSION",
+   "BENLYSTA 120MG POWDER FOR SOLUTION FOR INFUSION",
+   "Benlysta"
+  ],
+  "bendamustine": [
+   "RIBOMUSTIN 100 mg powder for concentrate for solution for infusion",
+   "Squadaion",
+   "RIBOMUSTIN 25 mg powder for concentrate for solution for infusion",
+   "Bendokey"
+  ],
+  "benralizumab": [
+   "FASENRA Pen",
+   "FASENRA 30MG/ML SOL. FOR INJECTION"
+  ],
+  "benzocaine": [
+   "CLOVAINE 10% W/W GEL",
+   "CLOVAINE 10% w/wgel"
+  ],
+  "benzoyl_peroxide": [
+   "PANOXYL 10 ACNE GEL",
+   "PANOXYL 5 LOTION",
+   "ACNEZOYL 2.5 % GEL",
+   "ACNEZOYL 5% GEL",
+   "BENZAC AC 2.5% GEL"
+  ],
+  "benzylpenicillin": [
+   "PENICILLIN-G SOD 500000 IU VIAL",
+   "PENICILLIN G INJ 1 MILLION IU"
+  ],
+  "beta_carotene": [
+   "CENTRUM WITH LUTEIN TABLETS",
+   "CENTRUM SILVER TABLETS"
+  ],
+  "betamethasone": [
+   "BETAVAL OINT 0.1%",
+   "RIAVATE SKIN OINTMEN 0.1%",
+   "BEVASON 0.1% CREAM",
+   "CELESTODERM-V CREAM 0.1%",
+   "DIPROSONE OINTMENT 0.05%"
+  ],
+  "betaxolol": [
+   "BETOPTIC OPTHALMIC SOLUTION 0.5%",
+   "RIALOL",
+   "KERLONE TAB F.C. 20MG"
+  ],
+  "bevacizumab": [
+   "AVASTIN 400 solution for infusion",
+   "Zirabev",
+   "MVASI",
+   "AVASTIN 100 solution for infusion"
+  ],
+  "bicalutamide": [
+   "CLAMUDEX"
+  ],
+  "bictegravir": [
+   "BIKTARVY"
+  ],
+  "bimatoprost": [
+   "LUMIGAN 0.3MG - ML EYE DROPS",
+   "LUMIGAN 0.1MG/ML EYE DROPS"
+  ],
+  "biotin": [
+   "Biotin Arnet"
+  ],
+  "biperiden": [
+   "AKINETON 2MG TAB",
+   "AKINETON RETD. 4MG TAB",
+   "AKINETON 5MG-ML AMP"
+  ],
+  "bleomycin": [
+   "BLEOCIN 15MG VIAL"
+  ],
+  "bosentan": [
+   "TRACLEER 125 MG FILM COATED TABLET",
+   "TRACLEER 62.5 MG FILM COATED TABLET",
+   "GONISTA 125MG F.C TABLETS",
+   "PERTENSIO 125 mg Film-Coated Tablet",
+   "BOSENTOR 125 mg Film-Coated Tablet"
+  ],
+  "brentuximab_vedotin": [
+   "ADCETRIS 50 mg powder for concentrate for solution for infusion"
+  ],
+  "brigatinib": [
+   "ALUNBRIG"
+  ],
+  "brinzolamide": [
+   "AZOPT 1%"
+  ],
+  "brivaracetam": [
+   "BRIVIACT 25MG F.C.TABLET",
+   "BRIVIACT 10MG/ML ORAL SOLUTION",
+   "BRIVIACT 10MG F.C.TABLET",
+   "BRIVIACT 50MG F.C.TABLET",
+   "BRIVIACT 10MG/ML VIAL"
+  ],
+  "brolucizumab": [
+   "Beovu"
+  ],
+  "bromazepam": [
+   "LEXOTANIL TAB. 3MG",
+   "LEXOTANIL TAB. 1.5 MG.",
+   "LEXOTANIL TAB. 6 MG."
+  ],
+  "bromocriptine": [
+   "PARLODEL 2.5 MG TAB"
+  ],
+  "brompheniramine": [
+   "DIMETAPP ELIXIR ALCOHOL FREE"
+  ],
+  "budesonide": [
+   "PULMICORT TURBUHALER 200MCG-DOSE",
+   "RHINOCORT AQUA 64MCG NASAL SPRAY",
+   "CORTIMENT MMX 9 MG PROLONGED RELEASE TABLET",
+   "Pulmirema 0.5 mg",
+   "ENTOCORT 20MCG-ML ENEMA AFTER RECONSTITU"
+  ],
+  "bumetanide": [
+   "BURINEX TABLETS 1 MG"
+  ],
+  "bupivacaine": [
+   "BUCAINE 0.5% solution for injection",
+   "BETOLINA 5MG/ML INJECTION",
+   "BUPIVACAINE 0.5% STERILE PACK AMP.",
+   "BUPIVACAINE 0.25% STERILE PACK AMP.",
+   "MARCAINE INJ 0.5%"
+  ],
+  "buprenorphine": [
+   "BUTRANS 10 mcg/hour transdermal patch",
+   "Buvidal",
+   "BUTRANS 20 mcg/hour transdermal patch",
+   "BUTRANS 5 mcg/hour transdermal patch"
+  ],
+  "bupropion": [
+   "ZYBAN 150MG TABLET",
+   "WELLBUTRIN XL 150 EXTENDED RELEASE F.C.TABLET",
+   "WELLBUTRIN XL 300 EXTENDED RELEASE F.C.TABLET"
+  ],
+  "butenafine": [
+   "DERFINA 1% SPRAY",
+   "BUTAFYL 1% W/V SPRAY",
+   "DERFINA 1% LOTION",
+   "DERFINA 1% CREAM",
+   "BUTAFYL 1% cream"
+  ],
+  "cabazitaxel": [
+   "JEVTANA 60 mg concentrate and solvent for solution for infusion",
+   "NEUTAXAN",
+   "Xatiza 60 mg  / 1.5 ml",
+   "Cabazitaxel SPC 60mg/1.5ml"
+  ],
+  "cabozantinib": [
+   "CABOMETYX 60 mg F.C. Tablet",
+   "CABOMETYX 40 mg F.C. Tablet",
+   "CABOMETYX 20 mg F.C. Tablet"
+  ],
+  "caffeine": [
+   "PEYONA 20MG/ML SOL. FOR INF. AND ORAL Solution",
+   "BIOCAFFCIT",
+   "CAFFEINE CITRATE 10 mg/ml Solution For Injection"
+  ],
+  "calcipotriol": [
+   "Enstilar",
+   "ROLIP ointment",
+   "DAIVOBET GEL",
+   "DAIVOBET OINTMENT"
+  ],
+  "calcitriol": [
+   "CALCIJEX 2MCG-ML AMP",
+   "ROCALTROL CAP 0.5MCG",
+   "CALCIJEX 1MCG-ML I.V. AMP",
+   "ROCALTROL CAP 0.25MCG"
+  ],
+  "calcium_lactate": [
+   "RICHBORN CAPS"
+  ],
+  "calcium_lactate_gluconate": [
+   "CALCEFOR EFFV. TAB"
+  ],
+  "camphor": [
+   "VICKS INHALER 0.014 OZ",
+   "TIGER BALSAM",
+   "VICKS VAPORUB OINT",
+   "GOLD MEDAL MEDICATED OIL",
+   "VICKS VAPORUB OINTCamphor"
+  ],
+  "canakinumab": [
+   "ILARIS 150MG",
+   "ILARIS"
+  ],
+  "candesartan_cilexetil": [
+   "ATACAND 8 MG TAB",
+   "ATACAND 16 MG TAB",
+   "CANDEZA 8 mg Tablet",
+   "CANDEPRESS 8 mg tablet",
+   "BLOPRESS 8MG TAB."
+  ],
+  "capecitabine": [
+   "XELODA 500MG TABLET",
+   "XELODA 150MG TABLET",
+   "Aceda 500mg F.C.Tablet",
+   "Catabina",
+   "CAPECITABINE SPC 500 mg Film Coted Tablet"
+  ],
+  "caplacizumab": [
+   "Cablivi"
+  ],
+  "carbamazepine": [
+   "TEGRETOL TAB 200MG",
+   "TEGRETOL CR 200MG SCORED TAB",
+   "TEGRETOL 2% oral suspension",
+   "EPTOL 200 MG TAB",
+   "CARBATOL 200MG TAB"
+  ],
+  "carbetocin": [
+   "PABAL RTS 100 mcg/ml Solution for Injection"
+  ],
+  "carbocisteine": [
+   "BRONCHOBOS 375 MG CAPSULES",
+   "RHINATHIOL EXPECTORANT CARBOCISTEINE 5% SYRUP FOR ADULT",
+   "RHINATHIOL CAPS 375MG",
+   "RHINATHIOL SYRUP 20MG-ML CHILDREN",
+   "RHINATHIOL PLUS"
+  ],
+  "carfilzomib": [
+   "KYPROLIS 60 mg Powder For Solution For Injection",
+   "Carfilzomib SPC"
+  ],
+  "carteolol": [
+   "CARTEOL LP 2% PRLONGED RELEASE EYE DROPS",
+   "CARTEOL LP 1% PRLONGED RELEASE EYE DROPS",
+   "TEOPTIC 2 % EYE DROPS"
+  ],
+  "carvedilol": [
+   "DILATREND 25MG TABLET",
+   "Ravildo 3.125 mg F.C Tablets",
+   "CARVOLCAN 6.25 MG TABLET",
+   "CARVIDOL 12.5 MG TAB",
+   "RIACAVILOL 25MG TABLET"
+  ],
+  "catridecacog": [
+   "NovoThirteen (rFXIII) powder and solvent for solution for injection"
+  ],
+  "cefazolin": [
+   "ZOLECIN 250MG INJ IM-IV",
+   "ZOLECIN 500MG INJ IM-IV",
+   "ZOLECIN 1GM VIAL I.V",
+   "KEFZOL 1 GM.-10 ML. VIAL",
+   "TAZOLINE 1GM VIAL IV+10ML WATER FOR INJ."
+  ],
+  "cefoperazone": [
+   "CEFOBID 1GM VIAL I-M & I-V",
+   "CEFOBID 2GM VIAL I-M & I-V"
+  ],
+  "cefoxitin": [
+   "FOXITIN 1GM VIAL I.V OR I.M ADMINISTRATI"
+  ],
+  "cefpodoxime": [
+   "CEFODOX 200 MG FILM COATED TABLETS",
+   "Cefodox",
+   "ORELOX 100MG TABLETS",
+   "EMDOX 200 mg Film-coated Tablets",
+   "EMDOX 100 mg/5 ml DS",
+   "CEFODOX 100MG-5ML SUSPENSION"
+  ],
+  "cefprozil": [
+   "CEFZIL 125MG-5ML SUSP",
+   "CEFZIL 250MG TAB",
+   "CEFZIL 250MG-5ML SUSP",
+   "CEFPROZ 250MG/5ML POWDER FOR ORAL SUSPENSION",
+   "CEFZIL 500MG TAB"
+  ],
+  "ceftolozane": [
+   "ZERBAXA Powder For Injection Vial"
+  ],
+  "ceftriaxone": [
+   "ROCEPHIN 1GM i.m. + 3.5 ML SOLVENT",
+   "ROCEPHIN 500MG i.v. + 5 ML SOLVENT",
+   "MESPORIN 1000 I.V",
+   "SAMIXON 1GM VIAL",
+   "CEFAXON 1GM I.V VIAL"
+  ],
+  "cefuroxime": [
+   "MAXIL 750 VIAL",
+   "ZINACEF 750 mg",
+   "XORIM 1500MG POW. FOR SOLU. FOR I.V. INJ",
+   "ZINOXIME 750MG VIAL FOR I.V- I.M",
+   "CEFUZIME 750 MG INJECTION,I.M - I.V VIAL"
+  ],
+  "celecoxib": [
+   "CELEBREX 200MG CAPSULE",
+   "CELEBREX 400 mg capsule",
+   "CELEBREX 100MG CAPSULE",
+   "REVCOX 200MG CAPSULE",
+   "CELECT 200 MG CAPSULE"
+  ],
+  "centella_asiatica": [
+   "MADECASSOL 10MG TABLET",
+   "MADECASSOL OINTMENT",
+   "MADECASSOL POWDER",
+   "MADECASSOL Injection*"
+  ],
+  "ceritinib": [
+   "ZYKADIA 150 mg capsule"
+  ],
+  "certolizumab_pegol": [
+   "CIMZIA 200 mg Solution for Injection"
+  ],
+  "cetrorelix": [
+   "CETROTIDE 3MG POW. FOR SOLU. FOR INJ.",
+   "CETROTIDE 0.25MG POW. FOR SOLU. FOR INJ."
+  ],
+  "cetuximab": [
+   "Erbitux"
+  ],
+  "chlorambucil": [
+   "LEUKERAN 5 MG. TAB.",
+   "LEUKERAN 2 MG. TAB.",
+   "LEUKERAN 2 MG. TAB"
+  ],
+  "chloramphenicol": [
+   "OFTHALMOLOSA CUSI CHLORAMPHEN.OINT 1%",
+   "COLIRCUSI CHLORAMPHENICOL 0.5% DROPS",
+   "RIACHOL 0.5% EYE DROP",
+   "SOLUPARAXIN 1G VIAL+SOLVENT",
+   "CHLORAMEX SYRUP 160MG-5ML"
+  ],
+  "chlordiazepoxide": [
+   "POXIDIUM TAB",
+   "LIBRAX TABLET"
+  ],
+  "chloroquine": [
+   "MALAREX SYRUP 120MG-5ML",
+   "MALAREX TABLETS 250mg",
+   "CHLOROQUINE",
+   "RESOCHIN TAB 250MG",
+   "CHLOROQUIN PHOSPHATE 80MG/5ML SYRUR"
+  ],
+  "chlorpheniramine": [
+   "PIRAFENE TAB 4MG",
+   "ANALLERGE 4 MG TAB",
+   "CHLOROHISTOL SYRUP 2 MG - 5 ML",
+   "HISTOP TAB 4MG",
+   "ALLERFIN TABLETS 4MG"
+  ],
+  "chlorphenoxamine": [
+   "SYSTRAL CREAM 1.5%"
+  ],
+  "chlorthalidone": [
+   "HYGROTON 50MG TABLETS"
+  ],
+  "chlorzoxazone": [
+   "SOLAXIN TAB 200MG",
+   "Relaxon Forte 500MG TAB"
+  ],
+  "ciclesonide": [
+   "ALVESCO 160MCG-PUFF INHALER",
+   "ALVESCO 80MCG-PUFF INHALER"
+  ],
+  "cilazapril": [
+   "INHIBACE 1MG TAB",
+   "INHIBACE 5MG TAB",
+   "INHIBACE 2.5MG TAB"
+  ],
+  "cimetidine": [
+   "TAGAMET TABLETS 400 MG.",
+   "CIMEDINE",
+   "ADIATIN TAB 200MG",
+   "DYSPAMET SUSP 200MG-5ML",
+   "CITIUS TAB 200MG"
+  ],
+  "cinchocaine": [
+   "NUPERCAINAL 1% OINT."
+  ],
+  "ciprofibrate": [
+   "MODALIM 100MG TAB"
+  ],
+  "ciprofloxacin": [
+   "EMICIPRO 750MG TABLETS",
+   "CIPROFLACIN 250 MG FILM COATED TABLETS",
+   "CIPROFLOX 500MG TAB",
+   "CIPROLON 750MG F.C. TABLETS",
+   "CIPROMAX 0.3% EYE-EAR DROPS"
+  ],
+  "cisatracurium": [
+   "CIS-TAC",
+   "NIMBEX 5MG\\ML INJ",
+   "SISACURE 2MG/ML AMPOULE",
+   "Traxia",
+   "Salocan"
+  ],
+  "citalopram": [
+   "LECITAL 20MG F.C. CAPLETS",
+   "CITALOGEN 20 mg film-coated tablet",
+   "CIPRAM 20MG TAB",
+   "CITALOPRAM HEXAL 20MG F.C. TABLETS",
+   "LOPRA 20MG TABLET"
+  ],
+  "citric_acid": [
+   "FAWAR LEMON EFFERVESCENT SALT SACHETS 5G",
+   "ANDREWS LIVER SALT SACHET 5GM",
+   "EPICO EFFERVESCENT SALT",
+   "PICOPREP POWDER FOR ORAL SOLUTION",
+   "CITRO-SODA GRANULES"
+  ],
+  "cladribine": [
+   "MAVENCLAD"
+  ],
+  "clarithromycin": [
+   "KLARE 500 mg film-coated tablet",
+   "CLARITT 250 MG - 5 ML SUSPENSION",
+   "CLARITT XL 500MG EXTENDED RELEASE TABLETS",
+   "KLACID 500MG IV POWDER FOR INJECTION",
+   "KLACID 500MG COATED TAB"
+  ],
+  "clavulanic_acid": [
+   "AUGMENTIN 625MG TAB",
+   "AUGMENTIN 156 Mg-5 ML SUSPENSION",
+   "MEGAMOX 625 MG TAB",
+   "CURAM 2.2GM POW. FOR SOLN. FOR INJECTION- INFUSION",
+   "OGMANT 600 MG Powder for injection"
+  ],
+  "clemastine": [
+   "TAVEGYL SYRUP 1MG-10 CC",
+   "TAVEGYL TAB 1MG",
+   "TAVEGYL INJ 2MG-2ML"
+  ],
+  "clidinium": [
+   "POXIDIUM TAB",
+   "LIBRAX TABLET"
+  ],
+  "clindamycin": [
+   "DALACIN T TOPICAL SOLN 1%",
+   "DALACIN-C 150 MG CAPS",
+   "DALACIN VAGINAL CREAM 2%",
+   "CLINDAMYCIN PHOSPHATE 150MG-ML INJ",
+   "MEDACIN -T 1% GEL"
+  ],
+  "clioquinol": [
+   "VIODERM CREAM 3%"
+  ],
+  "clobazam": [
+   "TAPCLOB 10MG/5ML ORAL SUSPENSION",
+   "TAPCLOB 5MG/5ML ORAL SUSPENSION"
+  ],
+  "clobetasol_propionate": [
+   "DERMOVATE CREAM 0.05%",
+   "DERMOVATE OINTMENT 0.05%",
+   "ETRIVEX 0.05% SHAMPOO",
+   "GAMAVATE 0.05% ointment",
+   "CLODERM 0.05% CREAM"
+  ],
+  "clobetasone": [
+   "CLOBATE 0.05% OINTMENT",
+   "CORTOFTAL 0.1% OPTH.SUSP",
+   "EUMOVATE OINTMENT",
+   "EUMOVATE CREAM",
+   "CLOBESON"
+  ],
+  "clofarabine": [
+   "Retebin",
+   "Allbloc"
+  ],
+  "clofazimine": [
+   "LAMPRENE CAPS. 100 MG."
+  ],
+  "clomifene": [
+   "FERTAB 50MG TAB",
+   "CLOMID 50MG TAB"
+  ],
+  "clomipramine": [
+   "ANAFRANIL TABLETS 25 MG",
+   "ANAFRANIL TAB 10MG"
+  ],
+  "clonazepam": [
+   "RIVOTRIL TAB 2 MG",
+   "RIVOTRIL AMP 1MG+SOLV 1ML",
+   "RIVOTRIL TAB 0.5MG",
+   "RIVOTRIL 2.5MG-ML ORAL SOLUTION"
+  ],
+  "clotrimazole": [
+   "CANESTEN SOLUTION 1%",
+   "CLOTREX",
+   "DERMATIN CREAM 1%",
+   "CANESTEN CREAM 1%",
+   "CLOZOLE 1% TOPICAL SOLUTION"
+  ],
+  "clozapine": [
+   "Zapnex",
+   "LEPONEX 25MG TAB",
+   "LEPONEX 100MG TAB"
+  ],
+  "cobicistat": [
+   "GENVOYA Film-coated Tablet"
+  ],
+  "cobimetinib": [
+   "COTELLIC 20 mg film-coated tablet"
+  ],
+  "colchicine": [
+   "COLMEDITEN TAB",
+   "GOTINE 0.6MG TAB"
+  ],
+  "colistin": [
+   "COLISTOP SUSP"
+  ],
+  "corifollitropin_alfa": [
+   "ELONVA 150 mcg Solution For Injection",
+   "ELONVA 100 mcg Solution For Injection"
+  ],
+  "crizotinib": [
+   "XALKORI 200MG CAPSULE",
+   "XALKORI 250MG CAPSULE"
+  ],
+  "cyanocobalamin": [
+   "CYTOBION",
+   "BETOLVEX INJ 1MG",
+   "JECTIN-12 Solution For Injection",
+   "CYNOVIT 1MG-1ML I.M. Injection*"
+  ],
+  "cyclopentolate": [
+   "SECLODYN 1% EYE DROPS",
+   "COLIRCUSI-CICLOPLEGIC 1%",
+   "CYCLOPENTOLATE 0.5%THILO EYE DROPS",
+   "CYCLOPENTOLATE 1% THILO EYE DROPS",
+   "CYCLATE 0.5% EYE DROPS"
+  ],
+  "cyclophosphamide": [
+   "ENDOXAN. VIAL 500 MG",
+   "ENDOXAN. VIAL 1 GM.",
+   "ENDOXAN. VIAL 200 MG",
+   "CYCLOPHOSPHAMIDE 1000MG VIAL",
+   "ENDOXAN SUGAR COATED TABLET"
+  ],
+  "cyclosporine": [
+   "SANDIMMUN 50MG-ML AMPULE",
+   "SANDIMMUN NEORAL DRINK 100MG-ML",
+   "RESTASIS 0.05% Eye Drop Emulsion",
+   "GENGRAF 100 MG MODIFIED CAPSULE",
+   "SANDIMMUN NEORAL 100MG CAPS"
+  ],
+  "cyproheptadine": [
+   "PERIACTIN",
+   "CIPTADINE TAB 4MG",
+   "PERIACTIN 4MG TABLETS"
+  ],
+  "cyproterone_acetate": [
+   "ANDROCUR 50MG TAB.",
+   "ANDROCUR 50MG TAB"
+  ],
+  "dabigatran_etexilate": [
+   "PRADAXA 75MG CAPSULES",
+   "PRADAXA 110MG CAPSULES",
+   "PRADAXA 150MG CAPSULES",
+   "DABITRAN"
+  ],
+  "dacarbazine": [
+   "Dacarbazine medac",
+   "DETICENE 200MG I.V VIAL",
+   "DETICENE 100MG I.V VIAL+SOLV 10ML AMP"
+  ],
+  "daclatasvir": [
+   "LEVERA 30 mg film-coated tablet",
+   "DAKLINZA 60 mg film-coated tablet",
+   "LEVERA 60 mg film-coated tablet"
+  ],
+  "danazol": [
+   "DANOL CAPS 100MG",
+   "DANOL CAPS 200MG"
+  ],
+  "dapoxetine": [
+   "PRILIGY"
+  ],
+  "daptomycin": [
+   "DACI",
+   "DOCINE 500 mg Vial",
+   "DAPTOCIDAL",
+   "DAPTOMYCIN BOS"
+  ],
+  "darolutamide": [
+   "NUBEQA"
+  ],
+  "darunavir": [
+   "PREZISTA 600 mg film-coated tablet",
+   "Darista",
+   "PREZISTA 400 mg film-coated tablet",
+   "PREZISTA 300MG F.C. TABLETS"
+  ],
+  "dasabuvir": [
+   "EXVIERA 250 mg film-coated tablet"
+  ],
+  "dasatinib": [
+   "SPRYCEL 20MG F.C. TABLETS",
+   "Fylibix",
+   "SPRYCEL 50MG F.C. TABLETS",
+   "Otrasa",
+   "ELPIDA 70MG FILM COATED TABLET"
+  ],
+  "daunorubicin": [
+   "DAUNOBLASTINA 20MG VIAL+SOLV"
+  ],
+  "decitabine": [
+   "Decitabine SPC 50mg for Injection",
+   "Decanta"
+  ],
+  "deferasirox": [
+   "EXJADE 125MG DISPERSIBLE TABLETS",
+   "EXJADE 250MG DISPERSIBLE TABLETS",
+   "JADENU 90 mg Film-coated Tablet",
+   "CHELATON 250MG DISPERSIBLE TABLET FOR ORAL SUSPENSION",
+   "DEFIROX 250 mg dispersible tablet"
+  ],
+  "deferiprone": [
+   "FERRIPROX 500MG F.C.TABLET",
+   "FERRIPROX 100MG/ML ORAL SOLUTION"
+  ],
+  "defibrotide": [
+   "Defitelio 200 mg per 2.5"
+  ],
+  "degarelix": [
+   "FIRMAGON 120 MG POWDER FOR SOLUTION FOR INJECTION",
+   "FIRMAGON 80MG POWDER FOR SOLUTION FOR INJECTION"
+  ],
+  "dehydrocholic_acid": [
+   "GALLO MERZE SPASMLYTIC",
+   "ZYMOGEN"
+  ],
+  "denosumab": [
+   "PROLIA 60MG/ML SOLUTION FOR INJECTION",
+   "XGEVA 120 mg solution for injection"
+  ],
+  "desloratadine": [
+   "Lorius",
+   "DARINE",
+   "DESLORATADINE-GLENMARK 5MG TAB",
+   "NEORIN 5MG F.C. TABLET",
+   "AERIUS 2.5 MG-5ML SYRUP"
+  ],
+  "desogestrel": [
+   "DESOGEST 0.075 mg tablet",
+   "CERAZETTE 75MCG TAB",
+   "DESIRETT 75 mcg Film-Coated Tablets"
+  ],
+  "desvenlafaxine": [
+   "DAVLEX",
+   "PRISTIQ 50MG EXTENDED RELEASE TABLETS"
+  ],
+  "dexamethasone": [
+   "OZURDEX 700 mcg Intravitreal Implant In Applicator",
+   "ORADEXON 1.5 MG TABS",
+   "ORADEXON AMPULES 5 MG.-ML.",
+   "MILLICORTEN 1 MG",
+   "Adrixa"
+  ],
+  "dexbrompheniramine": [
+   "DISOPHROL S-A TAB"
+  ],
+  "dexchlorpheniramine": [
+   "POLARAMINE EXPECTORANT SYP"
+  ],
+  "dexketoprofen": [
+   "KETESSE 25MG F.C.TABLET"
+  ],
+  "dexlansoprazole": [
+   "INSTIGAR 60 mg Delayed-Release Capsule",
+   "INSTIGAR 30 mg Delayed-Release Capsule",
+   "DEXILANT 60 mg",
+   "DEXILANT 30 mg"
+  ],
+  "dexmedetomidine": [
+   "Naplax",
+   "Demexa",
+   "SEDALERT 100 MCG -ML IV. VIAL",
+   "PRECEDEX 100 MCG -ML IV. VIAL",
+   "SOPORIDEX"
+  ],
+  "dexpanthenol": [
+   "BEPANTHEN",
+   "PANTHENOL",
+   "DEXANOL CREAM 30 GM",
+   "RECUGEL Eye Gel",
+   "PANTHOPHIL 5% OINTMENT"
+  ],
+  "dextromethorphan": [
+   "CONTRASAL 15MG-5ML SYRUP",
+   "TUSSILAR TAB",
+   "RIAPHAN 15 mg per 5 ml",
+   "ROMIN 15 MG-5 ML SYRUP",
+   "EXEDEXE 15MG\\5ML SYRUP"
+  ],
+  "diatrizoate": [
+   "GASTROGRAFIN 76-ORAL AQUEOUS SOLN."
+  ],
+  "diazepam": [
+   "DIAPAM 10MG/2ML SOL. FOR INJ./INF",
+   "VALIUM TAB 10 MG",
+   "VALIUM TAB 5MG",
+   "VALIUM AMP 10MG-2ML",
+   "STESOLID TAB 2 MG"
+  ],
+  "diclofenac": [
+   "VOLTAREN 75 Mg SR TABLET",
+   "OFLAM 50MG GRANULES FOR ORAL SOLUTION",
+   "TABIFLEX SUPPOSITORIES 12.5MG-SUPP.",
+   "VOLTIC -D 50MG DISPERSIBLE TABLETS",
+   "DICLOMAX 1% EMULGEL"
+  ],
+  "dienogest": [
+   "VISANNE 2MG TABLETS"
+  ],
+  "diethylcarbamazine": [
+   "BANOCIDE 50 MG TAB"
+  ],
+  "diflunisal": [
+   "DOLOBID"
+  ],
+  "digoxin": [
+   "LANIBOS 0.25MG-2ML INJ.",
+   "LANOXIN 0.125MG TAB",
+   "LANOXIN PG 0.0625MG TABLET",
+   "LANOXIN 0.25MG-ML INJ",
+   "LANOXIN 0.05MG-ML ELIXIR"
+  ],
+  "dihydralazine": [
+   "ADELPHAN ESIDREX TAB"
+  ],
+  "diltiazem": [
+   "MONO TILDIEM SR 300MG CAPS",
+   "APO-DILTAZ 60MG TAB",
+   "DILZEM RETARD",
+   "RIAZEM 240MG CAP",
+   "NOVO-DILTAZEM 60MG TAB",
+   "MONO TILDIEM SR 200MG CAPS",
+   "RIAZEM 30MG F.C. TABLET",
+   "RIAZEM 300MG CAP",
+   "TILDIEM 60MG TAB",
+   "APO-DILTAZ 30MG TAB",
+   "BI-TILDIEM 120MG TAB",
+   "RIAZEM 60MG F.C TAB",
+   "RIAZEM 120MG CAP",
+   "NOVO-DILTAZEM 30MG TAB",
+   "BI-TILDIEM 90MG TAB",
+   "DILZEM",
+   "RIAZEM 180MG CAP"
+  ],
+  "dimenhydrinate": [
+   "VALONTAN TAB 100MG",
+   "DIZINIL 50MG TAB"
+  ],
+  "diosmin": [
+   "DAFLON TAB. 150 MG",
+   "DIOVENOR TAB. 150 MG.",
+   "DAFLON 500MG TAB",
+   "PHLEBODIA 600 mg film-coated tablet"
+  ],
+  "diphenhydramine": [
+   "EXYLIN SYRUP 14MG-5ML",
+   "AMYDRAMINE II SUGAR FREE SYRUP",
+   "EZIPECT 12.5MG-5ML SYRUP",
+   "BENADRYL ELIXIR 12.5MG-5ML"
+  ],
+  "diphenylpyraline": [
+   "SKAINAR CAPS",
+   "LAVENTE OINT."
+  ],
+  "dipivefrin": [
+   "OFTANEX 0.1% EYE DROPS"
+  ],
+  "dipyridamole": [
+   "NOVO-DIPIRADOL 25MG TAB",
+   "NOVO-DIPIRADOL 75MG TAB",
+   "ANTIPLATE 75MG TAB"
+  ],
+  "distigmine": [
+   "UBRETID 0.5MG AMP",
+   "UBRETID"
+  ],
+  "dobutamine": [
+   "DOBUTREX 250 MG VIAL",
+   "DOBUTAMINE JPI 250 mg/20 ml solution for IV infusion",
+   "Cardutrex",
+   "DOBUJECT 50MG-ML(250MG-5ML) AMPOULE",
+   "DOBUTAMINE HCL 250MG-20ML VIAL"
+  ],
+  "docusate": [
+   "WAXSOL",
+   "NORGALAX 0.12G-10G MICRO-ENEMA RECTLTUBE",
+   "DEWAX 5MG-ML OTIC DROPS"
+  ],
+  "dolutegravir": [
+   "TIVICAY 50 mg Tablet"
+  ],
+  "domperidone": [
+   "MOTILIUM TAB 10MG",
+   "MOTILIUM SYRUP 0.1%",
+   "PROKININ 10MG F-C TABLETS",
+   "MODODOM 10MG F.C. TABLETS",
+   "DOMPY 10MG TABLET"
+  ],
+  "donepezil": [
+   "ALZAMED 5MG F.C.TABLET",
+   "DEMENTILE 5MG TABLET",
+   "DEMENTILE 10MG TABLET",
+   "Poliza",
+   "DONECEPT 5MG TABLET"
+  ],
+  "doravirine": [
+   "Pifeltro"
+  ],
+  "doripenem": [
+   "DORIBAX 500MG/VIAL POWDER FOR INFUSION"
+  ],
+  "dorzolamide": [
+   "TRUSOPT",
+   "XOLA OPTHALMIC SOLUTION",
+   "ZOMIDOR 2% EYE DROPS"
+  ],
+  "doxazosin": [
+   "CARDURA 1 mg tablet",
+   "CARDURA 2 mg tablet",
+   "CARDURA 4 mg tablet",
+   "CARDURA XL 4 mg tablet",
+   "DOXAGEN 1"
+  ],
+  "doxorubicin": [
+   "DOXORUBICIN 2MG-MLVIAL",
+   "ADRIBLASTINA 50MG/25ML VIAL",
+   "ADRIBLASTINA 50MG VIAL & SOLV",
+   "ADRIBLASTINA 10MG VIAL & SOLV",
+   "Deroxi Liposomal 50 mg per 25 ml"
+  ],
+  "doxycycline": [
+   "DOXYCIN",
+   "TABOCINE 100",
+   "DORYX CAPS 100MG",
+   "DOXYDAR",
+   "VIBRAMYCIN 100MG TABLET"
+  ],
+  "doxylamine": [
+   "CAFAMOL TAB"
+  ],
+  "droperidol": [
+   "DORAVIT 1.25MG/ML I.V. INJECTION"
+  ],
+  "duloxetine": [
+   "CYMBALTA 60MG HARD GASTRO-RESISTANT CAP",
+   "DELAXIN 60 mg delayed-release capsule",
+   "CYMBALTA 30MG HARD GASTRO-RESISTANT CAP.",
+   "DELAXIN 30 mg delayed-release capsule",
+   "MODEXA 30 mg gastro-resistant capsule"
+  ],
+  "dupilumab": [
+   "DUPIXENT 300 mg Solution for Injection in Pre-filled syringe",
+   "DUPIXENT 200 mg Solution for Injection in Pre-filled syringe"
+  ],
+  "durvalumab": [
+   "IMFINZI 500 mg / 10 ml",
+   "IMFINZI 120 mg / 2.4 ml"
+  ],
+  "dutasteride": [
+   "Duserex",
+   "AVODART 0.5MG CAPSULE",
+   "Dusta"
+  ],
+  "duvelisib": [
+   "Copiktra"
+  ],
+  "ebastine": [
+   "EBASTEL 10 MG F- C TABLETS"
+  ],
+  "econazole": [
+   "DERMA-CORYL 1% CREAM",
+   "PEVARYL CREAM 1%",
+   "PEVARYL SPRAY POWDER 1%",
+   "GYNO-PEVARYL-150 VAG. SUPPS 150MG",
+   "GYNO-CORYL 150 MG VAGINAL OVULES"
+  ],
+  "efavirenz": [
+   "Trivira"
+  ],
+  "efmoroctocog_alfa": [
+   "ELOCTA 250 IU POWDER FOR SOLUTION FOR INJECTION",
+   "ELOCTA 500 IU POWDER FOR SOLUTION FOR INJECTION",
+   "ELOCTA 1000 IU POWDER FOR SOLUTION FOR INJECTION",
+   "ELOCTA 1500 IU POWDER FOR SOLUTION FOR INJECTION",
+   "ELOCTA 2000 IU POWDER FOR SOLUTION FOR INJECTION"
+  ],
+  "eftrenonacog_alfa": [
+   "ALPROLIX 2000 I.U Powder And Solvent For Solution For Injection",
+   "ALPROLIX 500 I.U Powder And Solvent For Solution For Injection",
+   "ALPROLIX 250 I.U Powder And Solvent For Solution For Injection",
+   "ALPROLIX 1000 I.U Powder And Solvent For Solution For Injection",
+   "ALPROLIX 3000 I.U Powder And Solvent For Solution For Injection"
+  ],
+  "elbasvir": [
+   "ZEPATIER 100/50 mg film-coated tablet"
+  ],
+  "eltrombopag": [
+   "REVOLADE 25MG FILM COATED TABLET",
+   "REVOLADE 50MG FILM COATED TABLET"
+  ],
+  "elvitegravir": [
+   "GENVOYA Film-coated Tablet"
+  ],
+  "emedastine": [
+   "EMADINE 0.05% EYE DROPS"
+  ],
+  "emicizumab": [
+   "HEMLIBRA 150 MG/ML SOLUTION FOR INJECTION",
+   "HEMLIBRA 30 MG/ML SOLUTION FOR INJECTION"
+  ],
+  "empagliflozin": [
+   "JARDIANCE 25 mg film-coated tablet",
+   "JARDIANCE 10 mg film-coated tablet"
+  ],
+  "emtricitabine": [
+   "Divira",
+   "DANOVAR",
+   "DESCOVY 200MG/10MG F.C.TABLET",
+   "DESCOVY 200MG/25MG F.C.TABLET",
+   "BIKTARVY"
+  ],
+  "enflurane": [
+   "ETHRANE BOTTLE (INHALATION ANESTHESIA)"
+  ],
+  "enoxacin": [
+   "PENETREX 400MG TAB",
+   "PENETREX 200MG TAB"
+  ],
+  "enoxaparin": [
+   "CLEXANE 40MG\\0.4ML PREFILLED SYRINGE",
+   "CLEXANE 80MG\\0.8ML PREFILLED SYRINGE",
+   "Inhixa",
+   "FARINOX 40MG/0.4ML SOLUTION FOR INJECTION",
+   "ENDOSA 4000IU PRE-FILLED SYRINGE"
+  ],
+  "entacapone": [
+   "COMTAN 200MG F.C TAB"
+  ],
+  "enzalutamide": [
+   "Enzastik",
+   "XTANDI 40 mg capsule"
+  ],
+  "ephedrine": [
+   "EPHEDRINE HYDROCHLORIDE 30 mg/ml solution for injction",
+   "Ephedrine 3 mg/ml , solution for injection in pre-filled syringe"
+  ],
+  "epinastine": [
+   "RELESTAT 0.05% EYE DROPS"
+  ],
+  "epinephrine": [
+   "EpiPen 300 mcg per 0.3 ml",
+   "EpiPen 150 mcg per  0.3 ml",
+   "JEXT",
+   "Aronep",
+   "Adijet"
+  ],
+  "epirubicin": [
+   "EPIRUBICIN HCL",
+   "FARMORUBICIN 50MG VIAL",
+   "Epirubicin “Ebewe” 50mg/25ml",
+   "EPIRUBICIN JAZEERA 2MG/ML SOLUTION FOR INJECTION",
+   "Epirubicin “Ebewe” 10mg/5ml"
+  ],
+  "eplerenone": [
+   "EPNONE 50 mg Tablet",
+   "Epnone"
+  ],
+  "eptinezumab": [
+   "Vyepti"
+  ],
+  "erdafitinib": [
+   "BALVERSA"
+  ],
+  "erenumab": [
+   "Aimovig"
+  ],
+  "eribulin": [
+   "HALAVEN 0.5 mg/ml",
+   "HALAVEN"
+  ],
+  "ertapenem": [
+   "INVANZ 1 gm Powder for Concentrate for Solution for Infusion"
+  ],
+  "erythromycin": [
+   "ERYTHROCIN GRANULES 200MG-5ML",
+   "ERYTHROMIL 250MG TAB",
+   "EROMYCIN 250MG TABLET",
+   "ERYTHROCIN I.V. 1G VIAL",
+   "OFTALMOLOSA 0.5%"
+  ],
+  "esketamine": [
+   "Spravato",
+   "SPRAVATO"
+  ],
+  "estradiol_valerate": [
+   "PROGYLUTON TAB",
+   "CLIMEN TAB"
+  ],
+  "etanercept": [
+   "ENBREL 50MG PRE-FILLED PEN",
+   "ENBREL 50MG PRE-FILLED SYRINGE"
+  ],
+  "etelcalcetide": [
+   "PARSABIV"
+  ],
+  "ethambutol": [
+   "ETHAMBUTOL",
+   "MYAMBUTOL 400 MG. TABLETS",
+   "AFIMOCIL 0.5 GM TAB"
+  ],
+  "ethinylestradiol": [
+   "LUTTAGEN 0.075MG/0.03MG TABLET",
+   "LOGYNON TAB",
+   "DIANE-35 TAB",
+   "ZAHRA TABLET",
+   "REGULON"
+  ],
+  "ethosuximide": [
+   "ZARONTIN CAP 250MG",
+   "ZARONTIN SYR 250MG-5ML"
+  ],
+  "etodolac": [
+   "LODINE 300MG CAPS"
+  ],
+  "etofenamate": [
+   "RHEUMON GEL 50MG-G",
+   "RHEUMON CREAM 10%"
+  ],
+  "etonogestrel": [
+   "IMPLANON NXT IMPLANT 68MG"
+  ],
+  "etoricoxib": [
+   "ARCOXIA 60MG TAB",
+   "ETORIA 60MG FILM COATED TABLETS",
+   "XIBAX 90MG F.C.TABLET",
+   "ATOXIA 90 mg Film-coated Tablet",
+   "CORREX 120MG F.C.TABLET"
+  ],
+  "etravirine": [
+   "INTELENCE 100 MG TABLETS"
+  ],
+  "everolimus": [
+   "CERTICAN 0.1MG DISPERSIIBLE TABLETS",
+   "Avrolem",
+   "AFINITOR 5 MG TABLET",
+   "CERTICAN 0.5MG TABLETS",
+   "CERTICAN 0.25MG DISPERSIBLE TABLETS"
+  ],
+  "evolocumab": [
+   "REPATHA 140 mg/ml Solution For Injection",
+   "REPATHA 420 mg Solution for Injection in Cartridge"
+  ],
+  "exemestane": [
+   "XEMETAN 25MG F.C.TABLET",
+   "AREKSA 25MG F.C.TAB",
+   "EZOLOC 25 MG TABLET",
+   "AROMASIN 25MG COATED TAB",
+   "AROMAPLEX 25 mg Film-Coated Tablet"
+  ],
+  "ezetimibe": [
+   "Etimicol 10",
+   "EZECHOL 10 mg tablet",
+   "EZETROL 10 mg tablet",
+   "LIPIZET 10MG TABLET",
+   "Zavoxa"
+  ],
+  "famciclovir": [
+   "Zostivr",
+   "FAMVIR 125MGTAB",
+   "FAMVIR 250MG TAB"
+  ],
+  "famotidine": [
+   "FAMOCID 10MG F.C TAB",
+   "PEPCIDIN 20MG TAB",
+   "FAMODAR",
+   "FAMOCID 20 MG F.C TAB",
+   "FAMOGEN"
+  ],
+  "favipiravir": [
+   "Vapir"
+  ],
+  "febuxostat": [
+   "GOUTEX 40 mg film-coated tablet",
+   "GOUTEX 80 mg film-coated tablet",
+   "AGOUT 40 mg film-coated tablets",
+   "AGOUT 80 mg film-coated tablets",
+   "AGOUT 120 mg film-coated tablets"
+  ],
+  "felbinac": [
+   "TARGET GEL 3%"
+  ],
+  "felodipine": [
+   "PLENDIL 5MG S.R. TAB",
+   "PLENDIL 10MG S.R.TAB"
+  ],
+  "felypressin": [
+   "CITANEST 3% DENTAL OCTAPRESSIN CARTRIDGE"
+  ],
+  "fenofibrate": [
+   "LIPANTHYL 145MG F.C. TABLETS",
+   "TRIX 200 mg Capsule",
+   "FENOGAL 200MG LIDOSE CAPSULES",
+   "LIPANTHYL 200MG MICRONISED CAPS",
+   "LYPFEN"
+  ],
+  "fenoterol": [
+   "BEROTEC SPRAY 0.2MG-DOSE"
+  ],
+  "fentanyl": [
+   "DUROGESIC TTS 75 Ug-HOUR",
+   "ABSTRAL 100MCG SUBLINGUAL TABLET",
+   "FENTANYL Transdermal System 75 mcg/h",
+   "PecFent 100 MCG NASAL SPRAY",
+   "FENTANYL 50 mcg/ml solution for injection"
+  ],
+  "fenticonazole": [
+   "DERMA-LOMEXIN (LOMEXIN) 2% CREAM",
+   "DERMA - LOMEXIN (LOMEXIN) 2% SPRAY",
+   "GYNO-LOMEXIN 2% vaginal cream",
+   "GYNO-LOMEXIN 200 mg vaginal capsule",
+   "GYNO-LOMEXIN 600 mg vaginal capsule"
+  ],
+  "ferric_carboxymaltose": [
+   "FERINJECT"
+  ],
+  "ferrous_fumarate": [
+   "FUMAFER 200MG TABLET"
+  ],
+  "ferrous_gluconate": [
+   "GLUCOFER 300MG TAB",
+   "FERROUS GLUCONATE 300MG TAB"
+  ],
+  "ferrous_sulfate_anhydrous": [
+   "FEROMIN",
+   "JECTOFER AMP. 100 MG",
+   "KDIRON DROPS",
+   "HEMADID",
+   "KDIRON 200MG-5ML SYRUP"
+  ],
+  "fexofenadine": [
+   "TELFAST 120 MG FILM COATED TAB",
+   "TELFAST 180 MG FILM COATED TAB",
+   "FEXODINE 120MG TABLET",
+   "FEXODINE 180MG TABLET",
+   "SARFEX 180MG F.C.TAB.(30S)"
+  ],
+  "fidaxomicin": [
+   "DIFICLIR 200 mg Film Coated Tablet"
+  ],
+  "filgrastim": [
+   "NEUPOGEN 48 MU",
+   "NEUPOGEN 30 MU",
+   "Accofil 480 mcg/0.5 ml solution For injection/infusion",
+   "NIVESTIM 960 mcg Solution for Injection/ Infusion",
+   "NIVESTIM 600 mcg Solution for Injection/ Infusion"
+  ],
+  "finasteride": [
+   "PROSTID 5MG F-C TABLETS",
+   "PROSNORM",
+   "PROSCAR",
+   "FINISCAR 5MG F.C. TABLETS",
+   "FINASID 5MG FILM COATED TABLET"
+  ],
+  "flecainide": [
+   "TAMBOCOR 100MG TAB"
+  ],
+  "flucloxacillin": [
+   "FLOXAPEN 500MG CAPS",
+   "FLOXAPEN 250MG-5ML POWD.FOR SUSP",
+   "FLOXAPEN CAPS 250MG",
+   "FLOXAPEN SYP 125MG-5ML",
+   "FLOXAPEN VIAL 250MG"
+  ],
+  "fluconazole": [
+   "FLUCAND 50 MG CAPSULES",
+   "FLUCORAL 150MG CAPSULES",
+   "CANDEUR 2 mg/ml Solution For Infusion",
+   "FLOCAZOLE 50 MG CAPSULES",
+   "FLUCO-SOL 2MG/ML SOLUTION FOR I.V. INFUSION"
+  ],
+  "flucytosine": [
+   "ANCOTIL TAB 500MG"
+  ],
+  "flunarizine": [
+   "SIBELIUM 5MG CAPSULES"
+  ],
+  "fluocinolone_acetonide": [
+   "SYNALAR OINTMENT",
+   "PETRALAR 0.025% CREAM",
+   "PETRALAR-F 0.25% CREAM",
+   "SYNALAR CREAM",
+   "DERMOLAR"
+  ],
+  "fluorometholone": [
+   "FLUCON OPTH SUSP 0.1%",
+   "FML LIQUIFILM 0.1%",
+   "FML 0.1% ophthalmic suspension",
+   "OPTILONE 0.1% OPTHALMIC SUSPENTION",
+   "FLUMETOL"
+  ],
+  "fluorouracil": [
+   "EFUDIX 5% OINTMENT",
+   "FLORYL 50 MG/ML SOLUTION FOR INJECTION/INFUSION",
+   "FLUORO-URACIL ICN 250MG-5ML VIAL",
+   "FLUOROURACIL 500MG-10ML VIAL"
+  ],
+  "fluoxetine": [
+   "FLUTIN 20MG CAPSULE",
+   "FLUZYN 20MG CAPSULES",
+   "FLUXETYL 20MG CAPSULES",
+   "PROZAC 20MG CAPSULES",
+   "LINZ 20 MG CAPSULE"
+  ],
+  "flupentixol": [
+   "FLUANXOL DEPOT 100MG-ML I.M AMP",
+   "FLUANXOL DEPOT INJ 20MG-ML",
+   "FLUANXOL 1MG TAB",
+   "FLUANXOL 3MG TAB",
+   "FLUANXOL 0.5MG TAB"
+  ],
+  "fluphenazine": [
+   "FLUPHENAZINE DECANOATE 25MG-ML Injection*",
+   "FLUPHENAZINE DECANOATE OILY 100MG-ML AMP",
+   "FLUPHENAZINE DECANOATE OILY 25MG-ML AMP"
+  ],
+  "flurbiprofen": [
+   "FROBEN TAB 50MG",
+   "FROBEN TAB 100MG"
+  ],
+  "flutamide": [
+   "EULEXIN TAB 250MG"
+  ],
+  "fluticasone_furoate": [
+   "AVAMYS SUSPENSION FOR NASAL SPRAY"
+  ],
+  "fluvastatin": [
+   "LESCOL XL 80 MG FILM COATED TAB",
+   "LESCOL 40MG CAPS"
+  ],
+  "fluvoxamine": [
+   "FAVERIN 100MG EC TABS",
+   "FAVERIN 50MG EC TABS"
+  ],
+  "folic_acid": [
+   "FOLIC ACID",
+   "VIFOLIN TAB 5 MG",
+   "RAFOL 5 mg Tablet",
+   "BEFOLVIT 1MG TAB",
+   "FOLICUM"
+  ],
+  "formoterol": [
+   "FLUTIFORM 50/5 mcg pressurised inhalation suspension",
+   "FOSTER NEXTHALER 100MCG/6MCG INHALATION POWDER",
+   "BUFOMIX 160/4.5MCG EASYHALER",
+   "SYMBICORT 320 MCG/9 MCG TURBOHALER",
+   "SYMBICORT TURBUHALER"
+  ],
+  "foscarnet": [
+   "Foscarnet BOS"
+  ],
+  "fosfomycin": [
+   "UNAIRA 3GM SACHET",
+   "MONUROL 3G SACHETS"
+  ],
+  "fosinopril": [
+   "FOSOPRIL 40 mg tablet",
+   "STARIL 20MG TAB",
+   "STARIL 10MG TAB",
+   "FOSOPRIL 10 mg tablet",
+   "FOSIPRIL 10 mg tablet"
+  ],
+  "framycetin": [
+   "SOFRA-TULLE STRIPS WIDTH 10CM"
+  ],
+  "fremanezumab": [
+   "AJOVY"
+  ],
+  "fulvestrant": [
+   "Fulvestrant SPC",
+   "Fuxran",
+   "Floristil 250 mg per 5 ml",
+   "Carcivor 250 mg per 5 ml"
+  ],
+  "fusidic_acid": [
+   "FUCIDIN 2% CREAM",
+   "FUCIDIN OINT 2%",
+   "OPTIFUCIN 1% EYE DROP",
+   "FUSIDERM 2% CREAM",
+   "UCIDERM 2% OINTMENT"
+  ],
+  "gadodiamide": [
+   "OMNISCAN",
+   "MERISCAN 0.5MMOL/ML VIAL"
+  ],
+  "gadoxetic_acid": [
+   "PRIMOVIST 0.25MMOL-ML PRE-FILLED SYRINGS"
+  ],
+  "galantamine": [
+   "REMINYL 4MG TABLET",
+   "REMINYL 8 MG PROLONGED RELEASE CAPSULE",
+   "REMINYL 4 MG - ML ORAL SOLUTION",
+   "REMINYL 8MG TABLET",
+   "REMINYL 24 MG PROLONGED RELEASE CAPSULE"
+  ],
+  "galcanezumab": [
+   "Emgality"
+  ],
+  "gefitinib": [
+   "IRESSA 250 mg film coated tablet"
+  ],
+  "gemcitabine": [
+   "GEMZAR 200MG LYPH.VIAL 5ML",
+   "GEMCITABINE ACTAVIS 1 GM",
+   "GEMCITABINE GLENMARK 1000MG VIAL",
+   "GEMCITABIN EBEWE 1000MG-100ML VAIL",
+   "CITABOL 1000 mg powder for solution for infusion"
+  ],
+  "gemfibrozil": [
+   "LOPID"
+  ],
+  "gemifloxacin": [
+   "FLOXAG 320MG F.C. TABLET",
+   "FACTIVE 320MG F.C. TABLETS"
+  ],
+  "gilteritinib": [
+   "Xospata"
+  ],
+  "ginseng": [
+   "GERIATON FORTE",
+   "GERIATRIC PHARMATON CAPS",
+   "V-2 PLUS CAPS",
+   "V-2 CAPS"
+  ],
+  "glatiramer": [
+   "GLATIJECT",
+   "Galtipex"
+  ],
+  "glecaprevir": [
+   "MAVIRET 100 mg/40 mg Film Coated Tablet"
+  ],
+  "glimepiride": [
+   "AMARYL 1MG TAB",
+   "AMARYL 3MG TAB",
+   "GLIMEPHAN 2MG TABLETS",
+   "GLIM 2MG TABLETS",
+   "GLUMINE 4 mg Tablet"
+  ],
+  "glucagon": [
+   "GLUCAGEN HYPOKIT",
+   "GLUCAGEN powder and solvent for solution for injection",
+   "GLUCAGON 10MG VIAL+SOLVENT",
+   "GLUCAGON 1 MG VIAL+SOLVENT 1ML"
+  ],
+  "glutamic_acid": [
+   "AMINOPLASMAL B BRAUN 10%",
+   "AMINOPLASMAL 15 % I.V INFUSION SOLN",
+   "OLIMEL N9 emulsion for infusion",
+   "OLIMEL N5E emulsion for infusion",
+   "OLIMEL N7E emulsion for infusion"
+  ],
+  "glycerin": [
+   "LAXOLYNE SUPPOSITORIES",
+   "Glycelax",
+   "GLICEROLO SUPP 1500MG CHILDREN",
+   "GLYCERINE INFANTILE SUPPOSITORY",
+   "LAXOLYNE SUPP FOR CHILDREN"
+  ],
+  "glycine": [
+   "GLYCINE IRRIGATION SOLN 1.5%",
+   "GLYCINE 1.5% IRRIGATION SOLUTION",
+   "GLYCINE",
+   "GLYCINE FOR IRRIGATION 1.5%",
+   "GLYCINE IRRIGATION 1.5%"
+  ],
+  "golimumab": [
+   "SIMPONI 100 mg/ml suspension for injection in pre-filled pen",
+   "SIMPONI 100 mg/ml suspension for injection in pre-filled syringe",
+   "SIMPONI 100 MG/ML SOLUTION FOR INJECTION IN PREFILLED PEN"
+  ],
+  "goserelin": [
+   "ZOLADEX DEPOT 3.6MG S-C INJ SYRINGE"
+  ],
+  "granisetron": [
+   "KYTRIL 1MG TAB",
+   "GRANITRON 3MG-3ML SOLUTION FOR Injection",
+   "EMLOP 1MG/ML AMPOULE",
+   "KYTRIL 200MCG-ML SYRUP",
+   "SANCUSO 34.3 mg transdermal patch"
+  ],
+  "grazoprevir": [
+   "ZEPATIER 100/50 mg film-coated tablet"
+  ],
+  "griseofulvin": [
+   "FULCIN SYRUP 125MG-5 ML.",
+   "GRISOVIN TABLETS 500 MG.",
+   "FULCIN TABLETS 500 MG.",
+   "FULCIN 125 MG TAB",
+   "GRISOVIN TABLETS 125 MG."
+  ],
+  "guaifenesin": [
+   "GUAPHAN",
+   "PECTAL 100MG\\5ML SYRUP",
+   "MUCINEX 600MG EXTENDED RELEASE BI-LAYER TABLET",
+   "ROBITUSSIN SYRUP"
+  ],
+  "guanfacine": [
+   "Intuniv XR"
+  ],
+  "guselkumab": [
+   "TREMFYA 100 MG/ML"
+  ],
+  "haloperidol": [
+   "HALDOL 2MG-ML DROPS",
+   "HALDOL DECANOAS INJ 50MG",
+   "HALDOL 5MG TABLET",
+   "SYLADOR TAB 2 MG.",
+   "SERENACE"
+  ],
+  "heparin": [
+   "MULTIPARIN 25000 UNITS-ML INJ",
+   "HEPSAL AMP 10 UNITS-ML",
+   "HEPARINOL 5000 IU/ML INJECTION",
+   "HIKMA HEPARIN 5000 IU/ML",
+   "MULTIPARIN 5000 UNITS-ML INJ"
+  ],
+  "hesperidin": [
+   "HENASEN 500MG F.C.TABLET",
+   "Capillo"
+  ],
+  "histidine": [
+   "RENAMIN INJECTION",
+   "AMINOPLASMAL B BRAUN 10%",
+   "AMINOPLASMAL 15 % I.V INFUSION SOLN",
+   "OLIMEL N9 emulsion for infusion",
+   "SMOFKABIVEN PERIPHERAL EMULSION for infusion"
+  ],
+  "homatropine": [
+   "ISOPTO HOMATROPINE DROPS 2%",
+   "ISOPTO HOMATROPINE 0.5% DROPS",
+   "HOMAPIN"
+  ],
+  "human_c1-esterase_inhibitor": [
+   "Cinryze"
+  ],
+  "human_immunoglobulin_g": [
+   "FLEBOGAMMA 5% SOLU. FOR I.V. INJECTION",
+   "ENDOBULIN S\\D 5% IV INFUSION",
+   "INTRAGLOBIN 2.5G +50ML DILUENT",
+   "PENTAGLOBIN AMP I.V",
+   "GAMMA GLOBULIN 16% INJ"
+  ],
+  "hyaluronic_acid": [
+   "HYFRESH 2 MG- ML OPHTHALMIC SOLUTION",
+   "HYE MONO EYE DROPS",
+   "HYE MULTI EYE DROPS",
+   "Hyaprof Soft",
+   "REVANESSE"
+  ],
+  "hyaluronidase": [
+   "LASONIL OINT"
+  ],
+  "hydrocortisone": [
+   "SOLU CORTEF Act-O-Vial 100 mg powder and solvent for solution for injection",
+   "SOLU CORTEF AOV 250 mg powder and solvent for solution for injection",
+   "EFFICORT CREAM 0.127% (HYDROPHILIC)",
+   "CORTIDERM 1% CREAM"
+  ],
+  "hydrocortisone_acetate": [
+   "ALFACORT 1% CREAM",
+   "RIACORT 1% cream",
+   "HYDROCORTISONE-TABUK 1% CREAM",
+   "ALFACORT 1% OINTMENT",
+   "RIACORT"
+  ],
+  "hydromorphone": [
+   "JURNISTA 32 mg prolonged-release tablet",
+   "JURNISTA 16 mg prolonged-release tablet",
+   "JURNISTA 64 mg prolonged-release tablet",
+   "JURNISTA 8 mg prolonged-release tablet"
+  ],
+  "hydroquinone": [
+   "PHILAQUIN FORTE 4% CREAM",
+   "AVOQUIN cream",
+   "HI- QUIN 4% CREAM",
+   "ELDOQUIN CREAM 2%",
+   "HI- QUIN 2% CREAM"
+  ],
+  "hydroxocobalamin": [
+   "DEPOVIT B12 1000 AMP 1ML"
+  ],
+  "hydroxyprogesterone_caproate": [
+   "PROLUTON DEPOT AMP 250MG-ML(500mg-2ML)"
+  ],
+  "hydroxyzine": [
+   "ATARAX TABLETS 25 MG",
+   "ATARAX TABLETS 10 MG",
+   "ATARAX SYRUP"
+  ],
+  "hymecromone": [
+   "BILICANTE 200MG CAPS",
+   "GALLO MERZE"
+  ],
+  "hyoscyamine": [
+   "LEVSIN TAB 0.125MG"
+  ],
+  "ibuprofen": [
+   "NUROFEN 200MG TAB",
+   "SAPOFEN 200MG F.C TAB",
+   "MEDAFEN 100MG-5ML SUSPENSION",
+   "JAZOFEN 400MG TAB",
+   "PEDEA 5MG/ML SOLUTION FOR INJECTION"
+  ],
+  "icatibant": [
+   "Firazyr 30 mg per 3 ml"
+  ],
+  "icosapent_ethyl": [
+   "VASCEPA 1GM CAPSULE"
+  ],
+  "idoxuridine": [
+   "COLIRCUSI VIRUCIDE 0.2%"
+  ],
+  "ifosfamide": [
+   "HOLOXAN 500MG VIAL IV",
+   "HOLOXAN 2GM IV. VIAL",
+   "HOLOXAN 1GM I.V. VIAL"
+  ],
+  "iloprost": [
+   "APRELEX 20MCG/ML INHALATION SOLUTION",
+   "VENTAVIS 10 mcg/ml solution for inhalation"
+  ],
+  "imatinib": [
+   "IMATINIB GRINDEKS 100MG CAPSULE"
+  ],
+  "imidapril": [
+   "TANATRIL 5MG TABLET",
+   "TANATRIL 10MG TABLET"
+  ],
+  "imiglucerase": [
+   "CEREZYME 400 U powder for concentrate for solution for infusion"
+  ],
+  "imipenem": [
+   "IMIPENEM-CILASTATIN LABATEC 500/500 VIAL",
+   "ZAYNAM powder for solution for infusion",
+   "IVNEM",
+   "LASTINEM 500 mg powder for solution for infusion",
+   "TIENAM 500 MG VIAL I.V."
+  ],
+  "imipramine": [
+   "TOFRANIL 25 MG 50 TAB",
+   "IMIPREX 10 MG TAB",
+   "IMIPREX 25 MG. TAB",
+   "TOFRANIL 10 MG TAB"
+  ],
+  "imiquimod": [
+   "KOZAMOD 5% CREAM",
+   "ALDARA 5% CREAM"
+  ],
+  "inclisiran": [
+   "LEQVIO"
+  ],
+  "indomethacin": [
+   "INDOMIN 100MG SUPP",
+   "INDOCID 100 MG SUPP",
+   "METHACIN SUPP. 100 MG",
+   "ROTHACIN 100MG SUPPOSITORIES",
+   "INDOMETHACIN CAPS 25MG"
+  ],
+  "insulin_aspart": [
+   "NovoRapid",
+   "NOVORAPID FLEXTOUCH 100U\\ML",
+   "NOVORAPID PEN FILL 100 I.U - ML",
+   "Truvelog",
+   "NOVORAPID FLEXPEN 100U\\ML"
+  ],
+  "insulin_degludec": [
+   "TRESIBA FlexTouch 100 U/ml solution for injection",
+   "TRESIBA FlexTouch 200 U/ml solution for injection"
+  ],
+  "insulin_detemir": [
+   "LEVEMIR FLEX PEN 100IU\\ML"
+  ],
+  "insulin_glargine": [
+   "BASALOG ONE"
+  ],
+  "insulin_glulisine": [
+   "APIDRA 100 U- ML Injection*",
+   "APIDRA SOLOSTAR 100 U- ML DISPOSABLE PEN"
+  ],
+  "insulin_human": [
+   "ULTRATARD HM 100 I.U. VIAL",
+   "HUMULIN-R 100U-ML CARTRIDGE",
+   "INSULATARD",
+   "HUMULIN-L LENTE 100 U-ML",
+   "HUMULIN-R-REGULAR 100 U-ML"
+  ],
+  "insulin_lispro": [
+   "HUMALOG CARTIDGE 100IU/ml",
+   "Lyumjev KwikPen",
+   "HUMALOG KWIK-PEN 100IU/ML",
+   "HUMALOG 100 I.U VIALS",
+   "LYUMJEV Junior Kwikpen"
+  ],
+  "interferon_alfa-2b": [
+   "INTRON-A 10MN IU.VIAL"
+  ],
+  "interferon_gamma-1b": [
+   "IMUKIN 100MCG-0.5ML VIAL"
+  ],
+  "iodixanol": [
+   "TRIOSOF 320MG/ML INJECTION",
+   "VISIPAQUE",
+   "VISIPAQUE 270MG/ML SOLUTION FOR INJECTION",
+   "VISIPAQUE 320MG/ML SOLUTION FOR INJECTION"
+  ],
+  "iohexol": [
+   "ILLUSOF 300 mg/ml solution for injection/infusion",
+   "JODASCAN",
+   "OMNIPAQUE 350MG/ML SOLUTION FOR INJECTION",
+   "Illusof",
+   "OMNIPAQUE",
+   "OMNIPAQUE 300MG/ML SOLUTION FOR INJECTION"
+  ],
+  "iopromide": [
+   "ULTRAVIST300",
+   "ULTRAVIST 370"
+  ],
+  "ioversol": [
+   "OPTIRAY 160MG-ML SOLUTION FOR IV. Injection*",
+   "OPTIRAY 240MG-ML SOLUTION FOR IV. Injection*",
+   "OPTIRAY 300MG-ML SOLUTION FOR IV. Injection*",
+   "OPTIRAY 320MG-ML SOLUTION FOR IV. Injection*",
+   "OPTIRAY 350MG-ML SOLUTION FOR IV. Injection*"
+  ],
+  "ipilimumab": [
+   "YERVOY 5 mg/ml intravenous infusion"
+  ],
+  "ipratropium": [
+   "ATROSOL 250 mcg/2 ml nebuliser solution",
+   "ATROPULM 500MCG-2ML SOLUTION FOR INHALATION",
+   "ATROSOL 250 mcg/ml nebuliser solution",
+   "ATROPULM 250MCG-ML SOLUTION FOR INHALATION",
+   "ATROVENT 500MCG-2ML UDV (SOLUTION FOR INHALATION)"
+  ],
+  "irbesartan": [
+   "APROVEL 300MG TAB",
+   "IRBETEL 150 mg film-coated tablet",
+   "IROVEL 300 mg film-coated tablet",
+   "ZANSOR 300MG F.C.TABLET",
+   "ARENA 150MG TABLET"
+  ],
+  "irinotecan": [
+   "IMTUS 20MG/ML SOL. FOR INFUSION",
+   "CAMPTO 100MG-5ML VIAL FOR I.V INFUSION",
+   "IRINOTICAN EBEWE 20 mg/ml concentrate for solution for infusion",
+   "IRINOTICAN JAZEERA 20 mg/ml concentrate for solution for infusion",
+   "TECANA 20MG/ML VIAL"
+  ],
+  "iron": [
+   "VIDAYLIN + IRON-SYRUP",
+   "SUPRAVIT CAPS"
+  ],
+  "isavuconazonium": [
+   "CRESEMBA 100MG CAPSULE",
+   "CRESEMBA 200MG VIAL"
+  ],
+  "isoflurane": [
+   "AERRANE LIQUID FOR INHALATION",
+   "FLORAN",
+   "TERRELL 100% VAPOUR LIQUID FOR INHALATION",
+   "FORANE(INH. ANES.)100ML BOTTL"
+  ],
+  "isoleucine": [
+   "RENAMIN INJECTION",
+   "AMINOPLASMAL B BRAUN 10%",
+   "AMINOPLASMAL 15 % I.V INFUSION SOLN",
+   "OLIMEL N9 emulsion for infusion",
+   "OLIMEL N5E emulsion for infusion"
+  ],
+  "isoniazid": [
+   "I.N.H",
+   "RIMIFON 100MG TAB",
+   "ISONIAZID 300MG TABLET",
+   "ISONIAZID 100MG TABLET"
+  ],
+  "isoprenaline": [
+   "ISOPROTERENOL HCL EMERG.1:5000 SYRING",
+   "ISOPROTERENOL1:5000 ADDIT EMER.SYRING"
+  ],
+  "isosorbide_dinitrate": [
+   "ISOKET 0.1% AMPOULE",
+   "WESORBIDE 20MG TAB",
+   "WESORBIDE 10MG TAB",
+   "WESORBIDE 5MG S-L TAB",
+   "WESORBIDE 2.5MG SUBLINGUAL TAB"
+  ],
+  "isosorbide_mononitrate": [
+   "IMDUR 60MG DURULES"
+  ],
+  "isotretinoin": [
+   "CURACNE 40MG SOFT GELATIN CAPSULE",
+   "CURACNE 20MG SOFT GELATIN CAPSULE",
+   "ORATANE 20 mg Soft Capsules",
+   "ISOTREX GEL 0.05%",
+   "RUATINE 20MG CAPSULE"
+  ],
+  "itraconazole": [
+   "ITRAZOL 100 mg capsule",
+   "SPORANOX CAPS 100MG",
+   "TRACON 100MG CAPSULES"
+  ],
+  "ivabradine": [
+   "PROCORALAN 5 MG F-C TABLETS",
+   "PROCORALAN 7.5 MG F-C TABLET"
+  ],
+  "ivermectin": [
+   "SOOLANTRA 10MG/GM CREAM"
+  ],
+  "ketamine": [
+   "TEKAM 50MG-ML 10ML VIAL",
+   "TEKAM 10MG-ML 10ML VIAL",
+   "Tekam"
+  ],
+  "ketoconazole": [
+   "NIZORAL CREAM 2%",
+   "NIZORAL SHAMPOO",
+   "NIZORAL 200MG TAB",
+   "KENAZOLE 2% CREAM",
+   "VAVO 2% CREAM"
+  ],
+  "ketoprofen": [
+   "PROFENID 100MG SUPP.",
+   "PROFENID 100MG TAB",
+   "KETOFAN 25MG TAB",
+   "FASTUM 2.5% GEL",
+   "PROFENID 100MG I.M VIAL+SOLV."
+  ],
+  "ketorolac": [
+   "Ketorolac BOS",
+   "ACUVAIL ophthalmic solution",
+   "ACULAR LS 0.4% OPHTHALMIC SOLUTION",
+   "KETOTHROM",
+   "ACULAR 0.5% OPHTHALMIC SOLUTION"
+  ],
+  "labetalol": [
+   "TRANDATE TAB 100 MG.",
+   "TRANDATE 100MG TABLET",
+   "TRANDATE INJ. 100 MG.-AMP.20ML",
+   "TRANDATE TAB 200 MG."
+  ],
+  "lacosamide": [
+   "VIMPAT 100 mg film-coated tablet",
+   "VIMPAT 50 mg film-coated tablet",
+   "VIMPAT 150 mg film-coated tablet",
+   "VIMPAT 10 mg/ml SYRUP",
+   "VIMPAT 10 mg/ml SOLUTION FOR INFUSION"
+  ],
+  "lactic_acid": [
+   "AVOMACK",
+   "HEMOSOL B0 SOLUTION FOR HAEMODIALYSIS",
+   "PRISMASOL 2 mmol/l POTASSIUM SOLUTION FOR HAEMO/HAEMOFI",
+   "PRISMASOL 4 mmol/l POTASSIUM SOLUTION FOR HAEMO/HAEMOFI"
+  ],
+  "lactulose": [
+   "DEFOLAX 65GM-100ML SYRUP",
+   "SOFLAX SOLUTION",
+   "EZILAX 10GM POWDER SACHET",
+   "EZILAX 10G-15ML SYRUP",
+   "DUPHALAC ORAL SOLUTION"
+  ],
+  "lamivudine": [
+   "ZEFFIX 5MG\\ML ORAL SOLUTION",
+   "HEPIX 100MG F-C TABLETS",
+   "TABIVIR 300MG F-C TABLETS",
+   "ZEFFIX",
+   "EPIVIR 10 MG \\ ML ORAL SOLUTION"
+  ],
+  "lamotrigine": [
+   "LAMICTAL",
+   "LAMIRA 100 mg TABLET",
+   "LOXOL 100MG TABLET",
+   "LAMOTRIX 100MG TABLET",
+   "SEIZET 100 mg Chewable/Dispersible Tablet"
+  ],
+  "lanadelumab": [
+   "Takhzyro"
+  ],
+  "lanreotide": [
+   "SOMATULINE AUTOGEL 120 MG SOLUTION FOR INJECTION IN PRE-FILLE",
+   "SOMATULINE AUTOGEL 60 MG SOLUTION FOR INJECTION IN PRE-FILLE",
+   "SOMATULINE AUTOGEL 90 MG SOLUTION FOR INJECTION IN PRE-FILLE"
+  ],
+  "lansoprazole": [
+   "ULTRAZOLE",
+   "TAKEPRON 15MG CAP.",
+   "LANZOR 30 MG CAPSUL",
+   "LONZET 30MG CAPSULES",
+   "LANSOMID 30 MG CAPSULE"
+  ],
+  "lapatinib": [
+   "TYKERB 250MG F.C. TABLETS"
+  ],
+  "laronidase": [
+   "ALDURAZYME 100 U/ML VIAL"
+  ],
+  "larotrectinib": [
+   "VITRAKVI"
+  ],
+  "lasmiditan": [
+   "REYVOW"
+  ],
+  "latanoprost": [
+   "LATAPROST 0.005% EYE DROPS",
+   "LATANO 0.005% W-V OPHTHALMIC SOLUTION",
+   "XALATAN 50MCG\\ML EYE DROP"
+  ],
+  "ledipasvir": [
+   "HARVONI 400/90 mg film-coated tablet"
+  ],
+  "leflunomide": [
+   "RHEUFACT 20MG FILM COATED TABLETS",
+   "RHEUFACT 10MG FILM COATED TABLETS",
+   "ARAVA 20MG FILM COATED TABLETS",
+   "ARAVA 10MG FILM COATED TABLETS"
+  ],
+  "lenalidomide": [
+   "REVLIMID 5 mg capsule",
+   "REVLIMID 10 mg capsule",
+   "REVLIMID 15 mg capsule",
+   "REVLIMID 25 mg capsule",
+   "LENALIDOMIDE SPC 10 mg Capsule"
+  ],
+  "lenvatinib": [
+   "LENVIMA 10 mg HARD CAPSULES",
+   "LENVIMA 4 mg HARD CAPSULES",
+   "Lenvatinib TBM"
+  ],
+  "letermovir": [
+   "PREVYMIS"
+  ],
+  "letrozole": [
+   "LOXOPREL 2.5 mg film-coated tablet",
+   "MARLET 2.5 MG F.C. TABLET",
+   "LEFFTARA 2.5 mg film-coated tablet",
+   "FEMAPLEX 2.5 mg film-coated tablet",
+   "FEMARA 2.5 MG TABLET"
+  ],
+  "levamisole": [
+   "KETRAX TAB 40MG",
+   "KETRAX SYR 40MG-5ML"
+  ],
+  "levetiracetam": [
+   "LEVETAM 250 mg film-coated tablet",
+   "EPITAM 1000MG F.C.TAB",
+   "LAVIE 500 mg Film-Coated Tablets",
+   "VALES 500 MG CONCENTRATE FOR SOLUTION FOR INFUSION",
+   "KEPPRA 100MG-ML ORAL SOLUTION"
+  ],
+  "levobunolol": [
+   "BETAGAN 0.5% LIQUIFILM OPTH.SOLN."
+  ],
+  "levocabastine": [
+   "LIVOSTIN NASAL SPRAY 0.5MG-ML",
+   "LIVOSTIN EYE DROPS 0.5MG-ML"
+  ],
+  "levodopa": [
+   "MADOPAR 250 MG CAPS",
+   "DUODOPA intestinal gel",
+   "MADOPAR 125MG HBS CAPS",
+   "SINEMET-275 TAB",
+   "STALEVO 100-25-200MG FILM COATED TAB."
+  ],
+  "levofloxacin": [
+   "NEVOTIC 500 mg film-coated tablet",
+   "EVOX 250MG FILM COATED TABLET",
+   "LEVOX 500MG FILM COATED TABLET",
+   "LEVONIC 5 mg/ml Infusion",
+   "LEVAQUIN 500 mg film-coated tablet"
+  ],
+  "levonorgestrel": [
+   "MICROLUT 0.03MG-TAB COATED TAB.",
+   "NAVELA 1.5 MG TABLET",
+   "MIRENA 52 MG INTRAUTERINE DELIVERY SYSTEM (IUS)",
+   "POSTINOR-2"
+  ],
+  "levothyroxine": [
+   "L- THYROX HEXAL 100MCG TABLETS",
+   "ELTROXIN 0.1MG TAB",
+   "ELTROXIN 0.05MG TAB",
+   "L- THYROX HEXAL 50MCG TABLETS",
+   "L- THYROX HEXAL 150MCG TABLETS"
+  ],
+  "lidocaine": [
+   "LIDOCAINE HYDROCHLORIDE 1% solution for injection",
+   "1% W-V LIDOCAINE HCL INJECTION USP",
+   "LIDOCAINE HCL EMERGENCY SYRINGE 2%",
+   "XYLOCAINE SPRAY 10 %",
+   "XYLOCAINE 2% JELLY"
+  ],
+  "lifitegrast": [
+   "XIIDRA 50 MG/ML EYE DROPS"
+  ],
+  "linaclotide": [
+   "LINZESS"
+  ],
+  "lincomycin": [
+   "LINCOCIN CAPS. 500 MG.",
+   "LINCOCIN SYRUP 250 MG-5ML"
+  ],
+  "lindane": [
+   "KWELL CREAM",
+   "KWELL SHAMPOO",
+   "KWELL LOTION"
+  ],
+  "lisinopril": [
+   "ZESTRIL 20MG TAB",
+   "LISOPHAR 20MG TABLETS",
+   "LISINO 20MG TABLETS",
+   "OMACE 20MG TABLETS",
+   "ZINOPRIL 20 MG TABLET"
+  ],
+  "lisuride": [
+   "DOPERGIN 0.2MG TAB"
+  ],
+  "lithium_carbonate": [
+   "Licarb"
+  ],
+  "lithium_citrate": [
+   "LITHIOFOR 660MG TAB",
+   "LITAREX. TAB 564mg"
+  ],
+  "lomefloxacin": [
+   "LOMAX 400MG TAB",
+   "OKACIN 0.3% EYE DROPS"
+  ],
+  "lomitapide": [
+   "Lojuxta"
+  ],
+  "lonoctocog_alfa": [
+   "Afstyla"
+  ],
+  "loperamide": [
+   "IMODIUM 2MG CAPSULE",
+   "LOPODIUM 2MG CAPS",
+   "IMODIUM INSTANTS 2MG ORODESPERSIBLE TABLET"
+  ],
+  "lopinavir": [
+   "Virtra"
+  ],
+  "lorazepam": [
+   "ATIVAN TABLETS 1 MG",
+   "ATIVAN TABLETS 2 MG"
+  ],
+  "lorlatinib": [
+   "LORBRENA"
+  ],
+  "lornoxicam": [
+   "LEROXO 8 MG FILM COATED TABLET",
+   "EXXARA 8 mg film-coated tablets",
+   "Kalmo",
+   "OXIRA RAPID",
+   "OXIRA 4MG F.C.TABLET"
+  ],
+  "losartan": [
+   "COZAAR",
+   "LOSANET 50 mg Tablet",
+   "AZAR 50 mg film-coated tablet",
+   "SARTAN 50 mg Film coated Tablets"
+  ],
+  "loteprednol_etabonate": [
+   "LOTEMAX 0.5% GEL",
+   "Lotrell"
+  ],
+  "loxoprofen": [
+   "ROXONIN TAPE 50 mg Cutaneous Patch",
+   "ROXONIN TAPE 100 mg Cutaneous Patch",
+   "ROXONIN 60MG TABLET"
+  ],
+  "luliconazole": [
+   "LICAN 1% CREAM"
+  ],
+  "lurasidone": [
+   "Laroza",
+   "LATUDA 80 MG F.C.TABLET",
+   "LATUDA 40 MG F.C.TABLET",
+   "LATUDA 20 MG F.C.TABLET",
+   "Debilur"
+  ],
+  "lynestrenol": [
+   "ORGAMETRIL 5 MG TAB"
+  ],
+  "magnesium_carbonate": [
+   "RENNIE TAB",
+   "NOVAGEL TAB"
+  ],
+  "magnesium_citrate": [
+   "EPIMAG EFFERVESCENT GRANULE SACHET"
+  ],
+  "magnesium_hydroxide": [
+   "MILK OF MAGNESIA SUSP."
+  ],
+  "magnesium_sulfate": [
+   "MAGNESIUM SULFATE 50% I.V. Injection*",
+   "MAGNESIUM SULFATE 50% AMP",
+   "MAGNESIUM SULPHATE 10% Injection*",
+   "MAGNESIUM SULFATE 50% AMPOULE"
+  ],
+  "magnesium_trisilicate": [
+   "MALUGEL CHEWABLE TAB"
+  ],
+  "mannitol": [
+   "10% MANNITOL INTRAVENOUS INFUSION BP",
+   "MANNITOL 10% INFUSION",
+   "MANNITOL 20% INFUSION",
+   "OSMITROL 10% INFUSION SOLN.",
+   "MANNITOL 10% W-V INFUSION BOTTLES"
+  ],
+  "maraviroc": [
+   "CELSENTRI 150MG F.C. TABLETS",
+   "CELSENTRI 300MG F.C. TABLETS"
+  ],
+  "mebendazole": [
+   "VERMOX 500MG TAB",
+   "WORMAZOLE CHEWABLE 100MG TAB",
+   "VERMOX 100MG TABLET",
+   "PARAZOLE 100MG TABLET",
+   "WORMAZOL SUSP 2%"
+  ],
+  "mecasermin": [
+   "Increlex 40 mg per 4 ml"
+  ],
+  "meclizine": [
+   "NAVIDOXINE TABLETS",
+   "Vominore",
+   "VOMINORE TAB"
+  ],
+  "mecobalamin": [
+   "COBAL 500MCG TAB"
+  ],
+  "medroxyprogesterone_acetate": [
+   "PROVERA 5MG TAB",
+   "PROVERA 100MG TAB",
+   "FARLUTAL 250MG TAB",
+   "DEPO-PROVERA VIAL I-M 150MG-ML"
+  ],
+  "mefenamic_acid": [
+   "PONSTAN SYRUP 50MG-5ML",
+   "FENDOL 250 MG CAPSULE",
+   "FENDOL D.S.TAB 500MG",
+   "FENDOL 50MG-5ML SUSP",
+   "FENAM 50MG-5ML SYRUP"
+  ],
+  "megestrol_acetate": [
+   "MEGACE"
+  ],
+  "meloxicam": [
+   "MOBIC 15MG TAB",
+   "MOBIC 7.5MG TAB",
+   "MELOXI 7.5 MG TABLETS",
+   "MELOXI 15 MG TABLETS",
+   "OXIMAL 7.5MG TABLETS"
+  ],
+  "melphalan": [
+   "Megval",
+   "ALKERAN TABLETS 5 MG"
+  ],
+  "mepolizumab": [
+   "NUCALA 100 mg POWDER FOR SOLUTION FOR INJECTION",
+   "Nucala"
+  ],
+  "mercaptopurine": [
+   "Xaluprine"
+  ],
+  "meropenem": [
+   "MERONEM 500MG VIAL I-V",
+   "MERONEM 1GM VIAL I-V",
+   "RONEM 500MG",
+   "MIRAN 1 g powder for injection",
+   "ARCHIFAR 1000 mg powder for solution for injection or infusion"
+  ],
+  "mesalazine": [
+   "PENTASA XTEND 2 GM SACHET",
+   "PENTASA 1GM PROLONGED RELEASE GRANULES",
+   "ASACOL 400MG F.C TAB",
+   "SALOFALK 4GM-60ML ENEMA",
+   "MEZACOL 400 MG E.C TABLET"
+  ],
+  "metformin": [
+   "RIYADHFORMIN",
+   "GLUCARE 500MG TAB",
+   "Formit XR",
+   "METFORMIN HEXAL 500 MG FILM COATED TABLETS",
+   "GLUCOPHAGE XR 750MG TABLET"
+  ],
+  "methadone": [
+   "METHADONE MARTINDALE PHARMA 2 mg/ml oral solution"
+  ],
+  "methenamine": [
+   "COLI-URINAL effervescent granules"
+  ],
+  "methionine": [
+   "RENAMIN INJECTION",
+   "AMINOPLASMAL B BRAUN 10%",
+   "AMINOPLASMAL 15 % I.V INFUSION SOLN",
+   "OLIMEL N9 emulsion for infusion",
+   "OLIMEL N5E emulsion for infusion"
+  ],
+  "methotrexate": [
+   "METHOTREXATE \"EBEWE\" 100MG-ML VIAL",
+   "METHOTREXATE ROGER BELLON 500MG VIAL",
+   "Methotrexate SPC",
+   "Jylamvo",
+   "METOJECT 50 mg/ml solution for injection"
+  ],
+  "methoxsalen": [
+   "OXSORALEN LOTION",
+   "OXSORALEN CAPS 10MG",
+   "NEO MELADININE F.R TAB 10MG"
+  ],
+  "methoxy_polyethylene_glycol-epoetin_beta": [
+   "MIRCERA 100MCG-0.3ML SOLN. FOR INJ",
+   "MIRCERA 150MCG-0.3ML SOLN. FOR INJ",
+   "MIRCERA 200MCG-0.3ML SOLN. FOR INJ",
+   "MIRCERA 75MCG-0.3ML SOLN. FOR INJ",
+   "MIRCERA 50MCG-0.3ML SOLN. FOR INJ"
+  ],
+  "methylene_blue": [
+   "METHYLENE BLUE 1%(50MG-5ML) AMP"
+  ],
+  "methylphenidate": [
+   "CONCERTA EXTENDED RELEASE 36MG TABLET",
+   "RITALIN TAB. 10MG",
+   "CONCERTA EXTENDED RELEASE 18MG TABLET"
+  ],
+  "methylprednisolone": [
+   "SOLU-MEDROL INJ. 500 MG.",
+   "MEDROL TAB 4 MG",
+   "SOLU-MEDROL 1000 mg powder and solvent for solution for injection",
+   "SOLU-MEDROL-INJ. 125 MG",
+   "ADVANTAN 0.1% SKIN OINTMENT"
+  ],
+  "metoclopramide": [
+   "METAGLIZ 10 MG TAB",
+   "PREMOSAN 10 mg tablet",
+   "PRIMPERAN TAB 10MG",
+   "CLOPRAM 10 mg/2 ml solution for injection",
+   "METOSIL TAB 10MG"
+  ],
+  "metoprolol": [
+   "CARELIO",
+   "LOPRESOR 100MG TAB",
+   "LOPRESOR 50MG TABS",
+   "LOPRESOR DIVI TAB 200 MG.",
+   "Metolina"
+  ],
+  "metronidazole": [
+   "FLAGYL 250MG TAB",
+   "FLAGYL 125 MG-5 ML SUSPENSION",
+   "ROZEX GEL 0.75% W-W",
+   "ELYZOL INFUSION 5MG-ML",
+   "NEGAZOLE 250MG TAB."
+  ],
+  "micafungin": [
+   "Megmento",
+   "MYCAMINE 50-10ML VIAL",
+   "Ezokamine"
+  ],
+  "miconazole": [
+   "DAKTARIN CREAM 2%",
+   "DAKTARIN 2%LOTION",
+   "GYNO-DAKTARIN 400MG VAGINAL CAPSULE",
+   "MICONAZ 2% CREAM",
+   "MIKOZAL 2% cream"
+  ],
+  "midazolam": [
+   "HIKMA MIDAZOLAM 5MG-1ML AMPOULES",
+   "DORMICUM 5MG-1ML AMP.",
+   "DORMICUM 5MG-5ML AMP.",
+   "DORMICUM 15MG-3ML  AMP.",
+   "MODZAL 15MG/3ML INJECTION"
+  ],
+  "midecamycin": [
+   "MEDEMYCIN"
+  ],
+  "midodrine": [
+   "GUTRON TAB 2.5 MG TAB",
+   "GUTRON Injection*"
+  ],
+  "milrinone": [
+   "Milrinone BOS"
+  ],
+  "minocycline": [
+   "VULGA 105 mg XR film-coated tablet",
+   "VULGA 80 mg XR film-coated tablet",
+   "MINOCIN 100MG PELLET FILLED CAPS",
+   "VULGA 65 mg XR film-coated tablet",
+   "MINOCIN 50MG PELLET FILLED CAPS"
+  ],
+  "minoxidil": [
+   "REGAINE TOPICAL SOLN 2%",
+   "Regaine Foam for Men 5%",
+   "REGAINE 5% TOPICAL SOLUTION",
+   "MINOXIL 5% SOLUTION",
+   "HAIRAL 5% TOPICAL SOLUTION"
+  ],
+  "mirtazapine": [
+   "TAZMERON 30MG F.C.TABLET",
+   "MIRTAZA 30 mg film-coated tablet",
+   "MIRTAZA 15 mg film-coated tablet",
+   "REMERON 30MG TAB",
+   "MIRZAGEN 45 mg film-coated tablet"
+  ],
+  "mitoxantrone": [
+   "MITOXANTRON EBEWE 2MG-1ML SOL. FOR INFU",
+   "NOVANTRONE VIAL 2MG-ML"
+  ],
+  "moclobemide": [
+   "AURORIX 150MG TAB",
+   "AURORIX 300MG TAB"
+  ],
+  "mogamulizumab": [
+   "POTELIGEO"
+  ],
+  "montelukast": [
+   "SINGULAIR PAEDIATRIC 4 MG CHEWABLE TAB",
+   "ALLAIR 10 mg Film Coated Tablet",
+   "LEUKAST 10MG FILM COATED TABLETS",
+   "BREMAX 10 mg film-coated tablet",
+   "YOCAIR 10MG F.C.TABLET"
+  ],
+  "moroctocog_alfa": [
+   "XYNTHA 250 I.U. POWDER FOR SOLUTION FOR INJECTION",
+   "XYNTHA 500 I.U. POWDER FOR SOLUTION FOR INJECTION",
+   "XYNTHA 1000 I.U. POWDER FOR SOLUTION FOR INJECTION",
+   "XYNTHA 2000 I.U. POWDER FOR SOLUTION FOR INJECTION"
+  ],
+  "morphine": [
+   "MST Continus 30 mg",
+   "MST Continus 10 mg",
+   "MST Continus 60 mg",
+   "Oramorph",
+   "MORPHINE SULPHATE BP 10 mg/ml solution for injection"
+  ],
+  "moxifloxacin": [
+   "AVALOX 400MG TAB",
+   "AVALOX 400MG SOLUTION FOR I.V. INFUSION",
+   "VIGAMOX 0.5% OPHTHALMIC SOLUTION",
+   "AROX 0.5%  EYE DROPS",
+   "MAXIM 400MG FILM COATED TABLETS"
+  ],
+  "moxonidine": [
+   "PHYSIOTENS O.4 MG F.C.TAB",
+   "PHYSIOTENS 0.2 MG F.C TAB"
+  ],
+  "mupirocin": [
+   "BACTROBAN OINT 2%",
+   "AVOBAN 2% nasal ointment",
+   "BACTROBAN NASAL OINTMENT 2%",
+   "Avoban",
+   "AVOBAN 2% W-W OINTMENT"
+  ],
+  "mycophenolate_mofetil": [
+   "MYORA 500 MG FILM COATED TABLET",
+   "MELNOLATE 250 mg Capsule",
+   "MOFETAB 500 MG FILM COATED TABLET",
+   "ACCEPT 500MG F.C.TAB",
+   "CELLCEPT 500 mg tablet"
+  ],
+  "naftifine": [
+   "EXODERIL CREAM 1%"
+  ],
+  "nalidixic_acid": [
+   "ACIDO NALIDIXICO SUSP.125MG-5ML",
+   "NALIDRAM TAB",
+   "ACIDO NALIDIXICO 500 MG TAB",
+   "NEGRAM 500MG TAB"
+  ],
+  "nandrolone": [
+   "DECADURABOLIN ORGAJECT 25MG-ML",
+   "DECADURABOLIN ORGAJECT 50MG-ML"
+  ],
+  "naproxen": [
+   "RIAPROXEN 500 mg film-coated tablet",
+   "MIRANAX 550 MG F- C TABLETS",
+   "NAPROX D.S 500MG TAB",
+   "PROXEN F.C. TAB 250MG",
+   "ALEVE 220 mg film-coated tablet"
+  ],
+  "natalizumab": [
+   "Tysabri",
+   "TYSABRI 300 MG/15ML"
+  ],
+  "natamycin": [
+   "PIMAFUCORT OINT.",
+   "PIMAFUCORT CREAM"
+  ],
+  "nebivolol": [
+   "Bivoneb",
+   "NEBILET 5MG TABLETS",
+   "Bivocard",
+   "Mavilor"
+  ],
+  "nepafenac": [
+   "NEVANAC EYE DROP"
+  ],
+  "nevirapine": [
+   "VIRAMUNE 200MG TAB"
+  ],
+  "nicergoline": [
+   "SERMION 10MG TAB",
+   "SERMION TAB 5MG"
+  ],
+  "niclosamide": [
+   "TAENIAPASSIN TABLETS",
+   "YOMESAN 0.5 G TAB"
+  ],
+  "nicorandil": [
+   "ADANCOR 20 mg tablet",
+   "ADANCOR 10 mg tablet"
+  ],
+  "nilotinib": [
+   "TASIGNA 200MG CAPSULES",
+   "TASIGNA 150MG CAPSULES"
+  ],
+  "nimodipine": [
+   "NIMOTOP 10MG-50ML Infusion",
+   "NIMOTOP 30MG TAB"
+  ],
+  "nintedanib": [
+   "OFEV 100 mg Soft Capsule",
+   "OFEV 150 mg Soft Capsule"
+  ],
+  "nitisinone": [
+   "NITYR 2 mg Tablet",
+   "NITYR 5 mg Tablet",
+   "NITYR 10 mg Tablet",
+   "ORFADIN 2 MG CAPSULE",
+   "ORFADIN 5 MG CAPSULE"
+  ],
+  "nitrazepam": [
+   "DUMOLID TAB. 5 MG."
+  ],
+  "nitrofurantoin": [
+   "COLIFURAN TAB 100MG",
+   "UVAMIN 100MG RETARD CAPSULES"
+  ],
+  "nitroglycerin": [
+   "NITRODERM TTS 5 PATCHES",
+   "NITRODERM TTS-10 SYSTEM"
+  ],
+  "nitroprusside": [
+   "SOD.NITROPRUSSIDE 50MG VIAL",
+   "NIPRIDE DOUBLE 50 MG AMP."
+  ],
+  "nizatidine": [
+   "AXID 300MG CAPS",
+   "AXID 150MG CAPS",
+   "FIXIT 150MG CAPSULE",
+   "FIXIT 300MG CAPSULE",
+   "FIXIT 75MG CAPSULE"
+  ],
+  "norelgestromin": [
+   "EVRA TRANSDERMAL PATCHES"
+  ],
+  "norepinephrine": [
+   "Noradrenalin Sintetica 4mg/4ml without disulphite",
+   "NEVOLEEN 1 mg/ml Ampoule",
+   "NOREPIRIN 2 mg/ml Injection",
+   "Norphed",
+   "LEVOPHED"
+  ],
+  "norfloxacin": [
+   "NORACIN 400MG TAB",
+   "NOROXIN 400MG TAB",
+   "UROXIN 400MG TAB",
+   "APIFLOX 0.3% EYE DROPS",
+   "NOROXIN 400MG TABLETS"
+  ],
+  "norgestimate": [
+   "CILEST TAB"
+  ],
+  "nortriptyline": [
+   "NORTRILEN TAB. 25 MG.",
+   "AVENTYL CAPSULES 10 MG",
+   "AVENTYL CAPSULES 25 MG"
+  ],
+  "nystatin": [
+   "SINATEN 500000 IU \\5ML ORAL SUSP",
+   "MYCOSAT 100,000IU\\ML ORAL SUSP",
+   "MIKOSTAT 100000 U OINTMENT",
+   "MIKOSTAT 100000U\\ML ORAL SUSP",
+   "RIANEST"
+  ],
+  "obeticholic_acid": [
+   "Ocaliva"
+  ],
+  "obinutuzumab": [
+   "GAZYVA 25 mg/ml concentrate for solution for infusion"
+  ],
+  "ocrelizumab": [
+   "OCREVUS 30 MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION"
+  ],
+  "octreotide": [
+   "SANDOSTATIN LAR 20MG VIAL",
+   "Syngro",
+   "SANDOSTATIN 0.2MG-ML 5ML AMP",
+   "SANDOSTATIN 0.05MG-ML AMP",
+   "SANDOSTATIN LAR 30MG VIAL"
+  ],
+  "ofatumumab": [
+   "ARZERRA",
+   "Kesimpta"
+  ],
+  "ofloxacin": [
+   "TARIVID 200MG F-C TAB",
+   "JEDCOFLOCIN 200MG TABLETS",
+   "OXACIN"
+  ],
+  "olanzapine": [
+   "ZYPREXA 10MG F.C.TAB"
+  ],
+  "olaparib": [
+   "LYNPARZA 50 mg Capsule",
+   "Lynparza"
+  ],
+  "olaratumab": [
+   "LARTRUVO 10 mg/ml Concentrate For Solution For Infusion"
+  ],
+  "olodaterol": [
+   "SPIOLTO RESPIMATE"
+  ],
+  "olopatadine": [
+   "PATADAY 0.2% OPHTHALMIC SOLUTION",
+   "OLOPAT 0.1% OPHTHALMIC SOLUTION",
+   "Olopat",
+   "PATANOL 0.1% OPHTHALMIC SOLUTION"
+  ],
+  "omalizumab": [
+   "Xolair",
+   "XOLAIR 150MG Powder for injection"
+  ],
+  "omeprazole": [
+   "LOSEC MUPS 20MG TAB",
+   "LOSEC 40MG-10ML I-V VIAL",
+   "OMIZ 20MG CAP",
+   "RISEK 20 MG CAPS",
+   "OPRAZOLE 20MG E.C.TAB"
+  ],
+  "oritavancin": [
+   "Orbactiv"
+  ],
+  "orlistat": [
+   "FATLOS 120MG CAPSULES",
+   "XENICAL 120MG CAPSULE",
+   "ALLI 60MG CAPSULES"
+  ],
+  "orphenadrine": [
+   "MYOGESIC"
+  ],
+  "oxaliplatin": [
+   "ELOXATIN 50MG VIAL",
+   "ELOXATIN 100MG VIAL",
+   "OXALIPLATIN MEDAC 50MG POWDER",
+   "OXALIPLATIN HOSPIRA 5MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION",
+   "PLAXOTRIN 5 MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION (20 ml)"
+  ],
+  "oxcarbazepine": [
+   "TRILEPTAL 300MG F.C TAB",
+   "TRILEPTAL 150MG F.C TAB",
+   "TRILEPTAL 600MG F.C TAB",
+   "TRILEPTAL 60MG\\ML SUSPENTION",
+   "CARPAZIO 600 MG FILM COATED TABLET"
+  ],
+  "oxymetazoline": [
+   "ClariSpray Original",
+   "VICKS SINEX NASAL SPRAY.",
+   "ILIADIN INFANT",
+   "ClariSpray Menthol",
+   "NASIVIN DROPS 0.025%"
+  ],
+  "oxytetracycline": [
+   "TERRAMYCIN EYE OINT 1%",
+   "OXYTETRACYCLINE OINT 3%",
+   "TERRAMYCIN TOPICAL OINT",
+   "IMPERACINE 250MG TAB"
+  ],
+  "paclitaxel": [
+   "EBETAXEL 6MG-ML SOLU. FOR I.V. INFUSION",
+   "ABRAXANE",
+   "ANZATAX 6MG-ML VIAL",
+   "Ebetaxel 30mg/5ml",
+   "Ebetaxel 150mg/25ml"
+  ],
+  "palbociclib": [
+   "IBRANCE 100 mg capsule",
+   "IBRANCE 125 mg capsule",
+   "IBRANCE",
+   "IBRANCE 75 mg capsule",
+   "Papillio"
+  ],
+  "paliperidone": [
+   "INVEGA SUSTENNA 75 mg",
+   "INVEGA 6MG EXTENDED- RELEASE TABLETS",
+   "INVEGA SUSTENNA 100 mg",
+   "Palipra"
+  ],
+  "palivizumab": [
+   "SYNAGIS 100MG\\ML I.M VIAL",
+   "SYNAGIS 100MG\\ML I.M Solution for Injection"
+  ],
+  "panitumumab": [
+   "VECTIBIX 20MG/ML CONC. SOLUTION FOR INFUSION"
+  ],
+  "pantoprazole": [
+   "PROTON 40MG E.C TAB",
+   "PANTOMAX 40MG E.C.TABLETS",
+   "PANTOMAX 20MG E.C. TABLETS",
+   "TOPRAZOLE 20MG ENTERIC COATED TABLETS",
+   "PANTOZOL 40MG I.V Powder for injection"
+  ],
+  "pantothenic_acid": [
+   "MULTIVITOL FORTE SYRUP",
+   "SUPRADYN EFFERVESCENT"
+  ],
+  "papaverine": [
+   "ORAGALLIN COMP"
+  ],
+  "parecoxib": [
+   "DYNASTAT 40 mg Powder And solvent for Solution For injection"
+  ],
+  "paromomycin": [
+   "GABBRORAL SYRUP",
+   "GABBRORAL TAB 250MG"
+  ],
+  "paroxetine": [
+   "SEROXAT CR 12.5 MG TABLETS",
+   "PAXITAB 40MG TABLET",
+   "PAROXAT 20 MG F-C TABLETS",
+   "AXOR 30 mg film-coated tablet",
+   "SEROXAT 20MG TABLETS"
+  ],
+  "pazopanib": [
+   "VOTRIENT"
+  ],
+  "pefloxacin": [
+   "PEFLACINE 400MG COATED TAB"
+  ],
+  "pegaspargase": [
+   "Oncaspar"
+  ],
+  "pegfilgrastim": [
+   "NEUCYTE",
+   "Neulastim Onpro",
+   "Ziextenzo",
+   "Fulphila",
+   "Grasustek 6 mg per 0.6 ml",
+   "NEULASTIM 6MG-0.6ML PRE-FILLED SYRINGE"
+  ],
+  "peginterferon_alfa-2a": [
+   "PEGASYS 180 MCG-0.5ML PRE-FILLED SYRINGE",
+   "PEGASYS 135 MCG-0.5ML PRE-FILLED SYRINGE"
+  ],
+  "peginterferon_alfa-2b": [
+   "PEG-INTRON 120MCG\\0.5ML VIAL",
+   "PEG-INTRON 80MCG\\0.5ML VIAL",
+   "PEG-INTRON 100MCG-0.5ML PRE-FILLED PEN",
+   "PEG-INTRON 150MCG-0.5ML PRE-FILLED PEN",
+   "PEG-INTRON 100MCG\\0.5ML VIAL"
+  ],
+  "pembrolizumab": [
+   "KEYTRUDA 25 mg/ml Concentrate For Solution For Infusion"
+  ],
+  "pemetrexed": [
+   "ALMETRA",
+   "Pemitax 500 mg Vial",
+   "Alix",
+   "PEMETREXED SPC 500 mg Powder for Solution for  Infusion",
+   "ALIMTA 500MG POWDER FOR SOLUTION FOR INFUSION"
+  ],
+  "pentosan_polysulfate": [
+   "HEMOCLAR CREAM 0.5GM-100GM"
+  ],
+  "pentoxyverine": [
+   "TOCLASE 25MG TAB"
+  ],
+  "peppermint_oil": [
+   "COLPERMIN 187MG CAPS"
+  ],
+  "perampanel": [
+   "FYCOMPA 2 mg Film-Coated Tablet",
+   "FYCOMPA 4 mg Film-Coated Tablet",
+   "FYCOMPA 6 mg Film-Coated Tablet",
+   "FYCOMPA 8 mg Film-Coated Tablet",
+   "FYCOMPA 10 mg Film-Coated Tablet"
+  ],
+  "perindopril": [
+   "PROVINDA",
+   "COVERSYL 5MG F.C. TABLETS",
+   "COVERSYL 10MG F.C. TABLETS",
+   "TENORYL 10 MG film-coated tablet",
+   "TENORYL 5 MG film-coated tablet"
+  ],
+  "pertuzumab": [
+   "PERJETA 420 mg Concentrate for solution for infusion"
+  ],
+  "phenazopyridine": [
+   "URISEPT 100MG TABS"
+  ],
+  "pheniramine": [
+   "HISTOL 15MG-5ML SYRUP."
+  ],
+  "phenoxymethylpenicillin": [
+   "VIKADAR SUSP 200000 IU-5ML",
+   "OSPEN 200 GRANULES FOR SUSP",
+   "ORVEK SYP 125MG-5ML",
+   "OSPEN 1000",
+   "OSPEN 500"
+  ],
+  "phentolamine": [
+   "REGITINE AMP"
+  ],
+  "phenylalanine": [
+   "RENAMIN INJECTION",
+   "AMINOPLASMAL B BRAUN 10%",
+   "AMINOPLASMAL 15 % I.V INFUSION SOLN",
+   "OLIMEL N9 emulsion for infusion",
+   "OLIMEL N5E emulsion for infusion"
+  ],
+  "phenylephrine": [
+   "ISOPTO FRIN EYE DROPS 0.12%",
+   "Phenylephrine PSI",
+   "Iphen",
+   "PHENYLEPHRINE",
+   "MYDFRIN 2.5% DROPS"
+  ],
+  "phenytoin": [
+   "PHENTOLEP 50MG-ML AMPOULE",
+   "EPANUTIN R.M 250MG PARENTRAL AMP",
+   "PHENYTOIN 250MG-5ML AMP",
+   "EPANUTIN",
+   "DINTOINA TAB 100MG"
+  ],
+  "pibrentasvir": [
+   "MAVIRET 100 mg/40 mg Film Coated Tablet"
+  ],
+  "pilocarpine": [
+   "APICARPINE 4% EYE DROPS",
+   "PILOTINA-4",
+   "MINIMS PILOCARPINE 2%",
+   "PILOTINA-2",
+   "APICARPINE 2% EYE DROPS",
+   "ISOPTO CARPINE 4% EYE DROPS",
+   "ISOPTO CARPINE 1% EYE DROPS",
+   "ISOPTO CARPIN 2% EYE DROPS"
+  ],
+  "pimecrolimus": [
+   "ELIDEL 1% CREAM"
+  ],
+  "pimozide": [
+   "ORAP FORTE TAB 4 MG"
+  ],
+  "pioglitazone": [
+   "ACTOS 15MG TABLET",
+   "ACTOS 30MG TAB",
+   "GLUSTIN 30MG TAB",
+   "GLADOS 30MG TABLET",
+   "OGLITON 30 MG Tablet"
+  ],
+  "piperacillin": [
+   "PIPRIL VIAL 2G+SOLVENT 20ML",
+   "PIPRIL VIAL 6G",
+   "PIPRIL VIAL 4G",
+   "PIPRIL VIAL 1G+SOLVENT 10ML"
+  ],
+  "pirfenidone": [
+   "ESBRIET 801 MG FILM COATED TABLET",
+   "Fenido",
+   "ESBRIET 267 mg HARD CAPSULES",
+   "ESBRIET 267 MG FILM COATED TABLET"
+  ],
+  "piribedil": [
+   "TRIVASTAL RETARD 50MG TAB"
+  ],
+  "piroxicam": [
+   "ORTHOCAM 10 CAPS",
+   "FELDENE 20MG DISPERSABLE TAB",
+   "DISPERCAM GEL 0.5%",
+   "NOVO-PIROCAM 10MG CAPS",
+   "FELDENE 20MG SUPPOSITORY"
+  ],
+  "pitavastatin": [
+   "LIVAZO 4 mg film-coated tablets",
+   "LIVAZO 2 mg film-coated tablets",
+   "VALIP 4 mg  film-coated tablets",
+   "VALIP 2 mg  film-coated tablets"
+  ],
+  "plerixafor": [
+   "MOZOBIL 24mg/1.2ml solution for injection",
+   "Plerix",
+   "HEMABO 24MG/1.2ML"
+  ],
+  "polatuzumab_vedotin": [
+   "Polivy"
+  ],
+  "polyethylene_glycol": [
+   "SYSTANE ULTRA UD LUBRICANT EYE DROPS",
+   "SYSTANE LUBRICANT EYE DROPS",
+   "LAXO"
+  ],
+  "polymyxin_b": [
+   "STATROL OPHTHALMIC OINTMENT",
+   "MAXITROL DROPS",
+   "MAXITROL EYE OINT.",
+   "POLYSPECTRAN EYE EAR DROPS",
+   "OTOSPORIN EAR DROPS"
+  ],
+  "polyvinyl_alcohol": [
+   "LIQUIFILM TEARS"
+  ],
+  "ponatinib": [
+   "ICLUSIG"
+  ],
+  "posaconazole": [
+   "Posacore",
+   "NOXAFIL",
+   "Vertella"
+  ],
+  "potassium_acetate": [
+   "POTASSIUM ACETATE INJ F.T.V. 40MEQ"
+  ],
+  "potassium_bicarbonate": [
+   "GAVISCON ADVANCE PEPPERMINT LIQUID SACHET",
+   "GAVISCON ADVANCE PEPPERMINT FLAVOR ORAL SUSPENSION"
+  ],
+  "potassium_chloride": [
+   "15% W-V POTASSIUM CHLORIDE FOR INJ. USP",
+   "POTASSIUM CHLORIDE 7.45% INJ AMP",
+   "POTASSIUM CHLORIDE",
+   "POTASSIUM CHLORIDE 7.5% AMP",
+   "POTASSIUM CHLORIDE 10mEqFTV ADDITIVE INJ"
+  ],
+  "potassium_citrate": [
+   "BABYLYTE ORAL SOLUTION"
+  ],
+  "potassium_gluconate": [
+   "ULTRA-K SYRUP"
+  ],
+  "potassium_iodide": [
+   "TERODA"
+  ],
+  "povidone": [
+   "OCULOTECT FLUID SINE 50MG\\ML EYE DROP",
+   "OCULOTECT FLUID 50MG\\ML EYE DROP"
+  ],
+  "pralatrexate": [
+   "FOLOTYN 20MG/ML SOLUTION FOR INFUSION"
+  ],
+  "pramipexole": [
+   "SIFROL 0.7MG (EQU. 1.00MG) TAB",
+   "SIFROL 0.18 MG (EQU.0.25MG) TAB",
+   "SIFROL 0.088 MG (EQU.0.125MG) TAB",
+   "Dopaxol PR"
+  ],
+  "prasterone": [
+   "INTRAROSA"
+  ],
+  "prasugrel": [
+   "PLATEREL 5MG F.C.TABLET",
+   "PLATEREL 10MG F.C.TABLET",
+   "Pevas"
+  ],
+  "pravastatin": [
+   "LIPOSTAT 10MG TAB",
+   "LIPOSTAT 20MG TAB"
+  ],
+  "prednisolone": [
+   "PREDO 25MG TABLETS",
+   "DELTACORTRIL 5MG TAB",
+   "RESPRED 15 mg/5 ml syrup",
+   "PRED FORTE OPTH. SUSP",
+   "GUPISONE TAB 5MG"
+  ],
+  "prednisone": [
+   "PREDONE 20MG TAB",
+   "PREDONE 10MG TAB"
+  ],
+  "pregabalin": [
+   "LYRICA 300",
+   "NERVAX 75MG CAPSULES",
+   "GOGAB 75 MG CAPSULE",
+   "PREGADEX 150 MG CAPSULE",
+   "LEBALIN 150 MG CAPSULE"
+  ],
+  "prilocaine": [
+   "Prila",
+   "ENNLA 5% Cream",
+   "Imla",
+   "CITANEST 3% DENTAL OCTAPRESSIN CARTRIDGE",
+   "PRILA 5% CREAM"
+  ],
+  "primidone": [
+   "MYSOLINE SYRUP"
+  ],
+  "procyclidine": [
+   "KEMADRIN INJ 10MG-2ML",
+   "KEMADRIN 5MG TABLET",
+   "KEMADRIN TABS 5 MG"
+  ],
+  "progesterone": [
+   "Crinone",
+   "ENDOMETRIN 100 mg vafinal tablet",
+   "CYCLOGEST 200MG PESSARIES",
+   "CYCLOGEST 400MG PESSARIES",
+   "PROLUTEX"
+  ],
+  "propantheline": [
+   "METHAPHYLIN TAB"
+  ],
+  "propofol": [
+   "PROPOFOL 1% I.V INJ OR INFUSION",
+   "PROPOFOL-LIPURO1% INJ OR INF AMPOULE",
+   "Propoven",
+   "PROPOVEN 1% VIAL",
+   "DIPRIVAN VIAL 10MG-ML"
+  ],
+  "propranolol": [
+   "INDICARDIN 10 mg tablet",
+   "INDERAL TABLETS 10 MG.",
+   "INDERAL AMPULES 1MG-ML",
+   "PROTENSE 40 mg/5 ml oral solution",
+   "INDERAL TABLETS 40 MG."
+  ],
+  "propylene_glycol": [
+   "SYSTANE ULTRA UD LUBRICANT EYE DROPS",
+   "SYSTANE LUBRICANT EYE DROPS"
+  ],
+  "propylthiouracil": [
+   "PROPYLTHIOURACIL 50MG TAB"
+  ],
+  "prothrombin": [
+   "OCTAPLEX 500 IU",
+   "OCTAPLEX 25IU/ml Powder and solvent for solution for injection"
+  ],
+  "prucalopride": [
+   "RESOLOR 1 mg film-coated tablet",
+   "RESOLOR 2 mg film-coated tablet"
+  ],
+  "pseudoephedrine": [
+   "OTRINOL 120MG CAP"
+  ],
+  "pyrazinamide": [
+   "PZA 500 MG TAB.",
+   "PYRAZINAMIDE ANTIBIOTICE"
+  ],
+  "pyridostigmine": [
+   "MESTINON 60MG TABLET"
+  ],
+  "quetiapine": [
+   "SEROQUEL 300MG F-C TABS",
+   "REZAL XR 200 mg extended-release tablet",
+   "QATPEN 300MG F.C.TABLET",
+   "SERCAND 300 mg film-coated tablet",
+   "SICOPIN 200 mg film-coated tablet"
+  ],
+  "quinapril": [
+   "ACUITEL 20MG TAB",
+   "ACUITEL 10MG TAB"
+  ],
+  "quinidine": [
+   "QUINIDINE SULPHATE 200MG TAB"
+  ],
+  "rabeprazole": [
+   "RABEZOLE 20MG E.C.TABLETS",
+   "PARIET 10 MG E.C TAB",
+   "RAMEP 20 MG GASTRO-RESISTANT TABLET",
+   "RAMEP 10 MG GASTRO-RESISTANT TABLET",
+   "PARIET 20MG E.C TAB",
+   "RABEZOLE 10MG E.C. TABLETS"
+  ],
+  "raloxifene": [
+   "EVISTA 60 MG F-C TABLETS",
+   "RALOSTA 60MG"
+  ],
+  "raltegravir": [
+   "ISENTRESS 600MG F.C.TABLET"
+  ],
+  "ramipril": [
+   "RAMIPRIL SANDOZ 2.5MG TABLET",
+   "RAMIPRIL SANDOZ 5MG TABLET",
+   "RAMIPRIL SANDOZ 10MG TABLET",
+   "ANGIRAM"
+  ],
+  "ramucirumab": [
+   "CYRAMZA 10 mg/ml Injection"
+  ],
+  "ranibizumab": [
+   "LUCENTIS 10MG-ML INTRAVITREAL Injection*",
+   "LUCENTIS 10MG-ML INTRAVITREAL Injection"
+  ],
+  "ranitidine": [
+   "ZANTAC",
+   "RANID 150MG F.C.TAB.",
+   "ZYDAC 300MG TABLET",
+   "RANTAG 300 mg tablet",
+   "ZYDAC 50MG-2 ML SOLUTION FOR IV . IM"
+  ],
+  "rasagiline": [
+   "Ragilin"
+  ],
+  "rasburicase": [
+   "Fasturtec"
+  ],
+  "ravulizumab": [
+   "Ultomiris 300 mg/30 mL"
+  ],
+  "reboxetine": [
+   "EDRONAX 4MG TAB"
+  ],
+  "regorafenib": [
+   "STIVARGA 40 mg film-coated tablet"
+  ],
+  "relebactam": [
+   "Recarbrio"
+  ],
+  "remdesivir": [
+   "Veklury"
+  ],
+  "reserpine": [
+   "ADELPHAN ESIDREX TAB",
+   "BRINERDIN TAB",
+   "ISOTRIRAUPINE S.P.TAB"
+  ],
+  "revefenacin": [
+   "YUPELRI 175 mcg / 3 ml"
+  ],
+  "ribavirin": [
+   "RIBAVIN 200 MG CAPSULES",
+   "COPEGUS 200 MG FILM COATED TABLET",
+   "RIAVIRIN"
+  ],
+  "ribociclib": [
+   "KISQALI 200 mg Film-Coated Tablet"
+  ],
+  "rifampicin": [
+   "RIFADIN CAP 300 MG",
+   "RIFACIN 300 MG CAPS",
+   "RIAFAMPICIN",
+   "RIMACTAZID 300MG TAB.",
+   "RIFACIN 150MG CAP."
+  ],
+  "rifaximin": [
+   "XIFAXAN 200MG F.C.TABLET"
+  ],
+  "rimegepant": [
+   "Nurtec"
+  ],
+  "rimexolone": [
+   "VEXOL 1% OPTH. SUSPENSION"
+  ],
+  "risankizumab": [
+   "Skyrizi 150 mg",
+   "SKYRIZI 75 mg",
+   "Skyrizi 600 mg per 10 ml",
+   "Skyrizi 360 mg  per 2.4 ml"
+  ],
+  "risdiplam": [
+   "Evrysdi 60 mg/80ml"
+  ],
+  "risperidone": [
+   "RISPERDAL 1MG TAB",
+   "RISPERDAL CONSTA 25MG I.M VIAL",
+   "RISPERDAL CONSTA 50MG I.M VIAL",
+   "CALMTROL 1 mg film-coated tablet",
+   "RESPAL 2 MG TABLETS"
+  ],
+  "ritonavir": [
+   "NORVIR 80MG-ML ORAL SOLN."
+  ],
+  "rivaroxaban": [
+   "XARELTO 15MG FILM COATED TABLET",
+   "XARELTO 10MG FILM COATED TABLET",
+   "XARELTO 20MG FILM COATED TABLET",
+   "XARELTO 2.5MG FILM COATED TABLET",
+   "BANORIV 10 mg Film Coated Tablet"
+  ],
+  "rivastigmine": [
+   "EXELON 1.5 mg capsule",
+   "EXELON 4.6MG-24H TRANSDERMAL PATCHES",
+   "EXELON 2MG-ML ORAL SOLUTION",
+   "RIVAXEL 9.5MG/24HRS TRANSDERMAL PATCHES",
+   "RIVETAL 6 mg Capsule"
+  ],
+  "romiplostim": [
+   "NPLATE 250 MCG POWDER FOR SOLUTION FOR INJECTION"
+  ],
+  "ropinirole": [
+   "REQUIP PD 24HOUR 4 mg prolonged release tablet",
+   "REQUIP PD 24HOUR 8 mg prolonged release tablet",
+   "REQUIP PD 24HOUR 2 mg prolonged release tablet",
+   "REQUIP0.25MG TAB",
+   "REQUIP 1MG TAB"
+  ],
+  "ropivacaine": [
+   "BIOQ ROPIVACAINE 2MG/ML SOL. FOR INFUSION",
+   "NAROPIN 2MG-ML PLASTIC AMP",
+   "NAROPIN 7.5MG-ML AMP",
+   "NAROPIN 10MG-ML AMP"
+  ],
+  "rosuvastatin": [
+   "CRESCHOL 20 mg film-coated tablet",
+   "Rosgan",
+   "ROST",
+   "CRESCHOL 10 mg film-coated tablet",
+   "VERTEX"
+  ],
+  "rotigotine": [
+   "NEUPRO 8 mg/24 hrs Transdermal Patches",
+   "NEUPRO 2 mg/24 hrs Transdermal Patches",
+   "NEUPRO 6 mg/24 hrs Transdermal Patches",
+   "NEUPRO 4 MG/24 HRS TRANSDERMAL PATCHES"
+  ],
+  "roxadustat": [
+   "Evrenzo"
+  ],
+  "roxithromycin": [
+   "RULID 150MG TAB",
+   "ROXAMED",
+   "ROMAC 300MG F.C. TABLETS",
+   "ROMAC 150MG F.C. TABLETS"
+  ],
+  "rutin": [
+   "HAEMOSOL CAPSULES",
+   "JUVELON CAPS.",
+   "VITOP CAP"
+  ],
+  "ruxolitinib": [
+   "JAKAVI 5MG TABLET",
+   "JAKAVI 15MG TABLET",
+   "JAKAVI 20MG TABLET",
+   "CELEZON"
+  ],
+  "sacituzumab_govitecan": [
+   "Trodelvy"
+  ],
+  "salbutamol": [
+   "BRONCHOVENT 5mg/ml nebuliser solution",
+   "VENTOLIN RESPIRATORY SOLUTIN",
+   "VENTOLIN CR",
+   "VENTOLIN DISKUS 200MCG",
+   "AIROMIR INHALER 100MCG-ACTUATION"
+  ],
+  "salicylic_acid": [
+   "NOCAL 10% TOPICAL SOLN.",
+   "Kerasal",
+   "KERASAL 10 % OINTMENT"
+  ],
+  "salmeterol": [
+   "Seroflo 50/250 Ciphaler",
+   "RESPIRA Aurohaler 25/250",
+   "ROLENIUM 500/50 mcg Elpenhaler",
+   "SERETIDE EVOHALER",
+   "SERETIDE DISKUS 50\\100MCG"
+  ],
+  "sebelipase_alfa": [
+   "KANUMA"
+  ],
+  "secnidazole": [
+   "SECNEZOLE 500MG TABLETS",
+   "SECNID 500MG TABLETS"
+  ],
+  "selegiline": [
+   "ELDEPRYL 5MG TABS"
+  ],
+  "selpercatinib": [
+   "Retevmo"
+  ],
+  "selumetinib": [
+   "Koselugo"
+  ],
+  "sennosides": [
+   "PURSENNID TABLET",
+   "PURGATON"
+  ],
+  "serine": [
+   "AMINOPLASMAL B BRAUN 10%",
+   "AMINOPLASMAL 15 % I.V INFUSION SOLN",
+   "OLIMEL N9 emulsion for infusion",
+   "OLIMEL N5E emulsion for infusion",
+   "SMOFKABIVEN PERIPHERAL EMULSION for infusion"
+  ],
+  "sertaconazole": [
+   "DERMOFIX 2% CREAM"
+  ],
+  "sertraline": [
+   "SETRAL 100MG F.C. TABLETS",
+   "SETRAL 50MG F.C. TABLETS",
+   "SOLOTIK 100MG F-C TABLETS",
+   "Sertidep",
+   "SOLOTIK 50MG F-C TABLETS"
+  ],
+  "sevoflurane": [
+   "SEVOFLURANE Inhalation Anesthetic",
+   "SEVOFLURANE100%LIQUID FOR INH.ANESTHESIA"
+  ],
+  "silibinin": [
+   "LEGALON 35MG TAB",
+   "LEGALON 70 MG TAB."
+  ],
+  "silodosin": [
+   "Flopadex"
+  ],
+  "simeprevir": [
+   "OLYSIO 150MG Capsule"
+  ],
+  "simvastatin": [
+   "ZOCOR 10MG TAB",
+   "ZOCOR 20MG TAB",
+   "ZOCOR 40MG TAB",
+   "SIMVAHEXAL 20MG F.C. TABLETS",
+   "VASTA 40MG F.C. TABLETS"
+  ],
+  "siponimod": [
+   "MAYZENT"
+  ],
+  "sirolimus": [
+   "RAPAMUNE 1 MG COATED TABLETS",
+   "RAPAMUNE 1 MG Coated tablet"
+  ],
+  "sodium_citrate": [
+   "AMYDRAMINE EXPECTORANT SYRUP SUGAR FREE",
+   "AMYDRAMINE PAEDIATRIC SYRUP",
+   "DIPHELIN- ADULTS SYRUP",
+   "DRAMYLIN PEDIATRIC SYRUP",
+   "CITRO-SODA GRANULES"
+  ],
+  "sodium_fluoride": [
+   "TRACUTIL SOLUSION FOR INFUSION AMPOULE",
+   "Addaven",
+   "NUTRYELT CONC. FOR SOLUTION FOR INFUSION"
+  ],
+  "sodium_stibogluconate": [
+   "PENTOSTAM"
+  ],
+  "sodium_sulfate": [
+   "LAXEL EFFERVESCENT SALT",
+   "MOVIPREP POWDER FOR ORAL SOLUTION"
+  ],
+  "sofosbuvir": [
+   "SOFOCURE 400 mg film-coated tablet",
+   "SOVALDI 400 mg film-coated tablet",
+   "SOVIRA 400 mg film-coated tablet"
+  ],
+  "sorafenib": [
+   "Sorafenib BOS",
+   "NEXAVAR 200 MG F-C TABLETS"
+  ],
+  "sorbitol": [
+   "SORBIT 5 G POWDER PACKET",
+   "SORBITOL GRANULES 5G-SACHET",
+   "SORBITOL IRRIGATION 3.3% IN PLASTIC BAG"
+  ],
+  "spironolactone": [
+   "ALDACTONE TAB",
+   "SPIROCTAN TAB 50MG",
+   "NORACTONE",
+   "SPIROCTAN TAB 25MG"
+  ],
+  "stavudine": [
+   "ZERIT 30MG CAP",
+   "ZERIT 40MG CAP",
+   "ZERIT 20MG CAP"
+  ],
+  "streptokinase": [
+   "STREPTAS 750000I.U VIAL",
+   "STREPTAS 250000I.U VIAL",
+   "KABIKINASE 600000 IU VIAL",
+   "KABIKINASE VIAL 100000 IU"
+  ],
+  "strontium_ranelate": [
+   "PROTELOS 2GM GRANULES FOR ORAL SUSP."
+  ],
+  "succinic_acid": [
+   "RESOFERON TAB"
+  ],
+  "sucralfate": [
+   "ULCICURE TAB 1 GM",
+   "GASTROFAIT TAB 500MG",
+   "ULSAHEAL 1000 SUSP (1000MG-5ML)",
+   "ULSAHEAL TAB 1G"
+  ],
+  "sulbactam": [
+   "ELORES 1.5 g Powder For Solution For Injection/Infusion",
+   "UNASYN 500:250MG VIAL",
+   "AMPIPLUS 1.5GM POWDER FOR INGECTION",
+   "UNASYN 1000:500MG VIAL"
+  ],
+  "sulfacetamide": [
+   "ISOPTO CETAMIDE 10% EYE DROPS",
+   "COLIRCUSI SULPHACETAMIDE 10%",
+   "COLIRCUSI SULPHACETAMIDE 20%",
+   "RIACETAMIDE -20",
+   "CETAMIDE 10% OPTH.OINT."
+  ],
+  "sulfamethoxazole": [
+   "SEPTRIN INJECTION"
+  ],
+  "sulfasalazine": [
+   "SALAZOPYRIN-EN TAB 500MG"
+  ],
+  "sulindac": [
+   "CLINORIL TAB 200MG"
+  ],
+  "sulpiride": [
+   "GENPRID",
+   "DOGMATIL FORT TAB 200MG",
+   "DOGMATIL SYP",
+   "DOGMATIL CAPS 50MG",
+   "DOGMATIL AMP 100MG"
+  ],
+  "sumatriptan": [
+   "MIGRABAN 50MG FILM COATED TABLETS",
+   "MIGRABAN 100MG FILM COATED TABLETS",
+   "SUMAREX 50 MG F.C.TABLET (2S)",
+   "ORATAB 100MG F.C. TABLETS",
+   "IMIGRAN 20 MG NASAL SPRAY",
+   "SUMAREX 50 MG F.C.TABLET (6S)",
+   "IMIGRAN 6MG-0.5ML AMP",
+   "SUMAREX 100 MG F.C.TABLET (2S)",
+   "ORATAB 100 mg",
+   "IMIGRAN 10 MG NASAL SPRAY",
+   "IMIGRAN",
+   "SUMAREX 100 MG F.C.TABLET (6S)"
+  ],
+  "sunitinib": [
+   "SUTENT 12.5 MG CAPSULE",
+   "SUTENT 25 MG CAPSULE",
+   "SUTENT 50 MG CAPSULE",
+   "SUTEXA 50MG CAPSULE",
+   "RENIS 50MG CAPSULE"
+  ],
+  "tacrolimus": [
+   "PROTOPIC 0.1% OINTMENT",
+   "PROTOPIC 0.03% OINTMENT",
+   "TACROZ 0.03% OINTMENT",
+   "VIOTOPIC 0.1% ointment",
+   "PROGRAF 1 mg capsule"
+  ],
+  "tadalafil": [
+   "CIALIS ONCE-A-DAY 5MG TABLETS",
+   "AVIALIS 5 MG F.C.TABLET",
+   "SNAFI 5 mg Film Coated Tablet",
+   "XYRIO 20 mg Tablet",
+   "TYRA 20 mg film-coated tablet"
+  ],
+  "tamoxifen": [
+   "TAMOFEN 20MG TAB",
+   "NOLVADEX-D TAB 20MG",
+   "TAMOPHAR 10 MG TABLET",
+   "TAMOPLEX 10MG-TAB.",
+   "TAMOFEN 10MG TAB"
+  ],
+  "tamsulosin": [
+   "OMNIC OCAS 0.4 MG F-C TABLETS",
+   "TAMFREX",
+   "HARNAL 0.4MG MODIFIED RELEASE CAPSULES",
+   "CIGAPRO 0.4 mg Prolonged Release Tablet",
+   "GAMCET 0.4MG PROLONGED RELEASE F.C.TABLET"
+  ],
+  "tazarotene": [
+   "EVITAR 0.1% gel"
+  ],
+  "tazobactam": [
+   "ZERBAXA Powder For Injection Vial",
+   "TAZOCIN 4.5GM VIAL + EDTA",
+   "PRIZMA 2GM/0.25GM POWDER FOR I.V. INFUSION",
+   "PIPERACILLIN - TAZOPACTAM SANDOZ 2.25GM VIAL",
+   "TAZORAX 4.5 GM Powder for injection",
+   "TAZOCIN 2.25G VIAL",
+   "PIPERACILLIN - TAZOPACTAM SANDOZ 4.5GM VIAL",
+   "TAZORAX 2.25 GM Powder for injection",
+   "PRIZMA 4GM-0.5GM POWDER FOR I.V INFUSION"
+  ],
+  "telaprevir": [
+   "INCIVO 375MG FILM COATED TABLET"
+  ],
+  "telavancin": [
+   "VIBATIV (10 vials)",
+   "VIBATIV"
+  ],
+  "telbivudine": [
+   "SEBIVO 600 MG F-C TABLETS"
+  ],
+  "telithromycin": [
+   "KETEK 400MG F.C.TABLET"
+  ],
+  "telmisartan": [
+   "MICARDIS 40 MG TAB",
+   "MICARDIS 80 MG TAB",
+   "NIZORTAN 40 mg Tablet",
+   "NIZORTAN 80 mg Tablet",
+   "Telfocus"
+  ],
+  "telotristat_ethyl": [
+   "Xermelo"
+  ],
+  "temozolomide": [
+   "LAGONA 250 mg  Hard capsule",
+   "LAGONA 100 mg  Hard capsule",
+   "TEMOL 250 mg capsule",
+   "TEGOZOL 250 mg Capsule",
+   "Zolomid"
+  ],
+  "temsirolimus": [
+   "TORISEL 25MG/ML CONC. FOR IV INFUSION"
+  ],
+  "tenecteplase": [
+   "METALYSE 10000 U I.V VIAL"
+  ],
+  "tenofovir_alafenamide": [
+   "VEMLIDY 25MG F.C.TABLET"
+  ],
+  "tenofovir_disoproxil": [
+   "Hivera",
+   "Tenovas",
+   "Virad",
+   "TENOVAS",
+   "VIREAD 245 mg FILM COATED TABLET"
+  ],
+  "tenoxicam": [
+   "TENOX 20MG CAPS",
+   "TILCOTIL TAB 20MG",
+   "TILCOTIL 20MG VIAL",
+   "TILCOTIL SUPP 20MG"
+  ],
+  "terazosin": [
+   "ITRIN 2MG TAB",
+   "ITRIN 5MG TAB"
+  ],
+  "terbutaline": [
+   "BRICANYL TURBUHALER 0.5MG-DOSE",
+   "BRICANYL 2.5MG-ML SOLN.FOR NEBULISATION",
+   "BRICANYL TAB 5MG",
+   "BRICANYL SYP",
+   "BRICANYL AMP."
+  ],
+  "teriflunomide": [
+   "Teriflunomide BOS",
+   "Axyla",
+   "AUBAGIO 14 mg film-coated tablet"
+  ],
+  "teriparatide": [
+   "TERROSA",
+   "FORTEO 20MCG-80MCL SOLU. FOR Injection*",
+   "Bonteo",
+   "FORTEO 20MCG-80MCL SOLU. FOR Injection"
+  ],
+  "tetracaine": [
+   "MINIMS TETRACAINE HCL 0.5%",
+   "MINIMS TETRACAINE HCL 1%",
+   "TETRACAINE DROPS"
+  ],
+  "tetracycline": [
+   "DUMOCYCLIN 250 MG CAP",
+   "OPTICYCLIN 1 % OINTMENT",
+   "TERRAMYCIN CAPS 250MG",
+   "DUMOCYCLINE EYE OINT",
+   "TETRACYCLINE 500MG CAPS"
+  ],
+  "tetryzoline": [
+   "EFEMOLINE EYE DROPS 0.1%",
+   "COLIRCUSI GENTADEXA EYE DROP"
+  ],
+  "theophylline": [
+   "EUPHYLLINE RETARD C.TAB 250MG",
+   "THEO-DUR TAB 200MG",
+   "RIAPHYLLIN 60MG/5ML SYRUP",
+   "THEOPHAR 60MG-5ML SYRUP",
+   "AVOLEN S.R TABLET"
+  ],
+  "thiamine": [
+   "THIAVIT 100MG TAB",
+   "VITA-B TAB",
+   "TRIPLEX B Film Coated Tab"
+  ],
+  "thiopental": [
+   "THIOPENTAL 1G VIAL",
+   "THIOPENTAL 0.5G INJ",
+   "EPENTAL 1G VIAL",
+   "EPENTAL 0.5G VIAL"
+  ],
+  "threonine": [
+   "RENAMIN INJECTION",
+   "AMINOPLASMAL B BRAUN 10%",
+   "AMINOPLASMAL 15 % I.V INFUSION SOLN",
+   "OLIMEL N9 emulsion for infusion",
+   "SMOFKABIVEN PERIPHERAL EMULSION for infusion"
+  ],
+  "thyrotropin_alfa": [
+   "THYROGEN 0.9 mg/ml powder for solution For injection"
+  ],
+  "tiapride": [
+   "TIAPRIDAL AMP",
+   "TIAPRIDAL 100MG TAB"
+  ],
+  "tiaprofenic_acid": [
+   "SURGAM 300MG TABLET"
+  ],
+  "ticagrelor": [
+   "Domassel",
+   "Platica",
+   "Ticagrelor SPC F.C. Tablets",
+   "Lotac",
+   "Prasido"
+  ],
+  "tildrakizumab": [
+   "Ilumya"
+  ],
+  "tinidazole": [
+   "PROTOGYN",
+   "FASIGYN 500MG TABLET"
+  ],
+  "tiotropium": [
+   "SPIRIVA 18MCG HARD CAPSULE"
+  ],
+  "tizanidine": [
+   "SIRDALUD 4MG TAB",
+   "SIRDALUD 2MG TAB",
+   "TILAX 4 MG TABLET",
+   "TILAX 2 MG TABLET",
+   "RELEZIN 4 MG TABLET"
+  ],
+  "tobramycin": [
+   "TOBREX OPTH.SOLUTION 0.3%",
+   "TOBREX OPTH.OINT. 0.3%",
+   "TOBRACIN 0.3% EYE DROPS",
+   "TOBI PODHALER 28MG",
+   "NEBCIN 80MG-2ML VIAL"
+  ],
+  "tocilizumab": [
+   "ACTEMRA 20 MG/ML Solution for injection/infusion",
+   "ACTEMRA 162 mg/0.9 ml solution for injection in pre-filled syringe"
+  ],
+  "tolfenamic_acid": [
+   "CLOTAN"
+  ],
+  "tolvaptan": [
+   "Vaprena"
+  ],
+  "topiramate": [
+   "TOPAMAX 200MG F.C.TAB.",
+   "TOPAMAX 100MG F.C.TAB.",
+   "IPRAMAX 100 MG FILM COATED TABLET",
+   "TALOPAM 100 mg film-coated tablet",
+   "ALEVIO 100MG F.C.TABLET"
+  ],
+  "topotecan": [
+   "TOPOTECAN HOSPIRA",
+   "HYCAMTIN 4MG I.V. VIAL"
+  ],
+  "trabectedin": [
+   "YONDELIS 1 mg powder for concentrate for solution for infusion"
+  ],
+  "tramadol": [
+   "TRAMAL 100MG SUPPOSITORIES",
+   "TRAMAL RETARD 100MG F.C TAB",
+   "TRAMADONE 50MG-ML(100MG-2ML) AMPOULE",
+   "TRAMAL 50 MG-1 ML AMPOULE",
+   "NOMAL 50 MG CAPSULE"
+  ],
+  "tranexamic_acid": [
+   "KAPRON",
+   "FEMIC",
+   "CYKLOKAPRON INJ 100MG-ML INJECTION",
+   "LYSTEDA 650 mg Tablet",
+   "Tranexamic acid BOS"
+  ],
+  "tranylcypromine": [
+   "PARNATE 10 MG. TAB."
+  ],
+  "trastuzumab": [
+   "HERCEPTIN 150MG VIAL",
+   "Enhertu",
+   "Zercepac",
+   "CANHERA 150MG VIAL",
+   "Kanjinti"
+  ],
+  "trastuzumab_emtansine": [
+   "KADCYLA 160 mg powder for concentrate for solution for infusion",
+   "KADCYLA 100 mg powder for concentrate for solution for infusion"
+  ],
+  "travoprost": [
+   "TRAVATAN EYE DROP"
+  ],
+  "tretinoin": [
+   "ACRETIN",
+   "RETACNYL 0.025% CREAM",
+   "SMOODERM CREAM",
+   "OPTIMAL 0.05% CREAM",
+   "RETIN-A CREAM 0.05%"
+  ],
+  "triamcinolone": [
+   "KENACORT-A 40MG\\ML INJ",
+   "Naselfast nasal spray suspension",
+   "VITREAL S OPHTHALMIC SUSPENSION",
+   "CINOKORT 40 MG - 2 ML AMPOULE",
+   "KENALOG IN ORABASE (PASTE 0.1%)"
+  ],
+  "triamterene": [
+   "DYAZIDE"
+  ],
+  "triclocarban": [
+   "SOLUBACTER SOLN. 1%",
+   "CUTISAN POWDER"
+  ],
+  "trifarotene": [
+   "AKLIEF"
+  ],
+  "trifluoperazine": [
+   "STELAZINE SYRUP 1MG-5ML",
+   "STELAZINE SPANSULES 10MG",
+   "STELAZINE SPANSULES 2MG",
+   "STELAZINE 5MG TABLETS",
+   "STELAZINE 1MG TABLETS"
+  ],
+  "trihexyphenidyl": [
+   "ARTANE 5 MG TAB",
+   "ARTANE 2 MG TAB"
+  ],
+  "trimebutine": [
+   "DEBRIDAT 1.2 GM-250ML SUSPENSION"
+  ],
+  "trimethoprim": [
+   "TRIMIDAR TAB 100MG"
+  ],
+  "trioxsalen": [
+   "TRISORALEN TABLET 5MG"
+  ],
+  "triprolidine": [
+   "SEDOFAN SYRUP.",
+   "SEDOFAN",
+   "Rinofed Cold & Allergy Tablets",
+   "RINOFED",
+   "UNIFED SYRUP"
+  ],
+  "triptorelin": [
+   "DIPHERELINE 0.1 MG POWDER FOR SOLUTION FOR INJECTION / INFUSION",
+   "DIPHERELINE P.R. 3 mg Powder for Suspension for Injection",
+   "DECAPEPTYL DEPOT NOVUM 3.75MG VIAL+SOLVT",
+   "DECAPEPTYL CR 3.75MG SYRINGE",
+   "DIPHERELINE P.R. 11.25 mg Powder for Suspension for Injection"
+  ],
+  "tropicamide": [
+   "MINIMS TROPICAMIDE 1% W-V",
+   "MYDRIACYL 1% EYE DROPS",
+   "MINIMS TROPICAMIDE 0.5% EYE DROPS",
+   "EYMID 1% EYE DROP"
+  ],
+  "tropisetron": [
+   "NAVOBAN 5MG-5ML AMP",
+   "NAVOBAN 5MG CAPS"
+  ],
+  "tryptophan": [
+   "RENAMIN INJECTION",
+   "AMINOPLASMAL B BRAUN 10%",
+   "AMINOPLASMAL 15 % I.V INFUSION SOLN",
+   "OLIMEL N9 emulsion for infusion",
+   "SMOFKABIVEN PERIPHERAL EMULSION for infusion"
+  ],
+  "tubocurarine": [
+   "TUBOCURARINE HYDROCHLORIDE INJ F.T.V."
+  ],
+  "turoctocog_alfa": [
+   "NOVOEIGHT 250 IU Powder & Solvent For Solution For Injection",
+   "NOVOEIGHT 500 IU Powder & Solvent For Solution For Injection",
+   "NOVOEIGHT 1000 IU Powder & Solvent For Solution For Injection",
+   "NOVOEIGHT 1500 IU Powder & Solvent For Solution For Injection",
+   "NOVOEIGHT 2000 IU Powder & Solvent For Solution For Injection"
+  ],
+  "turoctocog_alfa_pegol": [
+   "Esperoct"
+  ],
+  "tyrosine": [
+   "AMINOPLASMAL B BRAUN 10%",
+   "AMINOPLASMAL 15 % I.V INFUSION SOLN",
+   "OLIMEL N9 emulsion for infusion",
+   "OLIMEL N5E emulsion for infusion",
+   "SMOFKABIVEN PERIPHERAL EMULSION for infusion"
+  ],
+  "ubrogepant": [
+   "Ubrelvy"
+  ],
+  "upadacitinib": [
+   "Rinvoq"
+  ],
+  "urofollitropin": [
+   "Fostimon 225 I.U",
+   "FOSTIMON HP 150 IU VIAL IM(WOMEN URIN)",
+   "Fostimon 300 I.U",
+   "BRAVELLE 75IU POWDER FOR SOLU. FOR INJ",
+   "METRODIN HP 75 IU-AMPOULE"
+  ],
+  "ursodeoxycholic_acid": [
+   "URSOFALK 250MG CAPSULE"
+  ],
+  "ustekinumab": [
+   "STELARA 90mg/1ml SOLUTION FOR INJECTION",
+   "STELARA 130MG/26ML Concentrate for solution for infusion",
+   "STELARA 45MG/0.5ML SOLUTION FOR INJECTION"
+  ],
+  "valine": [
+   "RENAMIN INJECTION",
+   "AMINOPLASMAL B BRAUN 10%",
+   "AMINOPLASMAL 15 % I.V INFUSION SOLN",
+   "OLIMEL N9 emulsion for infusion",
+   "SMOFKABIVEN PERIPHERAL EMULSION for infusion"
+  ],
+  "valsartan": [
+   "TABUVAN 320 MG FILM COATED TABLET",
+   "DIOVAN 80MG TAB",
+   "VALTENSE 80 mg film-coated tablet",
+   "ARBAVAL 80 mg film-coated tablet",
+   "VALISTA 160 mg film-coated tablet"
+  ],
+  "vancomycin": [
+   "VANCOMYCIN HCL 1 G VIAL FOR INFUSION",
+   "ALVANCO 1000MG POW. FOR INFUSION",
+   "VANCO 1000 mg powder for solution for injection or infusion",
+   "VANCOLON 1GM POWDER FOR I.V. INFUSION",
+   "VANCOCIN-CP 500MG-10 ML. VIAL"
+  ],
+  "vandetanib": [
+   "CAPRELSA 100 mg film-coated tablet",
+   "CAPRELSA 300 mg film-coated tablet"
+  ],
+  "varenicline": [
+   "CHAMPIX 1MG F-C TABLETS",
+   "CHAMPIX 0.5 MG F-C TAB",
+   "CHAMPIX 0.5 MG 11 tablets +1 MG 14 tablets",
+   "Varlin",
+   "VANTIX 1 mg Film Coated Tablet"
+  ],
+  "vasopressin": [
+   "Progecta"
+  ],
+  "velpatasvir": [
+   "EPCLUSA 400 mg/100 mg Film-coated Tablet",
+   "VOSEVI 400MG/100MG/100MG F.C.TABLET"
+  ],
+  "venetoclax": [
+   "VENCLEXTA 10 mg film-coated tablet",
+   "VENCLEXTA 10 mg / 50 mg / 100 mg film-coated tablet",
+   "VENCLEXTA 50 mg film-coated tablet",
+   "VENCLEXTA 100 mg film-coated tablet"
+  ],
+  "verapamil": [
+   "ISOPTIN S.R 240MG F.COATED TAB",
+   "ISOPTIN TABLETS 40 MG.",
+   "ISOPTIN TABLETS 80 MG.",
+   "ISOPTIN RETARD TAB 120MG",
+   "ISOPTIN AMP 2.5MG-ML"
+  ],
+  "verteporfin": [
+   "VISUDYNE 15MG POWDER FOR INFUSION"
+  ],
+  "vidarabine": [
+   "VIDARABINE 3% THILO-EYE OINT."
+  ],
+  "vilanterol": [
+   "RELVAR ELLIPTA 200/25 mcg inhalation powder",
+   "RELVAR ELLIPTA",
+   "ANORO ELLIPTA inhalation powder, pre-dispensed",
+   "ANORO ELLIPTA",
+   "TRELEGY ELLIPTA 100/62.5/25MCG Inhalation powder, pre-dispensed"
+  ],
+  "vildagliptin": [
+   "GLEPTAL 50MG TABLET",
+   "Vildus",
+   "VILDATIN 50 mg Tablet",
+   "Geuvid"
+  ],
+  "viloxazine": [
+   "VIVALAN TAB 50MG"
+  ],
+  "vinblastine": [
+   "VELBE 10MG VIAL+SOLVENT 10ML",
+   "ONCOVIN 1MG VIAL+SOLVENT 10ML",
+   "VINBLASTINE SULPHATE 10MG-10ML VIAL"
+  ],
+  "vincristine": [
+   "VINCRISTINE ROGER BELLON 1MG-VIAL",
+   "VINBLASTINE SULPHATE 10MG-10ML VIAL",
+   "VINCRISTIN SULPH. 1MG-ML VIAL"
+  ],
+  "vindesine": [
+   "ELDISINE 5MG VIAL+SOLVENT 5ML"
+  ],
+  "vinorelbine": [
+   "NAVELBINE 10MG-ML I-V VIAL",
+   "VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION"
+  ],
+  "vitamin_a": [
+   "UNIVIT-A FORT 50000 I.U. CAPSULE"
+  ],
+  "vitamin_e": [
+   "DAGRAVIT A-E CAPS",
+   "TOCOVIT",
+   "LAVENTE OINT."
+  ],
+  "vortioxetine": [
+   "BRINTELLIX 20 mg film-coated tablet",
+   "BRINTELLIX 10 mg film-coated tablet"
+  ],
+  "voxelotor": [
+   "Oxbryta"
+  ],
+  "voxilaprevir": [
+   "VOSEVI 400MG/100MG/100MG F.C.TABLET"
+  ],
+  "warfarin": [
+   "COUFATEX 2 mg Tablet",
+   "WARFARIN SODIUM 5 MG TAB",
+   "WARFARIN SODIUM 1MG TAB",
+   "COUFATEX 1 mg Tablet",
+   "COUMADIN"
+  ],
+  "xylometazoline": [
+   "OTRIVIN",
+   "NAZIX NASAL DROPS 0.05% W-V",
+   "XYLOLIN 0.1% ADULT NASAL SPRAY",
+   "DECOZAL 0.05% NASAL DROPS",
+   "XYLO-MEPHA 0.05% NASAL SPRAY"
+  ],
+  "zafirlukast": [
+   "ACCOLATE 20 MG F.C.TAB"
+  ],
+  "zalcitabine": [
+   "HIVID 0.75MG F.C TAB",
+   "HIVID 0.375MG F.C TAB"
+  ],
+  "zanamivir": [
+   "RELENZA 5MG POWDER FOR INHALATION"
+  ],
+  "zanubrutinib": [
+   "Brukinsa"
+  ],
+  "zidovudine": [
+   "RETROVIR 50MG\\5ML ORAL SUSPENTION",
+   "RETROVIR CAPS 100MG"
+  ],
+  "zinc_chloride": [
+   "TRACUTIL SOLUSION FOR INFUSION AMPOULE",
+   "Addaven",
+   "SUPRADYN EFFERVESCENT"
+  ],
+  "zinc_gluconate": [
+   "JUNYELT",
+   "NUTRYELT CONC. FOR SOLUTION FOR INFUSION"
+  ],
+  "zinc_oxide": [
+   "CALMAR"
+  ],
+  "zinc_sulfate": [
+   "OCULOSAN EYE DROPS",
+   "ZINCFRIN EYE DROPS",
+   "APIFRIN-Z EYE DROP"
+  ],
+  "zuclopenthixol": [
+   "CLOPIXOL TABS 25MG",
+   "CLOPIXOL TABS 2MG",
+   "CLOPIXOL TABS 10MG",
+   "CLOPIXOL-ACUPHASE 50MG-ML OILY AMP",
+   "CLOPIXOL INJ 10MG-ML"
+  ]
+ }
+}
