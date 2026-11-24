@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 815
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ticagrelor: الاستطباب الجديد المتوقع تصلب الشرايين داخل الجمجمة (مستوى الدليل L5). الاستطباب الأصلي: المتلازمة الإكليلية الحادة، مرض الأوعية الطرفية، العرج المتقطع، مرض ا…"
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
@@ -88,13 +88,19 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 
 جميع التراخيص السبعة سارية حالياً (7 من 7). نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| Domassel | Domassel | DR. REDDY | ساري |
-| Platica | Platica | Labormed Pharma SA | ساري |
-| Ticagrelor SPC F.C. Tablets | Ticagrelor SPC F.C. Tablets | MSN Laboratories Private Limited | ساري |
-| Lotac | Lotac | Macleods Pharmaceuticals Limited | ساري |
-| Prasido | Prasido | Pharma International Co. | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Domassel | TICAGRELOR | DR. REDDY | ساري |
+| Platica | TICAGRELOR | Labormed Pharma SA | ساري |
+| Ticagrelor SPC F.C. Tablets | TICAGRELOR | MSN LABORATORIES PRIVATE LIMITED | ساري |
+| Lotac | TICAGRELOR | Macleods Pharmaceuticals Limited | ساري |
+| Prasido | TICAGRELOR | Pharma International Co. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -130,7 +136,7 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 
 <!-- review:begin sa-lic-20261106-ticagrelor-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي في السعودية، أي سبب إلغاء التراخيص وإمكانية إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 7، منها سارية: 7؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي في السعودية، أي سبب إلغاء التراخيص وإمكانية إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ticagrelor-1 -->
 
@@ -142,7 +148,7 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «أي سبب إلغاء التراخيص وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «أي سبب إلغاء التراخيص وإمكانية إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
 
 <!-- review:end log -->

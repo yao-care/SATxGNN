@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 300
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
 description: "Empagliflozin: الاستطباب الجديد المتوقع متلازمة الطرف المتيبس البؤرية (focal stiff limb syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -82,10 +82,14 @@ description: "Empagliflozin: الاستطباب الجديد المتوقع مت
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| JARDIANCE 25 mg film-coated tablet | JARDIANCE 25 mg film-coated tablet (ROTTENDORF PHARMA GMBH) | أقراص مغلفة | غير متوفر | ساري |
-| JARDIANCE 10 mg film-coated tablet | JARDIANCE 10 mg film-coated tablet (BOEHRINGER INGELHEIM) | أقراص مغلفة | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| JARDIANCE 25 mg film-coated tablet | EMPAGLIFLOZIN | ROTTENDORF PHARMA GMBH | ساري |
+| JARDIANCE 10 mg film-coated tablet | EMPAGLIFLOZIN | BOEHRINGER INGELHEIM | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -106,7 +110,7 @@ description: "Empagliflozin: الاستطباب الجديد المتوقع مت
 
 <!-- review:begin sa-lic-20261106-empagliflozin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ قائم على النموذج الرسومي فقط (L5)، ولا توجد تجارب أو منشورات، ولا رابط آلي مدعوم بالبيانات بين تثبيط SGLT2 وهذا المرض. / لا يوجد حالياً ترخيص ساري للدواء في المملكة (التراخيص ملغاة).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ قائم على النموذج الرسومي فقط (L5)، ولا توجد تجارب أو منشورات، ولا رابط آلي مدعوم بالبيانات بين تثبيط SGLT2 وهذا المرض. / لا يوجد حالياً ترخيص ساري للدواء في المملكة (التراخيص ملغاة).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-empagliflozin-1 -->
 
@@ -124,7 +128,7 @@ description: "Empagliflozin: الاستطباب الجديد المتوقع مت
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري للدواء في المملكة (التراخيص ملغاة)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري للدواء في المملكة (التراخيص ملغاة)» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
 
 <!-- review:end log -->

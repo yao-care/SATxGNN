@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 661
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PIRFENIDONE"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: الاستطباب الجديد المتوقع ورم الخلايا البدينة خارج الجلد (extracutaneous mastocytoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -68,12 +68,16 @@ description: "Pirfenidone: الاستطباب الجديد المتوقع ورم
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الشركة المصنعة |
-|---------|------|------|-----------|
-| ESBRIET 801 MG FILM COATED TABLET | ESBRIET 801 MG FILM COATED TABLET | غير محدد | DELPHARM MILANO SRI |
-| Fenido | Fenido | غير محدد | MSN LABORATORIES PRIVATE LIMITED |
-| ESBRIET 267 mg HARD CAPSULES | ESBRIET 267 mg HARD CAPSULES | كبسولات صلبة (بحسب الاسم) | CATALENT PHARMA SOLUTIONS |
-| ESBRIET 267 MG FILM COATED TABLET | ESBRIET 267 MG FILM COATED TABLET | أقراص مغلفة (بحسب الاسم) | DELPHARM MILANO SRI |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ESBRIET 801 MG FILM COATED TABLET | PIRFENIDONE | DELPHARM MILANO SRI | ساري |
+| Fenido | PIRFENIDONE | MSN LABORATORIES PRIVATE LIMITED | ساري |
+| ESBRIET 267 mg HARD CAPSULES | PIRFENIDONE | CATALENT PHARMA SOLUTIONS | ساري |
+| ESBRIET 267 MG FILM COATED TABLET | PIRFENIDONE | DELPHARM MILANO SRI | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

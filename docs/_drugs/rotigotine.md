@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 736
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ROTIGOTINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
 description: "Rotigotine: الاستطباب الجديد المتوقع Attention deficit-hyperactivity disorder (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -84,12 +84,16 @@ description: "Rotigotine: الاستطباب الجديد المتوقع Attenti
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| NEUPRO 8 mg/24 hrs Transdermal Patches | NEUPRO 8 mg/24 hrs | لصقات عبر الجلد | غير متوفر (ساري) |
-| NEUPRO 2 mg/24 hrs Transdermal Patches | NEUPRO 2 mg/24 hrs | لصقات عبر الجلد | غير متوفر (ساري) |
-| NEUPRO 6 mg/24 hrs Transdermal Patches | NEUPRO 6 mg/24 hrs | لصقات عبر الجلد | غير متوفر (ساري) |
-| NEUPRO 4 MG/24 HRS TRANSDERMAL PATCHES | NEUPRO 4 mg/24 hrs | لصقات عبر الجلد | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NEUPRO 8 mg/24 hrs Transdermal Patches | ROTIGOTINE | LTS LOHMANN Therapie-Systeme | ساري |
+| NEUPRO 2 mg/24 hrs Transdermal Patches | ROTIGOTINE | LTS LOHMANN Therapie-Systeme | ساري |
+| NEUPRO 6 mg/24 hrs Transdermal Patches | ROTIGOTINE | LTS LOHMANN Therapie-Systeme | ساري |
+| NEUPRO 4 MG/24 HRS TRANSDERMAL PATCHES | ROTIGOTINE | LTS LOHMANN Therapie-Systeme | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنّعة لجميع التراخيص: LTS LOHMANN Therapie-Systeme.
 
@@ -122,7 +126,7 @@ description: "Rotigotine: الاستطباب الجديد المتوقع Attenti
 
 <!-- review:begin sa-lic-20261106-rotigotine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في المملكة ملغاة، ولم يتوفر نص التحذيرات وموانع الاستعمال الرسمي، ما يعيق تقييم السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في المملكة ملغاة، ولم يتوفر نص التحذيرات وموانع الاستعمال الرسمي، ما يعيق تقييم السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-rotigotine-1 -->
 
@@ -144,7 +148,7 @@ description: "Rotigotine: الاستطباب الجديد المتوقع Attenti
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص الدواء في المملكة ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الدواء في المملكة ملغاة، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0) |
 
 <!-- review:end log -->

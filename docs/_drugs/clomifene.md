@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "كلوميفين: الاستطباب الجديد المتوقع هو اضطراب تمايز الجنس 46,XY الناجم عن عيب في تخليق الستيرويدات الخصوية (46,XY disorder of sex development due to testicular steroidogenesis defect) (مستوى الدليل L5). الاستطباب الأصلي: العقم عند النساء. الدرجة 0.9990 صادرة عن نموذج TxGNN (تعلّم عميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مترابطة، وليست دليلًا بيولوجيًا."
 monitor_inn: "CLOMIFENE"
 predicted_indications: ["46,XY disorder of sex development due to testicular steroidogenesis defect", "longitudinal vaginal septum", "transverse vaginal septum", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "ovarian remnant syndrome"]
@@ -80,10 +80,14 @@ predicted_indications: ["46,XY disorder of sex development due to testicular ste
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الشركة المصنّعة | الحالة |
-|---------|------|------|------|------|
-| FERTAB 50MG TAB | FERTAB 50MG TAB | أقراص | OMAN PHARMACEUTICAL PRODUCTS | ساري |
-| CLOMID 50MG TAB | CLOMID 50MG TAB | أقراص | PATHEON FRANCE | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FERTAB 50MG TAB | CLOMIFENE | OMAN PHARMACEUTICAL PRODUCTS | ساري |
+| CLOMID 50MG TAB | CLOMIFENE | PATHEON FRANCE | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -120,7 +124,7 @@ predicted_indications: ["46,XY disorder of sex development due to testicular ste
 
 <!-- review:begin sa-lic-20261106-clomifene-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من التوافق مع طريق الإعطاء، وتقييم استمرار جدوى الدواء تجارياً في ظل إلغاء التراخيص الحالية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من التوافق مع طريق الإعطاء، وتقييم استمرار جدوى الدواء تجارياً في ظل إلغاء التراخيص الحالية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-clomifene-1 -->
 
@@ -132,7 +136,7 @@ predicted_indications: ["46,XY disorder of sex development due to testicular ste
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وتقييم استمرار جدوى الدواء تجارياً في ظل إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وتقييم استمرار جدوى الدواء تجارياً في ظل إلغاء التراخيص الحالية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e) |
 
 <!-- review:end log -->

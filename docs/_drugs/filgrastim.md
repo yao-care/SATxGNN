@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Filgrastim: الاستطباب الجديد المتوقع اضطراب إفراز الصفائح الدموية الأولي (primary release disorder of plat… (مستوى الدليل L5). الاستطباب الأصلي: نقص العدلات الخلقي الشديد، ونقص العدلات التكويني، واضط…"
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
@@ -89,13 +89,19 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 توجد 8 تراخيص سارية من أصل 8 تراخيص، والدواء مسوَّق. بيانات شكل الجرعة والاستطباب المعتمد غير متوفرة في السجلات.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة |
-|---------|------|------|
-| NEUPOGEN 48 MU | NEUPOGEN 48 MU | ROCHE |
-| NEUPOGEN 30 MU | NEUPOGEN 30 MU | ROCHE |
-| Accofil 480 mcg/0.5 ml | Accofil 480 mcg/0.5 ml solution for injection/infusion | INTAS PHARMACEUTICALS LIMITED |
-| NIVESTIM 960 mcg | NIVESTIM 960 mcg Solution for Injection/Infusion | HOSPIRA ZAGREB D.O.O. |
-| NIVESTIM 600 mcg | NIVESTIM 600 mcg Solution for Injection/Infusion | HOSPIRA ZAGREB D.O.O. |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NEUPOGEN 48 MU | FILGRASTIM | ROCHE | ساري |
+| NEUPOGEN 30 MU | FILGRASTIM | ROCHE | ساري |
+| Accofil 480 mcg/0.5 ml solution For injection/infusion | FILGRASTIM | INTAS PHARMACEUTICALS LIMITED | ساري |
+| NIVESTIM 960 mcg Solution for Injection/ Infusion | FILGRASTIM | HOSPIRA ZAGREB D.O.O. | ساري |
+| NIVESTIM 600 mcg Solution for Injection/ Infusion | FILGRASTIM | HOSPIRA ZAGREB D.O.O. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

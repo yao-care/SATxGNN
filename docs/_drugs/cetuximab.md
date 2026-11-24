@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CETUXIMAB"
 predicted_indications: ["bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "epiglottis neoplasm", "cystic neoplasm", "pre-malignant neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cetuximab: الاستطباب الجديد المتوقع أورام القصبات الهوائية الغدية/السرطاوانية عند الأطفال (bronchial adenomas/carcinoids childhood) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -68,15 +68,19 @@ description: "Cetuximab: الاستطباب الجديد المتوقع أورا
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Erbitux | Erbitux | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Erbitux | CETUXIMAB | MERCK HEALTHCARE KGAA | ساري |
+
+<!-- licenses:end -->
 
 حالة السوق مسجلة في البيانات المحلية بأنها «مسوّق».
 
 <!-- review:begin sa-lic-20261106-cetuximab-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «حالة السوق مسجلة في البيانات المحلية بأنها «مسوّق»، والترخيص الوحيد المسجّل (المصنّع: MERCK HEALTHCARE KGAA) يظهر بحالة «ملغى» في سجل التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «حالة السوق مسجلة في البيانات المحلية بأنها «مسوّق»، والترخيص الوحيد المسجّل (المصنّع: MERCK HEALTHCARE KGAA) يظهر بحالة «ملغى» في سجل التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-cetuximab-1 -->
 
@@ -116,7 +120,7 @@ description: "Cetuximab: الاستطباب الجديد المتوقع أورا
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «والترخيص الوحيد المسجّل (المصنّع: MERCK HEALTHCARE KGAA) يظهر بحالة «ملغى» في سجل التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «والترخيص الوحيد المسجّل (المصنّع: MERCK HEALTHCARE KGAA) يظهر بحالة «ملغى» في سجل التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9) |
 
 <!-- review:end log -->

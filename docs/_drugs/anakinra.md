@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 62
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ANAKINRA"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
 description: "Anakinra: الاستطباب الجديد المتوقع ورم الخلايا البدينة خارج الجلد (extracutaneous mastocytoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -68,9 +68,13 @@ description: "Anakinra: الاستطباب الجديد المتوقع ورم ا
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Kineret | Kineret (الشركة المصنِّعة: Patheon Italia S.P.A.) | غير متوفر | غير متوفر (الحالة: مُلغى) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Kineret | ANAKINRA | Patheon Italia S.P.A. | ساري |
+
+<!-- licenses:end -->
 
 الجهة المصنّعة: Patheon Italia S.P.A. والترخيص ساري.
 

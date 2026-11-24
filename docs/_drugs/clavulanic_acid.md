@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Clavulanic Acid: الاستطباب الجديد المتوقع التهاب الإحليل بالميكوبلازما اليوريائية (Ureaplasma urethritis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 19 على الأقل"
 ---
 
@@ -78,13 +78,20 @@ description: "Clavulanic Acid: الاستطباب الجديد المتوقع ا
 
 لا تتوفر في السجلات المحلية نصوص استطباب أو أشكال صيدلانية لهذه التراخيص. أبرز المنتجات المسجلة (قد تكون القائمة جزئية):
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| AUGMENTIN 625MG TAB | AUGMENTIN 625MG TAB | غير مسجل | غير مسجل |
-| AUGMENTIN 156 Mg-5 ML SUSPENSION | AUGMENTIN 156 Mg-5 ML SUSPENSION | غير مسجل | غير مسجل |
-| MEGAMOX 625 MG TAB | MEGAMOX 625 MG TAB | غير مسجل | غير مسجل |
-| CURAM 2.2GM POW. FOR SOLN. FOR INJECTION- INFUSION | CURAM 2.2GM POW. FOR SOLN. FOR INJECTION- INFUSION | غير مسجل | غير مسجل |
-| OGMANT 600 MG Powder for injection | OGMANT 600 MG Powder for injection | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AUGMENTIN 625MG TAB | AMOXICILLIN, CLAVULANIC ACID | SMIITHKLINE BEECHAM | ساري |
+| AUGMENTIN 156 Mg-5 ML SUSPENSION | AMOXICILLIN,CLAVULANIC ACID | GLAXOWELLCOME | ساري |
+| MEGAMOX 625 MG TAB | AMOXICILLIN,CLAVULANIC ACID | BOEHRINGER INGELHEIM | ساري |
+| CURAM 2.2GM POW. FOR SOLN. FOR INJECTION- INFUSION | AMOXICILLIN, CLAVULANIC ACID | SANDOZ | ساري |
+| OGMANT 600 MG Powder for injection | AMOXICILLIN, CLAVULANIC ACID | SHIFA PHARMACEUTICAL INDUSTRIES | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 جميع هذه المنتجات مرخّصة كمنتجات مركّبة تحتوي على حمض الكلافولانيك مع مادة أخرى، ولا تصف بالضرورة وضع المادة منفردة.
 

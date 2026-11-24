@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 811
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Threonine: الاستطباب الجديد المتوقع شلل المعدة (Gastroparesis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص المؤشرات في تراخيص هيئة الغذاء والدواء السعودية فارغة)"
 monitor_inn: "threonine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -83,13 +83,19 @@ predicted_indications: ["gastroparesis (disease)"]
 
 جميع التراخيص الـ12 سارية (12 ترخيصًا صالحًا من 12). أمثلة على المنتجات (نصوص المؤشرات ونماذج الجرعات غير متوفرة):
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| RENAMIN INJECTION | RENAMIN INJECTION | BAXTER | ساري |
-| AMINOPLASMAL B BRAUN 10% | AMINOPLASMAL B BRAUN 10% | B. BRAUN | ساري |
-| AMINOPLASMAL 15 % I.V INFUSION SOLN | AMINOPLASMAL 15 % I.V INFUSION SOLN | B. BRAUN | ساري |
-| OLIMEL N9 emulsion for infusion | OLIMEL N9 emulsion for infusion | Baxalta manufacturing Sarl | ساري |
-| SMOFKABIVEN PERIPHERAL EMULSION for infusion | SMOFKABIVEN PERIPHERAL EMULSION for infusion | FRESENIUS KABI | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RENAMIN INJECTION | VALINE,LEUCINE,ISOLEUCINE5,METHIONINE,PHENYLALANINE,LYSINE,HISTIDINE,THREONINE,TRYPTOPHAN | BAXTER | ساري |
+| AMINOPLASMAL B BRAUN 10% | TYROSINE,SERINE,PROLINE,GLUTAMIC ACID,ASPARTIC ACID,GLYCINE,ALANINE,ARGININE,TRYPTOPHAN,TH… | B. BRAUN | ساري |
+| AMINOPLASMAL 15 % I.V INFUSION SOLN | TYROSINE,SERINE,GLUTAMIC ACID,ACETYLCYSTEINE,ASPARTIC ACID,PROLINE,ALANINE,HISTIDINE,VALIN… | B. BRAUN | ساري |
+| OLIMEL N9 emulsion for infusion | GLUCOSE,OLIVE OIL,SOYA OIL,ALANINE,ARGININE,LYSINE,LEUCINE,PHENYLALANINE,GLYCINE,VALINE,PR… | Baxalta manufacturing Sarl | ساري |
+| SMOFKABIVEN PERIPHERAL EMULSION for infusion | GLUCOSE,SOYA OIL,TRIGLYCERIDES MEDIUM CHAIN,OLIVE OIL,FISH OIL,ALANINE,ARGININE,GLYCINE,HI… | FRESENIUS KABI | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

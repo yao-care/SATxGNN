@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bupropion: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (attention deficit-hyperactivity disorder) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -98,11 +98,15 @@ description: "Bupropion: الاستطباب الجديد المتوقع اضطر
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ZYBAN 150MG TABLET | ZYBAN 150MG TABLET | غير مسجّل | غير مسجّل |
-| WELLBUTRIN XL 150 EXTENDED RELEASE F.C.TABLET | WELLBUTRIN XL 150 EXTENDED RELEASE F.C.TABLET | غير مسجّل | غير مسجّل |
-| WELLBUTRIN XL 300 EXTENDED RELEASE F.C.TABLET | WELLBUTRIN XL 300 EXTENDED RELEASE F.C.TABLET | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ZYBAN 150MG TABLET | BUPROPION HYDROCHLORIDE | GLAXOWELLCOME | ساري |
+| WELLBUTRIN XL 150 EXTENDED RELEASE F.C.TABLET | BUPROPION HYDROCHLORIDE | Bausch Health Companies Inc | ساري |
+| WELLBUTRIN XL 300 EXTENDED RELEASE F.C.TABLET | BUPROPION HYDROCHLORIDE | Bausch Health Companies Inc | ساري |
+
+<!-- licenses:end -->
 
 ---
 

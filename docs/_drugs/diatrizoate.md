@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "diatrizoate"
 predicted_indications: ["rheumatoid arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Diatrizoate: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المحلي (الاستخدام المعروف: مادة تباين شعا…"
 ---
 
@@ -70,9 +70,13 @@ description: "Diatrizoate: الاستطباب الجديد المتوقع الت
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| GASTROGRAFIN 76-ORAL AQUEOUS SOLN. | GASTROGRAFIN 76-ORAL AQUEOUS SOLN. (الشركة المصنّعة: Berlimed S.A.) | غير مذكور | غير مذكور |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| GASTROGRAFIN 76-ORAL AQUEOUS SOLN. | DIATRIZOATE MEGLUMINE | Berlimed S.A. | ساري |
+
+<!-- licenses:end -->
 
 عدد التراخيص: ترخيص واحد ساري المفعول.
 

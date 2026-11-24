@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 497
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LEVOFLOXACIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
 description: "Levofloxacin: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (punctate epithelial keratoconjunctivitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 19 على الأقل"
@@ -70,13 +70,20 @@ description: "Levofloxacin: الاستطباب الجديد المتوقع ال�
 
 ## معلومات السوق في السعودية
 
-| اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|-----------|
-| NEVOTIC 500 mg film-coated tablet | Pharma International Co. | ساري |
-| EVOX 250MG FILM COATED TABLET | Jordan Sweden Medical and Sterilization Co. | ساري |
-| LEVOX 500MG FILM COATED TABLET | SPIMACO ADDWAEIH | ساري |
-| LEVONIC 5 mg/ml Infusion | Hikma Pharmaceuticals PLC | ساري |
-| LEVAQUIN 500 mg film-coated tablet | SAJA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NEVOTIC 500 mg film-coated tablet | LEVOFLOXACIN | Pharma International Co. | ساري |
+| EVOX 250MG FILM COATED TABLET | LEVOFLOXACIN | Jordan Sweden Medical and Sterilization Co. | ساري |
+| LEVOX 500MG FILM COATED TABLET | LEVOFLOXACIN | SPIMACO ADDWAEIH | ساري |
+| LEVONIC 5 mg/ml Infusion | LEVOFLOXACIN | Hikma Pharmaceuticals PLC | ساري |
+| LEVAQUIN 500 mg film-coated tablet | LEVOFLOXACIN | SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 قد تكون قائمة التراخيص جزئية.
 

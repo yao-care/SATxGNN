@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 774
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sucralfate: الاستطباب الجديد المتوقع الارتجاع الاثني عشري المعدي (مستوى الدليل L2). الاستطباب الأصلي: قرحة الاثني عشر (من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب مع…"
 monitor_inn: "SUCRALFATE"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
@@ -93,12 +93,16 @@ predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ULCICURE TAB 1 GM | ULCICURE TAB 1 GM | غير متوفر | غير متوفر (ساري) |
-| GASTROFAIT TAB 500MG | GASTROFAIT TAB 500MG | غير متوفر | غير متوفر (ساري) |
-| ULSAHEAL 1000 SUSP (1000MG-5ML) | ULSAHEAL 1000 SUSP | معلق | غير متوفر (ساري) |
-| ULSAHEAL TAB 1G | ULSAHEAL TAB 1G | أقراص | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ULCICURE TAB 1 GM | SUCRALFATE | ALAMRIAH FOR PHARMACEUTICALS INDUSTRIES | ساري |
+| GASTROFAIT TAB 500MG | SUCRALFATE | EIPICO | ساري |
+| ULSAHEAL 1000 SUSP (1000MG-5ML) | SUCRALFATE | Hikma Pharmaceuticals PLC | ساري |
+| ULSAHEAL TAB 1G | SUCRALFATE | Hikma Pharmaceuticals PLC | ساري |
+
+<!-- licenses:end -->
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الأربعة سارية المفعول (4 من أصل 4).
 
@@ -122,7 +126,7 @@ predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 
 <!-- review:begin sa-lic-20261106-sucralfate-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ معقول آلياً ومدعوم بتجربتين عشوائيتين صغيرتين قديمتين، لكن لا توجد تجارب سريرية مسجلة، ولا يوجد حالياً ترخيص ساري في المملكة، وبيانات السلامة من النشرة غير متوفرة (وهي فجوة مانعة للانتقال إلى مرحلة فحص السلامة).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ معقول آلياً ومدعوم بتجربتين عشوائيتين صغيرتين قديمتين، لكن لا توجد تجارب سريرية مسجلة، ولا يوجد حالياً ترخيص ساري في المملكة، وبيانات السلامة من النشرة غير متوفرة (وهي فجوة مانعة للانتقال إلى مرحلة فحص السلامة).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-sucralfate-1 -->
 
@@ -147,7 +151,7 @@ predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري في المملكة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري في المملكة، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9) |
 
 <!-- review:end log -->

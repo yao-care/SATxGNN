@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 273
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dolutegravir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى فيروس نقص المناعة البشرية (HIV)، الإيدز"
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -95,15 +95,13 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| TIVICAY 50 mg Tablet (ساري) | TIVICAY 50 mg Tablet | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
 
-<!-- review:begin sa-row-20261112-dolutegravir-1 -->
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TIVICAY 50 mg Tablet | DOLUTEGRAVIR | Delpharm Poznań Spółka Akcyjna | ساري |
 
-> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «(ملغى)» المستحضر TIVICAY 50 mg Tablet مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
-
-<!-- review:end sa-row-20261112-dolutegravir-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -144,7 +142,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-12 | الجدول: TIVICAY 50 mg Tablet مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: TIVICAY 50 mg Tablet مسجل (ساري) وليس ملغى | حلّ محله جدول التراخيص المولَّد برمجيًا (سابقًا: صُحّح) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CIPROFIBRATE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "fibroma of prostate"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciprofibrate: الاستطباب الجديد المتوقع نقص بروتين نقل إستر الكوليسترول (مستوى الدليل L5). الاستطباب الأصلي: فرط الدهون الثلاثية في الدم، وفرط شحميات الدم العائلي المختلط (علاقات…"
 ---
 
@@ -72,9 +72,13 @@ description: "Ciprofibrate: الاستطباب الجديد المتوقع نق�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| MODALIM 100MG TAB | MODALIM 100MG TAB (الشركة المصنعة: SANOFI-SYNTHLABO) | غير مذكور | غير مذكور |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MODALIM 100MG TAB | CIPROFIBRATE | SANOFI-SYNTHLABO | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

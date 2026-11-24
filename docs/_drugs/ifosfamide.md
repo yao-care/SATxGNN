@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IFOSFAMIDE"
 predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "rhabdomyosarcoma (disease)", "myelodysplastic syndrome", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Ifosfamide: الاستطباب الجديد المتوقع سرطان الثدي لدى النساء (female breast carcinoma) (مستوى الدليل L5)."
@@ -101,11 +101,15 @@ description: "Ifosfamide: الاستطباب الجديد المتوقع سرط�
 
 جميع التراخيص الثلاثة سارية (3 من 3)، والدواء مسوّق في هذا البلد. نصوص الاستطباب المعتمدة وأشكال الجرعات غير مسجلة في بيانات التراخيص.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| HOLOXAN 500MG VIAL IV | HOLOXAN 500MG VIAL IV | BAXTER ONCOLOGY | ساري |
-| HOLOXAN 2GM IV. VIAL | HOLOXAN 2GM IV. VIAL | BAXTER ONCOLOGY | ساري |
-| HOLOXAN 1GM I.V. VIAL | HOLOXAN 1GM I.V. VIAL | BAXTER ONCOLOGY | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| HOLOXAN 500MG VIAL IV | IFOSFAMIDE | BAXTER ONCOLOGY | ساري |
+| HOLOXAN 2GM IV. VIAL | IFOSFAMIDE | BAXTER ONCOLOGY | ساري |
+| HOLOXAN 1GM I.V. VIAL | IFOSFAMIDE | BAXTER ONCOLOGY | ساري |
+
+<!-- licenses:end -->
 
 ---
 

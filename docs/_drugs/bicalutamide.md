@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 107
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bicalutamide: الاستطباب الجديد المتوقع فرط الشعر (Hypertrichosis) (مستوى الدليل L4). الاستطباب الأصلي: سرطان البروستاتا (بحسب المعرفة العامة بالدواء؛ نص الاستطباب غير متوفر…"
 monitor_inn: "BICALUTAMIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -82,9 +82,13 @@ predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with 
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CLAMUDEX (ملغى) | CLAMUDEX | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CLAMUDEX | Bicalutamide | Kocak Farma İlac Ve Kimya Sanayi A.S. | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنعة: Kocak Farma İlac Ve Kimya Sanayi A.S.
 

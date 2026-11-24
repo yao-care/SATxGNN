@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 219
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyclosporine: الاستطباب الجديد المتوقع مرض الورم الحبيبي المزمن، وراثي متنحٍّ (مستوى الدليل L4). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، جفاف العين، متلازمة سجوغرن (مأخوذة من الر…"
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
@@ -84,13 +84,19 @@ predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "
 
 جميع التراخيص التسعة سارية (9 تراخيص سارية من أصل 9). أمثلة عليها:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| SANDIMMUN 50MG-ML AMPULE | SANDIMMUN 50MG-ML AMPULE | NOVARTIS | غير متوفر (ساري) |
-| SANDIMMUN NEORAL DRINK 100MG-ML | SANDIMMUN NEORAL DRINK 100MG-ML | DELPHARM HUNINGUE S.A.S. | غير متوفر (ساري) |
-| RESTASIS 0.05% Eye Drop Emulsion | RESTASIS 0.05% Eye Drop Emulsion | ALLERGAN | غير متوفر (ساري) |
-| GENGRAF 100 MG MODIFIED CAPSULE | GENGRAF 100 MG MODIFIED CAPSULE | Abbott Laboratories | غير متوفر (ساري) |
-| SANDIMMUN NEORAL 100MG CAPS | SANDIMMUN NEORAL 100MG CAPS | CATALENT | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SANDIMMUN 50MG-ML AMPULE | CICLOSPORIN | NOVARTIS | ساري |
+| SANDIMMUN NEORAL DRINK 100MG-ML | CICLOSPORIN | DELPHARM HUNINGUE S.A.S. | ساري |
+| RESTASIS 0.05% Eye Drop Emulsion | CICLOSPORIN | ALLERGAN | ساري |
+| GENGRAF 100 MG MODIFIED CAPSULE | CICLOSPORIN | Abbott Laboratories | ساري |
+| SANDIMMUN NEORAL 100MG CAPS | CICLOSPORIN | CATALENT | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -114,7 +120,7 @@ predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "
 
 <!-- review:begin sa-lic-20261106-cyclosporine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حالياً ترخيص ساري للدواء في السعودية، وفئة الأمراض المصنفة في موانع الاستعمال المعرفية واسعة (عدوى، كلى، ضغط الدم)، وهذا مهم لمرضى الورم الحبيبي المزمن المعرضين للعدوى أصلاً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 9، منها سارية: 9؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حالياً ترخيص ساري للدواء في السعودية، وفئة الأمراض المصنفة في موانع الاستعمال المعرفية واسعة (عدوى، كلى، ضغط الدم)، وهذا مهم لمرضى الورم الحبيبي المزمن المعرضين للعدوى أصلاً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-cyclosporine-1 -->
 
@@ -126,7 +132,7 @@ predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "
 
 <!-- review:begin sa-lic-20261106-cyclosporine-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم خطر العدوى والسمية الكلوية لدى هذه الفئة من المرضى. / توضيح الوضع التنظيمي بعد إلغاء التراخيص، وإمكانية إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 9، منها سارية: 9؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم خطر العدوى والسمية الكلوية لدى هذه الفئة من المرضى. / توضيح الوضع التنظيمي بعد إلغاء التراخيص، وإمكانية إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-cyclosporine-2 -->
 
@@ -145,8 +151,8 @@ predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري للدواء في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص، وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري للدواء في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص، وإمكانية إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
 
 <!-- review:end log -->

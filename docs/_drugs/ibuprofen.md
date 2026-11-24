@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-24
 description: "Ibuprofen: الاستطباب الجديد المتوقع خلل التنسج الأكروميزوميلي، نوع هانتر-طومسون (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي (وفق الاستطبابات الأصلية في قاعدة المعرفة،…"
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -93,13 +93,20 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 يوجد 20 ترخيصاً **ساري المفعول**. أبرز التراخيص (خمسة منها):
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | حالة الترخيص |
-|---------|------|------|-----------|
-| NUROFEN 200MG TAB | NUROFEN 200MG TAB | Reckitt Benckiser Healthcare International | ساري |
-| SAPOFEN 200MG F.C TAB | SAPOFEN 200MG F.C TAB | SPIMACO | ساري |
-| MEDAFEN 100MG-5ML SUSPENSION | MEDAFEN 100MG-5ML SUSPENSION | MedPharma | ساري |
-| JAZOFEN 400MG TAB | JAZOFEN 400MG TAB | Jazeera Pharmaceutical Industries | ساري |
-| PEDEA 5MG/ML SOLUTION FOR INJECTION | PEDEA 5MG/ML SOLUTION FOR INJECTION | Recordati | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NUROFEN 200MG TAB | IBUPROFEN | RECKITT BENCKISER HEALTHCARE INTERNATIONAL | ساري |
+| SAPOFEN 200MG F.C TAB | IBUPROFEN | SPIMACO | ساري |
+| MEDAFEN 100MG-5ML SUSPENSION | IBUPROFEN | MEDPHARMA PHARMACEUTICAL & CHEMICAL INDUSTRIES | ساري |
+| JAZOFEN 400MG TAB | IBUPROFEN | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| PEDEA 5MG/ML SOLUTION FOR INJECTION | IBUPROFEN | RECORDATI | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 (لم تتوفر بيانات عن شكل الجرعة أو نص الاستطباب المعتمد لهذه التراخيص.)
 

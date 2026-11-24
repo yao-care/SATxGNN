@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 355
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Finasteride: الاستطباب الجديد المتوقع Ambras type hypertrichosis universalis congenita (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
@@ -105,17 +105,23 @@ description: "Finasteride: الاستطباب الجديد المتوقع Ambras
 
 <!-- review:begin sa-lic-20261106-finasteride-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(ملاحظة: يوجد ترخيصان إضافيان ملغيان هما PROHAIR 1 mg وPROPECIA.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 7، منها سارية: 7؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(ملاحظة: يوجد ترخيصان إضافيان ملغيان هما PROHAIR 1 mg وPROPECIA.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-finasteride-1 -->
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| PROSTID 5MG F-C TABLETS | PROSTID 5MG F-C TABLETS | SPIMACO | ساري |
-| PROSNORM | PROSNORM | HAYAT PHARMACEUTICAL INDUSTRIES | ساري |
-| PROSCAR | PROSCAR | MERCK SHARP & DOHME | ساري |
-| FINISCAR 5MG F.C. TABLETS | FINISCAR 5MG F.C. TABLETS | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
-| FINASID 5MG FILM COATED TABLET | FINASID 5MG FILM COATED TABLET | SAJA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PROSTID 5MG F-C TABLETS | FINASTERIDE | SPIMACO | ساري |
+| PROSNORM | FINASTERIDE | HAYAT PHARMACEUTICAL INDUSTRIES | ساري |
+| PROSCAR | FINASTERIDE | MERCK SHARP & DOHME | ساري |
+| FINISCAR 5MG F.C. TABLETS | FINASTERIDE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| FINASID 5MG FILM COATED TABLET | FINASTERIDE | SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -148,7 +154,7 @@ description: "Finasteride: الاستطباب الجديد المتوقع Ambras
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «(ملاحظة: يوجد ترخيصان إضافيان ملغيان هما PROHAIR 1 mg وPROPECIA.)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «(ملاحظة: يوجد ترخيصان إضافيان ملغيان هما PROHAIR 1 mg وPROPECIA.)» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b) |
 
 <!-- review:end log -->

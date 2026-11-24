@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "ECONAZOLE"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Econazole: الاستطباب الجديد المتوقع عدوى الفطريات الخارجية الشعرية (ectothrix infectious disease) (مستوى الدليل L5). الاستطباب الأصلي: سعفة القدم، سعفة الجسم، العدوى الفطرية (السعفة)، داء المبيضات ال…"
 ---
 
@@ -80,13 +80,19 @@ description: "Econazole: الاستطباب الجديد المتوقع عدوى
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| DERMA-CORYL 1% CREAM | DERMA-CORYL 1% CREAM (HAYAT) | غير محدد | غير متوفر في بيانات الترخيص |
-| PEVARYL CREAM 1% | PEVARYL CREAM 1% (SPIMACO) | غير محدد | غير متوفر في بيانات الترخيص |
-| PEVARYL SPRAY POWDER 1% | PEVARYL SPRAY POWDER 1% (JANSSEN-CILAG) | غير محدد | غير متوفر في بيانات الترخيص |
-| GYNO-PEVARYL-150 VAG. SUPPS 150MG | GYNO-PEVARYL-150 (LUSOMEDICAMENTA) | تحاميل مهبلية | غير متوفر في بيانات الترخيص |
-| GYNO-CORYL 150 MG VAGINAL OVULES | GYNO-CORYL 150 MG (HAYAT) | بيوض مهبلية | غير متوفر في بيانات الترخيص |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DERMA-CORYL 1% CREAM | ECONAZOLE | HAYAT PHARMACEUTICAL INDUSTRIES | ساري |
+| PEVARYL CREAM 1% | ECONAZOLE | SPIMACO | ساري |
+| PEVARYL SPRAY POWDER 1% | ECONAZOLE | JANSSEN-CILAG | ساري |
+| GYNO-PEVARYL-150 VAG. SUPPS 150MG | ECONAZOLE | LUSOMEDICAMENTA | ساري |
+| GYNO-CORYL 150 MG VAGINAL OVULES | ECONAZOLE | HAYAT PHARMACEUTICAL INDUSTRIES | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 يوجد ترخيصان إضافيان (GYNO-CORYL VAGINAL CREAM وGYNO-PEVARYL-50 VAG SUPPS 50MG) ليصبح المجموع 7 تراخيص سارية لمستحضرات أحادية المادة الفعالة. نصوص الاستطبابات المعتمدة غير متوفرة في البيانات المجمّعة، ولذلك لا يمكن وصف أي استطباب بأنه معتمد محلياً استناداً إلى هذه التراخيص.
 

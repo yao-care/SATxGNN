@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 485
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: الاستطباب الجديد المتوقع Visceral calciphylaxis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -82,11 +82,15 @@ description: "Latanoprost: الاستطباب الجديد المتوقع Viscer
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| LATAPROST 0.005% EYE DROPS | LATAPROST 0.005% EYE DROPS (ريYADH PHARMA) | قطرة عين | غير متوفر | ساري |
-| LATANO 0.005% W-V OPHTHALMIC SOLUTION | LATANO 0.005% W-V OPHTHALMIC SOLUTION (جمجوم للأدوية) | محلول عيني | غير متوفر | ساري |
-| XALATAN 50MCG\ML EYE DROP | XALATAN 50MCG\ML EYE DROP (فايزر) | قطرة عين | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LATAPROST 0.005% EYE DROPS | LATANOPROST | RIYADH PHARMA | ساري |
+| LATANO 0.005% W-V OPHTHALMIC SOLUTION | LATANOPROST | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| XALATAN 50MCG\ML EYE DROP | LATANOPROST | PFIZER | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -113,7 +117,7 @@ description: "Latanoprost: الاستطباب الجديد المتوقع Viscer
 
 <!-- review:begin sa-lic-20261106-latanoprost-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح أسباب إلغاء التراخيص وإمكانية إعادة التسجيل. / تقييم توافق مسار الإعطاء ومدى ملاءمة الدواء للفئات العمرية المعنية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح أسباب إلغاء التراخيص وإمكانية إعادة التسجيل. / تقييم توافق مسار الإعطاء ومدى ملاءمة الدواء للفئات العمرية المعنية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-latanoprost-1 -->
 
@@ -127,7 +131,7 @@ description: "Latanoprost: الاستطباب الجديد المتوقع Viscer
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص وإمكانية إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 581
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Nebivolol: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -84,12 +84,16 @@ description: "Nebivolol: الاستطباب الجديد المتوقع Malignan
 
 ولم تتوفر معلومات عن شكل الجرعة أو الاستطباب المعتمد.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| Bivoneb | Bivoneb | Hetero Labs Limited Unit – III | ساري |
-| NEBILET 5MG TABLETS | NEBILET 5MG TABLETS | BERLIN CHEMIE AG | ساري |
-| Bivocard | Bivocard | SPIMACO ADDWAEIH | ساري |
-| Mavilor | Mavilor | Multi Apex for Pharmaceutical Industries | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Bivoneb | NEBIVOLOL HYDROCHLORIDE | Hetero Labs Limited Unit – III | ساري |
+| NEBILET 5MG TABLETS | NEBIVOLOL HYDROCHLORIDE | BERLIN CHEMIE AG | ساري |
+| Bivocard | NEBIVOLOL HYDROCHLORIDE | SPIMACO ADDWAEIH | ساري |
+| Mavilor | NEBIVOLOL HYDROCHLORIDE | Multi Apex for Pharmaceutical Industries | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -122,7 +126,7 @@ description: "Nebivolol: الاستطباب الجديد المتوقع Malignan
 
 <!-- review:begin sa-lic-20261106-nebivolol-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح سبب إلغاء التراخيص المحلية وإمكانية إعادة التسجيل / تقييم الجدوى السريرية، إذ تتطلب الحالات الخبيثة عادةً علاجاً وريدياً» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح سبب إلغاء التراخيص المحلية وإمكانية إعادة التسجيل / تقييم الجدوى السريرية، إذ تتطلب الحالات الخبيثة عادةً علاجاً وريدياً» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-nebivolol-1 -->
 
@@ -134,7 +138,7 @@ description: "Nebivolol: الاستطباب الجديد المتوقع Malignan
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح سبب إلغاء التراخيص المحلية وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح سبب إلغاء التراخيص المحلية وإمكانية إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8) |
 
 <!-- review:end log -->

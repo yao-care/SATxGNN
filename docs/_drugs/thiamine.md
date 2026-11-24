@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "THIAMINE"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Thiamine: الاستطباب الجديد المتوقع Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -82,11 +82,15 @@ description: "Thiamine: الاستطباب الجديد المتوقع Resistanc
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| THIAVIT 100MG TAB | THIAVIT 100MG TAB (الشركة المصنّعة: الخليج للصناعات الدوائية – جلفار) | غير محدد | غير متوفر |
-| VITA-B TAB | VITA-B TAB (الشركة المصنّعة: تبوك للصناعات الدوائية) | غير محدد | غير متوفر |
-| TRIPLEX B Film Coated Tab | TRIPLEX B Film Coated Tab (الشركة المصنّعة: شركة جمجوم للصناعات الدوائية) | غير محدد | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| THIAVIT 100MG TAB | THIAMINE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| VITA-B TAB | VITAMIN B1 (THIAMINE), VITAMIN B6 (PYRIDOXINE), VITAMIN B12 (CYANOCOBALAMIN) | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| TRIPLEX B Film Coated Tab | VITAMIN B1 (THIAMINE), VITAMIN B6 (PYRIDOXINE), VITAMIN B12 (CYANOCOBALAMIN) | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

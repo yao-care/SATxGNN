@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Estradiol Valerate: الاستطباب الجديد المتوقع الشكل العَرَضي من متلازمة إكس الهشّ لدى الحاملات الإناث (مستوى الدليل L5). الاستطباب الأصلي: الفشل المبيضي الأولي (Primary ovarian failure)"
 monitor_inn: "estradiol valerate"
 predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "ovarian remnant syndrome", "anovulation", "luteoma of pregnancy", "ovarian dysfunction"]
@@ -98,10 +98,14 @@ predicted_indications: ["symptomatic form of fragile X syndrome in female carrie
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| PROGYLUTON TAB | PROGYLUTON TAB | غير متوفر | غير متوفر | ساري |
-| CLIMEN TAB | CLIMEN TAB | غير متوفر | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PROGYLUTON TAB | ESTRADIOL VALERATE, NORGESTRIL | BAYER WEIMAR GmbH UND CO. KG | ساري |
+| CLIMEN TAB | CYPROTERONE, ESTRADIOL VALERATE | DELPHARM LILLE S.A.S. | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -124,7 +128,7 @@ predicted_indications: ["symptomatic form of fragile X syndrome in female carrie
 
 <!-- review:begin sa-lic-20261106-estradiol_valerate-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الاستطباب المتوقع يستند إلى تنبؤ النموذج فقط (L5) دون أي تجارب أو أدبيات، رغم وجود رابط بيولوجي معقول عبر القصور المبيضي المرتبط بإكس الهشّ. / لا يوجد حالياً أي ترخيص ساري في السعودية للمنتجات المحتوية على هذه المادة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الاستطباب المتوقع يستند إلى تنبؤ النموذج فقط (L5) دون أي تجارب أو أدبيات، رغم وجود رابط بيولوجي معقول عبر القصور المبيضي المرتبط بإكس الهشّ. / لا يوجد حالياً أي ترخيص ساري في السعودية للمنتجات المحتوية على هذه المادة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-estradiol_valerate-1 -->
 
@@ -136,7 +140,7 @@ predicted_indications: ["symptomatic form of fragile X syndrome in female carrie
 
 <!-- review:begin sa-lic-20261106-estradiol_valerate-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم الجدوى التنظيمية في ظل إلغاء التراخيص الحالية، وتحديد الشكل الصيدلاني وطريقة الإعطاء المناسبين.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم الجدوى التنظيمية في ظل إلغاء التراخيص الحالية، وتحديد الشكل الصيدلاني وطريقة الإعطاء المناسبين.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-estradiol_valerate-2 -->
 
@@ -148,8 +152,8 @@ predicted_indications: ["symptomatic form of fragile X syndrome in female carrie
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حالياً أي ترخيص ساري في السعودية للمنتجات المحتوية على هذه المادة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «تقييم الجدوى التنظيمية في ظل إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حالياً أي ترخيص ساري في السعودية للمنتجات المحتوية على هذه المادة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «تقييم الجدوى التنظيمية في ظل إلغاء التراخيص الحالية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Delestrogen (estradiol valerate) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8f94df9-0692-4462-a7f0-fe019a0a3f07) |
 
 <!-- review:end log -->

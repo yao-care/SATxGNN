@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 189
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder"]
 description: "Citalopram: الاستطباب الجديد المتوقع اضطراب الوسواس القهري (obsessive-compulsive disorder) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"
@@ -102,13 +102,19 @@ description: "Citalopram: الاستطباب الجديد المتوقع اضط�
 
 جميع التراخيص الـ15 سارية حاليًا من أصل 15 ترخيصًا، والدواء مسوّق في هذا البلد. فيما يلي أبرز 5 منها:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LECITAL 20MG F.C. CAPLETS | LECITAL 20MG F.C. CAPLETS (Jordan Sweden Medical and Sterilization Co.) | غير متوفر | غير متوفر |
-| CITALOGEN 20 mg film-coated tablet | CITALOGEN 20 mg (Riyadh Pharma) | أقراص مغلفة | غير متوفر |
-| CIPRAM 20MG TAB | CIPRAM 20MG TAB (H. Lundbeck) | أقراص | غير متوفر |
-| CITALOPRAM HEXAL 20MG F.C. TABLETS | CITALOPRAM HEXAL 20MG (Hexal) | أقراص مغلفة | غير متوفر |
-| LOPRA 20MG TABLET | LOPRA 20MG (Tabuk Pharmaceutical) | أقراص | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LECITAL 20MG F.C. CAPLETS | CITALOPRAM | Jordan Sweden Medical and Sterilization Co. | ساري |
+| CITALOGEN 20 mg film-coated tablet | CITALOPRAM | RIYADH PHARMA | ساري |
+| CIPRAM 20MG TAB | CITALOPRAM | H. LUNDBECK | ساري |
+| CITALOPRAM HEXAL 20MG F.C. TABLETS | CITALOPRAM | HEXAL | ساري |
+| LOPRA 20MG TABLET | CITALOPRAM | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 15 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -149,7 +155,7 @@ description: "Citalopram: الاستطباب الجديد المتوقع اضط�
 
 <!-- review:begin sa-lic-20261106-citalopram-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح أسباب إلغاء التراخيص الـ15 وجدوى إعادة التسجيل. / إجراء تقييم لمخاطر إطالة فترة QT والتداخلات الدوائية الكبرى، خاصة مع أدوية تثبيط CYP2C19 مثل أوميبرازول وسيميتيدين.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 15، منها سارية: 15؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح أسباب إلغاء التراخيص الـ15 وجدوى إعادة التسجيل. / إجراء تقييم لمخاطر إطالة فترة QT والتداخلات الدوائية الكبرى، خاصة مع أدوية تثبيط CYP2C19 مثل أوميبرازول وسيميتيدين.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-citalopram-1 -->
 
@@ -163,7 +169,7 @@ description: "Citalopram: الاستطباب الجديد المتوقع اضط�
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص الـ15 وجدوى إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص الـ15 وجدوى إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177) |
 
 <!-- review:end log -->

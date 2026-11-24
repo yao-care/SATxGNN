@@ -3,7 +3,7 @@ layout: default
 title: Dexchlorpheniramine
 parent: الاستخدامات المعروفة فقط (لا توجد تنبؤات جديدة)
 nav_order: 248
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Dexchlorpheniramine: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
 indication_count: 0
@@ -69,9 +69,13 @@ evidence_level: N/A
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| POLARAMINE EXPECTORANT SYP | POLARAMINE EXPECTORANT SYP |  | ساري |
+| POLARAMINE EXPECTORANT SYP | DEXCHLORPHENIRAMINE, d-ISOEPHEDRINE, GLYCERYL GUAIACOLATE | SCHERING-PLOUGH | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

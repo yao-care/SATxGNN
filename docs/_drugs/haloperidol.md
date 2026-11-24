@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol: الاستطباب الجديد المتوقع Congenital disorder of glycosylation with defective fucosylation (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
@@ -83,17 +83,23 @@ description: "Haloperidol: الاستطباب الجديد المتوقع Congen
 
 <!-- review:begin sa-lic-20261106-haloperidol-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «عدد التراخيص المسجلة 10، وجميعها **ملغاة**، ولا يوجد أي ترخيص ساري.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 10، منها سارية: 10؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «عدد التراخيص المسجلة 10، وجميعها **ملغاة**، ولا يوجد أي ترخيص ساري.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-haloperidol-1 -->
 
-| رقم الترخيص / الاسم | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| HALDOL 2MG-ML DROPS | HALDOL 2MG-ML DROPS | Janssen Pharmaceutica N.V. | ساري |
-| HALDOL DECANOAS INJ 50MG | HALDOL DECANOAS INJ 50MG | Janssen Pharmaceutica N.V. | ساري |
-| HALDOL 5MG TABLET | HALDOL 5MG TABLET | Lusomedicamenta | ساري |
-| SYLADOR TAB 2 MG. | SYLADOR TAB 2 MG. | Alpharma ApS | ساري |
-| SERENACE | SERENACE | G.D. Searle | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| HALDOL 2MG-ML DROPS | HALOPERIDOL | JANSSEN PHARMACEUTICA N.V. | ساري |
+| HALDOL DECANOAS INJ 50MG | HALOPERIDOL | JANSSEN PHARMACEUTICA N.V. | ساري |
+| HALDOL 5MG TABLET | HALOPERIDOL | LUSOMEDICAMENTA | ساري |
+| SYLADOR TAB 2 MG. | HALOPERIDOL | ALPHARMA APS | ساري |
+| SERENACE | HALOPERIDOL | G.D.SEARLE | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 10 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 نصوص الاستطباب المعتمدة وأشكال الجرعات غير مدونة في سجلات هذه التراخيص.
 
@@ -125,7 +131,7 @@ description: "Haloperidol: الاستطباب الجديد المتوقع Congen
 
 <!-- review:begin sa-lic-20261106-haloperidol-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في المملكة ملغاة، وحجم التداخلات الدوائية كبير، ولم تُراجَع بعد تحذيرات النشرة الرسمية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 10، منها سارية: 10؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في المملكة ملغاة، وحجم التداخلات الدوائية كبير، ولم تُراجَع بعد تحذيرات النشرة الرسمية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-haloperidol-2 -->
 
@@ -145,8 +151,8 @@ description: "Haloperidol: الاستطباب الجديد المتوقع Congen
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وجميعها **ملغاة**، ولا يوجد أي ترخيص ساري» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «جميع تراخيص الدواء في المملكة ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وجميعها **ملغاة**، ولا يوجد أي ترخيص ساري» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الدواء في المملكة ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

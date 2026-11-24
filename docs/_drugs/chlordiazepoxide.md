@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 173
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chlordiazepoxide: الاستطباب الجديد المتوقع الأرق (مستوى الدليل L5). الاستطباب الأصلي: القلق، وانسحاب الكحول، وقرحة المعدة، والقولون العصبي (بحسب الرسم المع…"
 monitor_inn: "chlordiazepoxide"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "myofascial pain syndrome"]
@@ -87,10 +87,14 @@ predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| POXIDIUM TAB | POXIDIUM TAB (Hikma Pharmaceuticals PLC) | غير مذكور | غير مذكور (ساري) |
-| LIBRAX TABLET | LIBRAX TABLET (ICN) | غير مذكور | غير مذكور (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| POXIDIUM TAB | CLIDINIUM BROMIDE, CHLORDIAZEPOXIDE | Hikma Pharmaceuticals PLC | ساري |
+| LIBRAX TABLET | CLIDINIUM BROMIDE, CHLORDIAZEPOXIDE | ICN | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -113,7 +117,7 @@ predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete
 
 <!-- review:begin sa-lic-20261106-chlordiazepoxide-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ معقول آليًا، لكن الأدلة غير مباشرة (L4) ولا توجد تجارب مسجلة، ومخاطر الفئة (الاعتماد، السقوط) كبيرة، والتراخيص المحلية كلها ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ معقول آليًا، لكن الأدلة غير مباشرة (L4) ولا توجد تجارب مسجلة، ومخاطر الفئة (الاعتماد، السقوط) كبيرة، والتراخيص المحلية كلها ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-chlordiazepoxide-1 -->
 
@@ -134,7 +138,7 @@ predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «والتراخيص المحلية كلها ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «والتراخيص المحلية كلها ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937) |
 
 <!-- review:end log -->

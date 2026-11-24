@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 105
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Betaxolol: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
 ---
@@ -72,11 +72,15 @@ predicted_indications: []
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| BETOPTIC OPTHALMIC SOLUTION 0.5% | BETOPTIC OPTHALMIC SOLUTION 0.5% |  | ساري |
-| RIALOL | RIALOL |  | ساري |
-| KERLONE TAB F.C. 20MG | KERLONE TAB F.C. 20MG |  | ساري |
+| BETOPTIC OPTHALMIC SOLUTION 0.5% | BETAXOLOL HYDROCHLORIDE | ALCON COUVREUR | ساري |
+| RIALOL | BETAXOLOL HYDROCHLORIDE | RIYADH PHARMA | ساري |
+| KERLONE TAB F.C. 20MG | BETAXOLOL HYDROCHLORIDE | sanofi-aventis | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Denosumab: الاستطباب الجديد المتوقع اعتلال الشبكية السكري الحاد غير التكاثري (severe nonproliferative diabetic retinopathy) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -68,10 +68,14 @@ description: "Denosumab: الاستطباب الجديد المتوقع اعتل
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PROLIA 60MG/ML SOLUTION FOR INJECTION | PROLIA 60MG/ML SOLUTION FOR INJECTION | غير مسجل | غير مسجل |
-| XGEVA 120 mg solution for injection | XGEVA 120 mg solution for injection | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PROLIA 60MG/ML SOLUTION FOR INJECTION | DENOSUMAB | AMGEN EUROPE B.V. | ساري |
+| XGEVA 120 mg solution for injection | DENOSUMAB | AMGEN MANUFACTURING LIMITED | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "VINCRISTINE"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vincristine: الاستطباب الجديد المتوقع Vertebral anomalies and variable endocrine and T-cell dysfunction (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -82,11 +82,15 @@ description: "Vincristine: الاستطباب الجديد المتوقع Verteb
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الجهة المصنّعة |
-|---------|------|------|
-| VINCRISTINE ROGER BELLON 1MG-VIAL | VINCRISTINE ROGER BELLON 1MG-VIAL | SANOFI WINTHROP INDUSTRIE |
-| VINBLASTINE SULPHATE 10MG-10ML VIAL | VINBLASTINE SULPHATE 10MG-10ML VIAL | HOSPIRA AUSTRALIA |
-| VINCRISTIN SULPH. 1MG-ML VIAL | VINCRISTIN SULPH. 1MG-ML VIAL | HOSPIRA AUSTRALIA |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VINCRISTINE ROGER BELLON 1MG-VIAL | VINCRISTINE | SANOFI WINTHROP INDUSTRIE | ساري |
+| VINBLASTINE SULPHATE 10MG-10ML VIAL | VINCRISTINE | HOSPIRA AUSTRALIA | ساري |
+| VINCRISTIN SULPH. 1MG-ML VIAL | VINCRISTINE | HOSPIRA AUSTRALIA | ساري |
+
+<!-- licenses:end -->
 
 ملاحظات:
 - جميع التراخيص الثلاثة سارية، وكلها لمنتجات أحادية المكوّن.

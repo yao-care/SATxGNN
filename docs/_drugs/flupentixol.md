@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "FLUPENTIXOL"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Flupentixol: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
@@ -97,19 +97,25 @@ description: "Flupentixol: الاستطباب الجديد المتوقع Retina
 
 نصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة في البيانات.
 
-| اسم الترخيص / المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| FLUANXOL DEPOT 100MG-ML I.M AMP | H. LUNDBECK | ساري |
-| FLUANXOL DEPOT INJ 20MG-ML | H. LUNDBECK | ساري |
-| FLUANXOL 1MG TAB | H. LUNDBECK | ساري |
-| FLUANXOL 3MG TAB | H. LUNDBECK | ساري |
-| FLUANXOL 0.5MG TAB | H. LUNDBECK | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FLUANXOL DEPOT 100MG-ML I.M AMP | FLUPENTIXOL | H. LUNDBECK | ساري |
+| FLUANXOL DEPOT INJ 20MG-ML | FLUPENTIXOL | H. LUNDBECK | ساري |
+| FLUANXOL 1MG TAB | FLUPENTIXOL | H. LUNDBECK | ساري |
+| FLUANXOL 3MG TAB | FLUPENTIXOL | H. LUNDBECK | ساري |
+| FLUANXOL 0.5MG TAB | FLUPENTIXOL | H. LUNDBECK | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 (عُرضت خمسة تراخيص من أصل ستة؛ والسادس هو FLUANXOL DEPOT 20MG-ML 2 ML.)
 
 <!-- review:begin sa-lic-20261106-flupentixol-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(عُرضت خمسة تراخيص من أصل ستة؛ والسادس هو FLUANXOL DEPOT 20MG-ML 2 ML، وهو ملغى أيضًا.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(عُرضت خمسة تراخيص من أصل ستة؛ والسادس هو FLUANXOL DEPOT 20MG-ML 2 ML، وهو ملغى أيضًا.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-flupentixol-1 -->
 
@@ -137,7 +143,7 @@ description: "Flupentixol: الاستطباب الجديد المتوقع Retina
 
 <!-- review:begin sa-lic-20261106-flupentixol-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم مخاطر سمية الشبكية المحتملة. / إعادة تقييم جدوى الاستمرار في ضوء إلغاء التراخيص المحلية وتوافر المنتج في السوق.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم مخاطر سمية الشبكية المحتملة. / إعادة تقييم جدوى الاستمرار في ضوء إلغاء التراخيص المحلية وتوافر المنتج في السوق.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-flupentixol-2 -->
 
@@ -149,8 +155,8 @@ description: "Flupentixol: الاستطباب الجديد المتوقع Retina
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وهو ملغى أيضًا» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «إعادة تقييم جدوى الاستمرار في ضوء إلغاء التراخيص المحلية وتوافر المنتج في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وهو ملغى أيضًا» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «إعادة تقييم جدوى الاستمرار في ضوء إلغاء التراخيص المحلية وتوافر المنتج في السوق» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

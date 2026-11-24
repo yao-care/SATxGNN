@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 738
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Roxithromycin: الاستطباب الجديد المتوقع الجذام (Leprosy) (مستوى الدليل L5). الاستطباب الأصلي: التهابات الجهاز التنفسي والمسالك البولية والأنسجة الرخوة (بحسب الوصف…"
 monitor_inn: "ROXITHROMYCIN"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
@@ -90,12 +90,16 @@ predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syn
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| RULID 150MG TAB | RULID 150MG TAB (sanofi-aventis) | غير محدد | غير متوفر (ساري) |
-| ROXAMED | ROXAMED (Dar Aldawa) | غير محدد | غير متوفر (ساري) |
-| ROMAC 300MG F.C. TABLETS | ROMAC 300MG F.C. TABLETS (JPM) | أقراص مغلفة | غير متوفر (ساري) |
-| ROMAC 150MG F.C. TABLETS | ROMAC 150MG F.C. TABLETS (JPM) | أقراص مغلفة | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RULID 150MG TAB | ROXITHROMYCIN | sanofi-aventis | ساري |
+| ROXAMED | ROXITHROMYCIN | DAR ALDAWA | ساري |
+| ROMAC 300MG F.C. TABLETS | ROXITHROMYCIN | The Jordanian Pharmaceutical Manufacturing Medical Equipment Co. Ltd.… | ساري |
+| ROMAC 150MG F.C. TABLETS | ROXITHROMYCIN | The Jordanian Pharmaceutical Manufacturing Medical Equipment Co. Ltd.… | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -124,7 +128,7 @@ predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syn
 
 <!-- review:begin sa-lic-20261106-roxithromycin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إن توفرت الأدلة، تصميم دراسة سريرية استكشافية صغيرة. / توضيح الوضع التنظيمي بعد إلغاء جميع التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إن توفرت الأدلة، تصميم دراسة سريرية استكشافية صغيرة. / توضيح الوضع التنظيمي بعد إلغاء جميع التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-roxithromycin-1 -->
 
@@ -136,7 +140,7 @@ predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syn
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء جميع التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء جميع التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

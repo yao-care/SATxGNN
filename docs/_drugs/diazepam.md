@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 255
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
 description: "Diazepam: الاستطباب الجديد المتوقع الأرق (insomnia (disease)) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 18 (السارية: 18)"
@@ -83,13 +83,19 @@ description: "Diazepam: الاستطباب الجديد المتوقع الأر�
 
 الدواء مسوَّق، وتراخيصه سارية وفق السجلات المحلية. فيما يلي أبرز التراخيص:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| DIAPAM 10MG/2ML SOL. FOR INJ./INF | DIAPAM 10MG/2ML | Medochemie | غير متوفر |
-| VALIUM TAB 10 MG | VALIUM TAB 10 MG | ROCHE | غير متوفر |
-| VALIUM TAB 5MG | VALIUM TAB 5MG | ROCHE | غير متوفر |
-| VALIUM AMP 10MG-2ML | VALIUM AMP 10MG-2ML | CENEXI | غير متوفر |
-| STESOLID TAB 2 MG | STESOLID TAB 2 MG | ALPHARMA APS | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DIAPAM 10MG/2ML SOL. FOR INJ./INF | DIAZEPAM | Medochemie (Ampoule Injectable Facility) | ساري |
+| VALIUM TAB 10 MG | DIAZEPAM | ROCHE | ساري |
+| VALIUM TAB 5MG | DIAZEPAM | ROCHE | ساري |
+| VALIUM AMP 10MG-2ML | DIAZEPAM | CENEXI | ساري |
+| STESOLID TAB 2 MG | DIAZEPAM | ALPHARMA APS | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 18 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

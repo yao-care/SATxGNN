@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clindamycin: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب، العدوى العقدية والعنقودية، العدوى بالبكتيريا اللاهوائية، ا…"
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
@@ -94,13 +94,19 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 
 جميع التراخيص الـ17 سارية (17 ترخيصاً ساري المفعول من أصل 17)، والدواء مسوّق. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات. أبرز التراخيص:
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| DALACIN T TOPICAL SOLN 1% | DALACIN T TOPICAL SOLN 1% | Pharmacia Upjohn | ساري |
-| DALACIN-C 150 MG CAPS | DALACIN-C 150 MG CAPS | Pfizer | ساري |
-| DALACIN VAGINAL CREAM 2% | DALACIN VAGINAL CREAM 2% | Pharmacia Upjohn | ساري |
-| CLINDAMYCIN PHOSPHATE 150MG-ML INJ | CLINDAMYCIN PHOSPHATE 150MG-ML INJ | Hospira | ساري |
-| MEDACIN-T 1% GEL | MEDACIN-T 1% GEL | Medpharma | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DALACIN T TOPICAL SOLN 1% | CLINDAMYCIN PHOSPHATE | PHARMACIA UPJOHN | ساري |
+| DALACIN-C 150 MG CAPS | CLINDAMYCIN HYDROCHLORIDE | PFIZER | ساري |
+| DALACIN VAGINAL CREAM 2% | CLINDAMYCIN PHOSPHATE | PHARMACIA UPJOHN | ساري |
+| CLINDAMYCIN PHOSPHATE 150MG-ML INJ | CLINDAMYCIN PHOSPHATE | HOSPIRA | ساري |
+| MEDACIN -T 1% GEL | CLINDAMYCIN PHOSPHATE | MEDPHARMA PHARMACEUTICAL & CHEMICAL INDUSTRIES | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 17 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 886
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب لدى القطط (feline acquired immunodeficiency syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -99,10 +99,14 @@ description: "Zidovudine: الاستطباب الجديد المتوقع متل�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| RETROVIR 50MG\5ML ORAL SUSPENTION | RETROVIR 50MG\5ML ORAL SUSPENTION | غير محدد | غير محدد (ترخيص ساري) |
-| RETROVIR CAPS 100MG | RETROVIR CAPS 100MG | غير محدد | غير محدد (ترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RETROVIR 50MG\5ML ORAL SUSPENTION | ZIDOVUDINE | Bora Pharmaceutical Services Inc | ساري |
+| RETROVIR CAPS 100MG | ZIDOVUDINE | Delpharm Poznań Spółka Akcyjna | ساري |
+
+<!-- licenses:end -->
 
 ---
 

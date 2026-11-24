@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 761
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: الاستطباب الجديد المتوقع ساركوما شحمية (liposarcoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -78,10 +78,14 @@ description: "Sirolimus: الاستطباب الجديد المتوقع سارك
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
-|---------|------|------|-----------|
-| RAPAMUNE 1 MG COATED TABLETS | RAPAMUNE 1 MG COATED TABLETS (Wyeth) | أقراص مغلفة | غير متوفر (ساري) |
-| RAPAMUNE 1 MG Coated tablet | RAPAMUNE 1 MG Coated tablet (Pfizer) | أقراص مغلفة | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RAPAMUNE 1 MG COATED TABLETS | SIROLIMUS | WYETH | ساري |
+| RAPAMUNE 1 MG Coated tablet | SIROLIMUS | PFIZER | ساري |
+
+<!-- licenses:end -->
 
 يوجد ترخيصان ساريان لمنتجات أحادية المكوّن.
 

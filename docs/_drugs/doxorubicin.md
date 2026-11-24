@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 280
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxorubicin: الاستطباب الجديد المتوقع ساركوما إوينغ (مستوى الدليل L1). الاستطباب الأصلي: اللوكيميا الليمفاوية الحادة، لمفوما هودجكن، اللمفوما غير الهودجكنية،…"
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
@@ -108,13 +108,19 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 
 يوجد 8 تراخيص سارية من أصل 8 تراخيص، والدواء مسوَّق في هذا البلد. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات المجمّعة.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | حالة الترخيص |
-|---------|------|------|-----------|
-| DOXORUBICIN 2MG-MLVIAL | DOXORUBICIN 2MG-MLVIAL | Fareva Unterach GmbH | ساري |
-| ADRIBLASTINA 50MG/25ML VIAL | ADRIBLASTINA 50MG/25ML VIAL | PFIZER PERTH PTY LIMITED | ساري |
-| ADRIBLASTINA 50MG VIAL & SOLV | ADRIBLASTINA 50MG VIAL & SOLV | ACTAVIS | ساري |
-| ADRIBLASTINA 10MG VIAL & SOLV | ADRIBLASTINA 10MG VIAL & SOLV | ACTAVIS | ساري |
-| Deroxi Liposomal 50 mg per 25 ml | Deroxi Liposomal 50 mg per 25 ml | Natco Pharma Limited | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DOXORUBICIN 2MG-MLVIAL | DOXORUBICIN HYDROCHLORIDE | Fareva Unterach GmbH | ساري |
+| ADRIBLASTINA 50MG/25ML VIAL | DOXORUBICIN HYDROCHLORIDE | PFIZER PERTH PTY LIMITED | ساري |
+| ADRIBLASTINA 50MG VIAL & SOLV | DOXORUBICIN HYDROCHLORIDE | ACTAVIS | ساري |
+| ADRIBLASTINA 10MG VIAL & SOLV | DOXORUBICIN HYDROCHLORIDE | ACTAVIS | ساري |
+| Deroxi Liposomal 50 mg per 25 ml | DOXORUBICIN HYDROCHLORIDE | Natco Pharma Limited | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -162,7 +168,7 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 
 <!-- review:begin sa-lic-20261106-doxorubicin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح مسار إعادة التسجيل أو الاستيراد في السعودية في ظل إلغاء جميع التراخيص. / تحديد مساهمة دوكسوروبيسين نفسه ضمن الأنظمة المركّبة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح مسار إعادة التسجيل أو الاستيراد في السعودية في ظل إلغاء جميع التراخيص. / تحديد مساهمة دوكسوروبيسين نفسه ضمن الأنظمة المركّبة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-doxorubicin-1 -->
 
@@ -192,7 +198,7 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح مسار إعادة التسجيل أو الاستيراد في السعودية في ظل إلغاء جميع التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح مسار إعادة التسجيل أو الاستيراد في السعودية في ظل إلغاء جميع التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
 
 <!-- review:end log -->

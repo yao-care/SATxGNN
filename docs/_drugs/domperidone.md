@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Domperidone: الاستطباب الجديد المتوقع المتلازمة الكلوية المنشأ لإفراط إفراز مضاد الإدرار غير الملائم (مستوى الدليل L5). الاستطباب الأصلي: عسر الهضم والغثيان والقيء (بحسب البيانات الدوائية المجمّعة؛ ن…"
 monitor_inn: "DOMPERIDONE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -82,13 +82,19 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 
 جميع التراخيص الأربعة عشر **سارية** (14 ترخيصاً ساري المفعول من أصل 14). نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمّعة. أبرز التراخيص:
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| MOTILIUM TAB 10MG | Motilium أقراص 10 ملغ | Lusomedicamenta | ساري |
-| MOTILIUM SYRUP 0.1% | Motilium شراب | Janssen Pharmaceutica | ساري |
-| PROKININ 10MG F-C TABLETS | Prokinin أقراص | Tabuk | ساري |
-| MODODOM 10MG F.C. TABLETS | Mododom أقراص | Julphar | ساري |
-| DOMPY 10MG TABLET | Dompy أقراص | Jamjoom | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MOTILIUM TAB 10MG | DOMPERIDONE | LUSOMEDICAMENTA | ساري |
+| MOTILIUM SYRUP 0.1% | DOMPERIDONE | JANSSEN PHARMACEUTICA N.V. | ساري |
+| PROKININ 10MG F-C TABLETS | DOMPERIDONE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| MODODOM 10MG F.C. TABLETS | DOMPERIDONE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| DOMPY 10MG TABLET | DOMPERIDONE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 14 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -110,7 +116,7 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 
 <!-- review:begin sa-lic-20261106-domperidone-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كما أن جميع تراخيص الدواء في السعودية ملغاة، وهناك مخاوف تتعلق بسلامة القلب (QT).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 14، منها سارية: 14؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كما أن جميع تراخيص الدواء في السعودية ملغاة، وهناك مخاوف تتعلق بسلامة القلب (QT).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-domperidone-1 -->
 
@@ -129,7 +135,7 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

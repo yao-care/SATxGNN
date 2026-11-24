@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 884
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zanamivir: الاستطباب الجديد المتوقع التهاب الحويضة والكلية (Pyelonephritis) (مستوى الدليل L5). الاستطباب الأصلي: الإنفلونزا (بما فيها الإنفلونزا الشديدة)"
 monitor_inn: "ZANAMIVIR"
 predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
@@ -82,9 +82,13 @@ predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| RELENZA 5MG POWDER FOR INHALATION | RELENZA 5MG POWDER FOR INHALATION (الشركة: GLAXOWELLCOME) | غير محدد | غير محدد (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RELENZA 5MG POWDER FOR INHALATION | ZANAMIVIR | GLAXOWELLCOME | ساري |
+
+<!-- licenses:end -->
 
 ---
 

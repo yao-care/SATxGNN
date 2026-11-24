@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hydroquinone: الاستطباب الجديد المتوقع التقرن الدهني (Seborrheic Keratosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص السعودية (نصوص المؤشرات المعتمدة فارغة)"
 monitor_inn: "HYDROQUINONE"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
@@ -86,15 +86,19 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 
 جميع التراخيص الثمانية سارية (8 تراخيص سارية من أصل 8)، والدواء مسوَّق. نصوص المؤشرات المعتمدة ودرجات الشكل الصيدلاني غير متوفرة في البيانات.
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
-|---------|------|------|-----------|
-| PHILAQUIN FORTE 4% CREAM | PHILAQUIN FORTE 4% CREAM | كريم (بحسب الاسم) | غير متوفر |
-| AVOQUIN cream | AVOQUIN cream | كريم (بحسب الاسم) | غير متوفر |
-| HI- QUIN 4% CREAM | HI- QUIN 4% CREAM | كريم (بحسب الاسم) | غير متوفر |
-| ELDOQUIN CREAM 2% | ELDOQUIN CREAM 2% | كريم (بحسب الاسم) | غير متوفر |
-| HI- QUIN 2% CREAM | HI- QUIN 2% CREAM | كريم (بحسب الاسم) | غير متوفر |
+<!-- licenses:begin -->
 
-(عُرضت 5 من أصل 8 تراخيص.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PHILAQUIN FORTE 4% CREAM | HYDROQUINONE | PHILADELPHIA PHARMACEUTICAL | ساري |
+| AVOQUIN cream | HYDROQUINONE | Middle East Pharmaceutical Industries Co. Ltd. (MECP) | ساري |
+| HI- QUIN 4% CREAM | HYDROQUINONE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| ELDOQUIN CREAM 2% | HYDROQUINONE | I.C.N.PHARMACEUTICALS | ساري |
+| HI- QUIN 2% CREAM | HYDROQUINONE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,7 +129,7 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 
 <!-- review:begin sa-lic-20261106-hydroquinone-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح المؤشر الأصلي المعتمد وأسباب إلغاء التراخيص الثمانية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح المؤشر الأصلي المعتمد وأسباب إلغاء التراخيص الثمانية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-hydroquinone-1 -->
 
@@ -137,7 +141,7 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وأسباب إلغاء التراخيص الثمانية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وأسباب إلغاء التراخيص الثمانية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Hydroquinone 4% (hydroquinone) prescribing information, Acella Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595dfc50-ee6f-41b5-ab5b-4c293aee342b) |
 
 <!-- review:end log -->

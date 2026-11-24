@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 573
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mupirocin: الاستطباب الجديد المتوقع دبيلة الجنب (pleural empyema) (مستوى الدليل L5). الاستطباب الأصلي: القوباء، القوباء الفقاعية (مصدره الرسم المعرفي لنموذج TxGNN، إذ لا يت…"
 monitor_inn: "Mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
@@ -84,13 +84,17 @@ predicted_indications: ["pleural empyema (disease)", "punctate epithelial kerato
 
 جميع التراخيص الخمسة سارية، ولا يتوفر نص الاستطباب المعتمد ولا شكل الجرعة لها.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| BACTROBAN OINT 2% | BACTROBAN OINT 2% | GLAXO | ساري |
-| AVOBAN 2% nasal ointment | AVOBAN 2% nasal ointment | Middle East Pharmaceutical Industries (MECP) | ساري |
-| BACTROBAN NASAL OINTMENT 2% | BACTROBAN NASAL OINTMENT 2% | GLAXO | ساري |
-| Avoban | Avoban | Middle East Pharmaceutical Industries (MECP) | ساري |
-| AVOBAN 2% W-W OINTMENT | AVOBAN 2% W-W OINTMENT | Middle East Pharmaceutical Industries (MECP) | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BACTROBAN OINT 2% | MUPIROCIN CALCIUM | GLAXO | ساري |
+| AVOBAN 2% nasal ointment | MUPIROCIN CALCIUM | Middle East Pharmaceutical Industries Co. Ltd. (MECP) | ساري |
+| BACTROBAN NASAL OINTMENT 2% | MUPIROCIN CALCIUM | GLAXO | ساري |
+| Avoban | MUPIROCIN CALCIUM | Middle East Pharmaceutical Industries Co. Ltd. (MECP) | ساري |
+| AVOBAN 2% W-W OINTMENT | MUPIROCIN CALCIUM | Middle East Pharmaceutical Industries Co. Ltd. (MECP) | ساري |
+
+<!-- licenses:end -->
 
 ---
 

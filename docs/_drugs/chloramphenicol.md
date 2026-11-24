@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 172
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CHLORAMPHENICOL"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
 description: "Chloramphenicol: الاستطباب الجديد المتوقع تصلب الجلد المنتشر (diffuse scleroderma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"
@@ -77,13 +77,19 @@ description: "Chloramphenicol: الاستطباب الجديد المتوقع ت
 
 حسب البيانات المحلية، جميع التراخيص الخمسة عشر سارية، ولم يُسجَّل نص الاستطباب المعتمد في أي منها. أبرز المنتجات:
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| OFTHALMOLOSA CUSI CHLORAMPHEN.OINT 1% | OFTHALMOLOSA CUSI CHLORAMPHEN.OINT 1% | غير محدد | غير متوفر |
-| COLIRCUSI CHLORAMPHENICOL 0.5% DROPS | COLIRCUSI CHLORAMPHENICOL 0.5% DROPS | غير محدد (قطرات) | غير متوفر |
-| RIACHOL 0.5% EYE DROP | RIACHOL 0.5% EYE DROP | غير محدد (قطرات عين) | غير متوفر |
-| SOLUPARAXIN 1G VIAL+SOLVENT | SOLUPARAXIN 1G VIAL+SOLVENT | غير محدد (قارورة مع مذيب) | غير متوفر |
-| CHLORAMEX SYRUP 160MG-5ML | CHLORAMEX SYRUP 160MG-5ML | غير محدد (شراب) | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| OFTHALMOLOSA CUSI CHLORAMPHEN.OINT 1% | CHLORAMPHENICOL | Siegfried EI Masnou, S.A | ساري |
+| COLIRCUSI CHLORAMPHENICOL 0.5% DROPS | CHLORAMPHENICOL | Siegfried EI Masnou, S.A | ساري |
+| RIACHOL 0.5% EYE DROP | CHLORAMPHENICOL | RIYADH PHARMA | ساري |
+| SOLUPARAXIN 1G VIAL+SOLVENT | CHLORAMPHENICOL | ROCHE DIAGNOSTICS | ساري |
+| CHLORAMEX SYRUP 160MG-5ML | CHLORAMPHENICOL | ALPHARMA APS | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 15 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

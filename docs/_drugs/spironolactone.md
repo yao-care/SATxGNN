@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 769
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Spironolactone: الاستطباب الجديد المتوقع نقص الشعر البسيط في فروة الرأس (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، فشل القلب الاحتقاني، فرط الألدوستيرونية (الأولي)، مت…"
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -82,12 +82,16 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| ALDACTONE TAB | ALDACTONE TAB | PIRAMAL HEALTHCARE UK LIMITED | ساري |
-| SPIROCTAN TAB 50MG | SPIROCTAN TAB 50MG | ROCHE DIAGNOSTICS | ساري |
-| NORACTONE | NORACTONE | الشركة الأردنية لصناعة الأدوية والمعدات الطبية (JPM) | ساري |
-| SPIROCTAN TAB 25MG | SPIROCTAN TAB 25MG | ROCHE DIAGNOSTICS | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ALDACTONE TAB | SPIRONOLACTONE | PIRAMAL HEALTHCARE UK LIMITED | ساري |
+| SPIROCTAN TAB 50MG | SPIRONOLACTONE | ROCHE DIAGNOSTICS | ساري |
+| NORACTONE | SPIRONOLACTONE | The Jordanian Pharmaceutical Manufacturing Medical Equipment Co. Ltd.… | ساري |
+| SPIROCTAN TAB 25MG | SPIRONOLACTONE | ROCHE DIAGNOSTICS | ساري |
+
+<!-- licenses:end -->
 
 ---
 

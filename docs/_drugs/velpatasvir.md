@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 863
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Velpatasvir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (من الرسم المعرفي لـ TxGNN؛ نص الإش…"
 monitor_inn: "velpatasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -98,10 +98,14 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الإشارة المعتمدة |
-|---------|------|------|-----------|
-| EPCLUSA 400 mg/100 mg Film-coated Tablet | EPCLUSA 400 mg/100 mg Film-coated Tablet (جيلياد) | أقراص مغلفة | غير متوفرة؛ الترخيص ساري |
-| VOSEVI 400MG/100MG/100MG F.C.TABLET | VOSEVI 400MG/100MG/100MG F.C.TABLET (جيلياد) | أقراص مغلفة | غير متوفرة؛ الترخيص ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| EPCLUSA 400 mg/100 mg Film-coated Tablet | SOFOSBUVIR,VELPATASVIR | GILEAD SCIENCES IRELAND UC | ساري |
+| VOSEVI 400MG/100MG/100MG F.C.TABLET | SOFOSBUVIR,VELPATASVIR,VOXILAPREVIR | GILEAD SCIENCES IRELAND UC | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -128,7 +132,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 <!-- review:begin sa-lic-20261106-velpatasvir-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الترخيصان المحليان ملغيان، ولا تتوفر حالياً بيانات السلامة من النشرة الدوائية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الترخيصان المحليان ملغيان، ولا تتوفر حالياً بيانات السلامة من النشرة الدوائية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-velpatasvir-1 -->
 
@@ -140,7 +144,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 <!-- review:begin sa-lic-20261106-velpatasvir-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من وضع الترخيص المحلي (حالياً ملغى). / في الممارسة السريرية: فحص فيروس B قبل علاج C ومراقبته لتفادي إعادة التنشيط.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من وضع الترخيص المحلي (حالياً ملغى). / في الممارسة السريرية: فحص فيروس B قبل علاج C ومراقبته لتفادي إعادة التنشيط.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-velpatasvir-2 -->
 
@@ -152,8 +156,8 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «الترخيصان المحليان ملغيان، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «التحقق من وضع الترخيص المحلي (حالياً ملغى)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «الترخيصان المحليان ملغيان، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «التحقق من وضع الترخيص المحلي (حالياً ملغى)» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
 
 <!-- review:end log -->

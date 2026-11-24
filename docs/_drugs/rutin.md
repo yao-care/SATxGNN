@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 739
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Rutin: الاستطباب الجديد المتوقع داء الثدي الليفي الكيسي (breast fibrocystic disease) (مستوى الدليل L5). الاستطباب الأصلي: نقص حمض الأسكوربيك، الإسقربوط"
 monitor_inn: "rutin"
 predicted_indications: ["breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia", "vulvovaginal candidiasis", "breast abscess", "fat necrosis of breast", "vaginitis (disease)"]
@@ -82,11 +82,15 @@ predicted_indications: ["breast fibrocystic disease", "apocrine adenosis of brea
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| HAEMOSOL CAPSULES | HAEMOSOL CAPSULES (EISAI) | غير محدد | غير متوفر | مُلغى |
-| JUVELON CAPS. | JUVELON CAPS. (EISAI) | غير محدد | غير متوفر | مُلغى |
-| VITOP CAP | VITOP CAP (MISR COMPANY FOR MEDICAL PRODUCTS) | غير محدد | غير متوفر | مُلغى |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| HAEMOSOL CAPSULES | CALCIUM SUCCINATE, LYSOZYME, RUTIN, VITAMIN K | EISAI | ساري |
+| JUVELON CAPS. | ASCORBIC ACID, CYANOCOBALAMIN, NICOTINAMIDE, RUTIN, VITAMIN A, VITAMIN B1, VITAMIN B2, VIT… | EISAI | ساري |
+| VITOP CAP | ASCORBIC ACID, CYANOCOBALAMIN, NICOTINAMIDE, RUTIN, VITAMIN A, VITAMIN B1, VITAMIN B2, VIT… | MISR COMPANY FOR MEDICAL PRODUCTS | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -116,7 +120,7 @@ predicted_indications: ["breast fibrocystic disease", "apocrine adenosis of brea
 
 <!-- review:begin sa-lic-20261106-rutin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ حاسوبي فقط (L5) دون أي تجارب سريرية أو أدبيات داعمة، والآلية غير موثقة. / جميع التراخيص المحلية مُلغاة، ولا يوجد منتج مسوّق حاليًا في المملكة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ حاسوبي فقط (L5) دون أي تجارب سريرية أو أدبيات داعمة، والآلية غير موثقة. / جميع التراخيص المحلية مُلغاة، ولا يوجد منتج مسوّق حاليًا في المملكة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-rutin-1 -->
 
@@ -129,7 +133,7 @@ predicted_indications: ["breast fibrocystic disease", "apocrine adenosis of brea
 
 <!-- review:begin sa-lic-20261106-rutin-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم توفر المستحضر وسبل التوريد، نظرًا لإلغاء التراخيص الحالية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم توفر المستحضر وسبل التوريد، نظرًا لإلغاء التراخيص الحالية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-rutin-2 -->
 
@@ -141,8 +145,8 @@ predicted_indications: ["breast fibrocystic disease", "apocrine adenosis of brea
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع التراخيص المحلية مُلغاة، ولا يوجد منتج مسوّق حاليًا في المملكة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «نظرًا لإلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع التراخيص المحلية مُلغاة، ولا يوجد منتج مسوّق حاليًا في المملكة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «نظرًا لإلغاء التراخيص الحالية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

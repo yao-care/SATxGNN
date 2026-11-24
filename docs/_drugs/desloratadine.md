@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DESLORATADINE"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Desloratadine: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
 ---
 
@@ -76,13 +76,20 @@ description: "Desloratadine: الاستطباب الجديد المتوقع أم
 
 تتوافر في البيانات المجمعة سجلات تراخيص عدة لمنتجات ديسلوراتادين أحادية المكوّن، مثل:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Lorius | Lorius | غير مسجل | غير مسجل |
-| DARINE | DARINE | غير مسجل | غير مسجل |
-| DESLORATADINE-GLENMARK 5MG TAB | DESLORATADINE-GLENMARK 5MG TAB | غير مسجل | غير مسجل |
-| NEORIN 5MG F.C. TABLET | NEORIN 5MG F.C. TABLET | غير مسجل | غير مسجل |
-| AERIUS 2.5 MG-5ML SYRUP | AERIUS 2.5 MG-5ML SYRUP | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Lorius | DESLORATADINE | Savvy Pharma | ساري |
+| DARINE | DESLORATADINE | Med city | ساري |
+| DESLORATADINE-GLENMARK 5MG TAB | DESLORATADINE | Glenmark Pharmaceuticals Limited | ساري |
+| NEORIN 5MG F.C. TABLET | DESLORATADINE | SPIMACO | ساري |
+| AERIUS 2.5 MG-5ML SYRUP | DESLORATADINE | SPIMACO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 قد تكون القائمة جزئية.
 

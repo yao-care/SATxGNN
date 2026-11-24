@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: الاستطباب الجديد المتوقع نقص بيتا-كيتوثيولاز (beta-ketothiolase deficiency) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
@@ -68,13 +68,19 @@ description: "Perampanel: الاستطباب الجديد المتوقع نقص 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| FYCOMPA 2 mg Film-Coated Tablet | FYCOMPA 2 mg | أقراص مغلفة | غير متوفر | ساري |
-| FYCOMPA 4 mg Film-Coated Tablet | FYCOMPA 4 mg | أقراص مغلفة | غير متوفر | ساري |
-| FYCOMPA 6 mg Film-Coated Tablet | FYCOMPA 6 mg | أقراص مغلفة | غير متوفر | ساري |
-| FYCOMPA 8 mg Film-Coated Tablet | FYCOMPA 8 mg | أقراص مغلفة | غير متوفر | ساري |
-| FYCOMPA 10 mg Film-Coated Tablet | FYCOMPA 10 mg | أقراص مغلفة | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FYCOMPA 2 mg Film-Coated Tablet | PERAMPANEL | EISAI MANUFACTURING LIMITED | ساري |
+| FYCOMPA 4 mg Film-Coated Tablet | PERAMPANEL | EISAI MANUFACTURING LIMITED | ساري |
+| FYCOMPA 6 mg Film-Coated Tablet | PERAMPANEL | EISAI MANUFACTURING LIMITED | ساري |
+| FYCOMPA 8 mg Film-Coated Tablet | PERAMPANEL | EISAI MANUFACTURING LIMITED | ساري |
+| FYCOMPA 10 mg Film-Coated Tablet | PERAMPANEL | EISAI MANUFACTURING LIMITED | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 المصنّع لجميع التراخيص: EISAI MANUFACTURING LIMITED. جميع التراخيص الستة سارية.
 

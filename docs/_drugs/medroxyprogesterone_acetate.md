@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 534
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Medroxyprogesterone Acetate: الاستطباب الجديد المتوقع مرض الثدي الكيسي الليفي (breast fibrocystic disease) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -92,12 +92,16 @@ description: "Medroxyprogesterone Acetate: الاستطباب الجديد ال�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PROVERA 5MG TAB | PROVERA 5MG TAB (Pfizer) | غير متوفر | غير متوفر (ساري) |
-| PROVERA 100MG TAB | PROVERA 100MG TAB (Pharmacia Upjohn) | غير متوفر | غير متوفر (ساري) |
-| FARLUTAL 250MG TAB | FARLUTAL 250MG TAB (Pfizer) | غير متوفر | غير متوفر (ساري) |
-| DEPO-PROVERA VIAL I-M 150MG-ML | DEPO-PROVERA VIAL I-M 150MG-ML (Pfizer) | غير متوفر | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PROVERA 5MG TAB | MEDROXYPROGESTERONE ACETATE | PFIZER | ساري |
+| PROVERA 100MG TAB | MEDROXYPROGESTERONE ACETATE | PHARMACIA UPJOHN | ساري |
+| FARLUTAL 250MG TAB | MEDROXYPROGESTERONE ACETATE | PFIZER | ساري |
+| DEPO-PROVERA VIAL I-M 150MG-ML | MEDROXYPROGESTERONE ACETATE | PFIZER | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الأربعة سارية، وهي لمستحضرات أحادية المكوّن.
 

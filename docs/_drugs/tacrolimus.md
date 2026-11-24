@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 783
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: الاستطباب الجديد المتوقع التهاب الجلد الدهني (seborrheic dermatitis) (مستوى الدليل L1). المنتجات المسجلة لدى SFDA: 18 على الأقل"
@@ -92,13 +92,20 @@ description: "Tacrolimus: الاستطباب الجديد المتوقع الت�
 
 يوجد 18 ترخيصاً سارياً لهذا الدواء، وهو مسوّق في هذا البلد. أبرز المنتجات:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PROTOPIC 0.1% OINTMENT | PROTOPIC 0.1% OINTMENT (Leo Laboratories) | مرهم (حسب اسم المنتج) | غير متوفر |
-| PROTOPIC 0.03% OINTMENT | PROTOPIC 0.03% OINTMENT (Leo Laboratories) | مرهم (حسب اسم المنتج) | غير متوفر |
-| TACROZ 0.03% OINTMENT | TACROZ 0.03% OINTMENT (Glenmark) | مرهم (حسب اسم المنتج) | غير متوفر |
-| VIOTOPIC 0.1% ointment | VIOTOPIC 0.1% ointment (Jazeera Pharmaceutical) | مرهم (حسب اسم المنتج) | غير متوفر |
-| PROGRAF 1 mg capsule | PROGRAF 1 mg capsule (Astellas) | كبسولة (حسب اسم المنتج) | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PROTOPIC 0.1% OINTMENT | TACROLIMUS | Leo Laboratories Limited | ساري |
+| PROTOPIC 0.03% OINTMENT | TACROLIMUS | Leo Laboratories Limited | ساري |
+| TACROZ 0.03% OINTMENT | TACROLIMUS | Glenmark Pharmaceuticals Limited | ساري |
+| VIOTOPIC 0.1% ointment | TACROLIMUS | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| PROGRAF 1 mg capsule | TACROLIMUS | Astellas Pharma Inc | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 18 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

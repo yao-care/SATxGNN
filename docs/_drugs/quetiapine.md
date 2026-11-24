@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 701
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "QUETIAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -99,13 +99,20 @@ description: "Quetiapine: الاستطباب الجديد المتوقع Retinal
 
 أبرز الأمثلة (نصوص الاستطباب والشكل الصيدلاني غير متوفرة):
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| SEROQUEL 300MG F-C TABS | SEROQUEL 300MG | AstraZeneca | ساري |
-| REZAL XR 200 mg | REZAL XR 200 mg (أقراص ممتدة المفعول) | TABUK PHARMACEUTICAL | ملغى |
-| QATPEN 300MG | QATPEN 300MG | DAMMAM PHARMA | ملغى |
-| SERCAND 300 mg | SERCAND 300 mg | APOTEX | ملغى |
-| SICOPIN 200 mg | SICOPIN 200 mg | SANDOZ | ملغى |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SEROQUEL 300MG F-C TABS | QUETIAPINE | AstraZeneca | ساري |
+| REZAL XR 200 mg extended-release tablet | QUETIAPINE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| QATPEN 300MG F.C.TABLET | QUETIAPINE | DAMMAM PHARMA | ساري |
+| SERCAND 300 mg film-coated tablet | QUETIAPINE | APOTEX | ساري |
+| SICOPIN 200 mg film-coated tablet | QUETIAPINE | SANDOZ | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

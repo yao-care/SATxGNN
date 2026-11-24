@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Glecaprevir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV infectious disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -84,9 +84,13 @@ description: "Glecaprevir: الاستطباب الجديد المتوقع عدو
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| MAVIRET 100 mg/40 mg Film Coated Tablet | MAVIRET 100 mg/40 mg Film Coated Tablet | غير محدد | غير محدد (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MAVIRET 100 mg/40 mg Film Coated Tablet | GLECAPREVIR,PIBRENTASVIR | Abbott Laboratories Fournier (Laboratories) Ireland Ltd | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

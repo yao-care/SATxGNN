@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cefuroxime"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefuroxime: الاستطباب الجديد المتوقع متلازمة فرط اللزوجة متعددة النسائل (polyclonal hyperviscosity syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 (السارية: 17)"
 ---
 
@@ -80,13 +80,19 @@ description: "Cefuroxime: الاستطباب الجديد المتوقع متل�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| MAXIL 750 VIAL | MAXIL 750 VIAL | غير مسجّل | غير مسجّل |
-| ZINACEF 750 mg | ZINACEF 750 mg | غير مسجّل | غير مسجّل |
-| XORIM 1500MG POW. FOR SOLU. FOR I.V. INJ | XORIM 1500MG | غير مسجّل | غير مسجّل |
-| ZINOXIME 750MG VIAL FOR I.V- I.M | ZINOXIME 750MG | غير مسجّل | غير مسجّل |
-| CEFUZIME 750 MG INJECTION,I.M - I.V VIAL | CEFUZIME 750 MG | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MAXIL 750 VIAL | CEFUROXIME SODIUM | Hikma Farmaceutica | ساري |
+| ZINACEF 750 mg | CEFUROXIME SODIUM | ACS Dobfar S.P.A | ساري |
+| XORIM 1500MG POW. FOR SOLU. FOR I.V. INJ | CEFUROXIME SODIUM | SANDOZ | ساري |
+| ZINOXIME 750MG VIAL FOR I.V- I.M | CEFUROXIME SODIUM | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| CEFUZIME 750 MG INJECTION,I.M - I.V VIAL | CEFUROXIME SODIUM | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 17 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 القائمة أعلاه تعرض خمسة تراخيص رئيسية فقط من أصل 17 ترخيصاً مسجلاً.
 

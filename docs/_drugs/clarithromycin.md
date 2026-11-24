@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clarithromycin: الاستطباب الجديد المتوقع فرط أميلاز الدم (Hyperamylasemia) (مستوى الدليل L5). الاستطباب الأصلي: العدوى البكتيرية (التهاب الأذن الوسطى، العدوى العقدية، التهاب الرئة ا…"
 monitor_inn: "CLARITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
@@ -84,13 +84,20 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 يوجد 20 ترخيصاً ساري المفعول والدواء مسوّق. أدناه أبرز 5 منها (بيانات شكل الجرعة ونص الاستطباب غير متوفرة):
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| KLARE 500 mg film-coated tablet | KLARE 500 mg | Middle East Pharmaceutical Industries (MECP) | ساري |
-| CLARITT 250 MG - 5 ML SUSPENSION | CLARITT 250 mg/5 mL معلّق | Tabuk Pharmaceutical | ساري |
-| CLARITT XL 500MG EXTENDED RELEASE TABLETS | CLARITT XL 500 mg | Tabuk Pharmaceutical | ساري |
-| KLACID 500MG IV POWDER FOR INJECTION | KLACID 500 mg IV | FAMAR | ساري |
-| KLACID 500MG COATED TAB | KLACID 500 mg | Abbott Laboratories | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| KLARE 500 mg film-coated tablet | CLARITHROMYCIN | Middle East Pharmaceutical Industries Co. Ltd. (MECP) | ساري |
+| CLARITT 250 MG - 5 ML SUSPENSION | CLARITHROMYCIN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| CLARITT XL 500MG EXTENDED RELEASE TABLETS | CLARITHROMYCIN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| KLACID 500MG IV POWDER FOR INJECTION | CLARITHROMYCIN | FAMAR | ساري |
+| KLACID 500MG COATED TAB | CLARITHROMYCIN | Abbott Laboratories | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

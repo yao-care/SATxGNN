@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lomitapide"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
 description: "Lomitapide: الاستطباب الجديد المتوقع نقص الصفيحات الكبير مع قصور الصمام التاجي (marcothrombocytopenia with mitral valve insufficiency) (مستوى الدليل L5)."
@@ -70,9 +70,13 @@ description: "Lomitapide: الاستطباب الجديد المتوقع نقص 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Lojuxta | Lojuxta (الشركة: CATALENT) | غير متاح | غير متاح |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Lojuxta | LOMITAPIDE MESYLATE | CATALENT | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

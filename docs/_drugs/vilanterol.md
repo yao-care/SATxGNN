@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vilanterol: الاستطباب الجديد المتوقع الرئة شديدة الشفافية (hyperlucent lung) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجَّل في البيانات المحلية (لا يوجد نص استطباب معتمد في التراخيص…"
 ---
 
@@ -68,13 +68,17 @@ description: "Vilanterol: الاستطباب الجديد المتوقع الر�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| RELVAR ELLIPTA 200/25 mcg inhalation powder | RELVAR ELLIPTA 200/25 mcg inhalation powder | غير مسجل | غير مسجل |
-| RELVAR ELLIPTA | RELVAR ELLIPTA | غير مسجل | غير مسجل |
-| ANORO ELLIPTA inhalation powder, pre-dispensed | ANORO ELLIPTA inhalation powder, pre-dispensed | غير مسجل | غير مسجل |
-| ANORO ELLIPTA | ANORO ELLIPTA | غير مسجل | غير مسجل |
-| TRELEGY ELLIPTA 100/62.5/25MCG Inhalation powder, pre-dispensed | TRELEGY ELLIPTA 100/62.5/25MCG Inhalation powder, pre-dispensed | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RELVAR ELLIPTA 200/25 mcg inhalation powder | FLUTICASONE FUROATE,VILANTEROL | GLAXO OPERATION | ساري |
+| RELVAR ELLIPTA | FLUTICASONE FUROATE,VILANTEROL | GLAXO OPERATION | ساري |
+| ANORO ELLIPTA inhalation powder, pre-dispensed | UMECLIDINIUM BROMIDE, VILANTEROL | GLAXO OPERATION | ساري |
+| ANORO ELLIPTA | UMECLIDINIUM BROMIDE,VILANTEROL | GLAXO OPERATION | ساري |
+| TRELEGY ELLIPTA 100/62.5/25MCG Inhalation powder, pre-dispensed | FLUTICASONE FUROATE,UMECLIDINIUM BROMIDE,VILANTEROL | Glaxo Operations UK Ltd | ساري |
+
+<!-- licenses:end -->
 
 جميع هذه المنتجات مركّبة (تحتوي على مواد فعالة أخرى مع فيلانتيرول)، ولا تصف وضع الاعتماد للمادة الفعالة المفردة.
 

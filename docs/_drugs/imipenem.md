@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Imipenem: الاستطباب الجديد المتوقع تصلب الجلد المنتشر (Diffuse Scleroderma) (مستوى الدليل L5). الاستطباب الأصلي: الالتهاب الرئوي البكتيري، التهاب الصفاق، الالتهاب الرئوي العقدي، الته…"
 monitor_inn: "imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
@@ -80,21 +80,27 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 
 ## معلومات السوق في المملكة العربية السعودية
 
-يوجد 8 تراخيص لمستحضرات الإيميبينيم. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة. فيما يلي أبرز 5 تراخيص:
+توجد تراخيص سارية لمستحضرات الإيميبينيم (عددها في جدول النظرة السريعة). نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة. فيما يلي أبرز 5 تراخيص:
 
 <!-- review:begin sa-lic-20261106-imipenem-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «يوجد 8 تراخيص لمستحضرات الإيميبينيم، وجميعها بحالة **ملغاة**، ولا يوجد أي ترخيص ساري.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «يوجد 8 تراخيص لمستحضرات الإيميبينيم، وجميعها بحالة **ملغاة**، ولا يوجد أي ترخيص ساري.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-imipenem-1 -->
 
-| اسم المستحضر | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| IMIPENEM-CILASTATIN LABATEC 500/500 VIAL | ACS DOBFAR S.P.A | ساري |
-| ZAYNAM powder for solution for infusion | DEMO S.A | ساري |
-| IVNEM | ACS DOBFAR SPA | ساري |
-| LASTINEM 500 mg powder for solution for infusion | VENUS REMEDIES LIMITED | ساري |
-| TIENAM 500 MG VIAL I.V. | MERCK SHARP AND DOHME LLC | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| IMIPENEM-CILASTATIN LABATEC 500/500 VIAL | CILASTATIN,IMIPENEM | ACS DOBFAR S.P.A | ساري |
+| ZAYNAM powder for solution for infusion | CILASTATIN,IMIPENEM | DEMO S.A | ساري |
+| IVNEM | CILASTATIN,IMIPENEM | ACS DOBFAR SPA | ساري |
+| LASTINEM 500 mg powder for solution for infusion | CILASTATIN,IMIPENEM | VENUS REMEDIES LIMITED | ساري |
+| TIENAM 500 MG VIAL I.V. | IMIPENEM,CILASTATIN | MERCK SHARP AND DOHME LLC | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -133,7 +139,7 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وجميعها بحالة **ملغاة**، ولا يوجد أي ترخيص ساري» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وجميعها بحالة **ملغاة**، ولا يوجد أي ترخيص ساري» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
 
 <!-- review:end log -->

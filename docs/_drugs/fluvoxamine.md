@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["histrionic personality disorder (disease)", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Fluvoxamine: الاستطباب الجديد المتوقع اضطراب الشخصية الهستيرية (histrionic personality disorder (disease)) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -80,10 +80,14 @@ description: "Fluvoxamine: الاستطباب الجديد المتوقع اضط
 
 حالة السوق: مسوّق، وجميع التراخيص المسجلة سارية.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|------|
-| FAVERIN 100MG EC TABS | FAVERIN 100MG EC TABS | Mylan Laboratories SAS | ساري |
-| FAVERIN 50MG EC TABS | FAVERIN 50MG EC TABS | Mylan Laboratories SAS | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FAVERIN 100MG EC TABS | FLUVOXAMINE MALEATE | Mylan Laboratories SAS | ساري |
+| FAVERIN 50MG EC TABS | FLUVOXAMINE MALEATE | Mylan Laboratories SAS | ساري |
+
+<!-- licenses:end -->
 
 ---
 

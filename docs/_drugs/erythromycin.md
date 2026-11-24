@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ERYTHROMYCIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
 description: "Erythromycin: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (punctate epithelial keratoconjunctivitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -74,13 +74,20 @@ description: "Erythromycin: الاستطباب الجديد المتوقع ال�
 
 تتوفر قائمة جزئية بالتراخيص المسجلة محلياً (20 ترخيصاً على الأقل، وقد تكون القائمة غير كاملة):
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ERYTHROCIN GRANULES 200MG-5ML | ERYTHROCIN GRANULES 200MG-5ML | Abbott Laboratories | غير متوفر |
-| ERYTHROMIL 250MG TAB | ERYTHROMIL 250MG TAB | APM | غير متوفر |
-| EROMYCIN 250MG TABLET | EROMYCIN 250MG TABLET | Gulf Pharmaceutical Industries (Julphar) | غير متوفر |
-| ERYTHROCIN I.V. 1G VIAL | ERYTHROCIN I.V. 1G VIAL | Abbott Laboratories | غير متوفر |
-| OFTALMOLOSA 0.5% | OFTALMOLOSA 0.5% | Siegfried EI Masnou, S.A | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ERYTHROCIN GRANULES 200MG-5ML | ERYTHROMYCIN | Abbott Laboratories | ساري |
+| ERYTHROMIL 250MG TAB | ERYTHROMYCIN | APM | ساري |
+| EROMYCIN 250MG TABLET | ERYTHROMYCIN | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| ERYTHROCIN I.V. 1G VIAL | ERYTHROMYCIN | Abbott Laboratories | ساري |
+| OFTALMOLOSA 0.5% | ERYTHROMYCIN | Siegfried EI Masnou, S.A | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

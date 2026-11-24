@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lidocaine: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (مستوى الدليل L5). الاستطباب الأصلي: علاقات مسجلة في قاعدة المعرفة: التهاب الجلد، الألم العصبي، الألم العص…"
 ---
 
@@ -80,13 +80,20 @@ description: "Lidocaine: الاستطباب الجديد المتوقع الته
 
 عدد التراخيص المسجلة ما لا يقل عن 19 (جميعها لمنتجات أحادية المكوّن وسارية)، وقد تكون القائمة جزئية. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمّعة.
 
-| اسم الترخيص / المنتج | الشركة المصنعة |
-|---------|------|
-| Lidocaine Hydrochloride 1% solution for injection | شركة تبوك للصناعات الدوائية |
-| 1% W-V Lidocaine HCl Injection USP | Pharmaceutical Solution Industries (PSI) |
-| Lidocaine HCl Emergency Syringe 2% | Hospira |
-| Xylocaine Spray 10% | AstraZeneca |
-| Xylocaine 2% Jelly | AstraZeneca |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LIDOCAINE HYDROCHLORIDE 1% solution for injection | LIDOCAINE HYDROCHLORIDE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| 1% W-V LIDOCAINE HCL INJECTION USP | LIDOCAINE HYDROCHLORIDE | Pharmaceutical Solution Industries (PSI) | ساري |
+| LIDOCAINE HCL EMERGENCY SYRINGE 2% | LIDOCAINE HYDROCHLORIDE | HOSPIRA | ساري |
+| XYLOCAINE SPRAY 10 % | LIDOCAINE HYDROCHLORIDE | AstraZeneca | ساري |
+| XYLOCAINE 2% JELLY | LIDOCAINE HYDROCHLORIDE | AstraZeneca | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

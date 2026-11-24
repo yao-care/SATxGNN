@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LETROZOLE"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Letrozole: الاستطباب الجديد المتوقع سرطان الحلمة (nipple carcinoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
@@ -79,13 +79,19 @@ description: "Letrozole: الاستطباب الجديد المتوقع سرطا
 
 حالة السوق: مسوّق، ويوجد 12 ترخيصاً صالحاً.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LOXOPREL 2.5 mg film-coated tablet | LOXOPREL 2.5 mg film-coated tablet | غير مسجل | غير مسجل في البيانات المحلية |
-| MARLET 2.5 MG F.C. TABLET | MARLET 2.5 MG F.C. TABLET | غير مسجل | غير مسجل في البيانات المحلية |
-| LEFFTARA 2.5 mg film-coated tablet | LEFFTARA 2.5 mg film-coated tablet | غير مسجل | غير مسجل في البيانات المحلية |
-| FEMAPLEX 2.5 mg film-coated tablet | FEMAPLEX 2.5 mg film-coated tablet | غير مسجل | غير مسجل في البيانات المحلية |
-| FEMARA 2.5 MG TABLET | FEMARA 2.5 MG TABLET | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LOXOPREL 2.5 mg film-coated tablet | LETROZOLE | S.C. SINDAN-PHARMA S.R.L | ساري |
+| MARLET 2.5 MG F.C. TABLET | LETROZOLE | Haupt Pharma Münster GmbH | ساري |
+| LEFFTARA 2.5 mg film-coated tablet | LETROZOLE | The Arab Pharmaceutical Manufacturing PSC Sult | ساري |
+| FEMAPLEX 2.5 mg film-coated tablet | LETROZOLE | GENEPHARM S.A. | ساري |
+| FEMARA 2.5 MG TABLET | LETROZOLE | NOVARTIS FARMA S.P.A | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## السمّية الخلوية
 

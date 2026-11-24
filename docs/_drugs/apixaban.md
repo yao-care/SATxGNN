@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 66
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "APIXABAN"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
@@ -76,15 +76,19 @@ description: "Apixaban: الاستطباب الجديد المتوقع الصد�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| ELIQUIS 5MG FILM COATED TABLET | ELIQUIS 5MG | Pfizer Manufacturing Deutschland GmbH | ساري |
-| ELIQUIS 2.5MG FILM COATED TABLET | ELIQUIS 2.5MG | Pfizer Manufacturing Deutschland GmbH | ساري |
-| PAQUIX 5 MG FILM COATED TABLET | PAQUIX 5 MG | United Pharmaceutical Company | ساري |
-| Pexapan | Pexapan | Jamjoom Pharmaceuticals Company | ساري |
-| Xcard | Xcard | Hetero Labs Limited Unit – V | ساري |
+<!-- licenses:begin -->
 
-الأدوية المذكورة هي 5 من أصل 12 ترخيصاً صالحاً.
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ELIQUIS 5MG FILM COATED TABLET | APIXABAN | Pfizer Manufacturing Deutschland GmbH | ساري |
+| ELIQUIS 2.5MG FILM COATED TABLET | APIXABAN | Pfizer Manufacturing Deutschland GmbH | ساري |
+| PAQUIX 5 MG FILM COATED TABLET | APIXABAN | UNITED PHARMACEUTICAL COMPANY | ساري |
+| Pexapan | APIXABAN | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| Xcard | APIXABAN | Hetero Labs Limited Unit – V | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

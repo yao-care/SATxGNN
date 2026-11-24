@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "BUTENAFINE"
 predicted_indications: ["endothrix infectious disease", "ectothrix infectious disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Butenafine: الاستطباب الجديد المتوقع مرض العدوى داخل الشعرة (endothrix infectious disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
 ---
 
@@ -72,13 +72,17 @@ description: "Butenafine: الاستطباب الجديد المتوقع مرض 
 
 حسب البيانات المحلية، يتوفر للدواء 5 تراخيص لمنتجات أحادية المكوّن، وهي:
 
-| المنتج | الشكل الصيدلاني | الشركة المصنعة |
-|------|------|------|
-| DERFINA 1% SPRAY | غير مسجل | Jazeera Pharmaceutical Industries (JPI) |
-| BUTAFYL 1% W/V SPRAY | غير مسجل | Middle East Pharmaceutical Industries Co. Ltd. (MECP) |
-| DERFINA 1% LOTION | غير مسجل | Jazeera Pharmaceutical Industries (JPI) |
-| DERFINA 1% CREAM | غير مسجل | Jazeera Pharmaceutical Industries (JPI) |
-| BUTAFYL 1% cream | غير مسجل | Middle East Pharmaceutical Industries Co. Ltd. (MECP) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DERFINA 1% SPRAY | BUTENAFINE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| BUTAFYL 1% W/V SPRAY | BUTENAFINE | Middle East Pharmaceutical Industries Co. Ltd. (MECP) | ساري |
+| DERFINA 1% LOTION | BUTENAFINE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| DERFINA 1% CREAM | BUTENAFINE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| BUTAFYL 1% cream | BUTENAFINE | Middle East Pharmaceutical Industries Co. Ltd. (MECP) | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

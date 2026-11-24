@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CEFPODOXIME"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefpodoxime: الاستطباب الجديد المتوقع التهاب المفاصل العظمي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نصوص الاستطباب فارغة)"
 ---
 
@@ -81,14 +81,18 @@ description: "Cefpodoxime: الاستطباب الجديد المتوقع الت
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CEFODOX 200 MG FILM COATED TABLETS | CEFODOX 200 MG FILM COATED TABLETS | Pharma International Co. | غير مذكور في البيانات |
-| Cefodox | Cefodox | Pharma International Co. | غير مذكور في البيانات |
-| ORELOX 100MG TABLETS | ORELOX 100MG TABLETS | SANOFI WINTHROP INDUSTRIE | غير مذكور في البيانات |
-| EMDOX 200 mg Film-coated Tablets | EMDOX 200 mg Film-coated Tablets | Pharma International Co. | غير مذكور في البيانات |
-| EMDOX 100 mg/5 ml DS | EMDOX 100 mg/5 ml DS | Pharma International Co. | غير مذكور في البيانات |
-| CEFODOX 100MG-5ML SUSPENSION | CEFODOX 100MG-5ML SUSPENSION | Pharma International Co. | غير مذكور في البيانات |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CEFODOX 200 MG FILM COATED TABLETS | CEFPODOXIME | Pharma International Co. | ساري |
+| Cefodox | CEFPODOXIME | Pharma International Co. | ساري |
+| ORELOX 100MG TABLETS | CEFPODOXIME | SANOFI WINTHROP INDUSTRIE | ساري |
+| EMDOX 200 mg Film-coated Tablets | CEFPODOXIME | Pharma International Co. | ساري |
+| EMDOX 100 mg/5 ml DS | CEFPODOXIME | Pharma International Co. | ساري |
+| CEFODOX 100MG-5ML SUSPENSION | CEFPODOXIME | Pharma International Co. | ساري |
+
+<!-- licenses:end -->
 
 ---
 

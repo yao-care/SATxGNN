@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "ACETYLSALICYLIC ACID"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetylsalicylic Acid: الاستطباب الجديد المتوقع ضمور الجلد الدودي (atrophoderma vermiculata) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
@@ -67,6 +67,20 @@ description: "Acetylsalicylic Acid: الاستطباب الجديد المتوق
 لا توجد حالياً منشورات ذات صلة.
 
 ## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ASPICARD 81MG TAB | ACETYLSALICYLIC ACID | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| ASPICOT 100 MG E.C. TABLETS | ACETYLSALICYLIC ACID | PHARMALINE | ساري |
+| ASPIRIN ADULT TAB 300MG | ACETYLSALICYLIC ACID | Bayer Bitterfeld GmbH | ساري |
+| ASPIRIN PROTECT 100MG E.C. TABLETS | ACETYLSALICYLIC ACID | Bayer Bitterfeld GmbH | ساري |
+| AZERA 100 mg enteric-coated tablet | ACETYLSALICYLIC ACID | UNITED PHARMACEUTICAL COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 الدواء مسوّق في السعودية، وجميع التراخيص المسجلة له (7 تراخيص لمنتجات أحادية المادة الفعالة) سارية بحسب البيانات المحلية. لا يتوفر في البيانات المحلية نص استطباب معتمد لهذه التراخيص.
 

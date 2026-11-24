@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Flucloxacillin: الاستطباب الجديد المتوقع التهاب الملتحمة (conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نص الاستطباب فارغ في جميع التراخيص)"
 monitor_inn: "FLUCLOXACILLIN"
 predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
@@ -82,13 +82,17 @@ predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Pr
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| FLOXAPEN 500MG CAPS | FLOXAPEN 500MG CAPS | غير محدد | غير محدد (ساري) |
-| FLOXAPEN 250MG-5ML POWD.FOR SUSP | FLOXAPEN 250MG-5ML POWD.FOR SUSP | غير محدد | غير محدد (ساري) |
-| FLOXAPEN CAPS 250MG | FLOXAPEN CAPS 250MG | غير محدد | غير محدد (ساري) |
-| FLOXAPEN SYP 125MG-5ML | FLOXAPEN SYP 125MG-5ML | غير محدد | غير محدد (ساري) |
-| FLOXAPEN VIAL 250MG | FLOXAPEN VIAL 250MG | غير محدد | غير محدد (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FLOXAPEN 500MG CAPS | FLUCLOXACILLIN | SMIITHKLINE BEECHAM | ساري |
+| FLOXAPEN 250MG-5ML POWD.FOR SUSP | FLUCLOXACILLIN | SMIITHKLINE BEECHAM | ساري |
+| FLOXAPEN CAPS 250MG | FLUCLOXACILLIN | SMIITHKLINE BEECHAM | ساري |
+| FLOXAPEN SYP 125MG-5ML | FLUCLOXACILLIN | SMIITHKLINE BEECHAM | ساري |
+| FLOXAPEN VIAL 250MG | FLUCLOXACILLIN | SMIITHKLINE BEECHAM | ساري |
+
+<!-- licenses:end -->
 
 الجهة المصنعة لجميع التراخيص: SmithKline Beecham. جميع التراخيص الخمسة سارية.
 
@@ -112,7 +116,7 @@ predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Pr
 
 <!-- review:begin sa-lic-20261106-flucloxacillin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كما أن السوق السعودي لا يضم حالياً أي ترخيص ساري، والدرجة العالية لـ TxGNN لا تكفي وحدها.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كما أن السوق السعودي لا يضم حالياً أي ترخيص ساري، والدرجة العالية لـ TxGNN لا تكفي وحدها.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-flucloxacillin-1 -->
 
@@ -123,7 +127,7 @@ predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Pr
 
 <!-- review:begin sa-lic-20261106-flucloxacillin-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إجراء مراجعة منهجية للأدبيات حول الفلوكلوكساسيلين في التهابات العين الجرثومية العنقودية، وتقييم الحاجة لتركيبة موضعية عينية ومدى توافق المسار الدوائي. / التحقق من وضع الترخيص (جميعها ملغاة) وجدوى إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إجراء مراجعة منهجية للأدبيات حول الفلوكلوكساسيلين في التهابات العين الجرثومية العنقودية، وتقييم الحاجة لتركيبة موضعية عينية ومدى توافق المسار الدوائي. / التحقق من وضع الترخيص (جميعها ملغاة) وجدوى إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-flucloxacillin-2 -->
 
@@ -137,8 +141,8 @@ predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Pr
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن السوق السعودي لا يضم حالياً أي ترخيص ساري، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «التحقق من وضع الترخيص (جميعها ملغاة) وجدوى إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن السوق السعودي لا يضم حالياً أي ترخيص ساري، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «التحقق من وضع الترخيص (جميعها ملغاة) وجدوى إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

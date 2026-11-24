@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 561
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Milrinone: الاستطباب الجديد المتوقع الثعلبة (alopecia) (مستوى الدليل L5). الاستطباب الأصلي: قصور القلب الاحتقاني (بحسب البيانات الدوائية، إذ لا يتضمن سجل الترخيص…"
 monitor_inn: "MILRINONE"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "headache disorder", "migraine disorder", "migraine with brainstem aura", "trigeminal autonomic cephalalgia", "acute pulmonary heart disease"]
@@ -83,9 +83,13 @@ predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "conge
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Milrinone BOS | Milrinone BOS (الشركة المصنّعة: Gland Pharma Limited) | غير متوفر | غير متوفر (حالة الترخيص: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Milrinone BOS | MILRINONE | Gland Pharma Limited | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -108,7 +112,7 @@ predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "conge
 
 <!-- review:begin sa-lic-20261106-milrinone-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «ملف سلامة الدواء الجهازي (انخفاض الضغط واضطراب النظم) لا يتناسب مع استطباب تجميلي أو جلدي غير مهدد للحياة. / الترخيص المحلي الوحيد ملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «ملف سلامة الدواء الجهازي (انخفاض الضغط واضطراب النظم) لا يتناسب مع استطباب تجميلي أو جلدي غير مهدد للحياة. / الترخيص المحلي الوحيد ملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-milrinone-1 -->
 
@@ -126,7 +130,7 @@ predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "conge
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «الترخيص المحلي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «الترخيص المحلي الوحيد ملغى» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

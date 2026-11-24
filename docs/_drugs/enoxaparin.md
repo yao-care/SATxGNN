@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin: الاستطباب الجديد المتوقع فرط التخثر الناتج عن نقص البروتين C (وراثي جسمي متنحٍّ) (مستوى الدليل L5). الاستطباب الأصلي: الانصمام الرئوي، التخثر المنتشر داخل الأوعية، فرفرية البرق، فرفرية ال"
@@ -84,13 +84,19 @@ description: "Enoxaparin: الاستطباب الجديد المتوقع فرط 
 
 جميع التراخيص الـ15 سارية، والدواء مسوَّق. نص المؤشرات المعتمدة وشكل الجرعة غير متوفرين في البيانات. أبرز التراخيص:
 
-| رقم/اسم الترخيص | اسم المنتج | الجهة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| CLEXANE 40MG\0.4ML PREFILLED SYRINGE | CLEXANE 40MG\0.4ML | sanofi-aventis | ساري |
-| CLEXANE 80MG\0.8ML PREFILLED SYRINGE | CLEXANE 80MG\0.8ML | sanofi-aventis | ساري |
-| Inhixa | Inhixa | Shenzhen Techdow Pharmaceutical | ساري |
-| FARINOX 40MG/0.4ML SOLUTION FOR INJECTION | FARINOX 40MG/0.4ML | MS Pharma | ساري |
-| ENDOSA 4000IU PRE-FILLED SYRINGE | ENDOSA 4000IU | SPIMACO ADDWAEIH | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CLEXANE 40MG\0.4ML PREFILLED SYRINGE | ENOXAPARIN SODIUM | sanofi-aventis | ساري |
+| CLEXANE 80MG\0.8ML PREFILLED SYRINGE | ENOXAPARIN SODIUM | sanofi-aventis | ساري |
+| Inhixa | ENOXAPARIN SODIUM | Shenzhen Techdow Pharmaceutical Co Ltd | ساري |
+| FARINOX 40MG/0.4ML SOLUTION FOR INJECTION | ENOXAPARIN SODIUM | MS Pharma | ساري |
+| ENDOSA 4000IU PRE-FILLED SYRINGE | ENOXAPARIN SODIUM | SPIMACO ADDWAEIH | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 15 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

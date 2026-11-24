@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 monitor_inn: "PAROMOMYCIN"
 predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatoportal sclerosis", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
 description: "Paromomycin: الاستطباب الجديد المتوقع Idiopathic copper-associated cirrhosis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -82,10 +82,14 @@ description: "Paromomycin: الاستطباب الجديد المتوقع Idiopa
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| GABBRORAL SYRUP | GABBRORAL SYRUP (فايزر، ساري) | غير محدد | غير محدد |
-| GABBRORAL TAB 250MG | GABBRORAL TAB 250MG (فايزر، ساري) | غير محدد | غير محدد |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| GABBRORAL SYRUP | PAROMOMYCIN | PFIZER | ساري |
+| GABBRORAL TAB 250MG | PAROMOMYCIN | PFIZER | ساري |
+
+<!-- licenses:end -->
 
 ---
 

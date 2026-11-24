@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 571
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Moxifloxacin: الاستطباب الجديد المتوقع فرط أميلاز الدم (Hyperamylasemia) (مستوى الدليل L5). الاستطباب الأصلي: العدوى العقدية، الالتهاب الرئوي البكتيري، التهاب الصفاق، العدوى بالمك…"
 monitor_inn: "Moxifloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
@@ -81,13 +81,19 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 جميع التراخيص الـ19 سارية المفعول (19 ترخيصًا صالحًا من أصل 19). وفيما يلي أبرز خمسة منها (حقول الشكل الصيدلاني ونص الاستطباب غير متوفرة في البيانات):
 
-| رقم الترخيص / المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| AVALOX 400MG TAB | BAYER AG | ساري |
-| AVALOX 400MG SOLUTION FOR I.V. INFUSION | BAYER AG | ساري |
-| VIGAMOX 0.5% OPHTHALMIC SOLUTION | ALCON COUVREUR | ساري |
-| AROX 0.5% EYE DROPS | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
-| MAXIM 400MG FILM COATED TABLETS | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AVALOX 400MG TAB | MOXIFLOXACIN HYDROCHLORIDE | BAYER AG | ساري |
+| AVALOX 400MG SOLUTION FOR I.V. INFUSION | MOXIFLOXACIN HYDROCHLORIDE | BAYER AG | ساري |
+| VIGAMOX 0.5% OPHTHALMIC SOLUTION | MOXIFLOXACIN HYDROCHLORIDE | ALCON COUVREUR | ساري |
+| AROX 0.5% EYE DROPS | MOXIFLOXACIN HYDROCHLORIDE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| MAXIM 400MG FILM COATED TABLETS | MOXIFLOXACIN HYDROCHLORIDE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

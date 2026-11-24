@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 517
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"
@@ -86,13 +86,19 @@ description: "Losartan: الاستطباب الجديد المتوقع Malignant
 
 أبرز التراخيص:
 
-| رقم الترخيص / الاسم | اسم المنتج | شكل الجرعة | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| COZAAR | COZAAR (Organon) | غير متوفر | غير متوفر |
-| COZAAR 100 mg | COZAAR 100 mg film-coated tablet (Organon) | أقراص مغلفة | غير متوفر |
-| LOSANET 50 mg | LOSANET 50 mg Tablet (Pharmaline) | أقراص | غير متوفر |
-| AZAR 50 mg | AZAR 50 mg film-coated tablet (SPIMACO) | أقراص مغلفة | غير متوفر |
-| SARTAN 50 mg | SARTAN 50 mg Film coated Tablets (Global Pharma) | أقراص مغلفة | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| COZAAR | LOSARTAN POTASSIUM | Organon Pharma (UK) Limited | ساري |
+| LOSANET 50 mg Tablet | LOSARTAN POTASSIUM | PHARMALINE | ساري |
+| AZAR 50 mg film-coated tablet | LOSARTAN POTASSIUM | SPIMACO | ساري |
+| SARTAN 50 mg Film coated Tablets | LOSARTAN POTASSIUM | GLOBAL PHARMA | ساري |
+| AZAR 100 mg film-coated tablet | LOSARTAN POTASSIUM | SPIMACO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 15 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -124,7 +130,7 @@ description: "Losartan: الاستطباب الجديد المتوقع Malignant
 
 <!-- review:begin sa-lic-20261106-losartan-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي في السعودية (تراخيص ملغاة) قبل أي مسار تطوير محلي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 15، منها سارية: 15؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي في السعودية (تراخيص ملغاة) قبل أي مسار تطوير محلي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-losartan-1 -->
 
@@ -142,7 +148,7 @@ description: "Losartan: الاستطباب الجديد المتوقع Malignant
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «(تراخيص ملغاة)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «(تراخيص ملغاة)» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41) |
 
 <!-- review:end log -->

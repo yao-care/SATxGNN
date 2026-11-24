@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ANASTROZOLE"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Anastrozole: الاستطباب الجديد المتوقع الورم الأرومي العصبي (neuroblastoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
 ---
 
@@ -67,6 +67,20 @@ description: "Anastrozole: الاستطباب الجديد المتوقع الو
 لا توجد حالياً أدبيات ذات صلة.
 
 ## معلومات السوق في المملكة العربية السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ANADEX 1MG F.C.TABLET | ANASTROZOLE | GENEPHARM S.A. | ساري |
+| ANASTRALEX 1 MG FILM COATED TABLET | ANASTROZOLE | Apotex Inc. (Garyray) | ساري |
+| ANASTROZOLE 1MG F.C.TABLET | ANASTROZOLE | LABORATORIOS CINFA SA | ساري |
+| ARIMIDEX 1MG TAB | ANASTROZOLE | AstraZeneca | ساري |
+| DP-ANASTROZOLE 1 mg tablet | ANASTROZOLE | DOUGLAS MANUFACTURING Ltd | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 حالة الدواء في السوق السعودية: **مسوَّق**. تُعرض تفاصيل التراخيص والمنتجات في جدول التراخيص الذي ينشئه الموقع.
 

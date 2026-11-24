@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "Fenticonazole"
 predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvitis", "herpetic vulvovaginitis"]
 description: "Fenticonazole: الاستطباب الجديد المتوقع التهاب المهبل والفرج التريكوموناسي (trichomonal vulvovaginitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -73,13 +73,17 @@ description: "Fenticonazole: الاستطباب الجديد المتوقع ال
 
 حالة السوق: مسوَّق، وجميع التراخيص الخمسة سارية.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الدلالة المعتمدة |
-|---------|------|------|-----------|
-| DERMA-LOMEXIN (LOMEXIN) 2% CREAM | DERMA-LOMEXIN 2% كريم | غير متوفر | غير متوفرة (ساري) |
-| DERMA - LOMEXIN (LOMEXIN) 2% SPRAY | DERMA-LOMEXIN 2% بخاخ | غير متوفر | غير متوفرة (ساري) |
-| GYNO-LOMEXIN 2% vaginal cream | GYNO-LOMEXIN 2% كريم مهبلي | كريم مهبلي | غير متوفرة (ساري) |
-| GYNO-LOMEXIN 200 mg vaginal capsule | GYNO-LOMEXIN 200 ملغ | كبسولة مهبلية | غير متوفرة (ساري) |
-| GYNO-LOMEXIN 600 mg vaginal capsule | GYNO-LOMEXIN 600 ملغ | كبسولة مهبلية | غير متوفرة (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DERMA-LOMEXIN (LOMEXIN) 2% CREAM | FENTICONAZOLE NITRATE | RECORDATI | ساري |
+| DERMA - LOMEXIN (LOMEXIN) 2% SPRAY | FENTICONAZOLE NITRATE | RECORDATI | ساري |
+| GYNO-LOMEXIN 2% vaginal cream | FENTICONAZOLE NITRATE | RECORDATI | ساري |
+| GYNO-LOMEXIN 200 mg vaginal capsule | FENTICONAZOLE NITRATE | RECORDATI | ساري |
+| GYNO-LOMEXIN 600 mg vaginal capsule | FENTICONAZOLE NITRATE | RECORDATI | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنّعة لجميع المنتجات: RECORDATI.
 

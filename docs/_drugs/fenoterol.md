@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenoterol: الاستطباب الجديد المتوقع ضمور المنظومات المتعددة (Multiple System Atrophy) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص؛ المرجع الدوائي يشير إلى استخدامه موسّعًا…"
 monitor_inn: "FENOTEROL"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
@@ -80,9 +80,13 @@ predicted_indications: ["multiple system atrophy", "postural orthostatic tachyca
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| BEROTEC SPRAY 0.2MG-DOSE | BEROTEC SPRAY 0.2MG-DOSE (Boehringer Ingelheim) | غير محدد (بخاخ بحسب الاسم) | غير متوفر — الترخيص ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BEROTEC SPRAY 0.2MG-DOSE | FENOTEROL | BOEHRINGER INGELHEIM | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -111,7 +115,7 @@ predicted_indications: ["multiple system atrophy", "postural orthostatic tachyca
 
 <!-- review:begin sa-lic-20261106-fenoterol-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الاستطباب الأصلي وحالة الترخيص (ملغى) وأسباب الإلغاء. / إجراء مراجعة منهجية للأدبيات وأدلة ما قبل السريرية تدعم أي علاقة بيولوجية فعلية بالمرض.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الاستطباب الأصلي وحالة الترخيص (ملغى) وأسباب الإلغاء. / إجراء مراجعة منهجية للأدبيات وأدلة ما قبل السريرية تدعم أي علاقة بيولوجية فعلية بالمرض.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-fenoterol-1 -->
 
@@ -123,7 +127,7 @@ predicted_indications: ["multiple system atrophy", "postural orthostatic tachyca
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح الاستطباب الأصلي وحالة الترخيص (ملغى) وأسباب الإلغاء» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح الاستطباب الأصلي وحالة الترخيص (ملغى) وأسباب الإلغاء» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800) |
 
 <!-- review:end log -->

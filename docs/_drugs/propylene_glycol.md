@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 694
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Propylene Glycol: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (مستوى الدليل L5). الاستطباب الأصلي: متلازمة جفاف العين، جفاف الملتحمة والقرنية (xerophthalmia)"
 monitor_inn: "propylene glycol"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "immature cataract", "mature cataract", "tetanic cataract"]
@@ -86,10 +86,14 @@ predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopa
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| SYSTANE ULTRA UD LUBRICANT EYE DROPS | SYSTANE ULTRA UD LUBRICANT EYE DROPS | غير مذكور | غير مذكور (الترخيص ساري) |
-| SYSTANE LUBRICANT EYE DROPS | SYSTANE LUBRICANT EYE DROPS | غير مذكور | غير مذكور (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SYSTANE ULTRA UD LUBRICANT EYE DROPS | POLYETHYLENE GLYCOL,PROPYLENE GLYCOL | ALCON LABORATORIES | ساري |
+| SYSTANE LUBRICANT EYE DROPS | POLYETHYLENE GLYCOL,PROPYLENE GLYCOL | ALCON LABORATORIES | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنّعة لكلا المنتجين: ALCON LABORATORIES.
 

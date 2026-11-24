@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adalimumab: الاستطباب الجديد المتوقع فرط حركة العصعص (hypermobility of coccyx) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
 ---
 
@@ -68,13 +68,19 @@ description: "Adalimumab: الاستطباب الجديد المتوقع فرط 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Abrilada | Abrilada | غير مسجل | غير مسجل |
-| SIMLANDI 40MG/0.4ML SOLUTION FOR INJECTION PFS | SIMLANDI 40MG/0.4ML | غير مسجل | غير مسجل |
-| Hyrimoz | Hyrimoz | غير مسجل | غير مسجل |
-| Idacio | Idacio | غير مسجل | غير مسجل |
-| HADLIMA 40MG/0.8ML INJECTION IN PFP | HADLIMA 40MG/0.8ML | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Abrilada | ADALIMUMAB | CATALENT | ساري |
+| SIMLANDI 40MG/0.4ML SOLUTION FOR INJECTION PFS | ADALIMUMAB | Alvotech hf | ساري |
+| Hyrimoz | ADALIMUMAB | SANDOZ | ساري |
+| Idacio | ADALIMUMAB | MERCK SERONO SPA | ساري |
+| HADLIMA 40MG/0.8ML INJECTION IN PFP | ADALIMUMAB | Catalent Belgium SA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 10 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 الاستطباب المعتمد غير مسجل في البيانات المحلية. القائمة أعلاه تعرض خمسة من عشرة تراخيص.
 

@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 831
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Trastuzumab Emtansine: الاستخدامات المعروفة وحالة التسويق في السعودية؛ لا يوجد حالياً مؤشر جديد مرشح"
 predicted_indications: []
 ---
@@ -75,10 +75,14 @@ predicted_indications: []
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| KADCYLA 160 mg powder for concentrate for solution for infusion | KADCYLA 160 mg powder for concentrate for solution for infus |  | ساري |
-| KADCYLA 100 mg powder for concentrate for solution for infusion | KADCYLA 100 mg powder for concentrate for solution for infus |  | ساري |
+| KADCYLA 160 mg powder for concentrate for solution for infusion | TRASTUZUMAB EMTANSINE | Patheon Manufacturing Services LLC | ساري |
+| KADCYLA 100 mg powder for concentrate for solution for infusion | TRASTUZUMAB EMTANSINE | Patheon Manufacturing Services LLC | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

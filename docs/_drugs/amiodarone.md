@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AMIODARONE"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amiodarone: الاستطباب الجديد المتوقع تسرع القلب البطيني متعدد الأشكال الحساس للكاتيكولامين (catecholaminergic polymorphic ventricular tachycardia) (مستوى الدليل L5)."
 ---
 
@@ -79,13 +79,17 @@ description: "Amiodarone: الاستطباب الجديد المتوقع تسر�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| SEDACORON 200MG TAB | SEDACORON 200MG TAB | غير مسجّل | غير مسجّل |
-| CORDARONE 150MG-3ML AMP. | CORDARONE 150MG-3ML AMP. | غير مسجّل | غير مسجّل |
-| AMIRONE 200MG TABLET | AMIRONE 200MG TABLET | غير مسجّل | غير مسجّل |
-| SEDACORON solution for injection | SEDACORON solution for injection | غير مسجّل | غير مسجّل |
-| CORDARONE 200MG TAB | CORDARONE 200MG TAB | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SEDACORON 200MG TAB | AMIODARONE | HAUPT PHARMA AMAREG GmbH | ساري |
+| CORDARONE 150MG-3ML AMP. | AMIODARONE | sanofi-aventis | ساري |
+| AMIRONE 200MG TABLET | AMIODARONE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| SEDACORON solution for injection | AMIODARONE | Fareva Unterach GmbH | ساري |
+| CORDARONE 200MG TAB | AMIODARONE | SANOFI WINTHROP INDUSTRIE | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الخمسة سارية، ولا يتوفر نص استطباب معتمد في السجلات المحلية.
 

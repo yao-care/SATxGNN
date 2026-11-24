@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 205
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clonazepam: الاستطباب الجديد المتوقع متلازمة تململ الساقين (مستوى الدليل L3). الاستطباب الأصلي: الصرع (صرع الغياب، متلازمة لينوكس-غاستو، اعتلال الدماغ العضلي الرمعي…"
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
@@ -93,12 +93,16 @@ predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigemi
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| RIVOTRIL TAB 2 MG | RIVOTRIL TAB 2 MG (روش) | غير محدد | غير متوفر (ترخيص ساري) |
-| RIVOTRIL AMP 1MG+SOLV 1ML | RIVOTRIL AMP 1MG+SOLV 1ML (روش) | غير محدد | غير متوفر (ترخيص ساري) |
-| RIVOTRIL TAB 0.5MG | RIVOTRIL TAB 0.5MG (روش) | غير محدد | غير متوفر (ترخيص ساري) |
-| RIVOTRIL 2.5MG-ML ORAL SOLUTION | RIVOTRIL 2.5MG-ML ORAL SOLUTION (ديلفارم ميلانو) | غير محدد | غير متوفر (ترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RIVOTRIL TAB 2 MG | CLONAZEPAM | ROCHE | ساري |
+| RIVOTRIL AMP 1MG+SOLV 1ML | CLONAZEPAM | ROCHE | ساري |
+| RIVOTRIL TAB 0.5MG | CLONAZEPAM | ROCHE | ساري |
+| RIVOTRIL 2.5MG-ML ORAL SOLUTION | CLONAZEPAM | Delpharm Milano S.r.l | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -128,7 +132,7 @@ predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigemi
 
 <!-- review:begin sa-lic-20261106-clonazepam-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح أسباب إلغاء التراخيص وإمكانية توفر الدواء في السوق المحلي. / تقييم أمان خاص بالفئات المعرّضة (كبار السن، أمراض الكبد والكلى، الاستخدام المصاحب للأفيونات).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح أسباب إلغاء التراخيص وإمكانية توفر الدواء في السوق المحلي. / تقييم أمان خاص بالفئات المعرّضة (كبار السن، أمراض الكبد والكلى، الاستخدام المصاحب للأفيونات).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-clonazepam-1 -->
 
@@ -147,7 +151,7 @@ predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigemi
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص وإمكانية توفر الدواء في السوق المحلي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص وإمكانية توفر الدواء في السوق المحلي» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1) |
 
 <!-- review:end log -->

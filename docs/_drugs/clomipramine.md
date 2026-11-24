@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 description: "Clomipramine: الاستطباب الجديد المتوقع اضطراب القلق (anxiety disorder) (مستوى الدليل L1). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -101,10 +101,14 @@ description: "Clomipramine: الاستطباب الجديد المتوقع اض�
 
 للدواء ترخيصان ساريان لمنتج أحادي المادة الفعالة.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ANAFRANIL TABLETS 25 MG | ANAFRANIL TABLETS 25 MG | غير مسجّل | غير مسجّل |
-| ANAFRANIL TAB 10MG | ANAFRANIL TAB 10MG | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ANAFRANIL TABLETS 25 MG | CLOMIPRAMINE HYDROCHLORIDE | NOVARTIS | ساري |
+| ANAFRANIL TAB 10MG | CLOMIPRAMINE HYDROCHLORIDE | NOVARTIS | ساري |
+
+<!-- licenses:end -->
 
 ---
 

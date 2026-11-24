@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 81
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "Atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Atorvastatin: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV infectious disease) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 19 على الأقل"
@@ -94,13 +94,20 @@ description: "Atorvastatin: الاستطباب الجديد المتوقع عد�
 
 حالة السوق: مسوّق، وجميع التراخيص المسجلة سارية وعددها 19. وقد تكون القائمة المعروضة هنا جزئية. نص الاستطباب المعتمد غير مسجل في البيانات المحلية.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة |
-|---------|------|------|
-| LIPITOR 20MG F.C TAB | LIPITOR 20 ملغ أقراص مغلفة | PFIZER |
-| APO-ATORVASTATIN 10 mg Tablet | APO-ATORVASTATIN 10 ملغ | APOTEX INC. |
-| TULIP 80 mg film-coated tablet | TULIP 80 ملغ | LEK PHARMACEUTICALS D.D. |
-| LIPIGARD 40 mg film-coated tablet | LIPIGARD 40 ملغ | Gulf Pharmaceutical Industries (Julphar) |
-| TOVAST 20 MG F-C TABLETS | TOVAST 20 ملغ | SPIMACO |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LIPITOR 20MG F.C TAB | ATORVASTATIN CALCIUM | PFIZER | ساري |
+| APO-ATORVASTATIN 10 mg Tablet | ATORVASTATIN CALCIUM | APOTEX INC. (SIGNET SITE) | ساري |
+| TULIP 80 mg film-coated tablet | ATORVASTATIN CALCIUM | LEK PHARMACEUTICALS D.D. | ساري |
+| LIPIGARD 40 mg film-coated tablet | ATORVASTATIN CALCIUM | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| TOVAST 20 MG F-C TABLETS | ATORVASTATIN CALCIUM | SPIMACO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

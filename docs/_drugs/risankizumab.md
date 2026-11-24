@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 726
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Risankizumab: الاستطباب الجديد المتوقع التهاب الجلد (Dermatitis) (مستوى الدليل L2). الاستطباب الأصلي: الصدفية وشبه الصدفية"
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -98,12 +98,16 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic de
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Skyrizi 150 mg | Skyrizi 150 mg | غير متوفر | غير متوفر (الترخيص ساري) |
-| SKYRIZI 75 mg | SKYRIZI 75 mg | غير متوفر | غير متوفر (الترخيص ساري) |
-| Skyrizi 600 mg per 10 ml | Skyrizi 600 mg per 10 ml | غير متوفر | غير متوفر (الترخيص ساري) |
-| Skyrizi 360 mg per 2.4 ml | Skyrizi 360 mg per 2.4 ml | غير متوفر | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Skyrizi 150 mg | RISANKIZUMAB | AbbVie Deutschland GmbH & Co KG | ساري |
+| SKYRIZI 75 mg | RISANKIZUMAB | AbbVie Deutschland GmbH & Co KG | ساري |
+| Skyrizi 600 mg per 10 ml | RISANKIZUMAB | AbbVie Limited | ساري |
+| Skyrizi 360 mg per 2.4 ml | RISANKIZUMAB | Patheon Italia S.P.A. | ساري |
+
+<!-- licenses:end -->
 
 الدواء مسوَّق في هذا البلد، وجميع التراخيص الأربعة سارية (4 من 4).
 
@@ -138,7 +142,7 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic de
 
 <!-- review:begin sa-lic-20261106-risankizumab-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «استكمال بيانات آلية العمل من DrugBank. / توضيح وضع التراخيص المحلية الملغاة، وإمكانية إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «استكمال بيانات آلية العمل من DrugBank. / توضيح وضع التراخيص المحلية الملغاة، وإمكانية إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-risankizumab-1 -->
 
@@ -150,7 +154,7 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic de
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح وضع التراخيص المحلية الملغاة، وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح وضع التراخيص المحلية الملغاة، وإمكانية إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858) |
 
 <!-- review:end log -->

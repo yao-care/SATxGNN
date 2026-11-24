@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 851
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Tyrosine: الاستطباب الجديد المتوقع متلازمة ذيل الفرس (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص المؤشرات في تراخيص الهيئة العامة للغذاء والدواء فارغة)"
 monitor_inn: "tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -100,13 +100,19 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 جميع التراخيص الـ11 سارية (11 ترخيصاً صالحاً من 11). نصوص المؤشرات المعتمدة وأشكال الجرعات غير متوفرة. أبرز المنتجات:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| AMINOPLASMAL B BRAUN 10% | AMINOPLASMAL B BRAUN 10% | B. BRAUN | ساري |
-| AMINOPLASMAL 15 % I.V INFUSION SOLN | AMINOPLASMAL 15 % I.V INFUSION SOLN | B. BRAUN | ساري |
-| OLIMEL N9 emulsion for infusion | OLIMEL N9 | Baxalta | ساري |
-| OLIMEL N5E emulsion for infusion | OLIMEL N5E | Baxalta | ساري |
-| SMOFKABIVEN PERIPHERAL EMULSION for infusion | SMOFKABIVEN PERIPHERAL | FRESENIUS KABI | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AMINOPLASMAL B BRAUN 10% | TYROSINE,SERINE,PROLINE,GLUTAMIC ACID,ASPARTIC ACID,GLYCINE,ALANINE,ARGININE,TRYPTOPHAN,TH… | B. BRAUN | ساري |
+| AMINOPLASMAL 15 % I.V INFUSION SOLN | TYROSINE,SERINE,GLUTAMIC ACID,ACETYLCYSTEINE,ASPARTIC ACID,PROLINE,ALANINE,HISTIDINE,VALIN… | B. BRAUN | ساري |
+| OLIMEL N9 emulsion for infusion | GLUCOSE,OLIVE OIL,SOYA OIL,ALANINE,ARGININE,LYSINE,LEUCINE,PHENYLALANINE,GLYCINE,VALINE,PR… | Baxalta manufacturing Sarl | ساري |
+| OLIMEL N5E emulsion for infusion | GLUCOSE,OLIVE OIL,SOYA OIL,ALANINE,SODIUM GLYCEROPHOSPHATE,ARGININE,LYSINE,GLYCINE,PHENYLA… | Baxalta Belgium Manufacturing SA | ساري |
+| SMOFKABIVEN PERIPHERAL EMULSION for infusion | GLUCOSE,SOYA OIL,TRIGLYCERIDES MEDIUM CHAIN,OLIVE OIL,FISH OIL,ALANINE,ARGININE,GLYCINE,HI… | FRESENIUS KABI | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 506
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Lisuride: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا توجد حاليًا أي دلالة مرشحة جديدة"
 predicted_indications: []
 ---
@@ -72,9 +72,13 @@ predicted_indications: []
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| DOPERGIN 0.2MG TAB | DOPERGIN 0.2MG TAB |  | ساري |
+| DOPERGIN 0.2MG TAB | LISURIDE | DELPHARM LILLE S.A.S. | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

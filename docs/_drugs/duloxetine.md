@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DULOXETINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Duloxetine: الاستطباب الجديد المتوقع الصدفة الالتوائية الحميدة الانتيابية في الرضاعة (benign paroxysmal torticollis of infancy) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
@@ -81,13 +81,19 @@ description: "Duloxetine: الاستطباب الجديد المتوقع الص�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CYMBALTA 60MG HARD GASTRO-RESISTANT CAP | CYMBALTA 60MG HARD GASTRO-RESISTANT CAP | غير مسجل | غير مسجل |
-| DELAXIN 60 mg delayed-release capsule | DELAXIN 60 mg delayed-release capsule | غير مسجل | غير مسجل |
-| CYMBALTA 30MG HARD GASTRO-RESISTANT CAP. | CYMBALTA 30MG HARD GASTRO-RESISTANT CAP. | غير مسجل | غير مسجل |
-| DELAXIN 30 mg delayed-release capsule | DELAXIN 30 mg delayed-release capsule | غير مسجل | غير مسجل |
-| MODEXA 30 mg gastro-resistant capsule | MODEXA 30 mg gastro-resistant capsule | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CYMBALTA 60MG HARD GASTRO-RESISTANT CAP | DULOXETINE | Lilly Del Caribe, Inc. | ساري |
+| DELAXIN 60 mg delayed-release capsule | DULOXETINE | DOSE INNOVA, S.L. | ساري |
+| CYMBALTA 30MG HARD GASTRO-RESISTANT CAP. | DULOXETINE | Lilly Del Caribe, Inc. | ساري |
+| DELAXIN 30 mg delayed-release capsule | DULOXETINE | DOSE INNOVA, S.L. | ساري |
+| MODEXA 30 mg gastro-resistant capsule | DULOXETINE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

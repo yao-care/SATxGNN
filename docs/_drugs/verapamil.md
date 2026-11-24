@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 865
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: الاستطباب الجديد المتوقع Obsolete bundle branch block (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -92,13 +92,17 @@ description: "Verapamil: الاستطباب الجديد المتوقع Obsolete
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| ISOPTIN S.R 240MG F.COATED TAB | ISOPTIN S.R 240MG F.COATED TAB | غير متوفر | غير متوفر | ساري |
-| ISOPTIN TABLETS 40 MG. | ISOPTIN TABLETS 40 MG. | غير متوفر | غير متوفر | ساري |
-| ISOPTIN TABLETS 80 MG. | ISOPTIN TABLETS 80 MG. | غير متوفر | غير متوفر | ساري |
-| ISOPTIN RETARD TAB 120MG | ISOPTIN RETARD TAB 120MG | غير متوفر | غير متوفر | ساري |
-| ISOPTIN AMP 2.5MG-ML | ISOPTIN AMP 2.5MG-ML | غير متوفر | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ISOPTIN S.R 240MG F.COATED TAB | VERAPAMIL HYDROCHLORIDE | FAMAR | ساري |
+| ISOPTIN TABLETS 40 MG. | VERAPAMIL HYDROCHLORIDE | FAMAR | ساري |
+| ISOPTIN TABLETS 80 MG. | VERAPAMIL HYDROCHLORIDE | FAMAR | ساري |
+| ISOPTIN RETARD TAB 120MG | VERAPAMIL HYDROCHLORIDE | Abbott Laboratories | ساري |
+| ISOPTIN AMP 2.5MG-ML | VERAPAMIL HYDROCHLORIDE | Abbott Laboratories | ساري |
+
+<!-- licenses:end -->
 
 المصنّعون: FAMAR (ثلاثة منتجات) وAbbott Laboratories (منتجان).
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amikacin: الاستطباب الجديد المتوقع الحمى نظيرة التيفية (Paratyphoid fever) (مستوى الدليل L5). الاستطباب الأصلي: العدوى البكتيرية (الالتهاب الرئوي البكتيري، عدوى الزائفة الزنجارية، ا…"
 monitor_inn: "AMIKACIN"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
@@ -93,13 +93,19 @@ predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate ep
 
 جميع التراخيص الثمانية سارية (8 تراخيص سارية من أصل 8)، والدواء مسوّق في هذا البلد. ولم تتوفر في البيانات نصوص الاستطباب أو الأشكال الدوائية.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| AMIKIN AMP 500MG-2ML | AMIKIN AMP 500MG-2ML (SPIMACO) | غير متوفر | غير متوفر |
-| AMIKIN AMP 100MG-2ML | AMIKIN AMP 100MG-2ML (SPIMACO) | غير متوفر | غير متوفر |
-| AMCOCID 500MG-2 ML AMP | AMCOCID (جلف فارما / جلفار) | غير متوفر | غير متوفر |
-| MIACIN 500MG-2ML AMP | MIACIN (حكمة للأدوية) | غير متوفر | غير متوفر |
-| AMIKACIN 500MG-2ML INJ VIAL (I.V,IM) | AMIKACIN (HOSPIRA AUSTRALIA) | قارورة حقن (وريدي/عضلي) | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AMIKIN AMP 500MG-2ML | AMIKACIN | SPIMACO | ساري |
+| AMIKIN AMP 100MG-2ML | AMIKACIN | SPIMACO | ساري |
+| AMCOCID 500MG-2 ML AMP | AMIKACIN | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| MIACIN 500MG-2ML AMP | AMIKACIN | Hikma Pharmaceuticals PLC | ساري |
+| AMIKACIN 500MG-2ML INJ VIAL (I.V,IM) | AMIKACIN | HOSPIRA AUSTRALIA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -124,7 +130,7 @@ predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate ep
 
 <!-- review:begin sa-lic-20261106-amikacin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «العائق الدوائي المتمثل في ضعف اختراق الأمينوغليكوزيدات للخلايا التي تعيش فيها السالمونيلا، مع توفر بدائل علاجية معيارية فعالة، ووجود موانع استعمال كلوية وعصبية عضلية، كل ذلك يضعف جدوى المضي في هذا الاتجاه. / جميع التراخيص المحلية مُلغاة حاليًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «العائق الدوائي المتمثل في ضعف اختراق الأمينوغليكوزيدات للخلايا التي تعيش فيها السالمونيلا، مع توفر بدائل علاجية معيارية فعالة، ووجود موانع استعمال كلوية وعصبية عضلية، كل ذلك يضعف جدوى المضي في هذا الاتجاه. / جميع التراخيص المحلية مُلغاة حاليًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-amikacin-1 -->
 
@@ -143,7 +149,7 @@ predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate ep
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع التراخيص المحلية مُلغاة حاليًا» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع التراخيص المحلية مُلغاة حاليًا» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890) |
 
 <!-- review:end log -->

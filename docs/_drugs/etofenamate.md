@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ETOFENAMATE"
 predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Etofenamate: الاستطباب الجديد المتوقع التهاب الفقار اللاصق (مستوى الدليل L5). الاستطباب الأصلي: علاقات مسجلة في قاعدة المعرفة: التهاب المفاصل العظمي، اعتلال المفاصل…"
 ---
 
@@ -82,10 +82,14 @@ description: "Etofenamate: الاستطباب الجديد المتوقع الت
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| RHEUMON GEL 50MG-G | RHEUMON GEL 50MG-G (BAYER HEALTHCARE) | غير محدد | غير متوفر في البيانات |
-| RHEUMON CREAM 10% | RHEUMON CREAM 10% (BAYER HEALTHCARE) | غير محدد | غير متوفر في البيانات |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RHEUMON GEL 50MG-G | ETOFENAMATE | BAYER HEALTHCARE | ساري |
+| RHEUMON CREAM 10% | ETOFENAMATE | BAYER HEALTHCARE | ساري |
+
+<!-- licenses:end -->
 
 كلا الترخيصين ساريان لمنتج أحادي المكوّن.
 

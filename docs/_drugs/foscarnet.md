@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Foscarnet: الاستطباب الجديد المتوقع متلازمة البيلة الدموية العائلية الوراثية السائدة مع التواء الشرينات الشبكية والتقلصات (autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمّعة (الاستخدام المعروف…"
 monitor_inn: "FOSCARNET"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "rheumatoid arthritis", "diabetic nephropathy"]
@@ -81,9 +81,13 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Foscarnet BOS | Foscarnet BOS (الشركة المصنعة: Gland Pharma Limited) | غير مذكور | غير مذكور (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Foscarnet BOS | FOSCARNET | Gland Pharma Limited | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -119,7 +123,7 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 
 <!-- review:begin sa-lic-20261106-foscarnet-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الترخيص السعودي الوحيد ملغى، وهناك مخاوف سلامة كبيرة (سمية كلوية، اضطرابات الشوارد، إطالة QT).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الترخيص السعودي الوحيد ملغى، وهناك مخاوف سلامة كبيرة (سمية كلوية، اضطرابات الشوارد، إطالة QT).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-foscarnet-1 -->
 
@@ -137,7 +141,7 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «الترخيص السعودي الوحيد ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «الترخيص السعودي الوحيد ملغى، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Foscavir (foscarnet sodium) prescribing information, Clinigen Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=90e3da4e-3b1f-428b-99ca-e4bed1c80028) |
 
 <!-- review:end log -->

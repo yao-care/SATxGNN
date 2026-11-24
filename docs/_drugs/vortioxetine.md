@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "VORTIOXETINE"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vortioxetine: الاستطباب الجديد المتوقع الاضطراب العصابي (neurotic disorder) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2) (لا يوجد نص استطباب في التراخيص)"
 ---
 
@@ -70,10 +70,14 @@ description: "Vortioxetine: الاستطباب الجديد المتوقع ال�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| BRINTELLIX 20 mg film-coated tablet | BRINTELLIX 20 mg film-coated tablet | غير مسجل | غير مسجل |
-| BRINTELLIX 10 mg film-coated tablet | BRINTELLIX 10 mg film-coated tablet | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BRINTELLIX 20 mg film-coated tablet | VORTIOXETINE | H. LUNDBECK | ساري |
+| BRINTELLIX 10 mg film-coated tablet | VORTIOXETINE | H. LUNDBECK | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

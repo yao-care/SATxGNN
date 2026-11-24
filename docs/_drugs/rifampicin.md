@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 722
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rifampicin: الاستطباب الجديد المتوقع التهاب الملتحمة (مستوى الدليل L4). الاستطباب الأصلي: السل الرئوي"
 monitor_inn: "RIFAMPICIN"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -91,13 +91,19 @@ predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne 
 
 جميع التراخيص الثمانية سارية (8 تراخيص سارية من أصل 8)، والدواء مسوّق في هذا البلد. نصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة في البيانات.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| RIFADIN CAP 300 MG | RIFADIN CAP 300 MG | Sanofi S.P.A | ساري |
-| RIFACIN 300 MG CAPS | RIFACIN 300 MG CAPS | Tabuk Pharmaceutical | ساري |
-| RIAFAMPICIN | RIAFAMPICIN | Riyadh Pharma | ساري |
-| RIMACTAZID 300MG TAB. | RIMACTAZID 300MG TAB. | Sandoz | ساري |
-| RIFACIN 150MG CAP. | RIFACIN 150MG CAP. | Tabuk Pharmaceutical | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RIFADIN CAP 300 MG | RIFAMPICIN | sanofi S.P.A | ساري |
+| RIFACIN 300 MG CAPS | RIFAMPICIN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| RIAFAMPICIN | RIFAMPICIN | RIYADH PHARMA | ساري |
+| RIMACTAZID 300MG TAB. | RIFAMPICIN | SANDOZ | ساري |
+| RIFACIN 150MG CAP. | RIFAMPICIN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -120,7 +126,7 @@ predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne 
 
 <!-- review:begin sa-lic-20261106-rifampicin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الأدلة المتاحة تقتصر على دراسات حساسية مخبرية وتجارب موضعية قديمة (السبعينيات) للتراخوما والعدوى الكلاميدية، دون تجارب حديثة، وتوجد بدائل موضعية أفضل توثيقًا. / لا يوجد حاليًا أي ترخيص ساري في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الأدلة المتاحة تقتصر على دراسات حساسية مخبرية وتجارب موضعية قديمة (السبعينيات) للتراخوما والعدوى الكلاميدية، دون تجارب حديثة، وتوجد بدائل موضعية أفضل توثيقًا. / لا يوجد حاليًا أي ترخيص ساري في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-rifampicin-1 -->
 
@@ -140,7 +146,7 @@ predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne 
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حاليًا أي ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حاليًا أي ترخيص ساري في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Isoleucine: الاستطباب الجديد المتوقع خزل المعدة (Gastroparesis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (لا يوجد نص استطباب في تراخيص هيئة الغذاء والدواء السعودية)"
 monitor_inn: "isoleucine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -83,13 +83,19 @@ predicted_indications: ["gastroparesis (disease)"]
 
 جميع التراخيص الـ12 سارية. أبرز 5 منها:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة |
-|---------|------|-----------|
-| RENAMIN INJECTION | RENAMIN INJECTION | BAXTER |
-| AMINOPLASMAL B BRAUN 10% | AMINOPLASMAL B BRAUN 10% | B. BRAUN |
-| AMINOPLASMAL 15 % I.V INFUSION SOLN | AMINOPLASMAL 15 % I.V INFUSION SOLN | B. BRAUN |
-| OLIMEL N9 emulsion for infusion | OLIMEL N9 emulsion for infusion | Baxalta manufacturing Sarl |
-| OLIMEL N5E emulsion for infusion | OLIMEL N5E emulsion for infusion | Baxalta Belgium Manufacturing SA |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RENAMIN INJECTION | VALINE,LEUCINE,ISOLEUCINE5,METHIONINE,PHENYLALANINE,LYSINE,HISTIDINE,THREONINE,TRYPTOPHAN | BAXTER | ساري |
+| AMINOPLASMAL B BRAUN 10% | TYROSINE,SERINE,PROLINE,GLUTAMIC ACID,ASPARTIC ACID,GLYCINE,ALANINE,ARGININE,TRYPTOPHAN,TH… | B. BRAUN | ساري |
+| AMINOPLASMAL 15 % I.V INFUSION SOLN | TYROSINE,SERINE,GLUTAMIC ACID,ACETYLCYSTEINE,ASPARTIC ACID,PROLINE,ALANINE,HISTIDINE,VALIN… | B. BRAUN | ساري |
+| OLIMEL N9 emulsion for infusion | GLUCOSE,OLIVE OIL,SOYA OIL,ALANINE,ARGININE,LYSINE,LEUCINE,PHENYLALANINE,GLYCINE,VALINE,PR… | Baxalta manufacturing Sarl | ساري |
+| OLIMEL N5E emulsion for infusion | GLUCOSE,OLIVE OIL,SOYA OIL,ALANINE,SODIUM GLYCEROPHOSPHATE,ARGININE,LYSINE,GLYCINE,PHENYLA… | Baxalta Belgium Manufacturing SA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -124,7 +130,7 @@ predicted_indications: ["gastroparesis (disease)"]
 
 <!-- review:begin sa-lic-20261106-isoleucine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد مدى توافق طريق الإعطاء مع الاستطباب الجديد، وتوضيح الوضع التنظيمي بعد إلغاء التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 12، منها سارية: 12؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد مدى توافق طريق الإعطاء مع الاستطباب الجديد، وتوضيح الوضع التنظيمي بعد إلغاء التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-isoleucine-1 -->
 
@@ -136,7 +142,7 @@ predicted_indications: ["gastroparesis (disease)"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وتوضيح الوضع التنظيمي بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وتوضيح الوضع التنظيمي بعد إلغاء التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

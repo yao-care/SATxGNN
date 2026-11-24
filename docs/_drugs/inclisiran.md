@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Inclisiran: الاستطباب الجديد المتوقع نقص البوتاسيوم (potassium deficiency disease) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المتاحة (الدواء معروف بخفض LDL-C)"
 monitor_inn: "INCLISIRAN"
 predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
@@ -96,9 +96,13 @@ predicted_indications: ["potassium deficiency disease", "esophageal disease", "a
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LEQVIO | LEQVIO | غير محدد | غير محدد (الترخيص ساري؛ الشركة المصنّعة: Corden Pharma S.P.A) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LEQVIO | INCLISIRAN | Corden Pharma S.P.A | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,7 +127,7 @@ predicted_indications: ["potassium deficiency disease", "esophageal disease", "a
 
 <!-- review:begin sa-lic-20261106-inclisiran-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح سبب إلغاء الترخيص السعودي وحالة التسويق الحالية. / إجراء مراجعة منهجية للأدبيات وأبحاث ما قبل سريرية إذا رُغب في متابعة أي من هذه التوقعات.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح سبب إلغاء الترخيص السعودي وحالة التسويق الحالية. / إجراء مراجعة منهجية للأدبيات وأبحاث ما قبل سريرية إذا رُغب في متابعة أي من هذه التوقعات.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-inclisiran-1 -->
 
@@ -135,7 +139,7 @@ predicted_indications: ["potassium deficiency disease", "esophageal disease", "a
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح سبب إلغاء الترخيص السعودي وحالة التسويق الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح سبب إلغاء الترخيص السعودي وحالة التسويق الحالية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Temozolomide: الاستطباب الجديد المتوقع ورم الذنب الفرسي (Cauda Equina Neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: الورم النجمي ذو التنسّج، والورم النجمي (باستثناء الورم الأرومي الدبقي…"
 ---
 
@@ -86,13 +86,19 @@ description: "Temozolomide: الاستطباب الجديد المتوقع ور�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LAGONA 250 mg Hard capsule | LAGONA 250 mg (EirGen Pharma) | كبسولة صلبة | غير مذكور في البيانات |
-| LAGONA 100 mg Hard capsule | LAGONA 100 mg (EirGen Pharma) | كبسولة صلبة | غير مذكور في البيانات |
-| TEMOL 250 mg capsule | TEMOL 250 mg (EirGen Pharma) | كبسولة | غير مذكور في البيانات |
-| TEGOZOL 250 mg Capsule | TEGOZOL 250 mg (The Arab Pharmaceutical Manufacturing) | كبسولة | غير مذكور في البيانات |
-| Zolomid | Zolomid (Lotus Pharmaceutical) | غير محدد | غير مذكور في البيانات |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LAGONA 250 mg Hard capsule | TEMOZOLOMIDE | EirGen Pharma | ساري |
+| LAGONA 100 mg Hard capsule | TEMOZOLOMIDE | EirGen Pharma | ساري |
+| TEMOL 250 mg capsule | TEMOZOLOMIDE | EirGen Pharma | ساري |
+| TEGOZOL 250 mg Capsule | TEMOZOLOMIDE | The Arab Pharmaceutical Manufacturing PSC Sult | ساري |
+| Zolomid | TEMOZOLOMIDE | LOTUS PHARMACEUTICAL CO., LTD | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 15 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 يوجد 15 ترخيصاً في المجموع، وهي مستحضرات أحادية المادة وسارية، وعُرضت أعلاه خمسة منها فقط.
 

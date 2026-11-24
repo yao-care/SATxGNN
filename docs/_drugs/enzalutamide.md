@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ENZALUTAMIDE"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Enzalutamide: الاستطباب الجديد المتوقع ورم عضلي أملس في البروستاتا (prostate leiomyoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -68,10 +68,14 @@ description: "Enzalutamide: الاستطباب الجديد المتوقع ور�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Enzastik | Enzastik | غير مسجل | غير مسجل |
-| XTANDI 40 mg capsule | XTANDI 40 mg capsule | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Enzastik | ENZALUTAMIDE | Eugia Pharma Specialties Limited | ساري |
+| XTANDI 40 mg capsule | ENZALUTAMIDE | CATALENT PHARMA SOLUTIONS | ساري |
+
+<!-- licenses:end -->
 
 ## السمية الخلوية
 

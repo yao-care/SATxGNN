@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 description: "Lactulose: الاستطباب الجديد المتوقع Acute urate nephropathy (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
@@ -96,13 +96,19 @@ description: "Lactulose: الاستطباب الجديد المتوقع Acute ur
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
-|---------|------|------|-----------|
-| DEFOLAX 65GM-100ML SYRUP | DEFOLAX (شركة DEEF) | غير متوفر | غير متوفر |
-| SOFLAX SOLUTION | SOFLAX (جلف فارما/جلفار) | غير متوفر | غير متوفر |
-| EZILAX 10GM POWDER SACHET | EZILAX (تبوك) | غير متوفر | غير متوفر |
-| EZILAX 10G-15ML SYRUP | EZILAX (تبوك) | غير متوفر | غير متوفر |
-| DUPHALAC ORAL SOLUTION | DUPHALAC (Abbott) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DEFOLAX 65GM-100ML SYRUP | LACTULOSE | DEEF PHARMACEUTICAL INDUSTRIES | ساري |
+| SOFLAX SOLUTION | LACTULOSE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| EZILAX 10GM POWDER SACHET | LACTULOSE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| EZILAX 10G-15ML SYRUP | LACTULOSE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| DUPHALAC ORAL SOLUTION | LACTULOSE | ABBOTT BIOLOGICALS | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 (إجمالي التراخيص 12، وقد عُرضت منها خمسة فقط.)
 

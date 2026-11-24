@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amlodipine: الاستطباب الجديد المتوقع احتشاء جذع الدماغ (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (إضافة إلى السكتة الدماغية والاضطرابات الوعائية الدما…"
 monitor_inn: "Amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
@@ -82,7 +82,7 @@ predicted_indications: ["brain stem infarction", "pulmonary hypertension owing t
 
 ## معلومات السوق في السعودية
 
-أبرز 5 تراخيص:
+يعرض الجدول أدناه أبرز التراخيص:
 
 <!-- review:begin sa-lic-20261106-amlodipine-1 -->
 
@@ -90,13 +90,20 @@ predicted_indications: ["brain stem infarction", "pulmonary hypertension owing t
 
 <!-- review:end sa-lic-20261106-amlodipine-1 -->
 
-| رقم الترخيص / اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| ZILDAFIT 10 MG TABLET | APOTEX | ساري |
-| LODIPAM 2.5 mg Film-Coated Tablet | الشركة السعودية للصناعات الدوائية (SPI) | ساري |
-| LOTENSE 10MG CAPSULES | تبوك للصناعات الدوائية | ساري |
-| AMEP 10 mg Tablet | COOPER PHARMA | ساري |
-| AMLOR 10MG CAPSULES | PFIZER | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ZILDAFIT 10 MG TABLET | AMLODIPINE BESILATE | APOTEX | ساري |
+| LODIPAM 2.5 mg Film-Coated Tablet | AMLODIPINE BESILATE | SAUDI PHARMACEUTICAL INDUSTRIES | ساري |
+| LOTENSE 10MG CAPSULES | AMLODIPINE BESILATE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| AMEP 10 mg Tablet | AMLODIPINE BESILATE | COOPER PHARMA | ساري |
+| AMLOR 10MG CAPSULES | AMLODIPINE BESILATE | PFIZER | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 18 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 
@@ -133,7 +140,7 @@ predicted_indications: ["brain stem infarction", "pulmonary hypertension owing t
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «(جميعها بحالة «ملغاة»، ونصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «(جميعها بحالة «ملغاة»، ونصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة)» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
 
 <!-- review:end log -->

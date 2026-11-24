@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LULICONAZOLE"
 predicted_indications: ["endothrix infectious disease", "ectothrix infectious disease"]
 description: "Luliconazole: الاستطباب الجديد المتوقع عدوى الشعر الداخلية (endothrix infectious disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -70,9 +70,13 @@ description: "Luliconazole: الاستطباب الجديد المتوقع عد�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LICAN 1% CREAM | LICAN 1% CREAM (شركة جمجوم للأدوية) | غير متوفر | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LICAN 1% CREAM | LULICONAZOLE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

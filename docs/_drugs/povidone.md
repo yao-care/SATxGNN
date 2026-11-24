@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 678
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Povidone: الاستطباب الجديد المتوقع الحمرة الجلدية السمكية الخلقية (مستوى الدليل L5). الاستطباب الأصلي: متلازمة جفاف العين وجفاف الملتحمة (مستخلص من الرسم المعرفي، إذ لا يوج…"
 monitor_inn: "POVIDONE"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
@@ -78,10 +78,14 @@ predicted_indications: ["congenital ichthyosiform erythroderma"]
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| OCULOTECT FLUID SINE 50MG\ML EYE DROP | OCULOTECT FLUID SINE 50MG\ML EYE DROP | قطرة عين (حسب اسم المنتج) | غير متوفر | ساري |
-| OCULOTECT FLUID 50MG\ML EYE DROP | OCULOTECT FLUID 50MG\ML EYE DROP | قطرة عين (حسب اسم المنتج) | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| OCULOTECT FLUID SINE 50MG\ML EYE DROP | POVIDONE | Excel Vision | ساري |
+| OCULOTECT FLUID 50MG\ML EYE DROP | POVIDONE | Excel Vision | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنِّعة لكليهما: Excel Vision.
 

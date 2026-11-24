@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 730
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rivaroxaban: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص المؤشرات المعتمدة في تراخيص الهيئة العامة للغذاء والد…"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -89,13 +89,19 @@ predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease"
 
 جميع التراخيص العشرين سارية (20 ترخيصاً صالحاً من أصل 20)، ولا تتوفر نصوص المؤشرات المعتمدة. فيما يلي أبرز خمسة تراخيص:
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
-|---------|------|------|-----------|
-| XARELTO 15MG FILM COATED TABLET | XARELTO 15MG (باير) | أقراص مغلفة | غير متوفر |
-| XARELTO 10MG FILM COATED TABLET | XARELTO 10MG (باير) | أقراص مغلفة | غير متوفر |
-| XARELTO 20MG FILM COATED TABLET | XARELTO 20MG (باير) | أقراص مغلفة | غير متوفر |
-| XARELTO 2.5MG FILM COATED TABLET | XARELTO 2.5MG (باير) | أقراص مغلفة | غير متوفر |
-| BANORIV 10 mg Film Coated Tablet | BANORIV 10 mg (سبيماكو) | أقراص مغلفة | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| XARELTO 15MG FILM COATED TABLET | RIVAROXABAN | BAYER AG | ساري |
+| XARELTO 10MG FILM COATED TABLET | RIVAROXABAN | BAYER AG | ساري |
+| XARELTO 20MG FILM COATED TABLET | RIVAROXABAN | BAYER AG | ساري |
+| XARELTO 2.5MG FILM COATED TABLET | RIVAROXABAN | BAYER AG | ساري |
+| BANORIV 10 mg Film Coated Tablet | RIVAROXABAN | SPIMACO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,7 +137,7 @@ predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease"
 
 <!-- review:begin sa-lic-20261106-rivaroxaban-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح أسباب إلغاء التراخيص وإمكانية إعادة التسجيل. / إجراء دراسات أولية (آلية أو ما قبل سريرية) تبحث تأثير تثبيط العامل Xa على الالتهاب في التهاب المفاصل الروماتويدي قبل التفكير في تجارب سريرية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 20، منها سارية: 20؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح أسباب إلغاء التراخيص وإمكانية إعادة التسجيل. / إجراء دراسات أولية (آلية أو ما قبل سريرية) تبحث تأثير تثبيط العامل Xa على الالتهاب في التهاب المفاصل الروماتويدي قبل التفكير في تجارب سريرية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-rivaroxaban-1 -->
 
@@ -152,7 +158,7 @@ predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease"
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص وإمكانية إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
 
 <!-- review:end log -->

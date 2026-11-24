@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 702
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Quinapril: الاستطباب الجديد المتوقع اعتلال الكلى الناجم عن ارتفاع الضغط الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (اضطراب ارتفاع ضغط الدم)"
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
@@ -98,10 +98,14 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ACUITEL 20MG TAB | ACUITEL 20MG TAB (شركة PFIZER) | غير متوفر | غير متوفر (الحالة: ساري) |
-| ACUITEL 10MG TAB | ACUITEL 10MG TAB (شركة PFIZER) | غير متوفر | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ACUITEL 20MG TAB | QUINAPRIL | PFIZER | ساري |
+| ACUITEL 10MG TAB | QUINAPRIL | PFIZER | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,7 +135,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 <!-- review:begin sa-lic-20261106-quinapril-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كما أن الاستطباب قريب جداً من الاستطباب الأصلي، والدواء لا يملك حالياً ترخيصاً ساري المفعول في السعودية (التراخيص الاثنان ملغيان).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كما أن الاستطباب قريب جداً من الاستطباب الأصلي، والدواء لا يملك حالياً ترخيصاً ساري المفعول في السعودية (التراخيص الاثنان ملغيان).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-quinapril-1 -->
 
@@ -151,7 +155,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «والدواء لا يملك حالياً ترخيصاً ساري المفعول في السعودية (التراخيص الاثنان ملغيان)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «والدواء لا يملك حالياً ترخيصاً ساري المفعول في السعودية (التراخيص الاثنان ملغيان)» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: quinapril prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f33dbbb1-1a4a-42b0-a5c5-3ac905823206) |
 
 <!-- review:end log -->

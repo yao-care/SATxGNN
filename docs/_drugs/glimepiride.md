@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Glimepiride: الاستطباب الجديد المتوقع متلازمة الطرف المتيبس البؤرية (Focal stiff limb syndrome) (مستوى الدليل L5). الاستطباب الأصلي: داء السكري من النوع الثاني"
 monitor_inn: "GLIMEPIRIDE"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -82,13 +82,20 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 
 وضع السوق: الدواء مسوّق، ويوجد **20 ترخيصًا ساريًا**. أمثلة على المنتجات المرخصة (نصوص الاستطباب المعتمدة غير متوفرة):
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| AMARYL 1MG TAB | AMARYL 1MG TAB | Sanofi S.r.l. | ساري |
-| AMARYL 3MG TAB | AMARYL 3MG TAB | Sanofi S.r.l. | ساري |
-| GLIMEPHAN 2MG TABLETS | GLIMEPHAN 2MG TABLETS | ACTAVIS | ساري |
-| GLIM 2MG TABLETS | GLIM 2MG TABLETS | SPIMACO | ساري |
-| GLUMINE 4 mg Tablet | GLUMINE 4 mg Tablet | DAR ALDAWA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AMARYL 1MG TAB | GLIMEPIRIDE | Sanofi S.r.l. | ساري |
+| AMARYL 3MG TAB | GLIMEPIRIDE | Sanofi S.r.l. | ساري |
+| GLIMEPHAN 2MG TABLETS | GLIMEPIRIDE | ACTAVIS | ساري |
+| GLIM 2MG TABLETS | GLIMEPIRIDE | SPIMACO | ساري |
+| GLUMINE 4 mg Tablet | GLIMEPIRIDE | DAR ALDAWA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

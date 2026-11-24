@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 656
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Pilocarpine: الاستخدامات المعروفة وحالة التسويق في السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
 ---
@@ -72,16 +72,20 @@ predicted_indications: []
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| APICARPINE 4% EYE DROPS | APICARPINE 4% EYE DROPS |  | ساري |
-| PILOTINA-4 | PILOTINA-4 |  | ساري |
-| MINIMS PILOCARPINE 2% | MINIMS PILOCARPINE 2% |  | ساري |
-| PILOTINA-2 | PILOTINA-2 |  | ساري |
-| APICARPINE 2% EYE DROPS | APICARPINE 2% EYE DROPS |  | ساري |
-| ISOPTO CARPINE 4% EYE DROPS | ISOPTO CARPINE 4% EYE DROPS |  | ساري |
-| ISOPTO CARPINE 1% EYE DROPS | ISOPTO CARPINE 1% EYE DROPS |  | ساري |
-| ISOPTO CARPIN 2% EYE DROPS | ISOPTO CARPIN 2% EYE DROPS |  | ساري |
+| APICARPINE 4% EYE DROPS | PILOCARPINE HYDROCHLORIDE | Amman Pharmaceutical Industries (API) | ساري |
+| PILOTINA-4 | PILOCARPINE HYDROCHLORIDE | RIYADH PHARMA | ساري |
+| MINIMS PILOCARPINE 2% | PILOCARPINE HYDROCHLORIDE | CHAUVIN BAUSCH & LOMB | ساري |
+| PILOTINA-2 | PILOCARPINE HYDROCHLORIDE | RIYADH PHARMA | ساري |
+| APICARPINE 2% EYE DROPS | PILOCARPINE HYDROCHLORIDE | Amman Pharmaceutical Industries (API) | ساري |
+| ISOPTO CARPINE 4% EYE DROPS | PILOCARPINE HYDROCHLORIDE | ALCON COUVREUR | ساري |
+| ISOPTO CARPINE 1% EYE DROPS | PILOCARPINE HYDROCHLORIDE | ALCON COUVREUR | ساري |
+| ISOPTO CARPIN 2% EYE DROPS | PILOCARPINE HYDROCHLORIDE | ALCON LABORATORIES | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

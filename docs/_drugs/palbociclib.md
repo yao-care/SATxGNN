@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 624
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: الاستطباب الجديد المتوقع Hyperthyroidism (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -87,13 +87,17 @@ description: "Palbociclib: الاستطباب الجديد المتوقع Hypert
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| IBRANCE 100 mg capsule | IBRANCE 100 mg capsule | غير متوفر | غير متوفر |
-| IBRANCE 125 mg capsule | IBRANCE 125 mg capsule | غير متوفر | غير متوفر |
-| IBRANCE | IBRANCE | غير متوفر | غير متوفر |
-| IBRANCE 75 mg capsule | IBRANCE 75 mg capsule | غير متوفر | غير متوفر |
-| Papillio | Papillio | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| IBRANCE 100 mg capsule | PALBOCICLIB | Pfizer Manufacturing Deutschland GmbH | ساري |
+| IBRANCE 125 mg capsule | PALBOCICLIB | Pfizer Manufacturing Deutschland GmbH | ساري |
+| IBRANCE | PALBOCICLIB | Pfizer Manufacturing Deutschland GmbH | ساري |
+| IBRANCE 75 mg capsule | PALBOCICLIB | Pfizer Manufacturing Deutschland GmbH | ساري |
+| Papillio | PALBOCICLIB | The Arab Pharmaceutical Manufacturing PSC (Sahab) Co Ltd | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنّعة: Pfizer Manufacturing Deutschland GmbH (لمنتجات IBRANCE)، وThe Arab Pharmaceutical Manufacturing PSC (Sahab) لمنتج Papillio.
 
@@ -140,7 +144,7 @@ description: "Palbociclib: الاستطباب الجديد المتوقع Hypert
 
 <!-- review:begin sa-lic-20261106-palbociclib-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص المنتج في السعودية ملغاة، وملف السلامة (كبت النقي، الجلطات) يستدعي الحذر.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص المنتج في السعودية ملغاة، وملف السلامة (كبت النقي، الجلطات) يستدعي الحذر.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-palbociclib-1 -->
 
@@ -153,7 +157,7 @@ description: "Palbociclib: الاستطباب الجديد المتوقع Hypert
 
 <!-- review:begin sa-lic-20261106-palbociclib-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تأكيد الوضع التنظيمي الحالي في السعودية وأسباب إلغاء التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تأكيد الوضع التنظيمي الحالي في السعودية وأسباب إلغاء التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-palbociclib-2 -->
 
@@ -165,8 +169,8 @@ description: "Palbociclib: الاستطباب الجديد المتوقع Hypert
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «وأسباب إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وأسباب إلغاء التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
 
 <!-- review:end log -->

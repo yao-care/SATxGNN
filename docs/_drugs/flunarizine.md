@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 360
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Flunarizine: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا استطباب جديد مرشح"
 predicted_indications: []
 ---
@@ -72,9 +72,13 @@ predicted_indications: []
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| SIBELIUM 5MG CAPSULES | SIBELIUM 5MG CAPSULES |  | ساري |
+| SIBELIUM 5MG CAPSULES | FLUNARIZINE | JANSSEN-CILAG | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

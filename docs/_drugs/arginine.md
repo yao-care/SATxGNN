@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 70
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Arginine: الاستطباب الجديد المتوقع شلل المعدة (Gastroparesis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص المؤشرات في تراخيص الهيئة العامة للغذاء والدواء فارغة)"
 monitor_inn: "arginine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -95,13 +95,19 @@ predicted_indications: ["gastroparesis (disease)"]
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الـ11 سارية (11 من أصل 11).
 
-| رقم الترخيص / اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|-----------|
-| AMINOPLASMAL B BRAUN 10% | B. BRAUN | ساري |
-| AMINOPLASMAL 15 % I.V INFUSION SOLN | B. BRAUN | ساري |
-| OLIMEL N9 emulsion for infusion | Baxalta | ساري |
-| OLIMEL N5E emulsion for infusion | Baxalta | ساري |
-| OLIMEL N7E emulsion for infusion | Baxalta | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AMINOPLASMAL B BRAUN 10% | TYROSINE,SERINE,PROLINE,GLUTAMIC ACID,ASPARTIC ACID,GLYCINE,ALANINE,ARGININE,TRYPTOPHAN,TH… | B. BRAUN | ساري |
+| AMINOPLASMAL 15 % I.V INFUSION SOLN | TYROSINE,SERINE,GLUTAMIC ACID,ACETYLCYSTEINE,ASPARTIC ACID,PROLINE,ALANINE,HISTIDINE,VALIN… | B. BRAUN | ساري |
+| OLIMEL N9 emulsion for infusion | GLUCOSE,OLIVE OIL,SOYA OIL,ALANINE,ARGININE,LYSINE,LEUCINE,PHENYLALANINE,GLYCINE,VALINE,PR… | Baxalta manufacturing Sarl | ساري |
+| OLIMEL N5E emulsion for infusion | GLUCOSE,OLIVE OIL,SOYA OIL,ALANINE,SODIUM GLYCEROPHOSPHATE,ARGININE,LYSINE,GLYCINE,PHENYLA… | Baxalta Belgium Manufacturing SA | ساري |
+| OLIMEL N7E emulsion for infusion | OLIVE OIL,SOYA OIL,ALANINE,ARGININE,ASPARTIC ACID,GLUTAMIC ACID,GLYCINE,HISTIDINE,ISOLEUCI… | Baxalta Belgium Manufacturing SA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

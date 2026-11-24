@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Entacapone: الاستطباب الجديد المتوقع التنكس العصبي المرتبط بجين PLA2G6 (PLA2G6-associated neurodegeneration) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -78,9 +78,13 @@ description: "Entacapone: الاستطباب الجديد المتوقع الت�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| COMTAN 200MG F.C TAB | COMTAN 200MG F.C TAB (الشركة المصنّعة: ORION PHARMA) | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| COMTAN 200MG F.C TAB | ENTACAPONE | ORION PHARMA | ساري |
+
+<!-- licenses:end -->
 
 ---
 

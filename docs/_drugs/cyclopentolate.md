@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyclopentolate: الاستطباب الجديد المتوقع متلازمة ذيل الفرس (Cauda Equina Syndrome) (مستوى الدليل L5). الاستطباب الأصلي: شلل التكيّف (Cycloplegia)"
 monitor_inn: "CYCLOPENTOLATE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
@@ -88,15 +88,19 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 الدواء مسوَّق في هذا البلد، و12 ترخيصاً ساري المفعول من أصل 12. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمعة.
 
-| رقم الترخيص / اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| SECLODYN 1% EYE DROPS | Jamjoom Pharmaceuticals | ساري |
-| COLIRCUSI-CICLOPLEGIC 1% | Siegfried El Masnou | ساري |
-| CYCLOPENTOLATE 0.5% THILO EYE DROPS | Dr. Thilo Laboratories | ساري |
-| CYCLOPENTOLATE 1% THILO EYE DROPS | Dr. Thilo Laboratories | ساري |
-| CYCLATE 0.5% EYE DROPS | Riyadh Pharma | ساري |
+<!-- licenses:begin -->
 
-(عُرضت 5 تراخيص من أصل 12.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SECLODYN 1% EYE DROPS | CYCLOPENTOLATE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| COLIRCUSI-CICLOPLEGIC 1% | CYCLOPENTOLATE | Siegfried EI Masnou, S.A | ساري |
+| CYCLOPENTOLATE 0.5%THILO EYE DROPS | CYCLOPENTOLATE | DR. THILO LABORATORIES | ساري |
+| CYCLOPENTOLATE 1% THILO EYE DROPS | CYCLOPENTOLATE | DR. THILO LABORATORIES | ساري |
+| CYCLATE 0.5% EYE DROPS | CYCLOPENTOLATE | RIYADH PHARMA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

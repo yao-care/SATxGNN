@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Lispro: الاستطباب الجديد المتوقع التهاب المبيض المناعي الذاتي (مستوى الدليل L5). الاستطباب الأصلي: داء السكري (النوع الأول والنوع الثاني والحماض الكيتوني السكري)"
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
@@ -102,19 +102,25 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 جميع التراخيص السبعة سارية (7 من 7). نصوص الاستطبابات المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| HUMALOG CARTIDGE 100IU/ml | HUMALOG CARTIDGE 100IU/ml | ELI LILLY | ساري |
-| Lyumjev KwikPen | Lyumjev KwikPen | Eli Lilly and Company, Clinton Laboratories | ساري |
-| HUMALOG KWIK-PEN 100IU/ML | HUMALOG KWIK-PEN 100IU/ML | ELI LILLY | ساري |
-| HUMALOG 100 I.U VIALS | HUMALOG 100 I.U VIALS | ELI LILLY | ساري |
-| LYUMJEV Junior Kwikpen | LYUMJEV Junior Kwikpen | Eli Lilly and Company, Clinton Laboratories | ساري |
+<!-- licenses:begin -->
 
-(عُرضت 5 من أصل 7 تراخيص؛ الترخيصان الآخران: Humalog Tempo Pen وLYUMJEV.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| HUMALOG CARTIDGE 100IU/ml | INSULIN LISPRO | ELI LILLY | ساري |
+| Lyumjev KwikPen | INSULIN LISPRO | Eli Lilly and Company, Clinton Laboratories | ساري |
+| HUMALOG KWIK-PEN 100IU/ML | INSULIN LISPRO | ELI LILLY | ساري |
+| HUMALOG 100 I.U VIALS | INSULIN LISPRO | ELI LILLY | ساري |
+| LYUMJEV Junior Kwikpen | INSULIN LISPRO | Eli Lilly and Company, Clinton Laboratories | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
+
+(من التراخيص غير المعروضة في الجدول أعلاه: Humalog Tempo Pen وLYUMJEV.)
 
 <!-- review:begin sa-lic-20261106-insulin_lispro-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(عُرضت 5 من أصل 7 تراخيص؛ الترخيصان الآخران: Humalog Tempo Pen وLYUMJEV، وكلاهما ملغى.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 7، منها سارية: 7؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(عُرضت 5 من أصل 7 تراخيص؛ الترخيصان الآخران: Humalog Tempo Pen وLYUMJEV، وكلاهما ملغى.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-insulin_lispro-1 -->
 
@@ -158,7 +164,7 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وكلاهما ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وكلاهما ملغى» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
 
 <!-- review:end log -->

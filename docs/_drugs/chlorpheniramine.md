@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chlorpheniramine: الاستطباب الجديد المتوقع أمراض تجويف الأنف (nasal cavity disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 (السارية: 17)"
 ---
 
@@ -83,13 +83,19 @@ description: "Chlorpheniramine: الاستطباب الجديد المتوقع �
 
 تتوفر في البيانات المجمعة 17 رخصة لمنتجات أحادية المادة الفعالة، ولا تحمل أي منها نص استطباب مسجلاً. من أبرزها:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PIRAFENE TAB 4MG | PIRAFENE TAB 4MG | غير مسجل | غير مسجل |
-| ANALLERGE 4 MG TAB | ANALLERGE 4 MG TAB | غير مسجل | غير مسجل |
-| CHLOROHISTOL SYRUP 2 MG - 5 ML | CHLOROHISTOL SYRUP 2 MG - 5 ML | غير مسجل | غير مسجل |
-| HISTOP TAB 4MG | HISTOP TAB 4MG | غير مسجل | غير مسجل |
-| ALLERFIN TABLETS 4MG | ALLERFIN TABLETS 4MG | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PIRAFENE TAB 4MG | CHLORPHENIRAMINE MALEATE | MEMPHIS CHEMICALS | ساري |
+| ANALLERGE 4 MG TAB | CHLORPHENIRAMINE MALEATE | KAHIRA EYGEPT | ساري |
+| CHLOROHISTOL SYRUP 2 MG - 5 ML | CHLORPHENIRAMINE MALEATE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| HISTOP TAB 4MG | CHLORPHENIRAMINE MALEATE | SPIMACO | ساري |
+| ALLERFIN TABLETS 4MG | CHLORPHENIRAMINE MALEATE | APM | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 17 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DIENOGEST"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dienogest: الاستطباب الجديد المتوقع انقطاع الطمث (amenorrhea (disease)) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -81,9 +81,13 @@ description: "Dienogest: الاستطباب الجديد المتوقع انقط
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
-|---------|------|------|-----------|
-| VISANNE 2MG TABLETS | VISANNE 2MG TABLETS | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VISANNE 2MG TABLETS | DIENOGEST | BAYER WEIMAR GmbH UND CO. KG | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

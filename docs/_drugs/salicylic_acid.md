@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 744
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Salicylic Acid: الاستطباب الجديد المتوقع التهاب الملتحمة الحليمي (Papillary conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد الدهني، وحب الشباب، وفطريات القدم، والتهاب المفاصل الروم…"
 monitor_inn: "SALICYLIC ACID"
 predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
@@ -82,11 +82,15 @@ predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| NOCAL 10% TOPICAL SOLN. | NOCAL 10% TOPICAL SOLN. | غير متوفر | غير متوفر | ساري |
-| Kerasal | Kerasal | غير متوفر | غير متوفر | ساري |
-| KERASAL 10 % OINTMENT | KERASAL 10 % OINTMENT | غير متوفر | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NOCAL 10% TOPICAL SOLN. | SALICYLIC ACID | ARAB CENTER FOR PHARMACEUTICALS & CHEMICAL IND. CO. | ساري |
+| Kerasal | SALICYLIC ACID | Dallah Pharma Factory | ساري |
+| KERASAL 10 % OINTMENT | SALICYLIC ACID | Dallah Pharma Factory | ساري |
+
+<!-- licenses:end -->
 
 ---
 

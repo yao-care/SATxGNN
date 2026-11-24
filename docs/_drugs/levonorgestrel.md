@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 498
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Levonorgestrel: الاستطباب الجديد المتوقع حب الشباب (acne (disease)) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -90,12 +90,16 @@ description: "Levonorgestrel: الاستطباب الجديد المتوقع ح�
 
 الحالة: مطروح في السوق، وجميع التراخيص الأربعة المسجلة سارية.
 
-| رقم الترخيص / اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| MICROLUT 0.03MG-TAB COATED TAB. | BAYER AG | ساري |
-| NAVELA 1.5 MG TABLET | LABORATORIOS LEON FARMA, S.A. | ساري |
-| MIRENA 52 MG INTRAUTERINE DELIVERY SYSTEM (IUS) | BAYER OY | ساري |
-| POSTINOR-2 | GEDEON RICHTER | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MICROLUT 0.03MG-TAB COATED TAB. | LEVONORGESTREL | BAYER AG | ساري |
+| NAVELA 1.5 MG TABLET | LEVONORGESTREL | LABORATORIOS LEON FARMA, S.A. | ساري |
+| MIRENA 52 MG INTRAUTERINE DELIVERY SYSTEM (IUS) | LEVONORGESTREL | BAYER OY | ساري |
+| POSTINOR-2 | LEVONORGESTREL | GEDEON RICHTER | ساري |
+
+<!-- licenses:end -->
 
 ---
 

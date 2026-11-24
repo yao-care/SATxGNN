@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ALISKIREN"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aliskiren: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي الناجم عن أمراض الرئة و/أو نقص الأكسجة (pulmonary hypertension owing to lung disease and/or hypo… (مستوى الدليل L5). الاستطباب الأصلي: غير م…"
 ---
 
@@ -77,10 +77,14 @@ description: "Aliskiren: الاستطباب الجديد المتوقع ارتف
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| RASILEZ 300MG F.C. TABLETS | RASILEZ 300MG F.C. TABLETS | غير مسجل | غير مسجل |
-| RASILEZ 150MG F.C. TABLETS | RASILEZ 150MG F.C. TABLETS | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RASILEZ 300MG F.C. TABLETS | ALISKIREN | NOVARTIS | ساري |
+| RASILEZ 150MG F.C. TABLETS | ALISKIREN | NOVARTIS | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

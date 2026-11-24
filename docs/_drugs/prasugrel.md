@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 682
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prasugrel: الاستطباب الجديد المتوقع ارتفاع ضغط الشريان الرئوي (مستوى الدليل L5). الاستطباب الأصلي: متلازمة الشريان التاجي الحادة (من الرسم المعرفي لـ TxGNN، إذ لا يتضمن…"
 monitor_inn: "PRASUGREL"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
@@ -102,11 +102,15 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PLATEREL 5MG F.C.TABLET | PLATEREL 5MG F.C.TABLET (طابوك) | غير متوفر | غير متوفر (ساري) |
-| PLATEREL 10MG F.C.TABLET | PLATEREL 10MG F.C.TABLET (طابوك) | غير متوفر | غير متوفر (ساري) |
-| Pevas | Pevas (الشركة المتحدة للأدوية) | غير متوفر | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PLATEREL 5MG F.C.TABLET | PRASUGREL | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| PLATEREL 10MG F.C.TABLET | PRASUGREL | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| Pevas | PRASUGREL | UNITED PHARMACEUTICAL COMPANY | ساري |
+
+<!-- licenses:end -->
 
 الدواء مسوَّق في هذا البلد، وجميع التراخيص الثلاثة (3 من 3) سارية.
 
@@ -136,7 +140,7 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 
 <!-- review:begin sa-lic-20261106-prasugrel-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدواء بلا تراخيص سارية في السعودية، ومخاطر النزف وموانع الاستعمال المرتبطة بالأوعية الدماغية كبيرة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدواء بلا تراخيص سارية في السعودية، ومخاطر النزف وموانع الاستعمال المرتبطة بالأوعية الدماغية كبيرة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-prasugrel-1 -->
 
@@ -148,7 +152,7 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 
 <!-- review:begin sa-lic-20261106-prasugrel-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم نسبة الفائدة إلى مخاطر النزف في الفئات المستهدفة، وبحث وضع التسويق الملغى (إعادة تسجيل أو توفر بديل).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم نسبة الفائدة إلى مخاطر النزف في الفئات المستهدفة، وبحث وضع التسويق الملغى (إعادة تسجيل أو توفر بديل).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-prasugrel-2 -->
 
@@ -160,8 +164,8 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «الدواء بلا تراخيص سارية في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «وبحث وضع التسويق الملغى (إعادة تسجيل أو توفر بديل)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «الدواء بلا تراخيص سارية في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وبحث وضع التسويق الملغى (إعادة تسجيل أو توفر بديل)» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e) |
 
 <!-- review:end log -->

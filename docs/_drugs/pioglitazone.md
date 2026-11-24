@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pioglitazone: الاستطباب الجديد المتوقع Opsismodysplasia (مستوى الدليل L5). الاستطباب الأصلي: داء السكري من النوع الثاني"
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -92,13 +92,19 @@ predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classi
 
 جميع التراخيص الـ15 مسجلة بحالة **سارية**، أي 15 ترخيصاً ساري المفعول من أصل 15. نص الاستطباب المعتمد والشكل الدوائي غير متوفرين في البيانات. أبرز المنتجات:
 
-| المنتج | الشكل الدوائي | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| ACTOS 15MG TABLET | أقراص | APM | ساري |
-| ACTOS 30MG TAB | أقراص | APM | ساري |
-| GLUSTIN 30MG TAB | أقراص | TAKEDA | ساري |
-| GLADOS 30MG TABLET | أقراص | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
-| OGLITON 30 MG Tablet | أقراص | ACTAVIS | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ACTOS 15MG TABLET | PIOGLITAZONE | APM | ساري |
+| ACTOS 30MG TAB | PIOGLITAZONE | APM | ساري |
+| GLUSTIN 30MG TAB | PIOGLITAZONE | TAKEDA | ساري |
+| GLADOS 30MG TABLET | PIOGLITAZONE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| OGLITON 30 MG Tablet | PIOGLITAZONE | ACTAVIS | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 15 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,7 +129,7 @@ predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classi
 
 <!-- review:begin sa-lic-20261106-pioglitazone-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التوقع قائم على نموذج TxGNN فقط (L5) دون أي تجربة سريرية أو منشور داعم، والصلة الآلية تأملية. كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 15، منها سارية: 15؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التوقع قائم على نموذج TxGNN فقط (L5) دون أي تجربة سريرية أو منشور داعم، والصلة الآلية تأملية. كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-pioglitazone-1 -->
 
@@ -136,7 +142,7 @@ predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classi
 
 <!-- review:begin sa-lic-20261106-pioglitazone-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي (سبب إلغاء التراخيص) قبل أي خطة للتطوير في السوق السعودي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 15، منها سارية: 15؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي (سبب إلغاء التراخيص) قبل أي خطة للتطوير في السوق السعودي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-pioglitazone-2 -->
 
@@ -148,8 +154,8 @@ predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classi
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «(سبب إلغاء التراخيص)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «(سبب إلغاء التراخيص)» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Labetalol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 description: "Labetalol: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -80,12 +80,16 @@ description: "Labetalol: الاستطباب الجديد المتوقع Malignan
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| TRANDATE TAB 100 MG. | TRANDATE TAB 100 MG. (GLAXO) | غير محدد | غير متوفر (ساري) |
-| TRANDATE 100MG TABLET | TRANDATE 100MG TABLET (ASPEN) | أقراص | غير متوفر (ساري) |
-| TRANDATE INJ. 100 MG.-AMP.20ML | TRANDATE INJ. 100 MG.-AMP.20ML (CENEXI) | حقن (أمبولة) | غير متوفر (ساري) |
-| TRANDATE TAB 200 MG. | TRANDATE TAB 200 MG. (ASPEN Bad Oldesloe GmbH) | أقراص | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TRANDATE TAB 100 MG. | LABETALOL HYDROCHLORIDE | GLAXO | ساري |
+| TRANDATE 100MG TABLET | LABETALOL HYDROCHLORIDE | ASPEN | ساري |
+| TRANDATE INJ. 100 MG.-AMP.20ML | LABETALOL HYDROCHLORIDE | CENEXI | ساري |
+| TRANDATE TAB 200 MG. | LABETALOL HYDROCHLORIDE | ASPEN Bad Oldesloe GmbH | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -114,7 +118,7 @@ description: "Labetalol: الاستطباب الجديد المتوقع Malignan
 
 <!-- review:begin sa-lic-20261106-labetalol-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي في السعودية (أسباب إلغاء التراخيص وإمكانية إعادة التسجيل).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي في السعودية (أسباب إلغاء التراخيص وإمكانية إعادة التسجيل).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-labetalol-1 -->
 
@@ -126,7 +130,7 @@ description: "Labetalol: الاستطباب الجديد المتوقع Malignan
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «(أسباب إلغاء التراخيص وإمكانية إعادة التسجيل)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «(أسباب إلغاء التراخيص وإمكانية إعادة التسجيل)» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

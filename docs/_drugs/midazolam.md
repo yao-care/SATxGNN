@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 558
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Midazolam: الاستطباب الجديد المتوقع الأرق (مستوى الدليل L2). الاستطباب الأصلي: القلق"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -94,13 +94,19 @@ predicted_indications: ["insomnia (disease)"]
 
 جميع التراخيص التسعة سارية (9 تراخيص سارية من أصل 9)، ولم يُدرج نص الاستطباب المعتمد في أي منها.
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| HIKMA MIDAZOLAM 5MG-1ML AMPOULES | Hikma Midazolam 5mg/1ml (شركة Hikma) | غير محدد | غير متوفر |
-| DORMICUM 5MG-1ML AMP. | Dormicum 5mg/1ml (شركة CENEXI) | غير محدد | غير متوفر |
-| DORMICUM 5MG-5ML AMP. | Dormicum 5mg/5ml (شركة CENEXI) | غير محدد | غير متوفر |
-| DORMICUM 15MG-3ML AMP. | Dormicum 15mg/3ml (شركة CENEXI) | غير محدد | غير متوفر |
-| MODZAL 15MG/3ML INJECTION | Modzal 15mg/3ml (شركة MS Pharma) | حقن | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| HIKMA MIDAZOLAM 5MG-1ML AMPOULES | MIDAZOLAM | Hikma Farmaceutica | ساري |
+| DORMICUM 5MG-1ML AMP. | MIDAZOLAM | CENEXI | ساري |
+| DORMICUM 5MG-5ML AMP. | MIDAZOLAM | CENEXI | ساري |
+| DORMICUM 15MG-3ML AMP. | MIDAZOLAM | CENEXI | ساري |
+| MODZAL 15MG/3ML INJECTION | MIDAZOLAM | MS Pharma | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -130,7 +136,7 @@ predicted_indications: ["insomnia (disease)"]
 
 <!-- review:begin sa-lic-20261106-midazolam-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم جدوى الشكل الفموي المنوّم وتوفره في السوق السعودي، نظراً لأن التراخيص الملغاة كلها حقن.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 9، منها سارية: 9؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم جدوى الشكل الفموي المنوّم وتوفره في السوق السعودي، نظراً لأن التراخيص الملغاة كلها حقن.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-midazolam-1 -->
 
@@ -142,7 +148,7 @@ predicted_indications: ["insomnia (disease)"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «نظراً لأن التراخيص الملغاة كلها حقن» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «نظراً لأن التراخيص الملغاة كلها حقن» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
 
 <!-- review:end log -->

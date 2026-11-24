@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Efmoroctocog Alfa: الاستطباب الجديد المتوقع مرض فون ويلبراند الكاذب (pseudo-von Willebrand disease) (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا، والشكل العَرَضي للهيموفيليا لدى الناقلات من الإنا…"
 monitor_inn: "EFMOROCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
@@ -97,13 +97,19 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ELOCTA 250 IU POWDER FOR SOLUTION FOR INJECTION | ELOCTA 250 IU | مسحوق لمحلول للحقن | غير مذكور في البيانات |
-| ELOCTA 500 IU POWDER FOR SOLUTION FOR INJECTION | ELOCTA 500 IU | مسحوق لمحلول للحقن | غير مذكور في البيانات |
-| ELOCTA 1000 IU POWDER FOR SOLUTION FOR INJECTION | ELOCTA 1000 IU | مسحوق لمحلول للحقن | غير مذكور في البيانات |
-| ELOCTA 1500 IU POWDER FOR SOLUTION FOR INJECTION | ELOCTA 1500 IU | مسحوق لمحلول للحقن | غير مذكور في البيانات |
-| ELOCTA 2000 IU POWDER FOR SOLUTION FOR INJECTION | ELOCTA 2000 IU | مسحوق لمحلول للحقن | غير مذكور في البيانات |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ELOCTA 250 IU POWDER FOR SOLUTION FOR INJECTION | EFMOROCTOCOG ALFA | VETTER PHARMA-FERTIGUNG GMBH & CO. KG | ساري |
+| ELOCTA 500 IU POWDER FOR SOLUTION FOR INJECTION | EFMOROCTOCOG ALFA | VETTER PHARMA-FERTIGUNG GMBH & CO. KG | ساري |
+| ELOCTA 1000 IU POWDER FOR SOLUTION FOR INJECTION | EFMOROCTOCOG ALFA | VETTER PHARMA-FERTIGUNG GMBH & CO. KG | ساري |
+| ELOCTA 1500 IU POWDER FOR SOLUTION FOR INJECTION | EFMOROCTOCOG ALFA | VETTER PHARMA-FERTIGUNG GMBH & CO. KG | ساري |
+| ELOCTA 2000 IU POWDER FOR SOLUTION FOR INJECTION | EFMOROCTOCOG ALFA | VETTER PHARMA-FERTIGUNG GMBH & CO. KG | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ملاحظة: جميع التراخيص الستة سارية.
 
@@ -136,7 +142,7 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 
 <!-- review:begin sa-lic-20261106-efmoroctocog_alfa-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من وضع التسويق، وما إذا كان إلغاء التراخيص تجارياً أم تنظيمياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من وضع التسويق، وما إذا كان إلغاء التراخيص تجارياً أم تنظيمياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-efmoroctocog_alfa-1 -->
 
@@ -148,7 +154,7 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وما إذا كان إلغاء التراخيص تجارياً أم تنظيمياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وما إذا كان إلغاء التراخيص تجارياً أم تنظيمياً» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945) |
 
 <!-- review:end log -->

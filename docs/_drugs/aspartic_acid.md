@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 75
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Aspartic Acid: الاستطباب الجديد المتوقع الحُماض الأنبوبي الكلوي (مستوى الدليل L5). الاستطباب الأصلي: نقص البوتاسيوم (من الاستطبابات الأصلية في قاعدة المعرفة؛ لا يوجد نص ا…"
 monitor_inn: "aspartic acid"
 predicted_indications: ["renal tubular acidosis"]
@@ -89,13 +89,19 @@ predicted_indications: ["renal tubular acidosis"]
 
 الدواء مسوّق، و9 تراخيص سارية من أصل 9. نصوص الاستطباب وأشكال الجرعات غير متوفرة في البيانات.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| AMINOPLASMAL B BRAUN 10% | AMINOPLASMAL B BRAUN 10% | غير متوفر | غير متوفر |
-| AMINOPLASMAL 15 % I.V INFUSION SOLN | AMINOPLASMAL 15 % I.V INFUSION SOLN | غير متوفر | غير متوفر |
-| OLIMEL N9 emulsion for infusion | OLIMEL N9 | مستحلب للتسريب | غير متوفر |
-| OLIMEL N5E emulsion for infusion | OLIMEL N5E | مستحلب للتسريب | غير متوفر |
-| OLIMEL N7E emulsion for infusion | OLIMEL N7E | مستحلب للتسريب | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AMINOPLASMAL B BRAUN 10% | TYROSINE,SERINE,PROLINE,GLUTAMIC ACID,ASPARTIC ACID,GLYCINE,ALANINE,ARGININE,TRYPTOPHAN,TH… | B. BRAUN | ساري |
+| AMINOPLASMAL 15 % I.V INFUSION SOLN | TYROSINE,SERINE,GLUTAMIC ACID,ACETYLCYSTEINE,ASPARTIC ACID,PROLINE,ALANINE,HISTIDINE,VALIN… | B. BRAUN | ساري |
+| OLIMEL N9 emulsion for infusion | GLUCOSE,OLIVE OIL,SOYA OIL,ALANINE,ARGININE,LYSINE,LEUCINE,PHENYLALANINE,GLYCINE,VALINE,PR… | Baxalta manufacturing Sarl | ساري |
+| OLIMEL N5E emulsion for infusion | GLUCOSE,OLIVE OIL,SOYA OIL,ALANINE,SODIUM GLYCEROPHOSPHATE,ARGININE,LYSINE,GLYCINE,PHENYLA… | Baxalta Belgium Manufacturing SA | ساري |
+| OLIMEL N7E emulsion for infusion | OLIVE OIL,SOYA OIL,ALANINE,ARGININE,ASPARTIC ACID,GLUTAMIC ACID,GLYCINE,HISTIDINE,ISOLEUCI… | Baxalta Belgium Manufacturing SA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,7 +131,7 @@ predicted_indications: ["renal tubular acidosis"]
 
 <!-- review:begin sa-lic-20261106-aspartic_acid-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح سبب إلغاء التراخيص التسعة وجدوى الإتاحة التجارية. / تحديد الاستطباب الأصلي بدقة (حمض أسبارتيك منفردًا أم أملاحه، وضمن محاليل الأحماض الأمينية الوريدية).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 9، منها سارية: 9؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح سبب إلغاء التراخيص التسعة وجدوى الإتاحة التجارية. / تحديد الاستطباب الأصلي بدقة (حمض أسبارتيك منفردًا أم أملاحه، وضمن محاليل الأحماض الأمينية الوريدية).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-aspartic_acid-1 -->
 
@@ -137,7 +143,7 @@ predicted_indications: ["renal tubular acidosis"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح سبب إلغاء التراخيص التسعة وجدوى الإتاحة التجارية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح سبب إلغاء التراخيص التسعة وجدوى الإتاحة التجارية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

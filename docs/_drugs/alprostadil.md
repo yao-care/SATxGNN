@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 43
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ALPROSTADIL"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
 description: "Alprostadil: الاستطباب الجديد المتوقع تشوه الأبهر (aortic malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -81,23 +81,15 @@ description: "Alprostadil: الاستطباب الجديد المتوقع تشو
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CAVERJECT 20MCG VIAL (ساري) | CAVERJECT 20MCG VIAL، شركة Pfizer | غير متوفر | غير متوفر |
-| VITAROS 3MG/GM CREAM (ساري) | VITAROS 3MG/GM CREAM، شركة Groupe Parima | غير متوفر | غير متوفر |
-| PROSTIN VR AMP (ملغى) | PROSTIN VR AMP، شركة Pfizer Manufacturing Belgium | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
 
-<!-- review:begin sa-row-20261112-alprostadil-1 -->
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CAVERJECT 20MCG VIAL | ALPROSTADIL | PFIZER | ساري |
+| VITAROS 3MG/GM CREAM | ALPROSTADIL | GROUPE PARIMA INC | ساري |
+| PROSTIN VR AMP | ALPROSTADIL | Pfizer Manufacturing Belgium N.V. | ساري |
 
-> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «CAVERJECT 20MCG VIAL (ملغى)» المستحضر CAVERJECT 20MCG VIAL مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
-
-<!-- review:end sa-row-20261112-alprostadil-1 -->
-
-<!-- review:begin sa-row-20261112-alprostadil-2 -->
-
-> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «VITAROS 3MG/GM CREAM (ملغى)» المستحضر VITAROS 3MG/GM CREAM مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
-
-<!-- review:end sa-row-20261112-alprostadil-2 -->
+<!-- licenses:end -->
 
 الجهات المصنِّعة: فايزر (Caverject)، مجموعة باريما (Vitaros)، فايزر للتصنيع في بلجيكا (Prostin VR).
 
@@ -133,8 +125,8 @@ description: "Alprostadil: الاستطباب الجديد المتوقع تشو
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-12 | الجدول: CAVERJECT 20MCG VIAL مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
-| 2026-11-12 | الجدول: VITAROS 3MG/GM CREAM مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: CAVERJECT 20MCG VIAL مسجل (ساري) وليس ملغى | حلّ محله جدول التراخيص المولَّد برمجيًا (سابقًا: صُحّح) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: VITAROS 3MG/GM CREAM مسجل (ساري) وليس ملغى | حلّ محله جدول التراخيص المولَّد برمجيًا (سابقًا: صُحّح) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98) |
 
 <!-- review:end log -->

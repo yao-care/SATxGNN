@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 279
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxazosin: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم، وتضخم البروستات الحميد (بحسب الرسم المعرفي للنموذج،…"
 monitor_inn: "DOXAZOSIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -88,25 +88,25 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الثمانية (8 من 8) سارية. ولا تتوفر في البيانات نصوص الاستطباب المعتمدة أو الأشكال الدوائية.
 
-| المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| CARDURA 1 mg tablet | Pfizer Manufacturing Deutschland GmbH | ساري |
-| CARDURA 2 mg tablet | Pfizer Manufacturing Deutschland GmbH | ساري |
-| CARDURA 4 mg tablet | PFIZER | ساري |
-| CARDURA XL 4 mg tablet | Pfizer Pharmaceutical LLC | ساري |
-| DOXAGEN 1 / 2 / 4 | RIYADH PHARMA | ساري |
+<!-- licenses:begin -->
 
-<!-- review:begin sa-row-20261112-doxazosin-1 -->
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CARDURA 1 mg tablet | DOXAZOSIN | Pfizer Manufacturing Deutschland GmbH | ساري |
+| CARDURA 2 mg tablet | DOXAZOSIN | Pfizer Manufacturing Deutschland GmbH | ساري |
+| CARDURA 4 mg tablet | DOXAZOSIN | PFIZER | ساري |
+| CARDURA XL 4 mg tablet | DOXAZOSIN | Pfizer Pharmaceutical LLC | ساري |
+| DOXAGEN 1 | DOXAZOSIN | RIYADH PHARMA | ساري |
 
-> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «ملغى» المستحضر DOXAGEN 1 / 2 / 4 مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
 
-<!-- review:end sa-row-20261112-doxazosin-1 -->
+<!-- licenses:end -->
 
 (يوجد أيضاً UNIPROST 4 MG TABLETS من BATTERJEE PHARMACEUTICAL FACTORY.)
 
 <!-- review:begin sa-lic-20261106-doxazosin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(يوجد أيضاً UNIPROST 4 MG TABLETS من BATTERJEE PHARMACEUTICAL FACTORY، وهو ملغى كذلك.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(يوجد أيضاً UNIPROST 4 MG TABLETS من BATTERJEE PHARMACEUTICAL FACTORY، وهو ملغى كذلك.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-doxazosin-1 -->
 
@@ -143,7 +143,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 
 <!-- review:begin sa-lic-20261106-doxazosin-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي والتجاري للدواء في السعودية بعد إلغاء التراخيص. / إن توفر مبرر كافٍ، تصميم دراسة استكشافية مضبوطة صغيرة تقيّم التحمل والفعالية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي والتجاري للدواء في السعودية بعد إلغاء التراخيص. / إن توفر مبرر كافٍ، تصميم دراسة استكشافية مضبوطة صغيرة تقيّم التحمل والفعالية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-doxazosin-2 -->
 
@@ -155,9 +155,9 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وهو ملغى كذلك» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي والتجاري للدواء في السعودية بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-12 | الجدول: DOXAGEN 1 / 2 / 4 مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-06 | حُذف: «وهو ملغى كذلك» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي والتجاري للدواء في السعودية بعد إلغاء التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | الجدول: DOXAGEN 1 / 2 / 4 مسجل (ساري) وليس ملغى | حلّ محله جدول التراخيص المولَّد برمجيًا (سابقًا: صُحّح) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 description: "Plerixafor: الاستطباب الجديد المتوقع CMM7 (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -82,11 +82,15 @@ description: "Plerixafor: الاستطباب الجديد المتوقع CMM7 (�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص / المنتج | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|------|
-| MOZOBIL 24mg/1.2ml solution for injection | MOZOBIL (محلول للحقن) | Genzyme Corporation | ساري |
-| Plerix | Plerix | Saudi Hetero Lab Co. | ساري |
-| HEMABO 24MG/1.2ML | HEMABO | MSN Laboratories Private Limited | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MOZOBIL 24mg/1.2ml solution for injection | PLERIXAFOR | Genzyme Corporation | ساري |
+| Plerix | PLERIXAFOR | Saudi Hetero Lab Co. | ساري |
+| HEMABO 24MG/1.2ML | PLERIXAFOR | MSN LABORATORIES PRIVATE LIMITED | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -113,7 +117,7 @@ description: "Plerixafor: الاستطباب الجديد المتوقع CMM7 (�
 
 <!-- review:begin sa-lic-20261106-plerixafor-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي بعد إلغاء التراخيص الحالية. / تقييم مستقل لاستطباب **الابيضاض النقوي (myeloid leukemia)**، وهو تنبؤ آخر لنفس الدواء لديه دعم أقوى بكثير.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي بعد إلغاء التراخيص الحالية. / تقييم مستقل لاستطباب **الابيضاض النقوي (myeloid leukemia)**، وهو تنبؤ آخر لنفس الدواء لديه دعم أقوى بكثير.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-plerixafor-1 -->
 
@@ -125,7 +129,7 @@ description: "Plerixafor: الاستطباب الجديد المتوقع CMM7 (�
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص الحالية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

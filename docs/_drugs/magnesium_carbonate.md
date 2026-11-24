@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 523
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "magnesium carbonate"
 predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach disease", "duodenal obstruction"]
 description: "Magnesium Carbonate: الاستطباب الجديد المتوقع التهاب المعدة والاثني عشر (gastroduodenitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -70,10 +70,14 @@ description: "Magnesium Carbonate: الاستطباب الجديد المتوق�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| RENNIE TAB | RENNIE TAB (الشركة المصنّعة: DELPHARM GAILLARD) | غير متوفر | غير متوفر (الترخيص ساري) |
-| NOVAGEL TAB | NOVAGEL TAB (الشركة المصنّعة: APM) | غير متوفر | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RENNIE TAB | CALCIUM CARBONATE,MAGNESIUM CARBONATE | DELPHARM GAILLARD | ساري |
+| NOVAGEL TAB | ALUMINIUM HYDROXIDE, MAGNESIUM CARBONATE, MAGNESIUM HYDROXIDE | APM | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

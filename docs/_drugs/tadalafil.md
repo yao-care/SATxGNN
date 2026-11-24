@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 784
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Tadalafil: الاستطباب الجديد المتوقع Ambras type hypertrichosis universalis congenita (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 18 على الأقل"
@@ -99,13 +99,20 @@ description: "Tadalafil: الاستطباب الجديد المتوقع Ambras t
 
 ولا تتوفر نصوص الاستطباب المعتمدة ولا أشكال الجرعات في البيانات. أبرز التراخيص:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CIALIS ONCE-A-DAY 5MG TABLETS | CIALIS ONCE-A-DAY 5MG TABLETS (شركة ELI LILLY) | غير متوفر | غير متوفر |
-| AVIALIS 5 MG F.C.TABLET | AVIALIS 5 MG F.C.TABLET (MECP) | غير متوفر | غير متوفر |
-| SNAFI 5 mg Film Coated Tablet | SNAFI 5 mg Film Coated Tablet (SPIMACO) | غير متوفر | غير متوفر |
-| XYRIO 20 mg Tablet | XYRIO 20 mg Tablet (APOTEX) | غير متوفر | غير متوفر |
-| TYRA 20 mg film-coated tablet | TYRA 20 mg film-coated tablet (دار الدواء) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CIALIS ONCE-A-DAY 5MG TABLETS | TADALAFIL | ELI LILLY | ساري |
+| AVIALIS 5 MG F.C.TABLET | TADALAFIL | Middle East Pharmaceutical Industries Co. Ltd. (MECP) | ساري |
+| SNAFI 5 mg Film Coated Tablet | TADALAFIL | SPIMACO | ساري |
+| XYRIO 20 mg Tablet | TADALAFIL | APOTEX | ساري |
+| TYRA 20 mg film-coated tablet | TADALAFIL | DAR ALDAWA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 18 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 820
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tobramycin: الاستطباب الجديد المتوقع التهاب القرنية الناتج عن التعرّض (exposure keratitis) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الملتحمة، والتهاب القزحية العنبية، وعدوى المكورات العنقودية ال…"
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
@@ -93,13 +93,19 @@ predicted_indications: ["exposure keratitis", "non-human animal disease", "otiti
 
 جميع التراخيص التسعة سارية (9 من 9)، ولا يتوفر نص الاستطباب المعتمد ولا الشكل الصيدلاني لأي منها ضمن البيانات المجمّعة. أبرز خمسة منها:
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| TOBREX OPTH.SOLUTION 0.3% | TOBREX (ألكون) | غير متوفر | غير متوفر |
-| TOBREX OPTH.OINT. 0.3% | TOBREX (ألكون) | غير متوفر | غير متوفر |
-| TOBRACIN 0.3% EYE DROPS | TOBRACIN (عمّان للصناعات الدوائية) | غير متوفر | غير متوفر |
-| TOBI PODHALER 28MG | TOBI PODHALER (نوفارتس) | غير متوفر | غير متوفر |
-| NEBCIN 80MG-2ML VIAL | NEBCIN (إيلي ليلي) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TOBREX OPTH.SOLUTION 0.3% | TOBRAMYCIN | ALCON COUVREUR | ساري |
+| TOBREX OPTH.OINT. 0.3% | TOBRAMYCIN | ALCON COUVREUR | ساري |
+| TOBRACIN 0.3% EYE DROPS | TOBRAMYCIN | Amman Pharmaceutical Industries (API) | ساري |
+| TOBI PODHALER 28MG | TOBRAMYCIN | NOVARTIS | ساري |
+| NEBCIN 80MG-2ML VIAL | TOBRAMYCIN | ELI LILLY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -135,7 +141,7 @@ predicted_indications: ["exposure keratitis", "non-human animal disease", "otiti
 
 <!-- review:begin sa-lic-20261106-tobramycin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إعادة تقييم الوضع التنظيمي في السعودية، إذ إن التراخيص جميعها ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 9، منها سارية: 9؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إعادة تقييم الوضع التنظيمي في السعودية، إذ إن التراخيص جميعها ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-tobramycin-1 -->
 
@@ -149,7 +155,7 @@ predicted_indications: ["exposure keratitis", "non-human animal disease", "otiti
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «إذ إن التراخيص جميعها ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «إذ إن التراخيص جميعها ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
 
 <!-- review:end log -->

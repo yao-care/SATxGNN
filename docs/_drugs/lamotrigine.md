@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 477
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LAMOTRIGINE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Lamotrigine: الاستطباب الجديد المتوقع Trigeminal nerve neoplasm (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 14 (السارية: 14)"
@@ -100,13 +100,19 @@ description: "Lamotrigine: الاستطباب الجديد المتوقع Trigem
 
 وفيما يلي أبرز خمسة منها:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LAMICTAL | LAMICTAL | غير متوفر | غير متوفر في البيانات |
-| LAMIRA 100 mg TABLET | LAMIRA 100 mg (سبيماكو) | أقراص | غير متوفر في البيانات |
-| LOXOL 100MG TABLET | LOXOL 100MG (الجزيرة للصناعات الدوائية) | أقراص | غير متوفر في البيانات |
-| LAMOTRIX 100MG TABLET | LAMOTRIX 100MG (ميدوكيمي) | أقراص | غير متوفر في البيانات |
-| SEIZET 100 mg Chewable/Dispersible Tablet | SEIZET 100 mg (الشركة المتحدة للأدوية) | أقراص قابلة للمضغ/التشتت | غير متوفر في البيانات |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LAMICTAL | LAMOTRIGINE | DELPHARM POZNAN SPOLKA AKCYJNA | ساري |
+| LAMIRA 100 mg TABLET | LAMOTRIGINE | SPIMACO | ساري |
+| LOXOL 100MG TABLET | LAMOTRIGINE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| LAMOTRIX 100MG TABLET | LAMOTRIGINE | MEDOCHEMIE LTD PHARMACEUTICAL INDUSTRY | ساري |
+| SEIZET 100 mg Chewable/Dispersible Tablet | LAMOTRIGINE | UNITED PHARMACEUTICAL COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 14 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

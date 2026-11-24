@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DROPERIDOL"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Droperidol: الاستطباب الجديد المتوقع متلازمة توريت (Tourette syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -78,9 +78,13 @@ description: "Droperidol: الاستطباب الجديد المتوقع متل�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| DORAVIT 1.25MG/ML I.V. INJECTION | DORAVIT 1.25MG/ML I.V. INJECTION (الشركة المصنّعة: HIKMA ITALIA SPA) | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DORAVIT 1.25MG/ML I.V. INJECTION | DROPERIDOL | HIKMA ITALIA SPA | ساري |
+
+<!-- licenses:end -->
 
 ---
 

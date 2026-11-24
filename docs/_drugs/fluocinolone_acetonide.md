@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FLUOCINOLONE ACETONIDE"
 predicted_indications: ["lichen planus pemphigoides"]
 description: "Fluocinolone Acetonide: الاستطباب الجديد المتوقع الليكن المسطح الفقاعي الشبيه بالفقاع (lichen planus pemphigoides) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -78,13 +78,17 @@ description: "Fluocinolone Acetonide: الاستطباب الجديد المتو
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الشركة المصنعة | الحالة |
-|---------|------|------|------|------|
-| SYNALAR OINTMENT | SYNALAR OINTMENT | غير متوفر | GRUNENTHAL | ساري |
-| PETRALAR 0.025% CREAM | PETRALAR 0.025% CREAM | كريم | ARAB CENTER FOR PHARMACEUTICALS & CHEMICAL IND. CO. | ساري |
-| PETRALAR-F 0.25% CREAM | PETRALAR-F 0.25% CREAM | كريم | ARAB CENTER FOR PHARMACEUTICALS & CHEMICAL IND. CO. | ساري |
-| SYNALAR CREAM | SYNALAR CREAM | كريم | GRUNENTHAL | ساري |
-| DERMOLAR | DERMOLAR | غير متوفر | RIYADH PHARMA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SYNALAR OINTMENT | FLUOCINOLONE ACETONIDE | GRUNENTHAL | ساري |
+| PETRALAR 0.025% CREAM | FLUOCINOLONE ACETONIDE | ARAB CENTER FOR PHARMACEUTICALS & CHEMICAL IND. CO. | ساري |
+| PETRALAR-F 0.25% CREAM | FLUOCINOLONE ACETONIDE | ARAB CENTER FOR PHARMACEUTICALS & CHEMICAL IND. CO. | ساري |
+| SYNALAR CREAM | FLUOCINOLONE ACETONIDE | GRUNENTHAL | ساري |
+| DERMOLAR | FLUOCINOLONE ACETONIDE | RIYADH PHARMA | ساري |
+
+<!-- licenses:end -->
 
 ---
 

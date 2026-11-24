@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DEXLANSOPRAZOLE"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dexlansoprazole: الاستطباب الجديد المتوقع التهاب المعدة والاثني عشر (gastroduodenitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
@@ -68,12 +68,16 @@ description: "Dexlansoprazole: الاستطباب الجديد المتوقع ا
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| INSTIGAR 60 mg Delayed-Release Capsule | INSTIGAR 60 mg Delayed-Release Capsule (شركة TAKEDA) | غير مسجل | غير مسجل |
-| INSTIGAR 30 mg Delayed-Release Capsule | INSTIGAR 30 mg Delayed-Release Capsule (شركة TAKEDA) | غير مسجل | غير مسجل |
-| DEXILANT 60 mg | DEXILANT 60 mg (شركة TAKEDA GMBH) | غير مسجل | غير مسجل |
-| DEXILANT 30 mg | DEXILANT 30 mg (شركة TAKEDA GMBH) | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| INSTIGAR 60 mg Delayed-Release Capsule | DEXLANSOPRAZOLE | TAKEDA | ساري |
+| INSTIGAR 30 mg Delayed-Release Capsule | DEXLANSOPRAZOLE | TAKEDA | ساري |
+| DEXILANT 60 mg | DEXLANSOPRAZOLE | TAKEDA GMBH | ساري |
+| DEXILANT 30 mg | DEXLANSOPRAZOLE | TAKEDA GMBH | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

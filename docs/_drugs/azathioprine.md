@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "AZATHIOPRINE"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Azathioprine: الاستطباب الجديد المتوقع متلازمة صغر العين الثلمي مع خلل التنسج الجذري الطرفي (colobomatous microphthalmia-rhizomelic dysplasia syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل ف…"
 ---
 
@@ -79,6 +79,17 @@ description: "Azathioprine: الاستطباب الجديد المتوقع مت�
 ---
 
 ## معلومات السوق في المملكة العربية السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AZAMUN | AZATHIOPRINE | BAYER SCHERING PHARMA | ساري |
+| AZAPRIN | AZATHIOPRINE | KUWAIT SAUDI PHARMACEUTICAL INDUSTRIES | ساري |
+| IMURAN | AZATHIOPRINE | EXCELLA GMBH CO. KG | ساري |
+| IMURAN 50MG VIAL | AZATHIOPRINE | GLAXOSMITHKLINE (GSK) | ساري |
+
+<!-- licenses:end -->
 
 يُسوَّق أزاثيوبرين حالياً في المملكة، وتتوفر له عدة تراخيص لمنتجات أحادية المكوّن من عدة شركات مصنّعة. ولا يعني ذلك أن الدواء مرخّص للاستطباب المتنبأ به.
 

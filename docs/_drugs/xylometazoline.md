@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 881
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Xylometazoline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L3). الاستطباب الأصلي: التهاب البلعoم (pharyngitis)، نزلة البرد (common cold)"
 monitor_inn: "Xylometazoline"
 predicted_indications: ["nasal cavity disease"]
@@ -91,13 +91,19 @@ predicted_indications: ["nasal cavity disease"]
 
 يوجد 19 ترخيصًا ساريًا من أصل 19 ترخيصًا مسجلًا. وفيما يلي أبرز خمسة منها (نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات):
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| OTRIVIN | OTRIVIN | نوفارتس | ساري |
-| NAZIX NASAL DROPS 0.05% W-V | NAZIX NASAL DROPS 0.05% | سبيماكو | ساري |
-| XYLOLIN 0.1% ADULT NASAL SPRAY | XYLOLIN 0.1% Adult Nasal Spray | الخليج للصناعات الدوائية (جلفار) | ساري |
-| DECOZAL 0.05% NASAL DROPS | DECOZAL 0.05% Nasal Drops | عمّان للصناعات الدوائية | ساري |
-| XYLO-MEPHA 0.05% NASAL SPRAY | XYLO-MEPHA 0.05% Nasal Spray | ميركل | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| OTRIVIN | XYLOMETAZOLINE HYDROCHLORIDE | NOVARTIS | ساري |
+| NAZIX NASAL DROPS 0.05% W-V | XYLOMETAZOLINE HYDROCHLORIDE | SPIMACO | ساري |
+| XYLOLIN 0.1% ADULT NASAL SPRAY | XYLOMETAZOLINE HYDROCHLORIDE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| DECOZAL 0.05% NASAL DROPS | XYLOMETAZOLINE HYDROCHLORIDE | Amman Pharmaceutical Industries (API) | ساري |
+| XYLO-MEPHA 0.05% NASAL SPRAY | XYLOMETAZOLINE HYDROCHLORIDE | MERCKLE | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -126,7 +132,7 @@ predicted_indications: ["nasal cavity disease"]
 
 <!-- review:begin sa-lic-20261106-xylometazoline-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح أسباب إلغاء التراخيص السابقة والمسار التنظيمي لإعادة التسجيل. / وضع خطة مراقبة سلامة للمرضى المصابين بأمراض القلب والأوعية الدموية والسكري واضطرابات الغدة الدرقية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 19، منها سارية: 19؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح أسباب إلغاء التراخيص السابقة والمسار التنظيمي لإعادة التسجيل. / وضع خطة مراقبة سلامة للمرضى المصابين بأمراض القلب والأوعية الدموية والسكري واضطرابات الغدة الدرقية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-xylometazoline-1 -->
 
@@ -140,7 +146,7 @@ predicted_indications: ["nasal cavity disease"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص السابقة والمسار التنظيمي لإعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص السابقة والمسار التنظيمي لإعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 487
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Leflunomide: الاستطباب الجديد المتوقع متلازمة قِصَر الأصابع والتصاق الأصابع (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، التهاب المفاصل الصدفي (من الرسم المعرفي ل…"
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -80,12 +80,16 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 الدواء مسوَّق في هذا البلد، وجميع التراخيص الأربعة سارية (4 من 4).
 
-| رقم الترخيص / اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| RHEUFACT 20MG FILM COATED TABLETS | Jazeera Pharmaceutical Industries (JPI) | ساري |
-| RHEUFACT 10MG FILM COATED TABLETS | Jazeera Pharmaceutical Industries (JPI) | ساري |
-| ARAVA 20MG FILM COATED TABLETS | sanofi-aventis | ساري |
-| ARAVA 10MG FILM COATED TABLETS | sanofi-aventis | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RHEUFACT 20MG FILM COATED TABLETS | LEFLUNOMIDE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| RHEUFACT 10MG FILM COATED TABLETS | LEFLUNOMIDE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| ARAVA 20MG FILM COATED TABLETS | LEFLUNOMIDE | sanofi-aventis | ساري |
+| ARAVA 10MG FILM COATED TABLETS | LEFLUNOMIDE | sanofi-aventis | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -117,7 +121,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 <!-- review:begin sa-lic-20261106-leflunomide-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «العيوب البنيوية الجنينية يصعب أن تستجيب لدواء يُعطى بعد الولادة، والدواء مسخّ للجنين، ولا يوجد حالياً ترخيص ساري في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «العيوب البنيوية الجنينية يصعب أن تستجيب لدواء يُعطى بعد الولادة، والدواء مسخّ للجنين، ولا يوجد حالياً ترخيص ساري في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-leflunomide-1 -->
 
@@ -141,7 +145,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «ولا يوجد حالياً ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «ولا يوجد حالياً ترخيص ساري في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
 
 <!-- review:end log -->

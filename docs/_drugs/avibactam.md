@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "avibactam"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Avibactam: الاستطباب الجديد المتوقع Ureter tuberculosis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -84,9 +84,13 @@ description: "Avibactam: الاستطباب الجديد المتوقع Ureter t
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ZAVICEFTA 2 g/0.5 g Vial | ZAVICEFTA 2 g/0.5 g Vial | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ZAVICEFTA 2 g/0.5 g Vial | CEFTAZIDIME,AVIBACTAM | ACS DOBFAR SPA | ساري |
+
+<!-- licenses:end -->
 
 يخص هذا الترخيص منتجاً مركباً (سيفتازيديم/أفيباكتام) من الشركة المصنعة ACS DOBFAR SPA، ولا يصف حالة اعتماد أفيباكتام منفرداً.
 

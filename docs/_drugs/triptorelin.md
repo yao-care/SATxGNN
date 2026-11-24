@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 844
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRIPTORELIN"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 description: "Triptorelin: الاستطباب الجديد المتوقع فرط الشعر (hypertrichosis (disease)) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
@@ -72,13 +72,19 @@ description: "Triptorelin: الاستطباب الجديد المتوقع فرط
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص / اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|-----------|
-| DIPHERELINE 0.1 MG POWDER FOR SOLUTION FOR INJECTION / INFUSION | IPSEN PHARMA BIOTECH | ساري |
-| DIPHERELINE P.R. 3 mg Powder for Suspension for Injection | IPSEN PHARMA BIOTECH | ساري |
-| DECAPEPTYL DEPOT NOVUM 3.75MG VIAL+SOLVT | FERRING | ساري |
-| DECAPEPTYL CR 3.75MG SYRINGE | FERRING | ساري |
-| DIPHERELINE P.R. 11.25 mg Powder for Suspension for Injection | IPSEN PHARMA BIOTECH | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DIPHERELINE 0.1 MG POWDER FOR SOLUTION FOR INJECTION / INFUSION | TRIPTORELIN | IPSEN PHARMA BIOTECH | ساري |
+| DIPHERELINE P.R. 3 mg Powder for Suspension for Injection | TRIPTORELIN | IPSEN PHARMA BIOTECH | ساري |
+| DECAPEPTYL DEPOT NOVUM 3.75MG VIAL+SOLVT | TRIPTORELIN | FERRING | ساري |
+| DECAPEPTYL CR 3.75MG SYRINGE | TRIPTORELIN | FERRING | ساري |
+| DIPHERELINE P.R. 11.25 mg Powder for Suspension for Injection | TRIPTORELIN | IPSEN PHARMA BIOTECH | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 جميع التراخيص الستة سارية، وهي لمنتجات أحادية المكوّن.
 

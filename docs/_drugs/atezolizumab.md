@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ATEZOLIZUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atezolizumab: الاستطباب الجديد المتوقع سرطان غدي في الرباط الرحمي (uterine ligament adenocarcinoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -70,9 +70,13 @@ description: "Atezolizumab: الاستطباب الجديد المتوقع سر�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| TECENTRIQ 60 mg/ml Concentrate For Solution For Infusion | TECENTRIQ 60 mg/ml Concentrate For Solution For Infusion | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TECENTRIQ 60 mg/ml Concentrate For Solution For Infusion | ATEZOLIZUMAB | ROCHE DIAGNOSTICS | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

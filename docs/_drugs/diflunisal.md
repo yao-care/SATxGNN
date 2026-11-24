@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 259
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DIFLUNISAL"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
 description: "Diflunisal: الاستطباب الجديد المتوقع خلل التنسج الطرفي المتوسط، نوع هنتر-طومسون (acromesomelic dysplasia, Hunter-Thompson type) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -68,9 +68,13 @@ description: "Diflunisal: الاستطباب الجديد المتوقع خلل 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| DOLOBID | DOLOBID (الشركة: MERCK SHARP & DOHME) | غير محدد | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DOLOBID | DIFLUNISAL | MERCK SHARP & DOHME | ساري |
+
+<!-- licenses:end -->
 
 يوجد ترخيص واحد ساري المفعول لمنتج أحادي المكوّن.
 

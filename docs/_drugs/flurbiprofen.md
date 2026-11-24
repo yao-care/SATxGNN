@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FLURBIPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
 description: "Flurbiprofen: الاستطباب الجديد المتوقع خلل التنسج الطرفي المتوسط من نوع هانتر-تومسون (acromesomelic dysplasia, Hunter-Thompson type) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -70,10 +70,14 @@ description: "Flurbiprofen: الاستطباب الجديد المتوقع خل�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| FROBEN TAB 50MG | FROBEN TAB 50MG (الشركة: Reckitt Benckiser Healthcare International) | غير متوفر | غير متوفر (الترخيص ساري) |
-| FROBEN TAB 100MG | FROBEN TAB 100MG (الشركة: Reckitt Benckiser Healthcare International) | غير متوفر | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FROBEN TAB 50MG | FLURBIPROFEN | RECKITT BENCKISER HEALTHCARE INTERNATIONAL | ساري |
+| FROBEN TAB 100MG | FLURBIPROFEN | RECKITT BENCKISER HEALTHCARE INTERNATIONAL | ساري |
+
+<!-- licenses:end -->
 
 الترخيصان المسجلان ساريان (عددهما 2 من 2 مسجلة).
 

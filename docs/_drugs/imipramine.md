@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 434
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Imipramine: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (مستوى الدليل L3). الاستطباب الأصلي: اضطراب القلق، الاضطراب العصابي، اضطراب الدستيميا، التبول الليلي (من ر…"
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
@@ -91,12 +91,16 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الشركة المصنّعة | الحالة |
-|---------|------|------|------|-----------|
-| TOFRANIL 25 MG 50 TAB | TOFRANIL 25 MG 50 TAB | غير متوفر | PATHEON | ساري |
-| IMIPREX 10 MG TAB | IMIPREX 10 MG TAB | غير متوفر | ALPHARMA APS | ساري |
-| IMIPREX 25 MG. TAB | IMIPREX 25 MG. TAB | غير متوفر | AXELLIA PHARMACEUTICALS | ساري |
-| TOFRANIL 10 MG TAB | TOFRANIL 10 MG TAB | غير متوفر | NOVARTIS | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TOFRANIL 25 MG 50 TAB | IMIPRAMINE HYDROCHLORIDE | PATHEON | ساري |
+| IMIPREX 10 MG TAB | IMIPRAMINE HYDROCHLORIDE | ALPHARMA APS | ساري |
+| IMIPREX 25 MG. TAB | IMIPRAMINE HYDROCHLORIDE | AXELLIA PHARMACEUTICALS | ساري |
+| TOFRANIL 10 MG TAB | IMIPRAMINE HYDROCHLORIDE | NOVARTIS | ساري |
+
+<!-- licenses:end -->
 
 لا تتوفر نصوص الاستطبابات المعتمدة لهذه التراخيص.
 
@@ -122,7 +126,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 
 <!-- review:begin sa-lic-20261106-imipramine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص المنتج في السعودية ملغاة، وبيانات السلامة من النشرة الدوائية غير متوفرة (فجوة بيانات مانعة للانتقال إلى مرحلة فحص السلامة)، مع مخاطر قلبية ومضادة للكولين خاصة عند الأطفال، ووجود بدائل راسخة (المنشّطات وأتوموكسيتين).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص المنتج في السعودية ملغاة، وبيانات السلامة من النشرة الدوائية غير متوفرة (فجوة بيانات مانعة للانتقال إلى مرحلة فحص السلامة)، مع مخاطر قلبية ومضادة للكولين خاصة عند الأطفال، ووجود بدائل راسخة (المنشّطات وأتوموكسيتين).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-imipramine-1 -->
 
@@ -143,7 +147,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919) |
 
 <!-- review:end log -->

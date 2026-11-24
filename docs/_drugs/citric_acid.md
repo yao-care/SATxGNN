@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
 description: "Citric Acid: الاستطباب الجديد المتوقع أمراض المعدة (stomach disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 11 (السارية: 11)"
@@ -78,13 +78,19 @@ description: "Citric Acid: الاستطباب الجديد المتوقع أمر
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| FAWAR LEMON EFFERVESCENT SALT SACHETS 5G | FAWAR LEMON EFFERVESCENT SALT SACHETS 5G (فارما، PHARCO) | غير متوفر | غير متوفر |
-| ANDREWS LIVER SALT SACHET 5GM | ANDREWS LIVER SALT SACHET 5GM (سميث كلاين بيتشام) | غير متوفر | غير متوفر |
-| EPICO EFFERVESCENT SALT | EPICO EFFERVESCENT SALT (EIPICO) | غير متوفر | غير متوفر |
-| PICOPREP POWDER FOR ORAL SOLUTION | PICOPREP POWDER FOR ORAL SOLUTION (Ferring) | غير متوفر | غير متوفر |
-| CITRO-SODA GRANULES | CITRO-SODA GRANULES (Abbott) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FAWAR LEMON EFFERVESCENT SALT SACHETS 5G | SODIUM BICARBONATE,TARTARIC ACID,CITRIC ACID ANHYDROUS | PHARCO PHARMACEUTICAL | ساري |
+| ANDREWS LIVER SALT SACHET 5GM | SODIUM HYDROGEN CARBONATE,CITRIC ACID ANHYDROUS,MAGNESIUM SULFATE | SMIITHKLINE BEECHAM | ساري |
+| EPICO EFFERVESCENT SALT | CITRIC ACID, MAGNESIUM SULFATE, SODIUM BICARBONATE | EIPICO | ساري |
+| PICOPREP POWDER FOR ORAL SOLUTION | CITRIC ACID ANHYDROUS,MAGNESIUM OXIDE,SODIUM PICOSULFATE | Ferring Pharmaceutical China Co Ltd | ساري |
+| CITRO-SODA GRANULES | CITRIC ACID, SODIUM BICARBONATE, SODIUM CITRATE, TARTARIC ACID | Abbott Laboratories | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

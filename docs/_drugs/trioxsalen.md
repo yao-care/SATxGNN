@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 842
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trioxsalen: الاستطباب الجديد المتوقع التهاب المهبل (vaginitis) (مستوى الدليل L5). الاستطباب الأصلي: البهاق، أمراض الحساسية للضوء، الاستجابة الضوئية الاختلاجية (من الرسم…"
 monitor_inn: "TRIOXSALEN"
 predicted_indications: ["vaginitis (disease)", "leukoplakia of vagina", "vaginal discharge", "bacterial vaginosis", "vulvar inverted follicular keratosis", "postmenopausal atrophic vaginitis", "vulvitis", "vulvovaginitis", "ulceration of vulva", "vulvar neoplasm"]
@@ -92,9 +92,13 @@ predicted_indications: ["vaginitis (disease)", "leukoplakia of vagina", "vaginal
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| TRISORALEN TABLET 5MG | TRISORALEN TABLET 5MG (الشركة المصنعة: I.C.N. Pharmaceuticals) | غير محدد | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TRISORALEN TABLET 5MG | TRIOXSALEN | I.C.N.PHARMACEUTICALS | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -126,7 +130,7 @@ predicted_indications: ["vaginitis (disease)", "leukoplakia of vagina", "vaginal
 
 <!-- review:begin sa-lic-20261106-trioxsalen-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدواء غير مسوّق حاليًا في السعودية (الترخيص الوحيد ملغى)، وهناك مخاوف تتعلق بالسرطنة والتحسس الضوئي، وتتوفر علاجات قياسية فعّالة لمعظم الحالات المتوقعة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدواء غير مسوّق حاليًا في السعودية (الترخيص الوحيد ملغى)، وهناك مخاوف تتعلق بالسرطنة والتحسس الضوئي، وتتوفر علاجات قياسية فعّالة لمعظم الحالات المتوقعة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-trioxsalen-1 -->
 
@@ -145,7 +149,7 @@ predicted_indications: ["vaginitis (disease)", "leukoplakia of vagina", "vaginal
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «الدواء غير مسوّق حاليًا في السعودية (الترخيص الوحيد ملغى)، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «الدواء غير مسوّق حاليًا في السعودية (الترخيص الوحيد ملغى)، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL1475 (trioxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1475) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 850
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Turoctocog Alfa Pegol: الاستطباب الجديد المتوقع اضطراب إفراز الصفائح الدموية الأولي (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا، والشكل العَرَضي من الهيموفيليا لدى الحاملات من الإناث (ل…"
 monitor_inn: "TUROCTOCOG ALFA PEGOL"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "hereditary thrombocytosis with transverse limb defect", "fetal and neonatal alloimmune thrombocytopenia"]
@@ -93,9 +93,13 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Esperoct | Esperoct (الشركة المصنّعة: Novo Nordisk Bagsvaerd) | غير محدد | غير محدد (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Esperoct | TUROCTOCOG ALFA PEGOL | Novo Nordisk Bagsvaerd | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -121,7 +125,7 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 <!-- review:begin sa-lic-20261106-turoctocog_alfa_pegol-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من هوية المرض «flood factor deficiency» في الأنطولوجيا قبل أي تقييم. / توضيح وضع الترخيص الملغى وإمكانية إعادة التسجيل أو توفر المنتج في السوق السعودي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من هوية المرض «flood factor deficiency» في الأنطولوجيا قبل أي تقييم. / توضيح وضع الترخيص الملغى وإمكانية إعادة التسجيل أو توفر المنتج في السوق السعودي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-turoctocog_alfa_pegol-1 -->
 
@@ -133,7 +137,7 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح وضع الترخيص الملغى وإمكانية إعادة التسجيل أو توفر المنتج في السوق السعودي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح وضع الترخيص الملغى وإمكانية إعادة التسجيل أو توفر المنتج في السوق السعودي» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 623
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: الاستطباب الجديد المتوقع Parameningeal embryonal rhabdomyosarcoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
@@ -110,15 +110,19 @@ description: "Paclitaxel: الاستطباب الجديد المتوقع Paramen
 
 ولم تتوفر نصوص المؤشرات المعتمدة ولا الأشكال الصيدلانية في البيانات.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| EBETAXEL 6MG-ML SOLU. FOR I.V. INFUSION | EBETAXEL 6MG-ML (Fareva Unterach) | غير متوفر | غير متوفر | ساري |
-| ABRAXANE | ABRAXANE (Abraxis BioScience) | غير متوفر | غير متوفر | ساري |
-| ANZATAX 6MG-ML VIAL | ANZATAX (Hospira Australia) | غير متوفر | غير متوفر | ساري |
-| Ebetaxel 30mg/5ml | Ebetaxel 30mg/5ml (Fareva Unterach) | غير متوفر | غير متوفر | ساري |
-| Ebetaxel 150mg/25ml | Ebetaxel 150mg/25ml (Fareva Unterach) | غير متوفر | غير متوفر | ساري |
+<!-- licenses:begin -->
 
-(عُرضت 5 من أصل 7 تراخيص.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| EBETAXEL 6MG-ML SOLU. FOR I.V. INFUSION | PACLITAXEL | Fareva Unterach GmbH | ساري |
+| ABRAXANE | PACLITAXEL | Abraxis BioScience, LLC | ساري |
+| ANZATAX 6MG-ML VIAL | PACLITAXEL | HOSPIRA AUSTRALIA | ساري |
+| Ebetaxel 30mg/5ml | PACLITAXEL | Fareva Unterach GmbH | ساري |
+| Ebetaxel 150mg/25ml | PACLITAXEL | Fareva Unterach GmbH | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -162,7 +166,7 @@ description: "Paclitaxel: الاستطباب الجديد المتوقع Paramen
 
 <!-- review:begin sa-lic-20261106-paclitaxel-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي بعد إلغاء التراخيص السبعة وإمكانية إعادة التسجيل. / وضع خطة لمراقبة تثبيط نقي العظم والاعتلال العصبي والتداخلات الدوائية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 7، منها سارية: 7؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي بعد إلغاء التراخيص السبعة وإمكانية إعادة التسجيل. / وضع خطة لمراقبة تثبيط نقي العظم والاعتلال العصبي والتداخلات الدوائية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-paclitaxel-1 -->
 
@@ -176,7 +180,7 @@ description: "Paclitaxel: الاستطباب الجديد المتوقع Paramen
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص السبعة وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص السبعة وإمكانية إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
 
 <!-- review:end log -->

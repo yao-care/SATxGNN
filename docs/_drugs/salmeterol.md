@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 745
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: الاستطباب الجديد المتوقع تشوه الجهاز التنفسي (respiratory malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 13 على الأقل"
@@ -88,13 +88,20 @@ description: "Salmeterol: الاستطباب الجديد المتوقع تشو�
 
 وضع السوق: مطروح. توجد 13 رخصة سارية، وقد تكون القائمة جزئية.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Seroflo 50/250 Ciphaler | Seroflo 50/250 Ciphaler (Cipla) | غير متوفر | غير متوفر |
-| RESPIRA Aurohaler 25/250 | RESPIRA Aurohaler 25/250 (GlaxoWellcome) | غير متوفر | غير متوفر |
-| ROLENIUM 500/50 mcg Elpenhaler | ROLENIUM 500/50 mcg Elpenhaler (Elpen) | غير متوفر | غير متوفر |
-| SERETIDE EVOHALER | SERETIDE EVOHALER (Glaxo Saudi Arabia) | غير متوفر | غير متوفر |
-| SERETIDE DISKUS 50\100MCG | SERETIDE DISKUS 50\100MCG (Glaxo) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Seroflo 50/250 Ciphaler | FLUTICASONE PROPIONATE,SALMETEROL | Cipla Limited | ساري |
+| RESPIRA Aurohaler 25/250 | FLUTICASONE PROPIONATE, SALMETEROL | GLAXOWELLCOME | ساري |
+| ROLENIUM 500/50 mcg Elpenhaler | FLUTICASONE PROPIONATE,SALMETEROL | ELPEN PHARMACEUTICALS | ساري |
+| SERETIDE EVOHALER | FLUTICASONE PROPIONATE,SALMETEROL | GLAXO SAUDI ARABIA | ساري |
+| SERETIDE DISKUS 50\100MCG | FLUTICASONE PROPIONATE, SALMETEROL | GLAXO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 13 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

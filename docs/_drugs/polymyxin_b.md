@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 668
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "polymyxin b"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"
@@ -85,15 +85,27 @@ description: "Polymyxin B: الاستطباب الجديد المتوقع الت
 
 ## معلومات السوق في السعودية
 
-تضم السجلات المحلية 15 ترخيصاً سارياً لمنتجات تحتوي على بوليميكسين ب، وجميعها منتجات أحادية المكوّن بحسب التصنيف المسجل، ولا يتوفر نص استطباب معتمد فيها. أبرزها:
+تضم السجلات المحلية 15 ترخيصاً سارياً لمنتجات تحتوي على بوليميكسين ب، وجميعها مستحضرات مركّبة تحتوي على بوليميكسين ب مع مواد فعالة أخرى بحسب قائمة SFDA، ولا يتوفر نص استطباب معتمد فيها. أبرزها:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| STATROL OPHTHALMIC OINTMENT | STATROL OPHTHALMIC OINTMENT | ALCON COUVREUR | ساري |
-| MAXITROL DROPS | MAXITROL DROPS | Siegfried EI Masnou | ساري |
-| MAXITROL EYE OINT. | MAXITROL EYE OINT. | ALCON COUVREUR | ساري |
-| POLYSPECTRAN EYE EAR DROPS | POLYSPECTRAN EYE EAR DROPS | DR. THILO LABORATORIES | ساري |
-| OTOSPORIN EAR DROPS | OTOSPORIN EAR DROPS | GLAXOSMITHKLINE (GSK) | ساري |
+<!-- review:begin sa-lic-20261124-polymyxin_b-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-24)**: كان النص الأصلي: «وجميعها منتجات أحادية المكوّن بحسب التصنيف المسجل» جميع المستحضرات المدرجة في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء تجمع بوليميكسين ب مع مواد فعالة أخرى (مثل NEOMYCIN SULFATE وDEXAMETHASONE وTRIMETHOPRIM وBACITRACIN)، فهي مستحضرات مركّبة وليست أحادية المكوّن. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-lic-20261124-polymyxin_b-1 -->
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| STATROL OPHTHALMIC OINTMENT | NEOMYCIN SULFATE, POLYMYXIN B SULFATE | ALCON COUVREUR | ساري |
+| MAXITROL DROPS | POLYMYXIN B,NEOMYCIN SULFATE,DEXAMETHASONE | Siegfried EI Masnou, S.A | ساري |
+| MAXITROL EYE OINT. | DEXAMETHASONE, NEOMYCIN SULFATE, POLYMYXIN B SULFATE | ALCON COUVREUR | ساري |
+| POLYSPECTRAN EYE EAR DROPS | POLYMYXIN B,NEOMYCIN SULFATE,GRAMICIDIN | DR. THILO LABORATORIES | ساري |
+| OTOSPORIN EAR DROPS | HYDROCORTISONE, NEOMYCIN SULFATE, POLYMYXIN B SULFATE | GLAXOSMITHKLINE (GSK) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 15 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 
@@ -124,11 +136,12 @@ description: "Polymyxin B: الاستطباب الجديد المتوقع الت
 
 ## سجل المراجعة
 
-فيما يلي سجل المراجعة لهذه الصفحة. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية)؛ ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات. استُبدلت العبارة التي تفيد بعدم توفر بيانات عن آلية العمل بمقتطف من معلومات الوصف الرسمية المذكورة (مع ترجمة غير رسمية).
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6) |
+| 2026-11-24 | «وجميعها منتجات أحادية المكوّن بحسب التصنيف المسجل» ← «وجميعها مستحضرات مركّبة تحتوي على بوليميكسين ب مع مواد فعالة أخرى بحسب قائمة SFDA» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 
 <!-- review:end log -->
 

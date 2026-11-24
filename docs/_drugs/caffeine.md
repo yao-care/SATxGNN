@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caffeine: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -76,11 +76,15 @@ description: "Caffeine: الاستطباب الجديد المتوقع أمرا�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PEYONA 20MG/ML SOL. FOR INF. AND ORAL Solution | PEYONA 20MG/ML SOL. FOR INF. AND ORAL Solution | غير مسجّل | غير مسجّل |
-| BIOCAFFCIT | BIOCAFFCIT | غير مسجّل | غير مسجّل |
-| CAFFEINE CITRATE 10 mg/ml Solution For Injection | CAFFEINE CITRATE 10 mg/ml Solution For Injection | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PEYONA 20MG/ML SOL. FOR INF. AND ORAL Solution | CAFFEINE CITRATE | ALFASIGMA S.p.A. | ساري |
+| BIOCAFFCIT | CAFFEINE CITRATE | Pharmaceutical Solution Industries (PSI) | ساري |
+| CAFFEINE CITRATE 10 mg/ml Solution For Injection | CAFFEINE CITRATE | MACARTHYS LABORATORIES LIMITED T\A MARTINDALE PHARMA | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

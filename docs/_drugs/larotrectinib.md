@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "LAROTRECTINIB"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
 description: "Larotrectinib: الاستطباب الجديد المتوقع الورم الغدي الصماوي المتعدد (multiple endocrine neoplasia) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -75,9 +75,13 @@ description: "Larotrectinib: الاستطباب الجديد المتوقع ال
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| VITRAKVI | VITRAKVI (الشركة: NEXT PHARMA) | غير محدد | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VITRAKVI | LAROTRECTINIB | NEXT PHARMA | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنِّعة: NEXT PHARMA. الترخيص الوحيد المسجل ساري المفعول.
 

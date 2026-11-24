@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 819
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "TIZANIDINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
 description: "Tizanidine: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (migraine disorder) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
@@ -82,13 +82,19 @@ description: "Tizanidine: الاستطباب الجديد المتوقع اضط�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| SIRDALUD 4MG TAB | SIRDALUD 4MG TAB (نوفارتس) | أقراص | غير متوفر (ساري) |
-| SIRDALUD 2MG TAB | SIRDALUD 2MG TAB (نوفارتس) | أقراص | غير متوفر (ساري) |
-| TILAX 4 MG TABLET | TILAX 4 MG (الرياض فارما) | أقراص | غير متوفر (ساري) |
-| TILAX 2 MG TABLET | TILAX 2 MG (الرياض فارما) | أقراص | غير متوفر (ساري) |
-| RELEZIN 4 MG TABLET | RELEZIN 4 MG (الشركة المتحدة للأدوية) | أقراص | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SIRDALUD 4MG TAB | TIZANIDINE | NOVARTIS | ساري |
+| SIRDALUD 2MG TAB | TIZANIDINE | NOVARTIS | ساري |
+| TILAX 4 MG TABLET | TIZANIDINE | RIYADH PHARMA | ساري |
+| TILAX 2 MG TABLET | TIZANIDINE | RIYADH PHARMA | ساري |
+| RELEZIN 4 MG TABLET | TIZANIDINE | UNITED PHARMACEUTICAL COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

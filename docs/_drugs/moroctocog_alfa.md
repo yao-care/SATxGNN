@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 569
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
 description: "Moroctocog Alfa: الاستطباب الجديد المتوقع اضطراب إفراز الصفائح الدموية الأولي (primary release disorder of platelets) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -95,12 +95,16 @@ description: "Moroctocog Alfa: الاستطباب الجديد المتوقع ا
 
 جميع التراخيص الأربعة **سارية**، والدواء مسوّق. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| XYNTHA 250 I.U. POWDER FOR SOLUTION FOR INJECTION | XYNTHA 250 I.U. | WYETH | ساري |
-| XYNTHA 500 I.U. POWDER FOR SOLUTION FOR INJECTION | XYNTHA 500 I.U. | WYETH | ساري |
-| XYNTHA 1000 I.U. POWDER FOR SOLUTION FOR INJECTION | XYNTHA 1000 I.U. | WYETH | ساري |
-| XYNTHA 2000 I.U. POWDER FOR SOLUTION FOR INJECTION | XYNTHA 2000 I.U. | WYETH | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| XYNTHA 250 I.U. POWDER FOR SOLUTION FOR INJECTION | MOROCTOCOG ALFA | WYETH | ساري |
+| XYNTHA 500 I.U. POWDER FOR SOLUTION FOR INJECTION | MOROCTOCOG ALFA | WYETH | ساري |
+| XYNTHA 1000 I.U. POWDER FOR SOLUTION FOR INJECTION | MOROCTOCOG ALFA | WYETH | ساري |
+| XYNTHA 2000 I.U. POWDER FOR SOLUTION FOR INJECTION | MOROCTOCOG ALFA | WYETH | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -120,7 +124,7 @@ description: "Moroctocog Alfa: الاستطباب الجديد المتوقع ا
 
 <!-- review:begin sa-lic-20261106-moroctocog_alfa-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في السعودية ملغاة، ولم تكتمل بيانات السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في السعودية ملغاة، ولم تكتمل بيانات السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-moroctocog_alfa-1 -->
 
@@ -132,7 +136,7 @@ description: "Moroctocog Alfa: الاستطباب الجديد المتوقع ا
 
 <!-- review:begin sa-lic-20261106-moroctocog_alfa-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح هوية الاستطباب "flood factor deficiency" قبل أي تقييم. / إعادة تقييم الجدوى التجارية في ظل إلغاء جميع التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح هوية الاستطباب "flood factor deficiency" قبل أي تقييم. / إعادة تقييم الجدوى التجارية في ظل إلغاء جميع التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-moroctocog_alfa-2 -->
 
@@ -144,8 +148,8 @@ description: "Moroctocog Alfa: الاستطباب الجديد المتوقع ا
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «إعادة تقييم الجدوى التجارية في ظل إلغاء جميع التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «إعادة تقييم الجدوى التجارية في ظل إلغاء جميع التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

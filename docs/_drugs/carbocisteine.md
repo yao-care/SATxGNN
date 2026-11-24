@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 147
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Carbocisteine: الاستطباب الجديد المتوقع النقرس (Gout) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في تراخيص الهيئة العامة للغذاء والدواء (نصوص الاستطباب فارغ…"
 monitor_inn: "carbocisteine"
 predicted_indications: ["gout"]
@@ -82,13 +82,17 @@ predicted_indications: ["gout"]
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الخمسة ساريّة (5 من 5). نصوص الاستطباب وأشكال الجرعات غير متوفرة في السجلات.
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| BRONCHOBOS 375 MG CAPSULES | BRONCHOBOS 375 MG CAPSULES | BOSNALIJEK PHARMACEUTICAL | ساري |
-| RHINATHIOL EXPECTORANT CARBOCISTEINE 5% SYRUP FOR ADULT | RHINATHIOL EXPECTORANT 5% SYRUP FOR ADULT | Unither Liquid Manufacturing | ساري |
-| RHINATHIOL CAPS 375MG | RHINATHIOL CAPS 375MG | sanofi-aventis | ساري |
-| RHINATHIOL SYRUP 20MG-ML CHILDREN | RHINATHIOL SYRUP 20MG-ML CHILDREN | sanofi-aventis | ساري |
-| RHINATHIOL PLUS | RHINATHIOL PLUS | sanofi-aventis | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BRONCHOBOS 375 MG CAPSULES | CARBOCYSTEINE | BOSNALIJEK PHARMACEUTICAL | ساري |
+| RHINATHIOL EXPECTORANT CARBOCISTEINE 5% SYRUP FOR ADULT | CARBOCYSTEINE | Unither Liquid Manufacturing | ساري |
+| RHINATHIOL CAPS 375MG | CARBOCYSTEINE | sanofi-aventis | ساري |
+| RHINATHIOL SYRUP 20MG-ML CHILDREN | CARBOCYSTEINE | sanofi-aventis | ساري |
+| RHINATHIOL PLUS | PROMETHAZINE,CARBOCISTEINE | sanofi-aventis | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -109,7 +113,7 @@ predicted_indications: ["gout"]
 
 <!-- review:begin sa-lic-20261106-carbocisteine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ قائم على درجة النموذج فقط (مستوى الأدلة L5) دون أي تجارب سريرية أو منشورات، ولا يوجد رابط آلية عمل مثبت مع النقرس. / جميع تراخيص الدواء في السعودية ملغاة، ما يزيد من صعوبة المضي قدمًا عمليًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ قائم على درجة النموذج فقط (مستوى الأدلة L5) دون أي تجارب سريرية أو منشورات، ولا يوجد رابط آلية عمل مثبت مع النقرس. / جميع تراخيص الدواء في السعودية ملغاة، ما يزيد من صعوبة المضي قدمًا عمليًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-carbocisteine-1 -->
 
@@ -128,7 +132,7 @@ predicted_indications: ["gout"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، ما يزيد من صعوبة المضي قدمًا عمليًا» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، ما يزيد من صعوبة المضي قدمًا عمليًا» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 628
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: الاستطباب الجديد المتوقع Duodenal obstruction (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 18 على الأقل"
@@ -95,7 +95,7 @@ description: "Pantoprazole: الاستطباب الجديد المتوقع Duode
 
 ## معلومات السوق في المملكة العربية السعودية
 
-تتضمن البيانات 18 ترخيصًا لمستحضرات بانتوبرازول أحادية المكوّن. ولم تتوفر نصوص الاستطباب المعتمدة ولا الأشكال الدوائية في السجلات.
+تتضمن البيانات تراخيص لمستحضرات بانتوبرازول أحادية المكوّن (انظر جدول النظرة السريعة وجدول التراخيص). ولم تتوفر نصوص الاستطباب المعتمدة ولا الأشكال الدوائية في السجلات.
 
 <!-- review:begin sa-lic-20261106-pantoprazole-1 -->
 
@@ -103,15 +103,20 @@ description: "Pantoprazole: الاستطباب الجديد المتوقع Duode
 
 <!-- review:end sa-lic-20261106-pantoprazole-1 -->
 
-| اسم الترخيص/المنتج | الشركة المصنّعة | الحالة |
-|---------|------|-----------|
-| PROTON 40MG E.C TAB | SPIMACO | ساري |
-| PANTOMAX 40MG E.C.TABLETS | SAJA | ساري |
-| PANTOMAX 20MG E.C. TABLETS | SAJA | ساري |
-| TOPRAZOLE 20MG ENTERIC COATED TABLETS | Tabuk Pharmaceutical | ساري |
-| PANTOZOL 40MG I.V Powder for injection | Takeda GmbH | ساري |
+<!-- licenses:begin -->
 
-(عُرضت 5 تراخيص من أصل 18.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PROTON 40MG E.C TAB | PANTOPRAZOLE | SPIMACO | ساري |
+| PANTOMAX 40MG E.C.TABLETS | PANTOPRAZOLE | SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO | ساري |
+| PANTOMAX 20MG E.C. TABLETS | PANTOPRAZOLE | SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO | ساري |
+| TOPRAZOLE 20MG ENTERIC COATED TABLETS | PANTOPRAZOLE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| PANTOZOL 40MG I.V Powder for injection | PANTOPRAZOLE | TAKEDA GMBH | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 18 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 
@@ -145,7 +150,7 @@ description: "Pantoprazole: الاستطباب الجديد المتوقع Duode
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وجميعها **ملغاة** حاليًا، ولا يوجد أي ترخيص ساري» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وجميعها **ملغاة** حاليًا، ولا يوجد أي ترخيص ساري» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
 
 <!-- review:end log -->

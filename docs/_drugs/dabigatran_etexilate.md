@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "DABIGATRAN ETEXILATE"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
 description: "Dabigatran Etexilate: الاستطباب الجديد المتوقع التهاب الأقنية الصفراوية المصلّب (sclerosing cholangitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -70,12 +70,16 @@ description: "Dabigatran Etexilate: الاستطباب الجديد المتوق
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PRADAXA 75MG CAPSULES | PRADAXA 75MG CAPSULES (Boehringer Ingelheim) | غير متوفر | غير متوفر (ساري) |
-| PRADAXA 110MG CAPSULES | PRADAXA 110MG CAPSULES (Boehringer Ingelheim) | غير متوفر | غير متوفر (ساري) |
-| PRADAXA 150MG CAPSULES | PRADAXA 150MG CAPSULES (Boehringer Ingelheim) | غير متوفر | غير متوفر (ساري) |
-| DABITRAN | DABITRAN (Hetero Labs) | غير متوفر | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PRADAXA 75MG CAPSULES | DABIGATRAN ETEXILATE | BOEHRINGER INGELHEIM | ساري |
+| PRADAXA 110MG CAPSULES | DABIGATRAN ETEXILATE | BOEHRINGER INGELHEIM | ساري |
+| PRADAXA 150MG CAPSULES | DABIGATRAN ETEXILATE | BOEHRINGER INGELHEIM | ساري |
+| DABITRAN | DABIGATRAN ETEXILATE | Hetero Labs Limited Unit – III | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الأربعة سارية.
 

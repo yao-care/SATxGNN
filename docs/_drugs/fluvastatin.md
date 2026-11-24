@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 6
 monitor_inn: "FLUVASTATIN"
 predicted_indications: ["HIV infectious disease", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "fibroma of prostate"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluvastatin: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (مستوى الدليل L3). الاستطباب الأصلي: تصلب الشرايين، وفرط شحميات الدم العائلي المختلط (علاقات مسجلة في الرس…"
 ---
 
@@ -91,10 +91,14 @@ description: "Fluvastatin: الاستطباب الجديد المتوقع عدو
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
-|---------|------|------|-----------|
-| LESCOL XL 80 MG FILM COATED TAB | LESCOL XL 80 MG FILM COATED TAB | غير متاح | غير متاح |
-| LESCOL 40MG CAPS | LESCOL 40MG CAPS | كبسولات | غير متاح |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LESCOL XL 80 MG FILM COATED TAB | FLUVASTATIN | Siegfried Barbera, S.L | ساري |
+| LESCOL 40MG CAPS | FLUVASTATIN | Siegfried Barbera, S.L | ساري |
+
+<!-- licenses:end -->
 
 الترخيصان ساريان لمنتجين أحاديي المادة، والجهة المصنعة Siegfried Barbera, S.L. لم تتوفر نصوص المؤشرات المعتمدة في بيانات التراخيص.
 

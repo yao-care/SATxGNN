@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 19
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Acetylcysteine: الاستطباب الجديد المتوقع أمراض الخثار (Thrombotic disease) (مستوى الدليل L1). الاستطباب الأصلي: التهاب الشعب الهوائية، التسمم بالباراسيتامول، التليف الكيسي، توسع الق…"
 monitor_inn: "ACETYLCYSTEINE"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
@@ -103,13 +103,19 @@ predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal ca
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الستة سارية (6 من 6). ولا تتضمن السجلات نصاً للاستطباب المعتمد ولا شكلاً دوائياً.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الشركة المصنعة |
-|---------|------|------|-----------|------|
-| ACETYLCISTEINE EFFE INSTANT 200MG SACHET | ACETYLCISTEINE EFFE INSTANT 200MG SACHET | غير محدد | غير محدد | SEDICO |
-| ACC LONG 600MG EFFERVESCENT TABLETS | ACC LONG 600MG EFFERVESCENT TABLETS | غير محدد | غير محدد | Hermes Pharma GmbH |
-| ACC 200MG POWDER FOR ORAL SOLUTION | ACC 200MG POWDER FOR ORAL SOLUTION | غير محدد | غير محدد | HEXAL |
-| ACETYLCYSTEINE 200mg/ml Injection | ACETYLCYSTEINE 200mg/ml Injection | غير محدد | غير محدد | ROTEX MEDICA GMBH |
-| FLUIMUCIL 200MG/1GM GRANULES FOR ORAL SOLUTION | FLUIMUCIL 200MG/1GM GRANULES FOR ORAL SOLUTION | غير محدد | غير محدد | ZAMBON SWITZERLAND LTD |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ACETYLCISTEINE EFFE INSTANT 200MG SACHET | ACETYLCYSTEINE | SEDICO | ساري |
+| ACC LONG 600MG EFFERVESCENT TABLETS | ACETYLCYSTEINE | Hermes Pharma GmbH | ساري |
+| ACC 200MG POWDER FOR ORAL SOLUTION | ACETYLCYSTEINE | HEXAL | ساري |
+| ACETYLCYSTEINE 200mg/ml Injection | ACETYLCYSTEINE | ROTEX MEDICA GMBH ARZNEIMITTELWERK | ساري |
+| FLUIMUCIL 200MG/1GM GRANULES FOR ORAL SOLUTION | ACETYLCYSTEINE | ZAMBON SWITZERLAND LTD | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,7 +137,7 @@ predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal ca
 
 <!-- review:begin sa-lic-20261106-acetylcysteine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لكن غياب نتائج الفعالية المنشورة، وتباين الحالات المشمولة تحت تسمية «أمراض الخثار»، يستدعيان الحذر. / لا يوجد حالياً ترخيص ساري في السعودية، وهذا يعيق التنفيذ مباشرة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لكن غياب نتائج الفعالية المنشورة، وتباين الحالات المشمولة تحت تسمية «أمراض الخثار»، يستدعيان الحذر. / لا يوجد حالياً ترخيص ساري في السعودية، وهذا يعيق التنفيذ مباشرة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-acetylcysteine-1 -->
 
@@ -151,7 +157,7 @@ predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal ca
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري في السعودية، وهذا يعيق التنفيذ مباشرة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري في السعودية، وهذا يعيق التنفيذ مباشرة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

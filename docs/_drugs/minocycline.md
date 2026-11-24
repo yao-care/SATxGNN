@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 562
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Minocycline: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة الظهاري النقطي (مستوى الدليل L5). الاستطباب الأصلي: التهابات المسالك البولية، التهاب الشعب الهوائية، حب الشباب، وعدوى بكت…"
 monitor_inn: "MINOCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
@@ -81,19 +81,25 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص / المنتج | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| VULGA 105 mg XR film-coated tablet | VULGA 105 mg XR | Jazeera Pharmaceutical Industries (JPI) | ساري |
-| VULGA 80 mg XR film-coated tablet | VULGA 80 mg XR | Jazeera Pharmaceutical Industries (JPI) | ساري |
-| MINOCIN 100MG PELLET FILLED CAPS | MINOCIN 100 mg | WYETH | ساري |
-| VULGA 65 mg XR film-coated tablet | VULGA 65 mg XR | Jazeera Pharmaceutical Industries (JPI) | ساري |
-| MINOCIN 50MG PELLET FILLED CAPS | MINOCIN 50 mg | WYETH | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VULGA 105 mg XR film-coated tablet | MINOCYCLINE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| VULGA 80 mg XR film-coated tablet | MINOCYCLINE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| MINOCIN 100MG PELLET FILLED CAPS | MINOCYCLINE | WYETH | ساري |
+| VULGA 65 mg XR film-coated tablet | MINOCYCLINE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| MINOCIN 50MG PELLET FILLED CAPS | MINOCYCLINE | WYETH | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 نصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة في البيانات.)
 
 <!-- review:begin sa-lic-20261106-minocycline-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(تم عرض 5 من أصل 6 تراخيص، وجميعها ملغاة. نصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة في البيانات.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(تم عرض 5 من أصل 6 تراخيص، وجميعها ملغاة. نصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة في البيانات.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-minocycline-1 -->
 
@@ -127,7 +133,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 
 <!-- review:begin sa-lic-20261106-minocycline-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «يستند التنبؤ إلى درجة النموذج فقط (مستوى الأدلة L5) دون أي تجربة سريرية أو منشور داعم، كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «يستند التنبؤ إلى درجة النموذج فقط (مستوى الأدلة L5) دون أي تجربة سريرية أو منشور داعم، كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-minocycline-2 -->
 
@@ -146,8 +152,8 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «(تم عرض 5 من أصل 6 تراخيص، وجميعها ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «(تم عرض 5 من أصل 6 تراخيص، وجميعها ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb) |
 
 <!-- review:end log -->

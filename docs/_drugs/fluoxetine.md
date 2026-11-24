@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FLUOXETINE"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluoxetine: الاستطباب الجديد المتوقع اضطراب الشخصية الفصامية (schizoid personality disorder) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 13 (السارية: 13)"
 ---
 
@@ -75,13 +75,19 @@ description: "Fluoxetine: الاستطباب الجديد المتوقع اضط�
 
 للدواء 13 ترخيصاً سارياً لمنتجات أحادية المادة الفعالة. أبرزها:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة |
-|---------|------|------|
-| FLUTIN 20MG CAPSULE | FLUTIN 20MG CAPSULE | الخليج للصناعات الدوائية (جلفار) |
-| FLUZYN 20MG CAPSULES | FLUZYN 20MG CAPSULES | عمان للمنتجات الدوائية |
-| FLUXETYL 20MG CAPSULES | FLUXETYL 20MG CAPSULES | الكويت السعودية للصناعات الدوائية |
-| PROZAC 20MG CAPSULES | PROZAC 20MG CAPSULES | سبيماكو |
-| LINZ 20 MG CAPSULE | LINZ 20 MG CAPSULE | تبوك للصناعات الدوائية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FLUTIN 20MG CAPSULE | FLUOXETINE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| FLUZYN 20MG CAPSULES | FLUOXETINE | OMAN PHARMACEUTICAL PRODUCTS | ساري |
+| FLUXETYL 20MG CAPSULES | FLUOXETINE | KUWAIT SAUDI PHARMACEUTICAL INDUSTRIES | ساري |
+| PROZAC 20MG CAPSULES | FLUOXETINE | SPIMACO | ساري |
+| LINZ 20 MG CAPSULE | FLUOXETINE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 13 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

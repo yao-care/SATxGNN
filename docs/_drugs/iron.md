@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "iron"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
 description: "Iron: الاستطباب الجديد المتوقع Vitamin B12- and folate-independent constitutional megaloblastic anemia (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -68,10 +68,14 @@ description: "Iron: الاستطباب الجديد المتوقع Vitamin B12- 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| VIDAYLIN + IRON-SYRUP | VIDAYLIN + IRON-SYRUP (Abbott Laboratories) | غير متوفر | غير متوفر |
-| SUPRAVIT CAPS | SUPRAVIT CAPS (GLAXO SAUDI ARABIA) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VIDAYLIN + IRON-SYRUP | IRON, MULTIVITAMINS | Abbott Laboratories | ساري |
+| SUPRAVIT CAPS | ASCORBIC ACID, FOLIC ACID, IRON, MINERALS, MULTIVITAMINS | GLAXO SAUDI ARABIA | ساري |
+
+<!-- licenses:end -->
 
 التراخيص المسجلة: ترخيصان، وكلاهما ساري.
 

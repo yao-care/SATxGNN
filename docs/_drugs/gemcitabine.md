@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GEMCITABINE"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
 description: "Gemcitabine: الاستطباب الجديد المتوقع Rectum mucinous adenocarcinoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"
@@ -104,13 +104,19 @@ description: "Gemcitabine: الاستطباب الجديد المتوقع Rectum
 
 نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في بيانات هذه التراخيص. فيما يلي أبرز خمسة تراخيص:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة |
-|---------|------|------|
-| GEMZAR 200MG LYPH.VIAL 5ML | GEMZAR 200MG LYPH.VIAL 5ML | Vianex S.A. |
-| GEMCITABINE ACTAVIS 1 GM | GEMCITABINE ACTAVIS 1 GM | ACTAVIS SPA |
-| GEMCITABINE GLENMARK 1000MG VIAL | GEMCITABINE GLENMARK 1000MG VIAL | GLENMARK GENERIC SA |
-| GEMCITABIN EBEWE 1000MG-100ML VAIL | GEMCITABIN EBEWE 1000MG-100ML VAIL | Fareva Unterach GmbH |
-| CITABOL 1000 mg powder for solution for infusion | CITABOL 1000 mg powder for solution for infusion | VENUS REMEDIES LIMITED |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| GEMZAR 200MG LYPH.VIAL 5ML | GEMCITABINE | Vianex S.A. – Plant C | ساري |
+| GEMCITABINE ACTAVIS 1 GM | GEMCITABINE | ACTAVIS SPA | ساري |
+| GEMCITABINE GLENMARK 1000MG VIAL | GEMCITABINE | GLENMARK GENERIC SA | ساري |
+| GEMCITABIN EBEWE 1000MG-100ML VAIL | GEMCITABINE | Fareva Unterach GmbH | ساري |
+| CITABOL 1000 mg powder for solution for infusion | GEMCITABINE | VENUS REMEDIES LIMITED | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 15 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

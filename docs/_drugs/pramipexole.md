@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 680
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pramipexole: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (ADHD) (مستوى الدليل L4). الاستطباب الأصلي: متلازمة تململ الساقين، مرض باركنسون (مأخوذ من الاستطبابات الأصلية في…"
 monitor_inn: "PRAMIPEXOLE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
@@ -90,12 +90,16 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|------|
-| SIFROL 0.7MG (EQU. 1.00MG) TAB | SIFROL 0.7MG (EQU. 1.00MG) TAB | Boehringer Ingelheim | ساري |
-| SIFROL 0.18 MG (EQU.0.25MG) TAB | SIFROL 0.18 MG (EQU.0.25MG) TAB | Boehringer Ingelheim | ساري |
-| SIFROL 0.088 MG (EQU.0.125MG) TAB | SIFROL 0.088 MG (EQU.0.125MG) TAB | Boehringer Ingelheim | ساري |
-| Dopaxol PR | Dopaxol PR | Tabuk Pharmaceutical Manufacturing Co. | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SIFROL 0.7MG (EQU. 1.00MG) TAB | PRAMIPEXOLE | BOEHRINGER INGELHEIM | ساري |
+| SIFROL 0.18 MG (EQU.0.25MG) TAB | PRAMIPEXOLE | BOEHRINGER INGELHEIM | ساري |
+| SIFROL 0.088 MG (EQU.0.125MG) TAB | PRAMIPEXOLE | BOEHRINGER INGELHEIM | ساري |
+| Dopaxol PR | PRAMIPEXOLE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الأربعة سارية المفعول (4 من 4)، والدواء مسوّق حالياً في هذا البلد.
 

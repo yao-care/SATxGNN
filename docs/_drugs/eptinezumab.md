@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 313
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Eptinezumab: الاستخدامات المعروفة وحالة التسويق في السعودية؛ لا يوجد حاليًا مؤشر مرشح جديد"
 predicted_indications: []
 ---
@@ -72,9 +72,13 @@ predicted_indications: []
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| Vyepti | Vyepti |  | ساري |
+| Vyepti | EPTINEZUMAB | Vetter Pharma-Fertigung GmbH & Co.KG | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

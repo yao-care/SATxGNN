@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "MAGNESIUM HYDROXIDE"
 predicted_indications: ["stomach disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Magnesium Hydroxide: الاستطباب الجديد المتوقع أمراض المعدة (مستوى الدليل L5). الاستطباب الأصلي: العلاقات المسجلة في قاعدة المعرفة: القرحة الهضمية، ارتجاع المريء، الت…"
 ---
 
@@ -91,9 +91,13 @@ description: "Magnesium Hydroxide: الاستطباب الجديد المتوق�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| MILK OF MAGNESIA SUSP. | MILK OF MAGNESIA SUSP. (الشركة المصنعة: SMIITHKLINE BEECHAM) | غير محدد | غير متوفر في نص الترخيص |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MILK OF MAGNESIA SUSP. | MAGNESIUM HYDROXIDE | SMIITHKLINE BEECHAM | ساري |
+
+<!-- licenses:end -->
 
 الترخيص الوحيد لمنتج مفرد المكوّن وساري المفعول.
 

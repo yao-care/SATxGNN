@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Hesperidin: الاستطباب الجديد المتوقع الورم التكاثري النقوي (Myeloproliferative neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المجمّعة"
 monitor_inn: "hesperidin"
 predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm"]
@@ -43,7 +43,7 @@ predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "sp
 
 <!-- review:begin sa-lic-20261106-hesperidin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «هيسبيريدين (Hesperidin) مركّب فلافونوئيدي مرخّص في السعودية عبر منتجين (HENASEN وCapillo)، وقد أُلغي ترخيصهما، ولا يتوفر في البيانات المجمّعة نص رسمي للاستطباب الأصلي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «هيسبيريدين (Hesperidin) مركّب فلافونوئيدي مرخّص في السعودية عبر منتجين (HENASEN وCapillo)، وقد أُلغي ترخيصهما، ولا يتوفر في البيانات المجمّعة نص رسمي للاستطباب الأصلي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-hesperidin-1 -->
 
@@ -89,10 +89,14 @@ predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "sp
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| HENASEN 500MG F.C.TABLET | HENASEN 500MG F.C.TABLET (شركة جمجوم للأدوية) | أقراص مغلفة (حسب اسم المنتج) | غير متوفر (ساري) |
-| Capillo | Capillo (الرياض فارما) | غير متوفر | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| HENASEN 500MG F.C.TABLET | DIOSMIN,HESPERIDIN | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| Capillo | DIOSMIN,HESPERIDIN | RIYADH PHARMA | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,7 +135,7 @@ predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "sp
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «قد أُلغي ترخيصهما، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «قد أُلغي ترخيصهما، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

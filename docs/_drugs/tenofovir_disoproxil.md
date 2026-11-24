@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 799
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tenofovir Disoproxil: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infectio… (مستوى الدليل L4). الاستطباب الأصلي: عدوى التهاب الكبد B المزمنة، عدوى فيروس نقص …"
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -93,13 +93,17 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Hivera | Hivera (Med city) | غير متوفر | غير متوفر (ساري) |
-| Tenovas | Tenovas (Alrai Pharmaceutical) | غير متوفر | غير متوفر (ساري) |
-| Virad | Virad (Hetero Labs) | غير متوفر | غير متوفر (ساري) |
-| TENOVAS | TENOVAS (Alrai Pharmaceutical) | غير متوفر | غير متوفر (ساري) |
-| VIREAD 245 mg FILM COATED TABLET | VIREAD 245 mg (Gilead Sciences, Cork) | قرص مغلف | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Hivera | TENOFOVIR DISOPROXIL | Med city | ساري |
+| Tenovas | TENOFOVIR DISOPROXIL | Alrai Pharmaceutical industry Co. (L.L.C) | ساري |
+| Virad | TENOFOVIR DISOPROXIL | Hetero Labs Limited Unit – III | ساري |
+| TENOVAS | TENOFOVIR DISOPROXIL | Alrai Pharmaceutical industry Co. (L.L.C) | ساري |
+| VIREAD 245 mg FILM COATED TABLET | TENOFOVIR DISOPROXIL | GILEAD SCIENCES LIMITED (CORK) | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -122,7 +126,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 <!-- review:begin sa-lic-20261106-tenofovir_disoproxil-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «وهذا استطباب حيواني لا يمثل استطباباً بشرياً جديداً، والاستخدام البشري مغطى فعلاً باستطباب HIV المعتمد. كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «وهذا استطباب حيواني لا يمثل استطباباً بشرياً جديداً، والاستخدام البشري مغطى فعلاً باستطباب HIV المعتمد. كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-tenofovir_disoproxil-1 -->
 
@@ -133,7 +137,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 <!-- review:begin sa-lic-20261106-tenofovir_disoproxil-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «استكمال بيانات آلية العمل من DrugBank. / توضيح أسباب إلغاء التراخيص السعودية الخمسة ووضع التسويق الحالي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «استكمال بيانات آلية العمل من DrugBank. / توضيح أسباب إلغاء التراخيص السعودية الخمسة ووضع التسويق الحالي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-tenofovir_disoproxil-2 -->
 
@@ -145,8 +149,8 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص السعودية الخمسة ووضع التسويق الحالي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص السعودية الخمسة ووضع التسويق الحالي» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
 
 <!-- review:end log -->

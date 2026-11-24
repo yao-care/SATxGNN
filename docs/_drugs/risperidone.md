@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 728
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Risperidone: الاستطباب الجديد المتوقع شلل النظر الأفقي العائلي مع الجنف التدريجي (gaze palsy, familial horizontal, with progressive scoliosis) (مستوى الدليل L5). الاستطباب الأصلي: الفصام، اضطراب ثنائي القطب (الهوس)، اضطراب طيف التوحد (لم تتوفر نصوص…"
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
@@ -83,13 +83,20 @@ predicted_indications: ["gaze palsy, familial horizontal, with progressive scoli
 
 يوجد 20 ترخيصاً ساري المفعول والدواء مسوّق. فيما يلي أبرز خمسة منها (بيانات الشكل الدوائي ونص الاستطباب غير متوفرة):
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|------|
-| RISPERDAL 1MG TAB | RISPERDAL 1MG TAB | JANSSEN-CILAG | ساري |
-| RISPERDAL CONSTA 25MG I.M VIAL | RISPERDAL CONSTA 25MG I.M VIAL | ALKEREMES INC. | ساري |
-| RISPERDAL CONSTA 50MG I.M VIAL | RISPERDAL CONSTA 50MG I.M VIAL | ALKEREMES INC. | ساري |
-| CALMTROL 1 mg film-coated tablet | CALMTROL 1 mg film-coated tablet | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
-| RESPAL 2 MG TABLETS | RESPAL 2 MG TABLETS | Jordan Sweden Medical and Sterilization Co. | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RISPERDAL 1MG TAB | RISPERIDONE | JANSSEN-CILAG | ساري |
+| RISPERDAL CONSTA 25MG I.M VIAL | RISPERIDONE | ALKEREMES INC. | ساري |
+| RISPERDAL CONSTA 50MG I.M VIAL | RISPERIDONE | ALKEREMES INC. | ساري |
+| CALMTROL 1 mg film-coated tablet | RISPERIDONE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| RESPAL 2 MG TABLETS | RISPERIDONE | Jordan Sweden Medical and Sterilization Co. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

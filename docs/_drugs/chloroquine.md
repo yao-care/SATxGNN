@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 174
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chloroquine: الاستطباب الجديد المتوقع التهاب المفاصل مجهول السبب لدى الأحداث، متعدد المفاصل، إيجابي العامل الروماتويدي (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الذئبة الحمامية الجهازية، …"
 monitor_inn: "Chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
@@ -80,13 +80,17 @@ predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiop
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| MALAREX SYRUP 120MG-5ML | MALAREX SYRUP 120MG-5ML | غير متوفر | غير متوفر (ساري) |
-| MALAREX TABLETS 250mg | MALAREX TABLETS 250mg | غير متوفر | غير متوفر (ساري) |
-| CHLOROQUINE | CHLOROQUINE | غير متوفر | غير متوفر (ساري) |
-| RESOCHIN TAB 250MG | RESOCHIN TAB 250MG | غير متوفر | غير متوفر (ساري) |
-| CHLOROQUIN PHOSPHATE 80MG/5ML SYRUR | CHLOROQUIN PHOSPHATE 80MG/5ML SYRUR | غير متوفر | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MALAREX SYRUP 120MG-5ML | CHLOROQUINE PHOSPHATE | XELLIA PHARMACEUTICAL APS | ساري |
+| MALAREX TABLETS 250mg | CHLOROQUINE PHOSPHATE | XELLIA PHARMACEUTICAL APS | ساري |
+| CHLOROQUINE | CHLOROQUINE PHOSPHATE | RIYADH PHARMA | ساري |
+| RESOCHIN TAB 250MG | CHLOROQUINE PHOSPHATE | BAYER AG | ساري |
+| CHLOROQUIN PHOSPHATE 80MG/5ML SYRUR | CHLOROQUINE PHOSPHATE | PHARCO PHARMACEUTICAL | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الخمسة (5 من 5) سارية المفعول، والدواء مسوّق في هذا البلد.
 
@@ -111,7 +115,7 @@ predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiop
 
 <!-- review:begin sa-lic-20261106-chloroquine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إضافة إلى ذلك، جميع تراخيص الدواء في السعودية ملغاة، وتعتمد الممارسة الحديثة في هذا المرض على الميثوتريكسات والعوامل البيولوجية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إضافة إلى ذلك، جميع تراخيص الدواء في السعودية ملغاة، وتعتمد الممارسة الحديثة في هذا المرض على الميثوتريكسات والعوامل البيولوجية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-chloroquine-1 -->
 
@@ -129,7 +133,7 @@ predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiop
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570) |
 
 <!-- review:end log -->

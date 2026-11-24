@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 641
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: الاستطباب الجديد المتوقع Pleural adenomatoid tumor (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 8 (السارية: 8)"
@@ -103,13 +103,19 @@ description: "Pemetrexed: الاستطباب الجديد المتوقع Pleural
 
 ولا تتضمن بيانات التراخيص شكلاً صيدلانياً أو نص استطباب.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة |
-|---------|------|-----------|
-| ALMETRA | ALMETRA | Jiangsu Hansoh Pharmaceutical |
-| Pemitax 500 mg Vial | Pemitax 500 mg Vial | Gland Pharma |
-| Alix | Alix | Hetero Labs |
-| PEMETREXED SPC 500 mg | Pemetrexed SPC 500 mg مسحوق لمحلول التسريب | Dr. Reddy's Laboratories |
-| ALIMTA 500MG | ALIMTA 500MG مسحوق لمحلول التسريب | Eli Lilly |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ALMETRA | PEMETREXED | Jiangsu Hansoh Pharmaceutical Group Co | ساري |
+| Pemitax 500 mg Vial | PEMETREXED | Gland Pharma Limited | ساري |
+| Alix | PEMETREXED | Hetero Labs Limited Unit – V | ساري |
+| PEMETREXED SPC 500 mg Powder for Solution for Infusion | PEMETREXED | Dr. Reddy’s Laboratories Ltd. Formulation Unit VII | ساري |
+| ALIMTA 500MG POWDER FOR SOLUTION FOR INFUSION | PEMETREXED | ELI LILLY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -150,7 +156,7 @@ description: "Pemetrexed: الاستطباب الجديد المتوقع Pleural
 
 <!-- review:begin sa-lic-20261106-pemetrexed-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم الوضع التنظيمي للمنتجات الملغاة، وخطة مراقبة سلامة تشمل وظائف الكلى وتعداد الدم.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم الوضع التنظيمي للمنتجات الملغاة، وخطة مراقبة سلامة تشمل وظائف الكلى وتعداد الدم.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-pemetrexed-1 -->
 
@@ -164,7 +170,7 @@ description: "Pemetrexed: الاستطباب الجديد المتوقع Pleural
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «تقييم الوضع التنظيمي للمنتجات الملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «تقييم الوضع التنظيمي للمنتجات الملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "AZAPROPAZONE"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "pseudoachondroplasia", "brachyolmia", "hypermobility of coccyx", "Kummell disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Azapropazone: الاستطباب الجديد المتوقع خلل التنسج الأكروميسوملي من نوع هانتر-طومسون (acromesomelic dysplasia, Hunter-Thompson type) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -78,9 +78,13 @@ description: "Azapropazone: الاستطباب الجديد المتوقع خل�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PROLIXAN 300MG CAPS | PROLIXAN 300MG CAPS | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PROLIXAN 300MG CAPS | AZAPROPAZONE | SIEGFRIED | ساري |
+
+<!-- licenses:end -->
 
 ---
 

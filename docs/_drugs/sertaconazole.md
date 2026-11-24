@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Sertaconazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sertaconazole: الاستطباب الجديد المتوقع Ectothrix infectious disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -71,9 +71,13 @@ description: "Sertaconazole: الاستطباب الجديد المتوقع Ecto
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|------|
-| DERMOFIX 2% CREAM | DERMOFIX 2% CREAM | FERRER INTERNATIONAL | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DERMOFIX 2% CREAM | SERTACONAZOLE NITRATE | FERRER INTERNATIONAL | ساري |
+
+<!-- licenses:end -->
 
 هذا ترخيص لمنتج أحادي المادة الفعالة، ولا تتوفر في السجل نصوص استطباب معتمدة.
 

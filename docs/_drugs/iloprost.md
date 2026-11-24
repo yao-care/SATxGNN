@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iloprost: الاستطباب الجديد المتوقع نقص الشعر البسيط في فروة الرأس (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم الشرياني الرئوي"
 monitor_inn: "ILOPROST"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
@@ -80,16 +80,20 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص / اسم المستحضر | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| APRELEX 20MCG/ML INHALATION SOLUTION | Tabuk Pharmaceutical Manufacturing Co. (مصنع الدمام) | ساري |
-| VENTAVIS 10 mcg/ml solution for inhalation | Berlimed S.A. | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| APRELEX 20MCG/ML INHALATION SOLUTION | ILOPROST | Tabuk Pharmaceutical Manufacturing Co./ Dammam Plant | ساري |
+| VENTAVIS 10 mcg/ml solution for inhalation | ILOPROST | Berlimed S.A. | ساري |
+
+<!-- licenses:end -->
 
 المستحضران كلاهما محلول للاستنشاق.
 
 <!-- review:begin sa-lic-20261106-iloprost-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حالياً أي ترخيص ساري المفعول للدواء في المملكة، والمستحضران كلاهما محلول للاستنشاق.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حالياً أي ترخيص ساري المفعول للدواء في المملكة، والمستحضران كلاهما محلول للاستنشاق.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-iloprost-1 -->
 
@@ -140,7 +144,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حالياً أي ترخيص ساري المفعول للدواء في المملكة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حالياً أي ترخيص ساري المفعول للدواء في المملكة، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
 
 <!-- review:end log -->

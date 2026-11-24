@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 541
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: الاستطباب الجديد المتوقع التهاب المفاصل الجرثومي (bacterial arthritis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"
@@ -81,13 +81,19 @@ description: "Meropenem: الاستطباب الجديد المتوقع الته
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| MERONEM 500MG VIAL I-V | MERONEM 500MG VIAL I-V | غير متوفر | غير متوفر |
-| MERONEM 1GM VIAL I-V | MERONEM 1GM VIAL I-V | غير متوفر | غير متوفر |
-| RONEM 500MG | RONEM 500MG | غير متوفر | غير متوفر |
-| MIRAN 1 g powder for injection | MIRAN 1 g powder for injection | مسحوق للحقن | غير متوفر |
-| ARCHIFAR 1000 mg | ARCHIFAR 1000 mg powder for solution for injection or infusion | مسحوق للحقن أو التسريب | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MERONEM 500MG VIAL I-V | MEROPENEM | ACS DOBFAR SPA | ساري |
+| MERONEM 1GM VIAL I-V | MEROPENEM | ACS DOBFAR SPA | ساري |
+| RONEM 500MG | MEROPENEM | VENUS REMEDIES LIMITED | ساري |
+| MIRAN 1 g powder for injection | MEROPENEM | ACS DOBFAR S.P.A | ساري |
+| ARCHIFAR 1000 mg powder for solution for injection or infusion | MEROPENEM | MEDOCHEMIE LTD | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 15 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 الدلالات المعتمدة غير مسجلة في البيانات المحلية. تتوفر 15 رخصة سارية للميروبينيم المنفرد، ويُعرض أعلاه خمس منها فقط.
 

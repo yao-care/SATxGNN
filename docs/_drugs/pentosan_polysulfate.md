@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 642
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pentosan Polysulfate: الاستطباب الجديد المتوقع اضطراب الإفراز الأولي للصفائح الدموية (primary release disorder of pl… (مستوى الدليل L5). الاستطباب الأصلي: التهاب المثانة الخلالي"
 monitor_inn: "PENTOSAN POLYSULFATE"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
@@ -85,9 +85,13 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| HEMOCLAR CREAM 0.5GM-100GM | HEMOCLAR CREAM 0.5GM-100GM (الشركة المصنعة: sanofi-aventis) | غير محدد | غير محدد (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| HEMOCLAR CREAM 0.5GM-100GM | PENTOSAN POLYSULFATE | sanofi-aventis | ساري |
+
+<!-- licenses:end -->
 
 ---
 

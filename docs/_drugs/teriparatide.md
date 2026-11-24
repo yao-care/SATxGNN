@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 804
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Teriparatide: الاستطباب الجديد المتوقع قرحة الاثني عشر (مستوى الدليل L5). الاستطباب الأصلي: هشاشة العظام بعد انقطاع الطمث / هشاشة العظام"
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
@@ -81,12 +81,16 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|------|
-| TERROSA | TERROSA | GEDEON RICHTER PLC. | ساري |
-| FORTEO 20MCG-80MCL SOLU. FOR Injection* | FORTEO | ELI LILLY | ساري |
-| Bonteo | Bonteo | Cytovance Biologics, Inc | ساري |
-| FORTEO 20MCG-80MCL SOLU. FOR Injection | FORTEO | ELI LILLY | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TERROSA | TERIPARATIDE | GEDEON RICHTER PLC. | ساري |
+| FORTEO 20MCG-80MCL SOLU. FOR Injection* | TERIPARATIDE | ELI LILLY | ساري |
+| Bonteo | TERIPARATIDE | Cytovance Biologics, Inc | ساري |
+| FORTEO 20MCG-80MCL SOLU. FOR Injection | TERIPARATIDE | ELI LILLY | ساري |
+
+<!-- licenses:end -->
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الأربعة سارية (4 من 4).
 
@@ -114,7 +118,7 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 
 <!-- review:begin sa-lic-20261106-teriparatide-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التوقع قائم على النموذج الحسابي فقط (L5)، بلا تجارب سريرية ولا أدبيات داعمة ولا رابط آلي معقول. / جميع تراخيص الدواء في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التوقع قائم على النموذج الحسابي فقط (L5)، بلا تجارب سريرية ولا أدبيات داعمة ولا رابط آلي معقول. / جميع تراخيص الدواء في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-teriparatide-1 -->
 
@@ -136,7 +140,7 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
 
 <!-- review:end log -->

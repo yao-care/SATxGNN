@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "CEFPROZIL"
 predicted_indications: ["urinary tract infection (disease)", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "xanthogranulomatous pyelonephritis", "uterine inflammatory disease", "pneumonia", "laryngitis", "urogenital tuberculosis", "abdominal tuberculosis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Cefprozil: الاستطباب الجديد المتوقع التهاب المسالك البولية (urinary tract infection) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
@@ -60,7 +60,7 @@ description: "Cefprozil: الاستطباب الجديد المتوقع الته
 
 <!-- review:begin sa-lic-20261106-cefprozil-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «ومع ذلك، تُظهر البيانات أن المنتجات المرخّصة محلياً ملغاة، ما يحدّ من القيمة العملية لإعادة التوظيف.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 7، منها سارية: 7؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «ومع ذلك، تُظهر البيانات أن المنتجات المرخّصة محلياً ملغاة، ما يحدّ من القيمة العملية لإعادة التوظيف.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-cefprozil-1 -->
 
@@ -84,13 +84,19 @@ description: "Cefprozil: الاستطباب الجديد المتوقع الته
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CEFZIL 125MG-5ML SUSP | CEFZIL 125MG-5ML SUSP | — | — |
-| CEFZIL 250MG TAB | CEFZIL 250MG TAB | — | — |
-| CEFZIL 250MG-5ML SUSP | CEFZIL 250MG-5ML SUSP | — | — |
-| CEFPROZ 250MG/5ML POWDER FOR ORAL SUSPENSION | CEFPROZ 250MG/5ML POWDER FOR ORAL SUSPENSION | — | — |
-| CEFZIL 500MG TAB | CEFZIL 500MG TAB | — | — |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CEFZIL 125MG-5ML SUSP | CEFPROZIL | BRISTOL-MYERS SQUIBB | ساري |
+| CEFZIL 250MG TAB | CEFPROZIL | BRISTOL-MYERS SQUIBB | ساري |
+| CEFZIL 250MG-5ML SUSP | CEFPROZIL | BRISTOL-MYERS SQUIBB | ساري |
+| CEFPROZ 250MG/5ML POWDER FOR ORAL SUSPENSION | CEFPROZIL | MEDPHARMA PHARMACEUTICAL & CHEMICAL INDUSTRIES | ساري |
+| CEFZIL 500MG TAB | CEFPROZIL | BRISTOL-MYERS SQUIBB | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 
@@ -118,7 +124,7 @@ description: "Cefprozil: الاستطباب الجديد المتوقع الته
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «ومع ذلك، تُظهر البيانات أن المنتجات المرخّصة محلياً ملغاة، ما يحدّ من القيمة العملية لإعادة التوظيف» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «ومع ذلك، تُظهر البيانات أن المنتجات المرخّصة محلياً ملغاة، ما يحدّ من القيمة العملية لإعادة التوظيف» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

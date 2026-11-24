@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "NITRAZEPAM"
 predicted_indications: ["Wernicke-Korsakoff syndrome"]
 description: "Nitrazepam: الاستطباب الجديد المتوقع Wernicke-Korsakoff syndrome (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -95,15 +95,13 @@ description: "Nitrazepam: الاستطباب الجديد المتوقع Wernick
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| DUMOLID TAB. 5 MG. (ساري) | DUMOLID TAB. 5 MG. (الشركة المصنعة: XELLIA PHARMACEUTICAL APS) | غير محدد | غير محدد |
+<!-- licenses:begin -->
 
-<!-- review:begin sa-row-20261112-nitrazepam-1 -->
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DUMOLID TAB. 5 MG. | NITRAZEPAM | XELLIA PHARMACEUTICAL APS | ساري |
 
-> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «(ملغى)» المستحضر DUMOLID TAB. 5 MG. مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
-
-<!-- review:end sa-row-20261112-nitrazepam-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -139,7 +137,7 @@ description: "Nitrazepam: الاستطباب الجديد المتوقع Wernick
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-12 | الجدول: DUMOLID TAB. 5 MG. مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: DUMOLID TAB. 5 MG. مسجل (ساري) وليس ملغى | حلّ محله جدول التراخيص المولَّد برمجيًا (سابقًا: صُحّح) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 
 <!-- review:end log -->
 

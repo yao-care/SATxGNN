@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 729
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infection) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -81,9 +81,13 @@ description: "Ritonavir: الاستطباب الجديد المتوقع عدوى
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| NORVIR 80MG-ML ORAL SOLN. | NORVIR 80MG-ML ORAL SOLN. (Abbott Laboratories) | غير محدد (محلول فموي) | غير متوفر؛ حالة الترخيص: ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NORVIR 80MG-ML ORAL SOLN. | RITONAVIR | Abbott Laboratories | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 817
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tinidazole: الاستطباب الجديد المتوقع التهاب المهبل الضموري بعد سن اليأس (مستوى الدليل L5). الاستطباب الأصلي: داء الجيارديا، التهاب المهبل الجرثومي، التهاب المهبل، التهاب الفرج، د…"
 monitor_inn: "TINIDAZOLE"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "breast fibrocystic disease", "AIDS", "blunt duct adenosis of breast", "apocrine adenosis of breast", "AIDS related complex", "congenital human immunodeficiency virus", "benign mammary dysplasia"]
@@ -80,10 +80,14 @@ predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulv
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| PROTOGYN | PROTOGYN (شركة الحياة للصناعات الدوائية) | غير متوفر | غير متوفر | ساري |
-| FASIGYN 500MG TABLET | FASIGYN 500MG TABLET (فايزر) | غير متوفر | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PROTOGYN | TINIDAZOLE | HAYAT PHARMACEUTICAL INDUSTRIES | ساري |
+| FASIGYN 500MG TABLET | TINIDAZOLE | PFIZER | ساري |
+
+<!-- licenses:end -->
 
 ---
 

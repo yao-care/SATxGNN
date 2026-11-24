@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 810
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Thiopental: الاستطباب الجديد المتوقع هوس نتف الشعر (Trichotillomania) (مستوى الدليل L5). الاستطباب الأصلي: الصرع، والورم الكاذب للمخ، وارتفاع الضغط داخل الجمجمة (مصدرها الرسم ا…"
 monitor_inn: "Thiopental"
 predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -78,12 +78,16 @@ predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disor
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| THIOPENTAL 1G VIAL | THIOPENTAL 1G VIAL (ساندوز) | غير متوفر | غير متوفر (ساري) |
-| THIOPENTAL 0.5G INJ | THIOPENTAL 0.5G INJ (ساندوز) | غير متوفر | غير متوفر (ساري) |
-| EPENTAL 1G VIAL | EPENTAL 1G VIAL (إيبيكو) | غير متوفر | غير متوفر (ساري) |
-| EPENTAL 0.5G VIAL | EPENTAL 0.5G VIAL (إيبيكو) | غير متوفر | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| THIOPENTAL 1G VIAL | THIOPENTAL SODIUM | SANDOZ | ساري |
+| THIOPENTAL 0.5G INJ | THIOPENTAL SODIUM | SANDOZ | ساري |
+| EPENTAL 1G VIAL | THIOPENTAL SODIUM | EIPICO | ساري |
+| EPENTAL 0.5G VIAL | THIOPENTAL SODIUM | EIPICO | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -106,7 +110,7 @@ predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disor
 
 <!-- review:begin sa-lic-20261106-thiopental-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص المنتج في السعودية ملغاة، وملف المخاطر (الاعتماد، تثبيط التنفس والقلب) غير مناسب لحالة مزمنة غير حادة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص المنتج في السعودية ملغاة، وملف المخاطر (الاعتماد، تثبيط التنفس والقلب) غير مناسب لحالة مزمنة غير حادة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-thiopental-1 -->
 
@@ -132,7 +136,7 @@ predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disor
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

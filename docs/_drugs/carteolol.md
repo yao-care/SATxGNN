@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 150
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Carteolol: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر مرشح جديد"
 predicted_indications: []
 ---
@@ -72,11 +72,15 @@ predicted_indications: []
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| CARTEOL LP 2% PRLONGED RELEASE EYE DROPS | CARTEOL LP 2% PRLONGED RELEASE EYE DROPS |  | ساري |
-| CARTEOL LP 1% PRLONGED RELEASE EYE DROPS | CARTEOL LP 1% PRLONGED RELEASE EYE DROPS |  | ساري |
-| TEOPTIC 2 % EYE DROPS | TEOPTIC 2 % EYE DROPS |  | ساري |
+| CARTEOL LP 2% PRLONGED RELEASE EYE DROPS | CARTEOLOL HYDROCHLORIDE | CHAUVIN BAUSCH & LOMB | ساري |
+| CARTEOL LP 1% PRLONGED RELEASE EYE DROPS | CARTEOLOL HYDROCHLORIDE | CHAUVIN BAUSCH & LOMB | ساري |
+| TEOPTIC 2 % EYE DROPS | CARTEOLOL HYDROCHLORIDE | Excel Vision | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

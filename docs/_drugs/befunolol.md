@@ -3,7 +3,7 @@ layout: default
 title: Befunolol
 parent: الاستخدامات المعروفة فقط (لا توجد تنبؤات جديدة)
 nav_order: 95
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Befunolol: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
 indication_count: 0
@@ -69,10 +69,14 @@ evidence_level: N/A
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| GLAUCONEX 0.5% EYE DROPS | GLAUCONEX 0.5% EYE DROPS |  | ساري |
-| GLAUCONEX 0.25% EYE DROPS | GLAUCONEX 0.25% EYE DROPS |  | ساري |
+| GLAUCONEX 0.5% EYE DROPS | BEFUNOLOL HYDROCHLORIDE | DR. THILO LABORATORIES | ساري |
+| GLAUCONEX 0.25% EYE DROPS | BEFUNOLOL HYDROCHLORIDE | DR. THILO LABORATORIES | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

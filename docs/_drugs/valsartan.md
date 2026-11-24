@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 858
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: الاستطباب الجديد المتوقع مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث (malignant hypertensive renal disease) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -86,13 +86,20 @@ description: "Valsartan: الاستطباب الجديد المتوقع مرض �
 
 فيما يلي أبرز 5 منتجات:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
-|---------|------|------|-----------|
-| TABUVAN 320 MG FILM COATED TABLET | TABUVAN 320 MG | أقراص مغلفة | غير متوفر |
-| DIOVAN 80MG TAB | DIOVAN 80 MG | أقراص | غير متوفر |
-| VALTENSE 80 mg film-coated tablet | VALTENSE 80 MG | أقراص مغلفة | غير متوفر |
-| ARBAVAL 80 mg film-coated tablet | ARBAVAL 80 MG | أقراص مغلفة | غير متوفر |
-| VALISTA 160 mg film-coated tablet | VALISTA 160 MG | أقراص مغلفة | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TABUVAN 320 MG FILM COATED TABLET | VALSARTAN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| DIOVAN 80MG TAB | VALSARTAN | Siegfried Barbera, S.L | ساري |
+| VALTENSE 80 mg film-coated tablet | VALSARTAN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| ARBAVAL 80 mg film-coated tablet | VALSARTAN | SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO | ساري |
+| VALISTA 160 mg film-coated tablet | VALSARTAN | SPIMACO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

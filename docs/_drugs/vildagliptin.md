@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 869
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vildagliptin: الاستطباب الجديد المتوقع متلازمة الطرف المتيبس البؤرية (Focal stiff limb syndrome) (مستوى الدليل L5). الاستطباب الأصلي: داء السكري من النوع الثاني"
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -80,13 +80,19 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 
 جميع التراخيص الأربعة عشر سارية، وفيما يلي أول خمسة منها:
 
-| اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| GLEPTAL 50MG TABLET | Al-Taqaddom Pharmaceutical Industries | ساري |
-| Vildus | Jamjoom Pharmaceuticals Company | ساري |
-| VILDATIN 50 mg Tablet | Med City | ساري |
-| Geuvid | Hetero Labs Limited Unit – V | ساري |
-| GAVILDA 50MG TABLET (56 قرصاً) | Tabuk Pharmaceutical Manufacturing Co. | ملغى |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| GLEPTAL 50MG TABLET | VILDAGLIPTIN | Al-Taqaddom pharmaceutical Industries | ساري |
+| Vildus | VILDAGLIPTIN | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| VILDATIN 50 mg Tablet | VILDAGLIPTIN | Med city | ساري |
+| Geuvid | VILDAGLIPTIN | Hetero Labs Limited Unit – V | ساري |
+| GALVUS 50MG TABLETS | VILDAGLIPTIN | Siegfried Barbera S.L | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 14 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -106,7 +112,7 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 
 <!-- review:begin sa-lic-20261106-vildagliptin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا توجد آلية معقولة تربط تثبيط DPP-4 بهذا المرض المناعي العصبي النادر. / لا يوجد حالياً ترخيص ساري في السعودية، فتتعقد أي مسارات تنظيمية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 14، منها سارية: 14؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا توجد آلية معقولة تربط تثبيط DPP-4 بهذا المرض المناعي العصبي النادر. / لا يوجد حالياً ترخيص ساري في السعودية، فتتعقد أي مسارات تنظيمية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-vildagliptin-1 -->
 
@@ -128,7 +134,7 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري في السعودية، فتتعقد أي مسارات تنظيمية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري في السعودية، فتتعقد أي مسارات تنظيمية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
 
 <!-- review:end log -->

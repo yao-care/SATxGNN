@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 828
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tranexamic Acid: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L5). الاستطباب الأصلي: داء بطانة الرحم المهاجرة (الانتباذ البطاني الرحمي) — بحسب الرسم المعر…"
 monitor_inn: "TRANEXAMIC ACID"
 predicted_indications: ["amenorrhea (disease)"]
@@ -85,13 +85,19 @@ predicted_indications: ["amenorrhea (disease)"]
 
 الدواء مسوَّق، وجميع التراخيص العشرة سارية (10 من أصل 10)، ولا تتوفر نصوص المؤشرات المعتمدة ولا الأشكال الدوائية. أبرزها:
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| KAPRON | KAPRON | Amoun Pharmaceutical Company | ساري |
-| FEMIC | FEMIC | Saudi Pharmaceutical Industries | ساري |
-| CYKLOKAPRON INJ 100MG-ML INJECTION | CYKLOKAPRON | Pfizer Manufacturing Belgium N.V. | ساري |
-| LYSTEDA 650 mg Tablet | LYSTEDA 650 mg | MIKART, INC. | ساري |
-| Tranexamic acid BOS | Tranexamic acid BOS | Gland Pharma Limited | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| KAPRON | TRANEXAMIC ACID | Amoun Pharmaceutical Company | ساري |
+| FEMIC | TRANEXAMIC ACID | SAUDI PHARMACEUTICAL INDUSTRIES | ساري |
+| CYKLOKAPRON INJ 100MG-ML INJECTION | TRANEXAMIC ACID | Pfizer Manufacturing Belgium N.V. | ساري |
+| LYSTEDA 650 mg Tablet | TRANEXAMIC ACID | MIKART, INC. | ساري |
+| Tranexamic acid BOS | TRANEXAMIC ACID | Gland Pharma Limited | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 10 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

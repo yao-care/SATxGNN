@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 651
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "phentolamine"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "blue toe syndrome", "angiodysplasia of stomach", "hemangioendothelioma", "atheroembolism of kidney", "idiopathic spontaneous coronary artery dissection"]
 description: "Phentolamine: الاستطباب الجديد المتوقع Visceral calciphylaxis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -106,9 +106,13 @@ description: "Phentolamine: الاستطباب الجديد المتوقع Visce
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | شكل الجرعة | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| REGITINE AMP | REGITINE AMP (الشركة: NOVARTIS) | غير متوافر | غير متوافر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| REGITINE AMP | PHENTOLAMINE MESILATE | NOVARTIS | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,7 +135,7 @@ description: "Phentolamine: الاستطباب الجديد المتوقع Visce
 
 <!-- review:begin sa-lic-20261106-phentolamine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الترخيص الوحيد في السعودية ملغى، وهناك قائمة طويلة من الموانع القلبية الوعائية المحتملة التي تتعارض مع استخدام موسع وعائي في هذا المجال.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الترخيص الوحيد في السعودية ملغى، وهناك قائمة طويلة من الموانع القلبية الوعائية المحتملة التي تتعارض مع استخدام موسع وعائي في هذا المجال.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-phentolamine-1 -->
 
@@ -151,7 +155,7 @@ description: "Phentolamine: الاستطباب الجديد المتوقع Visce
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «الترخيص الوحيد في السعودية ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «الترخيص الوحيد في السعودية ملغى، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

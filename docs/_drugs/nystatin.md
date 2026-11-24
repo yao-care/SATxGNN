@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 602
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NYSTATIN"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin: الاستطباب الجديد المتوقع Disease of orbital region (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
@@ -93,15 +93,19 @@ description: "Nystatin: الاستطباب الجديد المتوقع Disease o
 
 جميع التراخيص العشرة **سارية** (10 من 10)، والدواء مسوّق. ولم تتوفر بيانات عن الشكل الدوائي أو الاستطباب المعتمد في سجلات الترخيص.
 
-| رقم الترخيص / المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| SINATEN 500000 IU\5ML ORAL SUSP | Tabuk Pharmaceutical | ساري |
-| MYCOSAT 100,000IU\ML ORAL SUSP | Amman Pharmaceutical Industries | ساري |
-| MIKOSTAT 100000 U OINTMENT | Julphar | ساري |
-| MIKOSTAT 100000U\ML ORAL SUSP | Julphar | ساري |
-| RIANEST | Riyadh Pharma | ساري |
+<!-- licenses:begin -->
 
-(عُرضت 5 من أصل 10 تراخيص.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SINATEN 500000 IU \5ML ORAL SUSP | NYSTATIN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| MYCOSAT 100,000IU\ML ORAL SUSP | NYSTATIN | Amman Pharmaceutical Industries (API) | ساري |
+| MIKOSTAT 100000 U OINTMENT | NYSTATIN | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| MIKOSTAT 100000U\ML ORAL SUSP | NYSTATIN | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| RIANEST | NYSTATIN | RIYADH PHARMA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 10 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

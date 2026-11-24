@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 843
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 monitor_inn: "triprolidine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 description: "Triprolidine: الاستطباب الجديد المتوقع Nasal cavity disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 15 (السارية: 15)"
@@ -96,13 +96,19 @@ description: "Triprolidine: الاستطباب الجديد المتوقع Nasal
 
 فيما يلي أبرز خمسة منها (لا تتوفر بيانات عن الشكل الصيدلاني أو نص الاستطباب المعتمد):
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة |
-|---------|------|------|
-| SEDOFAN SYRUP. | SEDOFAN SYRUP. | Gulf Pharmaceutical Industries (Julphar) |
-| SEDOFAN | SEDOFAN | Gulf Pharmaceutical Industries (Julphar) |
-| Rinofed Cold & Allergy Tablets | Rinofed Cold & Allergy Tablets | Jazeera Pharmaceutical Industries (JPI) |
-| RINOFED | RINOFED | Jazeera Pharmaceutical Industries (JPI) |
-| UNIFED SYRUP | UNIFED SYRUP | United Pharmaceutical Company |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SEDOFAN SYRUP. | PSEUDOEPHEDRINE HYDROCHLORIDE,TRIPROLIDINE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| SEDOFAN | PSEUDOEPHEDRINE HYDROCHLORIDE,TRIPROLIDINE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| Rinofed Cold & Allergy Tablets | PSEUDOEPHEDRINE HYDROCHLORIDE,TRIPROLIDINE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| RINOFED | PSEUDOEPHEDRINE HYDROCHLORIDE,TRIPROLIDINE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| UNIFED SYRUP | PSEUDOEPHEDRINE HYDROCHLORIDE,TRIPROLIDINE | UNITED PHARMACEUTICAL COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 15 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

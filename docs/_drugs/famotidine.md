@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "FAMOTIDINE"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Famotidine: الاستطباب الجديد المتوقع انسداد الاثني عشر (duodenal obstruction) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
@@ -71,13 +71,19 @@ description: "Famotidine: الاستطباب الجديد المتوقع انس�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الشركة المصنّعة |
-|---------|------|------|-----------|
-| FAMOCID 10MG F.C TAB | FAMOCID 10MG F.C TAB | غير مسجّل | SPIMACO |
-| PEPCIDIN 20MG TAB | PEPCIDIN 20MG TAB | غير مسجّل | MERCK SHARP & DOHME |
-| FAMODAR | FAMODAR | غير مسجّل | DAR ALDAWA |
-| FAMOCID 20 MG F.C TAB | FAMOCID 20 MG F.C TAB | غير مسجّل | SPIMACO |
-| FAMOGEN | FAMOGEN | غير مسجّل | RIYADH PHARMA |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FAMOCID 10MG F.C TAB | FAMOTIDINE | SPIMACO | ساري |
+| PEPCIDIN 20MG TAB | FAMOTIDINE | MERCK SHARP & DOHME | ساري |
+| FAMODAR | FAMOTIDINE | DAR ALDAWA | ساري |
+| FAMOCID 20 MG F.C TAB | FAMOTIDINE | SPIMACO | ساري |
+| FAMOGEN | FAMOTIDINE | RIYADH PHARMA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

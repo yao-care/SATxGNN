@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
 description: "Golimumab: الاستطباب الجديد المتوقع Hypermobility of coccyx (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -104,12 +104,15 @@ description: "Golimumab: الاستطباب الجديد المتوقع Hypermob
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المرخّص |
-|---------|------|------|-----------|
-| SIMPONI 100 mg/ml suspension for injection in pre-filled pen | SIMPONI 100 mg/ml (قلم محقون معبأ مسبقاً) | غير متوفر | غير متوفر (ترخيص ساري) |
-| SIMPONI 100 mg/ml suspension for injection in pre-filled syringe | SIMPONI 100 mg/ml (محقنة معبأة مسبقاً) | غير متوفر | غير متوفر (ترخيص ساري) |
-| SIMPONI 100 MG/ML SOLUTION FOR INJECTION IN PREFILLED PEN | SIMPONI 100 MG/ML (قلم محقون معبأ مسبقاً) | غير متوفر | غير متوفر (ترخيص ساري) |
+<!-- licenses:begin -->
 
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SIMPONI 100 mg/ml suspension for injection in pre-filled pen | GOLIMUMAB | BAXTER PHARMACEUTICAL SOLUTION LLC | ساري |
+| SIMPONI 100 mg/ml suspension for injection in pre-filled syringe | GOLIMUMAB | BAXTER PHARMACEUTICAL SOLUTION LLC | ساري |
+| SIMPONI 100 MG/ML SOLUTION FOR INJECTION IN PREFILLED PEN | GOLIMUMAB | BAXTER PHARMACEUTICAL SOLUTION LLC | ساري |
+
+<!-- licenses:end -->
 
 ---
 

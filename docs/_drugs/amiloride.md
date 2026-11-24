@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amiloride: الاستطباب الجديد المتوقع مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث (malignant hypertensive renal disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
@@ -68,12 +68,16 @@ description: "Amiloride: الاستطباب الجديد المتوقع مرض �
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| MODURETIC | MODURETIC | غير مسجّل | غير مسجّل |
-| MODURETIC 5-50MG TABLETS | MODURETIC 5-50MG TABLETS | غير مسجّل | غير مسجّل |
-| AMURETIC 5MG/50MG TAB | AMURETIC 5MG/50MG TAB | غير مسجّل | غير مسجّل |
-| APO-AMILZIDE | APO-AMILZIDE | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MODURETIC | AMILORIDE, HYDROCHLOROTHIAZIDE | MERCK SHARP & DOHME | ساري |
+| MODURETIC 5-50MG TABLETS | HYDROCHLOROTHIAZIDE,AMILORIDE | Algorithm SAL | ساري |
+| AMURETIC 5MG/50MG TAB | HYDROCHLOROTHIAZIDE,AMILORIDE | DAR ALDAWA | ساري |
+| APO-AMILZIDE | AMILORIDE, HYDROCHLOROTHIAZIDE | APOTEX | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

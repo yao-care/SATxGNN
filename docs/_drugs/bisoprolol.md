@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bisoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bisoprolol: الاستطباب الجديد المتوقع مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث (malignant hypertensive renal disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 19 على الأقل"
 ---
 
@@ -71,6 +71,21 @@ description: "Bisoprolol: الاستطباب الجديد المتوقع مرض 
 لا توجد حالياً منشورات علمية ذات صلة.
 
 ## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| B-COR 5 MG FILM COATED TABLET | BISOPROLOL FUMARATE | Jordan Sweden Medical and Sterilization Co. | ساري |
+| BISCOR 10MG F.C. TABLETS | BISOPROLOL FUMARATE | Pharma International Co. | ساري |
+| BISCOR 5MG F.C. TABLETS | BISOPROLOL FUMARATE | Pharma International Co. | ساري |
+| BISOLOL 2.5 mg Tablet | BISOPROLOL FUMARATE | CHANELLE MEDICAL | ساري |
+| BISOLOL 5 mg Tablet | BISOPROLOL FUMARATE | CHANELLE MEDICAL | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 تُظهر البيانات المحلية أن للدواء تراخيص متعددة في السعودية. السجلات المتاحة قد تكون جزئية، ولا تتضمن نصوص استطبابات معتمدة.
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 786
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tamsulosin: الاستطباب الجديد المتوقع فرط الشعر الخلقي العام من نوع أمبراس (مستوى الدليل L5). الاستطباب الأصلي: تضخم البروستات الحميد"
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
@@ -83,13 +83,19 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 الدواء مسوَّق في هذا البلد، وجميع التراخيص الثمانية سارية (8 من 8). لم تُسجَّل نصوص الاستطباب المعتمد ولا الأشكال الصيدلانية.
 
-| رقم الترخيص / اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| OMNIC OCAS 0.4 MG F-C TABLETS | SAJA | ساري |
-| TAMFREX | Aurobindo Pharma | ساري |
-| HARNAL 0.4MG MODIFIED RELEASE CAPSULES | SAJA | ساري |
-| CIGAPRO 0.4 mg Prolonged Release Tablet | Tabuk Pharmaceutical | ساري |
-| GAMCET 0.4MG PROLONGED RELEASE F.C.TABLET | Dar Al Dawa | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| OMNIC OCAS 0.4 MG F-C TABLETS | TAMSULOSIN HYDROCHLORIDE | SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO | ساري |
+| TAMFREX | TAMSULOSIN HYDROCHLORIDE | Aurobindo Pharma Limited Unit VII | ساري |
+| HARNAL 0.4MG MODIFIED RELEASE CAPSULES | TAMSULOSIN HYDROCHLORIDE | SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO | ساري |
+| CIGAPRO 0.4 mg Prolonged Release Tablet | TAMSULOSIN HYDROCHLORIDE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| GAMCET 0.4MG PROLONGED RELEASE F.C.TABLET | TAMSULOSIN HYDROCHLORIDE | DAR ALDAWA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -113,7 +119,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 <!-- review:begin sa-lic-20261106-tamsulosin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ حسابي فقط (مستوى الأدلة L5)، بلا تجارب سريرية ولا منشورات ولا رابط آلي معقول. وليس للدواء ترخيص ساري في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ حسابي فقط (مستوى الأدلة L5)، بلا تجارب سريرية ولا منشورات ولا رابط آلي معقول. وليس للدواء ترخيص ساري في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-tamsulosin-1 -->
 
@@ -131,7 +137,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وليس للدواء ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وليس للدواء ترخيص ساري في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Calcitriol: الاستطباب الجديد المتوقع نقص فيتامين د المتقادم (obsolete vitamin D deficiency) (مستوى الدليل L5). الاستطباب الأصلي: فرط كالسيوم الدم، تكلّس الكلية، اضطرابات استقلاب الفوسفور، نقص فوسفات…"
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
@@ -82,12 +82,16 @@ predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis
 
 جميع التراخيص الأربعة سارية (4 من 4)، والدواء مسوَّق.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|------|
-| CALCIJEX 2MCG-ML AMP | CALCIJEX 2MCG-ML AMP | Abbott Laboratories | ساري |
-| ROCALTROL CAP 0.5MCG | ROCALTROL CAP 0.5MCG | ROCHE | ساري |
-| CALCIJEX 1MCG-ML I.V. AMP | CALCIJEX 1MCG-ML I.V. AMP | Abbott Laboratories | ساري |
-| ROCALTROL CAP 0.25MCG | ROCALTROL CAP 0.25MCG | ROCHE | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CALCIJEX 2MCG-ML AMP | CALCITRIOL | Abbott Laboratories | ساري |
+| ROCALTROL CAP 0.5MCG | CALCITRIOL | ROCHE | ساري |
+| CALCIJEX 1MCG-ML I.V. AMP | CALCITRIOL | Abbott Laboratories | ساري |
+| ROCALTROL CAP 0.25MCG | CALCITRIOL | ROCHE | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -112,7 +116,7 @@ predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis
 
 <!-- review:begin sa-lic-20261106-calcitriol-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ نموذجي فقط (مستوى الأدلة L5)، ولا توجد تجارب سريرية ولا أدبيات مرتبطة به، ومُدخل المرض نفسه مصنَّف كمتقادم. / جميع تراخيص الدواء في المملكة ملغاة حالياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ نموذجي فقط (مستوى الأدلة L5)، ولا توجد تجارب سريرية ولا أدبيات مرتبطة به، ومُدخل المرض نفسه مصنَّف كمتقادم. / جميع تراخيص الدواء في المملكة ملغاة حالياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-calcitriol-1 -->
 
@@ -130,7 +134,7 @@ predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص الدواء في المملكة ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الدواء في المملكة ملغاة حالياً» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e) |
 
 <!-- review:end log -->

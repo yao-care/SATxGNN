@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 890
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "zinc sulfate"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
 description: "Zinc Sulfate: الاستطباب الجديد المتوقع التهاب البلعوم (pharyngitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -73,11 +73,15 @@ description: "Zinc Sulfate: الاستطباب الجديد المتوقع ال�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| OCULOSAN EYE DROPS | OCULOSAN EYE DROPS (Excel Vision) | غير محدد | غير محدد (ساري) |
-| ZINCFRIN EYE DROPS | ZINCFRIN EYE DROPS (ALCON COUVREUR) | غير محدد | غير محدد (ساري) |
-| APIFRIN-Z EYE DROP | APIFRIN-Z EYE DROP (Amman Pharmaceutical Industries) | غير محدد | غير محدد (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| OCULOSAN EYE DROPS | NAPHAZOLINE NITRATE, ZINC SULFATE | Excel Vision | ساري |
+| ZINCFRIN EYE DROPS | PHENYLEPHRINE HYDROCHLORIDE, ZINC SULFATE | ALCON COUVREUR | ساري |
+| APIFRIN-Z EYE DROP | PHENYLEPHRINE HYDROCHLORIDE, ZINC SULFATE | Amman Pharmaceutical Industries (API) | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

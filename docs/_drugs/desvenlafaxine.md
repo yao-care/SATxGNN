@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 245
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desvenlafaxine: الاستطباب الجديد المتوقع اضطراب الوسواس القهري (مستوى الدليل L4). الاستطباب الأصلي: الاكتئاب الأحادي القطب، اضطراب الاكتئاب الرئيسي، اضطراب القلق (من الر…"
 monitor_inn: "Desvenlafaxine"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -87,10 +87,14 @@ predicted_indications: ["obsessive-compulsive disorder", "histrionic personality
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| DAVLEX | DAVLEX | غير محدد | غير متوفر (ترخيص ساري) |
-| PRISTIQ 50MG EXTENDED RELEASE TABLETS | PRISTIQ 50MG EXTENDED RELEASE TABLETS (فايزر) | غير محدد | غير متوفر (ترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DAVLEX | DESVENLAFAXINE SUCCINATE | UNITED INTERNATIONAL COMPANY | ساري |
+| PRISTIQ 50MG EXTENDED RELEASE TABLETS | DESVENLAFAXINE SUCCINATE | PFIZER | ساري |
+
+<!-- licenses:end -->
 
 ---
 

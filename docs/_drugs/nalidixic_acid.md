@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 576
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "NALIDIXIC ACID"
 predicted_indications: ["conjunctivitis", "sclerosing cholangitis", "rheumatoid arthritis", "infectious otitis media"]
 description: "Nalidixic Acid: الاستطباب الجديد المتوقع التهاب الملتحمة (conjunctivitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -76,12 +76,16 @@ description: "Nalidixic Acid: الاستطباب الجديد المتوقع ا�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|------|------|
-| ACIDO NALIDIXICO SUSP.125MG-5ML | ACIDO NALIDIXICO SUSP.125MG-5ML | غير محدد | غير متوفر | ALMIRALL PRODES PHARMA S.A. | ساري |
-| NALIDRAM TAB | NALIDRAM TAB | غير محدد | غير متوفر | MEMPHIS CHEMICALS | ساري |
-| ACIDO NALIDIXICO 500 MG TAB | ACIDO NALIDIXICO 500 MG TAB | غير محدد | غير متوفر | ALMIRALL PRODES PHARMA S.A. | ساري |
-| NEGRAM 500MG TAB | NEGRAM 500MG TAB | غير محدد | غير متوفر | SANOFI-SYNTHLABO | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ACIDO NALIDIXICO SUSP.125MG-5ML | NALIDIXIC ACID | ALMIRALL PRODES PHARMA S.A. | ساري |
+| NALIDRAM TAB | NALIDIXIC ACID | MEMPHIS CHEMICALS | ساري |
+| ACIDO NALIDIXICO 500 MG TAB | NALIDIXIC ACID | ALMIRALL PRODES PHARMA S.A. | ساري |
+| NEGRAM 500MG TAB | NALIDIXIC ACID | SANOFI-SYNTHLABO | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الأربعة سارية وهي لمنتجات أحادية المادة الفعالة.
 

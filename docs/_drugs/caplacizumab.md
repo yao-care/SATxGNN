@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CAPLACIZUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "hemophilia", "platelet-type bleeding disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caplacizumab: الاستطباب الجديد المتوقع اضطراب إطلاق الصفائح الأولي (primary release disorder of platelets) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -69,9 +69,13 @@ description: "Caplacizumab: الاستطباب الجديد المتوقع اض�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Cablivi | Cablivi | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Cablivi | CAPLACIZUMAB | Patheon Italia S.P.A. | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

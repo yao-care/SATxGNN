@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 848
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "TUBOCURARINE"
 drugbank_id: DB01199
 predicted_indications: ["irritable bowel syndrome"]
@@ -83,9 +83,13 @@ description: "Tubocurarine: الاستطباب الجديد المتوقع مت�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الدلالة المعتمدة |
-|---------|------|------|-----------|
-| TUBOCURARINE HYDROCHLORIDE INJ F.T.V. | TUBOCURARINE HYDROCHLORIDE INJ F.T.V. (الشركة المصنعة: Abbott Laboratories) | غير محدد | غير محددة (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TUBOCURARINE HYDROCHLORIDE INJ F.T.V. | TUBOCURARINE | Abbott Laboratories | ساري |
+
+<!-- licenses:end -->
 
 ---
 

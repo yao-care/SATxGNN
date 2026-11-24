@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Galantamine: الاستطباب الجديد المتوقع اضطرابات الحركة ذات المنشأ النفسي (psychogenic movement disorders) (مستوى الدليل L5). الاستطباب الأصلي: مرض الزهايمر"
 monitor_inn: "GALANTAMINE"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
@@ -83,13 +83,19 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| REMINYL 4MG TABLET | REMINYL 4MG TABLET (Janssen-Cilag) | — | ساري |
-| REMINYL 8 MG PROLONGED RELEASE CAPSULE | REMINYL 8 MG PROLONGED RELEASE CAPSULE (Janssen-Cilag) | كبسولة ممتدة المفعول | ساري |
-| REMINYL 4 MG - ML ORAL SOLUTION | REMINYL 4 MG/ML ORAL SOLUTION (Janssen Pharmaceutica) | محلول فموي | ساري |
-| REMINYL 8MG TABLET | REMINYL 8MG TABLET (Janssen-Cilag) | — | ساري |
-| REMINYL 24 MG PROLONGED RELEASE CAPSULE | REMINYL 24 MG PROLONGED RELEASE CAPSULE (Janssen-Cilag) | كبسولة ممتدة المفعول | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| REMINYL 4MG TABLET | GALANTAMINE | JANSSEN-CILAG | ساري |
+| REMINYL 8 MG PROLONGED RELEASE CAPSULE | GALANTAMINE | JANSSEN-CILAG | ساري |
+| REMINYL 4 MG - ML ORAL SOLUTION | GALANTAMINE | JANSSEN PHARMACEUTICA N.V. | ساري |
+| REMINYL 8MG TABLET | GALANTAMINE | JANSSEN-CILAG | ساري |
+| REMINYL 24 MG PROLONGED RELEASE CAPSULE | GALANTAMINE | JANSSEN-CILAG | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 (جميع التراخيص السبعة سارية؛ عُرض خمسة منها فقط، ولا يتوفر نص استطباب معتمد.)
 

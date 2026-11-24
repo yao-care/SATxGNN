@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ATENOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atenolol: الاستطباب الجديد المتوقع مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث (malignant hypertensive renal disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
 ---
 
@@ -70,13 +70,20 @@ description: "Atenolol: الاستطباب الجديد المتوقع مرض ا
 
 تظهر في البيانات المجمّعة 20 رخصة سارية على الأقل (قد تكون القائمة جزئية). أبرز المنتجات:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة |
-|---------|------|------|
-| POTOLAN 100MG TAB | POTOLAN 100MG TAB | APOTEX |
-| NORMOTEN 50 MG F.C. TAB | NORMOTEN 50 MG F.C. TAB | Jazeera Pharmaceutical Industries (JPI) |
-| CARDOL 100MG TAB | CARDOL 100MG TAB | SPIMACO |
-| TENORMIN TAB 100MG | TENORMIN TAB 100MG | AstraZeneca |
-| TENORMIN INJ 500MCG-ML | TENORMIN INJ 500MCG-ML | AstraZeneca |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| POTOLAN 100MG TAB | ATENOLOL | APOTEX | ساري |
+| NORMOTEN 50 MG F.C. TAB | ATENOLOL | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| CARDOL 100MG TAB | ATENOLOL | SPIMACO | ساري |
+| TENORMIN TAB 100MG | ATENOLOL | AstraZeneca | ساري |
+| TENORMIN INJ 500MCG-ML | ATENOLOL | AstraZeneca | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

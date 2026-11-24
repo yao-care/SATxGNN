@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BRIVARACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brivaracetam: الاستطباب الجديد المتوقع نقص إنزيم بيتا-كيتوثيولاز (beta-ketothiolase deficiency) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
 ---
 
@@ -70,13 +70,17 @@ description: "Brivaracetam: الاستطباب الجديد المتوقع نق�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| BRIVIACT 25MG F.C.TABLET | BRIVIACT 25MG F.C.TABLET | غير مسجل | غير مسجل في البيانات المحلية |
-| BRIVIACT 10MG/ML ORAL SOLUTION | BRIVIACT 10MG/ML ORAL SOLUTION | غير مسجل | غير مسجل في البيانات المحلية |
-| BRIVIACT 10MG F.C.TABLET | BRIVIACT 10MG F.C.TABLET | غير مسجل | غير مسجل في البيانات المحلية |
-| BRIVIACT 50MG F.C.TABLET | BRIVIACT 50MG F.C.TABLET | غير مسجل | غير مسجل في البيانات المحلية |
-| BRIVIACT 10MG/ML VIAL | BRIVIACT 10MG/ML VIAL | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BRIVIACT 25MG F.C.TABLET | BRIVARACETAM | UCB Pharma S.A. | ساري |
+| BRIVIACT 10MG/ML ORAL SOLUTION | BRIVARACETAM | Unither Manufacturing LLC | ساري |
+| BRIVIACT 10MG F.C.TABLET | BRIVARACETAM | UCB Pharma S.A. | ساري |
+| BRIVIACT 50MG F.C.TABLET | BRIVARACETAM | UCB Pharma S.A. | ساري |
+| BRIVIACT 10MG/ML VIAL | BRIVARACETAM | UCB Pharma S.A. | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

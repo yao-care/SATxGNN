@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CARBIMAZOLE"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbimazole: الاستطباب الجديد المتوقع مقاومة هرمون الغدة الدرقية الناتجة عن طفرة في مستقبل الهرمون بيتا (resistance to thyroid hormone due to a mutation in t… (مستوى الدليل L5). الاستطباب الأصلي: غير…"
 ---
 
@@ -71,6 +71,15 @@ description: "Carbimazole: الاستطباب الجديد المتوقع مقا
 | [24165508](https://pubmed.ncbi.nlm.nih.gov/24165508/) | 2013 | تقرير حالة/مراجعة | BMJ Case Reports | شاب شُخّص بفرط نشاط الغدة منذ 10 سنوات وعولج بكاربيمازول بشكل متقطع، مع ارتفاع مستمر في الثيروكسين الحر (fT4) وTSH غير مكبوت، وتضخم درقي؛ نقاش تشخيصي وليس دراسة علاجية |
 
 ## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Carbimazole Macleods | CARBIMAZOLE | Macleods Pharmaceuticals Limited | ساري |
+| NEO-MERCAZOLE 5MG TAB | CARBIMAZOLE | CENEXI | ساري |
+
+<!-- licenses:end -->
 
 تُضاف جداول التراخيص من سجلات التراخيص المحلية بواسطة البرنامج.
 

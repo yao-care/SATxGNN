@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 840
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Trimebutine: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine Disorder) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفرة في بيانات الترخيص"
 monitor_inn: "TRIMEBUTINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -86,9 +86,13 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الدلالة المعتمدة |
-|---------|------|------|-----------|
-| DEBRIDAT 1.2 GM-250ML SUSPENSION | DEBRIDAT 1.2 GM-250ML SUSPENSION (الشركة المصنّعة: PARK-DAVIS) | غير مذكور | غير مذكورة (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DEBRIDAT 1.2 GM-250ML SUSPENSION | TRIMEBUTINE | PARK-DAVIS | ساري |
+
+<!-- licenses:end -->
 
 ---
 

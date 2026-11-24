@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 876
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "vitamin e"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
 description: "Vitamin E: الاستطباب الجديد المتوقع اضطراب استقلاب البيليروبين الخلقي (inborn disorder of bilirubin metabolism) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -72,11 +72,15 @@ description: "Vitamin E: الاستطباب الجديد المتوقع اضطر
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| DAGRAVIT A-E CAPS | DAGRAVIT A-E CAPS | DAGRA | ساري |
-| TOCOVIT | TOCOVIT | THE NILE COMPANY FOR PHARMACEUTICALS AND CHEMICAL IND. | ساري |
-| LAVENTE OINT. | LAVENTE OINT. | EISAI | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DAGRAVIT A-E CAPS | VITAMIN A, VITAMIN E | DAGRA | ساري |
+| TOCOVIT | VITAMIN A, VITAMIN E | THE NILE COMPANY FOR PHARMACEUTICALS AND CHEMICAL IND. | ساري |
+| LAVENTE OINT. | CHLORHEXIDINE, DIPHENYLPYRALINE, VITAMIN A, VITAMIN D2, VITAMIN E, T-SEVEN | EISAI | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

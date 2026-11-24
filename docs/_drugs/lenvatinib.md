@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 489
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LENVATINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib: الاستطباب الجديد المتوقع الساركوما الشحمية (liposarcoma) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -77,11 +77,15 @@ description: "Lenvatinib: الاستطباب الجديد المتوقع الس�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LENVIMA 10 mg HARD CAPSULES | LENVIMA 10 mg (الشركة المصنّعة: PATHEON INC) | كبسولات صلبة | ساري |
-| LENVIMA 4 mg HARD CAPSULES | LENVIMA 4 mg (الشركة المصنّعة: PATHEON INC) | كبسولات صلبة | ساري |
-| Lenvatinib TBM | Lenvatinib TBM (الشركة المصنّعة: Shilpa Medicare Ltd) | غير محدد | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LENVIMA 10 mg HARD CAPSULES | LENVATINIB | PATHEON INC | ساري |
+| LENVIMA 4 mg HARD CAPSULES | LENVATINIB | PATHEON INC | ساري |
+| Lenvatinib TBM | LENVATINIB | Shilpa Medicare Ltd | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الثلاثة سارية حالياً.
 

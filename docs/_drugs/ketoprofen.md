@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "KETOPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
 description: "Ketoprofen: الاستطباب الجديد المتوقع Acromesomelic dysplasia, Hunter-Thompson type (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 9 (السارية: 9)"
@@ -100,15 +100,19 @@ description: "Ketoprofen: الاستطباب الجديد المتوقع Acromes
 
 لا تتوفر نصوص الاستطباب المعتمدة ولا الأشكال الدوائية في البيانات المجمّعة.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|------|
-| PROFENID 100MG SUPP. | PROFENID 100MG SUPP. | sanofi-aventis | ساري |
-| PROFENID 100MG TAB | PROFENID 100MG TAB | sanofi-aventis | ساري |
-| KETOFAN 25MG TAB | KETOFAN 25MG TAB | ALAMRIAH FOR PHARMACEUTICALS INDUSTRIES | ساري |
-| FASTUM 2.5% GEL | FASTUM 2.5% GEL | A MENARINI INDUSTRIE FARMACEUTICHE S.R.L | ساري |
-| PROFENID 100MG I.M VIAL+SOLV. | PROFENID 100MG I.M VIAL+SOLV. | sanofi-aventis | ساري |
+<!-- licenses:begin -->
 
-(عُرضت 5 من أصل 9 تراخيص.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PROFENID 100MG SUPP. | KETOPROFEN | sanofi-aventis | ساري |
+| PROFENID 100MG TAB | KETOPROFEN | sanofi-aventis | ساري |
+| KETOFAN 25MG TAB | KETOPROFEN | ALAMRIAH FOR PHARMACEUTICALS INDUSTRIES | ساري |
+| FASTUM 2.5% GEL | KETOPROFEN | A MENARINI INDUSTRIE FARMACEUTICHE S.R.L | ساري |
+| PROFENID 100MG I.M VIAL+SOLV. | KETOPROFEN | sanofi-aventis | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -135,7 +139,7 @@ description: "Ketoprofen: الاستطباب الجديد المتوقع Acromes
 
 <!-- review:begin sa-lic-20261106-ketoprofen-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «حالة السوق "ملغاة فقط" تحدّ من الجدوى العملية، ولم تكتمل بيانات السلامة الرسمية، وهي فجوة تمنع الانتقال إلى مرحلة فحص السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 9، منها سارية: 9؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «حالة السوق "ملغاة فقط" تحدّ من الجدوى العملية، ولم تكتمل بيانات السلامة الرسمية، وهي فجوة تمنع الانتقال إلى مرحلة فحص السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ketoprofen-1 -->
 
@@ -153,7 +157,7 @@ description: "Ketoprofen: الاستطباب الجديد المتوقع Acromes
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «حالة السوق "ملغاة فقط" تحدّ من الجدوى العملية، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «حالة السوق "ملغاة فقط" تحدّ من الجدوى العملية، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 101
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzoyl Peroxide: الاستطباب الجديد المتوقع التقرن الجريبي المقلوب في الفرج (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب (إضافة إلى الأكزيما التأتبية والتهاب الجلد التماسي والتهاب…"
 monitor_inn: "BENZOYL PEROXIDE"
 predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl methacrylate sensitization", "acrodermatitis chronica atrophicans", "acne keloid"]
@@ -82,13 +82,19 @@ predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl 
 
 جميع التراخيص الثمانية سارية (8 من 8 تراخيص سارية)، والدواء مسوّق. ولم تتضمن البيانات المجمّعة نص الاستطباب المعتمد ولا الشكل الدوائي.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| PANOXYL 10 ACNE GEL | PANOXYL 10 ACNE GEL | STIEFEL LABORATORIES | ساري |
-| PANOXYL 5 LOTION | PANOXYL 5 LOTION | STIEFEL LABORATORIES | ساري |
-| ACNEZOYL 2.5 % GEL | ACNEZOYL 2.5 % GEL | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
-| ACNEZOYL 5% GEL | ACNEZOYL 5% GEL | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
-| BENZAC AC 2.5% GEL | BENZAC AC 2.5% GEL | GALDERMA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PANOXYL 10 ACNE GEL | BENZOYL PEROXIDE | STIEFEL LABORATORIES | ساري |
+| PANOXYL 5 LOTION | BENZOYL PEROXIDE | STIEFEL LABORATORIES | ساري |
+| ACNEZOYL 2.5 % GEL | BENZOYL PEROXIDE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| ACNEZOYL 5% GEL | BENZOYL PEROXIDE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| BENZAC AC 2.5% GEL | BENZOYL PEROXIDE | GALDERMA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

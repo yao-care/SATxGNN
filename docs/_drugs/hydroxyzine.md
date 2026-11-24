@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Hydroxyzine: الاستطباب الجديد المتوقع التهاب الملتحمة الوردي (rosacea conjunctivitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -68,11 +68,15 @@ description: "Hydroxyzine: الاستطباب الجديد المتوقع الت
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ATARAX TABLETS 25 MG | ATARAX TABLETS 25 MG (U.C.B.) | غير محدد | غير متوفر (مُلغى) |
-| ATARAX TABLETS 10 MG | ATARAX TABLETS 10 MG (U.C.B.) | غير محدد | غير متوفر (مُلغى) |
-| ATARAX SYRUP | ATARAX SYRUP (U.C.B.) | غير محدد | غير متوفر (مُلغى) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ATARAX TABLETS 25 MG | HYDROXYZINE HYDROCHLORIDE | U.C.B. | ساري |
+| ATARAX TABLETS 10 MG | HYDROXYZINE HYDROCHLORIDE | U.C.B. | ساري |
+| ATARAX SYRUP | HYDROXYZINE HYDROCHLORIDE | U.C.B. | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الثلاثة سارية، والمصنّع هو U.C.B.
 

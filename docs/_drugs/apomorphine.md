@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "APOMORPHINE"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Apomorphine: الاستطباب الجديد المتوقع تعدد التلافيف الصغيرة حول الشق السيلفي مع ضمور المخيخ والتعقّد المفصلي (polymicrogyria, perisylvian… (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات ال…"
 ---
 
@@ -70,9 +70,13 @@ description: "Apomorphine: الاستطباب الجديد المتوقع تعد
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Dacepton | Dacepton | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Dacepton | APOMORPHINE | EVER PHARMA JENA GMBH | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

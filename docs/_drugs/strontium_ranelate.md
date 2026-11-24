@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 772
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Strontium Ranelate: الاستطباب الجديد المتوقع نقص العامل المساعد للهيبارين 2 (مستوى الدليل L5). الاستطباب الأصلي: هشاشة العظام بعد انقطاع الطمث / هشاشة العظام (من الرسم المعرفي لـ TxG…"
 monitor_inn: "STRONTIUM RANELATE"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "severe nonproliferative diabetic retinopathy"]
@@ -81,15 +81,13 @@ predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficienc
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PROTELOS 2GM GRANULES FOR ORAL SUSP. (ساري) | PROTELOS 2GM GRANULES FOR ORAL SUSP. (الشركة المصنّعة: SERVIER) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
 
-<!-- review:begin sa-row-20261112-strontium_ranelate-1 -->
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PROTELOS 2GM GRANULES FOR ORAL SUSP. | STRONTIUM RANELATE | SERVIER | ساري |
 
-> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «(ملغى)» المستحضر PROTELOS 2GM GRANULES FOR ORAL SUSP. مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
-
-<!-- review:end sa-row-20261112-strontium_ranelate-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -119,7 +117,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficienc
 
 <!-- review:begin sa-lic-20261106-strontium_ranelate-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من الجدوى العملية لإعادة التوظيف، نظراً لأن المنتج ملغى في السوق السعودي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من الجدوى العملية لإعادة التوظيف، نظراً لأن المنتج ملغى في السوق السعودي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-strontium_ranelate-1 -->
 
@@ -133,8 +131,8 @@ predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficienc
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «نظراً لأن المنتج ملغى في السوق السعودي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-12 | الجدول: PROTELOS 2GM GRANULES FOR ORAL SUSP. مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-06 | حُذف: «نظراً لأن المنتج ملغى في السوق السعودي» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | الجدول: PROTELOS 2GM GRANULES FOR ORAL SUSP. مسجل (ساري) وليس ملغى | حلّ محله جدول التراخيص المولَّد برمجيًا (سابقًا: صُحّح) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [ChEMBL CHEMBL3707306 (strontium ranelate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707306) |
 
 <!-- review:end log -->

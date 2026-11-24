@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 792
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Telithromycin: الاستطباب الجديد المتوقع فرط أميلاز الدم (مستوى الدليل L5). الاستطباب الأصلي: العدوى العقدية، الالتهاب الرئوي العقدي، الالتهاب الرئوي بالميكوبلازما…"
 monitor_inn: "TELITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "septicemic plague", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
@@ -84,9 +84,13 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| KETEK 400MG F.C.TABLET | KETEK 400MG F.C.TABLET (sanofi-aventis) | أقراص مغلفة (حسب اسم المنتج) | غير متوفر؛ الترخيص ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| KETEK 400MG F.C.TABLET | TELITHROMYCIN | sanofi-aventis | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -109,7 +113,7 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 <!-- review:begin sa-lic-20261106-telithromycin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدواء غير مسوّق حاليًا في المملكة (الترخيص ملغى)، وله ملف سلامة مقلق (تأثيرات على الكبد وفترة QT والجهاز العصبي العضلي، مع عدد كبير من التداخلات الدوائية).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدواء غير مسوّق حاليًا في المملكة (الترخيص ملغى)، وله ملف سلامة مقلق (تأثيرات على الكبد وفترة QT والجهاز العصبي العضلي، مع عدد كبير من التداخلات الدوائية).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-telithromycin-1 -->
 
@@ -127,7 +131,7 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «الدواء غير مسوّق حاليًا في المملكة (الترخيص ملغى)، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «الدواء غير مسوّق حاليًا في المملكة (الترخيص ملغى)، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL1136 (telithromycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1136) |
 
 <!-- review:end log -->

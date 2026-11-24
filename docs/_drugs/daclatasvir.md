@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 225
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Daclatasvir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L3). الاستطباب الأصلي: عدوى التهاب الكبد الوبائي C المزمن (مأخوذ من الاستطبابات الأصلية في ر…"
 monitor_inn: "DACLATASVIR"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -95,29 +95,15 @@ predicted_indications: ["hepatitis B virus infection", "HIV infectious disease",
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LEVERA 30 mg film-coated tablet (ساري) | LEVERA 30 mg film-coated tablet (SPIMACO) | أقراص مغلفة | غير متوفر |
-| DAKLINZA 60 mg film-coated tablet (ساري) | DAKLINZA 60 mg film-coated tablet (AstraZeneca) | أقراص مغلفة | غير متوفر |
-| LEVERA 60 mg film-coated tablet (ساري) | LEVERA 60 mg film-coated tablet (SPIMACO) | أقراص مغلفة | غير متوفر |
+<!-- licenses:begin -->
 
-<!-- review:begin sa-row-20261112-daclatasvir-1 -->
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LEVERA 30 mg film-coated tablet | DACLATASVIR | SPIMACO | ساري |
+| DAKLINZA 60 mg film-coated tablet | DACLATASVIR | AstraZeneca Pharmaceuticals LP | ساري |
+| LEVERA 60 mg film-coated tablet | DACLATASVIR | SPIMACO | ساري |
 
-> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «LEVERA 30 mg film-coated tablet (ملغى)» المستحضر LEVERA 30 mg film-coated tablet مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
-
-<!-- review:end sa-row-20261112-daclatasvir-1 -->
-
-<!-- review:begin sa-row-20261112-daclatasvir-2 -->
-
-> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «DAKLINZA 60 mg film-coated tablet (ملغى)» المستحضر DAKLINZA 60 mg film-coated tablet مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
-
-<!-- review:end sa-row-20261112-daclatasvir-2 -->
-
-<!-- review:begin sa-row-20261112-daclatasvir-3 -->
-
-> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «LEVERA 60 mg film-coated tablet (ملغى)» المستحضر LEVERA 60 mg film-coated tablet مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
-
-<!-- review:end sa-row-20261112-daclatasvir-3 -->
+<!-- licenses:end -->
 
 ---
 
@@ -139,7 +125,7 @@ predicted_indications: ["hepatitis B virus infection", "HIV infectious disease",
 
 <!-- review:begin sa-lic-20261106-daclatasvir-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الأدلة الحالية تخص علاج التهاب الكبد C لدى المصابين بعدوى مشتركة ولا تُظهر نشاطاً مضاداً لفيروس B، والدرجة العالية في TxGNN تعكس القرب الشبكي لا فعالية مثبتة. كما أن جميع تراخيص المنتج في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الأدلة الحالية تخص علاج التهاب الكبد C لدى المصابين بعدوى مشتركة ولا تُظهر نشاطاً مضاداً لفيروس B، والدرجة العالية في TxGNN تعكس القرب الشبكي لا فعالية مثبتة. كما أن جميع تراخيص المنتج في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-daclatasvir-1 -->
 
@@ -159,10 +145,10 @@ predicted_indications: ["hepatitis B virus infection", "HIV infectious disease",
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن جميع تراخيص المنتج في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-12 | الجدول: LEVERA 30 mg film-coated tablet مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
-| 2026-11-12 | الجدول: DAKLINZA 60 mg film-coated tablet مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
-| 2026-11-12 | الجدول: LEVERA 60 mg film-coated tablet مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-06 | حُذف: «كما أن جميع تراخيص المنتج في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-12 | الجدول: LEVERA 30 mg film-coated tablet مسجل (ساري) وليس ملغى | حلّ محله جدول التراخيص المولَّد برمجيًا (سابقًا: صُحّح) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: DAKLINZA 60 mg film-coated tablet مسجل (ساري) وليس ملغى | حلّ محله جدول التراخيص المولَّد برمجيًا (سابقًا: صُحّح) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: LEVERA 60 mg film-coated tablet مسجل (ساري) وليس ملغى | حلّ محله جدول التراخيص المولَّد برمجيًا (سابقًا: صُحّح) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 
 <!-- review:end log -->
 

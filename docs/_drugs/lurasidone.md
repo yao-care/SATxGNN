@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 521
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LURASIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -95,13 +95,17 @@ description: "Lurasidone: الاستطباب الجديد المتوقع Retinal
 
 لم تتوفر معلومات عن الشكل الصيدلاني أو الاستطباب المعتمد في هذه التراخيص.
 
-| اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| Laroza | Jazeera Pharmaceutical Industries (JPI) | ساري |
-| LATUDA 80 MG F.C.TABLET | Bushu Pharmaceuticals Ltd. | ساري |
-| LATUDA 40 MG F.C.TABLET | Bushu Pharmaceuticals Ltd. | ساري |
-| LATUDA 20 MG F.C.TABLET | Bushu Pharmaceuticals Ltd. | ساري |
-| Debilur | Tabuk Pharmaceutical Manufacturing Co. | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Laroza | LURASIDONE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| LATUDA 80 MG F.C.TABLET | LURASIDONE | Bushu Pharmaceuticals Ltd. | ساري |
+| LATUDA 40 MG F.C.TABLET | LURASIDONE | Bushu Pharmaceuticals Ltd. | ساري |
+| LATUDA 20 MG F.C.TABLET | LURASIDONE | Bushu Pharmaceuticals Ltd. | ساري |
+| Debilur | LURASIDONE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -139,7 +143,7 @@ description: "Lurasidone: الاستطباب الجديد المتوقع Retinal
 
 <!-- review:begin sa-lic-20261106-lurasidone-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح حالة التراخيص الملغاة ووضع الدواء التسويقي في السعودية. / تقييم الإشارة المتعلقة بالهوس الناجم عن الدواء (تقرير حالة PMID 31298818).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح حالة التراخيص الملغاة ووضع الدواء التسويقي في السعودية. / تقييم الإشارة المتعلقة بالهوس الناجم عن الدواء (تقرير حالة PMID 31298818).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-lurasidone-1 -->
 
@@ -151,7 +155,7 @@ description: "Lurasidone: الاستطباب الجديد المتوقع Retinal
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح حالة التراخيص الملغاة ووضع الدواء التسويقي في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح حالة التراخيص الملغاة ووضع الدواء التسويقي في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8) |
 
 <!-- review:end log -->

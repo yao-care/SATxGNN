@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 743
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Salbutamol: الاستطباب الجديد المتوقع التهاب الملتحمة الحليمي (Papillary conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: الربو، وأمراض القصبات الهوائية (نصوص الاستطباب غير متوفرة في سجلات ال…"
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
@@ -80,13 +80,20 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pha
 
 جميع التراخيص العشرين سارية. فيما يلي أبرز خمسة منها (نصوص الاستطباب وأشكال الجرعات غير مدرجة في السجلات):
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|------|
-| BRONCHOVENT 5mg/ml nebuliser solution | BRONCHOVENT 5mg/ml nebuliser solution | Pharmaceutical Solution Industries (PSI) | ساري |
-| VENTOLIN RESPIRATORY SOLUTIN | VENTOLIN RESPIRATORY SOLUTIN | GLAXO SAUDI ARABIA | ساري |
-| VENTOLIN CR | VENTOLIN CR | GLAXO SAUDI ARABIA | ساري |
-| VENTOLIN DISKUS 200MCG | VENTOLIN DISKUS 200MCG | GLAXOWELLCOME | ساري |
-| AIROMIR INHALER 100MCG-ACTUATION | AIROMIR INHALER 100MCG-ACTUATION | 3M | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BRONCHOVENT 5mg/ml nebuliser solution | SALBUTAMOL | Pharmaceutical Solution Industries (PSI) | ساري |
+| VENTOLIN RESPIRATORY SOLUTIN | SALBUTAMOL | GLAXO SAUDI ARABIA | ساري |
+| VENTOLIN CR | SALBUTAMOL | GLAXO SAUDI ARABIA | ساري |
+| VENTOLIN DISKUS 200MCG | SALBUTAMOL | GLAXOWELLCOME | ساري |
+| AIROMIR INHALER 100MCG-ACTUATION | SALBUTAMOL | 3M | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

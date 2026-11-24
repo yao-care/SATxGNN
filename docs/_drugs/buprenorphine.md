@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 126
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Buprenorphine: الاستطباب الجديد المتوقع البورفيريا الحادة المتقطعة (مستوى الدليل L4). الاستطباب الأصلي: الاعتماد على المواد الأفيونية (الاعتماد على المورفين وتعاطي المواد)"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
@@ -82,12 +82,16 @@ predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal d
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| BUTRANS 10 mcg/hour transdermal patch | BUTRANS 10 mcg/hour (لصقة جلدية) | — | — |
-| Buvidal | Buvidal | — | — |
-| BUTRANS 20 mcg/hour transdermal patch | BUTRANS 20 mcg/hour (لصقة جلدية) | — | — |
-| BUTRANS 5 mcg/hour transdermal patch | BUTRANS 5 mcg/hour (لصقة جلدية) | — | — |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BUTRANS 10 mcg/hour transdermal patch | BUPRENORPHINE | LTS LOHMANN Therapie-Systeme | ساري |
+| Buvidal | BUPRENORPHINE | Rechon Life Science AB | ساري |
+| BUTRANS 20 mcg/hour transdermal patch | BUPRENORPHINE | LTS LOHMANN Therapie-Systeme | ساري |
+| BUTRANS 5 mcg/hour transdermal patch | BUPRENORPHINE | LTS LOHMANN Therapie-Systeme | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الأربعة سارية.
 

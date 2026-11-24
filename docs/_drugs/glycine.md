@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Glycine: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…"
 monitor_inn: "GLYCINE"
 predicted_indications: ["nasal cavity disease"]
@@ -64,7 +64,6 @@ predicted_indications: ["nasal cavity disease"]
 
 العلاقة بين الاستطباب الأصلي والجديد قريبة تشريحياً ومرضياً: التهاب الأنف والتهاب البلعوم الأنفي من أمراض الجهاز التنفسي العلوي، وأمراض التجويف الأنفي تقع في المنطقة نفسها. لذلك يرجح أن التنبؤ ناتج عن قرب هذه الحالات داخل الرسم المعرفي، وليس عن إشارة علاجية جديدة حقيقية.
 
-
 ---
 
 ## الأدلة من التجارب السريرية
@@ -88,13 +87,19 @@ predicted_indications: ["nasal cavity disease"]
 
 جميع التراخيص السبعة سارية (7 تراخيص سارية من أصل 7). نصوص الاستطباب ونماذج الجرعات غير متوفرة.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| GLYCINE IRRIGATION SOLN 1.5% | GLYCINE IRRIGATION SOLN 1.5% | Pharmaceutical Solution Industries (PSI) | ساري |
-| GLYCINE 1.5% IRRIGATION SOLUTION | GLYCINE 1.5% IRRIGATION SOLUTION | الكويتية السعودية للصناعات الدوائية | ساري |
-| GLYCINE | GLYCINE | McGaw | ساري |
-| GLYCINE FOR IRRIGATION 1.5% | GLYCINE FOR IRRIGATION 1.5% | Abbott Laboratories | ساري |
-| GLYCINE IRRIGATION 1.5% | GLYCINE IRRIGATION 1.5% | B. Braun | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| GLYCINE IRRIGATION SOLN 1.5% | GLYCINE | Pharmaceutical Solution Industries (PSI) | ساري |
+| GLYCINE 1.5% IRRIGATION SOLUTION | GLYCINE | KUWAIT SAUDI PHARMACEUTICAL INDUSTRIES | ساري |
+| GLYCINE | GLYCINE | McGAW | ساري |
+| GLYCINE FOR IRRIGATION 1.5% | GLYCINE | Abbott Laboratories | ساري |
+| GLYCINE IRRIGATION 1.5% | GLYCINE | B. BRAUN | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 يُلاحظ أن المنتجات المرخصة سابقاً هي محاليل غسيل (irrigation) بتركيز 1.5%، وليست مستحضرات لعلاج أمراض الأنف.
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 615
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-24
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: الاستطباب الجديد المتوقع Duodenal obstruction (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -96,13 +96,20 @@ description: "Omeprazole: الاستطباب الجديد المتوقع Duodena
 
 نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمّعة.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| LOSEC MUPS 20MG TAB | LOSEC MUPS 20MG TAB | AstraZeneca | ساري |
-| LOSEC 40MG-10ML I-V VIAL | LOSEC 40MG-10ML I-V VIAL | AstraZeneca | ساري |
-| OMIZ 20MG CAP | OMIZ 20MG CAP | Tabuk | ساري |
-| RISEK 20 MG CAPS | RISEK 20 MG CAPS | Julphar | ساري |
-| OPRAZOLE 20MG E.C.TAB | OPRAZOLE 20MG E.C.TAB | Hikma | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LOSEC MUPS 20MG TAB | OMEPRAZOLE | AstraZeneca | ساري |
+| LOSEC 40MG-10ML I-V VIAL | OMEPRAZOLE | AstraZeneca | ساري |
+| OMIZ 20MG CAP | OMEPRAZOLE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| RISEK 20 MG CAPS | OMEPRAZOLE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| OPRAZOLE 20MG E.C.TAB | OMEPRAZOLE | Hikma Pharmaceuticals PLC | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

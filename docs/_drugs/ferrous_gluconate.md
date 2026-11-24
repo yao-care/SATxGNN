@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "FERROUS GLUCONATE"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
 description: "Ferrous Gluconate: الاستطباب الجديد المتوقع Vitamin B12- and folate-independent constitutional megaloblastic anemia (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -68,10 +68,14 @@ description: "Ferrous Gluconate: الاستطباب الجديد المتوقع 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| GLUCOFER 300MG TAB | GLUCOFER 300MG TAB (Hikma Pharmaceuticals PLC) | غير محدد | غير متوفر | ساري |
-| FERROUS GLUCONATE 300MG TAB | FERROUS GLUCONATE 300MG TAB (Gulf Pharmaceutical Industries - Julphar) | غير محدد | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| GLUCOFER 300MG TAB | FERROUS GLUCONATE | Hikma Pharmaceuticals PLC | ساري |
+| FERROUS GLUCONATE 300MG TAB | FERROUS GLUCONATE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

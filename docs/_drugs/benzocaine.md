@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 100
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Benzocaine: الاستطباب الجديد المتوقع التهاب الملتحمة الحليمي (Papillary conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد، التهاب البلعوم، قدم الرياضي، السعفة الجسدية، الالتهابات…"
 monitor_inn: "BENZOCAINE"
 predicted_indications: ["papillary conjunctivitis"]
@@ -80,10 +80,14 @@ predicted_indications: ["papillary conjunctivitis"]
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CLOVAINE 10% W/W GEL | CLOVAINE 10% W/W GEL (الشركة المصنعة: DEEF Pharmaceutical Industries) | جل (حسب اسم المنتج) | غير مذكور (الترخيص ساري) |
-| CLOVAINE 10% w/wgel | CLOVAINE 10% w/wgel (الشركة المصنعة: DEEF Pharmaceutical Industries) | جل (حسب اسم المنتج) | غير مذكور (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CLOVAINE 10% W/W GEL | BENZOCAINE | DEEF PHARMACEUTICAL INDUSTRIES | ساري |
+| CLOVAINE 10% w/wgel | BENZOCAINE | DEEF PHARMACEUTICAL INDUSTRIES | ساري |
+
+<!-- licenses:end -->
 
 الدواء مسوّق، وكلا الترخيصين (2 من أصل 2) ساريان.
 

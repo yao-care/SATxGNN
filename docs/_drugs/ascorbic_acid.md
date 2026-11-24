@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ASCORBIC ACID"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected"]
 description: "Ascorbic Acid: الاستطباب الجديد المتوقع تشوه المريء الخلقي غير المتلازمي (non-syndromic esophageal malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
@@ -70,13 +70,19 @@ description: "Ascorbic Acid: الاستطباب الجديد المتوقع تش
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
-|---------|------|------|-----------|
-| REDOXON EFFERVESCENT TAB | REDOXON EFFERVESCENT TAB | غير محدد | غير متوفر |
-| CEBION DROPS | CEBION DROPS | غير محدد | غير متوفر |
-| VIFORCIT EFFERVESCENT TABLET | VIFORCIT EFFERVESCENT TABLET | غير محدد | غير متوفر |
-| CEVILENE DROPS | CEVILENE DROPS | غير محدد | غير متوفر |
-| JOSWE C 100MG EFFERVESCENT TABLETS | JOSWE C 100MG EFFERVESCENT TABLETS | غير محدد | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| REDOXON EFFERVESCENT TAB | ASCORBIC ACID | DELPHARM GAILLARD | ساري |
+| CEBION DROPS | ASCORBIC ACID | Merck Healthcare KGaA | ساري |
+| VIFORCIT EFFERVESCENT TABLET | ASCORBIC ACID | UNIVERSAL PHARMACEUTICAL INDUSTRIES (UNIPHARMA) | ساري |
+| CEVILENE DROPS | ASCORBIC ACID | KAHIRA EYGEPT | ساري |
+| JOSWE C 100MG EFFERVESCENT TABLETS | ASCORBIC ACID | Jordan Sweden Medical and Sterilization Co. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 10 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

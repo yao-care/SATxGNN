@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluorometholone: الاستطباب الجديد المتوقع التهاب الأوعية الدموية ما بعد العدوى (postinfectious vasculitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب القزحية، التهاب القزحية والجسم الهدبي، التهاب ال…"
 monitor_inn: "FLUOROMETHOLONE"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
@@ -81,13 +81,17 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الخمسة سارية (5 من أصل 5).
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| FLUCON OPTH SUSP 0.1% | FLUCON OPTH SUSP 0.1% | ALCON COUVREUR | ساري |
-| FML LIQUIFILM 0.1% | FML LIQUIFILM 0.1% | ALLERGAN PHARMACEUTICALS LTD | ساري |
-| FML 0.1% ophthalmic suspension | FML 0.1% ophthalmic suspension | ALLERGAN PHARMACEUTICALS LTD | ساري |
-| OPTILONE 0.1% OPTHALMIC SUSPENTION | OPTILONE 0.1% OPTHALMIC SUSPENTION | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
-| FLUMETOL | FLUMETOL | RIYADH PHARMA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FLUCON OPTH SUSP 0.1% | FLUOROMETHOLONE | ALCON COUVREUR | ساري |
+| FML LIQUIFILM 0.1% | FLUOROMETHOLONE | ALLERGAN PHARMACEUTICALS LTD | ساري |
+| FML 0.1% ophthalmic suspension | FLUOROMETHOLONE | ALLERGAN PHARMACEUTICALS LTD | ساري |
+| OPTILONE 0.1% OPTHALMIC SUSPENTION | FLUOROMETHOLONE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| FLUMETOL | FLUOROMETHOLONE | RIYADH PHARMA | ساري |
+
+<!-- licenses:end -->
 
 ---
 

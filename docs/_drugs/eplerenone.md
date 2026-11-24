@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "EPLERENONE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eplerenone: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي غير واضح الآلية متعدد العوامل (pulmonary hypertension with unclear multifactorial mechanism) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل …"
 ---
 
@@ -68,10 +68,14 @@ description: "Eplerenone: الاستطباب الجديد المتوقع ارت�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| EPNONE 50 mg Tablet | EPNONE 50 mg Tablet | غير مسجل | غير مسجل |
-| Epnone | Epnone | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| EPNONE 50 mg Tablet | EPLERENONE | MSN LABORATORIES PRIVATE LIMITED | ساري |
+| Epnone | EPLERENONE | MSN LABORATORIES PRIVATE LIMITED | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

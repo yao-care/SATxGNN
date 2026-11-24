@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Donepezil: الاستطباب الجديد المتوقع اضطرابات الحركة النفسية المنشأ (مستوى الدليل L5). الاستطباب الأصلي: مرض ألزهايمر (بحسب شبكة المعرفة PrimeKG، ولا تتوفر نصوص استطباب في تر…"
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
@@ -107,13 +107,17 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 
 جميع التراخيص الخمسة **سارية** (5 تراخيص سارية من أصل 5).
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| ALZAMED 5MG F.C.TABLET | ALZAMED 5MG F.C.TABLET | World Medicine İlaç San. ve Tic. A.Ş. | ساري |
-| DEMENTILE 5MG TABLET | DEMENTILE 5MG TABLET | Tabuk Pharmaceutical Manufacturing Co. | ساري |
-| DEMENTILE 10MG TABLET | DEMENTILE 10MG TABLET | Tabuk Pharmaceutical Manufacturing Co. | ساري |
-| Poliza | Poliza | United Pharmaceutical Company | ساري |
-| DONECEPT 5MG TABLET | DONECEPT 5MG TABLET | Actavis | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ALZAMED 5MG F.C.TABLET | DONEPEZIL HYDROCHLORIDE | World Medicine İlaç San. ve Tic. A.Ş. | ساري |
+| DEMENTILE 5MG TABLET | DONEPEZIL HYDROCHLORIDE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| DEMENTILE 10MG TABLET | DONEPEZIL HYDROCHLORIDE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| Poliza | DONEPEZIL HYDROCHLORIDE | UNITED PHARMACEUTICAL COMPANY | ساري |
+| DONECEPT 5MG TABLET | DONEPEZIL HYDROCHLORIDE | ACTAVIS | ساري |
+
+<!-- licenses:end -->
 
 ---
 

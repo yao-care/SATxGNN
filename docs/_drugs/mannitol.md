@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mannitol: الاستطباب الجديد المتوقع متلازمة عدم الإدرار المناسب لمضاد الإدرار الكلوية المنشأ (NSIAD) (مستوى الدليل L5). الاستطباب الأصلي: الوذمة الدماغية، ارتفاع الضغط داخل الجمجمة، ارتفاع ضغط العين، …"
 monitor_inn: "MANNITOL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
@@ -82,15 +82,19 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "a
 
 جميع التراخيص الثمانية سارية (8 من 8). ولم تتوفر بيانات عن شكل الجرعة أو الاستطباب المعتمد.
 
-| رقم الترخيص / المنتج | الشركة المصنعة | شكل الجرعة | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|-----|
-| 10% MANNITOL INTRAVENOUS INFUSION BP | QATAR PHARMA | غير متوفر | غير متوفر | ساري |
-| MANNITOL 10% INFUSION | Pharmaceutical Solution Industries (PSI) | غير متوفر | غير متوفر | ساري |
-| MANNITOL 20% INFUSION | GULF INJECT | غير متوفر | غير متوفر | ساري |
-| OSMITROL 10% INFUSION SOLN. | BAXTER | غير متوفر | غير متوفر | ساري |
-| MANNITOL 10% W-V INFUSION BOTTLES | GULF INJECT | غير متوفر | غير متوفر | ساري |
+<!-- licenses:begin -->
 
-(عُرضت 5 من أصل 8 تراخيص.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| 10% MANNITOL INTRAVENOUS INFUSION BP | MANNITOL | QATAR PHARMA | ساري |
+| MANNITOL 10% INFUSION | MANNITOL | Pharmaceutical Solution Industries (PSI) | ساري |
+| MANNITOL 20% INFUSION | MANNITOL | GULF INJECT | ساري |
+| OSMITROL 10% INFUSION SOLN. | MANNITOL | BAXTER | ساري |
+| MANNITOL 10% W-V INFUSION BOTTLES | MANNITOL | GULF INJECT | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

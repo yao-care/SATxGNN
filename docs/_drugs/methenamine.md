@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 545
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Methenamine: الاستطباب الجديد المتوقع التهاب الإحليل بالميكوبلازما اليوريائية (Ureaplasma urethritis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب المسالك البولية (مصدره الرسم المعرفي لـ TxGNN، وليس ن…"
 monitor_inn: "methenamine"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -91,9 +91,13 @@ predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uteri
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| COLI-URINAL effervescent granules | COLI-URINAL effervescent granules (الشركة المصنعة: MISR Company for Medical Products) | غير متوفر | غير متوفر (الترخيص **ساري**) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| COLI-URINAL effervescent granules | KHELLIN,METHENAMINE,PIPERAZINE | MISR COMPANY FOR MEDICAL PRODUCTS | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -133,7 +137,7 @@ predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uteri
 
 <!-- review:begin sa-lic-20261106-methenamine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «مراجعة مدى ملاءمة الاستطباب المتوقع مقارنة بالعلاجات المعتمدة، وتقييم الجدوى التنظيمية في ظل وضع الترخيص الملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «مراجعة مدى ملاءمة الاستطباب المتوقع مقارنة بالعلاجات المعتمدة، وتقييم الجدوى التنظيمية في ظل وضع الترخيص الملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-methenamine-1 -->
 
@@ -145,7 +149,7 @@ predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uteri
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وتقييم الجدوى التنظيمية في ظل وضع الترخيص الملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وتقييم الجدوى التنظيمية في ظل وضع الترخيص الملغى» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

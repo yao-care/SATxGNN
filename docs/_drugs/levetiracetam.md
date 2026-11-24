@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 493
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: الاستطباب الجديد المتوقع Beta-ketothiolase deficiency (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -93,13 +93,20 @@ description: "Levetiracetam: الاستطباب الجديد المتوقع Beta
 
 نصوص الاستطباب والأشكال الصيدلانية غير متوفرة في السجلات. فيما يلي أبرز 5 تراخيص:
 
-| اسم المنتج (كما سُجّل) | الشركة المصنّعة | الحالة |
-|---------|------|-----------|
-| LEVETAM 250 mg film-coated tablet | ACTAVIS | ساري |
-| EPITAM 1000MG F.C.TAB | Jazeera Pharmaceutical Industries (JPI) | ساري |
-| LAVIE 500 mg Film-Coated Tablets | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
-| VALES 500 MG CONCENTRATE FOR SOLUTION FOR INFUSION | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
-| KEPPRA 100MG-ML ORAL SOLUTION | NEXT PHARMA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LEVETAM 250 mg film-coated tablet | LEVETIRACETAM | ACTAVIS | ساري |
+| EPITAM 1000MG F.C.TAB | LEVETIRACETAM | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| LAVIE 500 mg Film-Coated Tablets | LEVETIRACETAM | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| VALES 500 MG CONCENTRATE FOR SOLUTION FOR INFUSION | LEVETIRACETAM | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| KEPPRA 100MG-ML ORAL SOLUTION | LEVETIRACETAM | NEXT PHARMA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

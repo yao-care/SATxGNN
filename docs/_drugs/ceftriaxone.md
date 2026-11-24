@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CEFTRIAXONE"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ceftriaxone: الاستطباب الجديد المتوقع متلازمة فرط اللزوجة متعددة النسائل (polyclonal hyperviscosity syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
 ---
 
@@ -70,13 +70,20 @@ description: "Ceftriaxone: الاستطباب الجديد المتوقع متل
 
 يتوفر الدواء في السوق السعودية عبر عدة تراخيص لمنتجات أحادية المكوّن، وقد تكون القائمة أدناه جزئية. لا يتوفر نص مؤشر معتمد في السجلات المحلية.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الجهة المصنّعة |
-|---------|------|------|-----------|
-| ROCEPHIN 1GM i.m. + 3.5 ML SOLVENT | ROCEPHIN 1GM i.m. + 3.5 ML SOLVENT | غير مسجّل | ROCHE |
-| ROCEPHIN 500MG i.v. + 5 ML SOLVENT | ROCEPHIN 500MG i.v. + 5 ML SOLVENT | غير مسجّل | ROCHE |
-| MESPORIN 1000 I.V | MESPORIN 1000 I.V | غير مسجّل | LABESFAL |
-| SAMIXON 1GM VIAL | SAMIXON 1GM VIAL | غير مسجّل | Hikma Pharmaceuticals PLC |
-| CEFAXON 1GM I.V VIAL | CEFAXON 1GM I.V VIAL | غير مسجّل | Al Hikma Pharmaceutical Portugal Lda |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ROCEPHIN 1GM i.m. + 3.5 ML SOLVENT | CEFTRIAXONE | ROCHE | ساري |
+| ROCEPHIN 500MG i.v. + 5 ML SOLVENT | CEFTRIAXONE | ROCHE | ساري |
+| MESPORIN 1000 I.V | CEFTRIAXONE | LABESFAL | ساري |
+| SAMIXON 1GM VIAL | CEFTRIAXONE | Hikma Pharmaceuticals PLC | ساري |
+| CEFAXON 1GM I.V VIAL | CEFTRIAXONE | Al Hikma Pharmaceutical Portugal Lda | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

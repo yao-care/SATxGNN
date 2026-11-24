@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 description: "Insulin Aspart: الاستطباب الجديد المتوقع التهاب المبيض المناعي الذاتي (autoimmune oophoritis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -78,13 +78,17 @@ description: "Insulin Aspart: الاستطباب الجديد المتوقع ا�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| NovoRapid | NovoRapid | غير متوفر | غير متوفر |
-| NOVORAPID FLEXTOUCH 100U\ML | NOVORAPID FLEXTOUCH 100U\ML | غير متوفر | غير متوفر |
-| NOVORAPID PEN FILL 100 I.U - ML | NOVORAPID PEN FILL 100 I.U - ML | غير متوفر | غير متوفر |
-| Truvelog | Truvelog (Sanofi) | غير متوفر | غير متوفر |
-| NOVORAPID FLEXPEN 100U\ML | NOVORAPID FLEXPEN 100U\ML | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NovoRapid | INSULIN ASPART | Novo Nordisk Produao Pharmaceutical Industry | ساري |
+| NOVORAPID FLEXTOUCH 100U\ML | INSULIN ASPART | NOVO NORDISK | ساري |
+| NOVORAPID PEN FILL 100 I.U - ML | INSULIN ASPART | NOVO NORDISK | ساري |
+| Truvelog | INSULIN ASPART | Sanofi aventis Deutschland GmbH | ساري |
+| NOVORAPID FLEXPEN 100U\ML | INSULIN ASPART | NOVO NORDISK | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الخمسة سارية. لا يتوفر نص الاستطباب المعتمد في البيانات المحلية.
 

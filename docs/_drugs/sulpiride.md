@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 780
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sulpiride: الاستطباب الجديد المتوقع الحثل الشبكي (مع أو بدون تشوهات خارج العين) (مستوى الدليل L4). الاستطباب الأصلي: الفصام"
 monitor_inn: "SULPIRIDE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "syndromic myopia", "atypical glycine encephalopathy"]
@@ -83,13 +83,17 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| GENPRID | GENPRID (ساري) | غير متوفر | غير متوفر |
-| DOGMATIL FORT TAB 200MG | DOGMATIL FORT TAB 200MG (ساري) | غير متوفر | غير متوفر |
-| DOGMATIL SYP | DOGMATIL SYP (ساري) | غير متوفر | غير متوفر |
-| DOGMATIL CAPS 50MG | DOGMATIL CAPS 50MG (ساري) | غير متوفر | غير متوفر |
-| DOGMATIL AMP 100MG | DOGMATIL AMP 100MG (ساري) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| GENPRID | SULPIRIDE | RIYADH PHARMA | ساري |
+| DOGMATIL FORT TAB 200MG | SULPIRIDE | Delpharm Dijon | ساري |
+| DOGMATIL SYP | SULPIRIDE | sanofi-aventis | ساري |
+| DOGMATIL CAPS 50MG | SULPIRIDE | sanofi-aventis | ساري |
+| DOGMATIL AMP 100MG | SULPIRIDE | sanofi-aventis | ساري |
+
+<!-- licenses:end -->
 
 ---
 

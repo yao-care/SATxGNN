@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HYDROXOCOBALAMIN"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding"]
 description: "Hydroxocobalamin: الاستطباب الجديد المتوقع Esophageal varices with bleeding (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -81,9 +81,13 @@ description: "Hydroxocobalamin: الاستطباب الجديد المتوقع E
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| DEPOVIT B12 1000 AMP 1ML | DEPOVIT B12 1000 AMP 1ML (الشركة المصنعة: ALAMRIAH FOR PHARMACEUTICALS INDUSTRIES) | غير محدد | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DEPOVIT B12 1000 AMP 1ML | HYDROXOCOBALAMIN | ALAMRIAH FOR PHARMACEUTICALS INDUSTRIES | ساري |
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ambrisentan: الاستطباب الجديد المتوقع التشوه الشرياني الوريدي الرئوي (pulmonary arteriovenous malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -72,10 +72,14 @@ description: "Ambrisentan: الاستطباب الجديد المتوقع الت
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| VOLIBRIS 5 mg film-coated tablet | VOLIBRIS 5 mg film-coated tablet | غير مسجل | غير مسجل |
-| VOLIBRIS 10 mg film-coated tablet | VOLIBRIS 10 mg film-coated tablet | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VOLIBRIS 5 mg film-coated tablet | AMBRISENTAN | PATHEON INC | ساري |
+| VOLIBRIS 10 mg film-coated tablet | AMBRISENTAN | PATHEON INC | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

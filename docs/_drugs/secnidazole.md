@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 747
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SECNIDAZOLE"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vaginal discharge", "vulvar neoplasm", "leukoplakia of vagina", "vulvovaginal candidiasis"]
 description: "Secnidazole: الاستطباب الجديد المتوقع التهاب المهبل الضموري بعد سن اليأس (postmenopausal atrophic vaginitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -72,10 +72,14 @@ description: "Secnidazole: الاستطباب الجديد المتوقع الت
 
 تظهر البيانات المحلية ترخيصين ساريين، وكلاهما لمنتج أحادي المادة الفعالة:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| SECNEZOLE 500MG TABLETS | SECNEZOLE 500MG TABLETS (الشركة الأردنية لصناعة الأدوية والمعدات الطبية) | غير مذكور | غير مذكور (ترخيص ساري) |
-| SECNID 500MG TABLETS | SECNID 500MG TABLETS (مصنع باطرجي للأدوية) | غير مذكور | غير مذكور (ترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SECNEZOLE 500MG TABLETS | SECNIDAZOLE | The Jordanian Pharmaceutical Manufacturing Medical Equipment Co. Ltd.… | ساري |
+| SECNID 500MG TABLETS | SECNIDAZOLE | BATTERJEE PHARMACETICAL FACTORY | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

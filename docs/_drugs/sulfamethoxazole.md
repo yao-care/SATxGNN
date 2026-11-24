@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 777
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SULFAMETHOXAZOLE"
 predicted_indications: ["acute contagious conjunctivitis"]
 description: "Sulfamethoxazole: الاستطباب الجديد المتوقع Acute contagious conjunctivitis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -83,9 +83,13 @@ description: "Sulfamethoxazole: الاستطباب الجديد المتوقع A
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| SEPTRIN INJECTION (ملغى) | SEPTRIN INJECTION (الشركة: JUBILANT HOLLISTERSTIER GENERAL PARTNERSHIP) | غير محدد | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SEPTRIN INJECTION | SULFAMETHOXAZOLE | JUBILANT HOLLISTERSTIER GENERAL PARTNERSHIP | ساري |
+
+<!-- licenses:end -->
 
 ---
 

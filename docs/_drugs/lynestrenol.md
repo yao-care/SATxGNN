@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 4
 monitor_inn: "LYNESTRENOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "insomnia (disease)", "leprosy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Lynestrenol: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (migraine disorder) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -77,9 +77,13 @@ description: "Lynestrenol: الاستطباب الجديد المتوقع اضط
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ORGAMETRIL 5 MG TAB | ORGAMETRIL 5 MG TAB (الشركة المصنعة: ORGANON) | غير محدد | غير محدد |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ORGAMETRIL 5 MG TAB | LYNESTRENOL | ORGANON | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

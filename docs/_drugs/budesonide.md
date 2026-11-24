@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Budesonide: الاستطباب الجديد المتوقع الإكزيما التأتبية (atopic eczema) (مستوى الدليل L5). الاستطباب الأصلي: داء كرون، التهاب الأمعاء، الربو، التهاب الأنف التحسسي (مستمد من الرسم…"
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -90,13 +90,19 @@ predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "po
 
 جميع التراخيص الثمانية عشر سارية (18 ترخيصاً ساريًا من أصل 18). نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة. أبرز المنتجات المسجلة:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة |
-|---------|------|------|
-| PULMICORT TURBUHALER 200MCG-DOSE | Pulmicort Turbuhaler 200 mcg | AstraZeneca |
-| RHINOCORT AQUA 64MCG NASAL SPRAY | Rhinocort Aqua 64 mcg | AstraZeneca |
-| CORTIMENT MMX 9 MG | Cortiment MMX 9 mg | Cosmo S.P.A |
-| Pulmirema 0.5 mg | Pulmirema 0.5 mg | Cipla Limited |
-| ENTOCORT 20MCG-ML ENEMA | Entocort Enema | AstraZeneca |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PULMICORT TURBUHALER 200MCG-DOSE | BUDESONIDE | AstraZeneca | ساري |
+| RHINOCORT AQUA 64MCG NASAL SPRAY | BUDESONIDE | AstraZeneca | ساري |
+| CORTIMENT MMX 9 MG PROLONGED RELEASE TABLET | BUDESONIDE | Cosmo S.P.A | ساري |
+| Pulmirema 0.5 mg | BUDESONIDE | Cipla Limited | ساري |
+| ENTOCORT 20MCG-ML ENEMA AFTER RECONSTITU | BUDESONIDE | AstraZeneca | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 18 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

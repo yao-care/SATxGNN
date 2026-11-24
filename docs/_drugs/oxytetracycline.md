@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 622
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OXYTETRACYCLINE"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 description: "Oxytetracycline: الاستطباب الجديد المتوقع Chronic rhinosinusitis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -89,12 +89,16 @@ description: "Oxytetracycline: الاستطباب الجديد المتوقع Ch
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| TERRAMYCIN EYE OINT 1% | TERRAMYCIN EYE OINT 1% | PFIZER | ساري |
-| OXYTETRACYCLINE OINT 3% | OXYTETRACYCLINE OINT 3% | Gulf Pharmaceutical Industries (Julphar) | ساري |
-| TERRAMYCIN TOPICAL OINT | TERRAMYCIN TOPICAL OINT | PFIZER | ساري |
-| IMPERACINE 250MG TAB | IMPERACINE 250MG TAB | AstraZeneca | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TERRAMYCIN EYE OINT 1% | OXYTETRACYCLINE | PFIZER | ساري |
+| OXYTETRACYCLINE OINT 3% | OXYTETRACYCLINE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| TERRAMYCIN TOPICAL OINT | OXYTETRACYCLINE | PFIZER | ساري |
+| IMPERACINE 250MG TAB | OXYTETRACYCLINE | AstraZeneca | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -132,7 +136,7 @@ description: "Oxytetracycline: الاستطباب الجديد المتوقع Ch
 
 <!-- review:begin sa-lic-20261106-oxytetracycline-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم الجدوى التسويقية في ظل إلغاء التراخيص الحالية، ودراسة ملاءمة طريق الإعطاء للاستطباب الجديد.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم الجدوى التسويقية في ظل إلغاء التراخيص الحالية، ودراسة ملاءمة طريق الإعطاء للاستطباب الجديد.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-oxytetracycline-1 -->
 
@@ -144,7 +148,7 @@ description: "Oxytetracycline: الاستطباب الجديد المتوقع Ch
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «تقييم الجدوى التسويقية في ظل إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «تقييم الجدوى التسويقية في ظل إلغاء التراخيص الحالية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517) |
 
 <!-- review:end log -->

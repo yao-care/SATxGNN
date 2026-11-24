@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Gadodiamide: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (Rheumatoid Arthritis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المجمّعة (الاستخدام المعروف: وسيط تباين…"
 monitor_inn: "GADODIAMIDE"
 predicted_indications: ["rheumatoid arthritis"]
@@ -87,10 +87,14 @@ predicted_indications: ["rheumatoid arthritis"]
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| OMNISCAN | OMNISCAN (GE Healthcare Ireland) | غير متوفر | غير متوفر (ترخيص ساري) |
-| MERISCAN 0.5MMOL/ML VIAL | MERISCAN 0.5MMOL/ML VIAL (Tabuk Pharmaceutical) | غير متوفر | غير متوفر (ترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| OMNISCAN | GADODIAMIDE | GE HEALTHCARE IRELAND LIMITED | ساري |
+| MERISCAN 0.5MMOL/ML VIAL | GADODIAMIDE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+<!-- licenses:end -->
 
 ---
 

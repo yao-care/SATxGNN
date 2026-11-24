@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AVATROMBOPAG"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "monomelic amyotrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Avatrombopag: الاستطباب الجديد المتوقع نقص الصفيحات الكبير مع قصور الصمام التاجي (marcothrombocytopenia with mitral valve insufficiency) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المح…"
 ---
 
@@ -68,9 +68,13 @@ description: "Avatrombopag: الاستطباب الجديد المتوقع نق�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Doptelet | Doptelet | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Doptelet | AVATROMBOPAG | Kawashima Plant, Eisai Co., Ltd | ساري |
+
+<!-- licenses:end -->
 
 ## الاعتبارات الأمنية
 

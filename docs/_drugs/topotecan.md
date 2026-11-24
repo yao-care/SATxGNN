@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 825
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TOPOTECAN"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 description: "Topotecan: الاستطباب الجديد المتوقع سرطان الثدي لدى النساء (female breast carcinoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -97,10 +97,14 @@ description: "Topotecan: الاستطباب الجديد المتوقع سرطا
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| TOPOTECAN HOSPIRA | TOPOTECAN HOSPIRA | غير متوفر | غير متوفر | ساري |
-| HYCAMTIN 4MG I.V. VIAL | HYCAMTIN 4MG I.V. VIAL | غير متوفر | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TOPOTECAN HOSPIRA | TOPOTECAN | ZYDAS HOSPIRA ONCOLOGY PRIVATE LIMITED (ZHOPL) | ساري |
+| HYCAMTIN 4MG I.V. VIAL | TOPOTECAN | GLAXO SMITHKLINE MANUFACTURING S.P.A. | ساري |
+
+<!-- licenses:end -->
 
 ---
 

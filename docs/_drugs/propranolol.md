@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 693
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propranolol: الاستطباب الجديد المتوقع اعتلال العضلات الدانية نوع تاتيياما (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (إضافة إلى اضطرابات نظم القلب واعتلال عضلة القلب الضخ…"
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
@@ -84,13 +84,19 @@ predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy w
 
 جميع التراخيص السبعة سارية المفعول. فيما يلي خمسة منها:
 
-| اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| INDICARDIN 10 mg tablet | APM | ساري |
-| INDERAL TABLETS 10 MG. | AstraZeneca Pharmaceutical Ltd | ساري |
-| INDERAL AMPULES 1MG-ML | AstraZeneca | ساري |
-| PROTENSE 40 mg/5 ml oral solution | Jazeera Pharmaceutical Industries (JPI) | ساري |
-| INDERAL TABLETS 40 MG. | AstraZeneca Pharmaceutical Ltd | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| INDICARDIN 10 mg tablet | PROPRANOLOL | APM | ساري |
+| INDERAL TABLETS 10 MG. | PROPRANOLOL | ASTRAZENECA PHARMACEUTICAL LTD | ساري |
+| INDERAL AMPULES 1MG-ML | PROPRANOLOL | AstraZeneca | ساري |
+| PROTENSE 40 mg/5 ml oral solution | PROPRANOLOL | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| INDERAL TABLETS 40 MG. | PROPRANOLOL | ASTRAZENECA PHARMACEUTICAL LTD | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

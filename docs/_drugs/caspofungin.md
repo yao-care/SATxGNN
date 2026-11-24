@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CASPOFUNGIN"
 predicted_indications: ["gastrin secretion abnormality"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caspofungin: الاستطباب الجديد المتوقع اضطراب إفراز الغاسترين (gastrin secretion abnormality) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 11 (السارية: 11)"
 ---
 
@@ -69,6 +69,20 @@ description: "Caspofungin: الاستطباب الجديد المتوقع اضط
 لا توجد حالياً منشورات علمية ذات صلة.
 
 ## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AFUNDAS-L 50 MG | CASPOFUNGIN | Gensenta İlaç Sanayi ve Ticaret A.Ş | ساري |
+| AFUNDAS-L 70 MG | CASPOFUNGIN | Gensenta İlaç Sanayi ve Ticaret A.Ş | ساري |
+| CANCIDAS 50 MG VIAL | CASPOFUNGIN | FAREVA MIRABEL | ساري |
+| CANCIDAS 70 MG VIAL | CASPOFUNGIN | FAREVA MIRABEL | ساري |
+| CASPOFUNGIN 50MG VIAL | CASPOFUNGIN | Gland Pharma Limited | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 تشير بيانات الترخيص المحلية إلى أن الدواء **مطروح في السوق**، وأن جميع التراخيص المسجلة وعددها 11 سارية بحسب هذه البيانات. يُضاف جدول التراخيص التفصيلي من السجلات المحلية عبر النظام.
 

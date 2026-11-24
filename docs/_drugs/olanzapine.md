@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 609
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: الاستطباب الجديد المتوقع Benign paroxysmal torticollis of infancy (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 18 على الأقل"
@@ -94,13 +94,20 @@ description: "Olanzapine: الاستطباب الجديد المتوقع Benign 
 
 أمثلة على المنتجات (دون نصوص استطباب متاحة):
 
-| رقم الترخيص / المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| ZYPREXA 10MG F.C.TAB | Lilly Del Caribe | ساري |
-| ZYPADHERA 210MG حقن عضلي | ELI LILLY | ملغى |
-| OLAZINE 10MG أقراص مغلفة | RIYADH PHARMA | ملغى |
-| OLENZA 10 mg أقراص تتفتت فموياً | SPIMACO | ملغى |
-| PRANZA 10 mg أقراص مغلفة | Jazeera Pharmaceutical Industries | ملغى |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ZYPREXA 10MG F.C.TAB | OLANZAPINE | Lilly Del Caribe, Inc. | ساري |
+| DINOBAX 10 mg Tablet | OLANZAPINE | APOTEX INC. (SIGNET SITE) | ساري |
+| LAPRIX 5MG COATED TABLET | OLANZAPINE | — | ساري |
+| OLANA 5 mg orodispersible tablet | OLANZAPINE | ACTAVIS | ساري |
+| OLAZINE 10 mg Orodispersible Tablet | OLANZAPINE | RIYADH PHARMA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 18 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

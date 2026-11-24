@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 856
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ustekinumab: الاستطباب الجديد المتوقع التهاب الجلد (Dermatitis) (مستوى الدليل L2). الاستطباب الأصلي: التهاب المفاصل الصدفي، الصدفية، شبه الصدفية (parapsoriasis)"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -100,11 +100,15 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid",
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| STELARA 90mg/1ml SOLUTION FOR INJECTION | STELARA 90mg/1ml | محلول للحقن | غير متوفر | ساري |
-| STELARA 130MG/26ML Concentrate for solution for infusion | STELARA 130MG/26ML | مركّز لمحلول للتسريب | غير متوفر | ساري |
-| STELARA 45MG/0.5ML SOLUTION FOR INJECTION | STELARA 45MG/0.5ML | محلول للحقن | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| STELARA 90mg/1ml SOLUTION FOR INJECTION | USTEKINUMAB | BAXTER PHARMACEUTICAL SOLUTION LLC | ساري |
+| STELARA 130MG/26ML Concentrate for solution for infusion | USTEKINUMAB | JANSSEN-CILAG | ساري |
+| STELARA 45MG/0.5ML SOLUTION FOR INJECTION | USTEKINUMAB | BAXTER PHARMACEUTICAL SOLUTION LLC | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -126,7 +130,7 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid",
 
 <!-- review:begin sa-lic-20261106-ustekinumab-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص المنتج في السعودية ملغاة حالياً، كما أن بيانات السلامة من النشرة الدوائية غير متوفرة بعد.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص المنتج في السعودية ملغاة حالياً، كما أن بيانات السلامة من النشرة الدوائية غير متوفرة بعد.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ustekinumab-1 -->
 
@@ -145,7 +149,7 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid",
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة حالياً» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |
 
 <!-- review:end log -->

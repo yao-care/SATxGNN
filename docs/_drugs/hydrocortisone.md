@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 415
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Hydrocortisone: الاستطباب الجديد المتوقع الثعلبة البقعية (alopecia areata) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 13 (السارية: 13)"
@@ -82,13 +82,19 @@ description: "Hydrocortisone: الاستطباب الجديد المتوقع ا�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص / اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|-----------|
-| SOLU CORTEF Act-O-Vial 100 mg | Pfizer Manufacturing Belgium | ملغى |
-| SOLU CORTEF AOV 250 mg | Pfizer Manufacturing Belgium | ملغى |
-| HYDROSONE 100 mg (مسحوق للحقن) | Hikma Italia | ملغى |
-| EFFICORT CREAM 0.127% | Galderma | ملغى |
-| CORTIDERM 1% CREAM | SPIMACO | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SOLU CORTEF Act-O-Vial 100 mg powder and solvent for solution for injection | HYDROCORTISONE SODIUM SUCCINATE | Pfizer Manufacturing Belgium N.V. | ساري |
+| SOLU CORTEF AOV 250 mg powder and solvent for solution for injection | HYDROCORTISONE SODIUM SUCCINATE | Pfizer Manufacturing Belgium N.V. | ساري |
+| EFFICORT CREAM 0.127% (HYDROPHILIC) | HYDROCORTISONE | GALDERMA | ساري |
+| CORTIDERM 1% CREAM | HYDROCORTISONE ACETATE | SPIMACO | ساري |
+| CORTEF ACETATE VIALS 50 MG-ML | HYDROCORTISONE | PHARMACIA UPJOHN | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 13 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 يوجد 13 ترخيصاً سارياً في المجموع، والجدول يعرض 5 منها فقط.
 

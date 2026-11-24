@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 137
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Calcium Lactate Gluconate: الاستطباب الجديد المتوقع متلازمة الكالسيوم والقلويات (calcium-alkali syndrome) (مستوى الدليل L5). الاستطباب الأصلي: فرط كالسيوم الدم، وتكلّس الكلية، واضطرابات استقلاب الفوس…"
 monitor_inn: "CALCIUM LACTATE GLUCONATE"
 predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
@@ -84,9 +84,13 @@ predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CALCEFOR EFFV. TAB | CALCEFOR EFFV. TAB (الشركة: VIFOR INTERNATIONAL) | غير متوفر | غير متوفر — الحالة: ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CALCEFOR EFFV. TAB | CALCIUM LACTATE GLUCONATE | VIFOR INTERNATIONAL | ساري |
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 469
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketoconazole: الاستطباب الجديد المتوقع حب الشباب (Acne) (مستوى الدليل L4). الاستطباب الأصلي: العدوى الفطرية الجلدية (القدم الرياضية، القوباء الحلقية، داء المبيضات…"
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
@@ -100,13 +100,19 @@ predicted_indications: ["acne (disease)"]
 
 جميع التراخيص الـ14 **سارية** (14 ترخيصًا ساريًا من أصل 14)، والدواء مسوّق في هذا البلد. أبرز المنتجات:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| NIZORAL CREAM 2% | NIZORAL CREAM 2% (Janssen) | كريم | غير متوفر |
-| NIZORAL SHAMPOO | NIZORAL SHAMPOO (Janssen) | شامبو | غير متوفر |
-| NIZORAL 200MG TAB | NIZORAL 200MG TAB (Lusomedicamenta) | أقراص | غير متوفر |
-| KENAZOLE 2% CREAM | KENAZOLE 2% CREAM | كريم | غير متوفر |
-| VAVO 2% CREAM | VAVO 2% CREAM (Tabuk) | كريم | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NIZORAL CREAM 2% | KETOCONAZOLE | JANSSEN PHARMACEUTICA N.V. | ساري |
+| NIZORAL SHAMPOO | KETOCONAZOLE | JANSSEN PHARMACEUTICA N.V. | ساري |
+| NIZORAL 200MG TAB | KETOCONAZOLE | LUSOMEDICAMENTA | ساري |
+| KENAZOLE 2% CREAM | KETOCONAZOLE | Pharma International Co. | ساري |
+| VAVO 2% CREAM | KETOCONAZOLE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 14 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 يشمل إجمالي التراخيص المسجلة منتجات موضعية (كريم وشامبو) وقرصاً فموياً واحداً.
 
@@ -139,7 +145,7 @@ predicted_indications: ["acne (disease)"]
 
 <!-- review:begin sa-lic-20261106-ketoconazole-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد مسار تنظيمي وتركيبة موضعية مناسبة نظراً لإلغاء التراخيص الحالية، مع تقييم مخاطر السلامة الجهازية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 14، منها سارية: 14؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد مسار تنظيمي وتركيبة موضعية مناسبة نظراً لإلغاء التراخيص الحالية، مع تقييم مخاطر السلامة الجهازية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ketoconazole-1 -->
 
@@ -151,7 +157,7 @@ predicted_indications: ["acne (disease)"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «تحديد مسار تنظيمي وتركيبة موضعية مناسبة نظراً لإلغاء التراخيص الحالية، مع» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «تحديد مسار تنظيمي وتركيبة موضعية مناسبة نظراً لإلغاء التراخيص الحالية، مع» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->

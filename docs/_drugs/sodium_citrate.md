@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 762
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Sodium Citrate: الاستطباب الجديد المتوقع التهاب الملتحمة الحليمي (Papillary conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: قرحة المعدة والاثني عشر، الارتجاع المعدي المريئي، التهاب المريء، عسر…"
 monitor_inn: "sodium citrate"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
@@ -96,13 +96,19 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "sto
 
 جميع التراخيص الـ16 **سارية** (16 ترخيصًا ساريًا من أصل 16). وفيما يلي أبرز 5 منها (نصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة في البيانات):
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| AMYDRAMINE EXPECTORANT SYRUP SUGAR FREE | AMYDRAMINE EXPECTORANT SYRUP SUGAR FREE | Gulf Pharmaceutical Industries (Julphar) | ساري |
-| AMYDRAMINE PAEDIATRIC SYRUP | AMYDRAMINE PAEDIATRIC SYRUP | Gulf Pharmaceutical Industries (Julphar) | ساري |
-| DIPHELIN- ADULTS SYRUP | DIPHELIN- ADULTS SYRUP | MEDPHARMA | ساري |
-| DRAMYLIN PEDIATRIC SYRUP | DRAMYLIN PEDIATRIC SYRUP | Kuwait Saudi Pharmaceutical Industries | ساري |
-| CITRO-SODA GRANULES | CITRO-SODA GRANULES | Abbott Laboratories | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AMYDRAMINE EXPECTORANT SYRUP SUGAR FREE | SODIUM CITRATE,DIPHENHYDRAMINE HYDROCHLORIDE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| AMYDRAMINE PAEDIATRIC SYRUP | SODIUM CITRATE,DIPHENHYDRAMINE HYDROCHLORIDE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| DIPHELIN- ADULTS SYRUP | DIPHENHYDRAMINE HYDROCHLORIDE, SODIUM CITRATE, MENTHOL | MEDPHARMA PHARMACEUTICAL & CHEMICAL INDUSTRIES | ساري |
+| DRAMYLIN PEDIATRIC SYRUP | DIPHENHYDRAMINE HYDROCHLORIDE,SODIUM CITRATE,MENTHOL | KUWAIT SAUDI PHARMACEUTICAL INDUSTRIES | ساري |
+| CITRO-SODA GRANULES | CITRIC ACID, SODIUM BICARBONATE, SODIUM CITRATE, TARTARIC ACID | Abbott Laboratories | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 16 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -136,7 +142,7 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "sto
 
 <!-- review:begin sa-lic-20261106-sodium_citrate-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد مدى توافق طريق الإعطاء (موضعي للعين مقابل الفموي) ودراسة الجدوى التنظيمية في ظل إلغاء جميع التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 16، منها سارية: 16؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد مدى توافق طريق الإعطاء (موضعي للعين مقابل الفموي) ودراسة الجدوى التنظيمية في ظل إلغاء جميع التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-sodium_citrate-1 -->
 
@@ -148,7 +154,7 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "sto
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «في ظل إلغاء جميع التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «في ظل إلغاء جميع التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

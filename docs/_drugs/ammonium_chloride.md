@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ammonium chloride"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ammonium Chloride: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (مستوى الدليل L5). الاستطباب الأصلي: التهاب البلعوم، نزلات البرد، التهاب البلعوم الأنفي (علاقات مسجلة في ق…"
 ---
 
@@ -82,13 +82,19 @@ description: "Ammonium Chloride: الاستطباب الجديد المتوقع 
 
 لم تتوفر نصوص استطباب معتمدة ولا أشكال صيدلانية في سجلات التراخيص المتاحة، لذا لا يمكن الاستناد إليها لتأكيد استطبابات معتمدة.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| DRAMYLIN SYRUP | DRAMYLIN SYRUP | Kuwait Saudi Pharmaceutical Industries | ساري |
-| BRONCHOLASE SYP | BRONCHOLASE SYP | Memphis Chemicals | ساري |
-| VISCODRIL EXPECTORANT 100ML SYRUP | VISCODRIL EXPECTORANT 100ML SYRUP | Oman Pharmaceutical Products | ساري |
-| ROMILAR EXP SYRUP | ROMILAR EXP SYRUP | Roche | ساري |
-| AMYDRAMINE EXPECTORANT SYRUP | AMYDRAMINE EXPECTORANT SYRUP | Gulf Pharmaceutical Industries (Julphar) | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DRAMYLIN SYRUP | AMMONIUM CHLORIDE,DIPHENHYDRAMINE HYDROCHLORIDE | KUWAIT SAUDI PHARMACEUTICAL INDUSTRIES | ساري |
+| BRONCHOLASE SYP | AMMONIUM CHLORIDE, CHLORPHENIRAMINE MALEATE | MEMPHIS CHEMICALS | ساري |
+| VISCODRIL EXPECTORANT 100ML SYRUP | AMMONIUM CHLORIDE,DIPHENHYDRAMINE HYDROCHLORIDE | OMAN PHARMACEUTICAL PRODUCTS | ساري |
+| ROMILAR EXP SYRUP | DEXTROMETHORPHAN, AMMONIUM CHLORIDE, PANTHENOL | ROCHE | ساري |
+| AMYDRAMINE EXPECTORANT SYRUP | DIPHENHYDRAMINE HYDROCHLORIDE,SODIUM CITRATE,AMMONIUM CHLORIDE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 يوجد ترخيصان آخران ساريان: KOFFEX SYRUP FOR ADULT (Xellia Pharmaceutical) وBENAFED SYRUP (Park-Davis).
 

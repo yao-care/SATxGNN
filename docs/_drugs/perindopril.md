@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-24
 monitor_inn: "perindopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Perindopril: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -85,13 +85,20 @@ description: "Perindopril: الاستطباب الجديد المتوقع Malign
 
 فيما يلي أبرز خمسة تراخيص:
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PROVINDA | PROVINDA (SPIMACO ADDWAEIH) | غير متوفر | غير متوفر |
-| COVERSYL 5MG F.C. TABLETS | COVERSYL 5MG F.C. TABLETS (SERVIER) | غير متوفر | غير متوفر |
-| COVERSYL 10MG F.C. TABLETS | COVERSYL 10MG F.C. TABLETS (SERVIER) | غير متوفر | غير متوفر |
-| TENORYL 10 MG film-coated tablet | TENORYL 10 MG (TABUK) | غير متوفر | غير متوفر |
-| TENORYL 5 MG film-coated tablet | TENORYL 5 MG (TABUK) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PROVINDA | PERINDOPRIL ARGININE | SPIMACO ADDWAEIH | ساري |
+| COVERSYL 5MG F.C. TABLETS | PERINDOPRIL ARGININE | SERVIER | ساري |
+| COVERSYL 10MG F.C. TABLETS | PERINDOPRIL ARGININE | SERVIER | ساري |
+| TENORYL 10 MG film-coated tablet | PERINDOPRIL ARGININE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| TENORYL 5 MG film-coated tablet | PERINDOPRIL ARGININE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

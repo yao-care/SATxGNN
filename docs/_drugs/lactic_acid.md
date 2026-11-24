@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lactic Acid: الاستطباب الجديد المتوقع التضيّق غير النمطي للأبهر (atypical coarctation of aorta) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المتاحة"
 monitor_inn: "lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
@@ -93,12 +93,16 @@ predicted_indications: ["atypical coarctation of aorta", "aortic malformation", 
 
 جميع التراخيص الأربعة **سارية** (4 من 4):
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| AVOMACK | AVOMACK | غير محدد | غير محدد |
-| HEMOSOL B0 SOLUTION FOR HAEMODIALYSIS | HEMOSOL B0 | غير محدد | غير محدد |
-| PRISMASOL 2 mmol/l POTASSIUM SOLUTION FOR HAEMO/HAEMOFI | PRISMASOL 2 mmol/l Potassium | غير محدد | غير محدد |
-| PRISMASOL 4 mmol/l POTASSIUM SOLUTION FOR HAEMO/HAEMOFI | PRISMASOL 4 mmol/l Potassium | غير محدد | غير محدد |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AVOMACK | SALICYLIC ACID,LACTIC ACID | Middle East Pharmaceutical Industries Co. Ltd. (MECP) | ساري |
+| HEMOSOL B0 SOLUTION FOR HAEMODIALYSIS | CALCIUM CHLORIDE,SODIUM CHLORIDE,LACTIC ACID,SODIUM HYDROGEN CARBONATE,MAGNESIUM CHLORIDE | Bieffe Medital S.p.A | ساري |
+| PRISMASOL 2 mmol/l POTASSIUM SOLUTION FOR HAEMO/HAEMOFI | LACTIC ACID,SODIUM HYDROGEN CARBONATE,MAGNESIUM CHLORIDE,CALCIUM CHLORIDE,POTASSIUM CHLORI… | Bieffe Medital S.p.A | ساري |
+| PRISMASOL 4 mmol/l POTASSIUM SOLUTION FOR HAEMO/HAEMOFI | SODIUM CHLORIDE, CALCIUM CHLORIDE,LACTIC ACID,POTASSIUM CHLORIDE,SODIUM HYDROGEN CARBONATE… | Bieffe Medital S.p.A | ساري |
+
+<!-- licenses:end -->
 
 ---
 

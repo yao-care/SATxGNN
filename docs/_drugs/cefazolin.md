@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 154
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefazolin: الاستطباب الجديد المتوقع التهاب الأذن الوسطى الخمجي (مستوى الدليل L4). الاستطباب الأصلي: الالتهاب الرئوي الجرثومي، التهاب الأقنية الصفراوية، التهاب الشغاف، ال…"
 monitor_inn: "CEFAZOLIN"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
@@ -89,13 +89,19 @@ predicted_indications: ["infectious otitis media", "bronchitis", "middle ear dis
 
 جميع التراخيص الثلاثة عشر سارية (13 من 13). أبرز خمسة منها:
 
-| رقم الترخيص / اسم المنتج | الشركة المصنّعة | شكل الجرعة | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ZOLECIN 250MG INJ IM-IV | Hikma Pharmaceuticals | غير متوفر | غير متوفر |
-| ZOLECIN 500MG INJ IM-IV | Hikma Pharmaceuticals | غير متوفر | غير متوفر |
-| ZOLECIN 1GM VIAL I.V | Hikma Pharmaceuticals | غير متوفر | غير متوفر |
-| KEFZOL 1 GM.-10 ML. VIAL | ELI LILLY | غير متوفر | غير متوفر |
-| TAZOLINE 1GM VIAL IV+10ML WATER FOR INJ. | TABUK Pharmaceutical | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ZOLECIN 250MG INJ IM-IV | CEFAZOLIN | Hikma Pharmaceuticals PLC | ساري |
+| ZOLECIN 500MG INJ IM-IV | CEFAZOLIN | Hikma Pharmaceuticals PLC | ساري |
+| ZOLECIN 1GM VIAL I.V | CEFAZOLIN | Hikma Pharmaceuticals PLC | ساري |
+| KEFZOL 1 GM.-10 ML. VIAL | CEFAZOLIN | ELI LILLY | ساري |
+| TAZOLINE 1GM VIAL IV+10ML WATER FOR INJ. | CEFAZOLIN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 13 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -117,7 +123,7 @@ predicted_indications: ["infectious otitis media", "bronchitis", "middle ear dis
 
 <!-- review:begin sa-lic-20261031-cefazolin-1 -->
 
-> **تصحيح بعد المراجعة (2026-10-31)**: كان النص الأصلي: «لا توجد تجارب سريرية، والأدلة البشرية المباشرة شبه معدومة (دراسة مقارنة قديمة لعام 1982 وتقرير حالة يكون فيه الدواء ضمن نظام مركّب). / التغطية الجرثومية غير كافية لأهم مسببات التهاب الأذن الوسطى، والدواء حقني فقط وجميع تراخيصه ملغاة في السعودية، ما يقلل الجدوى العملية مقارنة بالعلاجات الفموية القياسية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-10-31). عدد التراخيص في البيانات: 13، منها سارية: 13؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-10-31)**: كان النص الأصلي: «لا توجد تجارب سريرية، والأدلة البشرية المباشرة شبه معدومة (دراسة مقارنة قديمة لعام 1982 وتقرير حالة يكون فيه الدواء ضمن نظام مركّب). / التغطية الجرثومية غير كافية لأهم مسببات التهاب الأذن الوسطى، والدواء حقني فقط وجميع تراخيصه ملغاة في السعودية، ما يقلل الجدوى العملية مقارنة بالعلاجات الفموية القياسية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-10-31). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261031-cefazolin-1 -->
 
@@ -136,7 +142,7 @@ predicted_indications: ["infectious otitis media", "bronchitis", "middle ear dis
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-10-31 | حُذف: «التغطية الجرثومية غير كافية لأهم مسببات التهاب الأذن الوسطى، والدواء حقني فقط وجميع تراخيصه ملغاة في السعودية، ما يقلل الجدوى العملية مقارنة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-10-31 | حُذف: «التغطية الجرثومية غير كافية لأهم مسببات التهاب الأذن الوسطى، والدواء حقني فقط وجميع تراخيصه ملغاة في السعودية، ما يقلل الجدوى العملية مقارنة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 49
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "Ambroxol"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
 description: "Ambroxol: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
@@ -72,13 +72,19 @@ description: "Ambroxol: الاستطباب الجديد المتوقع أمرا�
 
 ## معلومات السوق في السعودية
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة |
-|---------|------|------|
-| MUCOSOLVAN 15MG-5ML ORAL LIQUID | MUCOSOLVAN 15MG-5ML ORAL LIQUID | DELPHARM REIMS S.A.S |
-| MUCOSOLVAN LA 75MG CAPS | MUCOSOLVAN LA 75MG CAPS | SANOFI WINTHROP INDUSTRIE |
-| MUCOSOLVAN TAB 30MG | MUCOSOLVAN TAB 30MG | DELPHARM REIMS S.A.S |
-| MUCUM 30MG TABLETS | MUCUM 30MG TABLETS | Gulf Pharmaceutical Industries (Julphar) |
-| AMBOLAR | AMBOLAR | DAR ALDAWA |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MUCOSOLVAN 15MG-5ML ORAL LIQUID | AMBROXOL HYDROCHLORIDE | DELPHARM REIMS S.A.S | ساري |
+| MUCOSOLVAN LA 75MG CAPS | AMBROXOL HYDROCHLORIDE | SANOFI WINTHROP INDUSTRIE | ساري |
+| MUCOSOLVAN TAB 30MG | AMBROXOL HYDROCHLORIDE | DELPHARM REIMS S.A.S | ساري |
+| MUCUM 30MG TABLETS | AMBROXOL HYDROCHLORIDE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| AMBOLAR | AMBROXOL HYDROCHLORIDE | DAR ALDAWA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 يوجد 12 ترخيصاً سارياً في المجموع، وهذه أول خمسة منها.
 

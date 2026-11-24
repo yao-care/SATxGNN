@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CEFOPERAZONE"
 predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "gout", "bronchitis", "meningococcal infection", "infectious otitis media", "IgG4-related sclerosing cholangitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Cefoperazone: الاستطباب الجديد المتوقع التهاب القنوات الصفراوية المصلّب (sclerosing cholangitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -68,10 +68,14 @@ description: "Cefoperazone: الاستطباب الجديد المتوقع ال�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CEFOBID 1GM VIAL I-M & I-V | CEFOBID 1GM VIAL I-M & I-V | غير مسجّل | غير مسجّل |
-| CEFOBID 2GM VIAL I-M & I-V | CEFOBID 2GM VIAL I-M & I-V | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CEFOBID 1GM VIAL I-M & I-V | CEFOPERAZONE | HAUPT PHARMA LATINA S.R.I. | ساري |
+| CEFOBID 2GM VIAL I-M & I-V | CEFOPERAZONE | HAUPT PHARMA LATINA S.R.I. | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

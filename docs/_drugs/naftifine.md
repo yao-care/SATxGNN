@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "NAFTIFINE"
 predicted_indications: ["ectothrix infectious disease", "pityriasis versicolor", "endothrix infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Naftifine: الاستطباب الجديد المتوقع عدوى الشعر الفطرية الخارجية البوغ (ectothrix) (مستوى الدليل L5). الاستطباب الأصلي: لا يوجد نص استطباب معتمد في بيانات الترخيص المحلية. العلاقات المسجلة…"
 ---
 
@@ -80,9 +80,13 @@ description: "Naftifine: الاستطباب الجديد المتوقع عدوى
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| EXODERIL CREAM 1% | EXODERIL CREAM 1% (الشركة المصنّعة: SALUTAS PHARMA GmbH) | كريم (بحسب اسم المنتج) | غير مذكور في البيانات المتاحة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| EXODERIL CREAM 1% | NAFTIFINE | SALUTAS PHARMA GmbH | ساري |
+
+<!-- licenses:end -->
 
 ---
 

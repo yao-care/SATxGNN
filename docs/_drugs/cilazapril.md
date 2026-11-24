@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CILAZAPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cilazapril: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي مجهول الآلية متعددة العوامل (pulmonary hypertension with unclear multifactorial mechanism) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في…"
 ---
 
@@ -70,11 +70,15 @@ description: "Cilazapril: الاستطباب الجديد المتوقع ارت�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| INHIBACE 1MG TAB | INHIBACE 1MG TAB | غير مسجل | غير مسجل |
-| INHIBACE 5MG TAB | INHIBACE 5MG TAB | غير مسجل | غير مسجل |
-| INHIBACE 2.5MG TAB | INHIBACE 2.5MG TAB | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| INHIBACE 1MG TAB | CILAZAPRIL | ROCHE | ساري |
+| INHIBACE 5MG TAB | CILAZAPRIL | ROCHE | ساري |
+| INHIBACE 2.5MG TAB | CILAZAPRIL | ROCHE | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

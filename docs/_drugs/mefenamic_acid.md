@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 535
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: الاستطباب الجديد المتوقع اضطراب الصداع (headache disorder) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 14 (السارية: 14)"
@@ -79,13 +79,19 @@ description: "Mefenamic Acid: الاستطباب الجديد المتوقع ا�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|------|
-| PONSTAN SYRUP 50MG-5ML | PONSTAN SYRUP 50MG-5ML | PARK-DAVIS | ساري |
-| FENDOL 250 MG CAPSULE | FENDOL 250 MG CAPSULE | Hikma Pharmaceuticals PLC | ساري |
-| FENDOL D.S.TAB 500MG | FENDOL D.S.TAB 500MG | Hikma Pharmaceuticals PLC | ساري |
-| FENDOL 50MG-5ML SUSP | FENDOL 50MG-5ML SUSP | Jazeera Pharmaceutical Industries (JPI) | ساري |
-| FENAM 50MG-5ML SYRUP | FENAM 50MG-5ML SYRUP | Jazeera Pharmaceutical Industries (JPI) | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PONSTAN SYRUP 50MG-5ML | MEFENAMIC ACID | PARK-DAVIS | ساري |
+| FENDOL 250 MG CAPSULE | MEFENAMIC ACID | Hikma Pharmaceuticals PLC | ساري |
+| FENDOL D.S.TAB 500MG | MEFENAMIC ACID | Hikma Pharmaceuticals PLC | ساري |
+| FENDOL 50MG-5ML SUSP | MEFENAMIC ACID | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| FENAM 50MG-5ML SYRUP | MEFENAMIC ACID | Jazeera Pharmaceutical Industries (JPI) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 14 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 جميع التراخيص الأربعة عشر سارية، وهذه خمسة منها فقط.
 

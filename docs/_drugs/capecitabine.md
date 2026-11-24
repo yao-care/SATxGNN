@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CAPECITABINE"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Capecitabine: الاستطباب الجديد المتوقع السرطان الغدي المعدي وداء السلائل القريب في المعدة (gastric adenocarcinoma and proximal polyposis of the stomach) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل …"
 ---
 
@@ -80,13 +80,19 @@ description: "Capecitabine: الاستطباب الجديد المتوقع ال�
 
 تتوفر في السعودية 11 رخصة سارية لمستحضرات تحتوي على الكابسيتابين كمادة وحيدة، وأبرزها:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة |
-|---------|------|------|
-| XELODA 500MG TABLET | XELODA 500MG TABLET | PRODUCTOSE ROCHE, S.A. DE C.V |
-| XELODA 150MG TABLET | XELODA 150MG TABLET | PRODUCTOSE ROCHE, S.A. DE C.V |
-| Aceda 500mg F.C.Tablet | Aceda 500mg F.C.Tablet | INTAS PHARMACEUTICALS LIMITED |
-| Catabina | Catabina | SPIMACO |
-| CAPECITABINE SPC 500 mg Film Coted Tablet | CAPECITABINE SPC 500 mg Film Coted Tablet | Sudair Pharma Company |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| XELODA 500MG TABLET | Capecitabine | PRODUCTOSE ROCHE , S.A. DE C.V | ساري |
+| XELODA 150MG TABLET | Capecitabine | PRODUCTOSE ROCHE , S.A. DE C.V | ساري |
+| Aceda 500mg F.C.Tablet | Capecitabine | INTAS PHARMACEUTICALS LIMITED | ساري |
+| Catabina | Capecitabine | SPIMACO | ساري |
+| CAPECITABINE SPC 500 mg Film Coted Tablet | Capecitabine | Sudair Pharma Company | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

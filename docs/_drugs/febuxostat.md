@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 340
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Febuxostat: الاستطباب الجديد المتوقع نقص حمض اليوريك الكلوي (hypouricemia, renal) (مستوى الدليل L4). الاستطباب الأصلي: فرط حمض اليوريك (مصنَّف في قاعدة المعرفة على أنه مفهوم قديم)"
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
@@ -87,15 +87,19 @@ predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribo
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الـ 11 سارية (11 من 11). نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمّعة.
 
-| اسم المنتج | الجهة المصنِّعة | الحالة |
-|---------|------|------|
-| GOUTEX 40 mg film-coated tablet | DAMMAM PHARMA | ساري |
-| GOUTEX 80 mg film-coated tablet | DAMMAM PHARMA | ساري |
-| AGOUT 40 mg film-coated tablets | DAMMAM PHARMA | ساري |
-| AGOUT 80 mg film-coated tablets | DAMMAM PHARMA | ساري |
-| AGOUT 120 mg film-coated tablets | SPIMACO | ساري |
+<!-- licenses:begin -->
 
-(عُرضت 5 تراخيص من أصل 11.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| GOUTEX 40 mg film-coated tablet | FEBUXOSTAT | DAMMAM PHARMA | ساري |
+| GOUTEX 80 mg film-coated tablet | FEBUXOSTAT | DAMMAM PHARMA | ساري |
+| AGOUT 40 mg film-coated tablets | FEBUXOSTAT | DAMMAM PHARMA | ساري |
+| AGOUT 80 mg film-coated tablets | FEBUXOSTAT | DAMMAM PHARMA | ساري |
+| AGOUT 120 mg film-coated tablets | FEBUXOSTAT | SPIMACO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -124,7 +128,7 @@ predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribo
 
 <!-- review:begin sa-lic-20261106-febuxostat-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كما أن خفض حمض اليوريك يتعارض نظرياً مع طبيعة نقص حمض اليوريك الكلوي، والدرجة المرتفعة للنموذج تعكس غالباً قرباً شبكياً لا ملاءمة علاجية. / لا يوجد حالياً ترخيص ساري للدواء في السعودية (11 ترخيصاً ملغى).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 11، منها سارية: 11؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كما أن خفض حمض اليوريك يتعارض نظرياً مع طبيعة نقص حمض اليوريك الكلوي، والدرجة المرتفعة للنموذج تعكس غالباً قرباً شبكياً لا ملاءمة علاجية. / لا يوجد حالياً ترخيص ساري للدواء في السعودية (11 ترخيصاً ملغى).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-febuxostat-1 -->
 
@@ -152,7 +156,7 @@ predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribo
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري للدواء في السعودية (11 ترخيصاً ملغى)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري للدواء في السعودية (11 ترخيصاً ملغى)» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
 
 <!-- review:end log -->

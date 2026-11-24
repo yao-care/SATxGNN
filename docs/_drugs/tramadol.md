@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 827
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: الاستطباب الجديد المتوقع Acromesomelic dysplasia, Hunter-Thompson type (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 9 (السارية: 9)"
@@ -84,13 +84,19 @@ description: "Tramadol: الاستطباب الجديد المتوقع Acromesom
 
 نصوص المؤشرات المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
 
-| رقم الترخيص / المنتج | الشركة المصنّعة | الحالة |
-|---------|------|-----------|
-| TRAMAL 100MG SUPPOSITORIES | GRUNENTHAL | ساري |
-| TRAMAL RETARD 100MG F.C TAB | GRUNENTHAL | ساري |
-| TRAMADONE 50MG-ML (100MG-2ML) AMPOULE | APM | ساري |
-| TRAMAL 50 MG-1 ML AMPOULE | GRUNENTHAL | ساري |
-| NOMAL 50 MG CAPSULE | Arab Pharmaceutical Manufacturing (Sahab) | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TRAMAL 100MG SUPPOSITORIES | TRAMADOL HYDROCHLORIDE | GRUNENTHAL | ساري |
+| TRAMAL RETARD 100MG F.C TAB | TRAMADOL HYDROCHLORIDE | GRUNENTHAL | ساري |
+| TRAMADONE 50MG-ML(100MG-2ML) AMPOULE | TRAMADOL HYDROCHLORIDE | APM | ساري |
+| TRAMAL 50 MG-1 ML AMPOULE | TRAMADOL HYDROCHLORIDE | GRUNENTHAL | ساري |
+| NOMAL 50 MG CAPSULE | TRAMADOL HYDROCHLORIDE | The Arab Pharmaceutical Manufacturing PSC (Sahab) Co Ltd | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

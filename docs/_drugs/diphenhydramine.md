@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 265
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diphenhydramine: الاستطباب الجديد المتوقع التهاب الملتحمة الوردي (Rosacea Conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب الملتحمة (ا…"
 monitor_inn: "Diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -82,12 +82,16 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 جميع التراخيص الأربعة سارية (4 من 4)، والدواء مسوّق. ولم تتوفر نصوص الاستطباب المعتمدة ولا الشكل الدوائي لهذه المنتجات.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| EXYLIN SYRUP 14MG-5ML | EXYLIN SYRUP 14MG-5ML | SPIMACO | ساري |
-| AMYDRAMINE II SUGAR FREE SYRUP | AMYDRAMINE II SUGAR FREE SYRUP | Gulf Pharmaceutical Industries (Julphar) | ساري |
-| EZIPECT 12.5MG-5ML SYRUP | EZIPECT 12.5MG-5ML SYRUP | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
-| BENADRYL ELIXIR 12.5MG-5ML | BENADRYL ELIXIR 12.5MG-5ML | PARK-DAVIS | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| EXYLIN SYRUP 14MG-5ML | DIPHENHYDRAMINE HYDROCHLORIDE | SPIMACO | ساري |
+| AMYDRAMINE II SUGAR FREE SYRUP | DIPHENHYDRAMINE HYDROCHLORIDE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| EZIPECT 12.5MG-5ML SYRUP | DIPHENHYDRAMINE HYDROCHLORIDE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| BENADRYL ELIXIR 12.5MG-5ML | DIPHENHYDRAMINE HYDROCHLORIDE | PARK-DAVIS | ساري |
+
+<!-- licenses:end -->
 
 جميع المنتجات شراب أو إكسير فموي بحسب أسمائها، ولا يوجد ضمنها مستحضر عيني موضعي.
 

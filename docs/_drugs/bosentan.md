@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 114
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bosentan: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الشريان الرئوي، وتصلب الجلد (المصدر: الرسم المعرفي لـ TxGN…"
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
@@ -90,13 +90,19 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 
 جميع التراخيص الـ 11 سارية، والدواء مسوّق في هذا البلد. لا تتوفر نصوص استطباب معتمدة ولا أشكال صيدلانية في البيانات.
 
-| رقم الترخيص / المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| TRACLEER 125 MG FILM COATED TABLET | Haupt Pharma Wulfing GmbH | مُلغى |
-| TRACLEER 62.5 MG FILM COATED TABLET | Haupt Pharma Wulfing GmbH | مُلغى |
-| GONISTA 125MG F.C TABLETS | United Pharmaceutical Company | مُلغى |
-| PERTENSIO 125 mg Film-Coated Tablet | SPIMACO | مُلغى |
-| BOSENTOR 125 mg Film-Coated Tablet | Pharmascience Inc. | مُلغى |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TRACLEER 125 MG FILM COATED TABLET | BOSENTAN | Haupt Pharma Wulfing GmbH | ساري |
+| TRACLEER 62.5 MG FILM COATED TABLET | BOSENTAN | Haupt Pharma Wulfing GmbH | ساري |
+| GONISTA 125MG F.C TABLETS | BOSENTAN | UNITED PHARMACEUTICAL COMPANY | ساري |
+| PERTENSIO 125 mg Film-Coated Tablet | BOSENTAN | SPIMACO | ساري |
+| BOSENTOR 125 mg Film-Coated Tablet | BOSENTAN | PHARMASCIENCE INC. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -117,7 +123,7 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 
 <!-- review:begin sa-lic-20261106-bosentan-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الأدلة على التهاب المفاصل الروماتويدي ما قبل سريرية فقط (L4)، دون تجارب سريرية، ودرجة TxGNN العالية وحدها لا تكفي. كما أن جميع التراخيص المحلية مُلغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 11، منها سارية: 11؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الأدلة على التهاب المفاصل الروماتويدي ما قبل سريرية فقط (L4)، دون تجارب سريرية، ودرجة TxGNN العالية وحدها لا تكفي. كما أن جميع التراخيص المحلية مُلغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-bosentan-1 -->
 
@@ -141,7 +147,7 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن جميع التراخيص المحلية مُلغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن جميع التراخيص المحلية مُلغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c) |
 
 <!-- review:end log -->

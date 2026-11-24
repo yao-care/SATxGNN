@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ezetimibe: الاستطباب الجديد المتوقع نقص بروتين نقل إستر الكوليسترول (مستوى الدليل L5). الاستطباب الأصلي: فرط شحميات الدم (علاقة مسجلة في الرسم البياني المعرفي؛ لا يتوفر نص اس…"
 ---
 
@@ -73,13 +73,19 @@ description: "Ezetimibe: الاستطباب الجديد المتوقع نقص �
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة |
-|---------|------|------|
-| Etimicol 10 | Etimicol 10 | Aurobindo Pharma Limited Unit VII |
-| EZECHOL 10 mg tablet | EZECHOL 10 mg tablet | SAJA – الشركة العربية السعودية اليابانية للأدوية |
-| EZETROL 10 mg tablet | EZETROL 10 mg tablet | MERCK SHARP & DOHME |
-| LIPIZET 10MG TABLET | LIPIZET 10MG TABLET | Laboratorios Cinfa SA |
-| Zavoxa | Zavoxa | شركة جمجوم للأدوية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Etimicol 10 | EZETIMIBE | Aurobindo Pharma Limited Unit VII | ساري |
+| EZECHOL 10 mg tablet | EZETIMIBE | SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO | ساري |
+| EZETROL 10 mg tablet | EZETIMIBE | MERCK SHARP & DOHME | ساري |
+| LIPIZET 10MG TABLET | EZETIMIBE | LABORATORIOS CINFA SA | ساري |
+| Zavoxa | EZETIMIBE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 يوجد ترخيص سادس (ZETEX 10 mg tablet من شركة تبوك للصناعات الدوائية)، ولا تتوفر بيانات عن شكل الجرعة أو نص الاستطباب المعتمد لأي من التراخيص.
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "fluphenazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "syndromic myopia", "myopia X-linked", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
 description: "Fluphenazine: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -80,11 +80,15 @@ description: "Fluphenazine: الاستطباب الجديد المتوقع Retin
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| FLUPHENAZINE DECANOATE 25MG-ML Injection* | FLUPHENAZINE DECANOATE 25MG-ML Injection* (الشركة: ANTIGEN) | غير متوفر | غير متوفر | ساري |
-| FLUPHENAZINE DECANOATE OILY 100MG-ML AMP | FLUPHENAZINE DECANOATE OILY 100MG-ML AMP (HOSPIRA AUSTRALIA) | غير متوفر | غير متوفر | ساري |
-| FLUPHENAZINE DECANOATE OILY 25MG-ML AMP | FLUPHENAZINE DECANOATE OILY 25MG-ML AMP (HOSPIRA AUSTRALIA) | غير متوفر | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FLUPHENAZINE DECANOATE 25MG-ML Injection* | FLUPHENAZINE DECANOATE | ANTIGEN | ساري |
+| FLUPHENAZINE DECANOATE OILY 100MG-ML AMP | FLUPHENAZINE DECANOATE | HOSPIRA AUSTRALIA | ساري |
+| FLUPHENAZINE DECANOATE OILY 25MG-ML AMP | FLUPHENAZINE DECANOATE | HOSPIRA AUSTRALIA | ساري |
+
+<!-- licenses:end -->
 
 ---
 

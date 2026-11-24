@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 165
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Centella Asiatica: الاستطباب الجديد المتوقع الأرق (insomnia) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في التراخيص فارغة)"
 monitor_inn: "CENTELLA ASIATICA"
 drugbank_id: DB14256
@@ -84,12 +84,16 @@ predicted_indications: ["insomnia (disease)", "anxiety", "sleep disorder, initia
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| MADECASSOL 10MG TABLET | MADECASSOL 10MG TABLET | غير محدد | غير محدد (ساري) |
-| MADECASSOL OINTMENT | MADECASSOL OINTMENT | غير محدد | غير محدد (ساري) |
-| MADECASSOL POWDER | MADECASSOL POWDER | غير محدد | غير محدد (ساري) |
-| MADECASSOL Injection* | MADECASSOL Injection* | غير محدد | غير محدد (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MADECASSOL 10MG TABLET | CENTELLA ASIATICA | LAROCHE NAVRON | ساري |
+| MADECASSOL OINTMENT | CENTELLA ASIATICA | LAROCHE NAVRON | ساري |
+| MADECASSOL POWDER | CENTELLA ASIATICA | LAROCHE NAVRON | ساري |
+| MADECASSOL Injection* | CENTELLA ASIATICA | LAROCHE NAVRON | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنعة لجميع المنتجات: LAROCHE NAVRON. جميع التراخيص الأربعة سارية.
 
@@ -117,7 +121,7 @@ predicted_indications: ["insomnia (disease)", "anxiety", "sleep disorder, initia
 
 <!-- review:begin sa-lic-20261106-centella_asiatica-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توحيد تركيب المستخلص وجرعته لضمان قابلية إعادة الإنتاج. / توضيح الوضع التنظيمي الحالي (التراخيص ملغاة) وجدوى إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توحيد تركيب المستخلص وجرعته لضمان قابلية إعادة الإنتاج. / توضيح الوضع التنظيمي الحالي (التراخيص ملغاة) وجدوى إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-centella_asiatica-1 -->
 
@@ -129,7 +133,7 @@ predicted_indications: ["insomnia (disease)", "anxiety", "sleep disorder, initia
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي الحالي (التراخيص ملغاة) وجدوى إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي الحالي (التراخيص ملغاة) وجدوى إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

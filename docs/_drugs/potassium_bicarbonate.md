@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 673
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "potassium bicarbonate"
 predicted_indications: ["gastroduodenitis"]
 description: "Potassium Bicarbonate: الاستطباب الجديد المتوقع التهاب المعدة والاثني عشر (gastroduodenitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -82,10 +82,14 @@ description: "Potassium Bicarbonate: الاستطباب الجديد المتو�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| GAVISCON ADVANCE PEPPERMINT LIQUID SACHET | GAVISCON ADVANCE PEPPERMINT LIQUID SACHET (ساري) | غير متوفر | غير متوفر |
-| GAVISCON ADVANCE PEPPERMINT FLAVOR ORAL SUSPENSION | GAVISCON ADVANCE PEPPERMINT FLAVOR ORAL SUSPENSION (ساري) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| GAVISCON ADVANCE PEPPERMINT LIQUID SACHET | SODIUM ALGINATE,POTASSIUM BICARBONATE | RECKITT BENCKISER HEALTHCARE INTERNATIONAL | ساري |
+| GAVISCON ADVANCE PEPPERMINT FLAVOR ORAL SUSPENSION | SODIUM ALGINATE,POTASSIUM BICARBONATE | RECKITT BENCKISER HEALTHCARE INTERNATIONAL | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنعة لكلا المنتجين: RECKITT BENCKISER HEALTHCARE INTERNATIONAL.
 
@@ -131,7 +135,7 @@ description: "Potassium Bicarbonate: الاستطباب الجديد المتو�
 
 <!-- review:begin sa-lic-20261106-potassium_bicarbonate-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من وضع التسجيل في السعودية وسبب إلغاء التراخيص، وتحديد أي منتج يمكن اعتماده.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من وضع التسجيل في السعودية وسبب إلغاء التراخيص، وتحديد أي منتج يمكن اعتماده.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-potassium_bicarbonate-1 -->
 
@@ -143,7 +147,7 @@ description: "Potassium Bicarbonate: الاستطباب الجديد المتو�
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «التحقق من وضع التسجيل في السعودية وسبب إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «التحقق من وضع التسجيل في السعودية وسبب إلغاء التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: sodium bicarbonate prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50c858a-00c8-4cb2-ad73-8797f19e656d) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "BUPIVACAINE"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bupivacaine: الاستطباب الجديد المتوقع التهاب الجلد الضموري المزمن الطرفي (acrodermatitis chronica atrophicans) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
@@ -80,13 +80,19 @@ description: "Bupivacaine: الاستطباب الجديد المتوقع الت
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| BUCAINE 0.5% solution for injection | BUCAINE 0.5% solution for injection | غير مسجّل | غير مسجّل في البيانات المحلية |
-| BETOLINA 5MG/ML INJECTION | BETOLINA 5MG/ML INJECTION | غير مسجّل | غير مسجّل في البيانات المحلية |
-| BUPIVACAINE 0.5% STERILE PACK AMP. | BUPIVACAINE 0.5% STERILE PACK AMP. | غير مسجّل | غير مسجّل في البيانات المحلية |
-| BUPIVACAINE 0.25% STERILE PACK AMP. | BUPIVACAINE 0.25% STERILE PACK AMP. | غير مسجّل | غير مسجّل في البيانات المحلية |
-| MARCAINE INJ 0.5% | MARCAINE INJ 0.5% | غير مسجّل | غير مسجّل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BUCAINE 0.5% solution for injection | BUPIVACAINE | Hikma Farmaceutica | ساري |
+| BETOLINA 5MG/ML INJECTION | BUPIVACAINE | MS Pharma | ساري |
+| BUPIVACAINE 0.5% STERILE PACK AMP. | BUPIVACAINE | HOSPIRA | ساري |
+| BUPIVACAINE 0.25% STERILE PACK AMP. | BUPIVACAINE | HOSPIRA | ساري |
+| MARCAINE INJ 0.5% | BUPIVACAINE | AstraZeneca | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

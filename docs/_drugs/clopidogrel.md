@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Clopidogrel: الاستطباب الجديد المتوقع الصداع النصفي مع أورة جذع الدماغ (migraine with brainstem aura) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 14 (السارية: 14)"
 ---
 
@@ -80,6 +80,20 @@ description: "Clopidogrel: الاستطباب الجديد المتوقع الص
 | [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | تجربة عشوائية (إغلاق PFO، وليس دواءً) | Eur Heart J | إغلاق PFO في الصداع النصفي مع أورة |
 
 ## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CARDLET 75 mg film-coated tablet | CLOPIDOGREL | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| CLOGREL 75 mg film-coated tablet | CLOPIDOGREL | AJA PHARMACEUTICAL INDUSTRIES | ساري |
+| CLOPACIN 75mg film-coated tablets | CLOPIDOGREL | ACINO PHARMA AG | ساري |
+| CLOPEX 75 mg film-coated tablet | CLOPIDOGREL | SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO | ساري |
+| CUPIDO | CLOPIDOGREL | APOTEX | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 14 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 تشير السجلات المحلية إلى أن للدواء 14 ترخيصاً لمنتجات أحادية المكوّن، منها بلافيكس (PLAVIX 75 MG TABLET) وباليتا (PALETA) وفيدابارت (VIDAPART) وكلوجريل (CLOGREL) وكلوبكس (CLOPEX) وبيدوفكس (PEDOVEX). لا يتوفر نص الاستطباب المعتمد ولا الشكل الدوائي في البيانات المحلية.
 

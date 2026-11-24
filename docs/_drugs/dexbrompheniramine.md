@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "dexbrompheniramine"
 predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Dexbrompheniramine: الاستطباب الجديد المتوقع التهاب الجلد التأتبي العنيد (recalcitrant atopic dermatitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -70,9 +70,13 @@ description: "Dexbrompheniramine: الاستطباب الجديد المتوقع
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| DISOPHROL S-A TAB | DISOPHROL S-A TAB | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DISOPHROL S-A TAB | DEXBROMPHENIRAMINE, PSEUDOEPHEDRINE | SCHERING-PLOUGH | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ISOSORBIDE DINITRATE"
 predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata", "vascular disease", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "visceral calciphylaxis", "venous thoracic outlet syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isosorbide Dinitrate: الاستطباب الجديد المتوقع الثعلبة (Alopecia) (مستوى الدليل L5). الاستطباب الأصلي: غير مذكور في نصوص التراخيص المتاحة"
 ---
 
@@ -80,13 +80,19 @@ description: "Isosorbide Dinitrate: الاستطباب الجديد المتوق
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ISOKET 0.1% AMPOULE | ISOKET 0.1% AMPOULE (Hospira Australia) | غير مذكور | غير مذكور في بيانات الترخيص |
-| WESORBIDE 20MG TAB | WESORBIDE 20MG TAB (West-Ward) | غير مذكور | غير مذكور في بيانات الترخيص |
-| WESORBIDE 10MG TAB | WESORBIDE 10MG TAB (West-Ward) | غير مذكور | غير مذكور في بيانات الترخيص |
-| WESORBIDE 5MG S-L TAB | WESORBIDE 5MG S-L TAB (West-Ward) | غير مذكور | غير مذكور في بيانات الترخيص |
-| WESORBIDE 2.5MG SUBLINGUAL TAB | WESORBIDE 2.5MG SUBLINGUAL TAB (West-Ward) | غير مذكور | غير مذكور في بيانات الترخيص |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ISOKET 0.1% AMPOULE | ISOSORBIDE DINITRATE | HOSPIRA AUSTRALIA | ساري |
+| WESORBIDE 20MG TAB | ISOSORBIDE DINITRATE | WEST-WARD | ساري |
+| WESORBIDE 10MG TAB | ISOSORBIDE DINITRATE | WEST-WARD | ساري |
+| WESORBIDE 5MG S-L TAB | ISOSORBIDE DINITRATE | WEST-WARD | ساري |
+| WESORBIDE 2.5MG SUBLINGUAL TAB | ISOSORBIDE DINITRATE | WEST-WARD | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 يُعرض أعلاه 5 من أصل 8 تراخيص سارية. أما الثلاثة الباقية فهي ISOBIDE (Riyadh Pharma) وISORDIL 10 MG TABLETS (Wyeth) وISORDIL SUBLINGUAL 5 MG TAB (Pfizer).
 

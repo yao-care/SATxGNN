@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "DEXMEDETOMIDINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dexmedetomidine: الاستطباب الجديد المتوقع متلازمة عدم تناسب إدرار البول المنشأ الكلوي (nephrogenic syndrome of inappropriate antidiuresis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات ال…"
 ---
 
@@ -80,13 +80,17 @@ description: "Dexmedetomidine: الاستطباب الجديد المتوقع م
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Naplax | Naplax | غير مسجّل | غير مسجّل |
-| Demexa | Demexa | غير مسجّل | غير مسجّل |
-| SEDALERT 100 MCG -ML IV. VIAL | SEDALERT 100 MCG -ML IV. VIAL | غير مسجّل | غير مسجّل |
-| PRECEDEX 100 MCG -ML IV. VIAL | PRECEDEX 100 MCG -ML IV. VIAL | غير مسجّل | غير مسجّل |
-| SOPORIDEX | SOPORIDEX | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Naplax | DEXMEDETOMIDINE | S.M. Farmaceutici SRL | ساري |
+| Demexa | DEXMEDETOMIDINE | Gland Pharma Limited | ساري |
+| SEDALERT 100 MCG -ML IV. VIAL | DEXMEDETOMIDINE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| PRECEDEX 100 MCG -ML IV. VIAL | DEXMEDETOMIDINE | HOSPIRA | ساري |
+| SOPORIDEX | DEXMEDETOMIDINE | EVER PHARMA JENA GMBH | ساري |
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 782
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sunitinib: الاستطباب الجديد المتوقع الساركوما الشحمية (Liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان الخلايا الكلوية، والورم اللحمي المعدي المعوي (GIST) (بحسب الرسم…"
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
@@ -93,13 +93,19 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofib
 
 الدواء مسوّق، وجميع التراخيص الـ11 المسجلة سارية (11 ترخيصاً ساري المفعول من أصل 11). نصوص الاستطباب المعتمد ونماذج الجرعات غير متوفرة في البيانات المجمعة.
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| SUTENT 12.5 MG CAPSULE | SUTENT 12.5 MG CAPSULE | PFIZER | ساري |
-| SUTENT 25 MG CAPSULE | SUTENT 25 MG CAPSULE | PFIZER | ساري |
-| SUTENT 50 MG CAPSULE | SUTENT 50 MG CAPSULE | PFIZER | ساري |
-| SUTEXA 50MG CAPSULE | SUTEXA 50MG CAPSULE | Combino Pharm (Malta) Ltd | ساري |
-| RENIS 50MG CAPSULE | RENIS 50MG CAPSULE | The Arab Pharmaceutical Manufacturing | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SUTENT 12.5 MG CAPSULE | SUNITINIB | PFIZER | ساري |
+| SUTENT 25 MG CAPSULE | SUNITINIB | PFIZER | ساري |
+| SUTENT 50 MG CAPSULE | SUNITINIB | PFIZER | ساري |
+| SUTEXA 50MG CAPSULE | SUNITINIB | Combino Pharm (Malta) Ltd | ساري |
+| RENIS 50MG CAPSULE | SUNITINIB | The Arab Pharmaceutical Manufacturing PSC Sult | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

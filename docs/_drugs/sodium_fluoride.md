@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 763
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sodium Fluoride: الاستطباب الجديد المتوقع التهاب لسان المزمار (epiglottitis) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب نقص الفيتامينات (من الرسم المعرفي PrimeKG، إذ لا يتوفر نص استط…"
 monitor_inn: "sodium fluoride"
 predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "laryngitis"]
@@ -91,11 +91,15 @@ predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ur
 
 جميع التراخيص الثلاثة سارية:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| TRACUTIL SOLUSION FOR INFUSION AMPOULE | TRACUTIL SOLUSION FOR INFUSION AMPOULE | B. BRAUN | ساري |
-| Addaven | Addaven | FRESENIUS KABI NORGE AS | ساري |
-| NUTRYELT CONC. FOR SOLUTION FOR INFUSION | NUTRYELT CONC. FOR SOLUTION FOR INFUSION | LABORATOIRE AGUETTANT | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TRACUTIL SOLUSION FOR INFUSION AMPOULE | IRON CHLORIDE TETRAHYDRATE,ZINC CHLORIDE,SODIUM FLUORIDE,SODIUM SELENITE PENTAHYDRATE,CHRO… | B. BRAUN | ساري |
+| Addaven | CHROMIC CHLORIDE,COPPER CHLORIDE,FERRIC CHLORIDE,MANGANESE CHLORIDE TETRAHYDRATE,POTASSIUM… | FRESENIUS KABI NORGE AS | ساري |
+| NUTRYELT CONC. FOR SOLUTION FOR INFUSION | ZINC GLUCONATE,COPPER GLUCONATE,MANGANESE GLUCONATE,SODIUM FLUORIDE,POTASSIUM IODIDE,SODIU… | LABORATOIRE AGUETTANT | ساري |
+
+<!-- licenses:end -->
 
 ---
 

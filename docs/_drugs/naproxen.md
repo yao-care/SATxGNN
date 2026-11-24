@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 578
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Naproxen: الاستطباب الجديد المتوقع متلازمة قِصَر الأصابع والتصاق الأصابع (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجراب، التهاب المفاصل الروماتويدي، التهاب الفقار اللاصق، النق…"
 monitor_inn: "NAPROXEN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -86,13 +86,19 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 جميع التراخيص الـ 11 سارية (11 ترخيصًا ساريًا من أصل 11)، وفيما يلي أبرز 5 منها:
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| RIAPROXEN 500 mg film-coated tablet | RIAPROXEN 500 mg (أقراص مغلفة) | Riyadh Pharma | ساري |
-| MIRANAX 550 MG F-C TABLETS | MIRANAX 550 mg (أقراص مغلفة) | Grunenthal | ساري |
-| NAPROX D.S 500MG TAB | NAPROX D.S 500 mg | Hikma Pharmaceuticals | ساري |
-| PROXEN F.C. TAB 250MG | PROXEN 250 mg (أقراص مغلفة) | Grunenthal | ساري |
-| ALEVE 220 mg film-coated tablet | ALEVE 220 mg (أقراص مغلفة) | Bayer Bitterfeld GmbH | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RIAPROXEN 500 mg film-coated tablet | NAPROXEN | RIYADH PHARMA | ساري |
+| MIRANAX 550 MG F- C TABLETS | NAPROXEN | GRUNENTHAL | ساري |
+| NAPROX D.S 500MG TAB | NAPROXEN | Hikma Pharmaceuticals PLC | ساري |
+| PROXEN F.C. TAB 250MG | NAPROXEN | GRUNENTHAL | ساري |
+| ALEVE 220 mg film-coated tablet | NAPROXEN | Bayer Bitterfeld GmbH | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 لم تتوفر في البيانات المجمّعة نصوص الاستطبابات المعتمدة أو الأشكال الصيدلانية لهذه التراخيص.
 
@@ -130,7 +136,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 <!-- review:begin sa-lic-20261106-naproxen-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم الحاجة السريرية الفعلية (مثل تخفيف الألم فقط) ومدى جدوى الدواء مقارنة بالبدائل، وتحديد وضع التراخيص الملغاة وإمكانية إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 11، منها سارية: 11؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم الحاجة السريرية الفعلية (مثل تخفيف الألم فقط) ومدى جدوى الدواء مقارنة بالبدائل، وتحديد وضع التراخيص الملغاة وإمكانية إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-naproxen-1 -->
 
@@ -142,7 +148,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وتحديد وضع التراخيص الملغاة وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وتحديد وضع التراخيص الملغاة وإمكانية إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893) |
 
 <!-- review:end log -->

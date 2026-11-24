@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
 description: "Cabozantinib: الاستطباب الجديد المتوقع الساركوما الشحمية (liposarcoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -72,11 +72,15 @@ description: "Cabozantinib: الاستطباب الجديد المتوقع ال�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص / اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| CABOMETYX 60 mg F.C. Tablet | PATHEON INC | ساري |
-| CABOMETYX 40 mg F.C. Tablet | PATHEON INC | ساري |
-| CABOMETYX 20 mg F.C. Tablet | PATHEON INC | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CABOMETYX 60 mg F.C. Tablet | CABOZANTINIB | PATHEON INC | ساري |
+| CABOMETYX 40 mg F.C. Tablet | CABOZANTINIB | PATHEON INC | ساري |
+| CABOMETYX 20 mg F.C. Tablet | CABOZANTINIB | PATHEON INC | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الثلاثة سارية، والجهة المصنّعة PATHEON INC.
 

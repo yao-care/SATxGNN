@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diclofenac: الاستطباب الجديد المتوقع قلة الشعر البسيطة في فروة الرأس (مستوى الدليل L5). الاستطباب الأصلي: التقران الشعاعي، التهاب المفاصل الروماتويدي، الفصال العظمي، التهاب ال…"
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
@@ -84,7 +84,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dys
 
 ## معلومات السوق في المملكة العربية السعودية
 
-يبلغ إجمالي التراخيص 20. لم يُدرج نص الاستطباب المعتمد ولا الشكل الصيدلاني لأي منها في البيانات المتاحة. أبرز خمسة تراخيص:
+يرد عدد التراخيص في جدول النظرة السريعة. لم يُدرج نص الاستطباب المعتمد ولا الشكل الصيدلاني لأي منها في البيانات المتاحة. أبرز خمسة تراخيص:
 
 <!-- review:begin sa-lic-20261106-diclofenac-1 -->
 
@@ -92,13 +92,20 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dys
 
 <!-- review:end sa-lic-20261106-diclofenac-1 -->
 
-| اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| VOLTAREN 75 Mg SR TABLET | NOVARTIS | ساري |
-| OFLAM 50MG GRANULES FOR ORAL SOLUTION | Jazeera Pharmaceutical Industries (JPI) | ساري |
-| TABIFLEX SUPPOSITORIES 12.5MG | TABUK PHARMACEUTICAL MANUFACTURING CO. | ملغى |
-| VOLTIC-D 50MG DISPERSIBLE TABLETS | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
-| DICLOMAX 1% EMULGEL | Jazeera Pharmaceutical Industries (JPI) | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VOLTAREN 75 Mg SR TABLET | DICLOFENAC SODIUM | NOVARTIS | ساري |
+| OFLAM 50MG GRANULES FOR ORAL SOLUTION | DICLOFENAC POTASSIUM | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| TABIFLEX SUPPOSITORIES 12.5MG-SUPP. | DICLOFENAC SODIUM | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| VOLTIC -D 50MG DISPERSIBLE TABLETS | DICLOFENAC SODIUM | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| DICLOMAX 1% EMULGEL | DICLOFENAC SODIUM | Jazeera Pharmaceutical Industries (JPI) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 
@@ -138,7 +145,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dys
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وجميعها **ملغاة** ولا يوجد أي ترخيص ساري» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وجميعها **ملغاة** ولا يوجد أي ترخيص ساري» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة، مما يقيّد الاستفادة العملية منه» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970) |
 

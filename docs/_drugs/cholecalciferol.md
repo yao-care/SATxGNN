@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CHOLECALCIFEROL"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cholecalciferol: الاستطباب الجديد المتوقع خلل التنسج الأكرومسومي، نوع كامباييا مارتينيلي (acromesomelic dysplasia, Campailla Martinelli type) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات…"
 ---
 
@@ -69,6 +69,21 @@ description: "Cholecalciferol: الاستطباب الجديد المتوقع خ
 لا توجد حالياً أدبيات ذات صلة.
 
 ## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BIODAL 50000 iu tablet | COLECALCIFEROL | HAYAT PHARMACEUTICAL INDUSTRIES | ساري |
+| D-CURA 2500 IU oral ampule | CHOLECALCIFEROL | SMB Technology SA | ساري |
+| D-Seul 10000 SOFT GELATIN CAPSULE | COLECALCIFEROL | UNITED PHARMACEUTICAL COMPANY | ساري |
+| D-Seul 2000 I.U SOFT GELATIN CAPSULE | COLECALCIFEROL | UNITED PHARMACEUTICAL COMPANY | ساري |
+| D-Seul 5000 I.U SOFT GELATIN CAPSULE | COLECALCIFEROL | UNITED PHARMACEUTICAL COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 الدواء مسوَّق في السعودية، ويوجد 19 ترخيصاً سارياً على الأقل لمستحضرات أحادية المكوّن (قد تكون القائمة جزئية). من أمثلة المنتجات: PRIMA D3 وOleovit D3 وDIBASA وD-Seul وDIVAD وDETREMIN وVEGGIE Vitamin D3 وBIODAL.
 

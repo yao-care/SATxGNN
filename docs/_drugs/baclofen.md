@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 92
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Baclofen: الاستطباب الجديد المتوقع اضطراب فرط الحركة ونقص الانتباه (ADHD) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المحلية (المعروف سريرياً: التشنج العضلي)"
 monitor_inn: "BACLOFEN"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
@@ -92,17 +92,23 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine de
 
 <!-- review:begin sa-lic-20261106-baclofen-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «يوجد ترخيص سادس (Baclon، من Alrai Pharmaceutical industry) وهو ملغى أيضاً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «يوجد ترخيص سادس (Baclon، من Alrai Pharmaceutical industry) وهو ملغى أيضاً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-baclofen-1 -->
 
-| رقم الترخيص / المنتج | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الجهة المصنّعة | الحالة |
-|---------|------|------|-----------|------|------|
-| BACLOFEN INTRATHECAL SINTETICA 0.05MG/ML INJECTION | Baclofen Intrathecal Sintetica 0.05 mg/ml | حقن (حسب اسم المنتج) | — | Sintetica SA | ساري |
-| LIORESAL 10MG TAB | Lioresal 10 mg | أقراص (حسب اسم المنتج) | — | Novartis | ساري |
-| BACLOFEN INTRATHECAL SINTETICA 0.5MG/ML INJECTION | Baclofen Intrathecal Sintetica 0.5 mg/ml | حقن (حسب اسم المنتج) | — | Sintetica SA | ساري |
-| LIORESAL 25MG TAB | Lioresal 25 mg | أقراص (حسب اسم المنتج) | — | Siegfried Barbera, S.L | ساري |
-| BACLOFEN INTRATHECAL SINTETICA 2MG/ML INJECTION | Baclofen Intrathecal Sintetica 2 mg/ml | حقن (حسب اسم المنتج) | — | Sintetica SA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BACLOFEN INTRATHECAL SINTETICA 0.05MG/ML INJECTION | BACLOFEN | Sintetica SA | ساري |
+| LIORESAL 10MG TAB | BACLOFEN | NOVARTIS | ساري |
+| BACLOFEN INTRATHECAL SINTETICA 0.5MG/ML INJECTION | BACLOFEN | Sintetica SA | ساري |
+| LIORESAL 25MG TAB | BACLOFEN | Siegfried Barbera, S.L | ساري |
+| BACLOFEN INTRATHECAL SINTETICA 2MG/ML INJECTION | BACLOFEN | Sintetica SA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -135,7 +141,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine de
 
 <!-- review:begin sa-lic-20261106-baclofen-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الباكلوفين في السعودية ملغاة، ولم تتوفر معلومات السلامة من النشرة الرسمية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الباكلوفين في السعودية ملغاة، ولم تتوفر معلومات السلامة من النشرة الرسمية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-baclofen-2 -->
 
@@ -146,7 +152,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine de
 
 <!-- review:begin sa-lic-20261106-baclofen-3 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إجراء دراسة أولية (تجربة تجريبية أو مراجعة منهجية) تقيّم الباكلوفين مباشرة في ADHD، مع فصل أثره عن الاقتران بمتلازمة توريت. / توضيح الوضع التنظيمي بعد إلغاء التراخيص الحالية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إجراء دراسة أولية (تجربة تجريبية أو مراجعة منهجية) تقيّم الباكلوفين مباشرة في ADHD، مع فصل أثره عن الاقتران بمتلازمة توريت. / توضيح الوضع التنظيمي بعد إلغاء التراخيص الحالية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-baclofen-3 -->
 
@@ -160,9 +166,9 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine de
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «يوجد ترخيص سادس (Baclon، من Alrai Pharmaceutical industry) وهو ملغى أيضاً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «جميع تراخيص الباكلوفين في السعودية ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «يوجد ترخيص سادس (Baclon، من Alrai Pharmaceutical industry) وهو ملغى أيضاً» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الباكلوفين في السعودية ملغاة، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص الحالية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2) |
 
 <!-- review:end log -->

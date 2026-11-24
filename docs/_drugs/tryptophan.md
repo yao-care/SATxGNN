@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 847
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Tryptophan: الاستطباب الجديد المتوقع متلازمة تململ الساقين (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (مكوّن من محاليل الأحماض الأمينية للتغذية…"
 monitor_inn: "tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -91,13 +91,19 @@ predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma",
 
 جميع التراخيص الـ12 سارية، ولا يتوفر نص للمؤشر المعتمد أو شكل الجرعة. أبرز خمسة منها:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
-|---------|------|------|-----------|
-| RENAMIN INJECTION | RENAMIN INJECTION (Baxter) | غير متوفر | غير متوفر |
-| AMINOPLASMAL B BRAUN 10% | AMINOPLASMAL B BRAUN 10% (B. Braun) | غير متوفر | غير متوفر |
-| AMINOPLASMAL 15 % I.V INFUSION SOLN | AMINOPLASMAL 15 % (B. Braun) | غير متوفر | غير متوفر |
-| OLIMEL N9 emulsion for infusion | OLIMEL N9 (Baxalta) | مستحلب للتسريب | غير متوفر |
-| SMOFKABIVEN PERIPHERAL EMULSION for infusion | SMOFKABIVEN PERIPHERAL (Fresenius Kabi) | مستحلب للتسريب | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RENAMIN INJECTION | VALINE,LEUCINE,ISOLEUCINE5,METHIONINE,PHENYLALANINE,LYSINE,HISTIDINE,THREONINE,TRYPTOPHAN | BAXTER | ساري |
+| AMINOPLASMAL B BRAUN 10% | TYROSINE,SERINE,PROLINE,GLUTAMIC ACID,ASPARTIC ACID,GLYCINE,ALANINE,ARGININE,TRYPTOPHAN,TH… | B. BRAUN | ساري |
+| AMINOPLASMAL 15 % I.V INFUSION SOLN | TYROSINE,SERINE,GLUTAMIC ACID,ACETYLCYSTEINE,ASPARTIC ACID,PROLINE,ALANINE,HISTIDINE,VALIN… | B. BRAUN | ساري |
+| OLIMEL N9 emulsion for infusion | GLUCOSE,OLIVE OIL,SOYA OIL,ALANINE,ARGININE,LYSINE,LEUCINE,PHENYLALANINE,GLYCINE,VALINE,PR… | Baxalta manufacturing Sarl | ساري |
+| SMOFKABIVEN PERIPHERAL EMULSION for infusion | GLUCOSE,SOYA OIL,TRIGLYCERIDES MEDIUM CHAIN,OLIVE OIL,FISH OIL,ALANINE,ARGININE,GLYCINE,HI… | FRESENIUS KABI | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

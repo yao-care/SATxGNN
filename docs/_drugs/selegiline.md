@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 748
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
 description: "Selegiline: الاستطباب الجديد المتوقع Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -68,9 +68,13 @@ description: "Selegiline: الاستطباب الجديد المتوقع Polymic
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ELDEPRYL 5MG TABS | ELDEPRYL 5MG TABS (الشركة المصنعة: ORION PHARMA) | غير محدد | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ELDEPRYL 5MG TABS | SELEGILINE HYDROCHLORIDE | ORION PHARMA | ساري |
+
+<!-- licenses:end -->
 
 الترخيص المسجل واحد وهو ساري المفعول.
 

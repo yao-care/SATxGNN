@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
 description: "Glucagon: الاستطباب الجديد المتوقع متلازمة القولون العصبي (irritable bowel syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -82,12 +82,16 @@ description: "Glucagon: الاستطباب الجديد المتوقع متلا�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | دواعي الاستعمال المعتمدة |
-|---------|------|------|-----------|
-| GLUCAGEN HYPOKIT | GLUCAGEN HYPOKIT (Novo Nordisk) | غير متوفر | غير متوفر (الترخيص ساري) |
-| GLUCAGEN powder and solvent for solution for injection | GLUCAGEN (Novo Nordisk) | غير متوفر | غير متوفر (الترخيص ساري) |
-| GLUCAGON 10MG VIAL+SOLVENT | GLUCAGON 10MG (Eli Lilly) | غير متوفر | غير متوفر (الترخيص ساري) |
-| GLUCAGON 1 MG VIAL+SOLVENT 1ML | GLUCAGON 1 MG (Eli Lilly) | غير متوفر | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| GLUCAGEN HYPOKIT | GLUCAGON | NOVO NORDISK | ساري |
+| GLUCAGEN powder and solvent for solution for injection | GLUCAGON | NOVO NORDISK | ساري |
+| GLUCAGON 10MG VIAL+SOLVENT | GLUCAGON | ELI LILLY | ساري |
+| GLUCAGON 1 MG VIAL+SOLVENT 1ML | GLUCAGON | ELI LILLY | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الأربعة سارية (شركتا Novo Nordisk وEli Lilly).
 

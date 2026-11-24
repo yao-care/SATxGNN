@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 549
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methoxy Polyethylene Glycol-Epoetin Beta: الاستطباب الجديد المتوقع اضطراب إفراز الصفيحات الأولي (primary release disorder of platelets) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخ…"
 monitor_inn: "METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
@@ -92,13 +92,17 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الخمسة سارية (5 من 5).
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|------|------|------|------|------|
-| MIRCERA 100MCG-0.3ML SOLN. FOR INJ | MIRCERA 100MCG-0.3ML | محلول للحقن | غير متوفر | ساري |
-| MIRCERA 150MCG-0.3ML SOLN. FOR INJ | MIRCERA 150MCG-0.3ML | محلول للحقن | غير متوفر | ساري |
-| MIRCERA 200MCG-0.3ML SOLN. FOR INJ | MIRCERA 200MCG-0.3ML | محلول للحقن | غير متوفر | ساري |
-| MIRCERA 75MCG-0.3ML SOLN. FOR INJ | MIRCERA 75MCG-0.3ML | محلول للحقن | غير متوفر | ساري |
-| MIRCERA 50MCG-0.3ML SOLN. FOR INJ | MIRCERA 50MCG-0.3ML | محلول للحقن | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MIRCERA 100MCG-0.3ML SOLN. FOR INJ | METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA | ROCHE DIAGNOSTICS | ساري |
+| MIRCERA 150MCG-0.3ML SOLN. FOR INJ | METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA | ROCHE DIAGNOSTICS | ساري |
+| MIRCERA 200MCG-0.3ML SOLN. FOR INJ | METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA | ROCHE DIAGNOSTICS | ساري |
+| MIRCERA 75MCG-0.3ML SOLN. FOR INJ | METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA | ROCHE DIAGNOSTICS | ساري |
+| MIRCERA 50MCG-0.3ML SOLN. FOR INJ | METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA | ROCHE DIAGNOSTICS | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -121,7 +125,7 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 
 <!-- review:begin sa-lic-20261106-methoxy_polyethylene_glycol-epoetin_beta-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «معظم الاستطبابات المتوقعة تتعارض مع الملف الأماني المعروف للفئة الدوائية (خطر التخثر)، والدواء غير مرخص حاليًا في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «معظم الاستطبابات المتوقعة تتعارض مع الملف الأماني المعروف للفئة الدوائية (خطر التخثر)، والدواء غير مرخص حاليًا في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-methoxy_polyethylene_glycol-epoetin_beta-1 -->
 
@@ -133,7 +137,7 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 
 <!-- review:begin sa-lic-20261106-methoxy_polyethylene_glycol-epoetin_beta-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد الاستطباب الأصلي من بيانات الترخيص، وتوضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد الاستطباب الأصلي من بيانات الترخيص، وتوضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-methoxy_polyethylene_glycol-epoetin_beta-2 -->
 
@@ -145,8 +149,8 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «والدواء غير مرخص حاليًا في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «وتوضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «والدواء غير مرخص حاليًا في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وتوضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88) |
 
 <!-- review:end log -->

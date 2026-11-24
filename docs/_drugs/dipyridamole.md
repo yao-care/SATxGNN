@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DIPYRIDAMOLE"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dipyridamole: الاستطباب الجديد المتوقع Sick sinus syndrome 2, autosomal dominant (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -80,11 +80,15 @@ description: "Dipyridamole: الاستطباب الجديد المتوقع Sick 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة |
-|---------|------|------|
-| NOVO-DIPIRADOL 25MG TAB | NOVO-DIPIRADOL 25MG TAB | NOVOPHARM |
-| NOVO-DIPIRADOL 75MG TAB | NOVO-DIPIRADOL 75MG TAB | NOVOPHARM |
-| ANTIPLATE 75MG TAB | ANTIPLATE 75MG TAB | APM |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NOVO-DIPIRADOL 25MG TAB | DIPYRIDAMOLE | NOVOPHARM | ساري |
+| NOVO-DIPIRADOL 75MG TAB | DIPYRIDAMOLE | NOVOPHARM | ساري |
+| ANTIPLATE 75MG TAB | DIPYRIDAMOLE | APM | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الثلاثة سارية، وهي لمستحضرات أحادية المادة الفعالة.
 

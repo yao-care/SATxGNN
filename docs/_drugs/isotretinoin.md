@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ISOTRETINOIN"
 predicted_indications: ["malignant hypertensive renal disease"]
 description: "Isotretinoin: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 11 (السارية: 11)"
@@ -83,13 +83,19 @@ description: "Isotretinoin: الاستطباب الجديد المتوقع Malig
 
 نص المؤشر المعتمد وشكل الجرعة غير متوفرين في البيانات. أبرز التراخيص:
 
-| رقم الترخيص / المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| CURACNE 40MG SOFT GELATIN CAPSULE | CATALENT | ساري |
-| CURACNE 20MG SOFT GELATIN CAPSULE | CATALENT | ساري |
-| ORATANE 20 mg Soft Capsules | SWISS CAPS AG | ساري |
-| ISOTREX GEL 0.05% | STIEFEL LABORATORIES | ساري |
-| RUATINE 20MG CAPSULE | UNITED PHARMACEUTICAL COMPANY | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CURACNE 40MG SOFT GELATIN CAPSULE | ISOTRETINOIN | CATALENT | ساري |
+| CURACNE 20MG SOFT GELATIN CAPSULE | ISOTRETINOIN | CATALENT | ساري |
+| ORATANE 20 mg Soft Capsules | ISOTRETINOIN | SWISS CAPS AG | ساري |
+| ISOTREX GEL 0.05% | ISOTRETINOIN | STIEFEL LABORATORIES | ساري |
+| RUATINE 20MG CAPSULE | ISOTRETINOIN | UNITED PHARMACEUTICAL COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

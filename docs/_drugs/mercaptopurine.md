@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 540
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: الاستطباب الجديد المتوقع ابيضاض الدم النقوي (myeloid leukemia) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -83,9 +83,15 @@ description: "Mercaptopurine: الاستطباب الجديد المتوقع ا�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Xaluprine | Xaluprine (Nova Laboratories Ltd) | غير محدد | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Xaluprine | MERCAPTOPURINE | Nova Laboratories Ltd | ساري |
+
+يعرض الجدول أعلاه 1 من أصل 2 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## السمّية الخلوية
 

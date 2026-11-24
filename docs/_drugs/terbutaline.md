@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 802
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TERBUTALINE"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline: الاستطباب الجديد المتوقع تشوه تنفسي (respiratory malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 9 (السارية: 9)"
@@ -82,13 +82,19 @@ description: "Terbutaline: الاستطباب الجديد المتوقع تشو
 
 الحالة: مسوّق، ولدى الدواء 9 تراخيص سارية.
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| BRICANYL TURBUHALER 0.5MG-DOSE | BRICANYL TURBUHALER 0.5MG-DOSE (AstraZeneca) | غير متوفر | غير متوفر |
-| BRICANYL 2.5MG-ML SOLN.FOR NEBULISATION | BRICANYL 2.5MG-ML (AstraZeneca) | محلول للرذاذ | غير متوفر |
-| BRICANYL TAB 5MG | BRICANYL TAB 5MG (AstraZeneca) | أقراص | غير متوفر |
-| BRICANYL SYP | BRICANYL SYP (AstraZeneca) | شراب | غير متوفر |
-| BRICANYL AMP. | BRICANYL AMP. (AstraZeneca) | أمبولات | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BRICANYL TURBUHALER 0.5MG-DOSE | TERBUTALINE | AstraZeneca | ساري |
+| BRICANYL 2.5MG-ML SOLN.FOR NEBULISATION | TERBUTALINE | AstraZeneca | ساري |
+| BRICANYL TAB 5MG | TERBUTALINE | AstraZeneca | ساري |
+| BRICANYL SYP | TERBUTALINE | AstraZeneca | ساري |
+| BRICANYL AMP. | TERBUTALINE | AstraZeneca | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 633
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Paroxetine: الاستطباب الجديد المتوقع متلازمة أوهدو ومتغيراتها (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق، الاكتئاب الجسيم، اضطراب ما بعد الصدمة، الرهاب الاجتماعي…"
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
@@ -82,13 +82,19 @@ predicted_indications: ["Ohdo syndrome and variants"]
 
 جميع التراخيص الـ14 سارية، ولا يتوفر نص استطباب معتمد لأي منها. أبرز خمسة منها:
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| SEROXAT CR 12.5 MG TABLETS | SEROXAT CR 12.5 MG TABLETS (سميث كلاين بيتشام) | أقراص | غير متوفر (ساري) |
-| PAXITAB 40MG TABLET | PAXITAB 40MG TABLET (تبوك) | أقراص | غير متوفر (ساري) |
-| PAROXAT 20 MG F-C TABLETS | PAROXAT 20 MG F-C TABLETS (سبيماكو) | أقراص مغلفة | غير متوفر (ساري) |
-| AXOR 30 mg film-coated tablet | AXOR 30 mg (الرياض فارما) | أقراص مغلفة | غير متوفر (ساري) |
-| SEROXAT 20MG TABLETS | SEROXAT 20MG TABLETS (يوروفارم) | أقراص | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SEROXAT CR 12.5 MG TABLETS | PAROXETINE | SMIITHKLINE BEECHAM | ساري |
+| PAXITAB 40MG TABLET | PAROXETINE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| PAROXAT 20 MG F-C TABLETS | PAROXETINE | SPIMACO | ساري |
+| AXOR 30 mg film-coated tablet | PAROXETINE | RIYADH PHARMA | ساري |
+| SEROXAT 20MG TABLETS | PAROXETINE | S.C. Europharm S.A | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 14 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -120,7 +126,7 @@ predicted_indications: ["Ohdo syndrome and variants"]
 
 <!-- review:begin sa-lic-20261106-paroxetine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدليل على مستوى L5 فقط (تنبؤ نموذجي دون أي دراسة فعلية)، ولا يوجد ارتباط آلي موثق بين الدواء والمرض، كما أن جميع تراخيص الدواء في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 14، منها سارية: 14؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدليل على مستوى L5 فقط (تنبؤ نموذجي دون أي دراسة فعلية)، ولا يوجد ارتباط آلي موثق بين الدواء والمرض، كما أن جميع تراخيص الدواء في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-paroxetine-1 -->
 
@@ -138,7 +144,7 @@ predicted_indications: ["Ohdo syndrome and variants"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c) |
 
 <!-- review:end log -->

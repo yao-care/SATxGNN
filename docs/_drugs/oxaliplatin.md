@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 619
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxaliplatin: الاستطباب الجديد المتوقع الورم المتوسطي الجنبي الخبيث (مستوى الدليل L2). الاستطباب الأصلي: نقائل الأورم الخبيث في القولون (من قاعدة المعرفة TxGNN، إذ لا يتوفر ن…"
 monitor_inn: "OXALIPLATIN"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
@@ -99,13 +99,20 @@ predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid
 
 التراخيص الـ17 المسجلة لأوكساليبلاتين **سارية**، والدواء مسوّق في هذا البلد. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمّعة. أبرز المنتجات المسجلة:
 
-| رقم الترخيص / اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|-----------|
-| ELOXATIN 50MG VIAL | Sanofi aventis Deutschland GmbH | ساري |
-| ELOXATIN 100MG VIAL | Sanofi aventis Deutschland GmbH | ساري |
-| OXALIPLATIN MEDAC 50MG POWDER | MEDAC | ساري |
-| OXALIPLATIN HOSPIRA 5MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION | Zydus Hospira Oncology Private Limited | ساري |
-| PLAXOTRIN 5 MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION (20 ml) | GENEPHARM S.A. | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ELOXATIN 50MG VIAL | OXALIPLATIN | Sanofi aventis Deutschland GmbH | ساري |
+| ELOXATIN 100MG VIAL | OXALIPLATIN | Sanofi aventis Deutschland GmbH | ساري |
+| OXALIPLATIN MEDAC 50MG POWDER | OXALIPLATIN | MEDAC | ساري |
+| OXALIPLATIN HOSPIRA 5MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION | OXALIPLATIN | Zydus Hospira Oncology Private Limited ZHOPL | ساري |
+| PLAXOTRIN 5 MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION (20 ml) | OXALIPLATIN | GENEPHARM S.A. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 17 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 413
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "HYALURONIC ACID"
 predicted_indications: ["Sjogren syndrome", "xerophthalmia", "psoriasis", "dermatitis, atopic", "prolapse of lacrimal gland", "parapsoriasis", "pityriasis lichenoides", "severe nonproliferative diabetic retinopathy", "exanthem (disease)"]
 description: "Hyaluronic Acid: الاستطباب الجديد المتوقع متلازمة سجوغرن (Sjogren syndrome) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -87,13 +87,20 @@ description: "Hyaluronic Acid: الاستطباب الجديد المتوقع م
 
 حمض الهيالورونيك مسوّق في المملكة، وجميع التراخيص المسجلة سارية. فيما يلي خمسة من التراخيص (قد تكون القائمة الكاملة أطول):
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة |
-|---------|------|------|
-| HYFRESH 2 MG- ML OPHTHALMIC SOLUTION | HYFRESH 2 MG/ML OPHTHALMIC SOLUTION | JAMJOOM PHARMACEUTICALS COMPANY |
-| HYE MONO EYE DROPS | HYE MONO EYE DROPS | Farmigea S.p.A |
-| HYE MULTI EYE DROPS | HYE MULTI EYE DROPS | Farmigea S.p.A |
-| Hyaprof Soft | Hyaprof Soft | Bioscience GmbH |
-| REVANESSE | REVANESSE | Prollenium Medical Technologies |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| HYFRESH 2 MG- ML OPHTHALMIC SOLUTION | HYALURONIC ACID | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| HYE MONO EYE DROPS | HYALURONIC ACID | Farmigea S.p.A | ساري |
+| HYE MULTI EYE DROPS | HYALURONIC ACID | Farmigea S.p.A | ساري |
+| Hyaprof Soft | HYALURONIC ACID | Bioscience GmbH | ساري |
+| REVANESSE | HYALURONIC ACID | Prollenium Medical Technologies | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

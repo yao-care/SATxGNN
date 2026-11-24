@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 224
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DACARBAZINE"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
 description: "Dacarbazine: الاستطباب الجديد المتوقع ورم الجهاز الهضمي والتنفسي العلوي (upper aerodigestive tract neoplasm) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -77,11 +77,15 @@ description: "Dacarbazine: الاستطباب الجديد المتوقع ورم
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| Dacarbazine medac | Dacarbazine medac | MEDAC | ساري |
-| DETICENE 200MG I.V VIAL | DETICENE 200MG I.V VIAL | sanofi-aventis | ساري |
-| DETICENE 100MG I.V VIAL+SOLV 10ML AMP | DETICENE 100MG I.V VIAL+SOLV 10ML AMP | sanofi-aventis | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Dacarbazine medac | DACARBAZINE | MEDAC | ساري |
+| DETICENE 200MG I.V VIAL | DACARBAZINE | sanofi-aventis | ساري |
+| DETICENE 100MG I.V VIAL+SOLV 10ML AMP | DACARBAZINE | sanofi-aventis | ساري |
+
+<!-- licenses:end -->
 
 ## السمّية الخلوية
 

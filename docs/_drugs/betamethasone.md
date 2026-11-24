@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 7
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Betamethasone: الاستطباب الجديد المتوقع الثعلبة المخاطينية (alopecia mucinosa) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 20 على الأقل"
 ---
 
@@ -74,13 +74,20 @@ description: "Betamethasone: الاستطباب الجديد المتوقع ال
 
 المنتجات التالية مسجلة وسارية، وهي مستحضرات موضعية (مراهم وكريمات). قائمة التراخيص قد تكون جزئية.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| BETAVAL OINT 0.1% | BETAVAL OINT 0.1% | غير مسجل | غير مسجل |
-| RIAVATE SKIN OINTMEN 0.1% | RIAVATE SKIN OINTMEN 0.1% | غير مسجل | غير مسجل |
-| BEVASON 0.1% CREAM | BEVASON 0.1% CREAM | غير مسجل | غير مسجل |
-| CELESTODERM-V CREAM 0.1% | CELESTODERM-V CREAM 0.1% | غير مسجل | غير مسجل |
-| DIPROSONE OINTMENT 0.05% | DIPROSONE OINTMENT 0.05% | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BETAVAL OINT 0.1% | BETAMETHASONE VALERATE | APM | ساري |
+| RIAVATE SKIN OINTMEN 0.1% | BETAMETHASONE VALERATE | RIYADH PHARMA | ساري |
+| BEVASON 0.1% CREAM | BETAMETHASONE VALERATE | OMAN PHARMACEUTICAL PRODUCTS | ساري |
+| CELESTODERM-V CREAM 0.1% | BETAMETHASONE VALERATE | SCHERING-PLOUGH | ساري |
+| DIPROSONE OINTMENT 0.05% | BETAMETHASONE DIPROPIONATE | SCHERING-PLOUGH | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

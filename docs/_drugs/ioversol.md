@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IOVERSOL"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ioversol: الاستطباب الجديد المتوقع التهاب المفاصل العظمي (الفصال العظمي) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المجمّعة لهذا التقرير"
 ---
 
@@ -73,13 +73,19 @@ description: "Ioversol: الاستطباب الجديد المتوقع الته�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| OPTIRAY 160MG-ML SOLUTION FOR IV. Injection* | OPTIRAY 160MG-ML | محلول للحقن الوريدي | غير متوفر |
-| OPTIRAY 240MG-ML SOLUTION FOR IV. Injection* | OPTIRAY 240MG-ML | محلول للحقن الوريدي | غير متوفر |
-| OPTIRAY 300MG-ML SOLUTION FOR IV. Injection* | OPTIRAY 300MG-ML | محلول للحقن الوريدي | غير متوفر |
-| OPTIRAY 320MG-ML SOLUTION FOR IV. Injection* | OPTIRAY 320MG-ML | محلول للحقن الوريدي | غير متوفر |
-| OPTIRAY 350MG-ML SOLUTION FOR IV. Injection* | OPTIRAY 350MG-ML | محلول للحقن الوريدي | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| OPTIRAY 160MG-ML SOLUTION FOR IV. Injection* | IOVERSOL | LIEBEL FLARSHEIM COMPANY LLC | ساري |
+| OPTIRAY 240MG-ML SOLUTION FOR IV. Injection* | IOVERSOL | LIEBEL FLARSHEIM COMPANY LLC | ساري |
+| OPTIRAY 300MG-ML SOLUTION FOR IV. Injection* | IOVERSOL | LIEBEL FLARSHEIM COMPANY LLC | ساري |
+| OPTIRAY 320MG-ML SOLUTION FOR IV. Injection* | IOVERSOL | LIEBEL FLARSHEIM COMPANY LLC | ساري |
+| OPTIRAY 350MG-ML SOLUTION FOR IV. Injection* | IOVERSOL | LIEBEL FLARSHEIM COMPANY LLC | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 يوجد ترخيص سادس لمستحضر OPTIRAY 300MG-ML (حقن وريدي) لم يُدرج في الجدول، والشركة المصنّعة لجميعها Liebel Flarsheim Company LLC.
 

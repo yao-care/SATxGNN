@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "EVOLOCUMAB"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
 description: "Evolocumab: الاستطباب الجديد المتوقع Symptomatic form of hemophilia in female carriers (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -93,10 +93,14 @@ description: "Evolocumab: الاستطباب الجديد المتوقع Symptom
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| REPATHA 140 mg/ml Solution For Injection | REPATHA 140 mg/ml (الشركة المصنّعة: AMGEN MANUFACTURING LIMITED) | محلول للحقن | غير متوفر (الترخيص ساري) |
-| REPATHA 420 mg Solution for Injection in Cartridge | REPATHA 420 mg (الشركة المصنّعة: PATHEON INC) | محلول للحقن في خرطوشة | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| REPATHA 140 mg/ml Solution For Injection | EVOLOCUMAB | AMGEN MANUFACTURING LIMITED | ساري |
+| REPATHA 420 mg Solution for Injection in Cartridge | EVOLOCUMAB | PATHEON INC | ساري |
+
+<!-- licenses:end -->
 
 ---
 

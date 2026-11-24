@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Ethambutol: الاستطباب الجديد المتوقع التهاب لسان المزمار (Epiglottitis) (مستوى الدليل L5). الاستطباب الأصلي: السل الرئوي"
 monitor_inn: "ETHAMBUTOL"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
@@ -84,11 +84,15 @@ predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection",
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ETHAMBUTOL | ETHAMBUTOL (Nile Company for Pharmaceuticals) | غير محدد | غير متوفر (ساري) |
-| MYAMBUTOL 400 MG. TABLETS | MYAMBUTOL 400 MG. TABLETS (Wyeth) | أقراص | غير متوفر (ساري) |
-| AFIMOCIL 0.5 GM TAB | AFIMOCIL 0.5 GM TAB (Almirall Prodes Pharma) | أقراص | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ETHAMBUTOL | ETHAMBUTOL | THE NILE COMPANY FOR PHARMACEUTICALS AND CHEMICAL IND. | ساري |
+| MYAMBUTOL 400 MG. TABLETS | ETHAMBUTOL | WYETH | ساري |
+| AFIMOCIL 0.5 GM TAB | ETHAMBUTOL | ALMIRALL PRODES PHARMA S.A. | ساري |
+
+<!-- licenses:end -->
 
 الدواء مسوَّق في هذا البلد، وجميع التراخيص الثلاثة (3 من 3) سارية المفعول.
 

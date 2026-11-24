@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 684
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prednisolone: الاستطباب الجديد المتوقع الثعلبة البقعية (Alopecia Areata) (مستوى الدليل L2). الاستطباب الأصلي: الأمراض المناعية الذاتية (وغيرها: داء كرون، سرطان الدم الليمفاوي الحا…"
 monitor_inn: "PREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
@@ -95,13 +95,19 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 جميع التراخيص الـ19 المسجلة سارية (19 ترخيصًا ساريًا من أصل 19). أبرز التراخيص:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PREDO 25MG TABLETS | PREDO 25MG TABLETS (الجزيرة للصناعات الدوائية) | غير محدد | غير محدد |
-| DELTACORTRIL 5MG TAB | DELTACORTRIL 5MG TAB (فايزر) | غير محدد | غير محدد |
-| RESPRED 15 mg/5 ml syrup | RESPRED 15 mg/5 ml syrup (الشركة السعودية للصناعات الدوائية) | شراب (حسب الاسم) | غير محدد |
-| PRED FORTE OPTH. SUSP | PRED FORTE (ألرجان) | معلق للعين (حسب الاسم) | غير محدد |
-| GUPISONE TAB 5MG | GUPISONE TAB 5MG (جلفار) | أقراص (حسب الاسم) | غير محدد |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PREDO 25MG TABLETS | PREDNISOLONE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| DELTACORTRIL 5MG TAB | PREDNISOLONE | PFIZER | ساري |
+| RESPRED 15 mg/5 ml syrup | PREDNISOLONE SODIUM PHOSPHATE | SAUDI PHARMACEUTICAL INDUSTRIES | ساري |
+| PRED FORTE OPTH. SUSP | PREDNISOLONE | ALLERGAN PHARMACEUTICALS LTD | ساري |
+| GUPISONE TAB 5MG | PREDNISOLONE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

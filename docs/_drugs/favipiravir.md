@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "FAVIPIRAVIR"
 predicted_indications: ["acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection", "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency"]
 description: "Favipiravir: الاستطباب الجديد المتوقع Acquired hemophagocytic lymphohistiocytosis associated with malignant disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -91,9 +91,13 @@ description: "Favipiravir: الاستطباب الجديد المتوقع Acquir
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Vapir | Vapir (الشركة المصنعة: Tabuk Pharmaceutical Manufacturing Co.) | غير محدد | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Vapir | FAVIPIRAVIR | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -112,7 +116,7 @@ description: "Favipiravir: الاستطباب الجديد المتوقع Acquir
 
 <!-- review:begin sa-lic-20261106-favipiravir-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا توجد تجارب سريرية، والأدلة المتاحة مراجعتان غير مباشرتان تتناولان العدوى الفيروسية المسببة لا المتلازمة البلعمية نفسها. كما أن جميع تراخيص الدواء في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا توجد تجارب سريرية، والأدلة المتاحة مراجعتان غير مباشرتان تتناولان العدوى الفيروسية المسببة لا المتلازمة البلعمية نفسها. كما أن جميع تراخيص الدواء في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-favipiravir-1 -->
 
@@ -130,7 +134,7 @@ description: "Favipiravir: الاستطباب الجديد المتوقع Acquir
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-12 | التنبؤ الرئيسي بانتظار إعادة التقييم | بانتظار إعادة التقييم ← أُعيد تقييمه (انظر نتيجة إعادة التقييم) | [SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5](https://satxgnn.yao.care/methodology/) |
 | 2026-11-12 | نتيجة إعادة تقييم التنبؤ الرئيسي (Acquired hemophagocytic lymphohistiocytosis associated with malignant disease) | إعادة التقييم: خفض، مستوى الأدلة L4 ← L5؛ مستوى الدليل: «مستوى الدليل / L4 (دليل غير مباشر من دراسات آلية/مراجعات؛ دون تجارب سريرية)» ← «مستوى الدليل / L5 (تنبؤ نموذجي فقط؛ الأدلة المتاحة تخص المتلازمة البلعمية المرتبطة بالعدوى لا بالأورام)» | [PubMed：Successful treatment of severe fever with thrombocytopenia syndrome associated with hemophagocytic lymphohistiocytosis by preemptively using favipiravir（PMID 40584709）](https://pubmed.ncbi.nlm.nih.gov/40584709/)؛ [PubMed：Pathophysiology of severe fever with thrombocytopenia syndrome and development of specific antiviral therapy（PMID 30098914）](https://pubmed.ncbi.nlm.nih.gov/30098914/) |
 

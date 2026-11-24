@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CERTOLIZUMAB PEGOL"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Certolizumab Pegol: الاستطباب الجديد المتوقع فرط حركة العصعص (hypermobility of coccyx) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -68,9 +68,13 @@ description: "Certolizumab Pegol: الاستطباب الجديد المتوقع
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
-|---------|------|------|-----------|
-| CIMZIA 200 mg Solution for Injection | CIMZIA 200 mg Solution for Injection (الشركة المصنعة: UCB Pharma S.A، بلجيكا) | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CIMZIA 200 mg Solution for Injection | CERTOLIZUMAB PEGOL | UCB Pharma S.A, Chemin du Foriest B-1420, Braine l’Alleud, Belgium | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

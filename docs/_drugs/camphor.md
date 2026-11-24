@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Camphor: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء فارغ…"
 monitor_inn: "camphor"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
@@ -84,13 +84,17 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "er
 
 يوجد في هذا البلد 5 تراخيص سارية من أصل 5 والدواء مسوّق. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| VICKS INHALER 0.014 OZ | VICKS INHALER 0.014 OZ | غير متوفر | غير متوفر (ساري) |
-| TIGER BALSAM | TIGER BALSAM | غير متوفر | غير متوفر (ساري) |
-| VICKS VAPORUB OINT | VICKS VAPORUB OINT | غير متوفر | غير متوفر (ساري) |
-| GOLD MEDAL MEDICATED OIL | GOLD MEDAL MEDICATED OIL | غير متوفر | غير متوفر (ساري) |
-| VICKS VAPORUB OINTCamphor | VICKS VAPORUB OINTCamphor | غير متوفر | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VICKS INHALER 0.014 OZ | CAMPHOR,MENTHOL | LASHART | ساري |
+| TIGER BALSAM | MENTHOL,CAMPHOR,EUCALYPTUS OIL | TIGER MEDICALS | ساري |
+| VICKS VAPORUB OINT | CAMPHOR,TURPENTINE OIL,MENTHOL,EUCALYPTUS OIL | LASHART | ساري |
+| GOLD MEDAL MEDICATED OIL | CAMPHOR, EUCALYPTUS OIL, MENTHOL, METHYLSALICYLATE | LEUNG KAI FOOK | ساري |
+| VICKS VAPORUB OINTCamphor | CAMPHOR,TURPENTINE OIL,MENTHOL,EUCALYPTUS OIL | LASHART | ساري |
+
+<!-- licenses:end -->
 
 ---
 

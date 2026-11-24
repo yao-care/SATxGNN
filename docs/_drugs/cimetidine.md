@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CIMETIDINE"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cimetidine: الاستطباب الجديد المتوقع انثقاب القرحة الهضمية (peptic ulcer perforation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
 ---
 
@@ -91,13 +91,17 @@ description: "Cimetidine: الاستطباب الجديد المتوقع انث�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| TAGAMET TABLETS 400 MG. | TAGAMET TABLETS 400 MG. | غير مسجل | غير مسجل |
-| CIMEDINE | CIMEDINE | غير مسجل | غير مسجل |
-| ADIATIN TAB 200MG | ADIATIN TAB 200MG | غير مسجل | غير مسجل |
-| DYSPAMET SUSP 200MG-5ML | DYSPAMET SUSP 200MG-5ML | غير مسجل | غير مسجل |
-| CITIUS TAB 200MG | CITIUS TAB 200MG | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TAGAMET TABLETS 400 MG. | CIMETIDINE | SMIITHKLINE BEECHAM | ساري |
+| CIMEDINE | CIMETIDINE | DAR ALDAWA | ساري |
+| ADIATIN TAB 200MG | CIMETIDINE | FERRER INTERNATIONAL | ساري |
+| DYSPAMET SUSP 200MG-5ML | CIMETIDINE | SMIITHKLINE BEECHAM | ساري |
+| CITIUS TAB 200MG | CIMETIDINE | ALMIRALL PRODES PHARMA S.A. | ساري |
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "CILASTATIN"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cilastatin: الاستطباب الجديد المتوقع عدوى المكورات العنقودية الذهبية (staphylococcus aureus infection) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -78,6 +78,14 @@ description: "Cilastatin: الاستطباب الجديد المتوقع عدو�
 | [12878512](https://pubmed.ncbi.nlm.nih.gov/12878512/) | 2003 | دراسة حيوانية | Antimicrobial agents and chemotherapy | كان الإيمبينيم/سيلاستاتين، كمقارِن في النموذج، أقل نشاطاً من فانكومايسين ضد MRSA. |
 
 ## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Imipenem/Cilastatin Kabi 500MG/500MG VIAL | CILASTATIN | ACS Dobfar S.P.A | ساري |
+
+<!-- licenses:end -->
 
 الدواء مسجّل بحالة «مسوّق» وفق البيانات المحلية المجمّعة. وتُضاف تفاصيل التراخيص من سجلات الترخيص عبر النظام.
 

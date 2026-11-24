@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EFTRENONACOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eftrenonacog Alfa: الاستطباب الجديد المتوقع مرض فون ويلبراند الكاذب (pseudo-von Willebrand disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
 ---
 
@@ -72,13 +72,17 @@ description: "Eftrenonacog Alfa: الاستطباب الجديد المتوقع 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ALPROLIX 2000 I.U Powder And Solvent For Solution For Injection | ALPROLIX 2000 I.U | مسحوق ومذيب لمحلول للحقن | غير مسجل |
-| ALPROLIX 500 I.U Powder And Solvent For Solution For Injection | ALPROLIX 500 I.U | مسحوق ومذيب لمحلول للحقن | غير مسجل |
-| ALPROLIX 250 I.U Powder And Solvent For Solution For Injection | ALPROLIX 250 I.U | مسحوق ومذيب لمحلول للحقن | غير مسجل |
-| ALPROLIX 1000 I.U Powder And Solvent For Solution For Injection | ALPROLIX 1000 I.U | مسحوق ومذيب لمحلول للحقن | غير مسجل |
-| ALPROLIX 3000 I.U Powder And Solvent For Solution For Injection | ALPROLIX 3000 I.U | مسحوق ومذيب لمحلول للحقن | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ALPROLIX 2000 I.U Powder And Solvent For Solution For Injection | EFTRENONACOG ALFA | VETTER PHARMA-FERTIGUNG GMBH & CO. KG | ساري |
+| ALPROLIX 500 I.U Powder And Solvent For Solution For Injection | EFTRENONACOG ALFA | VETTER PHARMA-FERTIGUNG GMBH & CO. KG | ساري |
+| ALPROLIX 250 I.U Powder And Solvent For Solution For Injection | EFTRENONACOG ALFA | VETTER PHARMA-FERTIGUNG GMBH & CO. KG | ساري |
+| ALPROLIX 1000 I.U Powder And Solvent For Solution For Injection | EFTRENONACOG ALFA | VETTER PHARMA-FERTIGUNG GMBH & CO. KG | ساري |
+| ALPROLIX 3000 I.U Powder And Solvent For Solution For Injection | EFTRENONACOG ALFA | VETTER PHARMA-FERTIGUNG GMBH & CO. KG | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

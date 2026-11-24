@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 685
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: الاستطباب الجديد المتوقع الثعلبة البقعية (alopecia areata) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -81,10 +81,14 @@ description: "Prednisone: الاستطباب الجديد المتوقع الث�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| PREDONE 20MG TAB | PREDONE 20MG TAB (الشركة المصنعة: WEST-WARD) | غير محدد | غير متوفر | ساري |
-| PREDONE 10MG TAB | PREDONE 10MG TAB (الشركة المصنعة: WEST-WARD) | غير محدد | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PREDONE 20MG TAB | PREDNISONE | WEST-WARD | ساري |
+| PREDONE 10MG TAB | PREDNISONE | WEST-WARD | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنّعة للمنتجين: WEST-WARD. كلا الترخيصين ساري.
 

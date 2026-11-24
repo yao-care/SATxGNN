@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 258
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "DIETHYLCARBAMAZINE"
 predicted_indications: ["syndromic lymphedema", "primary lymphedema"]
 description: "Diethylcarbamazine: الاستطباب الجديد المتوقع الوذمة اللمفية المتلازمية (syndromic lymphedema) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -73,9 +73,13 @@ description: "Diethylcarbamazine: الاستطباب الجديد المتوقع
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| BANOCIDE 50 MG TAB | BANOCIDE 50 MG TAB (الشركة المصنعة: GLAXOWELLCOME) | غير متوفر | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BANOCIDE 50 MG TAB | DIETHYLCARBAMAZINE | GLAXOWELLCOME | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

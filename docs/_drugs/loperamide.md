@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Loperamide: الاستطباب الجديد المتوقع التهاب الملتحمة المعدي الحاد (acute contagious conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: الإسهال، الدزنتاريا (الزحار)"
 monitor_inn: "LOPERAMIDE"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "parasitic conjunctivitis", "serous conjunctivitis except viral", "Angelucci syndrome"]
@@ -88,11 +88,15 @@ predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| IMODIUM 2MG CAPSULE | IMODIUM 2MG CAPSULE (LUSOMEDICAMENTA) | غير متوفر | غير متوفر | ساري |
-| LOPODIUM 2MG CAPS | LOPODIUM 2MG CAPS (MEMPHIS CHEMICALS) | غير متوفر | غير متوفر | ساري |
-| IMODIUM INSTANTS 2MG ORODESPERSIBLE TABLET | IMODIUM INSTANTS 2MG ORODESPERSIBLE TABLET (CATALENT UK SWINDON ZYDIS LIMITED) | غير متوفر | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| IMODIUM 2MG CAPSULE | LOPERAMIDE | LUSOMEDICAMENTA | ساري |
+| LOPODIUM 2MG CAPS | LOPERAMIDE | MEMPHIS CHEMICALS | ساري |
+| IMODIUM INSTANTS 2MG ORODESPERSIBLE TABLET | LOPERAMIDE | CATALENT UK SWINDON ZYDIS LIMITED | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -130,7 +134,7 @@ predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "
 
 <!-- review:begin sa-lic-20261106-loperamide-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من توافق طريق الإعطاء، إذ لا يتوفر حالياً شكل صيدلاني موضعي للعين. / توضيح وضع التراخيص الملغاة قبل أي تقييم تسويقي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من توافق طريق الإعطاء، إذ لا يتوفر حالياً شكل صيدلاني موضعي للعين. / توضيح وضع التراخيص الملغاة قبل أي تقييم تسويقي.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-loperamide-1 -->
 
@@ -142,7 +146,7 @@ predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة قبل أي تقييم تسويقي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة قبل أي تقييم تسويقي» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b) |
 
 <!-- review:end log -->

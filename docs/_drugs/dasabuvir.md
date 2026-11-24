@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Dasabuvir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (مأخوذ من الاستطبابات المسجلة للدوا…"
 monitor_inn: "DASABUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever"]
@@ -96,9 +96,13 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| EXVIERA 250 mg film-coated tablet | EXVIERA 250 mg film-coated tablet (الشركة: ABBVIE IRELAND NL B.V.) | غير محدد | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| EXVIERA 250 mg film-coated tablet | DASABUVIR | ABBVIE IRELAND NL B.V. | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -119,7 +123,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 <!-- review:begin sa-lic-20261106-dasabuvir-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد دليل على نشاط داسابوفير ضد فيروس B؛ فآلية عمله نوعية لبوليميراز HCV NS5B، والدرجة العالية للنموذج على الأرجح قرب شبكي لا أثر علاجي. / الدواء بلا ترخيص ساري في السعودية (الترخيص الوحيد ملغى).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد دليل على نشاط داسابوفير ضد فيروس B؛ فآلية عمله نوعية لبوليميراز HCV NS5B، والدرجة العالية للنموذج على الأرجح قرب شبكي لا أثر علاجي. / الدواء بلا ترخيص ساري في السعودية (الترخيص الوحيد ملغى).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-dasabuvir-1 -->
 
@@ -147,7 +151,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «الدواء بلا ترخيص ساري في السعودية (الترخيص الوحيد ملغى)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «الدواء بلا ترخيص ساري في السعودية (الترخيص الوحيد ملغى)» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-12 | التنبؤ الرئيسي بانتظار إعادة التقييم | بانتظار إعادة التقييم ← أُعيد تقييمه (انظر نتيجة إعادة التقييم) | [SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5](https://satxgnn.yao.care/methodology/) |
 | 2026-11-12 | نتيجة إعادة تقييم التنبؤ الرئيسي (عدوى فيروس التهاب الكبد B) | إعادة التقييم: خفض، مستوى الأدلة L3 ← L5؛ مستوى الدليل: «مستوى الدليل / L3 (دراسات رصدية ومراجعات فقط، بلا دليل فعالية مباشر)» ← «مستوى الدليل / L5 (تنبؤ نموذجي فقط؛ الدراسات المتاحة تخص إعادة تنشيط فيروس B أثناء علاج C لا علاج B)» | [PubMed：Risk of hepatitis B virus reactivation in HBV+HCV-co-infected patients with compensated liver cirrhosis treated with ombitasvir, paritaprevir/r + dasabuvir + ribavirin（PMID 29397016）](https://pubmed.ncbi.nlm.nih.gov/29397016/)؛ [ClinicalTrials.gov：DAAs Treatment for Chronic HCV/HBV Co-infection Patients (DASCO)（NCT02555943）](https://clinicaltrials.gov/study/NCT02555943) |
 

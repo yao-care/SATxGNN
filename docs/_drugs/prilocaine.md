@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 687
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prilocaine: الاستطباب الجديد المتوقع التهاب الملتحمة الحليمي (Papillary Conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: القذف المبكر؛ عسر الجماع النفسي المنشأ (مستمدّ من رسم المعرفة الذي يع…"
 monitor_inn: "prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
@@ -78,13 +78,17 @@ predicted_indications: ["papillary conjunctivitis", "manic bipolar affective dis
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| Prila | Prila (Avalon Pharma) | غير متاح | غير متاح | ساري |
-| ENNLA 5% Cream | ENNLA 5% Cream (DEEF Pharmaceutical Industries) | غير متاح | غير متاح | ساري |
-| Imla | Imla (AJA Pharmaceutical Industries) | غير متاح | غير متاح | ساري |
-| CITANEST 3% DENTAL OCTAPRESSIN CARTRIDGE | CITANEST 3% Dental Octapressin Cartridge (PIERREL) | غير متاح | غير متاح | ساري |
-| PRILA 5% CREAM | PRILA 5% Cream (Middle East Pharmaceutical Industries Co. Ltd. – MECP) | غير متاح | غير متاح | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Prila | LIDOCAINE HYDROCHLORIDE,PRILOCAINE | Avalon Pharma | ساري |
+| ENNLA 5% Cream | LIDOCAINE HYDROCHLORIDE,PRILOCAINE | DEEF PHARMACEUTICAL INDUSTRIES | ساري |
+| Imla | PRILOCAINE,LIDOCAINE HYDROCHLORIDE | AJA PHARMACEUTICAL INDUSTRIES | ساري |
+| CITANEST 3% DENTAL OCTAPRESSIN CARTRIDGE | PRILOCAINE,FELYPRESSIN | PIERREL | ساري |
+| PRILA 5% CREAM | LIDOCAINE HYDROCHLORIDE,PRILOCAINE | Middle East Pharmaceutical Industries Co. Ltd. (MECP) | ساري |
+
+<!-- licenses:end -->
 
 ---
 

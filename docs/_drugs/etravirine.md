@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ETRAVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
 description: "Etravirine: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infection) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -71,9 +71,13 @@ description: "Etravirine: الاستطباب الجديد المتوقع عدو�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| INTELENCE 100 MG TABLETS | INTELENCE 100 MG TABLETS (الشركة: JANSSEN-CILAG، الحالة: ساري) | أقراص | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| INTELENCE 100 MG TABLETS | ETRAVIRINE | JANSSEN-CILAG | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

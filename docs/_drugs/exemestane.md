@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "EXEMESTANE"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
 description: "Exemestane: الاستطباب الجديد المتوقع Antithrombin deficiency type 2 (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -84,13 +84,17 @@ description: "Exemestane: الاستطباب الجديد المتوقع Antithr
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| XEMETAN 25MG F.C.TABLET | XEMETAN 25MG F.C.TABLET (OMAN PHARMACEUTICAL PRODUCTS) | أقراص مغلفة | غير متوفر (ساري) |
-| AREKSA 25MG F.C.TAB | AREKSA 25MG F.C.TAB (INTAS) | أقراص مغلفة | غير متوفر (ساري) |
-| EZOLOC 25 MG TABLET | EZOLOC 25 MG TABLET (EirGen Pharma) | أقراص | غير متوفر (ساري) |
-| AROMASIN 25MG COATED TAB | AROMASIN 25MG COATED TAB (PFIZER) | أقراص مغلفة | غير متوفر (ساري) |
-| AROMAPLEX 25 mg Film-Coated Tablet | AROMAPLEX 25 mg Film-Coated Tablet (GENEPHARM) | أقراص مغلفة | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| XEMETAN 25MG F.C.TABLET | EXEMESTANE | OMAN PHARMACEUTICAL PRODUCTS | ساري |
+| AREKSA 25MG F.C.TAB | EXEMESTANE | INTAS PHARMACEUTICALS LIMITED | ساري |
+| EZOLOC 25 MG TABLET | EXEMESTANE | EirGen Pharma | ساري |
+| AROMASIN 25MG COATED TAB | EXEMESTANE | PFIZER | ساري |
+| AROMAPLEX 25 mg Film-Coated Tablet | EXEMESTANE | GENEPHARM S.A. | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,7 +131,7 @@ description: "Exemestane: الاستطباب الجديد المتوقع Antithr
 
 <!-- review:begin sa-lic-20261106-exemestane-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حالياً ترخيص ساري في السعودية. / أما الصداع النصفي وصداع الشقيقة مع هالة جذع الدماغ فتنبؤات بلا أدلة أيضاً (L5).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حالياً ترخيص ساري في السعودية. / أما الصداع النصفي وصداع الشقيقة مع هالة جذع الدماغ فتنبؤات بلا أدلة أيضاً (L5).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-exemestane-1 -->
 
@@ -146,7 +150,7 @@ description: "Exemestane: الاستطباب الجديد المتوقع Antithr
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3) |
 
 <!-- review:end log -->

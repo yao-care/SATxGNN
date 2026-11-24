@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "BENRALIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benralizumab: الاستطباب الجديد المتوقع نقص الصفيحات المناعي (thrombocytopenia due to immune destruction) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -68,10 +68,14 @@ description: "Benralizumab: الاستطباب الجديد المتوقع نق�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| FASENRA Pen | FASENRA Pen | غير مسجل | غير مسجل في البيانات المحلية |
-| FASENRA 30MG/ML SOL. FOR INJECTION | FASENRA 30MG/ML SOL. FOR INJECTION | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FASENRA Pen | BENRALIZUMAB | Cook Pharmica LLC | ساري |
+| FASENRA 30MG/ML SOL. FOR INJECTION | BENRALIZUMAB | Cook Pharmica LLC | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

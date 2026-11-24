@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 686
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: الاستطباب الجديد المتوقع التهاب الأوتار (tendinitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 19 على الأقل"
@@ -78,13 +78,20 @@ description: "Pregabalin: الاستطباب الجديد المتوقع الت�
 
 حسب بيانات الترخيص المحلية، البريغابالين مسوّق في السعودية وجميع التراخيص المسجلة سارية. القائمة التالية قد تكون جزئية، ولم يُسجَّل نص الاستطباب المعتمد في البيانات المحلية.
 
-| رقم الترخيص / اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|-----------|
-| LYRICA 300 | Pfizer | ساري |
-| NERVAX 75MG CAPSULES | Tabuk | ساري |
-| GOGAB 75 MG CAPSULE | Riyadh Pharma | ساري |
-| PREGADEX 150 MG CAPSULE | Spimaco | ساري |
-| LEBALIN 150 MG CAPSULE | Laboratorios Cinfa | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LYRICA 300 | PREGABALIN | PFIZER | ساري |
+| NERVAX 75MG CAPSULES | PREGABALIN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| GOGAB 75 MG CAPSULE | PREGABALIN | RIYADH PHARMA | ساري |
+| PREGADEX 150 MG CAPSULE | PREGABALIN | SPIMACO | ساري |
+| LEBALIN 150 MG CAPSULE | PREGABALIN | LABORATORIOS CINFA SA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

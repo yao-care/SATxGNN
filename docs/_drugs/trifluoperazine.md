@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 838
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Trifluoperazine: الاستطباب الجديد المتوقع اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder) (مستوى الدليل L4). الاستطباب الأصلي: الفصام والقلق (مأخوذ من الرسم المعرفي PrimeKG، إذ لا تتضمن …"
 monitor_inn: "TRIFLUOPERAZINE"
 predicted_indications: ["manic bipolar affective disorder"]
@@ -105,17 +105,23 @@ predicted_indications: ["manic bipolar affective disorder"]
 
 <!-- review:begin sa-lic-20261106-trifluoperazine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(يوجد ترخيص سادس ملغى أيضًا: STELAZINE SPANSULES 15MG.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(يوجد ترخيص سادس ملغى أيضًا: STELAZINE SPANSULES 15MG.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-trifluoperazine-1 -->
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| STELAZINE SYRUP 1MG-5ML | STELAZINE SYRUP 1MG-5ML | SMITHKLINE BEECHAM | ساري |
-| STELAZINE SPANSULES 10MG | STELAZINE SPANSULES 10MG | SMITHKLINE BEECHAM | ساري |
-| STELAZINE SPANSULES 2MG | STELAZINE SPANSULES 2MG | SMITHKLINE BEECHAM | ساري |
-| STELAZINE 5MG TABLETS | STELAZINE 5MG TABLETS | BRISTOL LABORATORIES | ساري |
-| STELAZINE 1MG TABLETS | STELAZINE 1MG TABLETS | BRISTOL LABORATORIES | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| STELAZINE SYRUP 1MG-5ML | TRIFLUOPERAZINE | SMIITHKLINE BEECHAM | ساري |
+| STELAZINE SPANSULES 10MG | TRIFLUOPERAZINE | SMIITHKLINE BEECHAM | ساري |
+| STELAZINE SPANSULES 2MG | TRIFLUOPERAZINE | SMIITHKLINE BEECHAM | ساري |
+| STELAZINE 5MG TABLETS | TRIFLUOPERAZINE | BRISTOL LABORATORIES | ساري |
+| STELAZINE 1MG TABLETS | TRIFLUOPERAZINE | BRISTOL LABORATORIES | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -159,7 +165,7 @@ predicted_indications: ["manic bipolar affective disorder"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «(يوجد ترخيص سادس ملغى أيضًا: STELAZINE SPANSULES 15MG.)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «(يوجد ترخيص سادس ملغى أيضًا: STELAZINE SPANSULES 15MG.)» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-12 | التنبؤ الرئيسي بانتظار إعادة التقييم | بانتظار إعادة التقييم ← أُعيد تقييمه (انظر نتيجة إعادة التقييم) | [SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5](https://satxgnn.yao.care/methodology/) |
 | 2026-11-12 | نتيجة إعادة تقييم التنبؤ الرئيسي (اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder)) | إعادة التقييم: إبقاء، مستوى الأدلة L4 دون تغيير | [PubMed：Lithium in the control of mania（PMID 4863507）](https://pubmed.ncbi.nlm.nih.gov/4863507/)؛ [PubMed：Efficacy of typical and atypical antipsychotics for primary and comorbid anxiety symptoms or disorders: a review（PMID 17017818）](https://pubmed.ncbi.nlm.nih.gov/17017818/) |
 | 2026-11-12 | مستوى الأدلة في رأس الصفحة | أُعيد حساب مستوى الأدلة في رأس الصفحة وفق جدول النظرة السريعة (L5 ← L4) | [SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5](https://satxgnn.yao.care/methodology/) |

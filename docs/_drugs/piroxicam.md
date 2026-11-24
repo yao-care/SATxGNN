@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 663
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
 description: "Piroxicam: الاستطباب الجديد المتوقع Colobomatous microphthalmia-rhizomelic dysplasia syndrome (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 (السارية: 17)"
@@ -83,13 +83,19 @@ description: "Piroxicam: الاستطباب الجديد المتوقع Coloboma
 
 أبرز خمسة منها:
 
-| رقم/اسم الترخيص | اسم المنتج | الجهة المصنِّعة | الحالة |
-|---------|------|------|------|
-| ORTHOCAM 10 CAPS | ORTHOCAM 10 CAPS | Tabuk Pharmaceutical Manufacturing Co. | ساري |
-| FELDENE 20MG DISPERSABLE TAB | FELDENE 20MG DISPERSABLE TAB | SPIMACO | ساري |
-| DISPERCAM GEL 0.5% | DISPERCAM GEL 0.5% | Medical Union Pharmaceuticals Co | ساري |
-| NOVO-PIROCAM 10MG CAPS | NOVO-PIROCAM 10MG CAPS | Novopharm | ساري |
-| FELDENE 20MG SUPPOSITORY | FELDENE 20MG SUPPOSITORY | Pfizer | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ORTHOCAM 10 CAPS | PIROXICAM | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| FELDENE 20MG DISPERSABLE TAB | PIROXICAM | SPIMACO | ساري |
+| DISPERCAM GEL 0.5% | PIROXICAM | MEDICAL UNION PHARMACEUTICALS CO | ساري |
+| NOVO-PIROCAM 10MG CAPS | PIROXICAM | NOVOPHARM | ساري |
+| FELDENE 20MG SUPPOSITORY | PIROXICAM | PFIZER | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 17 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 تشمل التراخيص الأخرى كبسولات وأقراصاً قابلة للتشتت وحقناً عضلية وجيلاً موضعياً ولبوسات. نصوص الاستطباب المعتمدة غير متوفرة لهذه التراخيص.
 
@@ -123,7 +129,7 @@ description: "Piroxicam: الاستطباب الجديد المتوقع Coloboma
 
 <!-- review:begin sa-lic-20261106-piroxicam-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في السعودية ملغاة، وعدد التداخلات الدوائية كبير، وموانع الاستعمال المسجلة واسعة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 17، منها سارية: 17؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في السعودية ملغاة، وعدد التداخلات الدوائية كبير، وموانع الاستعمال المسجلة واسعة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-piroxicam-1 -->
 
@@ -140,7 +146,7 @@ description: "Piroxicam: الاستطباب الجديد المتوقع Coloboma
 
 <!-- review:begin sa-lic-20261106-piroxicam-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إن كان الهدف المضي في مسار التهاب المفاصل مجهول السبب لدى الأطفال: مراجعة منهجية خاصة ببيروكسيكام، وتقييم سلامته عند الأطفال، وتوضيح وضعه التنظيمي في السعودية بعد إلغاء التراخيص» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 17، منها سارية: 17؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إن كان الهدف المضي في مسار التهاب المفاصل مجهول السبب لدى الأطفال: مراجعة منهجية خاصة ببيروكسيكام، وتقييم سلامته عند الأطفال، وتوضيح وضعه التنظيمي في السعودية بعد إلغاء التراخيص» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-piroxicam-2 -->
 
@@ -152,8 +158,8 @@ description: "Piroxicam: الاستطباب الجديد المتوقع Coloboma
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «وتوضيح وضعه التنظيمي في السعودية بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وتوضيح وضعه التنظيمي في السعودية بعد إلغاء التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
 
 <!-- review:end log -->

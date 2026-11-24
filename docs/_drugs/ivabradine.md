@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 466
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ivabradine: الاستطباب الجديد المتوقع فرط الشعر (Hypertrichosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات المجمّعة (نص الاستطباب في تراخيص هيئة الغذاء وا…"
 monitor_inn: "IVABRADINE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -89,10 +89,14 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PROCORALAN 5 MG F-C TABLETS | PROCORALAN 5 MG F-C TABLETS (الشركة: SERVIER) | غير محدد | غير متوفر (الترخيص ساري) |
-| PROCORALAN 7.5 MG F-C TABLET | PROCORALAN 7.5 MG F-C TABLET (الشركة: SERVIER) | غير محدد | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PROCORALAN 5 MG F-C TABLETS | IVABRADINE | SERVIER | ساري |
+| PROCORALAN 7.5 MG F-C TABLET | IVABRADINE | SERVIER | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,7 +129,7 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 <!-- review:begin sa-lic-20261106-ivabradine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح سبب إلغاء التراخيص المحلية وتقييم الجدوى التنظيمية. / مراجعة سلامة خاصة عند التفكير في استخدام الدواء في الاضطرابات النمائية الخلقية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح سبب إلغاء التراخيص المحلية وتقييم الجدوى التنظيمية. / مراجعة سلامة خاصة عند التفكير في استخدام الدواء في الاضطرابات النمائية الخلقية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ivabradine-1 -->
 
@@ -137,7 +141,7 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح سبب إلغاء التراخيص المحلية وتقييم الجدوى التنظيمية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح سبب إلغاء التراخيص المحلية وتقييم الجدوى التنظيمية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d) |
 
 <!-- review:end log -->

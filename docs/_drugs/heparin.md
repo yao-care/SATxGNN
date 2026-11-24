@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Heparin: الاستطباب الجديد المتوقع الميل للتخثر الناتج عن نقص البروتين C، وراثي متنحٍّ (مستوى الدليل L5). الاستطباب الأصلي: الانسداد الرئوي، التخثر المنتشر داخل الأوعية، الفرفرية الخاطفة (بحسب…"
 monitor_inn: "Heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
@@ -82,13 +82,19 @@ predicted_indications: ["thrombophilia due to protein C deficiency, autosomal re
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| MULTIPARIN 25000 UNITS-ML INJ | MULTIPARIN 25000 UNITS-ML INJ | غير محدد | غير متوفر (ساري) |
-| HEPSAL AMP 10 UNITS-ML | HEPSAL AMP 10 UNITS-ML | غير محدد | غير متوفر (ساري) |
-| HEPARINOL 5000 IU/ML INJECTION | HEPARINOL 5000 IU/ML INJECTION | غير محدد | غير متوفر (ساري) |
-| HIKMA HEPARIN 5000 IU/ML | HIKMA HEPARIN 5000 IU/ML | غير محدد | غير متوفر (ساري) |
-| MULTIPARIN 5000 UNITS-ML INJ | MULTIPARIN 5000 UNITS-ML INJ | غير محدد | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MULTIPARIN 25000 UNITS-ML INJ | HEPARIN SODIUM | CP PHARMACEUTICAL LIMITED | ساري |
+| HEPSAL AMP 10 UNITS-ML | HEPARIN SODIUM | CP PHARMACEUTICAL LIMITED | ساري |
+| HEPARINOL 5000 IU/ML INJECTION | HEPARIN SODIUM | AIN MEDICARE SDN. BHD. | ساري |
+| HIKMA HEPARIN 5000 IU/ML | HEPARIN SODIUM | Hikma Pharmaceuticals PLC | ساري |
+| MULTIPARIN 5000 UNITS-ML INJ | HEPARIN SODIUM | CP PHARMACEUTICAL LIMITED | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 يوجد 11 ترخيصاً ساري المفعول من أصل 11 ترخيصاً، والدواء مسوّق في هذا البلد.
 
@@ -124,7 +130,7 @@ predicted_indications: ["thrombophilia due to protein C deficiency, autosomal re
 
 <!-- review:begin sa-lic-20261106-heparin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل. / تقييم التوافق مع طرق الإعطاء (لم يُحسم بعد).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 11، منها سارية: 11؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل. / تقييم التوافق مع طرق الإعطاء (لم يُحسم بعد).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-heparin-1 -->
 
@@ -136,7 +142,7 @@ predicted_indications: ["thrombophilia due to protein C deficiency, autosomal re
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Heparin Sodium And Dextrose (heparin sodium) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eede8a0c-5ae6-4166-84b3-12081405f08e) |
 
 <!-- review:end log -->

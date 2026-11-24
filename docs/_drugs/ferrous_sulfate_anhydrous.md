@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "biotin metabolic disease", "non-syndromic esophageal malformation"]
 description: "Ferrous Sulfate Anhydrous: الاستطباب الجديد المتوقع Vitamin B12- and folate-independent constitutional megaloblastic anemia (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 9 (السارية: 9)"
@@ -91,15 +91,19 @@ description: "Ferrous Sulfate Anhydrous: الاستطباب الجديد الم�
 
 جميع التراخيص التسعة **سارية**، ولا يوجد نص استطباب معتمد مسجل لأي منها.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| FEROMIN | FEROMIN | Riyadh Pharma | ساري |
-| JECTOFER AMP. 100 MG | JECTOFER AMP. 100 MG | AstraZeneca | ساري |
-| KDIRON DROPS | KDIRON DROPS | Gulf Pharmaceutical Industries (Julphar) | ساري |
-| HEMADID | HEMADID | Jamjoom Pharmaceuticals Company | ساري |
-| KDIRON 200MG-5ML SYRUP | KDIRON 200MG-5ML SYRUP | Gulf Pharmaceutical Industries (Julphar) | ساري |
+<!-- licenses:begin -->
 
-(عُرضت 5 من أصل 9 تراخيص.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FEROMIN | FERROUS SULFATE | RIYADH PHARMA | ساري |
+| JECTOFER AMP. 100 MG | FERROUS SULFATE | AstraZeneca | ساري |
+| KDIRON DROPS | FERROUS SULFATE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| HEMADID | FERROUS SULFATE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| KDIRON 200MG-5ML SYRUP | FERROUS SULFATE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 859
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vancomycin: الاستطباب الجديد المتوقع تصلب الجلد المنتشر (مستوى الدليل L5). الاستطباب الأصلي: التهاب القولون بالمطثية العسيرة، والعدوى بالمكورات العنقودية، والتهاب…"
 monitor_inn: "VANCOMYCIN"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
@@ -86,13 +86,19 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 
 جميع التراخيص الـ16 سارية (16 من أصل 16). أبرز خمسة منها (نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات):
 
-| رقم الترخيص / المنتج | الشركة المصنّعة | الحالة |
-|---------|------|-----------|
-| VANCOMYCIN HCL 1 G VIAL FOR INFUSION | Hospira | ساري |
-| ALVANCO 1000MG POW. FOR INFUSION | Sofarimex | ساري |
-| VANCO 1000 mg powder for solution for injection or infusion | Hikma Farmaceutica | ساري |
-| VANCOLON 1GM POWDER FOR I.V. INFUSION | Gulf Pharmaceutical Industries (Julphar) | ساري |
-| VANCOCIN-CP 500MG-10 ML. VIAL | Eli Lilly | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VANCOMYCIN HCL 1 G VIAL FOR INFUSION | VANCOMYCIN | HOSPIRA | ساري |
+| ALVANCO 1000MG POW. FOR INFUSION | VANCOMYCIN | Sofarimex Indústria Química e Farmacêutica, S.A.. | ساري |
+| VANCO 1000 mg powder for solution for injection or infusion | VANCOMYCIN | Hikma Farmaceutica | ساري |
+| VANCOLON 1GM POWDER FOR I.V. INFUSION | VANCOMYCIN | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| VANCOCIN-CP 500MG-10 ML. VIAL | VANCOMYCIN | ELI LILLY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 16 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,7 +129,7 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 
 <!-- review:begin sa-lic-20261106-vancomycin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إذا رُغب في متابعة مسار أقرب للواقع، فيُقترح توجيه الاهتمام نحو الالتهاب الرئوي بالمكورات العقدية (L4) باعتباره امتداداً للاستطبابات القائمة، مع مراجعة منهجية للأدلة غير المباشرة المتاحة. / التحقق من حالة التراخيص الملغاة وإمكانية إعادة التسجيل إذا كان هناك اهتمام تجاري.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 16، منها سارية: 16؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إذا رُغب في متابعة مسار أقرب للواقع، فيُقترح توجيه الاهتمام نحو الالتهاب الرئوي بالمكورات العقدية (L4) باعتباره امتداداً للاستطبابات القائمة، مع مراجعة منهجية للأدلة غير المباشرة المتاحة. / التحقق من حالة التراخيص الملغاة وإمكانية إعادة التسجيل إذا كان هناك اهتمام تجاري.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-vancomycin-1 -->
 
@@ -135,7 +141,7 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «التحقق من حالة التراخيص الملغاة وإمكانية إعادة التسجيل إذا كان هناك اهتمام تجاري» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «التحقق من حالة التراخيص الملغاة وإمكانية إعادة التسجيل إذا كان هناك اهتمام تجاري» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560) |
 
 <!-- review:end log -->

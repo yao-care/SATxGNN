@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 887
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zinc Chloride: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء فارغ…"
 monitor_inn: "zinc chloride"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren syndrome", "dry eye syndrome"]
@@ -82,11 +82,15 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| TRACUTIL SOLUSION FOR INFUSION AMPOULE | TRACUTIL SOLUSION FOR INFUSION AMPOULE (B. BRAUN) | غير محدد | غير محدد | ساري |
-| Addaven | Addaven (FRESENIUS KABI NORGE AS) | غير محدد | غير محدد | ساري |
-| SUPRADYN EFFERVESCENT | SUPRADYN EFFERVESCENT (BAYER SANTE FAMILIALE) | غير محدد | غير محدد | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TRACUTIL SOLUSION FOR INFUSION AMPOULE | IRON CHLORIDE TETRAHYDRATE,ZINC CHLORIDE,SODIUM FLUORIDE,SODIUM SELENITE PENTAHYDRATE,CHRO… | B. BRAUN | ساري |
+| Addaven | CHROMIC CHLORIDE,COPPER CHLORIDE,FERRIC CHLORIDE,MANGANESE CHLORIDE TETRAHYDRATE,POTASSIUM… | FRESENIUS KABI NORGE AS | ساري |
+| SUPRADYN EFFERVESCENT | RETINOL,CHOLECALCIFEROL,ASCORBIC ACID,PHOSPHORUS, CALCIUM CHLORIDE,NICOTINAMIDE,MAGNESIUM… | BAYER SANTE FAMILIALE | ساري |
+
+<!-- licenses:end -->
 
 ---
 

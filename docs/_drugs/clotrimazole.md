@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 207
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
 description: "Clotrimazole: الاستطباب الجديد المتوقع حب الشباب (acne (disease)) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 على الأقل"
@@ -74,13 +74,20 @@ description: "Clotrimazole: الاستطباب الجديد المتوقع حب 
 
 حالة السوق: مطروح، ويوجد 17 ترخيصاً صالحاً في السجلات المتاحة، وقد تكون القائمة غير كاملة. نص الاستطباب المعتمد وشكل الجرعة غير مسجلين في البيانات المحلية.
 
-| اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| CANESTEN SOLUTION 1% | KVP PHARMA | ساري |
-| CLOTREX | HAYAT PHARMACEUTICAL INDUSTRIES | ساري |
-| DERMATIN CREAM 1% | PHARCO PHARMACEUTICAL | ساري |
-| CANESTEN CREAM 1% | GP Grenzach Produktion GmbH | ساري |
-| CLOZOLE 1% TOPICAL SOLUTION | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CANESTEN SOLUTION 1% | CLOTRIMAZOLE | KVP PHARMA | ساري |
+| CLOTREX | CLOTRIMAZOLE | HAYAT PHARMACEUTICAL INDUSTRIES | ساري |
+| DERMATIN CREAM 1% | CLOTRIMAZOLE | PHARCO PHARMACEUTICAL | ساري |
+| CANESTEN CREAM 1% | CLOTRIMAZOLE | GP Grenzach Produktion GmbH (GP) | ساري |
+| CLOZOLE 1% TOPICAL SOLUTION | CLOTRIMAZOLE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 17 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

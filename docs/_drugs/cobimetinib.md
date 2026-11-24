@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 210
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cobimetinib: الاستطباب الجديد المتوقع التصلب الجانبي الضموري (amyotrophic lateral sclerosis) (مستوى الدليل L5). الاستطباب الأصلي: الورم الميلانيني النقيلي"
 monitor_inn: "COBIMETINIB"
 predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
@@ -82,9 +82,13 @@ predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| COTELLIC 20 mg film-coated tablet | COTELLIC 20 mg film-coated tablet (الشركة المصنّعة: ROCHE) | أقراص مغلفة (حسب اسم المنتج) | غير متوفر؛ حالة الترخيص: ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| COTELLIC 20 mg film-coated tablet | COBIMETINIB | ROCHE | ساري |
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 538
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MELPHALAN"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan: الاستطباب الجديد المتوقع Female breast carcinoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -88,10 +88,16 @@ description: "Melphalan: الاستطباب الجديد المتوقع Female b
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Megval | Megval (Emcure Pharmaceuticals) | غير محدد | غير متوفر (ساري) |
-| ALKERAN TABLETS 5 MG | ALKERAN TABLETS 5 MG (GLAXOWELLCOME) | غير محدد | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Megval | MELPHALAN | Emcure Pharmaceuticals Ltd. | ساري |
+| ALKERAN TABLETS 5 MG | MELPHALAN | GLAXOWELLCOME | ساري |
+
+يعرض الجدول أعلاه 2 من أصل 3 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

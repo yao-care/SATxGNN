@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 94
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Beclomethasone Dipropionate: الاستطباب الجديد المتوقع الإكزيما التأتبية (atopic eczema) (مستوى الدليل L3). الاستطباب الأصلي: الربو، الربو التحسسي، التهاب الأنف التحسسي، التهاب الأنف الحركي الوعا…"
 monitor_inn: "BECLOMETHASONE DIPROPIONATE"
 predicted_indications: ["atopic eczema"]
@@ -94,13 +94,19 @@ predicted_indications: ["atopic eczema"]
 
 جميع التراخيص الـ12 المسجلة سارية (12 من 12)، ولا يتوفر نص استطباب معتمد أو شكل صيدلاني في البيانات المتاحة. أبرز المنتجات:
 
-| رقم الترخيص / المنتج | الشركة المصنعة | الحالة |
-|---------|------|-----------|
-| BECLAZONE 100MCG CFC-FREE INHALER | IVAX Pharmaceuticals | ساري |
-| CLENIL FORTE 250MCG PUFF METERED INHALER | Chiesi Farmaceutici | ساري |
-| RINO-CLENIL 50MCG-PUFF NASAL SPRAY | Chiesi Farmaceutici | ملغى |
-| BECONASE AQUEOUS NASAL SPRAY | Glaxo Saudi Arabia | ساري |
-| BECLOHALE 250MCG-DOSE INHALER | Gulf Pharmaceutical Industries (Julphar) | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BECLAZONE 100MCG CFC-FREE INHALER | BECLOMETHASONE DIPROPIONATE | IVAX PHARMACEUTICALS | ساري |
+| CLENIL FORTE 250MCG PUFF METERED INHALER | BECLOMETHASONE DIPROPIONATE | CHIESI FARMACEUTICIS | ساري |
+| RINO-CLENIL 50MCG-PUFF NASAL SPRAY SOLU. | BECLOMETHASONE DIPROPIONATE | CHIESI FARMACEUTICIS | ساري |
+| BECONASE AQUEOUS NASAL SPRAY | BECLOMETHASONE DIPROPIONATE | GLAXO SAUDI ARABIA | ساري |
+| BECLOHALE 250MCG-DOSE INHALER | BECLOMETHASONE DIPROPIONATE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

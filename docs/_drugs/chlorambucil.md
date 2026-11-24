@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CHLORAMBUCIL"
 predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chlorambucil: الاستطباب الجديد المتوقع ALK-positive large B-cell lymphoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -70,11 +70,15 @@ description: "Chlorambucil: الاستطباب الجديد المتوقع ALK-p
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LEUKERAN 5 MG. TAB. | LEUKERAN 5 MG. TAB. | غير مسجل | غير مسجل في البيانات المحلية |
-| LEUKERAN 2 MG. TAB. | LEUKERAN 2 MG. TAB. | غير مسجل | غير مسجل في البيانات المحلية |
-| LEUKERAN 2 MG. TAB | LEUKERAN 2 MG. TAB | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LEUKERAN 5 MG. TAB. | CHLORAMBUCIL | GLAXOWELLCOME | ساري |
+| LEUKERAN 2 MG. TAB. | CHLORAMBUCIL | EXCELLA GmbH & Co. KG | ساري |
+| LEUKERAN 2 MG. TAB | CHLORAMBUCIL | GLAXOWELLCOME | ساري |
+
+<!-- licenses:end -->
 
 ## السمّية الخلوية
 

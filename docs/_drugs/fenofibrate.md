@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FENOFIBRATE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenofibrate: الاستطباب الجديد المتوقع هو نقص بروتين نقل إستر الكوليسترول (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع الدهون الثلاثية وفرط شحميات الدم…"
 ---
 
@@ -76,13 +76,19 @@ description: "Fenofibrate: الاستطباب الجديد المتوقع هو �
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة |
-|---------|------|------|
-| LIPANTHYL 145MG F.C. TABLETS | LIPANTHYL 145MG F.C. TABLETS | RECIPHARMA |
-| TRIX 200 mg Capsule | TRIX 200 mg Capsule | Jordan Sweden Medical and Sterilization Co. |
-| FENOGAL 200MG LIDOSE CAPSULES | FENOGAL 200MG LIDOSE CAPSULES | S.M.B. |
-| LIPANTHYL 200MG MICRONISED CAPS | LIPANTHYL 200MG MICRONISED CAPS | RECIPHARMA |
-| LYPFEN | LYPFEN | ALPHA PHARMA INDUSTRY |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LIPANTHYL 145MG F.C. TABLETS | FENOFIBRATE | RECIPHARMA | ساري |
+| TRIX 200 mg Capsule | FENOFIBRATE | Jordan Sweden Medical and Sterilization Co. | ساري |
+| FENOGAL 200MG LIDOSE CAPSULES | FENOFIBRATE | S.M.B. | ساري |
+| LIPANTHYL 200MG MICRONISED CAPS | FENOFIBRATE | RECIPHARMA | ساري |
+| LYPFEN | FENOFIBRATE | ALPHA PHARMA INDUSTRY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 يوجد 7 تراخيص في المجمل (أُدرج 5 منها)، ولا يتوفر نص الاستطباب المعتمد في سجلات الترخيص.
 

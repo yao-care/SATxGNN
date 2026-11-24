@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 770
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Stavudine: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infectio… (مستوى الدليل L4). الاستطباب الأصلي: عدوى HIV والإيدز (بحسب الاستطبابات الأصلية في الرسم الم…"
 monitor_inn: "STAVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -87,11 +87,15 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ZERIT 30MG CAP | ZERIT 30MG CAP (ساري) | غير متوفر | غير متوفر |
-| ZERIT 40MG CAP | ZERIT 40MG CAP (ساري) | غير متوفر | غير متوفر |
-| ZERIT 20MG CAP | ZERIT 20MG CAP (ساري) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ZERIT 30MG CAP | STAVUDINE | BRISTOL-MYERS SQUIBB | ساري |
+| ZERIT 40MG CAP | STAVUDINE | BRISTOL-MYERS SQUIBB | ساري |
+| ZERIT 20MG CAP | STAVUDINE | BRISTOL-MYERS SQUIBB | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنعة لجميع التراخيص: Bristol-Myers Squibb. التراخيص الثلاثة كلها سارية (3 من 3).
 

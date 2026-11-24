@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 539
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mepolizumab: الاستطباب الجديد المتوقع نقص الصفيحات الدموية بسبب التدمير المناعي (مستوى الدليل L5). الاستطباب الأصلي: الالتهاب الرئوي اليوزيني / كثرة اليوزينيات الرئوية (من الرسم المعرفي…"
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
@@ -74,10 +74,14 @@ predicted_indications: ["thrombocytopenia due to immune destruction", "primary r
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| NUCALA 100 mg POWDER FOR SOLUTION FOR INJECTION | NUCALA 100 mg POWDER FOR SOLUTION FOR INJECTION (الشركة المصنعة: GLAXO SMITHKLINE MANUFACTURING S.P.A.) | غير مذكور | غير مذكور (ساري) |
-| Nucala | Nucala (الشركة المصنعة: Glaxo Operations UK Ltd) | غير مذكور | غير مذكور (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NUCALA 100 mg POWDER FOR SOLUTION FOR INJECTION | MEPOLIZUMAB | GLAXO SMITHKLINE MANUFACTURING S.P.A. | ساري |
+| Nucala | MEPOLIZUMAB | Glaxo Operations UK Ltd | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

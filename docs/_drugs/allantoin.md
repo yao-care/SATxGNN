@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 39
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Allantoin: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (مستوى الدليل L5). الاستطباب الأصلي: الصدفية، شبه الصدفية، التهاب الجلد الدهني، التهاب الجلد (من الرسم الم…"
 monitor_inn: "allantoin"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "hydroa vacciniforme, familial", "exanthem (disease)"]
@@ -90,9 +90,13 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "acroder
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CONTRACTUBEX | CONTRACTUBEX (الشركة المصنعة: MERZ PHARMACEUTICAL) | غير محدد | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CONTRACTUBEX | HEPARIN SODIUM,LIQUID EXTRACT FROM ONION,ALLANTOIN | MERZ PHARMACEUTICAL | ساري |
+
+<!-- licenses:end -->
 
 حالة الترخيص: مسوّق. يوجد ترخيص واحد ساري من أصل ترخيص واحد.
 

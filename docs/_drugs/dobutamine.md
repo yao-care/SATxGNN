@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dobutamine: الاستطباب الجديد المتوقع الثعلبة (Alopecia) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نصوص الاستطباب فارغة)؛ المعروف دوائياً:…"
 monitor_inn: "DOBUTAMINE"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "headache disorder", "hypertrichosis (disease)", "migraine disorder"]
@@ -84,13 +84,17 @@ predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "conge
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| DOBUTREX 250 MG VIAL | DOBUTREX 250 MG VIAL (ELI LILLY) | غير مذكور | غير مذكور (ساري) |
-| DOBUTAMINE JPI 250 mg/20 ml | DOBUTAMINE JPI، محلول للتسريب الوريدي (Hikma) | محلول للتسريب الوريدي | غير مذكور (ملغى) |
-| Cardutrex | Cardutrex (طبوك للصناعات الدوائية) | غير مذكور | غير مذكور (ساري) |
-| DOBUJECT 50MG-ML | DOBUJECT أمبول 250 ملغ/5 مل (BAYER OY) | أمبول | غير مذكور (ملغى) |
-| DOBUTAMINE HCL 250MG-20ML VIAL | DOBUTAMINE HCL (HOSPIRA AUSTRALIA) | قارورة | غير مذكور (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DOBUTREX 250 MG VIAL | DOBUTAMINE | ELI LILLY | ساري |
+| DOBUTAMINE JPI 250 mg/20 ml solution for IV infusion | DOBUTAMINE | Hikma Farmaceutica | ساري |
+| Cardutrex | DOBUTAMINE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| DOBUJECT 50MG-ML(250MG-5ML) AMPOULE | DOBUTAMINE | BAYER OY | ساري |
+| DOBUTAMINE HCL 250MG-20ML VIAL | DOBUTAMINE | HOSPIRA AUSTRALIA | ساري |
+
+<!-- licenses:end -->
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الخمسة سارية المفعول (5 من أصل 5).
 

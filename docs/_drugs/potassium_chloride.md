@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 674
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Potassium Chloride: الاستطباب الجديد المتوقع الحُماض الأنبوبي الكلوي (مستوى الدليل L4). الاستطباب الأصلي: نقص البوتاسيوم، الإمساك"
 monitor_inn: "POTASSIUM CHLORIDE"
 predicted_indications: ["renal tubular acidosis"]
@@ -94,13 +94,19 @@ predicted_indications: ["renal tubular acidosis"]
 
 جميع التراخيص الثمانية **سارية** (8 من 8)، والدواء مسوّق في هذا البلد، ولا يوجد نص استطباب معتمد أو شكل صيدلاني مسجل لها.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة |
-|---------|------|------|
-| 15% W-V POTASSIUM CHLORIDE FOR INJ. USP | 15% W-V Potassium Chloride for Inj. USP | PSI |
-| POTASSIUM CHLORIDE 7.45% INJ AMP | Potassium Chloride 7.45% Inj Amp | B. Braun |
-| POTASSIUM CHLORIDE | Potassium Chloride | Al Razi Pharma |
-| POTASSIUM CHLORIDE 7.5% AMP | Potassium Chloride 7.5% Amp | PSI |
-| POTASSIUM CHLORIDE 10mEqFTV ADDITIVE INJ | Potassium Chloride 10mEq FTV Additive Inj | Hospira |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| 15% W-V POTASSIUM CHLORIDE FOR INJ. USP | POTASSIUM CHLORIDE | Pharmaceutical Solution Industries (PSI) | ساري |
+| POTASSIUM CHLORIDE 7.45% INJ AMP | POTASSIUM CHLORIDE | B. BRAUN | ساري |
+| POTASSIUM CHLORIDE | POTASSIUM CHLORIDE | AL RAZI PHARMA INDUSTRIES FACTORY LTD | ساري |
+| POTASSIUM CHLORIDE 7.5% AMP | POTASSIUM CHLORIDE | Pharmaceutical Solution Industries (PSI) | ساري |
+| POTASSIUM CHLORIDE 10mEqFTV ADDITIVE INJ | POTASSIUM CHLORIDE | HOSPIRA INC. ROCKY MOUNT | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,7 +129,7 @@ predicted_indications: ["renal tubular acidosis"]
 
 <!-- review:begin sa-lic-20261106-potassium_chloride-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الاستخدام المحتمل داعم (تصحيح نقص البوتاسيوم) وليس علاجاً للمرض، والمعيار العلاجي هو العلاج القلوي. وجميع تراخيص المنتج في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الاستخدام المحتمل داعم (تصحيح نقص البوتاسيوم) وليس علاجاً للمرض، والمعيار العلاجي هو العلاج القلوي. وجميع تراخيص المنتج في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-potassium_chloride-1 -->
 
@@ -135,7 +141,7 @@ predicted_indications: ["renal tubular acidosis"]
 
 <!-- review:begin sa-lic-20261106-potassium_chloride-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح وضع الترخيص والتوافر في السوق السعودي، إذ لا يوجد حالياً ترخيص ساري.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح وضع الترخيص والتوافر في السوق السعودي، إذ لا يوجد حالياً ترخيص ساري.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-potassium_chloride-2 -->
 
@@ -147,8 +153,8 @@ predicted_indications: ["renal tubular acidosis"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وجميع تراخيص المنتج في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «إذ لا يوجد حالياً ترخيص ساري» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وجميع تراخيص المنتج في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «إذ لا يوجد حالياً ترخيص ساري» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

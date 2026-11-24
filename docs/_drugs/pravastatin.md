@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 683
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: الاستطباب الجديد المتوقع HIV infectious disease (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -92,10 +92,14 @@ description: "Pravastatin: الاستطباب الجديد المتوقع HIV in
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LIPOSTAT 10MG TAB | LIPOSTAT 10MG TAB (الشركة المصنّعة: SPIMACO) | غير متوفر | غير متوفر |
-| LIPOSTAT 20MG TAB | LIPOSTAT 20MG TAB (الشركة المصنّعة: SPIMACO) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LIPOSTAT 10MG TAB | PRAVASTATIN | SPIMACO | ساري |
+| LIPOSTAT 20MG TAB | PRAVASTATIN | SPIMACO | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -119,7 +123,7 @@ description: "Pravastatin: الاستطباب الجديد المتوقع HIV in
 
 <!-- review:begin sa-lic-20261106-pravastatin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الحالة المتماثلة الزيجوت تستجيب للستاتينات بصورة محدودة، والاستطباب يتداخل مع الاستخدام القائم، فلا توجد إشارة إعادة توظيف حقيقية. كما أن السوق السعودي لا يضم حالياً ترخيصاً ساري المفعول.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الحالة المتماثلة الزيجوت تستجيب للستاتينات بصورة محدودة، والاستطباب يتداخل مع الاستخدام القائم، فلا توجد إشارة إعادة توظيف حقيقية. كما أن السوق السعودي لا يضم حالياً ترخيصاً ساري المفعول.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-pravastatin-1 -->
 
@@ -140,7 +144,7 @@ description: "Pravastatin: الاستطباب الجديد المتوقع HIV in
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن السوق السعودي لا يضم حالياً ترخيصاً ساري المفعول» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن السوق السعودي لا يضم حالياً ترخيصاً ساري المفعول» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
 
 <!-- review:end log -->

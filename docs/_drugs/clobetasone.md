@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Clobetasone: الاستطباب الجديد المتوقع الورم اللمفاوي الجلدي التائي الأولي (primary cutaneous T-cell lymphom… (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في التراخيص فارغة)"
 monitor_inn: "CLOBETASONE"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "Sezary syndrome", "primary cutaneous B-cell lymphoma", "granulomatous slack skin disease", "Crohn's colitis", "adrenocortical insufficiency", "primary cutaneous T-cell non-Hodgkin lymphoma", "nephrotic syndrome", "cystic teratoma", "spinal cord dermoid cyst"]
@@ -68,7 +68,7 @@ predicted_indications: ["primary cutaneous T-cell lymphoma", "Sezary syndrome", 
 
 <!-- review:begin sa-lic-20261106-clobetasone-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «فالكورتيكوستيرويدات الأعلى فعالية تُفضَّل عادةً لهذا الاستخدام، كما أن كلوبيتازون لا يتوفر له أي دليل خاص به، وحالته التسويقية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «فالكورتيكوستيرويدات الأعلى فعالية تُفضَّل عادةً لهذا الاستخدام، كما أن كلوبيتازون لا يتوفر له أي دليل خاص به، وحالته التسويقية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-clobetasone-1 -->
 
@@ -104,13 +104,17 @@ predicted_indications: ["primary cutaneous T-cell lymphoma", "Sezary syndrome", 
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الخمسة سارية (5 من أصل 5).
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| CLOBATE 0.05% OINTMENT | CLOBATE 0.05% OINTMENT | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
-| CORTOFTAL 0.1% OPTH.SUSP | CORTOFTAL 0.1% OPTH.SUSP | Siegfried EI Masnou, S.A | ساري |
-| EUMOVATE OINTMENT | EUMOVATE OINTMENT | GLAXO SAUDI ARABIA | ساري |
-| EUMOVATE CREAM | EUMOVATE CREAM | GLAXO SAUDI ARABIA | ساري |
-| CLOBESON | CLOBESON | OMAN PHARMACEUTICAL PRODUCTS | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CLOBATE 0.05% OINTMENT | CLOBETASONE BUTYRATE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| CORTOFTAL 0.1% OPTH.SUSP | CLOBETASONE BUTYRATE | Siegfried EI Masnou, S.A | ساري |
+| EUMOVATE OINTMENT | CLOBETASONE | GLAXO SAUDI ARABIA | ساري |
+| EUMOVATE CREAM | CLOBETASONE | GLAXO SAUDI ARABIA | ساري |
+| CLOBESON | CLOBETASONE BUTYRATE | OMAN PHARMACEUTICAL PRODUCTS | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -142,7 +146,7 @@ predicted_indications: ["primary cutaneous T-cell lymphoma", "Sezary syndrome", 
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وحالته التسويقية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وحالته التسويقية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

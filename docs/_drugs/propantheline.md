@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 1
 monitor_inn: "propantheline"
 predicted_indications: ["irritable bowel syndrome"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 description: "Propantheline: الاستطباب الجديد المتوقع متلازمة القولون العصبي (irritable bowel syndrome) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -74,9 +74,13 @@ description: "Propantheline: الاستطباب الجديد المتوقع مت
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| METHAPHYLIN TAB | METHAPHYLIN TAB (إيساي) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| METHAPHYLIN TAB | BRTRISILICATE, PROPENTHELINE, SODIUM COPPER CHLOROPHYLIN | EISAI | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

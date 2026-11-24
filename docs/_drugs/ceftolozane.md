@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Ceftolozane: الاستطباب الجديد المتوقع التهاب الإحليل بالمفطورة اليوريائية (Ureaplasma urethritis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب المسالك البولية (من قاعدة المعرفة TxGNN، إذ لا يتوفر نص ا…"
 monitor_inn: "ceftolozane"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
@@ -78,9 +78,13 @@ predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uteri
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| ZERBAXA Powder For Injection Vial | ZERBAXA Powder For Injection Vial (الشركة المصنّعة: STERI-PHARMA, LLC) | غير محدد | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ZERBAXA Powder For Injection Vial | Tazobactam,CEFTOLOZANE | STERI-PHARMA, LLC | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -105,7 +109,7 @@ predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uteri
 
 <!-- review:begin sa-lic-20261106-ceftolozane-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «المفطورات اليوريائية بلا جدار خلوي، فلا يتوقع أن يؤثر فيها مثبط لتخليق الجدار الخلوي؛ كما أن هناك بدائل علاجية راسخة، والترخيص المحلي ملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «المفطورات اليوريائية بلا جدار خلوي، فلا يتوقع أن يؤثر فيها مثبط لتخليق الجدار الخلوي؛ كما أن هناك بدائل علاجية راسخة، والترخيص المحلي ملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ceftolozane-1 -->
 
@@ -128,7 +132,7 @@ predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uteri
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «والترخيص المحلي ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «والترخيص المحلي ملغى» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

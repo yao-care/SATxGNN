@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Bacampicillin: الاستطباب الجديد المتوقع التهاب لسان المزمار (Epiglottitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب المسالك البولية، السيلان، التهاب البلعوم، التهاب الجيوب الأنفي…"
 monitor_inn: "BACAMPICILLIN"
 predicted_indications: ["epiglottitis", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "lymph node palisaded myofibroblastoma", "sacrum chordoma", "disease of retroperitoneum", "disease of uterine broad ligament", "urethral disease", "disease of peritoneum"]
@@ -86,9 +86,13 @@ predicted_indications: ["epiglottitis", "abdominal ectopic pregnancy", "abdomina
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| BACACIL 400MG TAB | BACACIL 400MG TAB (الشركة: PFIZER) | — | — (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BACACIL 400MG TAB | BACAMPICILLIN | PFIZER | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,7 +127,7 @@ predicted_indications: ["epiglottitis", "abdominal ectopic pregnancy", "abdomina
 
 <!-- review:begin sa-lic-20261106-bacampicillin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «المنتج الوحيد المرخص في المملكة ملغى. / مقاومة البيتا لاكتاماز في المستدمية النزلية، والعلاج المعياري بالسيفالوسبورينات من الجيل الثالث، يقللان القيمة العملية لهذا التوقع.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «المنتج الوحيد المرخص في المملكة ملغى. / مقاومة البيتا لاكتاماز في المستدمية النزلية، والعلاج المعياري بالسيفالوسبورينات من الجيل الثالث، يقللان القيمة العملية لهذا التوقع.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-bacampicillin-1 -->
 
@@ -141,7 +145,7 @@ predicted_indications: ["epiglottitis", "abdominal ectopic pregnancy", "abdomina
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «المنتج الوحيد المرخص في المملكة ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «المنتج الوحيد المرخص في المملكة ملغى» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

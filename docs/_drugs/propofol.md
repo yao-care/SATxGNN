@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 692
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propofol: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L2). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المتاحة (الاستخدام المعروف: التخدير العا…"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -97,13 +97,19 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Pr
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص العشرة (10 من 10) سارية. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| PROPOFOL 1% I.V INJ OR INFUSION | PROPOFOL 1% I.V INJ OR INFUSION | Fresenius Kabi | ساري |
-| PROPOFOL-LIPURO 1% INJ OR INF AMPOULE | PROPOFOL-LIPURO 1% | B. Braun | ساري |
-| Propoven | Propoven | Fresenius Kabi Austria | ساري |
-| PROPOVEN 1% VIAL | PROPOVEN 1% VIAL | Fresenius Kabi | ساري |
-| DIPRIVAN VIAL 10MG-ML | DIPRIVAN | Corden Pharma | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PROPOFOL 1% I.V INJ OR INFUSION | PROPOFOL | FRESENIUS KABI | ساري |
+| PROPOFOL-LIPURO1% INJ OR INF AMPOULE | PROPOFOL | B. BRAUN | ساري |
+| Propoven | PROPOFOL | Fresenius Kabi Austria GmbH | ساري |
+| PROPOVEN 1% VIAL | PROPOFOL | FRESENIUS KABI | ساري |
+| DIPRIVAN VIAL 10MG-ML | PROPOFOL | Corden Pharma S.P.A | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 10 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

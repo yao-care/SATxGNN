@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 649
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "PHENIRAMINE"
 predicted_indications: ["nasal cavity disease"]
 description: "Pheniramine: الاستطباب الجديد المتوقع Nasal cavity disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -90,9 +90,13 @@ description: "Pheniramine: الاستطباب الجديد المتوقع Nasal 
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| HISTOL 15MG-5ML SYRUP. | HISTOL 15MG-5ML SYRUP. (شركة الخليج للصناعات الدوائية - جلفار) | غير محدد | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| HISTOL 15MG-5ML SYRUP. | PHENIRAMINE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+<!-- licenses:end -->
 
 ---
 

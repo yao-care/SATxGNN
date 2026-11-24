@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
 description: "Cyclophosphamide: الاستطباب الجديد المتوقع التشوهات الفقرية مع خلل صماوي وخلل متغير في الخلايا التائية (vertebral anomalies and variable endocrine and T-cell dysfunction) (مستوى الدليل L5)."
@@ -72,13 +72,19 @@ description: "Cyclophosphamide: الاستطباب الجديد المتوقع �
 
 الحالة: مسوّق. جميع التراخيص السبعة المسجلة سارية. نص الاستطباب المعتمد غير مسجل في البيانات المحلية.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الشركة المصنعة |
-|---------|------|------|-----------|
-| ENDOXAN. VIAL 500 MG | ENDOXAN VIAL 500 MG | غير متوفر | Baxter Oncology |
-| ENDOXAN. VIAL 1 GM. | ENDOXAN VIAL 1 GM | غير متوفر | Baxter Oncology |
-| ENDOXAN. VIAL 200 MG | ENDOXAN VIAL 200 MG | غير متوفر | Baxter Oncology |
-| CYCLOPHOSPHAMIDE 1000MG VIAL | CYCLOPHOSPHAMIDE 1000MG VIAL | غير متوفر | Orion Pharma |
-| ENDOXAN SUGAR COATED TABLET | ENDOXAN SUGAR COATED TABLET | أقراص مغلفة بالسكر (بحسب الاسم) | Prasfarma S.L. |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ENDOXAN. VIAL 500 MG | CYCLOPHOSPHAMIDE | BAXTER ONCOLOGY | ساري |
+| ENDOXAN. VIAL 1 GM. | CYCLOPHOSPHAMIDE | BAXTER ONCOLOGY | ساري |
+| ENDOXAN. VIAL 200 MG | CYCLOPHOSPHAMIDE | BAXTER ONCOLOGY | ساري |
+| CYCLOPHOSPHAMIDE 1000MG VIAL | CYCLOPHOSPHAMIDE | ORION PHARMA | ساري |
+| ENDOXAN SUGAR COATED TABLET | CYCLOPHOSPHAMIDE | PRASFARMA S.L. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## السمية الخلوية
 

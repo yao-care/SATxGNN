@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ETOPOSIDE"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Etoposide: الاستطباب الجديد المتوقع سرطان الرئة الجنيني جيد التمايز (well-differentiated fetal adenocarcinoma of the lung) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
@@ -71,6 +71,20 @@ description: "Etoposide: الاستطباب الجديد المتوقع سرطا
 | [33107372](https://pubmed.ncbi.nlm.nih.gov/33107372/) | 2020 | تقرير حالة ومراجعة | The Journal of international medical research | حالة ورم رئوي أرومي كلاسيكي ثنائي الطور عولجت بالاستئصال الجراحي ثم نيداپلاتين مع باكليتاكسيل؛ لا توجد إرشادات علاجية معيارية لهذا الورم النادر |
 
 ## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ETOPOSID "EBEWE" 200MG VIAL | ETOPOSIDE | Fareva Unterach GmbH | ساري |
+| ETOPOSID "EBEWE" 20MG-ML VIAL | ETOPOSIDE | Fareva Unterach GmbH | ساري |
+| ETOPOSID "EBEWE" 50 MG VIAL | ETOPOSIDE | Fareva Unterach GmbH | ساري |
+| LASTET 100MG AMP FOR INFUSION | ETOPOSIDE | NIPPON KAYAKU | ساري |
+| VEPESID 100MG CAPSULE | ETOPOSIDE | BRISTOL-MYERS SQUIBB | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 تُظهر بيانات التراخيص المحلية سبعة تراخيص لمستحضرات أحادية المادة الفعالة (مثل Vepesid وEtoposid "Ebewe" وLastet)، ولا يتضمن أي منها نص استطباب مسجلاً في البيانات المحلية. لذلك لا يمكن عرض جدول استطبابات معتمدة.
 

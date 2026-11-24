@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Histidine: الاستطباب الجديد المتوقع شلل المعدة (Gastroparesis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (لا نص دواعي استعمال في تراخيص الهيئة العامة للغذاء والدواء)"
 monitor_inn: "histidine"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
@@ -83,13 +83,19 @@ predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
 
 جميع التراخيص الاثني عشر **سارية**، ولا توجد نصوص دواعي استعمال أو أشكال صيدلانية مسجّلة. أبرز المنتجات:
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| RENAMIN INJECTION | RENAMIN INJECTION (Baxter) | غير محدد | غير محدد |
-| AMINOPLASMAL B BRAUN 10% | AMINOPLASMAL B BRAUN 10% | غير محدد | غير محدد |
-| AMINOPLASMAL 15 % I.V INFUSION SOLN | AMINOPLASMAL 15% (B. Braun) | محلول تسريب وريدي | غير محدد |
-| OLIMEL N9 emulsion for infusion | OLIMEL N9 | مستحلب للتسريب | غير محدد |
-| SMOFKABIVEN PERIPHERAL EMULSION for infusion | SmofKabiven Peripheral (Fresenius Kabi) | مستحلب للتسريب | غير محدد |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RENAMIN INJECTION | VALINE,LEUCINE,ISOLEUCINE5,METHIONINE,PHENYLALANINE,LYSINE,HISTIDINE,THREONINE,TRYPTOPHAN | BAXTER | ساري |
+| AMINOPLASMAL B BRAUN 10% | TYROSINE,SERINE,PROLINE,GLUTAMIC ACID,ASPARTIC ACID,GLYCINE,ALANINE,ARGININE,TRYPTOPHAN,TH… | B. BRAUN | ساري |
+| AMINOPLASMAL 15 % I.V INFUSION SOLN | TYROSINE,SERINE,GLUTAMIC ACID,ACETYLCYSTEINE,ASPARTIC ACID,PROLINE,ALANINE,HISTIDINE,VALIN… | B. BRAUN | ساري |
+| OLIMEL N9 emulsion for infusion | GLUCOSE,OLIVE OIL,SOYA OIL,ALANINE,ARGININE,LYSINE,LEUCINE,PHENYLALANINE,GLYCINE,VALINE,PR… | Baxalta manufacturing Sarl | ساري |
+| SMOFKABIVEN PERIPHERAL EMULSION for infusion | GLUCOSE,SOYA OIL,TRIGLYCERIDES MEDIUM CHAIN,OLIVE OIL,FISH OIL,ALANINE,ARGININE,GLYCINE,HI… | FRESENIUS KABI | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

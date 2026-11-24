@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 871
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VINBLASTINE"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine: الاستطباب الجديد المتوقع Rhabdomyosarcoma (disease) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -80,11 +80,15 @@ description: "Vinblastine: الاستطباب الجديد المتوقع Rhabdo
 
 حالة السوق: مسوّق. تتوفر ثلاثة تراخيص صالحة لمنتجات أحادية المادة:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| VELBE 10MG VIAL+SOLVENT 10ML | VELBE 10MG VIAL+SOLVENT 10ML (إيلي ليلي) | غير متوفر | غير متوفر (ساري) |
-| ONCOVIN 1MG VIAL+SOLVENT 10ML | ONCOVIN 1MG VIAL+SOLVENT 10ML (إيلي ليلي) | غير متوفر | غير متوفر (ساري) |
-| VINBLASTINE SULPHATE 10MG-10ML VIAL | VINBLASTINE SULPHATE 10MG-10ML VIAL (هوسبيرا أستراليا) | غير متوفر | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VELBE 10MG VIAL+SOLVENT 10ML | VINBLASTINE | ELI LILLY | ساري |
+| ONCOVIN 1MG VIAL+SOLVENT 10ML | VINBLASTINE | ELI LILLY | ساري |
+| VINBLASTINE SULPHATE 10MG-10ML VIAL | VINCRISTINE | HOSPIRA AUSTRALIA | ساري |
+
+<!-- licenses:end -->
 
 ## السمّية الخلوية
 

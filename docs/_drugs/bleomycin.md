@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Bleomycin: الاستطباب الجديد المتوقع ورم ذيل الفرس (cauda equina neoplasm) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -71,9 +71,13 @@ description: "Bleomycin: الاستطباب الجديد المتوقع ورم �
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
-|---------|------|------|-----------|
-| BLEOCIN 15MG VIAL | BLEOCIN 15MG VIAL (الشركة: NIPPON KAYAKU) | غير محدد | غير محدد (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BLEOCIN 15MG VIAL | BLEOMYCIN HYDROCHLORIDE | NIPPON KAYAKU | ساري |
+
+<!-- licenses:end -->
 
 ## السمية الخلوية
 

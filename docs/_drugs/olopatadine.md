@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 613
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Olopatadine: الاستطباب الجديد المتوقع التهاب الملتحمة المصاحب للوردية (Rosacea Conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب الملتحمة …"
 monitor_inn: "OLOPATADINE"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -82,13 +82,17 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 - جميع التراخيص الخمسة سارية، والدواء مسوَّق. ولم تتوفر في البيانات نصوص الاستطباب المعتمدة أو الشكل الصيدلاني.
 
-| رقم الترخيص / اسم المنتج | الشركة المصنّعة | الشكل الصيدلاني | الحالة |
-|---------|------|------|-----------|
-| PATADAY 0.2% OPHTHALMIC SOLUTION | ALCON LABORATORIES | محلول عيني | ساري |
-| OLOPAT 0.1% OPHTHALMIC SOLUTION | JAMJOOM PHARMACEUTICALS COMPANY | محلول عيني | ساري |
-| OLOPAT 0.4 ml ophthalmic solution unit dose | JAMJOOM PHARMACEUTICALS COMPANY | محلول عيني (جرعة وحيدة) | ملغى |
-| PATANOL 0.1% OPHTHALMIC SOLUTION | ALCON LABORATORIES | محلول عيني | ساري |
-| Olopat | JAMJOOM PHARMACEUTICALS COMPANY | غير محدد | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PATADAY 0.2% OPHTHALMIC SOLUTION | OLOPATADINE | ALCON LABORATORIES | ساري |
+| OLOPAT 0.1% OPHTHALMIC SOLUTION | OLOPATADINE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| Olopat | OLOPATADINE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| PATANOL 0.1% OPHTHALMIC SOLUTION | OLOPATADINE | ALCON LABORATORIES | ساري |
+| OLOPAT 0.4 ml ophthamic solution unit dose | OLOPATADINE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -119,7 +123,7 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 <!-- review:begin sa-lic-20261106-olopatadine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي بعد إلغاء التراخيص الحالية في السعودية. / تقييم أهمية التداخلات الدوائية سريريًا بعد تحديد مستويات خطورتها.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي بعد إلغاء التراخيص الحالية في السعودية. / تقييم أهمية التداخلات الدوائية سريريًا بعد تحديد مستويات خطورتها.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-olopatadine-1 -->
 
@@ -131,7 +135,7 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص الحالية في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص الحالية في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85) |
 
 <!-- review:end log -->

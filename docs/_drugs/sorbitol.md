@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 768
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Sorbitol: الاستطباب الجديد المتوقع فرط الحرارة الخبيث الناتج عن الجهد (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (لا يوجد نص استطباب في تراخيص الهيئة العامة للغذاء والدواء)"
 monitor_inn: "SORBITOL"
 predicted_indications: ["exercise-induced malignant hyperthermia"]
@@ -84,11 +84,15 @@ predicted_indications: ["exercise-induced malignant hyperthermia"]
 
 جميع التراخيص الثلاثة سارية.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| SORBIT 5 G POWDER PACKET | SORBIT 5 G POWDER PACKET (Medical Union Pharmaceuticals) | غير محدد | غير محدد |
-| SORBITOL GRANULES 5G-SACHET | SORBITOL GRANULES 5G-SACHET (sanofi-aventis) | غير محدد | غير محدد |
-| SORBITOL IRRIGATION 3.3% IN PLASTIC BAG | SORBITOL IRRIGATION 3.3% IN PLASTIC BAG (McGAW) | غير محدد | غير محدد |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SORBIT 5 G POWDER PACKET | SORBITOL | MEDICAL UNION PHARMACEUTICALS CO | ساري |
+| SORBITOL GRANULES 5G-SACHET | SORBITOL | sanofi-aventis | ساري |
+| SORBITOL IRRIGATION 3.3% IN PLASTIC BAG | SORBITOL | McGAW | ساري |
+
+<!-- licenses:end -->
 
 ---
 

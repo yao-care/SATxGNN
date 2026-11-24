@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 718
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Reserpine: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر مرشح جديد"
 predicted_indications: []
 ---
@@ -72,11 +72,15 @@ predicted_indications: []
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| ADELPHAN ESIDREX TAB | ADELPHAN ESIDREX TAB |  | ساري |
-| BRINERDIN TAB | BRINERDIN TAB |  | ساري |
-| ISOTRIRAUPINE S.P.TAB | ISOTRIRAUPINE S.P.TAB |  | ساري |
+| ADELPHAN ESIDREX TAB | DIHYDRALAZINE, HYDROCHLORTHIAZIDE, RESERPINE | NOVARTIS | ساري |
+| BRINERDIN TAB | CLOPAMIDE, DIHYDROERGOCRISTINE, RESERPINE | NOVARTIS | ساري |
+| ISOTRIRAUPINE S.P.TAB | POTASSIUM CHLORIDE,thiabutazide,RESERPINE,RESINAMINE | ROCHE DIAGNOSTICS | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

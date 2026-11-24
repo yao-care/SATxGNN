@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carvedilol: الاستطباب الجديد المتوقع اعتلال الكلى الناجم عن ارتفاع الضغط الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (التنبؤ من نموذج TxGNN (التعلم العميق)، وقد يعكس أوجه تشابه تعلّمها النموذج بين أمراض مرتبطة، وليس دليلاً بيولوجياً…"
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
@@ -83,13 +83,19 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 جميع التراخيص الخمسة عشر سارية (15 ترخيصاً ساري المفعول من أصل 15). أبرز خمسة منها:
 
-| رقم/اسم الترخيص | اسم المنتج | الشكل الصيدلاني | الشركة المصنعة |
-|---------|------|------|-----------|
-| DILATREND 25MG TABLET | DILATREND 25MG TABLET | أقراص | Delpharm Milano S.r.l |
-| Ravildo 3.125 mg F.C Tablets | Ravildo 3.125 mg F.C Tablets | أقراص مغلفة | UNITED PHARMACEUTICAL COMPANY |
-| CARVOLCAN 6.25 MG TABLET | CARVOLCAN 6.25 MG TABLET | أقراص | PHARMASCIENCE INC. |
-| CARVIDOL 12.5 MG TAB | CARVIDOL 12.5 MG TAB | أقراص | SPIMACO |
-| RIACAVILOL 25MG TABLET | RIACAVILOL 25MG TABLET | أقراص | RIYADH PHARMA |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DILATREND 25MG TABLET | CARVEDILOL | Delpharm Milano S.r.l | ساري |
+| Ravildo 3.125 mg F.C Tablets | CARVEDILOL | UNITED PHARMACEUTICAL COMPANY | ساري |
+| CARVOLCAN 6.25 MG TABLET | CARVEDILOL | PHARMASCIENCE INC. | ساري |
+| CARVIDOL 12.5 MG TAB | CARVEDILOL | SPIMACO | ساري |
+| RIACAVILOL 25MG TABLET | CARVEDILOL | RIYADH PHARMA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 15 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -117,7 +123,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 <!-- review:begin sa-lic-20261106-carvedilol-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ قائم على النموذج فقط (L5) دون أي تجارب سريرية أو أدبيات تخص اعتلال الكلية الناجم عن ارتفاع الضغط الخبيث، كما أن جميع تراخيص المنتج في السعودية ملغاة حالياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 15، منها سارية: 15؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ قائم على النموذج فقط (L5) دون أي تجارب سريرية أو أدبيات تخص اعتلال الكلية الناجم عن ارتفاع الضغط الخبيث، كما أن جميع تراخيص المنتج في السعودية ملغاة حالياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-carvedilol-1 -->
 
@@ -136,7 +142,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن جميع تراخيص المنتج في السعودية ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن جميع تراخيص المنتج في السعودية ملغاة حالياً» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39) |
 
 <!-- review:end log -->

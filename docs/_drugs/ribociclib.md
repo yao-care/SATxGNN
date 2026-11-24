@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 721
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ribociclib: الاستطباب الجديد المتوقع ابيضاض الدم النقوي (Myeloid Leukemia) (مستوى الدليل L4). الاستطباب الأصلي: سرطان الثدي الإيجابي لمستقبلات الهرمون والسلبي لـHER2 (بحسب الأدبيات…"
 monitor_inn: "RIBOCICLIB"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
@@ -84,9 +84,13 @@ predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocyt
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| KISQALI 200 mg Film-Coated Tablet | KISQALI 200 mg Film-Coated Tablet | أقراص مغلفة (حسب اسم المنتج) | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| KISQALI 200 mg Film-Coated Tablet | RIBOCICLIB | NOVARTIS SINGAPORE PHARMACEUTICAL MANUFACTURING PTE. LTD. | ساري |
+
+<!-- licenses:end -->
 
 الترخيص الوحيد (الشركة المصنّعة: Novartis Singapore Pharmaceutical Manufacturing) في حالة **ساري**، أي أن الدواء مسوَّق ولديه ترخيص ساري واحد من أصل ترخيص واحد.
 
@@ -134,7 +138,7 @@ predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocyt
 
 <!-- review:begin sa-lic-20261106-ribociclib-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من وضع الترخيص الملغى وإمكانية إعادة التسجيل في السعودية. / وضع خطة لمراقبة السلامة الدموية والقلبية إذا تقرر الانتقال إلى مرحلة سريرية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من وضع الترخيص الملغى وإمكانية إعادة التسجيل في السعودية. / وضع خطة لمراقبة السلامة الدموية والقلبية إذا تقرر الانتقال إلى مرحلة سريرية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ribociclib-1 -->
 
@@ -146,7 +150,7 @@ predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocyt
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «التحقق من وضع الترخيص الملغى وإمكانية إعادة التسجيل في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «التحقق من وضع الترخيص الملغى وإمكانية إعادة التسجيل في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Indomethacin: الاستطباب الجديد المتوقع متلازمة قصر الأصابع مع التحام الأصابع (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجراب، التهاب الغشاء الزليلي، التهاب غمد الوتر، التهاب المفاص…"
 monitor_inn: "indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
@@ -83,13 +83,19 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 جميع التراخيص الـ17 المسجلة لهذا الدواء **سارية**، والدواء مسوّق في هذا البلد. فيما يلي أبرز خمسة منها (لا تتوفر نصوص الاستطباب المعتمد ولا الأشكال الصيدلانية في البيانات):
 
-| رقم الترخيص / المنتج | الشركة المصنعة | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| INDOMIN 100MG SUPP | Hikma Pharmaceuticals PLC | لبوس 100 ملغ (حسب اسم المنتج) | — | ساري |
-| INDOCID 100 MG SUPP | MERCK SHARP & DOHME | لبوس 100 ملغ (حسب اسم المنتج) | — | ساري |
-| METHACIN SUPP. 100 MG | JPM (الأردن) | لبوس 100 ملغ (حسب اسم المنتج) | — | ساري |
-| ROTHACIN 100MG SUPPOSITORIES | Gulf Pharmaceutical Industries (Julphar) | لبوس 100 ملغ (حسب اسم المنتج) | — | ساري |
-| INDOMETHACIN CAPS 25MG | MISR COMPANY FOR MEDICAL PRODUCTS | كبسولات 25 ملغ (حسب اسم المنتج) | — | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| INDOMIN 100MG SUPP | INDOMETACIN | Hikma Pharmaceuticals PLC | ساري |
+| INDOCID 100 MG SUPP | INDOMETACIN | MERCK SHARP & DOHME | ساري |
+| METHACIN SUPP. 100 MG | INDOMETACIN | The Jordanian Pharmaceutical Manufacturing Medical Equipment Co. Ltd.… | ساري |
+| ROTHACIN 100MG SUPPOSITORIES | INDOMETACIN | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| INDOMETHACIN CAPS 25MG | INDOMETACIN | MISR COMPANY FOR MEDICAL PRODUCTS | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 17 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,7 +131,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 <!-- review:begin sa-lic-20261106-indomethacin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد رابط آلي معقول بين تثبيط COX والعيوب الخلقية في تشكّل الأطراف. / جميع تراخيص الدواء في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 17، منها سارية: 17؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد رابط آلي معقول بين تثبيط COX والعيوب الخلقية في تشكّل الأطراف. / جميع تراخيص الدواء في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-indomethacin-1 -->
 
@@ -145,7 +151,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Indocin (indomethacin) prescribing information, Zyla Life Sciences US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73878376-1d24-423b-9f37-3666e83c95da) |
 
 <!-- review:end log -->

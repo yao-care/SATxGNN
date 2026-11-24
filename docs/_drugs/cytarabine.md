@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 9
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cytarabine: الاستطباب الجديد المتوقع سرطان الرئة صغير الخلايا (small cell lung carcinoma) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 9 (السارية: 9)"
 ---
 
@@ -76,6 +76,20 @@ description: "Cytarabine: الاستطباب الجديد المتوقع سرط�
 | [1332622](https://pubmed.ncbi.nlm.nih.gov/1332622/) | 1992 | مراجعة | Gan To Kagaku Ryoho | مراجعة لمضادات أيض قريبة من السيتارابين (جيمسيتابين وDMDC)، وتشير إلى أن كثيراً من الأورام الصلبة غير حساسة للسيتارابين |
 
 ## معلومات السوق في المملكة العربية السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ALEXAN 1000MG- 20ML VIAL | CYTARABINE | Fareva Unterach GmbH | ساري |
+| ALEXAN 2000MG- 40ML VIAL | CYTARABINE | Fareva Unterach GmbH | ساري |
+| ALEXAN 20MG-1ML VIAL | CYTARABINE | Fareva Unterach GmbH | ساري |
+| ALEXAN 500MG- 10ML | CYTARABINE | Fareva Unterach GmbH | ساري |
+| CYTARABINE 100MG-1ML VIAL | CYTARABINE | HOSPIRA AUSTRALIA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 يُسجَّل السيتارابين في السوق السعودي بحالة «مسوَّق»، وله عدة منتجات مرخّصة محلياً. تُضاف تفاصيل التراخيص من سجلات الترخيص المحلية، ولم يُسجَّل نص استطباب مرتبط بها في البيانات المجمّعة.
 

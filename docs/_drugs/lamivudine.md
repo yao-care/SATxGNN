@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 476
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lamivudine: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الكبد B المزمن، عدوى HIV، الإيدز (من الرسم المعرفي PrimeKG، إذ…"
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
@@ -99,19 +99,23 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 <!-- review:begin sa-lic-20261106-lamivudine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حاليًا أي ترخيص ساري، فقد أُلغيت التراخيص السبعة المسجلة جميعها. ولم يتوفر نص المؤشر المعتمد ولا الشكل الصيدلاني في البيانات.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 7، منها سارية: 7؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حاليًا أي ترخيص ساري، فقد أُلغيت التراخيص السبعة المسجلة جميعها. ولم يتوفر نص المؤشر المعتمد ولا الشكل الصيدلاني في البيانات.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-lamivudine-1 -->
 
-| اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| ZEFFIX 5MG/ML ORAL SOLUTION | GlaxoSmithKline (GSK) | ملغى |
-| HEPIX 100MG F-C TABLETS | Tabuk Pharmaceutical | ساري |
-| TABIVIR 300MG F-C TABLETS | Tabuk Pharmaceutical | ساري |
-| ZEFFIX | Glaxo Operation | ساري |
-| EPIVIR 10 MG/ML ORAL SOLUTION | Bora Pharmaceutical Services | ملغى |
+<!-- licenses:begin -->
 
-(عُرضت 5 من أصل 7 تراخيص.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ZEFFIX 5MG\ML ORAL SOLUTION | LAMIVUDINE | GLAXOSMITHKLINE (GSK) | ساري |
+| HEPIX 100MG F-C TABLETS | LAMIVUDINE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| TABIVIR 300MG F-C TABLETS | LAMIVUDINE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| ZEFFIX | LAMIVUDINE | GLAXO OPERATION | ساري |
+| EPIVIR 10 MG \ ML ORAL SOLUTION | LAMIVUDINE | Bora Pharmaceutical Services Inc | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -142,7 +146,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 <!-- review:begin sa-lic-20261106-lamivudine-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص لاميفودين في السعودية ملغاة، وبيانات السلامة من النشرة ناقصة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 7، منها سارية: 7؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص لاميفودين في السعودية ملغاة، وبيانات السلامة من النشرة ناقصة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-lamivudine-2 -->
 
@@ -161,8 +165,8 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حاليًا أي ترخيص ساري، فقد أُلغيت التراخيص السبعة المسجلة جميعها» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «جميع تراخيص لاميفودين في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حاليًا أي ترخيص ساري، فقد أُلغيت التراخيص السبعة المسجلة جميعها» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص لاميفودين في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
 
 <!-- review:end log -->

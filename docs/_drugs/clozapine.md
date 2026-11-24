@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 208
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLOZAPINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
 description: "Clozapine: الاستطباب الجديد المتوقع الهوس في الاضطراب ثنائي القطب (manic bipolar affective disorder) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
@@ -83,11 +83,15 @@ description: "Clozapine: الاستطباب الجديد المتوقع الهو
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Zapnex | Zapnex (Aurobindo Pharma) | غير مذكور | غير متوفر (ساري) |
-| LEPONEX 25MG TAB | LEPONEX 25MG TAB (Madaus GmbH) | غير مذكور | غير متوفر (ساري) |
-| LEPONEX 100MG TAB | LEPONEX 100MG TAB (Madaus GmbH) | غير مذكور | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Zapnex | CLOZAPINE | Aurobindo Pharma Limited Unit VII | ساري |
+| LEPONEX 25MG TAB | CLOZAPINE | Madaus GmbH | ساري |
+| LEPONEX 100MG TAB | CLOZAPINE | Madaus GmbH | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الثلاثة المسجلة سارية، وجميعها لمنتجات أحادية المادة الفعالة.
 

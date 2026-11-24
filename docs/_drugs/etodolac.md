@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ETODOLAC"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etodolac: الاستطباب الجديد المتوقع خلل التنسج الأكروميزوملي، نوع هنتر-طومسون (acromesomelic dysplasia, Hunter-Thompson type) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -72,9 +72,13 @@ description: "Etodolac: الاستطباب الجديد المتوقع خلل ا
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LODINE 300MG CAPS | LODINE 300MG CAPS | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LODINE 300MG CAPS | ETODOLAC | WYETH | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

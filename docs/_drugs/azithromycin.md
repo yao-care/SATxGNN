@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 89
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Azithromycin: الاستطباب الجديد المتوقع متلازمة فرط لزوجة الدم متعددة النسائل (مستوى الدليل L5). الاستطباب الأصلي: عدوى المكورات العقدية، الالتهاب الرئوي الجرثومي، عدوى المكورات العنقو…"
 monitor_inn: "AZITHROMYCIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
@@ -95,13 +95,20 @@ predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia",
 
 الدواء مسوّق في هذا البلد، ويوجد 18 ترخيصاً ساري المفعول. ويظهر في القائمة 5 تراخيص رئيسية، علماً بأن نصوص المؤشرات المعتمدة وأشكال الجرعات غير متوفرة في البيانات:
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| ZITHROMAX 200MG-5ML SUSP.AFTER RECONSTIT | ZITHROMAX (معلق فموي) | PFIZER | ساري |
-| ZITHROMAX 250MG CAPS | ZITHROMAX (كبسولات) | PFIZER | ساري |
-| ZITHROMAX 500 MG POWDER FOR IV INFUSION | ZITHROMAX (مسحوق للتسريب الوريدي) | PFIZER | ساري |
-| ZIMAX 500MG F.C. TABLETS | ZIMAX (أقراص مغلفة) | SPIMACO | ساري |
-| ZOCIN 250MG CAPSULE | ZOCIN (كبسولات) | The Arab Pharmaceutical Manufacturing | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ZITHROMAX 200MG-5ML SUSP.AFTER RECONSTIT | AZITHROMYCIN | PFIZER | ساري |
+| ZITHROMAX 250MG CAPS | AZITHROMYCIN | PFIZER | ساري |
+| ZITHROMAX 500 MG POWDER FOR IV INFUSION | AZITHROMYCIN | PFIZER | ساري |
+| ZIMAX 500MG F.C. TABLETS | AZITHROMYCIN | SPIMACO | ساري |
+| ZOCIN 250MG CAPSULE | AZITHROMYCIN | The Arab Pharmaceutical Manufacturing PSC Sult | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 18 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

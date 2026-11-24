@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HYDROXYPROGESTERONE CAPROATE"
 drugbank_id: DB06789
 predicted_indications: ["endometriosis of uterus", "renal hypoplasia, bilateral", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "renal hypoplasia (disease)", "cervix endometriosis", "breast fibrocystic disease", "infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly"]
@@ -71,9 +71,13 @@ description: "Hydroxyprogesterone Caproate: الاستطباب الجديد ال
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
-|---------|------|------|-----------|
-| PROLUTON DEPOT AMP 250MG-ML(500mg-2ML) | PROLUTON DEPOT AMP 250MG-ML (500mg-2ML) (شركة باير) | غير محدد | غير محدد (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PROLUTON DEPOT AMP 250MG-ML(500mg-2ML) | HYDROXYPROGESTERONE CAPROATE | BAYER AG | ساري |
+
+<!-- licenses:end -->
 
 الجهة المصنّعة: BAYER AG. الترخيص الوحيد المسجل ساري.
 

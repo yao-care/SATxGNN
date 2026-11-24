@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 857
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Valine: الاستطباب الجديد المتوقع التهاب الأقنية الصفراوية المصلّب (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (مكمل أحماض أمينية ضمن منتجات التغذية الو…"
 monitor_inn: "valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
@@ -86,13 +86,19 @@ predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyp
 
 جميع التراخيص الـ12 سارية (12 ترخيصًا ساريًا من أصل 12). ولم تتوفر بيانات عن الشكل الدوائي أو نص الاستطباب لأي منها. وفيما يلي أبرز خمسة تراخيص:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| RENAMIN INJECTION | RENAMIN INJECTION (Baxter) | غير متوفر | غير متوفر |
-| AMINOPLASMAL B BRAUN 10% | AMINOPLASMAL B BRAUN 10% (B. Braun) | غير متوفر | غير متوفر |
-| AMINOPLASMAL 15 % I.V INFUSION SOLN | AMINOPLASMAL 15 % (B. Braun) | محلول للتسريب الوريدي | غير متوفر |
-| OLIMEL N9 emulsion for infusion | OLIMEL N9 (Baxalta) | مستحلب للتسريب | غير متوفر |
-| SMOFKABIVEN PERIPHERAL EMULSION for infusion | SMOFKABIVEN PERIPHERAL (Fresenius Kabi) | مستحلب للتسريب | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RENAMIN INJECTION | VALINE,LEUCINE,ISOLEUCINE5,METHIONINE,PHENYLALANINE,LYSINE,HISTIDINE,THREONINE,TRYPTOPHAN | BAXTER | ساري |
+| AMINOPLASMAL B BRAUN 10% | TYROSINE,SERINE,PROLINE,GLUTAMIC ACID,ASPARTIC ACID,GLYCINE,ALANINE,ARGININE,TRYPTOPHAN,TH… | B. BRAUN | ساري |
+| AMINOPLASMAL 15 % I.V INFUSION SOLN | TYROSINE,SERINE,GLUTAMIC ACID,ACETYLCYSTEINE,ASPARTIC ACID,PROLINE,ALANINE,HISTIDINE,VALIN… | B. BRAUN | ساري |
+| OLIMEL N9 emulsion for infusion | GLUCOSE,OLIVE OIL,SOYA OIL,ALANINE,ARGININE,LYSINE,LEUCINE,PHENYLALANINE,GLYCINE,VALINE,PR… | Baxalta manufacturing Sarl | ساري |
+| SMOFKABIVEN PERIPHERAL EMULSION for infusion | GLUCOSE,SOYA OIL,TRIGLYCERIDES MEDIUM CHAIN,OLIVE OIL,FISH OIL,ALANINE,ARGININE,GLYCINE,HI… | FRESENIUS KABI | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -112,7 +118,7 @@ predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyp
 
 <!-- review:begin sa-lic-20261106-valine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص المنتجات في السعودية ملغاة، وبيانات السلامة غير مكتملة، مما يمنع الانتقال إلى مرحلة فحص السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 12، منها سارية: 12؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص المنتجات في السعودية ملغاة، وبيانات السلامة غير مكتملة، مما يمنع الانتقال إلى مرحلة فحص السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-valine-1 -->
 
@@ -132,7 +138,7 @@ predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyp
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص المنتجات في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص المنتجات في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

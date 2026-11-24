@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Amylmetacresol: الاستطباب الجديد المتوقع متلازمة ذنب الفرس (cauda equina syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المتاحة (المنتج مطهّر لأقراص الحلق)"
 monitor_inn: "amylmetacresol"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -94,9 +94,13 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| STREPSILS PAIN RELIEF PLUS LOZENGE | STREPSILS PAIN RELIEF PLUS LOZENGE (الشركة: RECKITT BENCKISER HEALTHCARE INTERNATIONAL) | غير مذكور | غير مذكور (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| STREPSILS PAIN RELIEF PLUS LOZENGE | LIDOCAINE HYDROCHLORIDE,AMYLMETACRESOL | RECKITT BENCKISER HEALTHCARE INTERNATIONAL | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -115,7 +119,7 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 <!-- review:begin sa-lic-20261106-amylmetacresol-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ قائم على النموذج الحسابي فقط (مستوى L5) دون أي تجارب أو منشورات، ولا توجد آلية معقولة تربط الدواء بمتلازمة ذنب الفرس أو بأي من التنبؤات العشرة الأولى. كما أن الترخيص السعودي الوحيد ملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ قائم على النموذج الحسابي فقط (مستوى L5) دون أي تجارب أو منشورات، ولا توجد آلية معقولة تربط الدواء بمتلازمة ذنب الفرس أو بأي من التنبؤات العشرة الأولى. كما أن الترخيص السعودي الوحيد ملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-amylmetacresol-1 -->
 
@@ -133,7 +137,7 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن الترخيص السعودي الوحيد ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن الترخيص السعودي الوحيد ملغى» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 416
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HYDROCORTISONE ACETATE"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
 description: "Hydrocortisone Acetate: الاستطباب الجديد المتوقع الثعلبة البقعية (alopecia areata) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
@@ -73,13 +73,19 @@ description: "Hydrocortisone Acetate: الاستطباب الجديد المتو
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ALFACORT 1% CREAM | ALFACORT 1% CREAM (Julphar) | كريم | غير متوفر (ساري) |
-| RIACORT 1% cream | RIACORT 1% cream (Riyadh Pharma) | كريم | غير متوفر (ساري) |
-| HYDROCORTISONE-TABUK 1% CREAM | HYDROCORTISONE-TABUK 1% CREAM (Tabuk) | كريم | غير متوفر (ساري) |
-| ALFACORT 1% OINTMENT | ALFACORT 1% OINTMENT (Julphar) | مرهم | غير متوفر (ساري) |
-| RIACORT | RIACORT (Riyadh Pharma) | غير محدد | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ALFACORT 1% CREAM | HYDROCORTISONE ACETATE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| RIACORT 1% cream | HYDROCORTISONE ACETATE | RIYADH PHARMA | ساري |
+| HYDROCORTISONE-TABUK 1% CREAM | HYDROCORTISONE ACETATE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| ALFACORT 1% OINTMENT | HYDROCORTISONE ACETATE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| RIACORT | HYDROCORTISONE ACETATE | RIYADH PHARMA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 جميع التراخيص الستة سارية.
 

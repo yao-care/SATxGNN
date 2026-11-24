@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BROMOCRIPTINE"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "syndromic myopia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromocriptine: الاستطباب الجديد المتوقع اضطراب خلقي في الارتباط بالسكريات مع نقص في الفيوكوزة (congenital disorder of glycosylation with defective fucosylation) (مستوى الدليل L5). الاستطباب الأصلي: غ…"
 ---
 
@@ -68,9 +68,13 @@ description: "Bromocriptine: الاستطباب الجديد المتوقع اض
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PARLODEL 2.5 MG TAB | PARLODEL 2.5 MG TAB (الشركة المصنعة: نوفارتس) | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PARLODEL 2.5 MG TAB | BROMOCRIPTINE | NOVARTIS | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

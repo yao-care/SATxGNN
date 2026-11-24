@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 550
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methylene Blue: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (Bronchitis) (مستوى الدليل L5). الاستطباب الأصلي: الميتهيموغلوبينية والسلفهيموغلوبينية (بحسب الرسم المعرفي لـ TxGNN، إذ…"
 monitor_inn: "METHYLENE BLUE"
 predicted_indications: ["bronchitis"]
@@ -90,9 +90,13 @@ predicted_indications: ["bronchitis"]
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| METHYLENE BLUE 1%(50MG-5ML) AMP | METHYLENE BLUE 1%(50MG-5ML) AMP (الشركة المصنّعة: HOSPIRA AUSTRALIA، الحالة: ساري) | غير مذكور | غير مذكور |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| METHYLENE BLUE 1%(50MG-5ML) AMP | METHYLENE BLUE | HOSPIRA AUSTRALIA | ساري |
+
+<!-- licenses:end -->
 
 ---
 

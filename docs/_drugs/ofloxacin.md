@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 608
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OFLOXACIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
 description: "Ofloxacin: الاستطباب الجديد المتوقع Hyperamylasemia (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 9 (السارية: 9)"
@@ -44,7 +44,7 @@ description: "Ofloxacin: الاستطباب الجديد المتوقع Hyperamy
 
 <!-- review:begin sa-lic-20261106-ofloxacin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تتوفر **11 منشورًا علميًا** (دراسات مخبرية ونماذج حيوانية)، **ولا توجد أي تجارب سريرية** مسجّلة، والمستحضر **ملغى التسجيل** في السوق السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 9، منها سارية: 9؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تتوفر **11 منشورًا علميًا** (دراسات مخبرية ونماذج حيوانية)، **ولا توجد أي تجارب سريرية** مسجّلة، والمستحضر **ملغى التسجيل** في السوق السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ofloxacin-1 -->
 
@@ -108,13 +108,19 @@ description: "Ofloxacin: الاستطباب الجديد المتوقع Hyperamy
 
 جميع التراخيص التسعة (9 من أصل 9) **سارية**، والدواء مسوّق في هذا البلد. وتفاصيل الشكل الصيدلاني ونص الاستطباب غير متوفرة في البيانات المجمعة.
 
-| رقم الترخيص / المستحضر | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| TARIVID 200MG F-C TAB | SANOFI WINTHROP INDUSTRIE | ساري |
-| OCUFLOXIN 3 mg/ml ophthalmic solution | Pharmaceutical Solution Industries (PSI) | ملغى |
-| OPTIFLOX OPHTHALMIC SOLUTION | JAMJOOM PHARMACEUTICALS | ملغى |
-| JEDCOFLOCIN 200MG TABLETS | JEDCO INTERNATIONAL PHARMACEUTICAL | ساري |
-| OXACIN | RIYADH PHARMA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TARIVID 200MG F-C TAB | OFLOXACIN | SANOFI WINTHROP INDUSTRIE | ساري |
+| JEDCOFLOCIN 200MG TABLETS | OFLOXACIN | JEDCO INTERNATIONAL PHARMACEUTICAL | ساري |
+| OXACIN | OFLOXACIN | RIYADH PHARMA | ساري |
+| EYLOX 0.3% EYE DROPS | OFLOXACIN | Amman Pharmaceutical Industries (API) | ساري |
+| OCUFLOXIN 3 mg/ml ophthamic solution | OFLOXACIN | Pharmaceutical Solution Industries (PSI) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 (يُعرض خمسة من أصل تسعة؛ بقيتها: EYLOX 0.3% وOFLOX 0.3% للعين، وOFLACIN 200MG، وTARIVID للتسريب الوريدي.)
 
@@ -146,7 +152,7 @@ description: "Ofloxacin: الاستطباب الجديد المتوقع Hyperamy
 
 <!-- review:begin sa-lic-20261106-ofloxacin-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «المستحضر ملغى التسجيل بالكامل في السعودية، وتتوفر فلوروكينولونات أحدث (ليفوفلوكساسين، سيبروفلوكساسين، موكسيفلوكساسين) تُعدّ أكثر عملية كمرشحات.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 9، منها سارية: 9؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «المستحضر ملغى التسجيل بالكامل في السعودية، وتتوفر فلوروكينولونات أحدث (ليفوفلوكساسين، سيبروفلوكساسين، موكسيفلوكساسين) تُعدّ أكثر عملية كمرشحات.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ofloxacin-2 -->
 
@@ -164,8 +170,8 @@ description: "Ofloxacin: الاستطباب الجديد المتوقع Hyperamy
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «والمستحضر **ملغى التسجيل** في السوق السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «المستحضر ملغى التسجيل بالكامل في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «والمستحضر **ملغى التسجيل** في السوق السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «المستحضر ملغى التسجيل بالكامل في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ofloxacin Otic (ofloxacin) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42366170-e536-46a1-9735-d76e5820a9de) |
 
 <!-- review:end log -->

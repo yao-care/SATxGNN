@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 542
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mesalazine: الاستطباب الجديد المتوقع نقص الشعر الخلقي مع حثل البقعة الشبابي (مستوى الدليل L5). الاستطباب الأصلي: التهاب القولون التقرحي، مرض الأمعاء الالتهابي، التهاب المستقيم والسين…"
 monitor_inn: "MESALAZINE"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
@@ -89,13 +89,19 @@ predicted_indications: ["congenital hypotrichosis with juvenile macular dystroph
 
 جميع التراخيص الـ14 سارية. أبرزها:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PENTASA XTEND 2 GM SACHET | PENTASA XTEND 2 GM SACHET (Ferring) | — | — |
-| PENTASA 1GM PROLONGED RELEASE GRANULES | PENTASA 1GM PROLONGED RELEASE GRANULES (Ferring) | حبيبات ممتدة المفعول | — |
-| ASACOL 400MG F.C TAB | ASACOL 400MG F.C TAB (Wulfing Pharma) | أقراص مغلفة | — |
-| SALOFALK 4GM-60ML ENEMA | SALOFALK 4GM-60ML ENEMA (Corden Pharma) | حقنة شرجية | — |
-| MEZACOL 400 MG E.C TABLET | MEZACOL 400 MG E.C TABLET (JPM) | أقراص مغلفة معوياً | — |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PENTASA XTEND 2 GM SACHET | MESALAZINE | FERRING | ساري |
+| PENTASA 1GM PROLONGED RELEASE GRANULES | MESALAZINE | FERRING | ساري |
+| ASACOL 400MG F.C TAB | MESALAZINE | WULFING PHARMA | ساري |
+| SALOFALK 4GM-60ML ENEMA | MESALAZINE | CORDEN PHARMA FRIBOURG AG | ساري |
+| MEZACOL 400 MG E.C TABLET | MESALAZINE | The Jordanian Pharmaceutical Manufacturing Medical Equipment Co. Ltd.… | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 14 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 
@@ -114,7 +120,7 @@ predicted_indications: ["congenital hypotrichosis with juvenile macular dystroph
 
 <!-- review:begin sa-lic-20261106-mesalazine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع المؤشرات المتوقعة تستند إلى تنبؤ رسومي بلا تجارب سريرية؛ التهاب المفاصل الروماتويدي هو الأقرب (L4) لكن بأدلة غير مباشرة عن السلفاسالازين لا عن ميسالازين. ولا يوجد حالياً ترخيص ساري في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 14، منها سارية: 14؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع المؤشرات المتوقعة تستند إلى تنبؤ رسومي بلا تجارب سريرية؛ التهاب المفاصل الروماتويدي هو الأقرب (L4) لكن بأدلة غير مباشرة عن السلفاسالازين لا عن ميسالازين. ولا يوجد حالياً ترخيص ساري في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-mesalazine-1 -->
 
@@ -126,7 +132,7 @@ predicted_indications: ["congenital hypotrichosis with juvenile macular dystroph
 
 <!-- review:begin sa-lic-20261106-mesalazine-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم توافق مسار الإعطاء والوضع التنظيمي بعد إلغاء التراخيص. / مراقبة وظائف الكلى والدم خاصةً عند الجمع مع أدوية سامة للكلى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 14، منها سارية: 14؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم توافق مسار الإعطاء والوضع التنظيمي بعد إلغاء التراخيص. / مراقبة وظائف الكلى والدم خاصةً عند الجمع مع أدوية سامة للكلى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-mesalazine-2 -->
 
@@ -138,8 +144,8 @@ predicted_indications: ["congenital hypotrichosis with juvenile macular dystroph
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «ولا يوجد حالياً ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «تقييم توافق مسار الإعطاء والوضع التنظيمي بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «ولا يوجد حالياً ترخيص ساري في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «تقييم توافق مسار الإعطاء والوضع التنظيمي بعد إلغاء التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7) |
 
 <!-- review:end log -->

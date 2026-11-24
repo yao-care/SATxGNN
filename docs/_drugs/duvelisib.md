@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DUVELISIB"
 predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Duvelisib: الاستطباب الجديد المتوقع ليمفوما هودجكين (Hodgkins lymphoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -95,9 +95,13 @@ description: "Duvelisib: الاستطباب الجديد المتوقع ليمف
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Copiktra | Copiktra | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Copiktra | DUVELISIB | CATALENT | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 852
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "UBROGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Ubrogepant: الاستطباب الجديد المتوقع ضمور الجلد الدودي (atrophoderma vermiculata) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -70,9 +70,13 @@ description: "Ubrogepant: الاستطباب الجديد المتوقع ضمو�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Ubrelvy | Ubrelvy (الشركة المصنعة: Forest Laboratories Ireland Limited) | غير محدد | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Ubrelvy | UBROGEPANT | Forest Laboratories Ireland Limited | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنّعة: Forest Laboratories Ireland Limited. يوجد ترخيص واحد، وهو ساري المفعول.
 

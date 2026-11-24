@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ofatumumab: الاستطباب الجديد المتوقع اللمفوما الجُريبية (مستوى الدليل L2). الاستطباب الأصلي: ابيضاض الأرومات اللمفاوية الحاد ومتلازمة ريختر (علاقتان مسجّلتان في ش…"
 ---
 
@@ -95,10 +95,14 @@ description: "Ofatumumab: الاستطباب الجديد المتوقع الل�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ARZERRA | ARZERRA (GLAXO OPERATION) | غير مذكور | نص الاستطباب غير متوفر |
-| Kesimpta | Kesimpta (NOVARTIS Pharma Stein AG) | غير مذكور | نص الاستطباب غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ARZERRA | OFATUMUMAB | GLAXO OPERATION | ساري |
+| Kesimpta | OFATUMUMAB | NOVARTIS Pharma Stein AG | ساري |
+
+<!-- licenses:end -->
 
 ## الاعتبارات المتعلقة بالسلامة
 

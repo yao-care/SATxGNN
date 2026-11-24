@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 229
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Darolutamide: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي متماثل الألائل (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمّعة"
 monitor_inn: "DAROLUTAMIDE"
 predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease"]
@@ -78,9 +78,13 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "multiple en
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| NUBEQA | NUBEQA (الشركة المصنِّعة: Orion Corporation / Orion Pharma) | غير محدد | غير محدد (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NUBEQA | DAROLUTAMIDE | Orion Corporation, Orion Pharma | ساري |
+
+<!-- licenses:end -->
 
 ---
 

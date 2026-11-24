@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 625
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Paliperidone: الاستطباب الجديد المتوقع الحثل الشبكي مع أو بدون شذوذات خارج العينية (مستوى الدليل L5). الاستطباب الأصلي: الفصام، الاضطراب الفصامي الشكل، الاضطراب الفصامي العاطفي، الاضطراب ال…"
 monitor_inn: "PALIPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
@@ -84,13 +84,19 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 جميع التراخيص الـ12 المسجلة لهذا الدواء **سارية**، والدواء مسوَّق. هذه أبرز خمسة منها:
 
-| المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| INVEGA SUSTENNA 75 mg | JANSSEN PHARMACEUTICA N.V. | ساري |
-| INVEGA 6MG EXTENDED-RELEASE TABLETS | JANSSEN-CILAG | ساري |
-| Trevicta 175 mg (معلق ممتد المفعول للحقن) | JANSSEN PHARMACEUTICA N.V. | ملغى |
-| INVEGA SUSTENNA 100 mg | JANSSEN PHARMACEUTICA N.V. | ساري |
-| Palipra | PHARMATHEN INTERNATIONAL | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| INVEGA SUSTENNA 75 mg | PALIPERIDONE | JANSSEN PHARMACEUTICA N.V. | ساري |
+| INVEGA 6MG EXTENDED- RELEASE TABLETS | PALIPERIDONE | JANSSEN-CILAG | ساري |
+| INVEGA SUSTENNA 100 mg | PALIPERIDONE | JANSSEN PHARMACEUTICA N.V. | ساري |
+| Palipra | PALIPERIDONE | PHARMATHEN INTERNATIONAL | ساري |
+| INVEGA 3MG EXTENDED- RELEASE TABLETS | PALIPERIDONE | JANSSEN-CILAG | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -121,7 +127,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 <!-- review:begin sa-lic-20261106-paliperidone-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حالياً ترخيص ساري للدواء في المملكة، وتنقص الحزمة بيانات سلامة النشرة الدوائية، مما يمنع الانتقال إلى مرحلة فحص السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 12، منها سارية: 12؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حالياً ترخيص ساري للدواء في المملكة، وتنقص الحزمة بيانات سلامة النشرة الدوائية، مما يمنع الانتقال إلى مرحلة فحص السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-paliperidone-1 -->
 
@@ -139,7 +145,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري للدواء في المملكة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حالياً ترخيص ساري للدواء في المملكة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

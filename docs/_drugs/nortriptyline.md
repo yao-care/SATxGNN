@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 601
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nortriptyline: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (مستوى الدليل L2). الاستطباب الأصلي: اضطراب القلق، الاضطراب العصابي، اضطراب الكآبة (من الرسم المعرفي لـ Tx…"
 monitor_inn: "NORTRIPTYLINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
@@ -95,11 +95,15 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 
 الدواء مسوَّق في هذا البلد، وجميع التراخيص الثلاثة (3 من 3) سارية.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| NORTRILEN TAB. 25 MG. | NORTRILEN TAB. 25 MG. | H. LUNDBECK | ساري |
-| AVENTYL CAPSULES 10 MG | AVENTYL CAPSULES 10 MG | ELI LILLY | ساري |
-| AVENTYL CAPSULES 25 MG | AVENTYL CAPSULES 25 MG | ELI LILLY | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NORTRILEN TAB. 25 MG. | NORTRIPTYLINE | H. LUNDBECK | ساري |
+| AVENTYL CAPSULES 10 MG | NORTRIPTYLINE | ELI LILLY | ساري |
+| AVENTYL CAPSULES 25 MG | NORTRIPTYLINE | ELI LILLY | ساري |
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 733
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ropinirole: الاستطباب الجديد المتوقع اضطراب فرط الحركة ونقص الانتباه (ADHD) (مستوى الدليل L3). الاستطباب الأصلي: متلازمة تململ الساقين، داء باركنسون"
 monitor_inn: "ROPINIROLE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
@@ -93,15 +93,19 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص السبعة سارية (7 تراخيص سارية من أصل 7). نص الاستطباب المعتمد غير متوفر.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| REQUIP PD 24HOUR 4 mg | REQUIP PD 24HOUR 4 mg prolonged release tablet | أقراص ممتدة المفعول | غير متوفر |
-| REQUIP PD 24HOUR 8 mg | REQUIP PD 24HOUR 8 mg prolonged release tablet | أقراص ممتدة المفعول | غير متوفر |
-| REQUIP PD 24HOUR 2 mg | REQUIP PD 24HOUR 2 mg prolonged release tablet | أقراص ممتدة المفعول | غير متوفر |
-| REQUIP 0.25MG TAB | REQUIP 0.25MG TAB | أقراص | غير متوفر |
-| REQUIP 1MG TAB | REQUIP 1MG TAB | أقراص | غير متوفر |
+<!-- licenses:begin -->
 
-(إجمالي التراخيص 7، والجدول يعرض 5 منها فقط.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| REQUIP PD 24HOUR 4 mg prolonged release tablet | ROPINIROLE | SMIITHKLINE BEECHAM | ساري |
+| REQUIP PD 24HOUR 8 mg prolonged release tablet | ROPINIROLE | SMIITHKLINE BEECHAM | ساري |
+| REQUIP PD 24HOUR 2 mg prolonged release tablet | ROPINIROLE | GLAXOWELLCOME | ساري |
+| REQUIP0.25MG TAB | ROPINIROLE | SMIITHKLINE BEECHAM | ساري |
+| REQUIP 1MG TAB | ROPINIROLE | SMIITHKLINE BEECHAM | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -124,7 +128,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 <!-- review:begin sa-lic-20261106-ropinirole-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الرابط الآلي مع ADHD معقول ويدعمه تقرير حالة ودراسة عشوائية محتملة، لكن تصميم الدراسة ونتائجها غير مؤكدين ولا توجد تجارب مسجلة، لذا يبقى مستوى الأدلة L3. كما أن جميع تراخيص الدواء في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 7، منها سارية: 7؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الرابط الآلي مع ADHD معقول ويدعمه تقرير حالة ودراسة عشوائية محتملة، لكن تصميم الدراسة ونتائجها غير مؤكدين ولا توجد تجارب مسجلة، لذا يبقى مستوى الأدلة L3. كما أن جميع تراخيص الدواء في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ropinirole-1 -->
 
@@ -136,7 +140,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 <!-- review:begin sa-lic-20261106-ropinirole-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم مخاطر السلامة في الفئة العمرية الصغيرة (مثل اضطرابات التحكم في الاندفاع، والنعاس، والتأثيرات العينية). / النظر في وضع الترخيص (الملغى) وإمكانية إعادة التسجيل إن استُكمل المسار.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 7، منها سارية: 7؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم مخاطر السلامة في الفئة العمرية الصغيرة (مثل اضطرابات التحكم في الاندفاع، والنعاس، والتأثيرات العينية). / النظر في وضع الترخيص (الملغى) وإمكانية إعادة التسجيل إن استُكمل المسار.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ropinirole-2 -->
 
@@ -150,8 +154,8 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «النظر في وضع الترخيص (الملغى) وإمكانية إعادة التسجيل إن استُكمل المسار» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «النظر في وضع الترخيص (الملغى) وإمكانية إعادة التسجيل إن استُكمل المسار» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da) |
 
 <!-- review:end log -->

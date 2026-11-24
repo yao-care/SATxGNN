@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 262
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Diltiazem: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا استطباب جديد مرشح"
 predicted_indications: []
 ---
@@ -72,25 +72,29 @@ predicted_indications: []
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| MONO TILDIEM SR 300MG CAPS | MONO TILDIEM SR 300MG CAPS |  | ساري |
-| APO-DILTAZ 60MG TAB | APO-DILTAZ 60MG TAB |  | ساري |
-| DILZEM RETARD | DILZEM RETARD |  | ساري |
-| RIAZEM 240MG CAP | RIAZEM 240MG CAP |  | ساري |
-| NOVO-DILTAZEM 60MG TAB | NOVO-DILTAZEM 60MG TAB |  | ساري |
-| MONO TILDIEM SR 200MG CAPS | MONO TILDIEM SR 200MG CAPS |  | ساري |
-| RIAZEM 30MG F.C. TABLET | RIAZEM 30MG F.C. TABLET |  | ساري |
-| RIAZEM 300MG CAP | RIAZEM 300MG CAP |  | ساري |
-| TILDIEM 60MG TAB | TILDIEM 60MG TAB |  | ساري |
-| APO-DILTAZ 30MG TAB | APO-DILTAZ 30MG TAB |  | ساري |
-| BI-TILDIEM 120MG TAB | BI-TILDIEM 120MG TAB |  | ساري |
-| RIAZEM 60MG F.C TAB | RIAZEM 60MG F.C TAB |  | ساري |
-| RIAZEM 120MG CAP | RIAZEM 120MG CAP |  | ساري |
-| NOVO-DILTAZEM 30MG TAB | NOVO-DILTAZEM 30MG TAB |  | ساري |
-| BI-TILDIEM 90MG TAB | BI-TILDIEM 90MG TAB |  | ساري |
-| DILZEM | DILZEM |  | ساري |
-| RIAZEM 180MG CAP | RIAZEM 180MG CAP |  | ساري |
+| MONO TILDIEM SR 300MG CAPS | DILTIAZEM HYDROCHLORIDE | sanofi-aventis | ساري |
+| APO-DILTAZ 60MG TAB | DILTIAZEM HYDROCHLORIDE | APOTEX | ساري |
+| DILZEM RETARD | DILTIAZEM HYDROCHLORIDE | PFIZER | ساري |
+| RIAZEM 240MG CAP | DILTIAZEM HYDROCHLORIDE | RIYADH PHARMA | ساري |
+| NOVO-DILTAZEM 60MG TAB | DILTIAZEM HYDROCHLORIDE | NOVOPHARM | ساري |
+| MONO TILDIEM SR 200MG CAPS | DILTIAZEM HYDROCHLORIDE | sanofi-aventis | ساري |
+| RIAZEM 30MG F.C. TABLET | DILTIAZEM HYDROCHLORIDE | RIYADH PHARMA | ساري |
+| RIAZEM 300MG CAP | DILTIAZEM HYDROCHLORIDE | RIYADH PHARMA | ساري |
+| TILDIEM 60MG TAB | DILTIAZEM HYDROCHLORIDE | sanofi-aventis | ساري |
+| APO-DILTAZ 30MG TAB | DILTIAZEM HYDROCHLORIDE | APOTEX | ساري |
+| BI-TILDIEM 120MG TAB | DILTIAZEM HYDROCHLORIDE | sanofi-aventis | ساري |
+| RIAZEM 60MG F.C TAB | DILTIAZEM HYDROCHLORIDE | RIYADH PHARMA | ساري |
+| RIAZEM 120MG CAP | DILTIAZEM HYDROCHLORIDE | RIYADH PHARMA | ساري |
+| NOVO-DILTAZEM 30MG TAB | DILTIAZEM HYDROCHLORIDE | NOVOPHARM | ساري |
+| BI-TILDIEM 90MG TAB | DILTIAZEM HYDROCHLORIDE | sanofi-aventis | ساري |
+| DILZEM | DILTIAZEM HYDROCHLORIDE | PFIZER | ساري |
+| RIAZEM 180MG CAP | DILTIAZEM HYDROCHLORIDE | RIYADH PHARMA | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

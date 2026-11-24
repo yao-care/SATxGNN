@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 639
 evidence_level: L1
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Peginterferon Alfa-2B: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L1). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمن (من رسم المعرفة في TxGNN، إذ لا يتوف…"
 monitor_inn: "PEGINTERFERON ALFA-2B"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection"]
@@ -104,13 +104,19 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PEG-INTRON 120MCG\0.5ML VIAL | PEG-INTRON 120MCG\0.5ML VIAL | غير متاح | غير متاح (ساري) |
-| PEG-INTRON 80MCG\0.5ML VIAL | PEG-INTRON 80MCG\0.5ML VIAL | غير متاح | غير متاح (ساري) |
-| PEG-INTRON 100MCG-0.5ML PRE-FILLED PEN | PEG-INTRON 100MCG-0.5ML PRE-FILLED PEN | غير متاح | غير متاح (ساري) |
-| PEG-INTRON 150MCG-0.5ML PRE-FILLED PEN | PEG-INTRON 150MCG-0.5ML PRE-FILLED PEN | غير متاح | غير متاح (ساري) |
-| PEG-INTRON 100MCG\0.5ML VIAL | PEG-INTRON 100MCG\0.5ML VIAL | غير متاح | غير متاح (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PEG-INTRON 120MCG\0.5ML VIAL | PEGINTERFERON ALFA-2B | SCHERING-PLOUGH | ساري |
+| PEG-INTRON 80MCG\0.5ML VIAL | PEGINTERFERON ALFA-2B | SCHERING-PLOUGH | ساري |
+| PEG-INTRON 100MCG-0.5ML PRE-FILLED PEN | PEGINTERFERON ALFA-2B | SCHERING-PLOUGH | ساري |
+| PEG-INTRON 150MCG-0.5ML PRE-FILLED PEN | PEGINTERFERON ALFA-2B | SCHERING-PLOUGH | ساري |
+| PEG-INTRON 100MCG\0.5ML VIAL | PEGINTERFERON ALFA-2B | SCHERING-PLOUGH | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 10 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 جميع التراخيص العشرة (الشركة المصنعة: SCHERING-PLOUGH) سارية.
 
@@ -143,7 +149,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 <!-- review:begin sa-lic-20261106-peginterferon_alfa-2b-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي: إعادة التسجيل أو الاستيراد، بما أن التراخيص الحالية ملغاة. / وضع خطة لمراقبة السلامة (تعداد الدم الكامل بما فيه الصفائح، ووظائف الكبد والغدة الدرقية، والحالة النفسية) ومراجعة التداخلات الدوائية الشديدة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 10، منها سارية: 10؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح الوضع التنظيمي: إعادة التسجيل أو الاستيراد، بما أن التراخيص الحالية ملغاة. / وضع خطة لمراقبة السلامة (تعداد الدم الكامل بما فيه الصفائح، ووظائف الكبد والغدة الدرقية، والحالة النفسية) ومراجعة التداخلات الدوائية الشديدة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-peginterferon_alfa-2b-1 -->
 
@@ -161,7 +167,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي: إعادة التسجيل أو الاستيراد، بما أن التراخيص الحالية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي: إعادة التسجيل أو الاستيراد، بما أن التراخيص الحالية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

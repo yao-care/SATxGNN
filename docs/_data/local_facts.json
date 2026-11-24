@@ -21,11 +21,11 @@
   "items_current": 3504
  },
  "reviews": {
-  "records": 1341,
-  "pages": 765,
-  "public_pages_with_records": 765,
+  "records": 1345,
+  "pages": 767,
+  "public_pages_with_records": 767,
   "by_action": {
-   "correct": 690,
+   "correct": 694,
    "description_level": 2,
    "header_level": 2,
    "mechanism": 635,
@@ -180,6 +180,30 @@
  },
  "recent_reviews": [
   {
+   "t": "Polymyxin B",
+   "u": "/drugs/polymyxin-b/",
+   "s": "«وجميعها منتجات أحادية المكوّن بحسب التصنيف المسجل» ← «وجميعها مستحضرات مركّبة تحتوي على بوليميكسين ب مع مواد…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Lonoctocog Alfa",
+   "u": "/drugs/lonoctocog-alfa/",
+   "s": "«الترخيص الوحيد للمنتج في المملكة العربية السعودية مُلغى.» ← «الترخيص الوحيد للمنتج في المملكة العربية…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Ginseng",
+   "u": "/drugs/ginseng/",
+   "s": "«جميعها لمنتجات أحادية المكوّن» ← «جميعها لمستحضرات مركّبة تحتوي على الجنسنغ مع فيتامينات ومعادن»",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Diphenylpyraline",
+   "u": "/drugs/diphenylpyraline/",
+   "s": "«وكلاهما ساري لمنتج أحادي المادة الفعالة.» ← «وكلاهما ساري لمستحضر مركّب يحتوي على ديفينيل بيرالين مع مواد…",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Warfarin",
    "u": "/drugs/warfarin/",
    "s": "نتيجة إعادة تقييم التنبؤ الرئيسي (Heparin cofactor 2 deficiency)",
@@ -216,162 +240,138 @@
    "d": "2026-11-12"
   },
   {
+   "t": "Zolpidem",
+   "u": "/drugs/zolpidem/",
+   "s": "حُذف: «نظرًا لإلغاء جميع التراخيص»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zinc Oxide",
+   "u": "/drugs/zinc-oxide/",
+   "s": "حُذف: «توضيح الوضع التنظيمي والتجاري للدواء في السعودية بعد إلغاء الترخيص الوحيد»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zinc Gluconate",
+   "u": "/drugs/zinc-gluconate/",
+   "s": "حُذف: «والوضع التنظيمي بعد إلغاء التراخيص»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zanubrutinib",
+   "u": "/drugs/zanubrutinib/",
+   "s": "حُذف: «توضيح وضع الترخيص المحلي الملغى وإمكانية إعادة التسجيل»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zalcitabine",
+   "u": "/drugs/zalcitabine/",
+   "s": "حُذف: «كما أن الدواء ملغى التسجيل في السعودية وله سمية عصبية وبنكرياسية معروفة تحد من جدوى استخدامه»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zafirlukast",
+   "u": "/drugs/zafirlukast/",
+   "s": "حُذف: «كما أن الدواء لا يملك حالياً ترخيصاً ساري المفعول في السعودية»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Xylometazoline",
+   "u": "/drugs/xylometazoline/",
+   "s": "حُذف: «توضيح أسباب إلغاء التراخيص السابقة والمسار التنظيمي لإعادة التسجيل»",
+   "d": "2026-11-06"
+  },
+  {
    "t": "Voxilaprevir",
    "u": "/drugs/voxilaprevir/",
-   "s": "الجدول: VOSEVI 400MG/100MG/100MG F.C.TABLET مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "s": "حُذف: «كما أن الترخيص السعودي الوحيد للمنتج ملغى»",
+   "d": "2026-11-06"
   },
   {
-   "t": "Vinorelbine",
-   "u": "/drugs/vinorelbine/",
-   "s": "الجدول: VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "t": "Voxelotor",
+   "u": "/drugs/voxelotor/",
+   "s": "حُذف: «توضيح أسباب إلغاء الترخيص وتقييم جدوى إعادة التسجيل في السوق السعودية»",
+   "d": "2026-11-06"
   },
   {
-   "t": "Strontium Ranelate",
-   "u": "/drugs/strontium-ranelate/",
-   "s": "الجدول: PROTELOS 2GM GRANULES FOR ORAL SUSP. مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "t": "Vitamin A",
+   "u": "/drugs/vitamin-a/",
+   "s": "حُذف: «وإن حالة الترخيص الملغى قد تحد من المنتجات المتاحة»",
+   "d": "2026-11-06"
   },
   {
-   "t": "Rimexolone",
-   "u": "/drugs/rimexolone/",
-   "s": "الجدول: VEXOL 1% OPTH. SUSPENSION مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "t": "Vildagliptin",
+   "u": "/drugs/vildagliptin/",
+   "s": "حُذف: «لا يوجد حالياً ترخيص ساري في السعودية، فتتعقد أي مسارات تنظيمية»",
+   "d": "2026-11-06"
   },
   {
-   "t": "Revefenacin",
-   "u": "/drugs/revefenacin/",
-   "s": "الجدول: YUPELRI 175 mcg / 3 ml مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "t": "Vidarabine",
+   "u": "/drugs/vidarabine/",
+   "s": "حُذف: «الملغى»",
+   "d": "2026-11-06"
   },
   {
-   "t": "Regorafenib",
-   "u": "/drugs/regorafenib/",
-   "s": "الجدول: STIVARGA 40 mg film-coated tablet مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "t": "Verteporfin",
+   "u": "/drugs/verteporfin/",
+   "s": "حُذف: «الدواء بلا ترخيص ساري في المملكة»",
+   "d": "2026-11-06"
   },
   {
-   "t": "Raloxifene",
-   "u": "/drugs/raloxifene/",
-   "s": "الجدول: RALOSTA 60MG مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Procyclidine",
-   "u": "/drugs/procyclidine/",
-   "s": "الجدول: KEMADRIN TABS 5 MG مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Pralatrexate",
-   "u": "/drugs/pralatrexate/",
-   "s": "الجدول: FOLOTYN 20MG/ML SOLUTION FOR INFUSION مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Palivizumab",
-   "u": "/drugs/palivizumab/",
-   "s": "الجدول: SYNAGIS 100MG\\ML I.M Solution for Injection مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Nitrazepam",
-   "u": "/drugs/nitrazepam/",
-   "s": "الجدول: DUMOLID TAB. 5 MG. مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Ipilimumab",
-   "u": "/drugs/ipilimumab/",
-   "s": "الجدول: YERVOY 5 mg/ml intravenous infusion مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Imiglucerase",
-   "u": "/drugs/imiglucerase/",
-   "s": "الجدول: CEREZYME 400 U powder for concentrate for solution for infusion مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Fluorouracil",
-   "u": "/drugs/fluorouracil/",
-   "s": "الجدول: FLUOROURACIL 500MG-10ML VIAL / 250MG-10ML VIAL مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Flecainide",
-   "u": "/drugs/flecainide/",
-   "s": "الجدول: TAMBOCOR 100MG TAB مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Fidaxomicin",
-   "u": "/drugs/fidaxomicin/",
-   "s": "الجدول: DIFICLIR 200 mg Film Coated Tablet مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Doxazosin",
-   "u": "/drugs/doxazosin/",
-   "s": "الجدول: DOXAGEN 1 / 2 / 4 مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Doripenem",
-   "u": "/drugs/doripenem/",
-   "s": "الجدول: DORIBAX 500MG/VIAL POWDER FOR INFUSION مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "t": "Venetoclax",
+   "u": "/drugs/venetoclax/",
+   "s": "حُذف: «توضيح الوضع التنظيمي للمنتج بعد إلغاء التراخيص»",
+   "d": "2026-11-06"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Voxilaprevir",
-   "u": "/drugs/voxilaprevir/",
-   "s": "الجدول: VOSEVI 400MG/100MG/100MG F.C.TABLET مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "t": "Polymyxin B",
+   "u": "/drugs/polymyxin-b/",
+   "s": "«وجميعها منتجات أحادية المكوّن بحسب التصنيف المسجل» ← «وجميعها مستحضرات مركّبة تحتوي على بوليميكسين ب مع مواد…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Vinorelbine",
-   "u": "/drugs/vinorelbine/",
-   "s": "الجدول: VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "t": "Lonoctocog Alfa",
+   "u": "/drugs/lonoctocog-alfa/",
+   "s": "«الترخيص الوحيد للمنتج في المملكة العربية السعودية مُلغى.» ← «الترخيص الوحيد للمنتج في المملكة العربية…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Strontium Ranelate",
-   "u": "/drugs/strontium-ranelate/",
-   "s": "الجدول: PROTELOS 2GM GRANULES FOR ORAL SUSP. مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "t": "Ginseng",
+   "u": "/drugs/ginseng/",
+   "s": "«جميعها لمنتجات أحادية المكوّن» ← «جميعها لمستحضرات مركّبة تحتوي على الجنسنغ مع فيتامينات ومعادن»",
+   "d": "2026-11-24"
   },
   {
-   "t": "Rimexolone",
-   "u": "/drugs/rimexolone/",
-   "s": "الجدول: VEXOL 1% OPTH. SUSPENSION مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "t": "Diphenylpyraline",
+   "u": "/drugs/diphenylpyraline/",
+   "s": "«وكلاهما ساري لمنتج أحادي المادة الفعالة.» ← «وكلاهما ساري لمستحضر مركّب يحتوي على ديفينيل بيرالين مع مواد…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Revefenacin",
-   "u": "/drugs/revefenacin/",
-   "s": "الجدول: YUPELRI 175 mcg / 3 ml مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "t": "Zolpidem",
+   "u": "/drugs/zolpidem/",
+   "s": "حُذف: «نظرًا لإلغاء جميع التراخيص»",
+   "d": "2026-11-06"
   },
   {
-   "t": "Regorafenib",
-   "u": "/drugs/regorafenib/",
-   "s": "الجدول: STIVARGA 40 mg film-coated tablet مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "t": "Zinc Oxide",
+   "u": "/drugs/zinc-oxide/",
+   "s": "حُذف: «توضيح الوضع التنظيمي والتجاري للدواء في السعودية بعد إلغاء الترخيص الوحيد»",
+   "d": "2026-11-06"
   },
   {
-   "t": "Raloxifene",
-   "u": "/drugs/raloxifene/",
-   "s": "الجدول: RALOSTA 60MG مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "t": "Zinc Gluconate",
+   "u": "/drugs/zinc-gluconate/",
+   "s": "حُذف: «والوضع التنظيمي بعد إلغاء التراخيص»",
+   "d": "2026-11-06"
   },
   {
-   "t": "Procyclidine",
-   "u": "/drugs/procyclidine/",
-   "s": "الجدول: KEMADRIN TABS 5 MG مسجل (ساري) وليس ملغى",
-   "d": "2026-11-12"
+   "t": "Zanubrutinib",
+   "u": "/drugs/zanubrutinib/",
+   "s": "حُذف: «توضيح وضع الترخيص المحلي الملغى وإمكانية إعادة التسجيل»",
+   "d": "2026-11-06"
   }
  ],
  "files": {

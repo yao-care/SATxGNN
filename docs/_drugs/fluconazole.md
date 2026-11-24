@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluconazole: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة الظهاري النقطي (مستوى الدليل L5). الاستطباب الأصلي: داء المبيضّات (الفموي، المهبلي، المريئي، المنتشر)، التهاب السحايا بال…"
 monitor_inn: "FLUCONAZOLE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -83,13 +83,20 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 
 تشمل البيانات 20 ترخيصاً لفلوكونازول، وجميعها **سارية**، والدواء مسوَّق في هذا البلد. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات. أبرز التراخيص:
 
-| رقم الترخيص / اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| FLUCAND 50 MG CAPSULES | Hikma Pharmaceuticals PLC | ساري |
-| FLUCORAL 150MG CAPSULES | Jazeera Pharmaceutical Industries (JPI) | ساري |
-| CANDEUR 2 mg/ml Solution For Infusion | Tabuk Pharmaceutical Manufacturing Co. | ساري |
-| FLOCAZOLE 50 MG CAPSULES | SPIMACO | ساري |
-| FLUCO-SOL 2MG/ML SOLUTION FOR I.V. INFUSION | Pharmaceutical Solution Industries (PSI) | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FLUCAND 50 MG CAPSULES | FLUCONAZOLE | Hikma Pharmaceuticals PLC | ساري |
+| FLUCORAL 150MG CAPSULES | FLUCONAZOLE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| CANDEUR 2 mg/ml Solution For Infusion | FLUCONAZOLE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| FLOCAZOLE 50 MG CAPSULES | FLUCONAZOLE | SPIMACO | ساري |
+| FLUCO-SOL 2MG/ML SOLUTION FOR I.V. INFUSION | FLUCONAZOLE | Pharmaceutical Solution Industries (PSI) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

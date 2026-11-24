@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TENOXICAM"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tenoxicam: الاستطباب الجديد المتوقع Brachydactyly-syndactyly syndrome (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
@@ -77,12 +77,16 @@ description: "Tenoxicam: الاستطباب الجديد المتوقع Brachyda
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| TENOX 20MG CAPS | TENOX 20MG CAPS | غير محدد | غير متوفر |
-| TILCOTIL TAB 20MG | TILCOTIL TAB 20MG | غير محدد | غير متوفر |
-| TILCOTIL 20MG VIAL | TILCOTIL 20MG VIAL | غير محدد | غير متوفر |
-| TILCOTIL SUPP 20MG | TILCOTIL SUPP 20MG | غير محدد | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TENOX 20MG CAPS | TENOXICAM | The Jordanian Pharmaceutical Manufacturing Medical Equipment Co. Ltd.… | ساري |
+| TILCOTIL TAB 20MG | TENOXICAM | ROCHE | ساري |
+| TILCOTIL 20MG VIAL | TENOXICAM | ROCHE | ساري |
+| TILCOTIL SUPP 20MG | TENOXICAM | ROCHE | ساري |
+
+<!-- licenses:end -->
 
 الجهات المصنّعة: الشركة الأردنية للصناعات الدوائية والمعدات الطبية (JPM) لمنتج TENOX، وروش (ROCHE) لمنتجات TILCOTIL.
 

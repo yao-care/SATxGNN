@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 834
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Triamcinolone: الاستطباب الجديد المتوقع ثعلبة الميوسين (alopecia mucinosa) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر نص استطباب في تراخيص الهيئة العامة للغذاء والدواء (SFDA)؛ و…"
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
@@ -85,13 +85,17 @@ predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's f
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| KENACORT-A 40MG\ML INJ | KENACORT-A 40MG\ML INJ (ساري) | غير متوفر | غير متوفر |
-| Naselfast nasal spray suspension | Naselfast nasal spray suspension (ساري) | غير متوفر | غير متوفر |
-| VITREAL S OPHTHALMIC SUSPENSION | VITREAL S OPHTHALMIC SUSPENSION (ساري) | غير متوفر | غير متوفر |
-| CINOKORT 40 MG - 2 ML AMPOULE | CINOKORT 40 MG - 2 ML AMPOULE (ساري) | غير متوفر | غير متوفر |
-| KENALOG IN ORABASE (PASTE 0.1%) | KENALOG IN ORABASE (PASTE 0.1%) (ساري) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| KENACORT-A 40MG\ML INJ | TRIAMCINOLONE ACETONIDE | BRISTOL-MYERS SQUIBB | ساري |
+| Naselfast nasal spray suspension | TRIAMCINOLONE ACETONIDE | AVENTIS PHARMA LIMITED | ساري |
+| VITREAL S OPHTHALMIC SUSPENSION | TRIAMCINOLONE ACETONIDE | Sooft Italia SBA | ساري |
+| CINOKORT 40 MG - 2 ML AMPOULE | TRIAMCINOLONE ACETONIDE | SHIFA PHARMACEUTICAL INDUSTRIES | ساري |
+| KENALOG IN ORABASE (PASTE 0.1%) | TRIAMCINOLONE ACETONIDE | BRISTOL-MYERS SQUIBB | ساري |
+
+<!-- licenses:end -->
 
 ---
 

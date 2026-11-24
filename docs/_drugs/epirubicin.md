@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin: الاستطباب الجديد المتوقع ليمفوما الرئة الأولية (primary pulmonary lymphoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
@@ -75,13 +75,19 @@ description: "Epirubicin: الاستطباب الجديد المتوقع ليم�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|------|
-| EPIRUBICIN HCL | EPIRUBICIN HCL | Intas Pharmaceuticals Limited | ساري |
-| FARMORUBICIN 50MG VIAL | FARMORUBICIN 50MG VIAL | Actavis SpA | ساري |
-| Epirubicin "Ebewe" 50mg/25ml | Epirubicin "Ebewe" 50mg/25ml | Fareva Unterach GmbH | ملغى |
-| EPIRUBICIN JAZEERA 2MG/ML SOLUTION FOR INJECTION | EPIRUBICIN JAZEERA 2MG/ML SOLUTION FOR INJECTION | Thymoorgan GmbH | ساري |
-| Epirubicin "Ebewe" 10mg/5ml | Epirubicin "Ebewe" 10mg/5ml | Fareva Unterach GmbH | ملغى |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| EPIRUBICIN HCL | EPIRUBICIN HYDROCHLORIDE | INTAS PHARMACEUTICALS LIMITED | ساري |
+| FARMORUBICIN 50MG VIAL | EPIRUBICIN HYDROCHLORIDE | ACTAVIS SPA | ساري |
+| Epirubicin “Ebewe” 50mg/25ml | EPIRUBICIN HYDROCHLORIDE | Fareva Unterach GmbH | ساري |
+| EPIRUBICIN JAZEERA 2MG/ML SOLUTION FOR INJECTION | EPIRUBICIN HYDROCHLORIDE | Thymoorgan-GmbH | ساري |
+| Epirubicin “Ebewe” 10mg/5ml | EPIRUBICIN HYDROCHLORIDE | Fareva Unterach GmbH | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 10 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## السمّية الخلوية
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CABERGOLINE"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabergoline: الاستطباب الجديد المتوقع متلازمة الشيخوخة المبكرة مع قصر القامة والوحمات المصطبغة (progeria-short stature-pigmented nevi syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيان…"
 ---
 
@@ -67,6 +67,16 @@ description: "Cabergoline: الاستطباب الجديد المتوقع متل
 لا توجد حالياً أدبيات ذات صلة.
 
 ## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DOSTINEX 0.5MG TABLET | CABERGOLINE | PFIZER | ساري |
+| Lovista | CABERGOLINE | DAR ALDAWA | ساري |
+| NOSTIFIX 0.5 mg TABLET | CABERGOLINE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+
+<!-- licenses:end -->
 
 الدواء مسوّق في المملكة العربية السعودية وفق بيانات التراخيص المحلية المتاحة. تُدرج تفاصيل التراخيص (الأرقام والمنتجات والأشكال الدوائية) في جدول تُنشئه المنظومة من سجلات التراخيص.
 

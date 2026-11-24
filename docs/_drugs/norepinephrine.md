@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 597
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Norepinephrine: الاستطباب الجديد المتوقع Obstructive lung disease (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
@@ -65,7 +65,7 @@ description: "Norepinephrine: الاستطباب الجديد المتوقع Obs
 
 <!-- review:begin sa-lic-20261106-norepinephrine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «ولا توجد بيانات سريرية تُظهر فائدة في مرض الرئة الانسدادي، كما أن إلغاء جميع التراخيص المحلية ونقص بيانات آلية العمل يقلصان الثقة في هذا التنبؤ.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 10، منها سارية: 10؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «ولا توجد بيانات سريرية تُظهر فائدة في مرض الرئة الانسدادي، كما أن إلغاء جميع التراخيص المحلية ونقص بيانات آلية العمل يقلصان الثقة في هذا التنبؤ.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-norepinephrine-1 -->
 
@@ -100,13 +100,19 @@ description: "Norepinephrine: الاستطباب الجديد المتوقع Obs
 
 جميع التراخيص العشرة سارية (10 تراخيص سارية من أصل 10)، ولا يتوفر نص استطباب أو شكل صيدلاني لأي منها. أبرز خمسة منتجات:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| Noradrenalin Sintetica 4mg/4ml without disulphite | Noradrenalin Sintetica | Sintetica SA | ساري |
-| NEVOLEEN 1 mg/ml Ampoule | NEVOLEEN | HIKMA ITALIA SPA | ساري |
-| NOREPIRIN 2 mg/ml Injection | NOREPIRIN | Huons Co., Ltd. | ساري |
-| Norphed | Norphed | تبوك للصناعات الدوائية | ساري |
-| LEVOPHED | LEVOPHED | HOSPIRA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Noradrenalin Sintetica 4mg/4ml without disulphite | NOREPINEPHRINE BITARTRATE | Sintetica SA | ساري |
+| NEVOLEEN 1 mg/ml Ampoule | NOREPINEPHRINE BITARTRATE | HIKMA ITALIA SPA | ساري |
+| NOREPIRIN 2 mg/ml Injection | NOREPINEPHRINE BITARTRATE | Huons Co., Ltd. | ساري |
+| Norphed | NOREPINEPHRINE BITARTRATE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| LEVOPHED | NOREPINEPHRINE BITARTRATE | HOSPIRA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 10 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -136,7 +142,7 @@ description: "Norepinephrine: الاستطباب الجديد المتوقع Obs
 
 <!-- review:begin sa-lic-20261106-norepinephrine-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح وضع الترخيص المحلي، إذ لا يوجد منتج ساري حاليًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 10، منها سارية: 10؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح وضع الترخيص المحلي، إذ لا يوجد منتج ساري حاليًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-norepinephrine-2 -->
 
@@ -150,8 +156,8 @@ description: "Norepinephrine: الاستطباب الجديد المتوقع Obs
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن إلغاء جميع التراخيص المحلية ونقص بيانات آلية العمل يقلصان الثقة في هذا التنبؤ» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «إذ لا يوجد منتج ساري حاليًا» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن إلغاء جميع التراخيص المحلية ونقص بيانات آلية العمل يقلصان الثقة في هذا التنبؤ» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «إذ لا يوجد منتج ساري حاليًا» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396) |
 
 <!-- review:end log -->

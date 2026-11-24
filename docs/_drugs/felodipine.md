@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 342
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FELODIPINE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Felodipine: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي ذو الآلية المتعددة العوامل غير الواضحة (pulmonary hypertension with unclear multifactorial mechanism) (مستوى الدليل L5)."
@@ -68,10 +68,14 @@ description: "Felodipine: الاستطباب الجديد المتوقع ارت�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PLENDIL 5MG S.R. TAB | PLENDIL 5MG S.R. TAB (أسترازينيكا) | غير محدد | غير متوفر (ساري) |
-| PLENDIL 10MG S.R.TAB | PLENDIL 10MG S.R.TAB (أسترازينيكا) | غير محدد | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PLENDIL 5MG S.R. TAB | FELODIPINE | AstraZeneca | ساري |
+| PLENDIL 10MG S.R.TAB | FELODIPINE | AstraZeneca | ساري |
+
+<!-- licenses:end -->
 
 الترخيصان ساريان (2 من 2)، والمصنّع AstraZeneca.
 

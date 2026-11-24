@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 471
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketorolac: الاستطباب الجديد المتوقع اضطراب الصداع (Headache disorder) (مستوى الدليل L1). الاستطباب الأصلي: التهاب الملتحمة التأتبي، والحُليمي، والربيعي"
 monitor_inn: "Ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -106,13 +106,17 @@ predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigemin
 
 الدواء مسوّق في هذا البلد، ولديه 5 تراخيص سارية من أصل 5.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Ketorolac BOS | Ketorolac BOS (Gland Pharma) | غير متوفر | غير متوفر |
-| ACUVAIL ophthalmic solution | ACUVAIL (Allergan) | غير متوفر | غير متوفر |
-| ACULAR LS 0.4% OPHTHALMIC SOLUTION | ACULAR LS 0.4% (Allergan) | محلول للعين | غير متوفر |
-| KETOTHROM | KETOTHROM (Novell) | غير متوفر | غير متوفر |
-| ACULAR 0.5% OPHTHALMIC SOLUTION | ACULAR 0.5% (Allergan) | محلول للعين | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Ketorolac BOS | KETOROLAC TROMETHAMINE | Gland Pharma Limited | ساري |
+| ACUVAIL ophthalmic solution | KETOROLAC TROMETHAMINE | ALLERGAN | ساري |
+| ACULAR LS 0.4% OPHTHALMIC SOLUTION | KETOROLAC TROMETHAMINE | ALLERGAN PHARMACEUTICALS LTD | ساري |
+| KETOTHROM | KETOROLAC TROMETHAMINE | PT. Novell Pharmaceutical Laboratories | ساري |
+| ACULAR 0.5% OPHTHALMIC SOLUTION | KETOROLAC TROMETHAMINE | ALLERGAN PHARMACEUTICALS LTD | ساري |
+
+<!-- licenses:end -->
 
 ---
 

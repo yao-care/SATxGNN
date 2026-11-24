@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ivermectin: الاستطباب الجديد المتوقع داء المبيضات الفرجي المهبلي (مستوى الدليل L5). الاستطباب الأصلي: داء الأسطوانيات (السترونجيلويدات) وداء كلابية الذنب (من الرسم المعرفي…"
 monitor_inn: "IVERMECTIN"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "congenital candidiasis", "neonatal candidiasis", "candida glabrata", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
@@ -88,9 +88,13 @@ predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "a
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| SOOLANTRA 10MG/GM CREAM | SOOLANTRA 10MG/GM CREAM (الشركة المصنعة: Laboratories Galderma ZI Montdésir) | غير مذكور | غير مذكور (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SOOLANTRA 10MG/GM CREAM | IVERMECTIN | Laboratories Galderma ZI Montdésir | ساري |
+
+<!-- licenses:end -->
 
 ---
 

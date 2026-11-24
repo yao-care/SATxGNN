@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iohexol: الاستطباب الجديد المتوقع الأرق (Insomnia) (مستوى الدليل L5). الاستطباب الأصلي: مادة ظليلة يودية للتصوير الشعاعي (استنتاجاً من طبيعة الدواء؛ نصوص الا…"
 monitor_inn: "IOHEXOL"
 predicted_indications: ["insomnia (disease)", "anxiety"]
@@ -91,14 +91,18 @@ predicted_indications: ["insomnia (disease)", "anxiety"]
 
 الدواء مسوَّق، وجميع التراخيص الستة **سارية** (6 من 6). نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة |
-|---------|------|------|
-| ILLUSOF 300 mg/ml solution for injection/infusion | ILLUSOF 300 mg/ml | Tabuk Pharmaceutical Manufacturing Co. |
-| JODASCAN | JODASCAN | Jodas Expoim Pvt Ltd |
-| OMNIPAQUE 350MG/ML SOLUTION FOR INJECTION | OMNIPAQUE 350 mg/ml | GE Healthcare |
-| Illusof | Illusof | Tabuk Pharmaceutical Manufacturing Co. |
-| OMNIPAQUE | OMNIPAQUE | GE Healthcare |
-| OMNIPAQUE 300MG/ML SOLUTION FOR INJECTION | OMNIPAQUE 300 mg/ml | GE Healthcare |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ILLUSOF 300 mg/ml solution for injection/infusion | IOHEXOL | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| JODASCAN | IOHEXOL | Jodas Expoim Pvt Ltd | ساري |
+| OMNIPAQUE 350MG/ML SOLUTION FOR INJECTION | IOHEXOL | GE HEALTHCARE | ساري |
+| Illusof | IOHEXOL | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| OMNIPAQUE | IOHEXOL | GE HEALTHCARE | ساري |
+| OMNIPAQUE 300MG/ML SOLUTION FOR INJECTION | IOHEXOL | GE HEALTHCARE | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -132,7 +136,7 @@ predicted_indications: ["insomnia (disease)", "anxiety"]
 
 <!-- review:begin sa-lic-20261106-iohexol-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إيجاد دليل بيولوجي أو دراسات ما قبل سريرية تدعم صلة الإيوهيكسول بمسارات النوم قبل أي تقييم إضافي. / تقييم الجدوى في ضوء إلغاء جميع التراخيص المحلية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إيجاد دليل بيولوجي أو دراسات ما قبل سريرية تدعم صلة الإيوهيكسول بمسارات النوم قبل أي تقييم إضافي. / تقييم الجدوى في ضوء إلغاء جميع التراخيص المحلية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-iohexol-1 -->
 
@@ -144,7 +148,7 @@ predicted_indications: ["insomnia (disease)", "anxiety"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «تقييم الجدوى في ضوء إلغاء جميع التراخيص المحلية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «تقييم الجدوى في ضوء إلغاء جميع التراخيص المحلية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Omnipaque (iohexol) prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=508c42eb-f5e5-44f1-e063-6294a90a4d1f) |
 
 <!-- review:end log -->

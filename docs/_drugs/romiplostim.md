@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 732
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Romiplostim: الاستطباب الجديد المتوقع اضطراب إفراز الصفائح الدموية الأولي (مستوى الدليل L5). الاستطباب الأصلي: فقر الدم اللاتنسجي مجهول السبب، فقر الدم اللاتنسجي، نقص الصفائح المنا…"
 monitor_inn: "ROMIPLOSTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "platelet-type bleeding disorder", "autosomal dominant macrothrombocytopenia", "Ehlers-Danlos syndrome, fibronectinemic type"]
@@ -92,9 +92,13 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| NPLATE 250 MCG POWDER FOR SOLUTION FOR INJECTION | NPLATE 250 MCG POWDER FOR SOLUTION FOR INJECTION (الشركة: AMGEN TECHNOLOGY) | غير متوفر | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NPLATE 250 MCG POWDER FOR SOLUTION FOR INJECTION | ROMIPLOSTIM | AMGEN TECHNOLOGY | ساري |
+
+<!-- licenses:end -->
 
 ---
 

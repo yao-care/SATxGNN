@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Irinotecan: الاستطباب الجديد المتوقع سرطان الثدي لدى الإناث (مستوى الدليل L5). الاستطباب الأصلي: النقائل الناتجة عن الأورام الخبيثة في القولون؛ الورم الغدي السرطاني ف…"
 monitor_inn: "IRINOTECAN"
 predicted_indications: ["female breast carcinoma"]
@@ -105,13 +105,19 @@ predicted_indications: ["female breast carcinoma"]
 
 جميع التراخيص الستة سارية (6 من 6). نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمّعة.
 
-| رقم الترخيص / اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| IMTUS 20MG/ML SOL. FOR INFUSION | Emcure Pharmaceuticals Ltd. | ساري |
-| CAMPTO 100MG-5ML VIAL FOR I.V INFUSION | PFIZER PERTH PTY LIMITED | ساري |
-| IRINOTICAN EBEWE 20 mg/ml concentrate for solution for infusion | Fareva Unterach GmbH | ساري |
-| IRINOTICAN JAZEERA 20 mg/ml concentrate for solution for infusion | THYMOORGAN PHARMAZIE GMBH | ساري |
-| TECANA 20MG/ML VIAL | Actavis Italy SpA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| IMTUS 20MG/ML SOL. FOR INFUSION | IRINOTECAN | Emcure Pharmaceuticals Ltd. | ساري |
+| CAMPTO 100MG-5ML VIAL FOR I.V INFUSION | IRINOTECAN | PFIZER PERTH PTY LIMITED | ساري |
+| IRINOTICAN EBEWE 20 mg/ml concentrate for solution for infusion | IRINOTECAN | Fareva Unterach GmbH | ساري |
+| IRINOTICAN JAZEERA 20 mg/ml concentrate for solution for infusion | IRINOTECAN | THYMOORGAN PHARMAZIE GMBH | ساري |
+| TECANA 20MG/ML VIAL | IRINOTECAN | Actavis Italy SpA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -159,7 +165,7 @@ predicted_indications: ["female breast carcinoma"]
 
 <!-- review:begin sa-lic-20261106-irinotecan-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد جدوى التسجيل أو التوريد في ظل إلغاء جميع التراخيص الحالية، وتقييم توافق طريق الإعطاء.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد جدوى التسجيل أو التوريد في ظل إلغاء جميع التراخيص الحالية، وتقييم توافق طريق الإعطاء.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-irinotecan-1 -->
 
@@ -171,7 +177,7 @@ predicted_indications: ["female breast carcinoma"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «تحديد جدوى التسجيل أو التوريد في ظل إلغاء جميع التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «تحديد جدوى التسجيل أو التوريد في ظل إلغاء جميع التراخيص الحالية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056) |
 
 <!-- review:end log -->

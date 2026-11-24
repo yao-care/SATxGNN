@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 263
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DIMENHYDRINATE"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
 description: "Dimenhydrinate: الاستطباب الجديد المتوقع الأرتكاريا التحسسية (allergic urticaria) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -72,10 +72,14 @@ description: "Dimenhydrinate: الاستطباب الجديد المتوقع ا�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| VALONTAN TAB 100MG | VALONTAN TAB 100MG (شركة RECORDATI) | أقراص | غير متوفر (الترخيص ساري) |
-| DIZINIL 50MG TAB | DIZINIL 50MG TAB (شركة Gulf Pharmaceutical Industries - Julphar) | أقراص | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VALONTAN TAB 100MG | DIMENHYDRINATE | RECORDATI | ساري |
+| DIZINIL 50MG TAB | DIMENHYDRINATE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

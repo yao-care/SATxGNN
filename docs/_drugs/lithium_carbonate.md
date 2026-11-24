@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 507
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LITHIUM CARBONATE"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
 description: "Lithium Carbonate: الاستطباب الجديد المتوقع خلل التنسج الغضروفي الكاذب (Pseudoachondroplasia) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب ثنائي القطب (وفق الرسم المعرفي PrimeKG؛ لا يوجد نص استطباب في"
@@ -82,9 +82,13 @@ description: "Lithium Carbonate: الاستطباب الجديد المتوقع 
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Licarb | Licarb (الشركة المصنعة: Hetero Labs Limited Unit – III) | غير محدد | غير محدد (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Licarb | LITHIUM CARBONATE | Hetero Labs Limited Unit – III | ساري |
+
+<!-- licenses:end -->
 
 ---
 

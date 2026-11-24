@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LANADELUMAB"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
 description: "Lanadelumab: الاستطباب الجديد المتوقع اضطراب السيربين مع تبلمر سيربين سام (serpinopathy with toxic serpin polymerization) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -68,9 +68,13 @@ description: "Lanadelumab: الاستطباب الجديد المتوقع اضط
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Takhzyro | Takhzyro (الشركة المصنّعة: VETTER PHARMA) | غير محدد | غير متوفر؛ حالة الترخيص: ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Takhzyro | LANADELUMAB | VETTER PHARMA | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنّعة: VETTER PHARMA. الترخيص ساري.
 

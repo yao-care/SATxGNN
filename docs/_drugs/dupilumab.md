@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dupilumab: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -83,10 +83,14 @@ description: "Dupilumab: الاستطباب الجديد المتوقع الته
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| DUPIXENT 300 mg Solution for Injection in Pre-filled syringe | DUPIXENT 300 mg محلول للحقن في محقنة معبأة مسبقاً | غير مسجل | غير مسجل |
-| DUPIXENT 200 mg Solution for Injection in Pre-filled syringe | DUPIXENT 200 mg محلول للحقن في محقنة معبأة مسبقاً | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DUPIXENT 300 mg Solution for Injection in Pre-filled syringe | DUPILUMAB | SANOFI WINTHROP INDUSTRIE | ساري |
+| DUPIXENT 200 mg Solution for Injection in Pre-filled syringe | DUPILUMAB | SANOFI WINTHROP INDUSTRIE | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

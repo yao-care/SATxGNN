@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 803
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Teriflunomide: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
 ---
@@ -72,11 +72,15 @@ predicted_indications: []
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| Teriflunomide BOS | Teriflunomide BOS |  | ساري |
-| Axyla | Axyla |  | ساري |
-| AUBAGIO 14 mg film-coated tablet | AUBAGIO 14 mg film-coated tablet |  | ساري |
+| Teriflunomide BOS | TERIFLUNOMIDE | Natco Pharma Limited | ساري |
+| Axyla | TERIFLUNOMIDE | Shilpa Medicare Ltd | ساري |
+| AUBAGIO 14 mg film-coated tablet | TERIFLUNOMIDE | SANOFI WINTHROP INDUSTRIE | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

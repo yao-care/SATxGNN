@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 637
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pegfilgrastim: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص هيئة الغذاء والدواء السعودية فارغ…"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -83,14 +83,18 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 جميع التراخيص الستة (6 من 6) سارية، والدواء مسوّق في هذا البلد.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| NEUCYTE | NEUCYTE | Biocon Limited | ساري |
-| Neulastim Onpro | Neulastim Onpro | AMGEN MANUFACTURING LIMITED | ساري |
-| Ziextenzo | Ziextenzo | SANDOZ | ساري |
-| Fulphila | Fulphila | Biocon Limited | ساري |
-| Grasustek 6 mg per 0.6 ml | Grasustek 6 mg per 0.6 ml | USV Private Limited Daman | ساري |
-| NEULASTIM 6MG-0.6ML PRE-FILLED SYRINGE | NEULASTIM 6MG-0.6ML PRE-FILLED SYRINGE | ROCHE | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NEUCYTE | PEGFILGRASTIM | Biocon Limited | ساري |
+| Neulastim Onpro | PEGFILGRASTIM | AMGEN MANUFACTURING LIMITED | ساري |
+| Ziextenzo | PEGFILGRASTIM | SANDOZ | ساري |
+| Fulphila | PEGFILGRASTIM | Biocon Limited | ساري |
+| Grasustek 6 mg per 0.6 ml | PEGFILGRASTIM | USV Private Limited Daman | ساري |
+| NEULASTIM 6MG-0.6ML PRE-FILLED SYRINGE | PEGFILGRASTIM | ROCHE | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -118,7 +122,7 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 <!-- review:begin sa-lic-20261106-pegfilgrastim-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم تأثيرات G-CSF الالتهابية والمحفّزة لتكوّن الأوعية على الشبكية، ومراجعة وضع الترخيص الملغى والتداخلات الدوائية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم تأثيرات G-CSF الالتهابية والمحفّزة لتكوّن الأوعية على الشبكية، ومراجعة وضع الترخيص الملغى والتداخلات الدوائية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-pegfilgrastim-1 -->
 
@@ -130,7 +134,7 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «ومراجعة وضع الترخيص الملغى والتداخلات الدوائية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «ومراجعة وضع الترخيص الملغى والتداخلات الدوائية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
 
 <!-- review:end log -->

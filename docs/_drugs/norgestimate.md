@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 600
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Norgestimate: الاستطباب الجديد المتوقع ارتفاع الزنك في البلازما (مستوى الدليل L5). الاستطباب الأصلي: لا يتوفر نص استطباب معتمد في تراخيص الهيئة العامة للغذاء والدواء السع…"
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
@@ -81,9 +81,13 @@ predicted_indications: ["zinc, elevated plasma"]
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CILEST TAB | CILEST TAB (الشركة: JANSSEN-CILAG) | غير متوفر | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CILEST TAB | ETHINYLESTRADIOL, NORGESTIMATE | JANSSEN-CILAG | ساري |
+
+<!-- licenses:end -->
 
 ---
 

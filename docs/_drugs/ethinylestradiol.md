@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-24
 description: "Ethinylestradiol: الاستطباب الجديد المتوقع ارتفاع الزنك في البلازما (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب، هشاشة العظام بعد سن اليأس، هشاشة العظام، ضمور الفرج، التها…"
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
@@ -81,13 +81,20 @@ predicted_indications: ["zinc, elevated plasma"]
 
 يوجد 14 ترخيصًا ساريًا. نصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة في البيانات. أبرز التراخيص:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| LUTTAGEN 0.075MG/0.03MG TABLET | LUTTAGEN 0.075MG/0.03MG TABLET | LABORATORIOS LEON FARMA | ساري |
-| LOGYNON TAB | LOGYNON TAB | BAYER AG | ساري |
-| DIANE-35 TAB | DIANE-35 TAB | BAYER WEIMAR | ساري |
-| ZAHRA TABLET | ZAHRA TABLET | OMAN PHARMACEUTICAL PRODUCTS | ساري |
-| REGULON | REGULON | GEDEON RICHTER | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LUTTAGEN 0.075MG/0.03MG TABLET | ETHINYLESTRADIOL,GESTODENE | LABORATORIOS LEON FARMA, S.A. | ساري |
+| LOGYNON TAB | ETHINYLESTRADIOL,LEVONORGESTREL | BAYER AG | ساري |
+| DIANE-35 TAB | CYPROTERONE ACETATE, ETHINYLESTRADIOL | BAYER WEIMAR | ساري |
+| ZAHRA TABLET | DROSPINENONE,ETHINYLESTRADIOL | OMAN PHARMACEUTICAL PRODUCTS | ساري |
+| REGULON | DESOGESTREL, ETHINYL ESTRADIOL | GEDEON RICHTER | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 14 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

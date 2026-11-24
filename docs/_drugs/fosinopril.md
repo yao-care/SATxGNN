@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fosinopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Fosinopril: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
@@ -83,13 +83,19 @@ description: "Fosinopril: الاستطباب الجديد المتوقع Maligna
 
 ولا تتوفر نصوص الاستطباب المعتمد ولا الأشكال الصيدلانية.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| FOSOPRIL 40 mg tablet | FOSOPRIL 40 mg tablet | Riyadh Pharma | ساري |
-| STARIL 20MG TAB | STARIL 20MG TAB | Spimaco | ساري |
-| STARIL 10MG TAB | STARIL 10MG TAB | Spimaco | ساري |
-| FOSOPRIL 10 mg tablet | FOSOPRIL 10 mg tablet | Riyadh Pharma | ساري |
-| FOSIPRIL 10 mg tablet | FOSIPRIL 10 mg tablet | Gulf Pharmaceutical Industries (Julphar) | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FOSOPRIL 40 mg tablet | FOSINOPRIL SODIUM | RIYADH PHARMA | ساري |
+| STARIL 20MG TAB | FOSINOPRIL SODIUM | SPIMACO | ساري |
+| STARIL 10MG TAB | FOSINOPRIL SODIUM | SPIMACO | ساري |
+| FOSOPRIL 10 mg tablet | FOSINOPRIL SODIUM | RIYADH PHARMA | ساري |
+| FOSIPRIL 10 mg tablet | FOSINOPRIL SODIUM | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

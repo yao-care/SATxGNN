@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cisatracurium: الاستطباب الجديد المتوقع متلازمة ذنب الفرس (Cauda Equina Syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات المجمّعة لهذا التقرير (نصوص المؤشرات في تراخيص…"
 monitor_inn: "CISATRACURIUM"
 predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neurogenic bladder (disease)", "migraine disorder", "thrombotic disease", "irritable bowel syndrome", "migraine with brainstem aura", "mild pre-eclampsia", "severe pre-eclampsia", "neurocirculatory asthenia"]
@@ -82,13 +82,19 @@ predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neuro
 
 الدواء مسوَّق في هذا البلد، وجميع التراخيص السبعة سارية (7 من 7).
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الشركة المصنّعة |
-|---------|------|------|-----------|
-| CIS-TAC | CIS-TAC | غير متوفر | Fresenius Kabi |
-| NIMBEX 5MG\ML INJ | NIMBEX 5MG\ML INJ | غير متوفر | GlaxoSmithKline (GSK) |
-| SISACURE 2MG/ML AMPOULE | SISACURE 2MG/ML AMPOULE | غير متوفر | Hikma Italia |
-| Traxia | Traxia | غير متوفر | MS Pharma |
-| Salocan | Salocan | غير متوفر | Tabuk Pharmaceutical |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CIS-TAC | CISATRACURIUM | Fresenius Kabi manufacturing SA (Pty) Ltd | ساري |
+| NIMBEX 5MG\ML INJ | CISATRACURIUM | GLAXOSMITHKLINE (GSK) | ساري |
+| SISACURE 2MG/ML AMPOULE | CISATRACURIUM | HIKMA ITALIA SPA | ساري |
+| Traxia | CISATRACURIUM | MS Pharma | ساري |
+| Salocan | CISATRACURIUM | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

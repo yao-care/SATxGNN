@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 22
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
 description: "Acyclovir: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (punctate epithelial keratoconjunctivitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 19 على الأقل"
@@ -75,13 +75,20 @@ description: "Acyclovir: الاستطباب الجديد المتوقع الته
 
 تُظهر البيانات المجمّعة 19 ترخيصاً لمنتجات أحادية المكوّن من الأسيكلوفير، جميعها سارية، وقد تكون القائمة جزئية. فيما يلي أبرزها:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة |
-|---------|------|------|
-| ZOVIRAX | ZOVIRAX | GlaxoWellcome |
-| ZOVIRAX 200MG\5ML SUSP | ZOVIRAX 200MG\5ML SUSP | ASPEN |
-| CLOVIR 200MG TAB | CLOVIR 200MG TAB | SPIMACO |
-| ACYCLOVIR JPI 500 mg vial | ACYCLOVIR JPI 500 mg vial | Hikma Farmaceutica |
-| CLOVIRAX 5% cream | CLOVIRAX 5% cream | Middle East Pharmaceutical Industries (MECP) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ZOVIRAX | ACICLOVIR | GLAXOWELLCOME | ساري |
+| ZOVIRAX 200MG\5ML SUSP | ACICLOVIR | ASPEN | ساري |
+| CLOVIR 200MG TAB | ACICLOVIR | SPIMACO | ساري |
+| ACYCLOVIR JPI 500 mg vial | ACICLOVIR | Hikma Farmaceutica | ساري |
+| CLOVIRAX 5% cream | ACICLOVIR | Middle East Pharmaceutical Industries Co. Ltd. (MECP) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

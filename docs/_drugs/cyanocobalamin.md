@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyanocobalamin: الاستطباب الجديد المتوقع مرض أيض البيوتين (Biotin metabolic disease) (مستوى الدليل L5). الاستطباب الأصلي: نقص فيتامين B12 وفقر الدم الخبيث وفقر الدم الناتج عن نقص الحديد وحمض…"
 monitor_inn: "CYANOCOBALAMIN"
 predicted_indications: ["biotin metabolic disease"]
@@ -84,12 +84,16 @@ predicted_indications: ["biotin metabolic disease"]
 
 الدواء مسوّق، وجميع التراخيص الأربعة سارية (4 من 4)، ولا يتوفر نص الاستطباب المعتمد أو الشكل الصيدلاني لأي منها.
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CYTOBION | CYTOBION (Merck Healthcare KGaA) | غير متوفر | غير متوفر |
-| BETOLVEX INJ 1MG | BETOLVEX INJ 1MG (Xellia Pharmaceutical ApS) | غير متوفر | غير متوفر |
-| JECTIN-12 Solution For Injection | JECTIN-12 (Hikma Italia SPA) | حقن | غير متوفر |
-| CYNOVIT 1MG-1ML I.M. Injection | CYNOVIT (Julphar) | حقن عضلية | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CYTOBION | CYANOCOBALAMIN | Merck Healthcare KGaA | ساري |
+| BETOLVEX INJ 1MG | CYANOCOBALAMIN | XELLIA PHARMACEUTICAL APS | ساري |
+| JECTIN-12 Solution For Injection | CYANOCOBALAMIN | HIKMA ITALIA SPA | ساري |
+| CYNOVIT 1MG-1ML I.M. Injection* | CYANOCOBALAMIN | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 480
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "LANSOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole: الاستطباب الجديد المتوقع Duodenal obstruction (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 11 (السارية: 11)"
@@ -84,13 +84,19 @@ description: "Lansoprazole: الاستطباب الجديد المتوقع Duode
 
 نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمّعة. أبرز خمسة تراخيص:
 
-| رقم الترخيص | اسم المنتج | شكل الجرعة | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ULTRAZOLE | ULTRAZOLE (Riyadh Pharma) | غير متوفر | غير متوفر |
-| TAKEPRON 15MG CAP. | TAKEPRON 15MG CAP. (APM) | غير متوفر | غير متوفر |
-| LANZOR 30 MG CAPSUL | LANZOR 30 MG CAPSUL (Sanofi Winthrop) | غير متوفر | غير متوفر |
-| LONZET 30MG CAPSULES | LONZET 30MG CAPSULES (Tabuk) | غير متوفر | غير متوفر |
-| LANSOMID 30 MG CAPSULE | LANSOMID 30 MG CAPSULE (Middle East Pharmaceutical) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ULTRAZOLE | LANSOPRAZOLE | RIYADH PHARMA | ساري |
+| TAKEPRON 15MG CAP. | LANSOPRAZOLE | APM | ساري |
+| LANZOR 30 MG CAPSUL | LANSOPRAZOLE | SANOFI WINTHROP INDUSTRIE | ساري |
+| LONZET 30MG CAPSULES | LANSOPRAZOLE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| LANSOMID 30 MG CAPSULE | LANSOPRAZOLE | Middle East Pharmaceutical and Chemical Industries and Medical Applian… | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -117,7 +123,7 @@ description: "Lansoprazole: الاستطباب الجديد المتوقع Duode
 
 <!-- review:begin sa-lic-20261106-lansoprazole-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في السعودية ملغاة، ولم تتوفر نشرة الدواء لإجراء فحص السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 11، منها سارية: 11؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في السعودية ملغاة، ولم تتوفر نشرة الدواء لإجراء فحص السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-lansoprazole-1 -->
 
@@ -139,7 +145,7 @@ description: "Lansoprazole: الاستطباب الجديد المتوقع Duode
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

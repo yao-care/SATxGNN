@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 821
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tocilizumab: الاستطباب الجديد المتوقع التهاب الفقار اللاصق (مستوى الدليل L3). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، التهاب المفاصل مجهول السبب لدى الأحداث، ا…"
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
@@ -95,10 +95,14 @@ predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "in
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ACTEMRA 20 MG/ML Solution for injection/infusion | ACTEMRA 20 MG/ML (شركة Chugai) | محلول للحقن/التسريب | غير متوفر؛ الحالة: ساري |
-| ACTEMRA 162 mg/0.9 ml solution for injection in pre-filled syringe | ACTEMRA 162 mg/0.9 ml (شركة Vetter Pharma) | محقنة معبأة مسبقاً | غير متوفر؛ الحالة: ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ACTEMRA 20 MG/ML Solution for injection/infusion | TOCILIZUMAB | CHUGAI PHARMACEUTICAL CO LTD | ساري |
+| ACTEMRA 162 mg/0.9 ml solution for injection in pre-filled syringe | TOCILIZUMAB | VETTER PHARMA | ساري |
+
+<!-- licenses:end -->
 
 ---
 

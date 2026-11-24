@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 82
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atosiban: الاستطباب الجديد المتوقع الزرق الوراثي الأولي (مستوى الدليل L5). الاستطباب الأصلي: تأخير الولادة المبكرة (مثبّط للمخاض)، وفق المعلومات الدوائية المتاحة؛…"
 monitor_inn: "ATOSIBAN"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "visceral calciphylaxis"]
@@ -80,11 +80,15 @@ predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "c
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| TRACTOCILE concentrate for solution for infusion | TRACTOCILE concentrate for solution for infusion (Ferring) | غير محدد | غير محدد | ساري |
-| PREMABAN | PREMABAN (Ever Pharma Jena GmbH) | غير محدد | غير محدد | ساري |
-| TRACTOCILE solution for injection | TRACTOCILE solution for injection (Ferring) | غير محدد | غير محدد | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TRACTOCILE concentrate for solution for infusion | ATOSIBAN | FERRING | ساري |
+| PREMABAN | ATOSIBAN | EVER PHARMA JENA GMBH | ساري |
+| TRACTOCILE solution for injection | ATOSIBAN | FERRING | ساري |
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ertapenem"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: الاستطباب الجديد المتوقع التهاب المفاصل الجرثومي (bacterial arthritis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -80,9 +80,13 @@ description: "Ertapenem: الاستطباب الجديد المتوقع الته
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| INVANZ 1 gm Powder for Concentrate for Solution for Infusion | INVANZ 1 gm (الشركة المصنعة: FAREVA MIRABEL) | غير محدد | غير متوفر؛ حالة الترخيص: ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| INVANZ 1 gm Powder for Concentrate for Solution for Infusion | ERTAPENEM SODIUM | FAREVA MIRABEL | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنّعة: FAREVA MIRABEL. الترخيص ساري، وعدد التراخيص المسجلة واحد.
 

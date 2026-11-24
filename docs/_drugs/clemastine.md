@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CLEMASTINE"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clemastine: الاستطباب الجديد المتوقع مرض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -70,11 +70,15 @@ description: "Clemastine: الاستطباب الجديد المتوقع مرض 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| TAVEGYL SYRUP 1MG-10 CC | TAVEGYL SYRUP 1MG-10 CC | — | — |
-| TAVEGYL TAB 1MG | TAVEGYL TAB 1MG | — | — |
-| TAVEGYL INJ 2MG-2ML | TAVEGYL INJ 2MG-2ML | — | — |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TAVEGYL SYRUP 1MG-10 CC | CLEMASTINE | NOVARTIS | ساري |
+| TAVEGYL TAB 1MG | CLEMASTINE | NOVARTIS | ساري |
+| TAVEGYL INJ 2MG-2ML | CLEMASTINE | NOVARTIS | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 714
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "reboxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
 description: "Reboxetine: الاستطباب الجديد المتوقع الصرع الالتوائي الحميد الانتيابي في الرضع (benign paroxysmal torticollis of infancy) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -68,9 +68,13 @@ description: "Reboxetine: الاستطباب الجديد المتوقع الص�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
-|---------|------|------|-----------|
-| EDRONAX 4MG TAB | EDRONAX 4MG TAB (الشركة: PFIZER) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| EDRONAX 4MG TAB | REBOXETINE MESILATE | PFIZER | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

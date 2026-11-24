@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 671
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Posaconazole: الاستطباب الجديد المتوقع داء المتكيسات الرئوية (Pneumocystosis) (مستوى الدليل L5). الاستطباب الأصلي: داء الفطار الملوِّن، داء الكوكسيديوديات، داء الرشاشيات، داء المبيضات،…"
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -91,11 +91,15 @@ predicted_indications: ["pneumocystosis"]
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Posacore | Posacore (الشركة: Haimen Pharma Inc) | غير متوفر | غير متوفر (ترخيص ساري) |
-| NOXAFIL | NOXAFIL (الشركة: N.V. Organon) | غير متوفر | غير متوفر (ترخيص ساري) |
-| Vertella | Vertella (الشركة: AET Laboratories Pvt. Ltd.) | غير متوفر | غير متوفر (ترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Posacore | POSACONAZOLE | Haimen pharma Inc | ساري |
+| NOXAFIL | POSACONAZOLE | N.V. Organon | ساري |
+| Vertella | POSACONAZOLE | AET Laboratories Pvt. Ltd. | ساري |
+
+<!-- licenses:end -->
 
 ---
 

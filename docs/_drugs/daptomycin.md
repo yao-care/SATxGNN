@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DAPTOMYCIN"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Daptomycin: الاستطباب الجديد المتوقع الفصال العظمي (osteoarthritis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -80,12 +80,16 @@ description: "Daptomycin: الاستطباب الجديد المتوقع الف�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| DACI | DACI | غير متوفر | غير متوفر | ساري |
-| DOCINE 500 mg Vial | DOCINE 500 mg Vial | غير متوفر | غير متوفر | ساري |
-| DAPTOCIDAL | DAPTOCIDAL | غير متوفر | غير متوفر | ساري |
-| DAPTOMYCIN BOS | DAPTOMYCIN BOS | غير متوفر | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DACI | DAPTOMYCIN | MS Pharma | ساري |
+| DOCINE 500 mg Vial | DAPTOMYCIN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| DAPTOCIDAL | DAPTOMYCIN | Gensenta İlaç Sanayi ve Ticaret A.Ş | ساري |
+| DAPTOMYCIN BOS | DAPTOMYCIN | Gland Pharma Limited | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الأربعة سارية.
 

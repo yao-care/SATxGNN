@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levothyroxine: الاستطباب الجديد المتوقع نقص تنسج/عدم تكوّن الكلى (مستوى الدليل L5). الاستطباب الأصلي: قصور الغدة الدرقية (relation مسجلة في الرسم المعرفي؛ نصوص الاستطباب ف…"
 ---
 
@@ -78,13 +78,19 @@ description: "Levothyroxine: الاستطباب الجديد المتوقع نق
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| L- THYROX HEXAL 100MCG TABLETS | L- THYROX HEXAL 100MCG TABLETS (HEXAL) | غير متوفر | غير متوفر |
-| ELTROXIN 0.1MG TAB | ELTROXIN 0.1MG TAB (ASPEN Bad Oldesloe GmbH) | غير متوفر | غير متوفر |
-| ELTROXIN 0.05MG TAB | ELTROXIN 0.05MG TAB (ASPEN Bad Oldesloe GmbH) | غير متوفر | غير متوفر |
-| L- THYROX HEXAL 50MCG TABLETS | L- THYROX HEXAL 50MCG TABLETS (HEXAL) | غير متوفر | غير متوفر |
-| L- THYROX HEXAL 150MCG TABLETS | L- THYROX HEXAL 150MCG TABLETS (HEXAL) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| L- THYROX HEXAL 100MCG TABLETS | LEVOTHYROXINE SODIUM | HEXAL | ساري |
+| ELTROXIN 0.1MG TAB | LEVOTHYROXINE SODIUM | ASPEN Bad Oldesloe GmbH | ساري |
+| ELTROXIN 0.05MG TAB | LEVOTHYROXINE SODIUM | ASPEN Bad Oldesloe GmbH | ساري |
+| L- THYROX HEXAL 50MCG TABLETS | LEVOTHYROXINE SODIUM | HEXAL | ساري |
+| L- THYROX HEXAL 150MCG TABLETS | LEVOTHYROXINE SODIUM | HEXAL | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 يوجد ترخيص سادس لمنتج EUTHYROX (Merck Healthcare KGaA) بالوضع نفسه. جميع التراخيص الستة سارية ولمستحضرات أحادية المكوّن.
 

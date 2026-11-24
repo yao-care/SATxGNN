@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 557
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: الاستطباب الجديد المتوقع حب الشباب (acne (disease)) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -80,13 +80,20 @@ description: "Miconazole: الاستطباب الجديد المتوقع حب ا
 
 يتوفر ميكونازول في السوق السعودي، وقد سُجلت 20 رخصة سارية في البيانات المحلية (قد تكون القائمة جزئية). أبرز المستحضرات:
 
-| رقم الترخيص / اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| DAKTARIN CREAM 2% | JANSSEN PHARMACEUTICA N.V. | ساري |
-| DAKTARIN 2% LOTION | LUSOMEDICAMENTA | ساري |
-| GYNO-DAKTARIN 400MG VAGINAL CAPSULE | CATALENT | ساري |
-| MICONAZ 2% CREAM | MEDICAL UNION PHARMACEUTICALS CO | ساري |
-| MIKOZAL 2% cream | Gulf Pharmaceutical Industries (Julphar) | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DAKTARIN CREAM 2% | MICONAZOLE NITRATE | JANSSEN PHARMACEUTICA N.V. | ساري |
+| DAKTARIN 2%LOTION | MICONAZOLE NITRATE | LUSOMEDICAMENTA | ساري |
+| GYNO-DAKTARIN 400MG VAGINAL CAPSULE | MICONAZOLE NITRATE | CATALENT | ساري |
+| MICONAZ 2% CREAM | MICONAZOLE NITRATE | MEDICAL UNION PHARMACEUTICALS CO | ساري |
+| MIKOZAL 2% cream | MICONAZOLE NITRATE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

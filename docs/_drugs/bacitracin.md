@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 91
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bacitracin: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (مستوى الدليل L5). الاستطباب الأصلي: التهاب القرنية، التهاب القرنية والملتحمة، التهاب الجفن والملتحمة"
 monitor_inn: "bacitracin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
@@ -84,13 +84,19 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 
 جميع التراخيص السبعة سارية، أي 7 تراخيص سارية من أصل 7، والدواء مسوّق. ولم يتوفر نص الاستطباب المعتمد ولا الشكل الصيدلاني لهذه التراخيص في البيانات المجمّعة.
 
-| اسم المنتج | الشركة المصنعة | الحالة |
-|------|------|------|
-| BANEOCIN OINTMENT | P&G Health Austria GmbH & Co. OG | ساري |
-| BATRAMYCIN POWDER | GEISTLICH | ساري |
-| BANEOCIN POWDER | SANDOZ | ساري |
-| POLYSPECTRAN EYE & EAR OINTMENT | DR. THILO LABORATORIES | ساري |
-| MULTISOL AEROSOL SPRAY (150 GM) | ARAB CENTER FOR PHARMACEUTICALS & CHEMICAL IND. CO. | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BANEOCIN OINTMENT | BACITRACIN, NEOMYCIN SULFATE | P&G Health Austria GmbH & Co. OG | ساري |
+| BATRAMYCIN POWDER | BACITRACIN, NEOMYCIN SULFATE | GEISTLICH | ساري |
+| BANEOCIN POWDER | NEOMYCIN SULFATE,BACITRACIN | SANDOZ | ساري |
+| POLYSPECTRAN EYE & EAR OINTMENT | POLYMYXIN B,BACITRACIN,NEOMYCIN SULFATE | DR. THILO LABORATORIES | ساري |
+| MULTISOL AEROSOL SPRAY (150 GM ) | BACITRACIN, NEOMYCIN SULFATE, POLYMYXIN B SULFATE | ARAB CENTER FOR PHARMACEUTICALS & CHEMICAL IND. CO. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

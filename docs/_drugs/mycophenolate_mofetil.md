@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 574
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mycophenolate Mofetil: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L2). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف عامةً: الوقاية من رفض الأعضاء ا…"
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -100,13 +100,19 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 
 جميع التراخيص الـ11 المسجلة سارية (11 ترخيصًا صالحًا من أصل 11)، والدواء مسوّق في هذا البلد. بيانات الشكل الدوائي ونص الاستطباب غير متوفرة في السجلات.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| MYORA 500 MG FILM COATED TABLET | MYORA 500 MG | APM | ساري |
-| MELNOLATE 250 mg Capsule | MELNOLATE 250 mg | Apotex Research | ساري |
-| MOFETAB 500 MG FILM COATED TABLET | MOFETAB 500 mg | Tabuk Pharmaceutical | ساري |
-| ACCEPT 500MG F.C.TAB | ACCEPT 500 mg | Intas Pharmaceuticals | ساري |
-| CELLCEPT 500 mg tablet | CELLCEPT 500 mg | Delpharm Milano | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MYORA 500 MG FILM COATED TABLET | MYCOPHENOLATE MOFETIL | APM | ساري |
+| MELNOLATE 250 mg Capsule | MYCOPHENOLATE MOFETIL | APOTEX RESEARCH PRIVATE LIMITED | ساري |
+| MOFETAB 500 MG FILM COATED TABLET | MYCOPHENOLATE MOFETIL | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| ACCEPT 500MG F.C.TAB | MYCOPHENOLATE MOFETIL | INTAS PHARMACEUTICALS LIMITED | ساري |
+| CELLCEPT 500 mg tablet | MYCOPHENOLATE MOFETIL | Delpharm Milano S.r.l | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -139,7 +145,7 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 
 <!-- review:begin sa-lic-20261106-mycophenolate_mofetil-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد سبب إلغاء التراخيص السعودية وإمكانية توفر الدواء في السوق. / تقييم مراجعة منهجية للتجارب المرتبطة مباشرة بـMMF في HIV.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 11، منها سارية: 11؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد سبب إلغاء التراخيص السعودية وإمكانية توفر الدواء في السوق. / تقييم مراجعة منهجية للتجارب المرتبطة مباشرة بـMMF في HIV.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-mycophenolate_mofetil-1 -->
 
@@ -151,7 +157,7 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «تحديد سبب إلغاء التراخيص السعودية وإمكانية توفر الدواء في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «تحديد سبب إلغاء التراخيص السعودية وإمكانية توفر الدواء في السوق» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
 
 <!-- review:end log -->

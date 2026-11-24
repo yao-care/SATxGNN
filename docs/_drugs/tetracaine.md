@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 805
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tetracaine: الاستطباب الجديد المتوقع التهاب الجلد الضموري المزمن الطرفي (Acrodermatitis chronica atrophica… (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد (Dermatitis) — بحسب الرسم المعرفي، إذ إن …"
 monitor_inn: "Tetracaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
@@ -110,11 +110,15 @@ predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermato
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| MINIMS TETRACAINE HCL 0.5% | MINIMS TETRACAINE HCL 0.5% (Chauvin Bausch & Lomb) | غير مذكور | غير مذكور | ساري |
-| MINIMS TETRACAINE HCL 1% | MINIMS TETRACAINE HCL 1% (Chauvin Bausch & Lomb) | غير مذكور | غير مذكور | ساري |
-| TETRACAINE DROPS | TETRACAINE DROPS (Alcon Couvreur) | غير مذكور | غير مذكور | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MINIMS TETRACAINE HCL 0.5% | TETRACAINE HYDROCHLORIDE | CHAUVIN BAUSCH & LOMB | ساري |
+| MINIMS TETRACAINE HCL 1% | TETRACAINE HYDROCHLORIDE | CHAUVIN BAUSCH & LOMB | ساري |
+| TETRACAINE DROPS | TETRACAINE HYDROCHLORIDE | ALCON COUVREUR | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -148,7 +152,7 @@ predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermato
 
 <!-- review:begin sa-lic-20261106-tetracaine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد وضع الترخيص المحلي والمسار الدوائي المتاح، إذ إن جميع المنتجات الحالية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد وضع الترخيص المحلي والمسار الدوائي المتاح، إذ إن جميع المنتجات الحالية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-tetracaine-1 -->
 
@@ -160,7 +164,7 @@ predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermato
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «إذ إن جميع المنتجات الحالية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «إذ إن جميع المنتجات الحالية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: tetracaine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01fba5f8-a60a-444c-9abd-299540b8815a) |
 
 <!-- review:end log -->

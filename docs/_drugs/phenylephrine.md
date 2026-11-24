@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 653
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Phenylephrine: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (Nasal cavity disease) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…"
 monitor_inn: "Phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
@@ -90,13 +90,19 @@ predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgi
 
 الدواء مسوَّق في هذا البلد، ولديه 9 تراخيص سارية من أصل 9.
 
-| اسم الترخيص/المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| ISOPTO FRIN EYE DROPS 0.12% | ALCON COUVREUR | ساري |
-| Phenylephrine PSI | PHARMACEUTICAL SOLUTIONS INDUSTRY | ساري |
-| Iphen | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
-| PHENYLEPHRINE | LABORATOIRE AGUETTANT | ساري |
-| MYDFRIN 2.5% DROPS | ALCON LABORATORIES | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ISOPTO FRIN EYE DROPS 0.12% | PHENYLEPHRINE HYDROCHLORIDE | ALCON COUVREUR | ساري |
+| Phenylephrine PSI | PHENYLEPHRINE HYDROCHLORIDE | PHARMACEUTICAL SOLUTIONS INDUSTRY | ساري |
+| Iphen | PHENYLEPHRINE HYDROCHLORIDE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| PHENYLEPHRINE | PHENYLEPHRINE HYDROCHLORIDE | LABORATOIRE AGUETTANT | ساري |
+| MYDFRIN 2.5% DROPS | PHENYLEPHRINE HYDROCHLORIDE | ALCON LABORATORIES | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -126,7 +132,7 @@ predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgi
 
 <!-- review:begin sa-lic-20261106-phenylephrine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم جدوى إعادة التسجيل في السعودية في ضوء إلغاء جميع التراخيص. / جمع أدلة سريرية تعزل أثر فينيليفرين عن المنتجات المركبة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 9، منها سارية: 9؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم جدوى إعادة التسجيل في السعودية في ضوء إلغاء جميع التراخيص. / جمع أدلة سريرية تعزل أثر فينيليفرين عن المنتجات المركبة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-phenylephrine-1 -->
 
@@ -140,7 +146,7 @@ predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgi
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «تقييم جدوى إعادة التسجيل في السعودية في ضوء إلغاء جميع التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «تقييم جدوى إعادة التسجيل في السعودية في ضوء إلغاء جميع التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

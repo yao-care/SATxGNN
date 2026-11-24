@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 547
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methotrexate: الاستطباب الجديد المتوقع ورم الرئة الأرومي (Pulmonary blastoma) (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم الليمفاوي الحاد، التهاب المفاصل الروماتويدي، الصدفية، الو…"
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
@@ -88,13 +88,19 @@ predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "wel
 
 جميع التراخيص الـ18 **سارية** (18 ترخيصًا ساريًا من أصل 18)، والدواء مسوّق. نص الاستطباب المعتمد والشكل الصيدلاني غير متوفرين في البيانات. أبرز التراخيص:
 
-| رقم الترخيص / اسم المنتج | الشركة المصنعة | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| METHOTREXATE "EBEWE" 100MG-ML VIAL | Fareva Unterach GmbH | غير متوفر | غير متوفر | ساري |
-| METHOTREXATE ROGER BELLON 500MG VIAL | SANOFI WINTHROP INDUSTRIE | غير متوفر | غير متوفر | ساري |
-| Methotrexate SPC | Cipla Limited | غير متوفر | غير متوفر | ساري |
-| Jylamvo | Quay Pharmaceuticals Limited | غير متوفر | غير متوفر | ساري |
-| METOJECT 50 mg/ml solution for injection | ONCOTEC PHARMA PRODUCTION GmbH | غير متوفر | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| METHOTREXATE "EBEWE" 100MG-ML VIAL | METHOTREXATE | Fareva Unterach GmbH | ساري |
+| METHOTREXATE ROGER BELLON 500MG VIAL | METHOTREXATE | SANOFI WINTHROP INDUSTRIE | ساري |
+| Methotrexate SPC | METHOTREXATE | Cipla Limited | ساري |
+| Jylamvo | METHOTREXATE | Quay Pharmaceuticals Limited | ساري |
+| METOJECT 50 mg/ml solution for injection | METHOTREXATE | ONCOTEC PHARMA PRODUCTION GmbH | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 18 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

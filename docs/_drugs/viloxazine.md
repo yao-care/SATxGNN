@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 870
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VILOXAZINE"
 predicted_indications: ["faciodigitogenital syndrome", "insomnia (disease)", "Creutzfeldt-Jakob disease", "hypersomnia (disease)", "circadian rhythm sleep disorder", "chondromyxoid fibroma", "X-linked adrenoleukodystrophy"]
 description: "Viloxazine: الاستطباب الجديد المتوقع متلازمة الوجه والأصابع والأعضاء التناسلية (faciodigitogenital syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -68,9 +68,13 @@ description: "Viloxazine: الاستطباب الجديد المتوقع متل�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الدلالة المعتمدة |
-|---------|------|------|-----------|
-| VIVALAN TAB 50MG | VIVALAN TAB 50MG (AstraZeneca) | أقراص (غير محدد في البيانات) | غير متوفرة؛ الترخيص ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VIVALAN TAB 50MG | VILOXAZINE | AstraZeneca | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنّعة: AstraZeneca. الترخيص المسجّل ساري المفعول.
 

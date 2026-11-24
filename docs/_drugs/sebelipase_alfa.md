@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 746
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SEBELIPASE ALFA"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
 description: "Sebelipase Alfa: الاستطباب الجديد المتوقع متلازمة شايي (Scheie syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -68,9 +68,13 @@ description: "Sebelipase Alfa: الاستطباب الجديد المتوقع م
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| KANUMA | KANUMA (الشركة المصنّعة: Patheon Italia S.P.A.، الحالة: ساري) | — | — |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| KANUMA | SEBELIPASE ALFA | Patheon Italia S.P.A. | ساري |
+
+<!-- licenses:end -->
 
 الجهة المصنّعة: Patheon Italia S.P.A. الترخيص ساري، وهو مرخّص للمكوّن الفردي.
 

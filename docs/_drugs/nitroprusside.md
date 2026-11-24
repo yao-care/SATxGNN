@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 594
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nitroprusside: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المحلية"
 monitor_inn: "nitroprusside"
 drugbank_id: DB00325
@@ -81,10 +81,14 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "al
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
-|---------|------|------|-----------|
-| SOD.NITROPRUSSIDE 50MG VIAL | SOD.NITROPRUSSIDE 50MG VIAL (HOSPIRA AUSTRALIA) | غير مذكور | غير مذكور (ساري) |
-| NIPRIDE DOUBLE 50 MG AMP. | NIPRIDE DOUBLE 50 MG AMP. (ROCHE) | غير مذكور | غير مذكور (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SOD.NITROPRUSSIDE 50MG VIAL | SODIUM NITROPRUSSIDE | HOSPIRA AUSTRALIA | ساري |
+| NIPRIDE DOUBLE 50 MG AMP. | SODIUM NITROPRUSSIDE | ROCHE | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 
@@ -102,7 +106,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "al
 
 <!-- review:begin sa-lic-20261106-nitroprusside-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص المنتج في السعودية ملغاة، والدواء وريدي قصير المفعول ومرتبط بخطر سمّية السيانيد، فلا يلائم مؤشراً مزمناً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص المنتج في السعودية ملغاة، والدواء وريدي قصير المفعول ومرتبط بخطر سمّية السيانيد، فلا يلائم مؤشراً مزمناً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-nitroprusside-1 -->
 
@@ -120,7 +124,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "al
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Nipride Rtu (sodium nitroprusside) prescribing information, EXELA PHARMA SCIENCES, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5acf0836-93ff-4064-b888-3f560e8a558d) |
 
 <!-- review:end log -->

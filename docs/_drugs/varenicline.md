@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 861
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Varenicline: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine Disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف: الإقلاع عن التدخين)"
 monitor_inn: "VARENICLINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
@@ -104,13 +104,19 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "co
 
 جميع التراخيص السبعة **سارية**، والدواء مسوَّق.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | حالة الترخيص |
-|---------|------|------|-----------|
-| CHAMPIX 1MG F-C TABLETS | CHAMPIX 1MG F-C TABLETS | Pfizer Italia S.R.L | ساري |
-| CHAMPIX 0.5 MG F-C TAB | CHAMPIX 0.5 MG F-C TAB | Pfizer Italia S.R.L | ساري |
-| CHAMPIX 0.5 MG 11 tablets +1 MG 14 tablets | CHAMPIX 0.5 MG 11 tablets +1 MG 14 tablets | Pfizer Italia S.R.L | ساري |
-| Varlin | Varlin | Aurobindo Pharma Limited | ساري |
-| VANTIX 1 mg Film Coated Tablet | VANTIX 1 mg Film Coated Tablet | R-PHARM GERMANY GMBH | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CHAMPIX 1MG F-C TABLETS | VARENICLINE | Pfizer Italia S.R.L | ساري |
+| CHAMPIX 0.5 MG F-C TAB | VARENICLINE | Pfizer Italia S.R.L | ساري |
+| CHAMPIX 0.5 MG 11 tablets +1 MG 14 tablets | VARENICLINE | Pfizer Italia S.R.L | ساري |
+| Varlin | VARENICLINE | Aurobindo Pharma Limited | ساري |
+| VANTIX 1 mg Film Coated Tablet | VARENICLINE | R-PHARM GERMANY GMBH | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

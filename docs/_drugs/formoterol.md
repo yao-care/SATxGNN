@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol: الاستطباب الجديد المتوقع التشوه التنفسي (respiratory malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 13 (السارية: 13)"
@@ -79,13 +79,19 @@ description: "Formoterol: الاستطباب الجديد المتوقع الت�
 
 حالة السوق: مسوّق. جميع التراخيص الثلاثة عشر المسجلة سارية. ولم يُسجَّل نص الاستطباب المعتمد في البيانات المحلية.
 
-| اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| FLUTIFORM 50/5 mcg pressurised inhalation suspension | Recipharm HC Limited | ساري |
-| FOSTER NEXTHALER 100MCG/6MCG INHALATION POWDER | CHIESI FARMACEUTICIS | ساري |
-| BUFOMIX 160/4.5MCG EASYHALER | Orion Corporation, Orion Pharma | ساري |
-| SYMBICORT 320 MCG/9 MCG TURBOHALER | AstraZeneca | ساري |
-| SYMBICORT TURBUHALER | AstraZeneca | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FLUTIFORM 50/5 mcg pressurised inhalation suspension | FLUTICASONE PROPIONATE,FORMOTEROL FUMARATE | Recipharm HC Limited | ساري |
+| FOSTER NEXTHALER 100MCG/6MCG INHALATION POWDER | BECLOMETHASONE DIPROPIONATE,FORMOTEROL FUMARATE | CHIESI FARMACEUTICIS | ساري |
+| BUFOMIX 160/4.5MCG EASYHALER | BUDESONIDE,FORMTEROL | Orion Corporation, Orion Pharma | ساري |
+| SYMBICORT 320 MCG/9 MCG TURBOHALER | BUDESONIDE,FORMOTEROL FUMARATE | AstraZeneca | ساري |
+| SYMBICORT TURBUHALER | BUDESONIDE,FORMTEROL | AstraZeneca | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 13 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

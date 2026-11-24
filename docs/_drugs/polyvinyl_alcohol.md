@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 669
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Polyvinyl Alcohol: الاستطباب الجديد المتوقع الحمامي الإكثيوزيفورمية الخلقية (مستوى الدليل L5). الاستطباب الأصلي: جفاف العين (dry eye syndrome) وجفاف الملتحمة (xerophthalmia) (من الاس…"
 monitor_inn: "POLYVINYL ALCOHOL"
 predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing collodion baby", "lamellar ichthyosis", "bathing suit ichthyosis"]
@@ -88,9 +88,13 @@ predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing c
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LIQUIFILM TEARS | LIQUIFILM TEARS (الشركة المصنعة: ALLERGAN PHARMACEUTICALS LTD، الحالة: ساري) | غير محدد | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LIQUIFILM TEARS | POLYVINYL ALCOHOL | ALLERGAN PHARMACEUTICALS LTD | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -112,7 +116,7 @@ predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing c
 
 <!-- review:begin sa-lic-20261106-polyvinyl_alcohol-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «درجة التنبؤ مرتفعة جدًا، لكنها ناتجة عن النموذج الحاسوبي فقط (مستوى الأدلة L5) دون أي تجارب سريرية أو أدبيات داعمة، كما أن المنتج الوحيد المرخص في السعودية ملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «درجة التنبؤ مرتفعة جدًا، لكنها ناتجة عن النموذج الحاسوبي فقط (مستوى الأدلة L5) دون أي تجارب سريرية أو أدبيات داعمة، كما أن المنتج الوحيد المرخص في السعودية ملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-polyvinyl_alcohol-1 -->
 
@@ -131,7 +135,7 @@ predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing c
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن المنتج الوحيد المرخص في السعودية ملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن المنتج الوحيد المرخص في السعودية ملغى» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

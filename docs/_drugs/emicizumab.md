@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "EMICIZUMAB"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Emicizumab: الاستطباب الجديد المتوقع مرض فون ويليبراند الكاذب (pseudo-von Willebrand disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -68,10 +68,14 @@ description: "Emicizumab: الاستطباب الجديد المتوقع مرض 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| HEMLIBRA 150 MG/ML SOLUTION FOR INJECTION | HEMLIBRA 150 MG/ML SOLUTION FOR INJECTION | محلول للحقن | غير مسجل |
-| HEMLIBRA 30 MG/ML SOLUTION FOR INJECTION | HEMLIBRA 30 MG/ML SOLUTION FOR INJECTION | محلول للحقن | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| HEMLIBRA 150 MG/ML SOLUTION FOR INJECTION | EMICIZUMAB | CHUGAI PHARMACEUTICAL CO LTD | ساري |
+| HEMLIBRA 30 MG/ML SOLUTION FOR INJECTION | EMICIZUMAB | CHUGAI PHARMACEUTICAL CO LTD | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

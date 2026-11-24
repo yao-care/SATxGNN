@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 860
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VANDETANIB"
 predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
 description: "Vandetanib: الاستطباب الجديد المتوقع سرطان الخلايا الكلوية (renal cell carcinoma (disease)) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -91,10 +91,14 @@ description: "Vandetanib: الاستطباب الجديد المتوقع سرط�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
-|---------|------|------|-----------|
-| CAPRELSA 100 mg film-coated tablet | CAPRELSA 100 mg film-coated tablet | أقراص مغلفة (حسب اسم المنتج) | غير متوفر؛ الترخيص ساري |
-| CAPRELSA 300 mg film-coated tablet | CAPRELSA 300 mg film-coated tablet | أقراص مغلفة (حسب اسم المنتج) | غير متوفر؛ الترخيص ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CAPRELSA 100 mg film-coated tablet | VANDETANIB | IPR PHARMACEUTICALS INC. | ساري |
+| CAPRELSA 300 mg film-coated tablet | VANDETANIB | IPR PHARMACEUTICALS INC. | ساري |
+
+<!-- licenses:end -->
 
 ---
 

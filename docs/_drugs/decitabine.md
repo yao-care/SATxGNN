@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Decitabine: الاستطباب الجديد المتوقع نقص الخلايا الدموية المقاوم للعلاج في الطفولة (مستوى الدليل L5). الاستطباب الأصلي: سرطان الدم النقوي الحاد (AML) وأنواعه الفرعية (الاستطباب مأخوذ من الر…"
 monitor_inn: "DECITABINE"
 predicted_indications: ["refractory cytopenia of childhood"]
@@ -85,10 +85,14 @@ predicted_indications: ["refractory cytopenia of childhood"]
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Decitabine SPC 50mg for Injection | Decitabine SPC 50mg for Injection (الشركة: DR. REDDY) | غير متوفر | غير متوفر (الترخيص ساري) |
-| Decanta | Decanta (الشركة: Shilpa Medicare Ltd) | غير متوفر | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Decitabine SPC 50mg for Injection | DECITABINE | DR. REDDY | ساري |
+| Decanta | DECITABINE | Shilpa Medicare Ltd | ساري |
+
+<!-- licenses:end -->
 
 ---
 

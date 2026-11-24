@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bimatoprost: الاستطباب الجديد المتوقع متلازمة التشوه مع مكوّن سني و/أو حول سني (malformation syndrome with odontal and/or periodontal component) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيا…"
 ---
 
@@ -68,10 +68,14 @@ description: "Bimatoprost: الاستطباب الجديد المتوقع متل
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LUMIGAN 0.3MG - ML EYE DROPS | LUMIGAN 0.3MG - ML EYE DROPS | غير مسجّل | غير مسجّل في البيانات المحلية |
-| LUMIGAN 0.1MG/ML EYE DROPS | LUMIGAN 0.1MG/ML EYE DROPS | غير مسجّل | غير مسجّل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LUMIGAN 0.3MG - ML EYE DROPS | BIMATOPROST | ALLERGAN PHARMACEUTICALS LTD | ساري |
+| LUMIGAN 0.1MG/ML EYE DROPS | BIMATOPROST | ALLERGAN PHARMACEUTICALS LTD | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

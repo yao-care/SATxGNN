@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 214
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Corifollitropin Alfa: الاستطباب الجديد المتوقع التهاب المعدة والاثني عشر (gastroduodenitis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات المجمّعة (نصوص الاستطباب في تراخيص الهيئة العام…"
 monitor_inn: "CORIFOLLITROPIN ALFA"
 predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
@@ -89,10 +89,14 @@ predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer d
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| ELONVA 150 mcg Solution For Injection | ELONVA 150 mcg Solution For Injection | محلول للحقن | غير متوفر | ساري |
-| ELONVA 100 mcg Solution For Injection | ELONVA 100 mcg Solution For Injection | محلول للحقن | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ELONVA 150 mcg Solution For Injection | CORIFOLLITROPIN ALFA | VETTER PHARMA-FERTIGUNG, GMBH & CO. KG | ساري |
+| ELONVA 100 mcg Solution For Injection | CORIFOLLITROPIN ALFA | VETTER PHARMA-FERTIGUNG, GMBH & CO. KG | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنّعة لكلا الترخيصين: VETTER PHARMA-FERTIGUNG, GMBH & CO.
 
@@ -123,7 +127,7 @@ predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer d
 
 <!-- review:begin sa-lic-20261106-corifollitropin_alfa-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح أسباب إلغاء التراخيص وحالة التوفر التجاري في السعودية. / مراجعة الاستطبابات البديلة المتوقعة عند توفر أدلة جديدة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح أسباب إلغاء التراخيص وحالة التوفر التجاري في السعودية. / مراجعة الاستطبابات البديلة المتوقعة عند توفر أدلة جديدة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-corifollitropin_alfa-1 -->
 
@@ -135,7 +139,7 @@ predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer d
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص وحالة التوفر التجاري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص وحالة التوفر التجاري في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185) |
 
 <!-- review:end log -->

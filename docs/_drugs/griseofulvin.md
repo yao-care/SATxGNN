@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 402
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Griseofulvin: الاستطباب الجديد المتوقع داء الذباب (Myiasis) (مستوى الدليل L5). الاستطباب الأصلي: السعفة والفطريات الجلدية (سعفة القدم، سعفة الجسم، سعفة الأظافر، سعفة…"
 monitor_inn: "GRISEOFULVIN"
 predicted_indications: ["myiasis", "creeping myiasis", "furuncular myiasis", "wound myiasis", "echinococcus granulosus infectious disease"]
@@ -90,13 +90,17 @@ predicted_indications: ["myiasis", "creeping myiasis", "furuncular myiasis", "wo
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| FULCIN SYRUP 125MG-5 ML. | FULCIN SYRUP 125MG-5 ML. (AstraZeneca) | — | غير متوفر (ساري) |
-| GRISOVIN TABLETS 500 MG. | GRISOVIN TABLETS 500 MG. (GLAXO) | — | غير متوفر (ساري) |
-| FULCIN TABLETS 500 MG. | FULCIN TABLETS 500 MG. (AstraZeneca) | — | غير متوفر (ساري) |
-| FULCIN 125 MG TAB | FULCIN 125 MG TAB (AstraZeneca) | — | غير متوفر (ساري) |
-| GRISOVIN TABLETS 125 MG. | GRISOVIN TABLETS 125 MG. (GLAXO) | — | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FULCIN SYRUP 125MG-5 ML. | GRISEOFULVIN | AstraZeneca | ساري |
+| GRISOVIN TABLETS 500 MG. | GRISEOFULVIN | GLAXO | ساري |
+| FULCIN TABLETS 500 MG. | GRISEOFULVIN | AstraZeneca | ساري |
+| FULCIN 125 MG TAB | GRISEOFULVIN | AstraZeneca | ساري |
+| GRISOVIN TABLETS 125 MG. | GRISEOFULVIN | GLAXO | ساري |
+
+<!-- licenses:end -->
 
 الدواء مسوّق حالياً، وجميع التراخيص الخمسة سارية (5 من 5).
 
@@ -132,7 +136,7 @@ predicted_indications: ["myiasis", "creeping myiasis", "furuncular myiasis", "wo
 
 <!-- review:begin sa-lic-20261106-griseofulvin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إجراء دراسات مخبرية أولية توضح أي نشاط للدواء ضد يرقات الذباب قبل التفكير في أي دراسة سريرية. / إعادة تقييم الجدوى في ظل إلغاء التراخيص وعدم توفر المنتج في السوق.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إجراء دراسات مخبرية أولية توضح أي نشاط للدواء ضد يرقات الذباب قبل التفكير في أي دراسة سريرية. / إعادة تقييم الجدوى في ظل إلغاء التراخيص وعدم توفر المنتج في السوق.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-griseofulvin-1 -->
 
@@ -144,7 +148,7 @@ predicted_indications: ["myiasis", "creeping myiasis", "furuncular myiasis", "wo
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «إعادة تقييم الجدوى في ظل إلغاء التراخيص وعدم توفر المنتج في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «إعادة تقييم الجدوى في ظل إلغاء التراخيص وعدم توفر المنتج في السوق» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: griseofulvin prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98829d90-b289-4bec-a625-7af412a5cb2d) |
 
 <!-- review:end log -->

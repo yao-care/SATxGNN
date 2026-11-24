@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: الاستطباب الجديد المتوقع Nasal cavity disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
@@ -66,7 +66,7 @@ description: "Ipratropium: الاستطباب الجديد المتوقع Nasal 
 
 <!-- review:begin sa-lic-20261106-ipratropium-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «ملاحظة مهمة: وضع السوق في السعودية «ملغاة فقط»، لذا يلزم التحقق من حالة التوفر والتسجيل قبل أي توصية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 7، منها سارية: 7؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «ملاحظة مهمة: وضع السوق في السعودية «ملغاة فقط»، لذا يلزم التحقق من حالة التوفر والتسجيل قبل أي توصية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ipratropium-1 -->
 
@@ -110,13 +110,19 @@ description: "Ipratropium: الاستطباب الجديد المتوقع Nasal 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ATROSOL 250 mcg/2 ml nebuliser solution | ATROSOL 250 mcg/2 ml (PSI) | محلول للتنبيذ | غير متوفر (ساري) |
-| ATROPULM 500MCG-2ML | ATROPULM 500MCG-2ML (Julphar) | محلول للاستنشاق | غير متوفر (ملغى) |
-| ATROSOL 250 mcg/ml nebuliser solution | ATROSOL 250 mcg/ml (PSI) | محلول للتنبيذ | غير متوفر (ساري) |
-| ATROPULM 250MCG-ML | ATROPULM 250MCG-ML (Julphar) | محلول للاستنشاق | غير متوفر (ملغى) |
-| ATROVENT 500MCG-2ML UDV | ATROVENT (Unither) | محلول للاستنشاق | غير متوفر (ملغى) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ATROSOL 250 mcg/2 ml nebuliser solution | IPRATROPIUM BROMIDE | Pharmaceutical Solution Industries (PSI) | ساري |
+| ATROPULM 500MCG-2ML SOLUTION FOR INHALATION | IPRATROPIUM BROMIDE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| ATROSOL 250 mcg/ml nebuliser solution | IPRATROPIUM BROMIDE | Pharmaceutical Solution Industries (PSI) | ساري |
+| ATROPULM 250MCG-ML SOLUTION FOR INHALATION | IPRATROPIUM BROMIDE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| ATROVENT 500MCG-2ML UDV (SOLUTION FOR INHALATION) | IPRATROPIUM BROMIDE | Laboratoire Unither | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -153,7 +159,7 @@ description: "Ipratropium: الاستطباب الجديد المتوقع Nasal 
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «ملاحظة مهمة: وضع السوق في السعودية «ملغاة فقط»، لذا يلزم التحقق من حالة التوفر والتسجيل قبل أي توصية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «ملاحظة مهمة: وضع السوق في السعودية «ملغاة فقط»، لذا يلزم التحقق من حالة التوفر والتسجيل قبل أي توصية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 707
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي الناجم عن أمراض الرئة و/أو نقص الأكسجة (pulmonary hypertension owing to lung disease and/or hypo… (مستوى الدليل L5). الاستطباب الأصلي: غير مس…"
@@ -89,12 +89,16 @@ description: "Ramipril: الاستطباب الجديد المتوقع ارتف�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| RAMIPRIL SANDOZ 2.5MG TABLET | RAMIPRIL SANDOZ 2.5MG TABLET | غير متوفر | غير متوفر (ساري) |
-| RAMIPRIL SANDOZ 5MG TABLET | RAMIPRIL SANDOZ 5MG TABLET | غير متوفر | غير متوفر (ساري) |
-| RAMIPRIL SANDOZ 10MG TABLET | RAMIPRIL SANDOZ 10MG TABLET | غير متوفر | غير متوفر (ساري) |
-| ANGIRAM | ANGIRAM | غير متوفر | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RAMIPRIL SANDOZ 2.5MG TABLET | RAMIPRIL | LEK S.A | ساري |
+| RAMIPRIL SANDOZ 5MG TABLET | RAMIPRIL | LEK S.A | ساري |
+| RAMIPRIL SANDOZ 10MG TABLET | RAMIPRIL | LEK S.A | ساري |
+| ANGIRAM | RAMIPRIL | Aurobindo Pharma Limited Unit XV | ساري |
+
+<!-- licenses:end -->
 
 ---
 

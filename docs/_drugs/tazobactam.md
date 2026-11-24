@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 788
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Tazobactam: الاستخدامات المعروفة وحالة التسويق في السعودية؛ لا توجد حاليًا دلالة مرشحة جديدة"
 predicted_indications: []
 ---
@@ -72,17 +72,21 @@ predicted_indications: []
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| ZERBAXA Powder For Injection Vial | ZERBAXA Powder For Injection Vial |  | ساري |
-| TAZOCIN 4.5GM VIAL + EDTA | TAZOCIN 4.5GM VIAL + EDTA |  | ساري |
-| PRIZMA 2GM/0.25GM POWDER FOR I.V. INFUSION | PRIZMA 2GM/0.25GM POWDER FOR I.V. INFUSION |  | ساري |
-| PIPERACILLIN - TAZOPACTAM SANDOZ 2.25GM VIAL | PIPERACILLIN - TAZOPACTAM SANDOZ 2.25GM VIAL |  | ساري |
-| TAZORAX 4.5 GM Powder for injection | TAZORAX 4.5 GM Powder for injection |  | ساري |
-| TAZOCIN 2.25G VIAL | TAZOCIN 2.25G VIAL |  | ساري |
-| PIPERACILLIN - TAZOPACTAM SANDOZ 4.5GM VIAL | PIPERACILLIN - TAZOPACTAM SANDOZ 4.5GM VIAL |  | ساري |
-| TAZORAX 2.25 GM Powder for injection | TAZORAX 2.25 GM Powder for injection |  | ساري |
-| PRIZMA 4GM-0.5GM POWDER FOR I.V INFUSION | PRIZMA 4GM-0.5GM POWDER FOR I.V INFUSION |  | ساري |
+| ZERBAXA Powder For Injection Vial | Tazobactam,CEFTOLOZANE | STERI-PHARMA, LLC | ساري |
+| TAZOCIN 4.5GM VIAL + EDTA | PIPERACILLIN,Tazobactam | WYETH | ساري |
+| PRIZMA 2GM/0.25GM POWDER FOR I.V. INFUSION | PIPERACILLIN,Tazobactam | LABORATORIO REIG JOFRE | ساري |
+| PIPERACILLIN - TAZOPACTAM SANDOZ 2.25GM VIAL | PIPERACILLIN,Tazobactam | SANDOZ | ساري |
+| TAZORAX 4.5 GM Powder for injection | PIPERACILLIN,Tazobactam | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| TAZOCIN 2.25G VIAL | PIPERACILLIN, TAZOBACTAM | LEDERLE | ساري |
+| PIPERACILLIN - TAZOPACTAM SANDOZ 4.5GM VIAL | PIPERACILLIN,Tazobactam | SANDOZ | ساري |
+| TAZORAX 2.25 GM Powder for injection | PIPERACILLIN,Tazobactam | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| PRIZMA 4GM-0.5GM POWDER FOR I.V INFUSION | PIPERACILLIN,Tazobactam | LABORATORIO REIG JOFRE | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

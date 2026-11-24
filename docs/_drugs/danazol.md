@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 226
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DANAZOL"
 predicted_indications: ["amenorrhea (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
 description: "Danazol: الاستطباب الجديد المتوقع انقطاع الطمث (amenorrhea (disease)) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -93,10 +93,14 @@ description: "Danazol: الاستطباب الجديد المتوقع انقطا
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| DANOL CAPS 100MG | DANOL CAPS 100MG (ZENTIVA K.S.) | غير محدد | غير متوفر (ترخيص ساري) |
-| DANOL CAPS 200MG | DANOL CAPS 200MG (ZENTIVA K.S.) | غير محدد | غير متوفر (ترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DANOL CAPS 100MG | DANAZOL | ZENTIVA K.S. | ساري |
+| DANOL CAPS 200MG | DANAZOL | ZENTIVA K.S. | ساري |
+
+<!-- licenses:end -->
 
 الترخيصان ساريان وكلاهما لمستحضر أحادي المكوّن.
 

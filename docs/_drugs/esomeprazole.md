@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ESOMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Esomeprazole: الاستطباب الجديد المتوقع انسداد الإثني عشر (duodenal obstruction) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 على الأقل"
 ---
 
@@ -69,6 +69,21 @@ description: "Esomeprazole: الاستطباب الجديد المتوقع ان�
 لا توجد حالياً منشورات ذات صلة.
 
 ## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| EMANERA 20mg Gastro-Resistant Capsule | ESOMEPRAZOLE | KRKA dd Novo mesto | ساري |
+| EMANERA 40mg Gastro-Resistant Capsule | ESOMEPRAZOLE | KRKA dd Novo mesto | ساري |
+| ESOMA 20 MG DELAYED RELEASE CAPSULES | ESOMEPRAZOLE MAGNESIUM | RIYADH PHARMA | ساري |
+| ESOMA 40 MG DELAYED RELEASE CAPSULES | ESOMEPRAZOLE MAGNESIUM | RIYADH PHARMA | ساري |
+| ESOMEP 20 mg gastro-resistant tablet | ESOMEPRAZOLE | SALUTAS PHARMA GmbH | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 17 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 تُظهر البيانات المحلية 17 ترخيصاً لمنتجات أحادية المكوّن من إيسوميبرازول (منها Nexium وEmanera وEzora وEsoma وEsomep وEsural وغيرها)، وقد تكون القائمة جزئية. نصوص الاستطباب المعتمدة غير مسجلة في البيانات المحلية.
 

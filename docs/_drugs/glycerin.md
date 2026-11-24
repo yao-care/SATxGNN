@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Glycerin: الاستطباب الجديد المتوقع متلازمة ذنب الفرس (cauda equina syndrome) (مستوى الدليل L5). الاستطباب الأصلي: الإمساك (constipation)"
 monitor_inn: "GLYCERIN"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
@@ -80,13 +80,17 @@ predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary
 
 جميع التراخيص الخمسة **سارية المفعول**، والدواء مسوَّق حاليًا.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| LAXOLYNE SUPPOSITORIES | LAXOLYNE SUPPOSITORIES | Gulf Pharmaceutical Industries (Julphar) | ساري |
-| Glycelax | Glycelax | AmcaPharm Pharmaceuticals GmbH | ساري |
-| GLICEROLO SUPP 1500MG CHILDREN | GLICEROLO SUPP 1500MG CHILDREN | PFIZER | ساري |
-| GLYCERINE INFANTILE SUPPOSITORY | GLYCERINE INFANTILE SUPPOSITORY | THE NILE COMPANY FOR PHARMACEUTICALS AND CHEMICAL IND. | ساري |
-| LAXOLYNE SUPP FOR CHILDREN | LAXOLYNE SUPP FOR CHILDREN | Gulf Pharmaceutical Industries (Julphar) | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LAXOLYNE SUPPOSITORIES | GLYCERIN | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| Glycelax | GLYCERIN | AmcaPharm Pharmaceuticals GmbH | ساري |
+| GLICEROLO SUPP 1500MG CHILDREN | GLYCERIN | PFIZER | ساري |
+| GLYCERINE INFANTILE SUPPOSITORY | GLYCERIN | THE NILE COMPANY FOR PHARMACEUTICALS AND CHEMICAL IND. | ساري |
+| LAXOLYNE SUPP FOR CHILDREN | GLYCERIN | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -108,7 +112,7 @@ predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary
 
 <!-- review:begin sa-lic-20261106-glycerin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ نموذجي فقط (L5) دون أي تجارب سريرية أو منشورات، ولا يوجد رابط آلي معقول بين الجلسرين ومتلازمة ذنب الفرس، كما أن علاج هذه الحالة جراحي. / جميع تراخيص الجلسرين في المملكة العربية السعودية ملغاة حاليًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ نموذجي فقط (L5) دون أي تجارب سريرية أو منشورات، ولا يوجد رابط آلي معقول بين الجلسرين ومتلازمة ذنب الفرس، كما أن علاج هذه الحالة جراحي. / جميع تراخيص الجلسرين في المملكة العربية السعودية ملغاة حاليًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-glycerin-1 -->
 
@@ -127,7 +131,7 @@ predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص الجلسرين في المملكة العربية السعودية ملغاة حاليًا» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الجلسرين في المملكة العربية السعودية ملغاة حاليًا» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

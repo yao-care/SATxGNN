@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 833
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tretinoin: الاستطباب الجديد المتوقع العقيدات الروماتويدية (Rheumatoid nodulosis) (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب، ابيضاض الدم النخاعي الحاد (APL)، التقرّن المكتسب، فرط التق…"
 monitor_inn: "TRETINOIN"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
@@ -91,13 +91,19 @@ predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive poly
 
 جميع التراخيص الـ13 سارية. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمّعة. فيما يلي أبرز 5 تراخيص:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| ACRETIN | ACRETIN | Jamjoom Pharmaceuticals | ساري |
-| RETACNYL 0.025% CREAM | RETACNYL 0.025% CREAM | Galderma | ساري |
-| SMOODERM CREAM | SMOODERM CREAM | Dar Al Dawa | ساري |
-| OPTIMAL 0.05% CREAM | OPTIMAL 0.05% CREAM | Pharma International Co. | ساري |
-| RETIN-A CREAM 0.05% | RETIN-A CREAM 0.05% | Janssen-Cilag | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ACRETIN | TRETINOIN | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| RETACNYL 0.025% CREAM | TRETINOIN | GALDERMA | ساري |
+| SMOODERM CREAM | TRETINOIN | DAR ALDAWA | ساري |
+| OPTIMAL 0.05% CREAM | TRETINOIN | Pharma International Co. | ساري |
+| RETIN-A CREAM 0.05% | TRETINOIN | JANSSEN-CILAG | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 13 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -129,7 +135,7 @@ predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive poly
 
 <!-- review:begin sa-lic-20261106-tretinoin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ قائم على نموذج TxGNN فقط (مستوى الأدلة L5)، دون أي تجارب سريرية أو أدبيات داعمة، والمنتجات المحلية جميعها ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 13، منها سارية: 13؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ قائم على نموذج TxGNN فقط (مستوى الأدلة L5)، دون أي تجارب سريرية أو أدبيات داعمة، والمنتجات المحلية جميعها ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-tretinoin-1 -->
 
@@ -149,7 +155,7 @@ predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive poly
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «والمنتجات المحلية جميعها ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «والمنتجات المحلية جميعها ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9) |
 
 <!-- review:end log -->

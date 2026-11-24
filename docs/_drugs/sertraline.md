@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 754
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SERTRALINE"
 predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: الاستطباب الجديد المتوقع اضطراب الشخصية الفصامية (schizoid personality disorder) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 9 (السارية: 9)"
@@ -82,13 +82,19 @@ description: "Sertraline: الاستطباب الجديد المتوقع اضط�
 
 ## معلومات السوق في السعودية
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|------|
-| SETRAL 100MG F.C. TABLETS | SETRAL 100MG F.C. TABLETS | JPM (الأردن) | ساري |
-| SETRAL 50MG F.C. TABLETS | SETRAL 50MG F.C. TABLETS | JPM (الأردن) | ساري |
-| SOLOTIK 100MG F-C TABLETS | SOLOTIK 100MG F-C TABLETS | Hikma Pharmaceuticals PLC | ساري |
-| Sertidep | Sertidep | Multi Apex for Pharmaceutical Industries | ساري |
-| SOLOTIK 50MG F-C TABLETS | SOLOTIK 50MG F-C TABLETS | Hikma Pharmaceuticals PLC | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SETRAL 100MG F.C. TABLETS | SERTRALINE | The Jordanian Pharmaceutical Manufacturing Medical Equipment Co. Ltd.… | ساري |
+| SETRAL 50MG F.C. TABLETS | SERTRALINE | The Jordanian Pharmaceutical Manufacturing Medical Equipment Co. Ltd.… | ساري |
+| SOLOTIK 100MG F-C TABLETS | SERTRALINE | Hikma Pharmaceuticals PLC | ساري |
+| Sertidep | SERTRALINE | Multi Apex for Pharmaceutical Industries | ساري |
+| SOLOTIK 50MG F-C TABLETS | SERTRALINE | Hikma Pharmaceuticals PLC | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

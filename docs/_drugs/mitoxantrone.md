@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 565
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "Mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: الاستطباب الجديد المتوقع ورم المسالك الهوائية الهضمية العلوية (upper aerodigestive tract neoplasm) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -68,10 +68,14 @@ description: "Mitoxantrone: الاستطباب الجديد المتوقع ور�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
-|---------|------|------|-----------|
-| MITOXANTRON EBEWE 2MG-1ML SOL. FOR INFU | MITOXANTRON EBEWE 2MG-1ML SOL. FOR INFU (الشركة المصنّعة: Fareva Unterach GmbH) | غير متوفر | غير متوفر (الترخيص ساري) |
-| NOVANTRONE VIAL 2MG-ML | NOVANTRONE VIAL 2MG-ML (الشركة المصنّعة: LEDERLE) | غير متوفر | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MITOXANTRON EBEWE 2MG-1ML SOL. FOR INFU | MITOXANTRONE HYDROCHLORIDE | Fareva Unterach GmbH | ساري |
+| NOVANTRONE VIAL 2MG-ML | MITOXANTRONE HYDROCHLORIDE | LEDERLE | ساري |
+
+<!-- licenses:end -->
 
 ## السمية الخلوية
 

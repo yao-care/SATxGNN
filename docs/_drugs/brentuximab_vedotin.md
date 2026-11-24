@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 115
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brentuximab Vedotin: الاستطباب الجديد المتوقع اللمفوما الجُريبية (Follicular Lymphoma) (مستوى الدليل L3). الاستطباب الأصلي: لمفوما هودجكين (الكلاسيكية وأنماطها الفرعية) — مأخوذ من الرسم المعرفي…"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -97,9 +97,13 @@ predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lympho
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ADCETRIS 50 mg powder for concentrate for solution for infusion | ADCETRIS 50 mg powder for concentrate for solution for infusion (الشركة: BSP Pharmaceuticals S.r.l.) | غير مذكور | غير مذكور — الترخيص ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ADCETRIS 50 mg powder for concentrate for solution for infusion | BRENTUXIMAB VEDOTIN | BSP PHARMACEUTICALS S.r.l. | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -135,7 +139,7 @@ predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lympho
 
 <!-- review:begin sa-lic-20261106-brentuximab_vedotin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الترخيص السعودي الوحيد ملغى، ولا تتوفر بيانات عن بنود السلامة من النشرة الدوائية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الترخيص السعودي الوحيد ملغى، ولا تتوفر بيانات عن بنود السلامة من النشرة الدوائية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-brentuximab_vedotin-1 -->
 
@@ -147,7 +151,7 @@ predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lympho
 
 <!-- review:begin sa-lic-20261106-brentuximab_vedotin-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح حالة الترخيص (الإلغاء) وإمكانية توفر المنتج في السوق / في حال الاهتمام بتوسيع الاستطباب، النظر في اللمفوما B الكبيرة المنتشرة (DLBCL) إيجابية CD30، حيث توجد بيانات أقوى (مثل NCT01421667 وNCT04404283) ضمن فئة «ورم الخلايا B» المصنفة L2 بتوصية «المضي مع ضوابط»» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح حالة الترخيص (الإلغاء) وإمكانية توفر المنتج في السوق / في حال الاهتمام بتوسيع الاستطباب، النظر في اللمفوما B الكبيرة المنتشرة (DLBCL) إيجابية CD30، حيث توجد بيانات أقوى (مثل NCT01421667 وNCT04404283) ضمن فئة «ورم الخلايا B» المصنفة L2 بتوصية «المضي مع ضوابط»» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-brentuximab_vedotin-2 -->
 
@@ -159,8 +163,8 @@ predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lympho
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «الترخيص السعودي الوحيد ملغى، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «توضيح حالة الترخيص (الإلغاء) وإمكانية توفر المنتج في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «الترخيص السعودي الوحيد ملغى، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح حالة الترخيص (الإلغاء) وإمكانية توفر المنتج في السوق» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f) |
 
 <!-- review:end log -->

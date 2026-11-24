@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 830
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: الاستطباب الجديد المتوقع ورم الجلد الحبيبي الخلوي الخبيث (malignant cutaneous granular cell skin tumor) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 11 (السارية: 11)"
@@ -70,13 +70,19 @@ description: "Trastuzumab: الاستطباب الجديد المتوقع ورم
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| HERCEPTIN 150MG VIAL | HERCEPTIN 150MG VIAL (ROCHE) | غير متوفر | غير متوفر |
-| Enhertu | Enhertu (BAXTER ONCOLOGY GmbH) | غير متوفر | غير متوفر |
-| Zercepac | Zercepac (Shanghai Henlius) | غير متوفر | غير متوفر |
-| CANHERA 150MG VIAL | CANHERA 150MG VIAL (Biocon) | غير متوفر | غير متوفر |
-| Kanjinti | Kanjinti (AMGEN) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| HERCEPTIN 150MG VIAL | Trastuzumab | ROCHE | ساري |
+| Enhertu | Trastuzumab | BAXTER ONCOLOGY GmbH | ساري |
+| Zercepac | Trastuzumab | Shanghai Henlius Biopharmaceutical Co Ltd | ساري |
+| CANHERA 150MG VIAL | Trastuzumab | Biocon Limited | ساري |
+| Kanjinti | Trastuzumab | AMGEN TECHNOLOGY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 تتوفر 11 رخصة سارية في المجموع، وهذه الجدول يعرض خمساً منها فقط.
 

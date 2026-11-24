@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 555
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metronidazole: الاستطباب الجديد المتوقع داء المتكيسة الرئوية (Pneumocystosis) (مستوى الدليل L5). الاستطباب الأصلي: العدوى اللاهوائية، التهاب الصفاق، الجيارديا، التهاب المهبل الجرثومي،…"
 monitor_inn: "METRONIDAZOLE"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
@@ -90,13 +90,20 @@ predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivi
 
 يوجد 19 ترخيصًا ساريًا. أمثلة من أبرزها:
 
-| رقم الترخيص / اسم المنتج | الشركة المصنّعة | الاستطباب المعتمد |
-|---------|------|-----------|
-| FLAGYL 250MG TAB | sanofi-aventis | غير متوفر في البيانات |
-| FLAGYL 125 MG-5 ML SUSPENSION | sanofi-aventis | غير متوفر في البيانات |
-| ROZEX GEL 0.75% W-W | GALDERMA | غير متوفر في البيانات |
-| ELYZOL INFUSION 5MG-ML | XELLIA PHARMACEUTICAL APS | غير متوفر في البيانات |
-| NEGAZOLE 250MG TAB. | Julphar | غير متوفر في البيانات |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FLAGYL 250MG TAB | METRONIDAZOLE | sanofi-aventis | ساري |
+| FLAGYL 125 MG-5 ML SUSPENSION | METRONIDAZOLE | sanofi-aventis | ساري |
+| ROZEX GEL 0.75% W-W | METRONIDAZOLE | GALDERMA | ساري |
+| ELYZOL INFUSION 5MG-ML | METRONIDAZOLE | XELLIA PHARMACEUTICAL APS | ساري |
+| NEGAZOLE 250MG TAB. | METRONIDAZOLE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

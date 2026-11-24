@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 595
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NIZATIDINE"
 predicted_indications: ["duodenal obstruction", "gastroduodenitis", "multiple endocrine neoplasia"]
 description: "Nizatidine: الاستطباب الجديد المتوقع Duodenal obstruction (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -87,13 +87,17 @@ description: "Nizatidine: الاستطباب الجديد المتوقع Duodena
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| AXID 300MG CAPS | AXID 300MG CAPS (إيلي ليلي) | غير متوفر | غير متوفر (ترخيص ساري) |
-| AXID 150MG CAPS | AXID 150MG CAPS (إيلي ليلي) | غير متوفر | غير متوفر (ترخيص ساري) |
-| FIXIT 150MG CAPSULE | FIXIT 150MG CAPSULE (جمجوم للأدوية) | كبسولة | غير متوفر (ترخيص ساري) |
-| FIXIT 300MG CAPSULE | FIXIT 300MG CAPSULE (جمجوم للأدوية) | كبسولة | غير متوفر (ترخيص ساري) |
-| FIXIT 75MG CAPSULE | FIXIT 75MG CAPSULE (جمجوم للأدوية) | كبسولة | غير متوفر (ترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AXID 300MG CAPS | NIZATIDINE | ELI LILLY | ساري |
+| AXID 150MG CAPS | NIZATIDINE | ELI LILLY | ساري |
+| FIXIT 150MG CAPSULE | NIZATIDINE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| FIXIT 300MG CAPSULE | NIZATIDINE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| FIXIT 75MG CAPSULE | NIZATIDINE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -130,7 +134,7 @@ description: "Nizatidine: الاستطباب الجديد المتوقع Duodena
 
 <!-- review:begin sa-lic-20261106-nizatidine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في السعودية ملغاة، ما يحدّ من إمكانية التطوير العملي، كما أن بيانات السلامة الرسمية غير متوفرة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 5، منها سارية: 5؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في السعودية ملغاة، ما يحدّ من إمكانية التطوير العملي، كما أن بيانات السلامة الرسمية غير متوفرة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-nizatidine-1 -->
 
@@ -149,7 +153,7 @@ description: "Nizatidine: الاستطباب الجديد المتوقع Duodena
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، ما يحدّ من إمكانية التطوير العملي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، ما يحدّ من إمكانية التطوير العملي» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: nizatidine prescribing information, Epic Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9957997-8b85-48a0-9bb3-b878cb223236) |
 
 <!-- review:end log -->

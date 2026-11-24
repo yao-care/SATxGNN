@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 40
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Allopurinol: الاستطباب الجديد المتوقع الپورفيريا الكبدية (Hepatic porphyria) (مستوى الدليل L5). الاستطباب الأصلي: النقرس"
 monitor_inn: "ALLOPURINOL"
 predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "idiopathic eosinophilic myositis"]
@@ -85,13 +85,19 @@ predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "idiopath
 
 جميع التراخيص الـ11 سارية. فيما يلي أبرز خمسة منها (لا تتوفر بيانات عن الشكل الصيدلاني أو نص الاستطباب المعتمد):
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة |
-|---------|------|------|
-| UROQUAD TABS 300 MG | UROQUAD TABS 300 MG | ROCHE DIAGNOSTICS |
-| ZYLORIC | ZYLORIC | GLAXO SAUDI ARABIA |
-| NO-URIC TAB 300MG | NO-URIC TAB 300MG | EIPICO |
-| PURINOL 100 MG | PURINOL 100 MG | Hikma Pharmaceuticals PLC |
-| Purout 100 MG TABLETS | Purout 100 MG TABLETS | OMAN PHARMACEUTICAL PRODUCTS |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| UROQUAD TABS 300 MG | ALLOPURINOL | ROCHE DIAGNOSTICS | ساري |
+| ZYLORIC | ALLOPURINOL | GLAXO SAUDI ARABIA | ساري |
+| NO-URIC TAB 300MG | ALLOPURINOL | EIPICO | ساري |
+| PURINOL 100 MG | ALLOPURINOL | Hikma Pharmaceuticals PLC | ساري |
+| Purout 100 MG TABLETS | ALLOPURINOL | OMAN PHARMACEUTICAL PRODUCTS | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

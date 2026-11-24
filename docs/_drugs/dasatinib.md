@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dasatinib: الاستطباب الجديد المتوقع ساركوما إيوينغ (Ewing sarcoma) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 9 (السارية: 9)"
 ---
 
@@ -82,13 +82,19 @@ description: "Dasatinib: الاستطباب الجديد المتوقع سارك
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| SPRYCEL 20MG F.C. TABLETS | SPRYCEL 20MG F.C. TABLETS | — | — |
-| Fylibix | Fylibix | — | — |
-| SPRYCEL 50MG F.C. TABLETS | SPRYCEL 50MG F.C. TABLETS | — | — |
-| Otrasa | Otrasa | — | — |
-| ELPIDA 70MG FILM COATED TABLET | ELPIDA 70MG FILM COATED TABLET | — | — |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SPRYCEL 20MG F.C. TABLETS | DASATINIB | BRISTOL-MYERS SQUIBB | ساري |
+| Fylibix | DASATINIB | REMEDICA | ساري |
+| SPRYCEL 50MG F.C. TABLETS | DASATINIB | BRISTOL-MYERS SQUIBB | ساري |
+| Otrasa | DASATINIB | Synthon Hispania SL | ساري |
+| ELPIDA 70MG FILM COATED TABLET | DASATINIB | The Arab Pharmaceutical Manufacturing PSC (Sahab) Co Ltd | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 تتوفر في البيانات 9 تراخيص سارية، وهذه خمسة منها.
 

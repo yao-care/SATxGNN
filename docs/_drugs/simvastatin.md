@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 759
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: الاستطباب الجديد المتوقع احتشاء جذع الدماغ (brain stem infarction) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 على الأقل"
@@ -72,13 +72,20 @@ description: "Simvastatin: الاستطباب الجديد المتوقع احت
 
 بحسب السجلات المحلية، جميع التراخيص المسجلة (17 ترخيصاً) سارية، وقد تكون القائمة جزئية. نص الاستطباب المعتمد غير مسجّل في البيانات المحلية. فيما يلي أبرز المنتجات:
 
-| رقم الترخيص / اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|-----------|
-| ZOCOR 10MG TAB | MERCK SHARP & DOHME | ساري |
-| ZOCOR 20MG TAB | MERCK SHARP & DOHME | ساري |
-| ZOCOR 40MG TAB | MERCK SHARP & DOHME | ساري |
-| SIMVAHEXAL 20MG F.C. TABLETS | HEXAL | ساري |
-| VASTA 40MG F.C. TABLETS | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ZOCOR 10MG TAB | SIMVASTATIN | MERCK SHARP & DOHME | ساري |
+| ZOCOR 20MG TAB | SIMVASTATIN | MERCK SHARP & DOHME | ساري |
+| ZOCOR 40MG TAB | SIMVASTATIN | MERCK SHARP & DOHME | ساري |
+| SIMVAHEXAL 20MG F.C. TABLETS | SIMVASTATIN | HEXAL | ساري |
+| VASTA 40MG F.C. TABLETS | SIMVASTATIN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 17 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

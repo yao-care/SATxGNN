@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 103
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Beta Carotene: الاستطباب الجديد المتوقع حب الشباب (acne) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص هيئة الغذاء والدواء السعودية فارغ…"
 monitor_inn: "beta carotene"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "cortical cataract", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "tetanic cataract", "immature cataract"]
@@ -89,10 +89,14 @@ predicted_indications: ["acne (disease)", "severe nonproliferative diabetic reti
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CENTRUM WITH LUTEIN TABLETS | CENTRUM WITH LUTEIN TABLETS (فايزر) | غير متوفر | غير متوفر (ساري) |
-| CENTRUM SILVER TABLETS | CENTRUM SILVER TABLETS (فايزر) | غير متوفر | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CENTRUM WITH LUTEIN TABLETS | MINERALS, MULTIVITAMINS | PFIZER | ساري |
+| CENTRUM SILVER TABLETS | MINERALS, MULTIVITAMINS | PFIZER | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -118,7 +122,7 @@ predicted_indications: ["acne (disease)", "severe nonproliferative diabetic reti
 
 <!-- review:begin sa-lic-20261106-beta_carotene-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كما أن جميع تراخيص الدواء في السعودية ملغاة، وبيانات السلامة من نشرة الدواء غير متوفرة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كما أن جميع تراخيص الدواء في السعودية ملغاة، وبيانات السلامة من نشرة الدواء غير متوفرة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-beta_carotene-1 -->
 
@@ -137,7 +141,7 @@ predicted_indications: ["acne (disease)", "severe nonproliferative diabetic reti
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "emtricitabine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Emtricitabine: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب لدى القطط (feline acquired immunodeficiency syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
@@ -72,13 +72,19 @@ description: "Emtricitabine: الاستطباب الجديد المتوقع مت
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Divira | Divira | غير مسجل | غير مسجل |
-| DANOVAR | DANOVAR | غير مسجل | غير مسجل |
-| DESCOVY 200MG/10MG F.C.TABLET | DESCOVY 200MG/10MG F.C.TABLET | غير مسجل | غير مسجل |
-| DESCOVY 200MG/25MG F.C.TABLET | DESCOVY 200MG/25MG F.C.TABLET | غير مسجل | غير مسجل |
-| BIKTARVY | BIKTARVY | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Divira | TENOFOVIR DISOPROXIL,EMTRICITABINE | Hetero Labs Limited Unit – III | ساري |
+| DANOVAR | TENOFOVIR DISOPROXIL,EMTRICITABINE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| DESCOVY 200MG/10MG F.C.TABLET | EMTRICITABINE,TENOFOVIR ALAFENAMIDE | PATHEON INC | ساري |
+| DESCOVY 200MG/25MG F.C.TABLET | EMTRICITABINE,TENOFOVIR ALAFENAMIDE | PATHEON INC | ساري |
+| BIKTARVY | EMTRICITABINE,BICTEGRAVIR,TENOFOVIR ALAFENAMIDE | GILEAD SCIENCES LIMITED (CORK) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

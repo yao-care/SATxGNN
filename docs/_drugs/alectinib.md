@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Alectinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alectinib: الاستطباب الجديد المتوقع الورم الليفي اللثوي (fibromatosis, gingival) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -68,9 +68,13 @@ description: "Alectinib: الاستطباب الجديد المتوقع الور
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ALECENSA 150 Mg Capsule | ALECENSA 150 Mg Capsule | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ALECENSA 150 Mg Capsule | ALECTINIB HYDROCHLORIDE | EXCELLA GmbH & Co. KG | ساري |
+
+<!-- licenses:end -->
 
 ## الاعتبارات المتعلقة بالسلامة
 

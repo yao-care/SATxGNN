@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methoxsalen: الاستطباب الجديد المتوقع الورام الشبيه بالباجيت الموضعي (Localized Pagetoid Reticulosis) (مستوى الدليل L5). الاستطباب الأصلي: الورم اللمفاوي التائي الجلدي الأولي (اللاهودجكيني)، البهاق"
 monitor_inn: "METHOXSALEN"
 predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
@@ -92,11 +92,15 @@ predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-
 
 جميع التراخيص الثلاثة سارية (3 من أصل 3 تراخيص صالحة)، والدواء مسوّق في هذا البلد. نصوص الاستطباب المعتمد غير متوفرة.
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| OXSORALEN LOTION | OXSORALEN LOTION | غير متوفر | غير متوفر |
-| OXSORALEN CAPS 10MG | OXSORALEN CAPS 10MG | غير متوفر | غير متوفر |
-| NEO MELADININE F.R TAB 10MG | NEO MELADININE F.R TAB 10MG | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| OXSORALEN LOTION | METHOXSALEN | I.C.N.PHARMACEUTICALS | ساري |
+| OXSORALEN CAPS 10MG | METHOXSALEN | I.C.N.PHARMACEUTICALS | ساري |
+| NEO MELADININE F.R TAB 10MG | METHOXSALEN | MEMPHIS CHEMICALS | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -150,7 +154,7 @@ predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-
 
 <!-- review:begin sa-lic-20261106-methoxsalen-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إعادة تقييم وضع التسجيل في المملكة نظرًا لإلغاء جميع التراخيص / ملاحظة: الاستطباب المتوقع الثاني (CTCL البطيء) يتداخل إلى حد كبير مع الاستطباب الأصلي، والاستطباباتُ المتوقعة من الثالث إلى التاسع (أورام لمفاوية بائية في الأمعاء والثدي واللوزتين والغدة الدرقية وغيرها) لا تدعمها أي أدلة ولا مبرر آلي لها (قرار: Hold)، والاستطباب العاشر (الكيراتوزيس الجريبي المقلوب الفرجي) آفة حميدة والمخاطر فيها أرجح من المنفعة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إعادة تقييم وضع التسجيل في المملكة نظرًا لإلغاء جميع التراخيص / ملاحظة: الاستطباب المتوقع الثاني (CTCL البطيء) يتداخل إلى حد كبير مع الاستطباب الأصلي، والاستطباباتُ المتوقعة من الثالث إلى التاسع (أورام لمفاوية بائية في الأمعاء والثدي واللوزتين والغدة الدرقية وغيرها) لا تدعمها أي أدلة ولا مبرر آلي لها (قرار: Hold)، والاستطباب العاشر (الكيراتوزيس الجريبي المقلوب الفرجي) آفة حميدة والمخاطر فيها أرجح من المنفعة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-methoxsalen-1 -->
 
@@ -162,7 +166,7 @@ predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «إعادة تقييم وضع التسجيل في المملكة نظرًا لإلغاء جميع التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «إعادة تقييم وضع التسجيل في المملكة نظرًا لإلغاء جميع التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416) |
 
 <!-- review:end log -->

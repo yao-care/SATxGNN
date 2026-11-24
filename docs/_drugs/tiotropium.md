@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 818
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TIOTROPIUM"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: الاستطباب الجديد المتوقع التشوه التنفسي (respiratory malformation) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -79,9 +79,13 @@ description: "Tiotropium: الاستطباب الجديد المتوقع الت�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| SPIRIVA 18MCG HARD CAPSULE | SPIRIVA 18MCG HARD CAPSULE (بوهرنجر إنجلهايم) | غير محدد | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SPIRIVA 18MCG HARD CAPSULE | TIOTROPIUM | BOEHRINGER INGELHEIM | ساري |
+
+<!-- licenses:end -->
 
 يوجد ترخيص واحد ساري المفعول لمنتج أحادي المادة الفعالة.
 

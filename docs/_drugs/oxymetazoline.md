@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 621
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxymetazoline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: التهاب البلعوم، نزلات البرد"
 monitor_inn: "OXYMETAZOLINE"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
@@ -92,15 +92,19 @@ predicted_indications: ["nasal cavity disease", "headache disorder"]
 
 جميع التراخيص الثمانية (8 من 8) **سارية**، والدواء مسوَّق. ولا تتوفر بيانات عن الشكل الدوائي والاستطباب المعتمد.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| ClariSpray Original | ClariSpray Original | Delpharm Montréal Inc | ساري |
-| VICKS SINEX NASAL SPRAY. | VICKS SINEX NASAL SPRAY. | RICHARD SUN MRIL | ساري |
-| ILIADIN INFANT | ILIADIN INFANT | Merck Healthcare KGaA | ساري |
-| ClariSpray Menthol | ClariSpray Menthol | Delpharm Montréal Inc | ساري |
-| NASIVIN DROPS 0.025% | NASIVIN DROPS 0.025% | Gulf Pharmaceutical Industries (Julphar) | ساري |
+<!-- licenses:begin -->
 
-(عُرضت 5 من أصل 8 تراخيص.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ClariSpray Original | OXYMETAZOLINE | Delpharm Montréal Inc | ساري |
+| VICKS SINEX NASAL SPRAY. | OXYMETAZOLINE | RICHARD SUN MRIL | ساري |
+| ILIADIN INFANT | OXYMETAZOLINE | Merck Healthcare KGaA | ساري |
+| ClariSpray Menthol | OXYMETAZOLINE | Delpharm Montréal Inc | ساري |
+| NASIVIN DROPS 0.025% | OXYMETAZOLINE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

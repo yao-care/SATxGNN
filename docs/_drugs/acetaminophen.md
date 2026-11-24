@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 16
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Acetaminophen: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر مرشح جديد"
 predicted_indications: []
 ---
@@ -72,29 +72,33 @@ predicted_indications: []
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| TYLENOL SUPP 200 MG | TYLENOL SUPP 200 MG |  | ساري |
-| VONAL 100MG-ML ORAL DROP | VONAL 100MG-ML ORAL DROP |  | ساري |
-| DOLOMOL 325MG SUPP | DOLOMOL 325MG SUPP |  | ساري |
-| EMIDOL 120MG\5ML SYRUP | EMIDOL 120MG\5ML SYRUP |  | ساري |
-| FEVADOL 160MG FAST MELTING TABLETS | FEVADOL 160MG FAST MELTING TABLETS |  | ساري |
-| VONAL 500MG TAB. | VONAL 500MG TAB. |  | ساري |
-| CETAMOL 100 MG SUPP | CETAMOL 100 MG SUPP |  | ساري |
-| ADOL 500MG CAPLET | ADOL 500MG CAPLET |  | ساري |
-| REVANIN 250MG SUPP FOR CHILDREN | REVANIN 250MG SUPP FOR CHILDREN |  | ساري |
-| DOLOMOL 500MG TAB | DOLOMOL 500MG TAB |  | ساري |
-| OMOL 120MG\5ML SYRUP | OMOL 120MG\5ML SYRUP |  | ساري |
-| ADOL DROPS 100MG-ML | ADOL DROPS 100MG-ML |  | ساري |
-| FEVADOL 500MG TAB | FEVADOL 500MG TAB |  | ساري |
-| Paracetamol Kabi | Paracetamol Kabi |  | ساري |
-| PANADOL SOLUBLE 500MG TAB | PANADOL SOLUBLE 500MG TAB |  | ساري |
-| FEVADOL SF 120MG\5ML SYRUP | FEVADOL SF 120MG\5ML SYRUP |  | ساري |
-| Panda Advance | Panda Advance |  | ساري |
-| PANADOL JUNIOR SACHET 240MG | PANADOL JUNIOR SACHET 240MG |  | ساري |
-| TYLENOL FORTE TAB 500MG | TYLENOL FORTE TAB 500MG |  | ساري |
+| TYLENOL SUPP 200 MG | PARACETAMOL | LUSOMEDICAMENTA | ساري |
+| VONAL 100MG-ML ORAL DROP | PARACETAMOL | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| DOLOMOL 325MG SUPP | PARACETAMOL | Hikma Pharmaceuticals PLC | ساري |
+| EMIDOL 120MG\5ML SYRUP | PARACETAMOL | GLOBAL PHARMA | ساري |
+| FEVADOL 160MG FAST MELTING TABLETS | PARACETAMOL | SPIMACO | ساري |
+| VONAL 500MG TAB. | PARACETAMOL | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| CETAMOL 100 MG SUPP | PARACETAMOL | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| ADOL 500MG CAPLET | PARACETAMOL | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| REVANIN 250MG SUPP FOR CHILDREN | PARACETAMOL | APM | ساري |
+| DOLOMOL 500MG TAB | PARACETAMOL | Hikma Pharmaceuticals PLC | ساري |
+| OMOL 120MG\5ML SYRUP | PARACETAMOL | NATIONAL PHARMACEUTICAL INDUSTRIES CO | ساري |
+| ADOL DROPS 100MG-ML | PARACETAMOL | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| FEVADOL 500MG TAB | PARACETAMOL | SPIMACO | ساري |
+| Paracetamol Kabi | PARACETAMOL | FRESENIUS KABI | ساري |
+| PANADOL SOLUBLE 500MG TAB | PARACETAMOL | GLAXOSMITHKLINE (GSK) | ساري |
+| FEVADOL SF 120MG\5ML SYRUP | PARACETAMOL | SPIMACO | ساري |
+| Panda Advance | PARACETAMOL | Jordan Sweden Medical and Sterilization Co. | ساري |
+| PANADOL JUNIOR SACHET 240MG | PARACETAMOL | SMIITHKLINE BEECHAM | ساري |
+| TYLENOL FORTE TAB 500MG | PARACETAMOL | JANSSEN-CILAG | ساري |
 
 تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

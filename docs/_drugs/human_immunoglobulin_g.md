@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HUMAN IMMUNOGLOBULIN G"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis"]
 description: "Human Immunoglobulin G: الاستطباب الجديد المتوقع Severe nonproliferative diabetic retinopathy (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 8 (السارية: 8)"
@@ -91,15 +91,19 @@ description: "Human Immunoglobulin G: الاستطباب الجديد المتو
 
 ولم تُسجَّل نصوص استطباب أو أشكال صيدلانية لهذه المنتجات.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| FLEBOGAMMA 5% SOLU. FOR I.V. INJECTION | FLEBOGAMMA 5% | INSTITUTO GRIFOLS | ساري |
-| ENDOBULIN S\D 5% IV INFUSION | ENDOBULIN S\D 5% | BAXTER | ساري |
-| INTRAGLOBIN 2.5G +50ML DILUENT | INTRAGLOBIN | BIOTEST | ساري |
-| PENTAGLOBIN AMP I.V | PENTAGLOBIN | BIOTEST | ساري |
-| GAMMA GLOBULIN 16% INJ | GAMMA GLOBULIN 16% | OCTAPHARMA | ساري |
+<!-- licenses:begin -->
 
-(عُرضت 5 من أصل 8 تراخيص.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FLEBOGAMMA 5% SOLU. FOR I.V. INJECTION | HUMAN IMMUNOGLOBULIN G | INSTITUTO GRIFOLS | ساري |
+| ENDOBULIN S\D 5% IV INFUSION | HUMAN IMMUNOGLOBULIN G | BAXTER | ساري |
+| INTRAGLOBIN 2.5G +50ML DILUENT | HUMAN IMMUNOGLOBULIN G | BIOTEST | ساري |
+| PENTAGLOBIN AMP I.V | HUMAN IMMUNOGLOBULIN G | BIOTEST | ساري |
+| GAMMA GLOBULIN 16% INJ | HUMAN IMMUNOGLOBULIN G | OCTAPHARMA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,7 +127,7 @@ description: "Human Immunoglobulin G: الاستطباب الجديد المتو
 
 <!-- review:begin sa-lic-20261106-human_immunoglobulin_g-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم جدوى طريق الإعطاء ووصول الدواء إلى الشبكية، وكذلك الوضع التسويقي بعد إلغاء التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم جدوى طريق الإعطاء ووصول الدواء إلى الشبكية، وكذلك الوضع التسويقي بعد إلغاء التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-human_immunoglobulin_g-1 -->
 
@@ -135,7 +139,7 @@ description: "Human Immunoglobulin G: الاستطباب الجديد المتو
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وكذلك الوضع التسويقي بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وكذلك الوضع التسويقي بعد إلغاء التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Asceniv (human immunoglobulin g) prescribing information, ADMA Biologics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d74f4360-3b51-496c-96fb-84c3976958d2) |
 
 <!-- review:end log -->

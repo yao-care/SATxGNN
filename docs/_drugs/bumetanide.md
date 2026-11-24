@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 124
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "BUMETANIDE"
 predicted_indications: ["acute pulmonary heart disease"]
 description: "Bumetanide: الاستطباب الجديد المتوقع مرض القلب الرئوي الحاد (acute pulmonary heart disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -78,15 +78,13 @@ description: "Bumetanide: الاستطباب الجديد المتوقع مرض 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| BURINEX TABLETS 1 MG (ساري) | BURINEX TABLETS 1 MG (Leo Pharma) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
 
-<!-- review:begin sa-row-20261112-bumetanide-1 -->
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BURINEX TABLETS 1 MG | BUMETANIDE | Leo Pharma | ساري |
 
-> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «(ملغى)» المستحضر BURINEX TABLETS 1 MG مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
-
-<!-- review:end sa-row-20261112-bumetanide-1 -->
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 
@@ -114,7 +112,7 @@ description: "Bumetanide: الاستطباب الجديد المتوقع مرض 
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-12 | الجدول: BURINEX TABLETS 1 MG مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: BURINEX TABLETS 1 MG مسجل (ساري) وليس ملغى | حلّ محله جدول التراخيص المولَّد برمجيًا (سابقًا: صُحّح) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Enbumyst (bumetanide) prescribing information, Corstasis USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6f752c5-d2bd-4f77-9611-ca2110066d1f) |
 
 <!-- review:end log -->

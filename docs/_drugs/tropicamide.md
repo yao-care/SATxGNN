@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 845
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Tropicamide: الاستطباب الجديد المتوقع متلازمة ذنب الفرس (Cauda equina syndrome) (مستوى الدليل L5). الاستطباب الأصلي: شلل التكيّف (Cycloplegia) (مصدره الرسم المعرفي لـ TxGNN، إذ لا يتوفر…"
 monitor_inn: "TROPICAMIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
@@ -84,12 +84,16 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الشركة المصنعة | الحالة |
-|---------|------|------|------|------|
-| MINIMS TROPICAMIDE 1% W-V | MINIMS TROPICAMIDE 1% W-V | غير محدد | Chauvin Bausch & Lomb | ساري |
-| MYDRIACYL 1% EYE DROPS | MYDRIACYL 1% EYE DROPS | قطرات للعين | Alcon Couvreur | ساري |
-| MINIMS TROPICAMIDE 0.5% EYE DROPS | MINIMS TROPICAMIDE 0.5% EYE DROPS | قطرات للعين | Chauvin Bausch & Lomb | ساري |
-| EYMID 1% EYE DROP | EYMID 1% EYE DROP | قطرات للعين | Jamjoom Pharmaceuticals Company | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MINIMS TROPICAMIDE 1% W-V | TROPICAMIDE | CHAUVIN BAUSCH & LOMB | ساري |
+| MYDRIACYL 1% EYE DROPS | TROPICAMIDE | ALCON COUVREUR | ساري |
+| MINIMS TROPICAMIDE 0.5% EYE DROPS | TROPICAMIDE | CHAUVIN BAUSCH & LOMB | ساري |
+| EYMID 1% EYE DROP | TROPICAMIDE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الأربعة سارية المفعول حالياً، والدواء مسوَّق في هذا البلد.
 
@@ -114,7 +118,7 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 <!-- review:begin sa-lic-20261106-tropicamide-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدواء متوفر كقطرات للعين فقط مع تعرّض جهازي ضئيل، وجميع تراخيصه في المملكة ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدواء متوفر كقطرات للعين فقط مع تعرّض جهازي ضئيل، وجميع تراخيصه في المملكة ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-tropicamide-1 -->
 
@@ -133,7 +137,7 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وجميع تراخيصه في المملكة ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وجميع تراخيصه في المملكة ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

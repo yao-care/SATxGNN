@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "STREPTOKINASE"
 drugbank_id: DB00086
 predicted_indications: ["Prinzmetal angina", "hemoglobinopathy", "peripheral vascular disease", "peripheral arterial disease", "partial deletion of the short arm of chromosome 16"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Streptokinase: الاستطباب الجديد المتوقع ذبحة برنزميتال (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المحلية"
 ---
 
@@ -84,12 +84,16 @@ description: "Streptokinase: الاستطباب الجديد المتوقع ذب
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنِّعة |
-|---------|------|------|
-| STREPTAS 750000I.U VIAL | STREPTAS 750000I.U VIAL | CSL BEHRING |
-| STREPTAS 250000I.U VIAL | STREPTAS 250000I.U VIAL | CSL BEHRING |
-| KABIKINASE 600000 IU VIAL | KABIKINASE 600000 IU VIAL | OCTAPHARMA |
-| KABIKINASE VIAL 100000 IU | KABIKINASE VIAL 100000 IU | OCTAPHARMA |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| STREPTAS 750000I.U VIAL | STREPTOKINASE | CSL BEHRING | ساري |
+| STREPTAS 250000I.U VIAL | STREPTOKINASE | CSL BEHRING | ساري |
+| KABIKINASE 600000 IU VIAL | STREPTOKINASE | OCTAPHARMA | ساري |
+| KABIKINASE VIAL 100000 IU | STREPTOKINASE | OCTAPHARMA | ساري |
+
+<!-- licenses:end -->
 
 ---
 

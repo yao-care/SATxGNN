@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ALFACALCIDOL"
 predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alfacalcidol: الاستطباب الجديد المتوقع خلل التنسج القحفي الوجهي المخروطي (craniofacial conodysplasia) (مستوى الدليل L5). الاستطباب الأصلي: فرط نشاط الغدة جار الدرقية (علاقة مسجّلة في الرسم المعرفي، و…"
 ---
 
@@ -83,12 +83,16 @@ description: "Alfacalcidol: الاستطباب الجديد المتوقع خل�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الجهة المصنّعة |
-|---------|------|------|
-| ONE-ALPHA CAPS 0.25 MICROGM | ONE-ALPHA CAPS 0.25 MICROGM | Leo Pharma |
-| ONE-ALPHA DROPS 2MICROGRAM-ML | ONE-ALPHA DROPS 2MICROGRAM-ML | Leo Pharma |
-| ONE-ALPHA CAPS 1.0 MICROGM | ONE-ALPHA CAPS 1.0 MICROGM | Leo Pharma |
-| ONE-ALPHA 2MCG-ML AMP. | ONE-ALPHA 2MCG-ML AMP. | CENEXI |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ONE-ALPHA CAPS 0.25 MICROGM | ALFACALCIDOL | Leo Pharma | ساري |
+| ONE-ALPHA DROPS 2MICROGRAM-ML | ALFACALCIDOL | Leo Pharma | ساري |
+| ONE-ALPHA CAPS 1.0 MICROGM | ALFACALCIDOL | Leo Pharma | ساري |
+| ONE-ALPHA 2MCG-ML AMP. | ALFACALCIDOL | CENEXI | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الأربعة سارية، وكلها لمنتجات أحادية المكوّن.
 

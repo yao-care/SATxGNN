@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 47
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
 description: "Amantadine: الاستطباب الجديد المتوقع التهاب الدماغ تحت الحاد لراسموسن (Rasmussen subacute encephalitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -70,9 +70,13 @@ description: "Amantadine: الاستطباب الجديد المتوقع الت�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
-|---------|------|------|-----------|
-| PK-MERZ | PK-MERZ (الشركة المصنعة: MERZ PHARMACEUTICAL) | غير محدد | غير محدد (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PK-MERZ | AMANTADINE SULFATE | MERZ PHARMACEUTICAL | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنِّعة: MERZ PHARMACEUTICAL. الترخيص ساري المفعول.
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 690
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Progesterone: الاستطباب الجديد المتوقع مرض الثدي الكيسي الليفي (breast fibrocystic disease) (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
@@ -83,13 +83,19 @@ description: "Progesterone: الاستطباب الجديد المتوقع مر�
 
 الحالة في السوق: مسوّق، وجميع التراخيص الستة الواردة سارية.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| Crinone | Crinone | Dendron Brands Limited | ساري |
-| ENDOMETRIN 100 mg vafinal tablet | ENDOMETRIN 100 mg vaginal tablet | Q PHARMAAB | ساري |
-| CYCLOGEST 200MG PESSARIES | CYCLOGEST 200MG | Accord-UK Limited | ساري |
-| CYCLOGEST 400MG PESSARIES | CYCLOGEST 400MG | Accord-UK Limited | ساري |
-| PROLUTEX | PROLUTEX | IBSA Institut Biochimique SA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Crinone | PROGESTERONE | Dendron Brands Limited | ساري |
+| ENDOMETRIN 100 mg vafinal tablet | PROGESTERONE | Q PHARMAAB | ساري |
+| CYCLOGEST 200MG PESSARIES | PROGESTERONE | Accord -UK Limited | ساري |
+| CYCLOGEST 400MG PESSARIES | PROGESTERONE | Accord -UK Limited | ساري |
+| PROLUTEX | PROGESTERONE | IBSA Institut Biochimique SA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

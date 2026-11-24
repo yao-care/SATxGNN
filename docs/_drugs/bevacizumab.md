@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 106
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bevacizumab: الاستطباب الجديد المتوقع ورم لسان المزمار (Epiglottis Neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الصفاق، وسرطان المبيض الظهاري، وسرطان الثدي، والورم الخبيث المن…"
 monitor_inn: "BEVACIZUMAB"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
@@ -81,12 +81,16 @@ predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tum
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص / الاسم | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|------|
-| AVASTIN 400 solution for infusion | AVASTIN 400 solution for infusion | ROCHE DIAGNOSTICS | ساري |
-| Zirabev | Zirabev | PFIZER | ساري |
-| MVASI | MVASI | AMGEN EUROPE B.V. | ساري |
-| AVASTIN 100 solution for infusion | AVASTIN 100 solution for infusion | ROCHE DIAGNOSTICS | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AVASTIN 400 solution for infusion | Bevacizumab | ROCHE DIAGNOSTICS | ساري |
+| Zirabev | Bevacizumab | PFIZER | ساري |
+| MVASI | Bevacizumab | AMGEN EUROPE B.V. | ساري |
+| AVASTIN 100 solution for infusion | Bevacizumab | ROCHE DIAGNOSTICS | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الأربعة سارية المفعول، ويوجد حاليًا ترخيص ساري المفعول للبيفاسيزوماب في المملكة.
 
@@ -133,7 +137,7 @@ predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tum
 
 <!-- review:begin sa-lic-20261106-bevacizumab-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حاليًا ترخيص ساري للدواء في المملكة، وهو ما يزيد صعوبة أي مسار تنظيمي. / من بين الاستطبابات الأخرى المتوقعة، بدا "الورم الكيسي" (Cystic Neoplasm) الأقوى أدلة (L1)، لكن أدلته تأتي من أورام المبيض المشمولة أصلًا بالاستطبابات الأصلية، فهو ليس حالة إعادة توظيف حقيقية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حاليًا ترخيص ساري للدواء في المملكة، وهو ما يزيد صعوبة أي مسار تنظيمي. / من بين الاستطبابات الأخرى المتوقعة، بدا "الورم الكيسي" (Cystic Neoplasm) الأقوى أدلة (L1)، لكن أدلته تأتي من أورام المبيض المشمولة أصلًا بالاستطبابات الأصلية، فهو ليس حالة إعادة توظيف حقيقية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-bevacizumab-1 -->
 
@@ -152,7 +156,7 @@ predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tum
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حاليًا ترخيص ساري للدواء في المملكة، وهو ما يزيد صعوبة أي مسار تنظيمي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حاليًا ترخيص ساري للدواء في المملكة، وهو ما يزيد صعوبة أي مسار تنظيمي» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe) |
 
 <!-- review:end log -->

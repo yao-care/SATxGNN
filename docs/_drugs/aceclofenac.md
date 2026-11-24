@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "ACECLOFENAC"
 predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx", "Kummell disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Aceclofenac: الاستطباب الجديد المتوقع متلازمة انعدام تكوّن المينا مع قِصَر الجسم (brachyolmia-amelogenesis imperfecta syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -68,10 +68,14 @@ description: "Aceclofenac: الاستطباب الجديد المتوقع متل
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| AIRTAL 100 MG F- C TABLETS | AIRTAL 100 MG F- C TABLETS | غير مسجّل | غير مسجّل |
-| GLADIO | GLADIO | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AIRTAL 100 MG F- C TABLETS | ACECLOFENAC | SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO | ساري |
+| GLADIO | ACECLOFENAC | MEDPHARMA PHARMACEUTICAL & CHEMICAL INDUSTRIES | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

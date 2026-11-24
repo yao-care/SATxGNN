@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carfilzomib: الاستطباب الجديد المتوقع CMM7 — وهو الاستطباب الأعلى أدلة بين خمسة تنبؤات، أم… (مستوى الدليل L5). الاستطباب الأصلي: الورم النخاعي البلازمي (Plasma cell myeloma)"
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
@@ -91,10 +91,14 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| KYPROLIS 60 mg Powder For Solution For Injection | KYPROLIS 60 mg Powder For Solution For Injection (Amgen Technology) | — | — (ساري) |
-| Carfilzomib SPC | Carfilzomib SPC (Cipla Limited) | — | — (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| KYPROLIS 60 mg Powder For Solution For Injection | CARFILZOMIB | AMGEN TECHNOLOGY | ساري |
+| Carfilzomib SPC | CARFILZOMIB | Cipla Limited | ساري |
+
+<!-- licenses:end -->
 
 يوجد ترخيصان ساريان من أصل ترخيصين (2 من 2)، والدواء مسوَّق.
 
@@ -143,7 +147,7 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 
 <!-- review:begin sa-lic-20261106-carfilzomib-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «النظر في الأنواع الفرعية المختلفة (الجلدية، والعنبية، والمخاطية) بشكل منفصل نظراً لاختلاف بيولوجيتها. / مراجعة وضع التراخيص الملغاة والتحقق من إمكانية توفر الدواء محلياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «النظر في الأنواع الفرعية المختلفة (الجلدية، والعنبية، والمخاطية) بشكل منفصل نظراً لاختلاف بيولوجيتها. / مراجعة وضع التراخيص الملغاة والتحقق من إمكانية توفر الدواء محلياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-carfilzomib-1 -->
 
@@ -155,7 +159,7 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «مراجعة وضع التراخيص الملغاة والتحقق من إمكانية توفر الدواء محلياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «مراجعة وضع التراخيص الملغاة والتحقق من إمكانية توفر الدواء محلياً» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6) |
 
 <!-- review:end log -->

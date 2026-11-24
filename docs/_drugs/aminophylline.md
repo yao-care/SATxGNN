@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 53
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aminophylline: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص دواعي الاستعمال في التراخيص فارغة)"
 monitor_inn: "AMINOPHYLLINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
@@ -87,11 +87,15 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "at
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | دواعي الاستعمال المعتمدة |
-|---------|------|------|-----------|
-| AMINOPHYLLINE 250 Mg Injection* | AMINOPHYLLINE 250 Mg Injection* (ANTIGEN) | غير محدد | غير متوفر (ساري) |
-| NEOPHYLLIN TAB 100MG | NEOPHYLLIN TAB 100MG (EISAI) | غير محدد | غير متوفر (ساري) |
-| AMINOPHYLLINE INJ 250MG | AMINOPHYLLINE INJ 250MG (HOSPIRA) | غير محدد | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AMINOPHYLLINE 250 Mg Injection* | AMINOPHYLLINE | ANTIGEN | ساري |
+| NEOPHYLLIN TAB 100MG | AMINOPHYLLINE | EISAI | ساري |
+| AMINOPHYLLINE INJ 250MG | AMINOPHYLLINE | HOSPIRA | ساري |
+
+<!-- licenses:end -->
 
 ---
 

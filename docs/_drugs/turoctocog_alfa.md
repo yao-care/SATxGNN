@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 849
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Turoctocog Alfa: الاستطباب الجديد المتوقع اضطراب إفراز الصفيحات الأولي (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا (من الاستطبابات المستمدة من الرسم المعرفي للنموذج، إذ لا…"
 monitor_inn: "TUROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "thrombotic thrombocytopenic purpura", "hereditary thrombocytosis with transverse limb defect"]
@@ -96,19 +96,25 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 جميع التراخيص الستة سارية (6 من 6)، والمنتج مسوّق. المنتج التجاري هو NOVOEIGHT من شركة NOVO NORDISK، بتراكيز مختلفة (مسحوق ومذيب لمحلول للحقن):
 
-| رقم الترخيص / المنتج | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| NOVOEIGHT 250 IU | NOVOEIGHT 250 IU | مسحوق ومذيب لمحلول للحقن | غير متوفر | ملغى |
-| NOVOEIGHT 500 IU | NOVOEIGHT 500 IU | مسحوق ومذيب لمحلول للحقن | غير متوفر | ملغى |
-| NOVOEIGHT 1000 IU | NOVOEIGHT 1000 IU | مسحوق ومذيب لمحلول للحقن | غير متوفر | ملغى |
-| NOVOEIGHT 1500 IU | NOVOEIGHT 1500 IU | مسحوق ومذيب لمحلول للحقن | غير متوفر | ملغى |
-| NOVOEIGHT 2000 IU | NOVOEIGHT 2000 IU | مسحوق ومذيب لمحلول للحقن | غير متوفر | ملغى |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NOVOEIGHT 250 IU Powder & Solvent For Solution For Injection | TUROCTOCOG ALFA | NOVO NORDISK | ساري |
+| NOVOEIGHT 500 IU Powder & Solvent For Solution For Injection | TUROCTOCOG ALFA | NOVO NORDISK | ساري |
+| NOVOEIGHT 1000 IU Powder & Solvent For Solution For Injection | TUROCTOCOG ALFA | NOVO NORDISK | ساري |
+| NOVOEIGHT 1500 IU Powder & Solvent For Solution For Injection | TUROCTOCOG ALFA | NOVO NORDISK | ساري |
+| NOVOEIGHT 2000 IU Powder & Solvent For Solution For Injection | TUROCTOCOG ALFA | NOVO NORDISK | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 (عُرضت خمسة تراخيص من أصل ستة؛ الترخيص السادس هو NOVOEIGHT 3000 IU.)
 
 <!-- review:begin sa-lic-20261106-turoctocog_alfa-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(عُرضت خمسة تراخيص من أصل ستة؛ الترخيص السادس هو NOVOEIGHT 3000 IU وهو ملغى أيضاً.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «(عُرضت خمسة تراخيص من أصل ستة؛ الترخيص السادس هو NOVOEIGHT 3000 IU وهو ملغى أيضاً.)» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-turoctocog_alfa-1 -->
 
@@ -133,7 +139,7 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 <!-- review:begin sa-lic-20261106-turoctocog_alfa-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «المنتج ملغى التسويق في المملكة (6 تراخيص ملغاة)، وبيانات السلامة وآلية العمل غير مكتملة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «المنتج ملغى التسويق في المملكة (6 تراخيص ملغاة)، وبيانات السلامة وآلية العمل غير مكتملة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-turoctocog_alfa-2 -->
 
@@ -146,7 +152,7 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 <!-- review:begin sa-lic-20261106-turoctocog_alfa-3 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم مخاطر الخثار في الحالات المتوقعة المهيِّئة للتخثر (TTP وفرط الصفيحات). / تقييم جدوى أي مسار تنظيمي في ظل إلغاء التراخيص الحالية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم مخاطر الخثار في الحالات المتوقعة المهيِّئة للتخثر (TTP وفرط الصفيحات). / تقييم جدوى أي مسار تنظيمي في ظل إلغاء التراخيص الحالية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-turoctocog_alfa-3 -->
 
@@ -158,9 +164,9 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وهو ملغى أيضاً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «المنتج ملغى التسويق في المملكة (6 تراخيص ملغاة)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «تقييم جدوى أي مسار تنظيمي في ظل إلغاء التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وهو ملغى أيضاً» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «المنتج ملغى التسويق في المملكة (6 تراخيص ملغاة)» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «تقييم جدوى أي مسار تنظيمي في ظل إلغاء التراخيص الحالية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "cobicistat"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cobicistat: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب لدى القطط (feline acquired immunodeficiency syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -76,9 +76,13 @@ description: "Cobicistat: الاستطباب الجديد المتوقع متل�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| GENVOYA Film-coated Tablet | GENVOYA Film-coated Tablet | غير مسجّل | غير مسجّل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| GENVOYA Film-coated Tablet | EMTRICITABINE,ELVITEGRAVIR,COBICISTAT,TENOFOVIR ALAFENAMIDE | PATHEON INC | ساري |
+
+<!-- licenses:end -->
 
 حالة السوق: مسجّل في السوق. ملاحظة: هذا المنتج مركّب متعدد المكونات، ولا يصف ترخيصه وضع كوبيسيستات منفرداً.
 

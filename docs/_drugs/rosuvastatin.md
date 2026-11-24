@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 735
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ROSUVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin: الاستطباب الجديد المتوقع نقص بروتين نقل إسترات الكوليسترول (cholesterol-ester transfer protein deficiency) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -72,13 +72,20 @@ description: "Rosuvastatin: الاستطباب الجديد المتوقع نق�
 
 يتوفر الدواء في السوق السعودي ضمن 20 ترخيصاً صالحاً لمنتجات أحادية المادة الفعالة (قد تكون القائمة جزئية). نص الاستطباب المعتمد غير مسجّل في البيانات المحلية. أبرز المنتجات:
 
-| رقم الترخيص / المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| CRESCHOL 20 mg | Tabuk Pharmaceutical | ملغى |
-| Rosgan | Aurobindo Pharma | ساري |
-| ROST | Hetero Labs | ساري |
-| CRESCHOL 10 mg | Tabuk Pharmaceutical | ملغى |
-| VERTEX | SAJA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CRESCHOL 20 mg film-coated tablet | ROSUVASTATIN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| Rosgan | ROSUVASTATIN | Aurobindo Pharma Limited Unit VII | ساري |
+| ROST | ROSUVASTATIN | Hetero Labs Limited Unit – V | ساري |
+| CRESCHOL 10 mg film-coated tablet | ROSUVASTATIN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| VERTEX | ROSUVASTATIN | SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

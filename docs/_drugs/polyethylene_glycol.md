@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 667
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Polyethylene Glycol: الاستطباب الجديد المتوقع الحُمَاد الجلدي الخلقي المتقشر (congenital ichthyosiform erythroderma) (مستوى الدليل L5). الاستطباب الأصلي: الإمساك، متلازمة جفاف العين (لم يرد نص استطبا…"
 monitor_inn: "polyethylene glycol"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
@@ -82,11 +82,15 @@ predicted_indications: ["congenital ichthyosiform erythroderma"]
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الشركة المصنِّعة | الحالة |
-|---------|------|------|------|------|
-| SYSTANE ULTRA UD LUBRICANT EYE DROPS | SYSTANE ULTRA UD LUBRICANT EYE DROPS | غير مذكور | ALCON LABORATORIES | ساري |
-| SYSTANE LUBRICANT EYE DROPS | SYSTANE LUBRICANT EYE DROPS | غير مذكور | ALCON LABORATORIES | ساري |
-| LAXO | LAXO | غير مذكور | DEEF PHARMACEUTICAL INDUSTRIES | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SYSTANE ULTRA UD LUBRICANT EYE DROPS | POLYETHYLENE GLYCOL,PROPYLENE GLYCOL | ALCON LABORATORIES | ساري |
+| SYSTANE LUBRICANT EYE DROPS | POLYETHYLENE GLYCOL,PROPYLENE GLYCOL | ALCON LABORATORIES | ساري |
+| LAXO | SODIUM CHLORIDE,SODIUM BICARBONATE,POTASSIUM CHLORIDE,POLYETHYLENE GLYCOL | DEEF PHARMACEUTICAL INDUSTRIES | ساري |
+
+<!-- licenses:end -->
 
 ---
 

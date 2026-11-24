@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 781
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Sumatriptan: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا استطباب جديد مرشح"
 predicted_indications: []
 ---
@@ -72,20 +72,24 @@ predicted_indications: []
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| MIGRABAN 50MG FILM COATED TABLETS | MIGRABAN 50MG FILM COATED TABLETS |  | ساري |
-| MIGRABAN 100MG FILM COATED TABLETS | MIGRABAN 100MG FILM COATED TABLETS |  | ساري |
-| SUMAREX 50 MG F.C.TABLET (2S) | SUMAREX 50 MG F.C.TABLET (2S) |  | ساري |
-| ORATAB 100MG F.C. TABLETS | ORATAB 100MG F.C. TABLETS |  | ساري |
-| IMIGRAN 20 MG NASAL SPRAY | IMIGRAN 20 MG NASAL SPRAY |  | ساري |
-| SUMAREX 50 MG F.C.TABLET (6S) | SUMAREX 50 MG F.C.TABLET (6S) |  | ساري |
-| IMIGRAN 6MG-0.5ML AMP | IMIGRAN 6MG-0.5ML AMP |  | ساري |
-| SUMAREX 100 MG F.C.TABLET (2S) | SUMAREX 100 MG F.C.TABLET (2S) |  | ساري |
-| ORATAB 100 mg | ORATAB 100 mg |  | ساري |
-| IMIGRAN 10 MG NASAL SPRAY | IMIGRAN 10 MG NASAL SPRAY |  | ساري |
-| IMIGRAN | IMIGRAN |  | ساري |
-| SUMAREX 100 MG F.C.TABLET (6S) | SUMAREX 100 MG F.C.TABLET (6S) |  | ساري |
+| MIGRABAN 50MG FILM COATED TABLETS | SUMATRIPTAN | RIYADH PHARMA | ساري |
+| MIGRABAN 100MG FILM COATED TABLETS | SUMATRIPTAN | RIYADH PHARMA | ساري |
+| SUMAREX 50 MG F.C.TABLET (2S) | SUMATRIPTAN | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| ORATAB 100MG F.C. TABLETS | SUMATRIPTAN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| IMIGRAN 20 MG NASAL SPRAY | SUMATRIPTAN | GLAXOSMITHKLINE (GSK) | ساري |
+| SUMAREX 50 MG F.C.TABLET (6S) | SUMATRIPTAN | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| IMIGRAN 6MG-0.5ML AMP | SUMATRIPTAN | GLAXO | ساري |
+| SUMAREX 100 MG F.C.TABLET (2S) | SUMATRIPTAN | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| ORATAB 100 mg | SUMATRIPTAN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| IMIGRAN 10 MG NASAL SPRAY | SUMATRIPTAN | GLAXOSMITHKLINE (GSK) | ساري |
+| IMIGRAN | SUMATRIPTAN | DELPHARM POZNAN SPOLKA AKCYJNA | ساري |
+| SUMAREX 100 MG F.C.TABLET (6S) | SUMATRIPTAN | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

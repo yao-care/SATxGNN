@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 13
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ACARBOSE"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Acarbose: الاستطباب الجديد المتوقع متلازمة الطرف المتيبس البؤرية (Focal stiff limb syndrome) (مستوى الدليل L5). الاستطباب الأصلي: داء السكري من النوع الثاني (لا يتوفر نص استطباب في تراخيص هيئة الغذاء"
@@ -79,13 +79,17 @@ description: "Acarbose: الاستطباب الجديد المتوقع متلا�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ACAROSE 25MG TABLETS | ACAROSE 25MG TABLETS (الرياض فارما) | غير متوفر | غير متوفر |
-| ACAROSE 50MG TABLETS | ACAROSE 50MG TABLETS (الرياض فارما) | غير متوفر | غير متوفر |
-| ACAROSE 100MG TABLETS | ACAROSE 100MG TABLETS (الرياض فارما) | غير متوفر | غير متوفر |
-| GLUCOBAY 100MG TAB | GLUCOBAY 100MG TAB (باير) | غير متوفر | غير متوفر |
-| GLUCOBAY 50MG TAB | GLUCOBAY 50MG TAB (باير) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ACAROSE 25MG TABLETS | ACARBOSE | RIYADH PHARMA | ساري |
+| ACAROSE 50MG TABLETS | ACARBOSE | RIYADH PHARMA | ساري |
+| ACAROSE 100MG TABLETS | ACARBOSE | RIYADH PHARMA | ساري |
+| GLUCOBAY 100MG TAB | ACARBOSE | BAYER AG | ساري |
+| GLUCOBAY 50MG TAB | ACARBOSE | BAYER AG | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الخمسة **سارية**، والدواء مسوّق.
 

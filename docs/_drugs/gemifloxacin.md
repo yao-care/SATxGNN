@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 388
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "gemifloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "endomyometritis"]
 description: "Gemifloxacin: الاستطباب الجديد المتوقع Polyclonal hyperviscosity syndrome (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -80,10 +80,14 @@ description: "Gemifloxacin: الاستطباب الجديد المتوقع Polyc
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| FLOXAG 320MG F.C. TABLET | FLOXAG 320MG F.C. TABLET (الشركة المصنعة: SPIMACO) | غير محدد | غير متاح (الترخيص ساري) |
-| FACTIVE 320MG F.C. TABLETS | FACTIVE 320MG F.C. TABLETS (الشركة المصنعة: TABUK) | غير محدد | غير متاح (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| FLOXAG 320MG F.C. TABLET | GEMIFLOXACIN MESILATE | SPIMACO | ساري |
+| FACTIVE 320MG F.C. TABLETS | GEMIFLOXACIN MESILATE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -119,7 +123,7 @@ description: "Gemifloxacin: الاستطباب الجديد المتوقع Polyc
 
 <!-- review:begin sa-lic-20261106-gemifloxacin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدواء حاليًا بلا ترخيص ساري في السعودية، وله ملف سلامة مهم (إطالة QT، واعتلال الأوتار والأعصاب المحيطية).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدواء حاليًا بلا ترخيص ساري في السعودية، وله ملف سلامة مهم (إطالة QT، واعتلال الأوتار والأعصاب المحيطية).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-gemifloxacin-1 -->
 
@@ -136,7 +140,7 @@ description: "Gemifloxacin: الاستطباب الجديد المتوقع Polyc
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «الدواء حاليًا بلا ترخيص ساري في السعودية، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «الدواء حاليًا بلا ترخيص ساري في السعودية، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

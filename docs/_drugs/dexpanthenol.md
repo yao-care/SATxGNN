@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DEXPANTHENOL"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Dexpanthenol: الاستطباب الجديد المتوقع تضيّق الشرج والمستقيم (anorectal stricture) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
 ---
 
@@ -78,13 +78,19 @@ description: "Dexpanthenol: الاستطباب الجديد المتوقع تض�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| BEPANTHEN | BEPANTHEN | غير مسجّل | غير مسجّل |
-| PANTHENOL | PANTHENOL | غير مسجّل | غير مسجّل |
-| DEXANOL CREAM 30 GM | DEXANOL CREAM 30 GM | غير مسجّل | غير مسجّل |
-| RECUGEL Eye Gel | RECUGEL Eye Gel | غير مسجّل | غير مسجّل |
-| PANTHOPHIL 5% OINTMENT | PANTHOPHIL 5% OINTMENT | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BEPANTHEN | DEXPANTHENOL | GP GRENZACH | ساري |
+| PANTHENOL | DEXPANTHENOL | THE NILE COMPANY FOR PHARMACEUTICALS AND CHEMICAL IND. | ساري |
+| DEXANOL CREAM 30 GM | DEXPANTHENOL | OMAN PHARMACEUTICAL PRODUCTS | ساري |
+| RECUGEL Eye Gel | DEXPANTHENOL | DR. GERHARD MANN CHEM.-PHARM. FABRIK GMBH | ساري |
+| PANTHOPHIL 5% OINTMENT | DEXPANTHENOL | PHILADELPHIA PHARMACEUTICAL | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

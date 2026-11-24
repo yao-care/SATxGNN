@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "ginseng"
 predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "cortical cataract", "nuclear senile cataract", "diabetic retinopathy", "amenorrhea (disease)", "immature cataract", "craniostenosis cataract"]
 description: "Ginseng: الاستطباب الجديد المتوقع هشاشة العظام الناجمة عن الأدوية (drug-induced osteoporosis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -68,14 +68,24 @@ description: "Ginseng: الاستطباب الجديد المتوقع هشاشة
 
 ## معلومات السوق في المملكة العربية السعودية
 
-تتضمن السجلات المحلية 4 تراخيص سارية، جميعها لمنتجات أحادية المكوّن، ولم يُسجَّل نص استطباب معتمد لأي منها.
+تتضمن السجلات المحلية 4 تراخيص سارية، جميعها لمستحضرات مركّبة تحتوي على الجنسنغ مع فيتامينات ومعادن، ولم يُسجَّل نص استطباب معتمد لأي منها.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| GERIATON FORTE | GERIATON FORTE (الشركة: دار الدواء) | غير محدد | غير متوفر | ساري |
-| GERIATRIC PHARMATON CAPS | GERIATRIC PHARMATON CAPS (الشركة: Pharmaton) | غير محدد | غير متوفر | ساري |
-| V-2 PLUS CAPS | V-2 PLUS CAPS (الشركة: Pharco) | غير محدد | غير متوفر | ساري |
-| V-2 CAPS | V-2 CAPS (الشركة: Pharco) | غير محدد | غير متوفر | ساري |
+<!-- review:begin sa-lic-20261124-ginseng-1 -->
+
+> **تصحيح بعد المراجعة (2026-11-24)**: كان النص الأصلي: «جميعها لمنتجات أحادية المكوّن» المستحضرات المدرجة في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (GERIATON FORTE وGERIATRIC PHARMATON CAPS وV-2 PLUS CAPS وV-2 CAPS) تحتوي جميعها على الجنسنغ مع فيتامينات ومعادن، فهي مستحضرات مركّبة وليست أحادية المكوّن. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
+
+<!-- review:end sa-lic-20261124-ginseng-1 -->
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| GERIATON FORTE | GINSENG, MINERALS, VITAMINS | DAR ALDAWA | ساري |
+| GERIATRIC PHARMATON CAPS | GINSENG, MINERALS, VITAMINS | PHARMATON | ساري |
+| V-2 PLUS CAPS | FOLIC ACID,CHOLECALCIFEROL,MAGNESIUM SULFATE,FERROUS FUMARATE,GINSENG,TOCOPHEROL,THIAMINE,… | PHARCO PHARMACEUTICAL | ساري |
+| V-2 CAPS | FOLIC ACID,CHOLECALCIFEROL,MAGNESIUM SULFATE,FERROUS FUMARATE,GINSENG,TOCOPHEROL,THIAMINE,… | PHARCO PHARMACEUTICAL | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 
@@ -102,6 +112,18 @@ description: "Ginseng: الاستطباب الجديد المتوقع هشاشة
 - استكمال بيانات آلية العمل.
 - الحصول على نشرات المنتجات المرخّصة وتحليل التحذيرات وموانع الاستعمال.
 - تقييم مخاطر التداخل الدوائي، خاصة مع أدوية السكري ومضادات التخثر، قبل أي خطوة سريرية.
+
+<!-- review:begin log -->
+
+## سجل المراجعة
+
+فيما يلي سجل المراجعة لهذه الصفحة: معلومات رُوجعت مقابل بيانات الهيئة العامة للغذاء والدواء (SFDA). تقتصر التصحيحات على المعلومات الأساسية، ولم تُعَد كتابة تنبؤات النموذج أو مستويات الأدلة أو الاستنتاجات.
+
+| تاريخ المراجعة | البند | الإجراء | المصدر |
+|------|------|------|------|
+| 2026-11-24 | «جميعها لمنتجات أحادية المكوّن» ← «جميعها لمستحضرات مركّبة تحتوي على الجنسنغ مع فيتامينات ومعادن» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+
+<!-- review:end log -->
 
 ## إخلاء المسؤولية
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "THEOPHYLLINE"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Theophylline: الاستطباب الجديد المتوقع المرض الخثاري (مستوى الدليل L5). الاستطباب الأصلي: الربو، التهاب الشعب الهوائية، النفاخ الرئوي (علاقات مسجلة في الرسم ال…"
 ---
 
@@ -87,13 +87,19 @@ description: "Theophylline: الاستطباب الجديد المتوقع ال�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| EUPHYLLINE RETARD C.TAB 250MG | EUPHYLLINE RETARD (تاكيدا) | غير مذكور | غير مذكور |
-| THEO-DUR TAB 200MG | THEO-DUR 200 ملغ (ريكوردati) | أقراص | غير مذكور |
-| RIAPHYLLIN 60MG/5ML SYRUP | RIAPHYLLIN (الرياض فارما) | شراب | غير مذكور |
-| THEOPHAR 60MG-5ML SYRUP | THEOPHAR (الخليج للصناعات الدوائية - جلفار) | شراب | غير مذكور |
-| AVOLEN S.R TABLET | AVOLEN (تبوك للصناعات الدوائية) | أقراص ممتدة المفعول | غير مذكور |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| EUPHYLLINE RETARD C.TAB 250MG | THEOPHYLLINE | TAKEDA GMBH | ساري |
+| THEO-DUR TAB 200MG | THEOPHYLLINE | RECORDATI | ساري |
+| RIAPHYLLIN 60MG/5ML SYRUP | THEOPHYLLINE | RIYADH PHARMA | ساري |
+| THEOPHAR 60MG-5ML SYRUP | THEOPHYLLINE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| AVOLEN S.R TABLET | THEOPHYLLINE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 13 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 هذه خمسة من 13 ترخيصاً، وجميعها لمنتجات أحادية المادة وسارية. نصوص الاستطباب المعتمد غير متوافرة في بيانات الترخيص المجمّعة.
 

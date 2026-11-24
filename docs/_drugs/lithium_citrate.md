@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lithium Citrate: الاستطباب الجديد المتوقع متلازمة مالان للنمو المفرط (مستوى الدليل L5). الاستطباب الأصلي: اضطراب ثنائي القطب (واضطراب المزاج الشديد، ونوبات الهوس في الاضطراب ث…"
 monitor_inn: "LITHIUM CITRATE"
 predicted_indications: ["Malan overgrowth syndrome"]
@@ -80,10 +80,14 @@ predicted_indications: ["Malan overgrowth syndrome"]
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LITHIOFOR 660MG TAB | LITHIOFOR 660MG TAB (VIFOR INTERNATIONAL) | غير محدد | غير محدد (الترخيص ساري) |
-| LITAREX. TAB 564mg | LITAREX. TAB 564mg (XELLIA PHARMACEUTICAL APS) | غير محدد | غير محدد (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LITHIOFOR 660MG TAB | LITHIUM SULFATE | VIFOR INTERNATIONAL | ساري |
+| LITAREX. TAB 564mg | LITHIUM CITRATE | XELLIA PHARMACEUTICAL APS | ساري |
+
+<!-- licenses:end -->
 
 ---
 

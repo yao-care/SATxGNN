@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CEFTAZIDIME"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "epiglottitis", "Ureaplasma urethritis", "gonococcal urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ceftazidime: الاستطباب الجديد المتوقع فرط أميلاز الدم (hyperamylasemia) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 (السارية: 17)"
 ---
 
@@ -67,6 +67,20 @@ description: "Ceftazidime: الاستطباب الجديد المتوقع فرط
 لا توجد حالياً أدبيات ذات صلة.
 
 ## معلومات السوق في المملكة العربية السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Ceftazidime Venus | CEFTAZIDIME | VENUS REMEDIES LIMITED | ساري |
+| FORTA-Z 1 g powder for solution for injection | CEFTAZIDIME | Hikma Farmaceutica | ساري |
+| FORTUM 1 g | CEFTAZIDIME | GlaxoSmithKline Verona s.p.A. | ساري |
+| FORTUM 1 g Powder for injection | CEFTAZIDIME | GlaxoSmithKline Verona s.p.A. | ساري |
+| FORTUM 2 g | CEFTAZIDIME | GlaxoSmithKline Verona s.p.A. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 17 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 تتوفر منتجات سيفتازيديم مرخّصة في المملكة (من بينها FORTUM وNEGACEF وZIDIME وKEFADIM وPARZIDIME وZIDACEF) من عدة شركات مصنّعة، وكلها منتجات أحادية المادة الفعالة للحقن. حالة السوق وفق البيانات المحلية: مسوّق.
 

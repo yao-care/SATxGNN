@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 395
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Glutamic Acid: الاستطباب الجديد المتوقع هشاشة العظام بعد انقطاع الطمث (postmenopausal osteoporosis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (لا يوجد نص استطباب في بيانات التراخيص)"
 monitor_inn: "glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -94,13 +94,19 @@ predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated ost
 
 جميع التراخيص التسعة سارية (9 من 9). نصوص الاستطباب وأشكال الجرعات غير متوفرة في البيانات. أبرز المنتجات:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| AMINOPLASMAL B BRAUN 10% | AMINOPLASMAL B BRAUN 10% (B. BRAUN) | غير متوفر | غير متوفر |
-| AMINOPLASMAL 15 % I.V INFUSION SOLN | AMINOPLASMAL 15 % (B. BRAUN) | غير متوفر | غير متوفر |
-| OLIMEL N9 emulsion for infusion | OLIMEL N9 (Baxalta) | غير متوفر | غير متوفر |
-| OLIMEL N5E emulsion for infusion | OLIMEL N5E (Baxalta) | غير متوفر | غير متوفر |
-| OLIMEL N7E emulsion for infusion | OLIMEL N7E (Baxalta) | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| AMINOPLASMAL B BRAUN 10% | TYROSINE,SERINE,PROLINE,GLUTAMIC ACID,ASPARTIC ACID,GLYCINE,ALANINE,ARGININE,TRYPTOPHAN,TH… | B. BRAUN | ساري |
+| AMINOPLASMAL 15 % I.V INFUSION SOLN | TYROSINE,SERINE,GLUTAMIC ACID,ACETYLCYSTEINE,ASPARTIC ACID,PROLINE,ALANINE,HISTIDINE,VALIN… | B. BRAUN | ساري |
+| OLIMEL N9 emulsion for infusion | GLUCOSE,OLIVE OIL,SOYA OIL,ALANINE,ARGININE,LYSINE,LEUCINE,PHENYLALANINE,GLYCINE,VALINE,PR… | Baxalta manufacturing Sarl | ساري |
+| OLIMEL N5E emulsion for infusion | GLUCOSE,OLIVE OIL,SOYA OIL,ALANINE,SODIUM GLYCEROPHOSPHATE,ARGININE,LYSINE,GLYCINE,PHENYLA… | Baxalta Belgium Manufacturing SA | ساري |
+| OLIMEL N7E emulsion for infusion | OLIVE OIL,SOYA OIL,ALANINE,ARGININE,ASPARTIC ACID,GLUTAMIC ACID,GLYCINE,HISTIDINE,ISOLEUCI… | Baxalta Belgium Manufacturing SA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

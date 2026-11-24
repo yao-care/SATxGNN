@@ -3,7 +3,7 @@ layout: default
 title: Rabeprazole
 parent: الاستخدامات المعروفة فقط (لا توجد تنبؤات جديدة)
 nav_order: 704
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Rabeprazole: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
 indication_count: 0
@@ -69,14 +69,18 @@ evidence_level: N/A
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| RABEZOLE 20MG E.C.TABLETS | RABEZOLE 20MG E.C.TABLETS |  | ساري |
-| PARIET 10 MG E.C TAB | PARIET 10 MG E.C TAB |  | ساري |
-| RAMEP 20 MG GASTRO-RESISTANT TABLET | RAMEP 20 MG GASTRO-RESISTANT TABLET |  | ساري |
-| RAMEP 10 MG GASTRO-RESISTANT TABLET | RAMEP 10 MG GASTRO-RESISTANT TABLET |  | ساري |
-| PARIET 20MG E.C TAB | PARIET 20MG E.C TAB |  | ساري |
-| RABEZOLE 10MG E.C. TABLETS | RABEZOLE 10MG E.C. TABLETS |  | ساري |
+| RABEZOLE 20MG E.C.TABLETS | RABEPRAZOLE SODIUM | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| PARIET 10 MG E.C TAB | RABEPRAZOLE SODIUM | EISAI | ساري |
+| RAMEP 20 MG GASTRO-RESISTANT TABLET | RABEPRAZOLE SODIUM | LEK PHARMACEUTICALS D.D. | ساري |
+| RAMEP 10 MG GASTRO-RESISTANT TABLET | RABEPRAZOLE SODIUM | LEK PHARMACEUTICALS D.D. | ساري |
+| PARIET 20MG E.C TAB | RABEPRAZOLE SODIUM | EISAI | ساري |
+| RABEZOLE 10MG E.C. TABLETS | RABEPRAZOLE SODIUM | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

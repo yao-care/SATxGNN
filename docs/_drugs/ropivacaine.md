@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 734
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ropivacaine: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine disorder) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المجمّعة (نصوص الاستطباب فارغة)؛ يُعرف ا…"
 monitor_inn: "ROPIVACAINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
@@ -87,12 +87,16 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ne
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الأربعة سارية (4 من 4).
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| BIOQ ROPIVACAINE 2MG/ML SOL. FOR INFUSION | BIOQ ROPIVACAINE 2MG/ML SOL. FOR INFUSION | Holopack Verpackungstechnik GmbH | ساري |
-| NAROPIN 2MG-ML PLASTIC AMP | NAROPIN 2MG-ML PLASTIC AMP | AstraZeneca | ساري |
-| NAROPIN 7.5MG-ML AMP | NAROPIN 7.5MG-ML AMP | AstraZeneca | ساري |
-| NAROPIN 10MG-ML AMP | NAROPIN 10MG-ML AMP | AstraZeneca | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BIOQ ROPIVACAINE 2MG/ML SOL. FOR INFUSION | ROPIVACAINE | Holopack Verpackungstechnik GmbH | ساري |
+| NAROPIN 2MG-ML PLASTIC AMP | ROPIVACAINE | AstraZeneca | ساري |
+| NAROPIN 7.5MG-ML AMP | ROPIVACAINE | AstraZeneca | ساري |
+| NAROPIN 10MG-ML AMP | ROPIVACAINE | AstraZeneca | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -115,7 +119,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ne
 
 <!-- review:begin sa-lic-20261106-ropivacaine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً، ويتطلب أي استخدام جديد مساراً تنظيمياً جديداً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً، ويتطلب أي استخدام جديد مساراً تنظيمياً جديداً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ropivacaine-1 -->
 
@@ -127,7 +131,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ne
 
 <!-- review:begin sa-lic-20261106-ropivacaine-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إجراء تجربة عشوائية مضبوطة كافية الحجم في الصداع النصفي، مع تحديد طريقة الإعطاء (حصار عصبي موضعي) ومدى توافرها. / توضيح الوضع التنظيمي بعد إلغاء التراخيص في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إجراء تجربة عشوائية مضبوطة كافية الحجم في الصداع النصفي، مع تحديد طريقة الإعطاء (حصار عصبي موضعي) ومدى توافرها. / توضيح الوضع التنظيمي بعد إلغاء التراخيص في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ropivacaine-2 -->
 
@@ -139,8 +143,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ne
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في السعودية ملغاة حالياً» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح الوضع التنظيمي بعد إلغاء التراخيص في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Naropin (ropivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb6583ff-cde4-4280-aa5b-0bea2b844792) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 505
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: الاستطباب الجديد المتوقع Pulmonary hypertension with unclear multifactorial mechanism (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 19 على الأقل"
@@ -100,13 +100,20 @@ description: "Lisinopril: الاستطباب الجديد المتوقع Pulmona
 
 <!-- review:end sa-lic-20261106-lisinopril-1 -->
 
-| رقم الترخيص / المنتج | الشركة المصنعة | الحالة |
-|---------|------|-----------|
-| ZESTRIL 20MG TAB | AstraZeneca | ساري |
-| LISOPHAR 20MG TABLETS | Gulf Pharmaceutical Industries (Julphar) | ساري |
-| LISINO 20MG TABLETS | Jamjoom Pharmaceuticals | ساري |
-| OMACE 20MG TABLETS | National Pharmaceutical Industries | ساري |
-| ZINOPRIL 20 MG TABLET | Jazeera Pharmaceutical Industries | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ZESTRIL 20MG TAB | LISINOPRIL | AstraZeneca | ساري |
+| LISOPHAR 20MG TABLETS | LISINOPRIL | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| LISINO 20MG TABLETS | LISINOPRIL | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| OMACE 20MG TABLETS | LISINOPRIL | NATIONAL PHARMACEUTICAL INDUSTRIES CO | ساري |
+| ZINOPRIL 20 MG TABLET | LISINOPRIL | Jazeera Pharmaceutical Industries (JPI) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

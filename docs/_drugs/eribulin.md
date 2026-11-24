@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "eribulin"
 predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eribulin: الاستطباب الجديد المتوقع حمى البحر الأبيض المتوسط العائلية الصبغية الجسمية المتنحية (autosomal recessive familial Mediterranean fever) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيا…"
 ---
 
@@ -68,10 +68,14 @@ description: "Eribulin: الاستطباب الجديد المتوقع حمى ا
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| HALAVEN 0.5 mg/ml | HALAVEN 0.5 mg/ml | غير مسجّل | غير مسجّل |
-| HALAVEN | HALAVEN | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| HALAVEN 0.5 mg/ml | ERIBULIN MESILATE | EISAI | ساري |
+| HALAVEN | ERIBULIN MESILATE | BSP PHARMACEUTICALS | ساري |
+
+<!-- licenses:end -->
 
 ## السمية الخلوية
 

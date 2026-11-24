@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 593
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Nitroglycerin: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نص الاستطباب فارغ)؛ ويُعرف النيتروغليسر…"
 monitor_inn: "NITROGLYCERIN"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -95,10 +95,14 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| NITRODERM TTS 5 PATCHES | NITRODERM TTS 5 PATCHES | غير محدد | غير متوفر (ترخيص ساري) |
-| NITRODERM TTS-10 SYSTEM | NITRODERM TTS-10 SYSTEM | غير محدد | غير متوفر (ترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NITRODERM TTS 5 PATCHES | NITROGLYCERIN | LTS LOHMANN Therapie-Systeme | ساري |
+| NITRODERM TTS-10 SYSTEM | NITROGLYCERIN | LTS LOHMANN Therapie-Systeme | ساري |
+
+<!-- licenses:end -->
 
 ---
 

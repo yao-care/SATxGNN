@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fentanyl: الاستطباب الجديد المتوقع متلازمة عدم الإفراز المناسب لمضاد الإدرار الكلوية المنشأ (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص"
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -80,13 +80,20 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "T
 
 الدواء مسوَّق في هذا البلد، ويوجد 19 ترخيصاً ساري المفعول. أبرز الأمثلة:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة |
-|---------|------|------|
-| DUROGESIC TTS 75 Ug-HOUR | DUROGESIC TTS 75 Ug-HOUR | JANSSEN PHARMACEUTICA N.V. |
-| ABSTRAL 100MCG SUBLINGUAL TABLET | ABSTRAL 100MCG SUBLINGUAL TABLET | RECIPHARM PARETS |
-| FENTANYL Transdermal System 75 mcg/h | FENTANYL Transdermal System 75 mcg/h | AVEVA Drug Delivery Systems |
-| PecFent 100 MCG NASAL SPRAY | PecFent 100 MCG NASAL SPRAY | L. Molteni & C dei F. LLi Alitti |
-| FENTANYL 50 mcg/ml solution for injection | FENTANYL 50 mcg/ml solution for injection | MACARTHYS LABORATORIES (Martindale) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DUROGESIC TTS 75 Ug-HOUR | FENTANYL | JANSSEN PHARMACEUTICA N.V. | ساري |
+| ABSTRAL 100MCG SUBLINGUAL TABLET | FENTANYL | RECIPHARM PARETS | ساري |
+| FENTANYL Transdermal System 75 mcg/h | FENTANYL | AVEVA Drug Delivery Systems | ساري |
+| PecFent 100 MCG NASAL SPRAY | FENTANYL | L. Molteni & C dei F. LLi Alitti Societa di Esercizio | ساري |
+| FENTANYL 50 mcg/ml solution for injection | FENTANYL | MACARTHYS LABORATORIES Ltd T/A MARTINDALE PHARMACEUTICALS | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 تشمل الأشكال المرخّصة سابقًا اللصقات عبر الجلد، والأقراص تحت اللسان، وبخاخ الأنف، والحقن.
 

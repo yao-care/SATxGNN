@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "MAGNESIUM SULFATE"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 description: "Magnesium Sulfate: الاستطباب الجديد المتوقع مرض الجلطات (thrombotic disease) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
@@ -80,12 +80,16 @@ description: "Magnesium Sulfate: الاستطباب الجديد المتوقع 
 
 الدواء مسوَّق، وتتوفر له أربعة تراخيص سارية لمنتجات أحادية المكوّن:
 
-| رقم الترخيص / اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| MAGNESIUM SULFATE 50% I.V. Injection | Pharmaceutical Solution Industries (PSI) | ساري |
-| MAGNESIUM SULFATE 50% AMP | Abbott Laboratories | ساري |
-| MAGNESIUM SULPHATE 10% Injection | Pharmaceutical Solution Industries (PSI) | ساري |
-| MAGNESIUM SULFATE 50% AMPOULE | Pharmaceutical Solution Industries (PSI) | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MAGNESIUM SULFATE 50% I.V. Injection* | MAGNESIUM SULFATE | Pharmaceutical Solution Industries (PSI) | ساري |
+| MAGNESIUM SULFATE 50% AMP | MAGNESIUM SULFATE | Abbott Laboratories | ساري |
+| MAGNESIUM SULPHATE 10% Injection* | MAGNESIUM SULFATE | Pharmaceutical Solution Industries (PSI) | ساري |
+| MAGNESIUM SULFATE 50% AMPOULE | MAGNESIUM SULFATE | Pharmaceutical Solution Industries (PSI) | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

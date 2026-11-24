@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 15
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Acemetacin: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
 ---
@@ -74,10 +74,14 @@ predicted_indications: []
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | المنتج | الشكل الصيدلاني | الحالة |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
 |------|------|------|------|
-| RANTUDIL 90MG RETARD CAPS | RANTUDIL 90MG RETARD CAPS |  | ساري |
-| RANTUDIL 60MG FORTE CAPS | RANTUDIL 60MG FORTE CAPS |  | ساري |
+| RANTUDIL 90MG RETARD CAPS | ACEMETACIN | MEDA MANUFACTURING GMBH | ساري |
+| RANTUDIL 60MG FORTE CAPS | ACEMETACIN | MEDA MANUFACTURING GMBH | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 501
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lifitegrast: الاستطباب الجديد المتوقع التليّف الليفي القضيبي (Penile fibromatosis) (مستوى الدليل L5). الاستطباب الأصلي: متلازمة جفاف العين (Dry eye syndrome) / جفاف الملتحمة (Xerophthalmia)"
 monitor_inn: "LIFITEGRAST"
 predicted_indications: ["penile fibromatosis", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -80,9 +80,13 @@ predicted_indications: ["penile fibromatosis", "palmar fibromatosis", "Ledderhos
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| XIIDRA 50 MG/ML EYE DROPS | XIIDRA 50 MG/ML EYE DROPS | غير محدد | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| XIIDRA 50 MG/ML EYE DROPS | LIFITEGRAST | Laboratoire Unither | ساري |
+
+<!-- licenses:end -->
 
 الجهة المصنِّعة: Laboratoire Unither.
 
@@ -106,7 +110,7 @@ predicted_indications: ["penile fibromatosis", "palmar fibromatosis", "Ledderhos
 
 <!-- review:begin sa-lic-20261106-lifitegrast-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الصيغة الموضعية للعين لا تتلاءم على الأرجح مع الأنسجة المستهدفة، كما أن الدواء لا يملك ترخيصاً ساري المفعول في المملكة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 1، منها سارية: 1؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الصيغة الموضعية للعين لا تتلاءم على الأرجح مع الأنسجة المستهدفة، كما أن الدواء لا يملك ترخيصاً ساري المفعول في المملكة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-lifitegrast-1 -->
 
@@ -138,7 +142,7 @@ predicted_indications: ["penile fibromatosis", "palmar fibromatosis", "Ledderhos
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن الدواء لا يملك ترخيصاً ساري المفعول في المملكة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن الدواء لا يملك ترخيصاً ساري المفعول في المملكة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Xiidra (lifitegrast) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8589d376-ac10-4ddb-9c53-2e0c8d5675c4) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FOSFOMYCIN"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fosfomycin: الاستطباب الجديد المتوقع Uterine inflammatory disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -73,10 +73,14 @@ description: "Fosfomycin: الاستطباب الجديد المتوقع Uterine
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة |
-|---------|------|-----------|
-| UNAIRA 3GM SACHET | UNAIRA 3GM SACHET | Jazeera Pharmaceutical Industries (JPI) |
-| MONUROL 3G SACHETS | MONUROL 3G SACHETS | ZAMBON SWITZERLAND LTD |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| UNAIRA 3GM SACHET | FOSFOMYCIN | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| MONUROL 3G SACHETS | FOSFOMYCIN | ZAMBON SWITZERLAND LTD | ساري |
+
+<!-- licenses:end -->
 
 لا يتضمن نص التراخيص المتاح استطباباً معتمداً ولا شكلاً صيدلانياً مسجلاً.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DORZOLAMIDE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dorzolamide: الاستطباب الجديد المتوقع تساقط الشعر البسيط في فروة الرأس (hypotrichosis simplex of the scalp) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 3 (السارية: 3)"
 ---
 
@@ -68,11 +68,15 @@ description: "Dorzolamide: الاستطباب الجديد المتوقع تسا
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| TRUSOPT | TRUSOPT | غير مسجل | غير مسجل |
-| XOLA OPTHALMIC SOLUTION | XOLA OPTHALMIC SOLUTION | غير مسجل | غير مسجل |
-| ZOMIDOR 2% EYE DROPS | ZOMIDOR 2% EYE DROPS | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TRUSOPT | DORZOLAMIDE | MERCK SHARP & DOHME | ساري |
+| XOLA OPTHALMIC SOLUTION | DORZOLAMIDE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| ZOMIDOR 2% EYE DROPS | DORZOLAMIDE | RIYADH PHARMA | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

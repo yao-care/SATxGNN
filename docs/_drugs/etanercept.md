@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etanercept: الاستطباب الجديد المتوقع فرط حركة العصعص (hypermobility of coccyx) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -70,10 +70,14 @@ description: "Etanercept: الاستطباب الجديد المتوقع فرط 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ENBREL 50MG PRE-FILLED PEN | ENBREL 50MG PRE-FILLED PEN | غير مسجل | غير مسجل |
-| ENBREL 50MG PRE-FILLED SYRINGE | ENBREL 50MG PRE-FILLED SYRINGE | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ENBREL 50MG PRE-FILLED PEN | ETANERCEPT | Pfizer Manufacturing Belgium N.V. | ساري |
+| ENBREL 50MG PRE-FILLED SYRINGE | ETANERCEPT | BOEHRINGER INGELHEIM | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

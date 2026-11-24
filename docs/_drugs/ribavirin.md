@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 720
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RIBAVIRIN"
 predicted_indications: ["chronic hepatitis B virus infection", "hepatopulmonary syndrome", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mesenteritis", "eosinophilic angiocentric fibrosis"]
 description: "Ribavirin: الاستطباب الجديد المتوقع عدوى التهاب الكبد الفيروسي B المزمنة (chronic hepatitis B virus infection) (مستوى الدليل L1). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
@@ -106,7 +106,7 @@ description: "Ribavirin: الاستطباب الجديد المتوقع عدوى
 
 <!-- review:begin sa-lic-20261106-ribavirin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا توجد حاليًا تراخيص سارية للريبافيرين في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا توجد حاليًا تراخيص سارية للريبافيرين في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ribavirin-1 -->
 
@@ -114,12 +114,16 @@ description: "Ribavirin: الاستطباب الجديد المتوقع عدوى
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| RIBAVIN 200 MG CAPSULES | RIBAVIN 200 MG CAPSULES | غير متوفر | غير متوفر | ساري |
-| COPEGUS 200 MG FILM COATED TABLET | COPEGUS 200 MG FILM COATED TABLET | غير متوفر | غير متوفر | ساري |
-| RIAVIRIN | RIAVIRIN | غير متوفر | غير متوفر | ساري |
-| VIRAZOLE 20MG-ML UPON RECONSTITUTION INHAL | VIRAZOLE 20MG-ML UPON RECONSTITUTION INHAL | غير متوفر | غير متوفر | ملغى |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RIBAVIN 200 MG CAPSULES | RIBAVIRIN | The Arab Pharmaceutical Manufacturing PSC (Sahab) Co Ltd | ساري |
+| COPEGUS 200 MG FILM COATED TABLET | RIBAVIRIN | PATHEON | ساري |
+| RIAVIRIN | RIBAVIRIN | RIYADH PHARMA | ساري |
+| VIRAZOLE 20MG-MLUPON RECONSTITUTON INHAL | RIBAVIRIN | I.C.N.PHARMACEUTICALS | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -158,7 +162,7 @@ description: "Ribavirin: الاستطباب الجديد المتوقع عدوى
 
 <!-- review:begin sa-lic-20261106-ribavirin-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم الجدوى مقابل العلاجات المعيارية الحالية لـ HBV، والنظر في وضع الترخيص الملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم الجدوى مقابل العلاجات المعيارية الحالية لـ HBV، والنظر في وضع الترخيص الملغى.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-ribavirin-2 -->
 
@@ -172,8 +176,8 @@ description: "Ribavirin: الاستطباب الجديد المتوقع عدوى
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا توجد حاليًا تراخيص سارية للريبافيرين في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «والنظر في وضع الترخيص الملغى» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا توجد حاليًا تراخيص سارية للريبافيرين في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «والنظر في وضع الترخيص الملغى» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c) |
 
 <!-- review:end log -->

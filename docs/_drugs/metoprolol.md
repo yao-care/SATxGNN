@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metoprolol: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
 ---
 
@@ -90,13 +90,17 @@ description: "Metoprolol: الاستطباب الجديد المتوقع Maligna
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CARELIO | CARELIO (ACINO PHARMA AG) | غير متوفر | غير متوفر في بيانات الترخيص |
-| LOPRESOR 100MG TAB | LOPRESOR 100MG TAB (نوفارتس) | غير متوفر | غير متوفر في بيانات الترخيص |
-| LOPRESOR 50MG TABS | LOPRESOR 50MG TABS (نوفارتس) | غير متوفر | غير متوفر في بيانات الترخيص |
-| LOPRESOR DIVI TAB 200 MG. | LOPRESOR DIVI TAB 200 MG. (نوفارتس) | غير متوفر | غير متوفر في بيانات الترخيص |
-| Metolina | Metolina (Aurobindo Pharma Limited) | غير متوفر | غير متوفر في بيانات الترخيص |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CARELIO | METOPROLOL SUCCINATE | ACINO PHARMA AG | ساري |
+| LOPRESOR 100MG TAB | METOPROLOL TARTRATE | NOVARTIS | ساري |
+| LOPRESOR 50MG TABS | METOPROLOL TARTRATE | NOVARTIS | ساري |
+| LOPRESOR DIVI TAB 200 MG. | METOPROLOL TARTRATE | NOVARTIS | ساري |
+| Metolina | METOPROLOL TARTRATE | Aurobindo Pharma Limited | ساري |
+
+<!-- licenses:end -->
 
 جميع التراخيص الخمسة سارية ولمنتجات أحادية المكوّن.
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 71
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 description: "Aripiprazole: الاستطباب الجديد المتوقع شلل النظر الأفقي العائلي مع جنف تدريجي (gaze palsy, familial horizontal, with progressive scoliosis) (مستوى الدليل L5)."
@@ -70,13 +70,20 @@ description: "Aripiprazole: الاستطباب الجديد المتوقع شل�
 
 المستحضرات التالية مسجلة محلياً، والقائمة جزئية وقد لا تشمل كل التراخيص.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| ZOLINDA 15 mg tablet | ZOLINDA 15 mg tablet | SPIMACO | ساري |
-| ABILIFY MAINTENA 400 mg | ABILIFY MAINTENA 400 mg (مسحوق ومذيب لحقن ممتدة المفعول) | Otsuka | ملغى |
-| ARPENIA 10 mg tablet | ARPENIA 10 mg tablet | شركة تبوك للصناعات الدوائية | ساري |
-| ARIPO 10 mg tablet | ARIPO 10 mg tablet | الجزيرة للصناعات الدوائية | ساري |
-| ARIPEX 15 mg tablet | ARIPEX 15 mg tablet | الدمام فارما | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ZOLINDA 15 mg tablet | ARIPIPRAZOLE | SPIMACO | ساري |
+| ABILIFY MAINTENA 400 mg Powder And Solvent For Prolonged-Release | ARIPIPRAZOLE | OTSUKA PHARMACEUTICAL CO., LTD | ساري |
+| ARPENIA 10 mg tablet | ARIPIPRAZOLE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| ARIPO 10 mg tablet | ARIPIPRAZOLE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| ARIPEX 15 mg tablet | ARIPIPRAZOLE | DAMMAM PHARMA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

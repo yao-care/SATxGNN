@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 580
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "natamycin"
 predicted_indications: ["vulvitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "tinea nigra"]
 description: "Natamycin: الاستطباب الجديد المتوقع التهاب الفرج (vulvitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -82,10 +82,14 @@ description: "Natamycin: الاستطباب الجديد المتوقع الته
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
-|---------|------|------|-----------|
-| PIMAFUCORT OINT. | PIMAFUCORT OINT. (Astellas Pharma) | غير متوفر | غير متوفر (ساري) |
-| PIMAFUCORT CREAM | PIMAFUCORT CREAM (Astellas Pharma) | غير متوفر | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PIMAFUCORT OINT. | HYDROCORTISONE, NATAMYCIN, NEOMYCIN | Astellas Pharma | ساري |
+| PIMAFUCORT CREAM | HYDROCORTISONE, NATAMYCIN, NEOMYCIN | Astellas Pharma | ساري |
+
+<!-- licenses:end -->
 
 لا يوجد في السجلات المحلية نص للاستطباب المعتمد ولا بيانات عن الشكل الدوائي.
 

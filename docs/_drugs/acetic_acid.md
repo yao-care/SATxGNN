@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 18
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetic Acid: الاستطباب الجديد المتوقع اضطراب ما بعد العدوى البكتيرية (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأذن الخارجية، أمراض الأذن الخارجية (بحسب الرسم المعرفي Prime…"
 monitor_inn: "acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
@@ -94,13 +94,20 @@ predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", 
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| HAEMODIALYSIS ACID CONC. SOLU. 35X F-12 | HAEMODIALYSIS ACID CONC. SOLU. 35X F-12 | غير محدد | غير محدد |
-| HAEMODIALYSIS ACID CONC. SOLU. 35X F-13 | HAEMODIALYSIS ACID CONC. SOLU. 35X F-13 | غير محدد | غير محدد |
-| NON PYROGENIC ACID CONC (12-110-005)I.V | NON PYROGENIC ACID CONC (12-110-005)I.V | غير محدد | غير محدد |
-| ACID CONC. HAEMODIALYSIS KSP-05 (1+44) | ACID CONC. HAEMODIALYSIS KSP-05 (1+44) | غير محدد | غير محدد |
-| ACETATE HEMODIALYSIS CAT.NO 3-085-005 | ACETATE HEMODIALYSIS CAT.NO 3-085-005 | غير محدد | غير محدد |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| HAEMODIALYSIS ACID CONC. SOLU. 35X F-12 | SODIUM CHLORIDE, CALCIUM CHLORIDE,ACETIC ACID,POTASSIUM CHLORIDE,MAGNESIUM CHLORIDE | Pharmaceutical Solution Industries (PSI) | ساري |
+| HAEMODIALYSIS ACID CONC. SOLU. 35X F-13 | SODIUM CHLORIDE, CALCIUM CHLORIDE,MAGNESIUM CHLORIDE,POTASSIUM CHLORIDE,ACETIC ACID | Pharmaceutical Solution Industries (PSI) | ساري |
+| NON PYROGENIC ACID CONC (12-110-005)I.V | ACETIC ACID, CALCIUM CHLORIDE, MAGNESIUM CHLORIDE, POTASSIUM CHLORIDE, SODIUM CHLORIDE | ARABIAN DIAGNOSTIC AND MEDICAL COMPANY | ساري |
+| ACID CONC. HAEMODIALYSIS KSP-05 (1+44) | SODIUM CHLORIDE,CALCIUM CHLORIDE,POTASSIUM CHLORIDE,ACETIC ACID,MAGNESIUM CHLORIDE | KUWAIT SAUDI PHARMACEUTICAL INDUSTRIES | ساري |
+| ACETATE HEMODIALYSIS CAT.NO 3-085-005 | MAGNESIUM CHLORIDE,POTASSIUM CHLORIDE,ACETIC ACID, CALCIUM CHLORIDE,DEXTROSE,SODIUM CHLORI… | ARABIAN DIAGNOSTIC AND MEDICAL COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 التراخيص الـ19 سارية، وهي منتجات تركيزات حمضية لغسيل الكلى الدموي، ولا علاقة لها بالاستطباب الأصلي في الأذن.
 

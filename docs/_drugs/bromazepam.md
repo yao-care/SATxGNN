@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromazepam: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص"
 monitor_inn: "BROMAZEPAM"
 predicted_indications: ["migraine disorder"]
@@ -81,11 +81,15 @@ predicted_indications: ["migraine disorder"]
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| LEXOTANIL TAB. 3MG | LEXOTANIL TAB. 3MG (Delpharm Milano S.r.l) | غير محدد | غير محدد | ساري |
-| LEXOTANIL TAB. 1.5 MG. | LEXOTANIL TAB. 1.5 MG. (ROCHE) | غير محدد | غير محدد | ساري |
-| LEXOTANIL TAB. 6 MG. | LEXOTANIL TAB. 6 MG. (ROCHE) | غير محدد | غير محدد | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LEXOTANIL TAB. 3MG | BROMAZEPAM | Delpharm Milano S.r.l | ساري |
+| LEXOTANIL TAB. 1.5 MG. | BROMAZEPAM | ROCHE | ساري |
+| LEXOTANIL TAB. 6 MG. | BROMAZEPAM | ROCHE | ساري |
+
+<!-- licenses:end -->
 
 ---
 

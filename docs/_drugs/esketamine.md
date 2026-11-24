@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Esketamine: الاستطباب الجديد المتوقع رهاب الساحات (Agoraphobia) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق، الاضطراب العصابي، الاضطراب الديستيمي (من الرسم المعرفي؛…"
 monitor_inn: "Esketamine"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
@@ -78,10 +78,14 @@ predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Spravato | Spravato | غير متوفر | غير متوفر (الحالة: مُلغى) |
-| SPRAVATO | SPRAVATO | غير متوفر | غير متوفر (الحالة: مُلغى) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Spravato | ESKETAMINE HYDROCHLORIDE | Renaissance Lakewood LLC | ساري |
+| SPRAVATO | ESKETAMINE HYDROCHLORIDE | Renaissance Lakewood LLC | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنّعة المسجلة: Renaissance Lakewood LLC. يوجد ترخيصان ساريان من أصل ترخيصين، والدواء مسوّق.
 
@@ -121,7 +125,7 @@ predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy
 
 <!-- review:begin sa-lic-20261106-esketamine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم توافق مسار الإعطاء (الرذاذ الأنفي) والوضع التنظيمي بعد إلغاء التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم توافق مسار الإعطاء (الرذاذ الأنفي) والوضع التنظيمي بعد إلغاء التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-esketamine-1 -->
 
@@ -139,7 +143,7 @@ predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «بعد إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «بعد إلغاء التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed) |
 
 <!-- review:end log -->

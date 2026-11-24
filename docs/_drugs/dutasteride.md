@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dutasteride: الاستطباب الجديد المتوقع فرط الشعر الخلقي العام من نوع أمبراس (مستوى الدليل L5). الاستطباب الأصلي: تضخم البروستاتا الحميد"
 monitor_inn: "DUTASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
@@ -82,11 +82,15 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| Duserex | Duserex | غير متوفر | غير متوفر | ساري |
-| AVODART 0.5MG CAPSULE | AVODART 0.5MG CAPSULE | كبسولة | غير متوفر | ساري |
-| Dusta | Dusta | غير متوفر | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Duserex | DUTASTERIDE | OLIVE HEALTHCARE | ساري |
+| AVODART 0.5MG CAPSULE | DUTASTERIDE | CATALENT | ساري |
+| Dusta | DUTASTERIDE | LABORATORIOS LEON FARMA, S.A. | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -108,7 +112,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 <!-- review:begin sa-lic-20261106-dutasteride-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ قائم على النموذج فقط (مستوى L5) دون أي تجارب سريرية أو أدبيات، والآلية المقترحة ضعيفة لأن المتلازمة لا تعتمد بوضوح على DHT. كما أن الدواء لا يملك أي ترخيص ساري في السعودية حالياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ قائم على النموذج فقط (مستوى L5) دون أي تجارب سريرية أو أدبيات، والآلية المقترحة ضعيفة لأن المتلازمة لا تعتمد بوضوح على DHT. كما أن الدواء لا يملك أي ترخيص ساري في السعودية حالياً.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-dutasteride-1 -->
 
@@ -127,7 +131,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن الدواء لا يملك أي ترخيص ساري في السعودية حالياً» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن الدواء لا يملك أي ترخيص ساري في السعودية حالياً» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 776
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sulfacetamide: الاستطباب الجديد المتوقع التهاب الأوعية الدموية التالي للعدوى (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب، التهاب الجلد الدهني، التهاب الملتحمة، التهاب العنبية، داء…"
 monitor_inn: "SULFACETAMIDE"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "parasitic eyelid infestation"]
@@ -102,13 +102,19 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 
 الدواء مسوّق في هذا البلد، و8 تراخيص سارية من أصل 8.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| ISOPTO CETAMIDE 10% EYE DROPS | ISOPTO CETAMIDE 10% EYE DROPS | ALCON COUVREUR | ساري |
-| COLIRCUSI SULPHACETAMIDE 10% | COLIRCUSI SULPHACETAMIDE 10% | Siegfried EI Masnou | ساري |
-| COLIRCUSI SULPHACETAMIDE 20% | COLIRCUSI SULPHACETAMIDE 20% | Siegfried EI Masnou | ساري |
-| RIACETAMIDE -20 | RIACETAMIDE -20 | RIYADH PHARMA | ساري |
-| CETAMIDE 10% OPTH.OINT. | CETAMIDE 10% OPTH.OINT. | ALCON LABORATORIES | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ISOPTO CETAMIDE 10% EYE DROPS | SULFACETAMIDE | ALCON COUVREUR | ساري |
+| COLIRCUSI SULPHACETAMIDE 10% | SULFACETAMIDE | Siegfried EI Masnou, S.A | ساري |
+| COLIRCUSI SULPHACETAMIDE 20% | SULFACETAMIDE | Siegfried EI Masnou, S.A | ساري |
+| RIACETAMIDE -20 | SULFACETAMIDE | RIYADH PHARMA | ساري |
+| CETAMIDE 10% OPTH.OINT. | SULFACETAMIDE | ALCON LABORATORIES | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -149,7 +155,7 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 
 <!-- review:begin sa-lic-20261106-sulfacetamide-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد توافق طريق الإعطاء مع الاستطباب الجديد، وتقييم الجدوى في ظل إلغاء التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تحديد توافق طريق الإعطاء مع الاستطباب الجديد، وتقييم الجدوى في ظل إلغاء التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-sulfacetamide-1 -->
 
@@ -161,7 +167,7 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وتقييم الجدوى في ظل إلغاء التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وتقييم الجدوى في ظل إلغاء التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Klaron (sulfacetamide sodium) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66ab38ea-5cea-47be-97f2-486517999fb0) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ALIROCUMAB"
 predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "46,XY disorder of sex development due to a cholesterol synthesis defect", "dappled diaphyseal dysplasia", "neutral lipid storage disease", "3-hydroxyacyl-CoA dehydrogenase deficiency", "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"]
 description: "Alirocumab: الاستطباب الجديد المتوقع الإكثيوزيس المرتبط بالصبغي X دون نقص إنزيم ستيرويد سلفاتاز (ichthyosis, X-linked, without steroid sulfatase deficiency) (مستوى الدليل L5)."
@@ -68,13 +68,17 @@ description: "Alirocumab: الاستطباب الجديد المتوقع الإ�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
-|---------|------|------|-----------|
-| PRALUENT 150 mg Prefilled Pen | PRALUENT 150 mg Prefilled Pen | غير متوفر | غير متوفر |
-| PRALUENT 75 mg Prefilled Pen | PRALUENT 75 mg Prefilled Pen | غير متوفر | غير متوفر |
-| PRALUENT 150 mg Prefilled Syringe | PRALUENT 150 mg Prefilled Syringe | غير متوفر | غير متوفر |
-| PRALUENT 75 mg Prefilled Syringe | PRALUENT 75 mg Prefilled Syringe | غير متوفر | غير متوفر |
-| Praluent 300 mg per 2 ml | Praluent 300 mg per 2 ml | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PRALUENT 150 mg Prefilled Pen | ALIROCUMAB | Sanofi aventis Deutschland GmbH | ساري |
+| PRALUENT 75 mg Prefilled Pen | ALIROCUMAB | Sanofi aventis Deutschland GmbH | ساري |
+| PRALUENT 150 mg Prefilled Syringe | ALIROCUMAB | SANOFI WINTHROP INDUSTRIE | ساري |
+| PRALUENT 75 mg Prefilled Syringe | ALIROCUMAB | SANOFI WINTHROP INDUSTRIE | ساري |
+| Praluent 300 mg per 2 ml | ALIROCUMAB | Sanofi aventis Deutschland GmbH | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

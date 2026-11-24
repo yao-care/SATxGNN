@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 379
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fulvestrant: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L4). الاستطباب الأصلي: سرطان الثدي الإيجابي لمستقبلات الهرمون (بحسب الاستخدام المعروف للدواء…"
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -83,12 +83,16 @@ predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia"
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Fulvestrant SPC | Fulvestrant SPC | غير متوفر | غير متوفر (ساري) |
-| Fuxran | Fuxran | غير متوفر | غير متوفر (ساري) |
-| Floristil 250 mg per 5 ml | Floristil 250 mg per 5 ml | غير متوفر | غير متوفر (ساري) |
-| Carcivor 250 mg per 5 ml | Carcivor 250 mg per 5 ml | غير متوفر | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Fulvestrant SPC | FULVESTRANT | Dr. Reddy’s Laboratories Ltd. Formulation Unit VII | ساري |
+| Fuxran | FULVESTRANT | Fareva Unterach GmbH | ساري |
+| Floristil 250 mg per 5 ml | FULVESTRANT | Chia Tai Tianqing Pharmaceutical Group Co., Ltd (CTTQ) | ساري |
+| Carcivor 250 mg per 5 ml | FULVESTRANT | Laboratories Farmalan SA | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,7 +129,7 @@ predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia"
 
 <!-- review:begin sa-lic-20261106-fulvestrant-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدليل لا يتجاوز دراسة مخبرية واحدة غير مباشرة، دون أي تجارب سريرية، والاستطباب الأصلي نفسه غير موثّق في تراخيص السعودية الملغاة، ما يعني عدم وجود منتج مسوّق حاليًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدليل لا يتجاوز دراسة مخبرية واحدة غير مباشرة، دون أي تجارب سريرية، والاستطباب الأصلي نفسه غير موثّق في تراخيص السعودية الملغاة، ما يعني عدم وجود منتج مسوّق حاليًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-fulvestrant-1 -->
 
@@ -145,7 +149,7 @@ predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia"
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «والاستطباب الأصلي نفسه غير موثّق في تراخيص السعودية الملغاة، ما يعني عدم وجود منتج مسوّق حاليًا» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «والاستطباب الأصلي نفسه غير موثّق في تراخيص السعودية الملغاة، ما يعني عدم وجود منتج مسوّق حاليًا» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
 
 <!-- review:end log -->

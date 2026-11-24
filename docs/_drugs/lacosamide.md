@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: الاستطباب الجديد المتوقع Manic bipolar affective disorder (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
@@ -99,19 +99,25 @@ description: "Lacosamide: الاستطباب الجديد المتوقع Manic b
 
 نصوص الاستطبابات المعتمدة وأشكال الجرعات غير متوفرة في البيانات المجمّعة.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| VIMPAT 100 mg film-coated tablet | VIMPAT 100 mg | Aesica Pharmaceuticals GmbH | ساري |
-| VIMPAT 50 mg film-coated tablet | VIMPAT 50 mg | Aesica Pharmaceuticals GmbH | ساري |
-| VIMPAT 150 mg film-coated tablet | VIMPAT 150 mg | Aesica Pharmaceuticals GmbH | ساري |
-| VIMPAT 10 mg/ml SYRUP | VIMPAT شراب | Unither Manufacturing LLC | ساري |
-| VIMPAT 10 mg/ml SOLUTION FOR INFUSION | VIMPAT محلول للتسريب | U.C.B. | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VIMPAT 100 mg film-coated tablet | LACOSAMIDE | Aesica Pharmaceuticals GmbH. | ساري |
+| VIMPAT 50 mg film-coated tablet | LACOSAMIDE | Aesica Pharmaceuticals GmbH. | ساري |
+| VIMPAT 150 mg film-coated tablet | LACOSAMIDE | Aesica Pharmaceuticals GmbH. | ساري |
+| VIMPAT 10 mg/ml SYRUP | LACOSAMIDE | Unither Manufacturing LLC | ساري |
+| VIMPAT 10 mg/ml SOLUTION FOR INFUSION | LACOSAMIDE | U.C.B. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 توجد تراخيص إضافية (Lazure من تبوك للصناعات الدوائية بأربع تراكيز وأشكال، وTrepadio من الجزيرة للصناعات الدوائية، وLacosamide SPC من MSN Laboratories، وVimpat من Aesica).
 
 <!-- review:begin sa-lic-20261106-lacosamide-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توجد تراخيص ملغاة إضافية (Lazure من تبوك للصناعات الدوائية بأربع تراكيز وأشكال، وTrepadio من الجزيرة للصناعات الدوائية، وLacosamide SPC من MSN Laboratories، وVimpat من Aesica).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 12، منها سارية: 12؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توجد تراخيص ملغاة إضافية (Lazure من تبوك للصناعات الدوائية بأربع تراكيز وأشكال، وTrepadio من الجزيرة للصناعات الدوائية، وLacosamide SPC من MSN Laboratories، وVimpat من Aesica).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-lacosamide-1 -->
 
@@ -171,7 +177,7 @@ description: "Lacosamide: الاستطباب الجديد المتوقع Manic b
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738) |
 
 <!-- review:end log -->

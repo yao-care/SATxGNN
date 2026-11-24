@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 793
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: الاستطباب الجديد المتوقع ذبحة برينزميتال (Prinzmetal angina) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
@@ -70,13 +70,17 @@ description: "Telmisartan: الاستطباب الجديد المتوقع ذبح
 
 حالة السوق: مسوّق. جميع التراخيص الخمسة المسجّلة سارية.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| MICARDIS 40 MG TAB | MICARDIS 40 MG TAB | Boehringer Ingelheim | ساري |
-| MICARDIS 80 MG TAB | MICARDIS 80 MG TAB | Boehringer Ingelheim | ساري |
-| NIZORTAN 40 mg Tablet | NIZORTAN 40 mg Tablet | Tabuk Pharmaceutical | ساري |
-| NIZORTAN 80 mg Tablet | NIZORTAN 80 mg Tablet | Tabuk Pharmaceutical | ساري |
-| Telfocus | Telfocus | Aurobindo Pharma | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MICARDIS 40 MG TAB | TELMISARTAN | BOEHRINGER INGELHEIM | ساري |
+| MICARDIS 80 MG TAB | TELMISARTAN | BOEHRINGER INGELHEIM | ساري |
+| NIZORTAN 40 mg Tablet | TELMISARTAN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| NIZORTAN 80 mg Tablet | TELMISARTAN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| Telfocus | TELMISARTAN | Aurobindo Pharma Limited Unit VII | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

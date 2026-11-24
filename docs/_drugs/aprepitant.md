@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aprepitant: الاستطباب الجديد المتوقع المتلازمة الكلوية المنشأ لعدم ملاءمة مضادات البول (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات (نصوص الاستطباب في التراخيص فارغة)"
 monitor_inn: "APREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
@@ -98,10 +98,14 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "h
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| ENEVOM 80 MG CAPSULE | ENEVOM 80 MG CAPSULE | غير متوفر | غير متوفر | ساري |
-| ENEVOM 125 MG CAPSULE | ENEVOM 125 MG CAPSULE | غير متوفر | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ENEVOM 80 MG CAPSULE | APREPITANT | Rontis Hellas S.A., Medical and Pharmaceutical Products | ساري |
+| ENEVOM 125 MG CAPSULE | APREPITANT | Rontis Hellas S.A., Medical and Pharmaceutical Products | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنّعة: Rontis Hellas S.A. يوجد ترخيصان ساريان من أصل ترخيصين، والدواء مسوّق حالياً.
 

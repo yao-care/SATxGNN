@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 60
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "AMPICILLIN"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 description: "Ampicillin: الاستطباب الجديد المتوقع التهاب الحنجرة (laryngitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 7 (السارية: 7)"
@@ -78,13 +78,19 @@ description: "Ampicillin: الاستطباب الجديد المتوقع الت�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| EPICOCILLIN VIAL 500MG | EPICOCILLIN VIAL 500MG | غير متوفر | غير متوفر |
-| STANDACILLIN 500MG INJ WITH SOLVENT | STANDACILLIN 500MG INJ WITH SOLVENT | غير متوفر | غير متوفر |
-| AMPICILLIN 1GM POWDER FOR IV AND IM INJECTION | AMPICILLIN 1GM POWDER FOR IV AND IM INJECTION | غير متوفر | غير متوفر |
-| PENBRITIN VIAL 250 MG | PENBRITIN VIAL 250 MG | غير متوفر | غير متوفر |
-| AMPICILLIN 500MG POWDER FOR IV AND IM INJECTION | AMPICILLIN 500MG POWDER FOR IV AND IM INJECTION | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| EPICOCILLIN VIAL 500MG | AMPICILLIN | EIPICO | ساري |
+| STANDACILLIN 500MG INJ WITH SOLVENT | AMPICILLIN | SANDOZ | ساري |
+| AMPICILLIN 1GM POWDER FOR IV AND IM INJECTION | AMPICILLIN | ANTIBIOTIC S.E | ساري |
+| PENBRITIN VIAL 250 MG | AMPICILLIN | SMIITHKLINE BEECHAM | ساري |
+| AMPICILLIN 500MG POWDER FOR IV AND IM INJECTION | AMPICILLIN | ANTIBIOTIC S.E | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 وفق البيانات المحلية، يضم السجل 7 تراخيص سارية جميعها لمنتجات أحادية المادة الفعالة.
 

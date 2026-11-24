@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 504
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lindane: الاستطباب الجديد المتوقع ورم الأرومة العصبية العنقي (Cervical neuroblastoma) (مستوى الدليل L5). الاستطباب الأصلي: الإصابة بقمل العانة، وقمل الرأس، والجرب، والجرب النرويجي، والإصابة با…"
 monitor_inn: "LINDANE"
 predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "epiglottis neoplasm", "odontogenic cyst", "pre-malignant neoplasm", "benign neoplasm of hypopharynx", "schwannoma of jugular foramen", "cystic neoplasm", "benign neoplasm of buccal mucosa", "inner ear neoplasm"]
@@ -82,11 +82,15 @@ predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
-|---------|------|------|-----------|------|
-| KWELL CREAM | KWELL CREAM (الشركة: RED AND CARNIK) | غير محدد | غير متوفر | ساري |
-| KWELL SHAMPOO | KWELL SHAMPOO (الشركة: RED AND CARNIK) | غير محدد | غير متوفر | ساري |
-| KWELL LOTION | KWELL LOTION (الشركة: RED AND CARNIK) | غير محدد | غير متوفر | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| KWELL CREAM | LINDANE | RED AND CARNIK | ساري |
+| KWELL SHAMPOO | LINDANE | RED AND CARNIK | ساري |
+| KWELL LOTION | LINDANE | RED AND CARNIK | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -114,7 +118,7 @@ predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "
 
 <!-- review:begin sa-lic-20261106-lindane-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «ملف سلامة ليندان غير مناسب لهذا الاستخدام، فهو سام للأعصاب، ومرتبط بمخاوف المسرطنية، كما أن جميع تراخيصه في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «ملف سلامة ليندان غير مناسب لهذا الاستخدام، فهو سام للأعصاب، ومرتبط بمخاوف المسرطنية، كما أن جميع تراخيصه في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-lindane-1 -->
 
@@ -132,7 +136,7 @@ predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن جميع تراخيصه في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن جميع تراخيصه في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL15891 (lindane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL15891) |
 
 <!-- review:end log -->

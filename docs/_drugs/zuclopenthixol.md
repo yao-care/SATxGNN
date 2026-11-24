@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 892
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Zuclopenthixol: الاستطباب الجديد المتوقع الحثل الشبكي مع أو بدون شذوذات خارج العين (مستوى الدليل L5). الاستطباب الأصلي: الفصام"
 monitor_inn: "ZUCLOPENTHIXOL"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
@@ -92,13 +92,19 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CLOPIXOL TABS 25MG | CLOPIXOL TABS 25MG | غير مذكور | غير مذكور (ساري) |
-| CLOPIXOL TABS 2MG | CLOPIXOL TABS 2MG | غير مذكور | غير مذكور (ساري) |
-| CLOPIXOL TABS 10MG | CLOPIXOL TABS 10MG | غير مذكور | غير مذكور (ساري) |
-| CLOPIXOL-ACUPHASE 50MG-ML OILY AMP | CLOPIXOL-ACUPHASE 50MG-ML OILY AMP | غير مذكور | غير مذكور (ساري) |
-| CLOPIXOL INJ 10MG-ML | CLOPIXOL INJ 10MG-ML | غير مذكور | غير مذكور (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CLOPIXOL TABS 25MG | ZUCLOPENTHIXOL | H. LUNDBECK | ساري |
+| CLOPIXOL TABS 2MG | ZUCLOPENTHIXOL | H. LUNDBECK | ساري |
+| CLOPIXOL TABS 10MG | ZUCLOPENTHIXOL | H. LUNDBECK | ساري |
+| CLOPIXOL-ACUPHASE 50MG-ML OILY AMP | ZUCLOPENTHIXOL ACETATE | H. LUNDBECK | ساري |
+| CLOPIXOL INJ 10MG-ML | ZUCLOPENTHIXOL | H. LUNDBECK | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 جميع التراخيص الستة (الشركة المصنعة: H. LUNDBECK) **سارية**. التراخيص الستة هي المذكورة أعلاه إضافة إلى CLOPIXOL DROPS 2%.
 

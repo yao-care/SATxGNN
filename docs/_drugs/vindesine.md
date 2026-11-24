@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 873
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "VINDESINE"
 predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm"]
 description: "Vindesine: الاستطباب الجديد المتوقع Ganglioneuroblastoma (disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -70,9 +70,13 @@ description: "Vindesine: الاستطباب الجديد المتوقع Ganglion
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المرخّص |
-|---------|------|------|-----------|
-| ELDISINE 5MG VIAL+SOLVENT 5ML | ELDISINE (الشركة المصنّعة: ELI LILLY) | غير مذكور | غير مذكور (الحالة: مُلغى) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ELDISINE 5MG VIAL+SOLVENT 5ML | VINDESINE | ELI LILLY | ساري |
+
+<!-- licenses:end -->
 
 الترخيص الوحيد المسجّل سارٍ وفق البيانات المحلية.
 

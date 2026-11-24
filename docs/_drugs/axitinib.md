@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Axitinib: الاستطباب الجديد المتوقع الساركوما الشحمية (liposarcoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -72,10 +72,14 @@ description: "Axitinib: الاستطباب الجديد المتوقع السا�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| INLYTA 5 mg film-coated tablet | INLYTA 5 mg film-coated tablet (شركة PFIZER) | غير مسجل | غير مسجل في البيانات المحلية |
-| INLYTA 1 mg film-coated tablet | INLYTA 1 mg film-coated tablet (شركة PFIZER) | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| INLYTA 5 mg film-coated tablet | AXITINIB | PFIZER | ساري |
+| INLYTA 1 mg film-coated tablet | AXITINIB | PFIZER | ساري |
+
+<!-- licenses:end -->
 
 ## السمّية الخلوية
 

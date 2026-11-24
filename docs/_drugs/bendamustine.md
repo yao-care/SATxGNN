@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 98
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bendamustine: الاستطباب الجديد المتوقع لمفوما الخلايا الوشاحية (مستوى الدليل L1). الاستطباب الأصلي: اللمفوما الجريبية، أورام الخلايا البائية الناضجة، ابيضاض الدم الليمفا…"
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
@@ -103,12 +103,16 @@ predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, B
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| RIBOMUSTIN 100 mg | RIBOMUSTIN 100 mg powder for concentrate for solution for infusion (Cenexi) | غير مذكور | غير مذكور (ملغى) |
-| Squadaion | Squadaion (Mylan) | غير مذكور | غير مذكور (ساري) |
-| RIBOMUSTIN 25 mg | RIBOMUSTIN 25 mg powder for concentrate for solution for infusion (Cenexi) | غير مذكور | غير مذكور (ملغى) |
-| Bendokey | Bendokey (Eugia Pharma) | غير مذكور | غير مذكور (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RIBOMUSTIN 100 mg powder for concentrate for solution for infusion | BENDAMUSTINE HYDROCHLORIDE | CENEXI-LABORATORIES | ساري |
+| Squadaion | BENDAMUSTINE HYDROCHLORIDE | Mylan Laboratories Limited | ساري |
+| RIBOMUSTIN 25 mg powder for concentrate for solution for infusion | BENDAMUSTINE HYDROCHLORIDE | CENEXI-LABORATORIES | ساري |
+| Bendokey | BENDAMUSTINE HYDROCHLORIDE | Eugia Pharma Specialties Limited | ساري |
+
+<!-- licenses:end -->
 
 الدواء مسوَّق في هذا البلد، وجميع التراخيص الأربعة سارية (4 من 4).
 
@@ -148,7 +152,7 @@ predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, B
 
 <!-- review:begin sa-lic-20261106-bendamustine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «في المقابل، جميع تراخيص السوق السعودي ملغاة، ومعلومات السلامة من النشرة وآلية العمل غير متوفرة، والدواء يحمل خطر تثبيط نقي عظم مرتفعًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «في المقابل، جميع تراخيص السوق السعودي ملغاة، ومعلومات السلامة من النشرة وآلية العمل غير متوفرة، والدواء يحمل خطر تثبيط نقي عظم مرتفعًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-bendamustine-1 -->
 
@@ -173,7 +177,7 @@ predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, B
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص السوق السعودي ملغاة، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص السوق السعودي ملغاة، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxycycline: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (مستوى الدليل L5). الاستطباب الأصلي: التهاب الشعب الهوائية، حب الشباب، الالتهاب الرئوي البكتيري، الجمرة ال…"
 monitor_inn: "DOXYCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
@@ -86,13 +86,19 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis exte
 
 جميع التراخيص الاثني عشر سارية. أبرز خمسة منها:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| DOXYCIN | DOXYCIN | Riyadh Pharma | ساري |
-| TABOCINE 100 | TABOCINE 100 | Tabuk Pharmaceutical Manufacturing Co. | ساري |
-| DORYX CAPS 100MG | DORYX CAPS 100MG | F.H. Faulding | ساري |
-| DOXYDAR | DOXYDAR | Dar Aldawa | ساري |
-| VIBRAMYCIN 100MG TABLET | VIBRAMYCIN 100MG TABLET | Pfizer | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DOXYCIN | DOXYCYCLINE | RIYADH PHARMA | ساري |
+| TABOCINE 100 | DOXYCYCLINE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| DORYX CAPS 100MG | DOXYCYCLINE | F.H. FAULDING | ساري |
+| DOXYDAR | DOXYCYCLINE | DAR ALDAWA | ساري |
+| VIBRAMYCIN 100MG TABLET | DOXYCYCLINE | PFIZER | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Glargine: الاستطباب الجديد المتوقع التهاب المبيض المناعي الذاتي (مستوى الدليل L5). الاستطباب الأصلي: داء السكري (النوع الأول والنوع الثاني، والحماض الكيتوني السكري)"
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
@@ -108,13 +108,19 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص العشرة (10 من 10) سارية. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمّعة.
 
-| رقم الترخيص / المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| BASAGLAR 100 u/ml (خرطوشة) | LILLY FRANCE | ملغى |
-| LANTUS SOLOSTAR 100 IU/ml (قلم) | sanofi-aventis | ملغى |
-| TOUJEO 300 IU/ml (قلم معبأ مسبقاً) | sanofi-aventis | ملغى |
-| BASAGLAR 100 u/ml (قلم معبأ مسبقاً) | LILLY FRANCE | ملغى |
-| BASALOG ONE | Biocon SDN. BHD | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BASALOG ONE | INSULIN GLARGINE | Biocon SDN. BHD | ساري |
+| BASAGLAR 100 u/ml Solution For Injection In cartridge | INSULIN GLARGINE | LILLY FRANCE | ساري |
+| BASAGLAR 100 u/ml Solution For Injection In Pre-Filled Pen | INSULIN GLARGINE | LILLY FRANCE | ساري |
+| BASAGLAR 100 u/ml solution for injection in Pre-Filled pen | INSULIN GLARGINE | ELI LILLY | ساري |
+| Basaglar Tempo Pen | INSULIN GLARGINE | LILLY FRANCE | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 10 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -143,7 +149,7 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 <!-- review:begin sa-lic-20261106-insulin_glargine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «والدرجة العالية صادرة عن نموذج TxGNN (التعلم العميق) وقد تعكس تشابهات تعلّمها النموذج بين أمراض ذات صلة، وليست دليلاً بيولوجياً. / لا يوجد حالياً أي ترخيص ساري في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 10، منها سارية: 10؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «والدرجة العالية صادرة عن نموذج TxGNN (التعلم العميق) وقد تعكس تشابهات تعلّمها النموذج بين أمراض ذات صلة، وليست دليلاً بيولوجياً. / لا يوجد حالياً أي ترخيص ساري في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-insulin_glargine-1 -->
 
@@ -154,7 +160,7 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 <!-- review:begin sa-lic-20261106-insulin_glargine-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح أسباب إلغاء التراخيص العشرة والوضع التنظيمي الحالي / إجراء مراجعة منهجية للأدبيات للتحقق من وجود أي دليل مباشر، والنظر في أولوية توقعات أخرى أكثر معقولية، علماً أن عدم تكوّن البنكرياس والمتلازمة المستجيبة للثيامين يتداخلان مع الاستطباب الحالي ولا يمثلان إعادة توظيف حقيقية» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 10، منها سارية: 10؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح أسباب إلغاء التراخيص العشرة والوضع التنظيمي الحالي / إجراء مراجعة منهجية للأدبيات للتحقق من وجود أي دليل مباشر، والنظر في أولوية توقعات أخرى أكثر معقولية، علماً أن عدم تكوّن البنكرياس والمتلازمة المستجيبة للثيامين يتداخلان مع الاستطباب الحالي ولا يمثلان إعادة توظيف حقيقية» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-insulin_glargine-2 -->
 
@@ -166,8 +172,8 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حالياً أي ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص العشرة والوضع التنظيمي الحالي» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حالياً أي ترخيص ساري في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح أسباب إلغاء التراخيص العشرة والوضع التنظيمي الحالي» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810) |
 
 <!-- review:end log -->

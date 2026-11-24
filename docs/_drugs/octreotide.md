@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Octreotide: الاستطباب الجديد المتوقع الورم الكيراتيني الجُريبي المقلوب في الفرج (vulvar inverted follicula… (مستوى الدليل L5). الاستطباب الأصلي: تضخم الأطراف (أكروميغالي)، فرط نشاط النخامية، متلازمة …"
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
@@ -83,15 +83,19 @@ predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic kera
 
 جميع التراخيص السبعة **سارية**. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمعة.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| SANDOSTATIN LAR 20MG VIAL | SANDOSTATIN LAR 20MG VIAL | SANDOZ | ساري |
-| Syngro | Syngro | PHARMATHEN INTERNATIONAL | ساري |
-| SANDOSTATIN 0.2MG-ML 5ML AMP | SANDOSTATIN 0.2MG-ML 5ML AMP | NOVARTIS | ساري |
-| SANDOSTATIN 0.05MG-ML AMP | SANDOSTATIN 0.05MG-ML AMP | NOVARTIS | ساري |
-| SANDOSTATIN LAR 30MG VIAL | SANDOSTATIN LAR 30MG VIAL | SANDOZ | ساري |
+<!-- licenses:begin -->
 
-(عُرضت 5 من أصل 7 تراخيص.)
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SANDOSTATIN LAR 20MG VIAL | OCTREOTIDE ACETATE | SANDOZ | ساري |
+| Syngro | OCTREOTIDE ACETATE | PHARMATHEN INTERNATIONAL | ساري |
+| SANDOSTATIN 0.2MG-ML 5ML AMP | OCTREOTIDE ACETATE | NOVARTIS | ساري |
+| SANDOSTATIN 0.05MG-ML AMP | OCTREOTIDE ACETATE | NOVARTIS | ساري |
+| SANDOSTATIN LAR 30MG VIAL | OCTREOTIDE ACETATE | SANDOZ | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 7 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -134,7 +138,7 @@ predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic kera
 
 <!-- review:begin sa-lic-20261106-octreotide-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم مدى توافق طريق الإعطاء (موضعي أم جهازي) مع الاستطباب الجديد. / توضيح وضع التسجيل والتوافر الفعلي للمنتجات في السعودية بعد إلغاء جميع التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 7، منها سارية: 7؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تقييم مدى توافق طريق الإعطاء (موضعي أم جهازي) مع الاستطباب الجديد. / توضيح وضع التسجيل والتوافر الفعلي للمنتجات في السعودية بعد إلغاء جميع التراخيص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-octreotide-1 -->
 
@@ -146,7 +150,7 @@ predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic kera
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح وضع التسجيل والتوافر الفعلي للمنتجات في السعودية بعد إلغاء جميع التراخيص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح وضع التسجيل والتوافر الفعلي للمنتجات في السعودية بعد إلغاء جميع التراخيص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39) |
 
 <!-- review:end log -->

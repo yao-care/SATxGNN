@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Guaifenesin: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (Nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…"
 monitor_inn: "GUAIFENESIN"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
@@ -84,12 +84,16 @@ predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical 
 
 جميع التراخيص الأربعة سارية المفعول، والدواء مسوّق في هذا البلد.
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الشركة المصنِّعة | الاستطباب المعتمد |
-|---------|------|------|------|-----------|
-| GUAPHAN | GUAPHAN | غير متوفر | Riyadh Pharma | غير متوفر |
-| PECTAL 100MG\5ML SYRUP | PECTAL 100MG\5ML SYRUP | غير متوفر | Jazeera Pharmaceutical Industries (JPI) | غير متوفر |
-| MUCINEX 600MG EXTENDED RELEASE BI-LAYER TABLET | MUCINEX 600MG EXTENDED RELEASE BI-LAYER TABLET | غير متوفر | Reckitt Benckiser Healthcare International | غير متوفر |
-| ROBITUSSIN SYRUP | ROBITUSSIN SYRUP | غير متوفر | Fereva Richmond | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| GUAPHAN | GUAIFENESIN | RIYADH PHARMA | ساري |
+| PECTAL 100MG\5ML SYRUP | GUAIFENESIN | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| MUCINEX 600MG EXTENDED RELEASE BI-LAYER TABLET | GUAIFENESIN | RECKITT BENCKISER HEALTHCARE INTERNATIONAL | ساري |
+| ROBITUSSIN SYRUP | GUAIFENESIN | FEREVA RICHMOND | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -118,7 +122,7 @@ predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical 
 
 <!-- review:begin sa-lic-20261106-guaifenesin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «البحث عن أدلة سريرية مباشرة على فعالية غوايفينيسين في أمراض التجويف الأنفي. / توضيح وضع التراخيص الملغاة وأسبابها وإمكانية إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «البحث عن أدلة سريرية مباشرة على فعالية غوايفينيسين في أمراض التجويف الأنفي. / توضيح وضع التراخيص الملغاة وأسبابها وإمكانية إعادة التسجيل.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-guaifenesin-1 -->
 
@@ -130,7 +134,7 @@ predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical 
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة وأسبابها وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة وأسبابها وإمكانية إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

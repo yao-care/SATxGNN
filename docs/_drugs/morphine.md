@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 570
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: الاستطباب الجديد المتوقع متلازمة الألم اللفافي العضلي (myofascial pain syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 9 (السارية: 9)"
@@ -76,13 +76,19 @@ description: "Morphine: الاستطباب الجديد المتوقع متلا�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| MST Continus 30 mg | MST Continus 30 mg | Bard Pharmaceuticals Limited | ساري |
-| MST Continus 10 mg | MST Continus 10 mg | Bard Pharmaceuticals Limited | ساري |
-| MST Continus 60 mg | MST Continus 60 mg | Bard Pharmaceuticals Limited | ساري |
-| Oramorph | Oramorph | L. Molteni & C dei F. LLi Alitti | ساري |
-| MORPHINE SULPHATE BP 10 mg/ml | محلول للحقن | Macarthys Laboratories (Martindale) | ملغى |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| MST Continus 30 mg | MORPHINE SULFATE | Bard Pharmaceuticals Limited | ساري |
+| MST Continus 10 mg | MORPHINE SULFATE | Bard Pharmaceuticals Limited | ساري |
+| MST Continus 60 mg | MORPHINE SULFATE | Bard Pharmaceuticals Limited | ساري |
+| Oramorph | MORPHINE SULFATE | L. Molteni & C dei F. LLi Alitti Societa di Esercizio | ساري |
+| MORPHINE SULPHATE BP 10 mg/ml solution for injection | MORPHINE SULFATE | MACARTHYS LABORATORIES Ltd T/A MARTINDALE PHARMACEUTICALS | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 9 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 جميع التراخيص التسعة المسجلة سارية.
 

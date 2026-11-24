@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 650
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Phenoxymethylpenicillin: الاستطباب الجديد المتوقع التهاب لسان المزمار (Epiglottitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأذن الوسطى المعدي، العدوى العقدية، عدوى الجهاز التنفسي، الته…"
 monitor_inn: "PHENOXYMETHYLPENICILLIN"
 predicted_indications: ["epiglottitis", "laryngitis"]
@@ -91,13 +91,19 @@ predicted_indications: ["epiglottitis", "laryngitis"]
 
 جميع التراخيص الـ11 سارية، والدواء مسوَّق. ولم تتوفر بيانات عن الشكل الدوائي أو نص الاستطباب المعتمد.
 
-| رقم الترخيص / المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| VIKADAR SUSP 200000 IU-5ML | DAR ALDAWA | ساري |
-| OSPEN 200 GRANULES FOR SUSP | SANDOZ | ساري |
-| ORVEK SYP 125MG-5ML | Hikma Pharmaceuticals PLC | ساري |
-| OSPEN 1000 | SANDOZ | ساري |
-| OSPEN 500 | SANDOZ | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VIKADAR SUSP 200000 IU-5ML | PHENOXYMETHYLPENICILLIN | DAR ALDAWA | ساري |
+| OSPEN 200 GRANULES FOR SUSP | PHENOXYMETHYLPENICILLIN | SANDOZ | ساري |
+| ORVEK SYP 125MG-5ML | PHENOXYMETHYLPENICILLIN | Hikma Pharmaceuticals PLC | ساري |
+| OSPEN 1000 | PHENOXYMETHYLPENICILLIN | SANDOZ | ساري |
+| OSPEN 500 | PHENOXYMETHYLPENICILLIN | SANDOZ | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,7 +133,7 @@ predicted_indications: ["epiglottitis", "laryngitis"]
 
 <!-- review:begin sa-lic-20261106-phenoxymethylpenicillin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من وضع التسويق، إذ لا توجد حاليًا منتجات سارية في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 11، منها سارية: 11؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من وضع التسويق، إذ لا توجد حاليًا منتجات سارية في السعودية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-phenoxymethylpenicillin-1 -->
 
@@ -139,7 +145,7 @@ predicted_indications: ["epiglottitis", "laryngitis"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «إذ لا توجد حاليًا منتجات سارية في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «إذ لا توجد حاليًا منتجات سارية في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea) |
 
 <!-- review:end log -->

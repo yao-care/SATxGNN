@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 766
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Sofosbuvir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L2). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة"
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
@@ -104,11 +104,15 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| SOFOCURE 400 mg film-coated tablet | SOFOCURE 400 mg film-coated tablet (الشركة المصنّعة: EUROPEAN EGYPTIAN PHARMACEUTICAL) | أقراص مغلفة | غير متوافر (ساري) |
-| SOVALDI 400 mg film-coated tablet | SOVALDI 400 mg film-coated tablet (Gilead Sciences Ireland) | أقراص مغلفة | غير متوافر (ساري) |
-| SOVIRA 400 mg film-coated tablet | SOVIRA 400 mg film-coated tablet (SPIMACO) | أقراص مغلفة | غير متوافر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SOFOCURE 400 mg film-coated tablet | SOFOSBUVIR | EUROPEAN EGYPTIAN PHARMACEUTICAL IND. CO | ساري |
+| SOVALDI 400 mg film-coated tablet | SOFOSBUVIR | GILEAD SCIENCES IRELAND UC | ساري |
+| SOVIRA 400 mg film-coated tablet | SOFOSBUVIR | SPIMACO | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -134,7 +138,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 <!-- review:begin sa-lic-20261106-sofosbuvir-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التجربة الوحيدة المباشرة (المرحلة 2، 21 مشاركاً، أحادية الذراع) صغيرة ولا تسمح باستنتاجات. وجميع تراخيص المنتج في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التجربة الوحيدة المباشرة (المرحلة 2، 21 مشاركاً، أحادية الذراع) صغيرة ولا تسمح باستنتاجات. وجميع تراخيص المنتج في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-sofosbuvir-1 -->
 
@@ -153,7 +157,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وجميع تراخيص المنتج في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وجميع تراخيص المنتج في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

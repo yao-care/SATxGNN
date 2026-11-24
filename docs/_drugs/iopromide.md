@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IOPROMIDE"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iopromide: الاستطباب الجديد المتوقع الفصال العظمي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفرة في بيانات الترخيص المجمَّعة (نص الإشارة المعتمدة فارغ في ا…"
 ---
 
@@ -78,10 +78,14 @@ description: "Iopromide: الاستطباب الجديد المتوقع الفص
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الإشارة المعتمدة |
-|---------|------|------|-----------|
-| ULTRAVIST300 | ULTRAVIST300 | غير مذكور | غير مذكورة (الشركة المصنعة: BAYER AG) |
-| ULTRAVIST 370 | ULTRAVIST 370 | غير مذكور | غير مذكورة (الشركة المصنعة: BAYER AG) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ULTRAVIST300 | IOPROMIDE | BAYER AG | ساري |
+| ULTRAVIST 370 | IOPROMIDE | BAYER AG | ساري |
+
+<!-- licenses:end -->
 
 ---
 

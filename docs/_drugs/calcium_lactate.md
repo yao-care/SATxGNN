@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 136
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Calcium Lactate: الاستطباب الجديد المتوقع متلازمة الكالسيوم والقلويات (Calcium-alkali syndrome) (مستوى الدليل L4). الاستطباب الأصلي: هشاشة العظام (وفق الاستطبابات الأصلية في قاعدة المعرفة؛ نص الاستطب…"
 monitor_inn: "calcium lactate"
 predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
@@ -84,9 +84,13 @@ predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with 
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| RICHBORN CAPS | RICHBORN CAPS (الشركة المصنعة: EISAI) | غير متوفر | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RICHBORN CAPS | ASCORBIC ACID, CALCIUM LACTATE, CHOLECALCIFEROL, FERROUS FUMARATE, PYRIDOXINE, RETINOL, TH… | EISAI | ساري |
+
+<!-- licenses:end -->
 
 ---
 

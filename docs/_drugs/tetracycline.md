@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 806
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tetracycline: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة الظهاري النقطي (مستوى الدليل L5). الاستطباب الأصلي: التهاب المسالك البولية، التهاب الشعب الهوائية، حب الشباب، التهاب المل…"
 monitor_inn: "TETRACYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
@@ -86,13 +86,19 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic eth
 
 جميع التراخيص الثلاثة عشر سارية، والدواء مسوّق في هذا البلد. أبرز خمسة منها:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| DUMOCYCLIN 250 MG CAP | DUMOCYCLIN 250 MG CAP | كبسولة (حسب اسم المنتج) | غير متوفر |
-| OPTICYCLIN 1 % OINTMENT | OPTICYCLIN 1 % OINTMENT | مرهم (حسب اسم المنتج) | غير متوفر |
-| TERRAMYCIN CAPS 250MG | TERRAMYCIN CAPS 250MG | كبسولة (حسب اسم المنتج) | غير متوفر |
-| DUMOCYCLINE EYE OINT | DUMOCYCLINE EYE OINT | مرهم عيني (حسب اسم المنتج) | غير متوفر |
-| TETRACYCLINE 500MG CAPS | TETRACYCLINE 500MG CAPS | كبسولة (حسب اسم المنتج) | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DUMOCYCLIN 250 MG CAP | TETRACYCLINE | XELLIA PHARMACEUTICAL APS | ساري |
+| OPTICYCLIN 1 % OINTMENT | TETRACYCLINE | Amman Pharmaceutical Industries (API) | ساري |
+| TERRAMYCIN CAPS 250MG | TETRACYCLINE | PFIZER | ساري |
+| DUMOCYCLINE EYE OINT | TETRACYCLINE | XELLIA PHARMACEUTICAL APS | ساري |
+| TETRACYCLINE 500MG CAPS | TETRACYCLINE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 13 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -118,7 +124,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic eth
 
 <!-- review:begin sa-lic-20261106-tetracycline-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدرجة العالية في TxGNN تنبؤ حسابي فقط، ولا توجد تجارب سريرية، والمنشور الوحيد تقرير حالات لا يُثبت فائدة علاجية، كما أن جميع تراخيص الدواء في المملكة ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 13، منها سارية: 13؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «الدرجة العالية في TxGNN تنبؤ حسابي فقط، ولا توجد تجارب سريرية، والمنشور الوحيد تقرير حالات لا يُثبت فائدة علاجية، كما أن جميع تراخيص الدواء في المملكة ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-tetracycline-1 -->
 
@@ -145,7 +151,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic eth
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في المملكة ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «كما أن جميع تراخيص الدواء في المملكة ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440) |
 
 <!-- review:end log -->

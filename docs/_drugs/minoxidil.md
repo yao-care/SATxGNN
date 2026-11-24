@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 563
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Minoxidil: الاستطباب الجديد المتوقع قلة الشعر البسيطة في فروة الرأس (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم، وتساقط الشعر (حسب الرسم المعرفي لـ TxGNN؛ لا يتوفر ن…"
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with HIV infection"]
@@ -84,13 +84,19 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 جميع التراخيص الأربعة عشر (14 من 14) سارية، والدواء مسوَّق في السعودية. نصوص الإشارات المعتمدة وأشكال الجرعات غير متوفرة في البيانات المجمّعة. أبرز المنتجات:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| REGAINE TOPICAL SOLN 2% | REGAINE TOPICAL SOLN 2% | ASM Aerosol-Service AG | ساري |
-| Regaine Foam for Men 5% | Regaine Foam for Men 5% | ASM Aerosol-Service AG | ساري |
-| REGAINE 5% TOPICAL SOLUTION | REGAINE 5% TOPICAL SOLUTION | ASM Aerosol-Service AG | ساري |
-| MINOXIL 5% SOLUTION | MINOXIL 5% SOLUTION | Dallah Pharma Factory | ساري |
-| HAIRAL 5% TOPICAL SOLUTION | HAIRAL 5% TOPICAL SOLUTION | JERASH PHARMACEUTICALS | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| REGAINE TOPICAL SOLN 2% | MINOXIDIL | ASM Aerosol-Service AG | ساري |
+| Regaine Foam for Men 5% | MINOXIDIL | ASM Aerosol-Service AG | ساري |
+| REGAINE 5% TOPICAL SOLUTION | MINOXIDIL | ASM Aerosol-Service AG | ساري |
+| MINOXIL 5% SOLUTION | MINOXIDIL | Dallah Pharma Factory | ساري |
+| HAIRAL 5% TOPICAL SOLUTION | MINOXIDIL | JERASH PHARMACEUTICALS LIMITED COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 14 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 description: "Irbesartan: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 19 على الأقل"
@@ -95,13 +95,20 @@ description: "Irbesartan: الاستطباب الجديد المتوقع Maligna
 
 ولم تتوفر في البيانات أشكال جرعية أو نصوص استطباب معتمدة. أبرز التراخيص:
 
-| رقم/اسم الترخيص | اسم المنتج | الشكل الجرعي | الشركة المصنِّعة | الحالة |
-|---------|------|------|-----------|------|
-| APROVEL 300MG TAB | APROVEL 300MG TAB | غير متوفر | SANOFI WINTHROP INDUSTRIE | ساري |
-| IRBETEL 150 mg film-coated tablet | IRBETEL 150 mg | أقراص مغلفة | SANOFI WINTHROP INDUSTRIE | ساري |
-| IROVEL 300 mg film-coated tablet | IROVEL 300 mg | أقراص مغلفة | TABUK PHARMACEUTICAL | ساري |
-| ZANSOR 300MG F.C.TABLET | ZANSOR 300MG | أقراص مغلفة | SPIMACO | ساري |
-| ARENA 150MG TABLET | ARENA 150MG | أقراص | JAMJOOM PHARMACEUTICALS | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| APROVEL 300MG TAB | IRBESARTAN | SANOFI WINTHROP INDUSTRIE | ساري |
+| IRBETEL 150 mg film-coated tablet | IRBESARTAN | SANOFI WINTHROP INDUSTRIE | ساري |
+| IROVEL 300 mg film-coated tablet | IRBESARTAN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| ZANSOR 300MG F.C.TABLET | IRBESARTAN | SPIMACO | ساري |
+| ARENA 150MG TABLET | IRBESARTAN | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

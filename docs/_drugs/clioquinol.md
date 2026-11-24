@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CLIOQUINOL"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clioquinol: الاستطباب الجديد المتوقع عدوى خارج الشعرة (ectothrix infectious disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
 ---
 
@@ -76,9 +76,13 @@ description: "Clioquinol: الاستطباب الجديد المتوقع عدو�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| VIODERM CREAM 3% | VIODERM CREAM 3% | غير مسجل | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| VIODERM CREAM 3% | CLIOQUINOL | KAHIRA EYGEPT | ساري |
+
+<!-- licenses:end -->
 
 ---
 

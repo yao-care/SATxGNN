@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 614
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -77,10 +77,14 @@ description: "Omalizumab: الاستطباب الجديد المتوقع الت�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Xolair | Xolair (الشركة المصنعة: VETTER PHARMA-FERTIGUNG) | غير متوفر | غير متوفر (الترخيص ساري) |
-| XOLAIR 150MG Powder for injection | XOLAIR 150MG Powder for injection (الشركة المصنعة: NOVARTIS) | مسحوق للحقن | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Xolair | OMALIZUMAB | VETTER PHARMA-FERTIGUNG, GMBH & CO. KG | ساري |
+| XOLAIR 150MG Powder for injection | OMALIZUMAB | NOVARTIS | ساري |
+
+<!-- licenses:end -->
 
 الترخيصان صالحان، والمنتج مسوّق وفق البيانات المحلية.
 

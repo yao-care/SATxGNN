@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "DAPOXETINE"
 predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]
 description: "Dapoxetine: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 19 (السارية: 19)"
@@ -77,13 +77,19 @@ description: "Dapoxetine: الاستطباب الجديد المتوقع الص�
 
 الدواء مسوّق في المملكة، ومعظم المستحضرات أدناه أقراص مغلفة بالفيلم (لم يُسجَّل نص الاستطباب المعتمد في البيانات المحلية).
 
-| اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|
-| PRILIGY | Menarini - Von Heyden GmbH | ساري |
-| DEPOJOY 30 / 60 mg | SAJA | ملغى |
-| DAPOX 30 / 60 mg | Jamjoom Pharmaceuticals | ملغى |
-| LEJAM 30 / 60 mg | SPIMACO | ملغى |
-| Elong 30 / 60 mg | Dammam Pharma | ملغى |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PRILIGY | DAPOXETINE | Menarini - Von Heyden GmbH | ساري |
+| DAPO 30 MG FILM COATED TABLET | DAPOXETINE | RIYADH PHARMA | ساري |
+| DAPO 60 MG FILM COATED TABLET | DAPOXETINE | RIYADH PHARMA | ساري |
+| DAPOX 30MG F.C.TABLET | DAPOXETINE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| DAPOX 60MG F.C.TABLET | DAPOXETINE | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

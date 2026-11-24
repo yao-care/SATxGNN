@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 660
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Piperacillin: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L5). الاستطباب الأصلي: العدوى البكتيرية (مضاد حيوي من فئة البيتا-لاكتام؛ نص الاستطباب غير مت…"
 monitor_inn: "PIPERACILLIN"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -86,12 +86,16 @@ predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhi
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PIPRIL VIAL 2G+SOLVENT 20ML | PIPRIL VIAL 2G+SOLVENT 20ML | غير متوفر | غير متوفر |
-| PIPRIL VIAL 6G | PIPRIL VIAL 6G | غير متوفر | غير متوفر |
-| PIPRIL VIAL 4G | PIPRIL VIAL 4G | غير متوفر | غير متوفر |
-| PIPRIL VIAL 1G+SOLVENT 10ML | PIPRIL VIAL 1G+SOLVENT 10ML | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PIPRIL VIAL 2G+SOLVENT 20ML | PIPERACILLIN | CYANAMID LEDERLE | ساري |
+| PIPRIL VIAL 6G | PIPERACILLIN | CYANAMID LEDERLE | ساري |
+| PIPRIL VIAL 4G | PIPERACILLIN | CYANAMID LEDERLE | ساري |
+| PIPRIL VIAL 1G+SOLVENT 10ML | PIPERACILLIN | CYANAMID LEDERLE | ساري |
+
+<!-- licenses:end -->
 
 التراخيص الأربعة جميعها سارية (4 من 4)، والجهة المصنّعة CYANAMID LEDERLE.
 

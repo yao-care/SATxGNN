@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etoricoxib: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص السعودية (نص الاستطباب فارغ)؛ الاستخدام…"
 monitor_inn: "ETORICOXIB"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -95,13 +95,20 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "at
 
 يوجد 19 ترخيصاً ساري المفعول. نص الاستطباب وشكل الجرعة غير متوفرين في بيانات التراخيص. أبرز خمسة تراخيص:
 
-| رقم/اسم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| ARCOXIA 60MG TAB | ARCOXIA 60MG TAB | Rovi Pharma Industrial Service | ساري |
-| ETORIA 60MG FILM COATED TABLETS | ETORIA 60MG | Rovi Pharma Industrial Service | ساري |
-| XIBAX 90MG F.C.TABLET | XIBAX 90MG | Middle East Pharmaceutical Industries (MECP) | ساري |
-| ATOXIA 90 mg Film-coated Tablet | ATOXIA 90 mg | United Pharmaceutical Company | ساري |
-| CORREX 120MG F.C.TABLET | CORREX 120MG | Al-Taqaddom Pharmaceutical Industries | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ARCOXIA 60MG TAB | Etoricoxib | Rovi Pharma Industrial Service | ساري |
+| ETORIA 60MG FILM COATED TABLETS | Etoricoxib | Rovi Pharma Industrial Service | ساري |
+| XIBAX 90MG F.C.TABLET | Etoricoxib | Middle East Pharmaceutical Industries Co. Ltd. (MECP) | ساري |
+| ATOXIA 90 mg Film-coated Tablet | Etoricoxib | UNITED PHARMACEUTICAL COMPANY | ساري |
+| CORREX 120MG F.C.TABLET | Etoricoxib | Al-Taqaddom pharmaceutical Industries | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

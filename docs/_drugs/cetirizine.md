@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cetirizine: الاستطباب الجديد المتوقع أمراض تجويف الأنف (nasal cavity disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 (السارية: 17)"
 ---
 
@@ -75,6 +75,20 @@ description: "Cetirizine: الاستطباب الجديد المتوقع أمر�
 | [36116201](https://pubmed.ncbi.nlm.nih.gov/36116201/) | 2022 | ما قبل سريرية | Phytomedicine | دراسة على الفئران لمستحضر عشبي صيني في اضطراب الشم المرتبط بالتهاب الأنف التحسسي (لا تخص سيتيريزين) |
 
 ## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ARTIZ 10 MG F.C TABLET | CETIRIZINE HYDROCHLORIDE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| CETRALON 10 MG TAB | CETIRIZINE HYDROCHLORIDE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| CETRALON 5MG-5ML SYRUP | CETIRIZINE HYDROCHLORIDE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| CETRO 10MG F.C TAB | CETIRIZINE HYDROCHLORIDE | SPIMACO | ساري |
+| CETRO 5MG\5ML SYRUP | CETIRIZINE HYDROCHLORIDE | SPIMACO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 17 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 الدواء مسوّق في السعودية، وتوجد تراخيص سارية. تفاصيل التراخيص تضيفها منظومة الموقع من سجلات التراخيص.
 

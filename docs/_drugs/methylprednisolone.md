@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 552
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "METHYLPREDNISOLONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: الاستطباب الجديد المتوقع الثعلبة المخاطية (alopecia mucinosa) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
@@ -70,13 +70,19 @@ description: "Methylprednisolone: الاستطباب الجديد المتوقع
 
 جميع التراخيص الاثني عشر المسجلة سارية. فيما يلي أبرز خمسة منها:
 
-| رقم الترخيص / المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| SOLU-MEDROL INJ. 500 MG. | Pfizer Manufacturing Belgium N.V. | ساري |
-| MEDROL TAB 4 MG | PFIZER | ساري |
-| SOLU-MEDROL 1000 mg powder and solvent for solution for injection | Pfizer Manufacturing Belgium N.V. | ساري |
-| SOLU-MEDROL-INJ. 125 MG | Pfizer Manufacturing Belgium N.V. | ساري |
-| ADVANTAN 0.1% SKIN OINTMENT | LEO Pharma Manufacturing Italy Srl | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SOLU-MEDROL INJ. 500 MG. | METHYLPREDNISOLONE | Pfizer Manufacturing Belgium N.V. | ساري |
+| MEDROL TAB 4 MG | METHYLPREDNISOLONE | PFIZER | ساري |
+| SOLU-MEDROL 1000 mg powder and solvent for solution for injection | METHYLPREDNISOLONE | Pfizer Manufacturing Belgium N.V. | ساري |
+| SOLU-MEDROL-INJ. 125 MG | METHYLPREDNISOLONE | Pfizer Manufacturing Belgium N.V. | ساري |
+| ADVANTAN 0.1% SKIN OINTMENT | METHYLPREDNISOLONE | LEO Pharma Manufacturing Italy Srl | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desogestrel: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L5). الاستطباب الأصلي: منع الحمل (لا يوجد نص استطباب معتمد في بيانات الترخيص المحلية)"
 monitor_inn: "DESOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -96,11 +96,15 @@ predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| DESOGEST 0.075 mg tablet | DESOGEST 0.075 mg tablet (OMAN PHARMACEUTICAL PRODUCTS) | غير مذكور | غير مذكور (ساري) |
-| CERAZETTE 75MCG TAB | CERAZETTE 75MCG TAB (MERCK SHARP & DOHME) | غير مذكور | غير مذكور (ساري) |
-| DESIRETT 75 mcg Film-Coated Tablets | DESIRETT 75 mcg Film-Coated Tablets (LABORATORIOS LEON FARMA) | أقراص مغلفة بغشاء | غير مذكور (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DESOGEST 0.075 mg tablet | DESOGESTREL | OMAN PHARMACEUTICAL PRODUCTS | ساري |
+| CERAZETTE 75MCG TAB | DESOGESTREL | MERCK SHARP & DOHME | ساري |
+| DESIRETT 75 mcg Film-Coated Tablets | DESOGESTREL | LABORATORIOS LEON FARMA, S.A. | ساري |
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 42
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
 description: "Alprazolam: الاستطباب الجديد المتوقع الأرق (insomnia (disease)) (مستوى الدليل L3). المنتجات المسجلة لدى SFDA: 6 (السارية: 6)"
@@ -77,13 +77,19 @@ description: "Alprazolam: الاستطباب الجديد المتوقع الأ�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| XANAX 1MG TAB | XANAX 1MG TAB (فارماسيا آب جون) | غير متوفر | غير متوفر (ساري) |
-| XANAX TAB 0.5MG | XANAX TAB 0.5MG (فارماسيا آب جون) | غير متوفر | غير متوفر (ساري) |
-| XANAX TAB 0.25MG | XANAX TAB 0.25MG (فارماسيا آب جون) | غير متوفر | غير متوفر (ساري) |
-| XANAX 1 MG TABLET | XANAX 1 MG TABLET (سانيكو) | غير متوفر | غير متوفر (ساري) |
-| XANAX 0.25 MG TABLET | XANAX 0.25 MG TABLET (سانيكو) | غير متوفر | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| XANAX 1MG TAB | ALPRAZOLAM | PHARMACIA UPJOHN | ساري |
+| XANAX TAB 0.5MG | ALPRAZOLAM | PHARMACIA UPJOHN | ساري |
+| XANAX TAB 0.25MG | ALPRAZOLAM | PHARMACIA UPJOHN | ساري |
+| XANAX 1 MG TABLET | ALPRAZOLAM | SANICO | ساري |
+| XANAX 0.25 MG TABLET | ALPRAZOLAM | SANICO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 جميع التراخيص الستة سارية، وقد تكون القائمة المعروضة جزئية (خمسة من ستة).
 

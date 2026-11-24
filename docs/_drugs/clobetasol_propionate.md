@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clobetasol Propionate: الاستطباب الجديد المتوقع الورم الكيراتيني الجريبي المقلوب في الفرج (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد التأتبي (الإكزيما) والتهاب الجلد التماسي والتهاب الجلد ا…"
 monitor_inn: "CLOBETASOL PROPIONATE"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
@@ -117,13 +117,19 @@ predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis 
 
 جميع التراخيص الثمانية عشر (18 من 18) **سارية**. نص المؤشر المعتمد ليس متوفرًا في البيانات المجمّعة. نعرض أهم خمسة منتجات:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
-|---------|------|------|-----------|
-| DERMOVATE CREAM 0.05% | DERMOVATE CREAM 0.05% (GLAXO SAUDI ARABIA) | غير محدد | غير متوفر |
-| DERMOVATE OINTMENT 0.05% | DERMOVATE OINTMENT 0.05% (GLAXO SAUDI ARABIA) | غير محدد | غير متوفر |
-| ETRIVEX 0.05% SHAMPOO | ETRIVEX 0.05% SHAMPOO (GALDERMA) | غير محدد | غير متوفر |
-| GAMAVATE 0.05% ointment | GAMAVATE 0.05% ointment (Julphar) | غير محدد | غير متوفر |
-| CLODERM 0.05% CREAM | CLODERM 0.05% CREAM (UNITED PHARMACEUTICAL) | غير محدد | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| DERMOVATE CREAM 0.05% | CLOBETASOL PROPIONATE | GLAXO SAUDI ARABIA | ساري |
+| DERMOVATE OINTMENT 0.05% | CLOBETASOL PROPIONATE | GLAXO SAUDI ARABIA | ساري |
+| ETRIVEX 0.05% SHAMPOO | CLOBETASOL PROPIONATE | GALDERMA | ساري |
+| GAMAVATE 0.05% ointment | CLOBETASOL PROPIONATE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| CLODERM 0.05% CREAM | CLOBETASOL PROPIONATE | UNITED PHARMACEUTICAL COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 18 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 

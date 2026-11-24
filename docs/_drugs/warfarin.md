@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 880
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Warfarin: الاستطباب الجديد المتوقع Heparin cofactor 2 deficiency (مستوى الدليل L4). المنتجات المسجلة لدى SFDA: 8 (السارية: 8)"
@@ -99,13 +99,19 @@ description: "Warfarin: الاستطباب الجديد المتوقع Heparin c
 
 نصوص المؤشرات المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| COUFATEX 2 mg Tablet | COUFATEX 2 mg Tablet | APOTEX INC. | ساري |
-| WARFARIN SODIUM 5 MG TAB | WARFARIN SODIUM 5 MG TAB | IVAX PHARMACEUTICALS | ساري |
-| WARFARIN SODIUM 1MG TAB | WARFARIN SODIUM 1MG TAB | IVAX PHARMACEUTICALS | ساري |
-| COUFATEX 1 mg Tablet | COUFATEX 1 mg Tablet | APOTEX INC. | ساري |
-| COUMADIN | COUMADIN | Bristol-Myers Squibb | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| COUFATEX 2 mg Tablet | WARFARIN SODIUM | APOTEX INC. (GRAY RAY) | ساري |
+| WARFARIN SODIUM 5 MG TAB | WARFARIN SODIUM | IVAX PHARMACEUTICALS | ساري |
+| WARFARIN SODIUM 1MG TAB | WARFARIN SODIUM | IVAX PHARMACEUTICALS | ساري |
+| COUFATEX 1 mg Tablet | WARFARIN SODIUM | APOTEX INC. (GRAY RAY) | ساري |
+| COUMADIN | WARFARIN SODIUM | Bristol-Myers Squibb Holdings Pharma, Ltd. Liability Company | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -134,7 +140,7 @@ description: "Warfarin: الاستطباب الجديد المتوقع Heparin c
 
 <!-- review:begin sa-lic-20261106-warfarin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من وضع التراخيص الملغاة والمسار التنظيمي لإعادة التسجيل. / وضع خطة مراقبة INR ونزف، وتحديد الفئات الخاصة (الحوامل، ونقص البروتين C/S).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من وضع التراخيص الملغاة والمسار التنظيمي لإعادة التسجيل. / وضع خطة مراقبة INR ونزف، وتحديد الفئات الخاصة (الحوامل، ونقص البروتين C/S).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-warfarin-1 -->
 
@@ -151,7 +157,7 @@ description: "Warfarin: الاستطباب الجديد المتوقع Heparin c
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «التحقق من وضع التراخيص الملغاة والمسار التنظيمي لإعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «التحقق من وضع التراخيص الملغاة والمسار التنظيمي لإعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-12 | التنبؤ الرئيسي بانتظار إعادة التقييم | بانتظار إعادة التقييم ← أُعيد تقييمه (انظر نتيجة إعادة التقييم) | [SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5](https://satxgnn.yao.care/methodology/) |
 | 2026-11-12 | نتيجة إعادة تقييم التنبؤ الرئيسي (Heparin cofactor 2 deficiency) | إعادة التقييم: خفض، مستوى الأدلة L1 ← L4؛ مستوى الدليل: «مستوى الدليل / L1 وفق التصنيف الوارد في البيانات (مع تحفظ: التجربة الوحيدة حالتها «غير معروفة» ودور وارفارين فيها غير واضح؛ لذلك فالدليل الفعلي أقرب إلى L3)» ← «مستوى الدليل / L4 (تقرير حالة واحد ومنطق آلية مضادات التخثر؛ لا توجد دراسات رصدية أو تجارب)»؛ القرار الموصى به: «القرار الموصى به / المضي مع ضوابط احترازية (Proceed with Guardrails)» ← «القرار الموصى به / Hold (إيقاف مؤقت)» | [PubMed：[Right ventricular thrombosis due to familial heparin cofactor II deficiency]（PMID 2214444）](https://pubmed.ncbi.nlm.nih.gov/2214444/)؛ [ClinicalTrials.gov：D-dimer 導向的抗凝時長策略（首次不明原因深部靜脈栓塞後）（NCT00895505）](https://clinicaltrials.gov/study/NCT00895505) |
 | 2026-11-12 | مستوى الأدلة في رأس الصفحة | أُعيد حساب مستوى الأدلة في رأس الصفحة وفق جدول النظرة السريعة (L5 ← L4) | [SATxGNN – المنهجية: تصنيف مستوى الأدلة L1–L5](https://satxgnn.yao.care/methodology/) |

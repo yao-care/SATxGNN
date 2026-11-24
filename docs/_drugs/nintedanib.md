@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 589
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: الاستطباب الجديد المتوقع الساركوما الليفية الجلدية الناتئة (dermatofibrosarcoma protuberans) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -72,10 +72,14 @@ description: "Nintedanib: الاستطباب الجديد المتوقع الس�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| OFEV 100 mg Soft Capsule | OFEV 100 mg Soft Capsule | كبسولة لينة | غير متوفر (الترخيص ساري) |
-| OFEV 150 mg Soft Capsule | OFEV 150 mg Soft Capsule | كبسولة لينة | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| OFEV 100 mg Soft Capsule | NINTEDANIB | CATALENT GERMANY EBERBACH GmbH | ساري |
+| OFEV 150 mg Soft Capsule | NINTEDANIB | CATALENT GERMANY EBERBACH GmbH | ساري |
+
+<!-- licenses:end -->
 
 الجهة المصنِّعة لكلا المنتجين: CATALENT GERMANY EBERBACH GmbH. وكلا الترخيصين ساريان.
 

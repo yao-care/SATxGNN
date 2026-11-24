@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Famciclovir: الاستطباب الجديد المتوقع الألم العصبي بعد العدوى (post-infectious neuralgia) (مستوى الدليل L5). الاستطباب الأصلي: الهربس النطاقي (Herpes zoster)"
 monitor_inn: "FAMCICLOVIR"
 predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
@@ -82,11 +82,15 @@ predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hep
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Zostivr | Zostivr (الشركة المصنعة: Hetero Labs Limited Unit – V) | غير متوفر | غير متوفر (ساري) |
-| FAMVIR 125MGTAB | FAMVIR 125MGTAB (الشركة المصنعة: Cosmo S.P.A) | غير متوفر | غير متوفر (ساري) |
-| FAMVIR 250MG TAB | FAMVIR 250MG TAB (الشركة المصنعة: Cosmo S.P.A) | غير متوفر | غير متوفر (ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Zostivr | FAMCICLOVIR | Hetero Labs Limited Unit – V | ساري |
+| FAMVIR 125MGTAB | FAMCICLOVIR | Cosmo S.P.A | ساري |
+| FAMVIR 250MG TAB | FAMCICLOVIR | Cosmo S.P.A | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -108,7 +112,7 @@ predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hep
 
 <!-- review:begin sa-lic-20261106-famciclovir-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ قائم على النموذج الحسابي، ولا توجد تجربة سريرية أو منشورات تختبر فامسيكلوفير في الألم العصبي بعد العدوى. / جميع تراخيص الدواء في السعودية ملغاة، ولا يوجد منتج مسوّق حاليًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التنبؤ قائم على النموذج الحسابي، ولا توجد تجربة سريرية أو منشورات تختبر فامسيكلوفير في الألم العصبي بعد العدوى. / جميع تراخيص الدواء في السعودية ملغاة، ولا يوجد منتج مسوّق حاليًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-famciclovir-1 -->
 
@@ -129,7 +133,7 @@ predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hep
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، ولا يوجد منتج مسوّق حاليًا» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة، ولا يوجد منتج مسوّق حاليًا» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761) |
 
 <!-- review:end log -->

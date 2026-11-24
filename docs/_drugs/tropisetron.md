@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 846
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Tropisetron: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine Disorder) (مستوى الدليل L4). الاستطباب الأصلي: الغثيان والقيء الناجمان عن العلاج الكيميائي (بحسب بيانات الاستخدام ال…"
 monitor_inn: "TROPISETRON"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -86,10 +86,14 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "at
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| NAVOBAN 5MG-5ML AMP | NAVOBAN 5MG-5ML AMP (Novartis) | غير محدد | غير متوفر (الترخيص ساري) |
-| NAVOBAN 5MG CAPS | NAVOBAN 5MG CAPS (Novartis) | غير محدد | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NAVOBAN 5MG-5ML AMP | TROPISETRON | NOVARTIS | ساري |
+| NAVOBAN 5MG CAPS | TROPISETRON | NOVARTIS | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -117,7 +121,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "at
 
 <!-- review:begin sa-lic-20261106-tropisetron-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من إمكانية توفر المنتج وأشكاله الدوائية المناسبة، نظرًا لإلغاء جميع التراخيص الحالية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «التحقق من إمكانية توفر المنتج وأشكاله الدوائية المناسبة، نظرًا لإلغاء جميع التراخيص الحالية.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-tropisetron-1 -->
 
@@ -131,7 +135,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "at
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «نظرًا لإلغاء جميع التراخيص الحالية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «نظرًا لإلغاء جميع التراخيص الحالية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

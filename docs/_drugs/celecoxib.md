@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CELECOXIB"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Celecoxib: الاستطباب الجديد المتوقع خلل التنسج الطرفي الأوسط من نوع هنتر-طومسون (acromesomelic dysplasia, Hunter-Thompson type) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 18 على الأقل"
 ---
 
@@ -70,13 +70,20 @@ description: "Celecoxib: الاستطباب الجديد المتوقع خلل �
 
 تُظهر سجلات التراخيص المحلية أن حالة السوق «مسوّق»، وأن القائمة المتاحة قد تكون جزئية. وتتضمن المنتجات المسجلة على سبيل المثال:
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| CELEBREX 200MG CAPSULE | CELEBREX 200MG CAPSULE | كبسولة | غير مسجل في البيانات المحلية |
-| CELEBREX 400 mg capsule | CELEBREX 400 mg capsule | كبسولة | غير مسجل في البيانات المحلية |
-| CELEBREX 100MG CAPSULE | CELEBREX 100MG CAPSULE | كبسولة | غير مسجل في البيانات المحلية |
-| REVCOX 200MG CAPSULE | REVCOX 200MG CAPSULE | كبسولة | غير مسجل في البيانات المحلية |
-| CELECT 200 MG CAPSULE | CELECT 200 MG CAPSULE | كبسولة | غير مسجل في البيانات المحلية |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| CELEBREX 200MG CAPSULE | CELECOXIB | G.D.SEARLE | ساري |
+| CELEBREX 400 mg capsule | CELECOXIB | Pfizer Pharmaceutical LLC | ساري |
+| CELEBREX 100MG CAPSULE | CELECOXIB | Pfizer Pharmaceutical LLC | ساري |
+| REVCOX 200MG CAPSULE | CELECOXIB | Lek Pharmaceuticals, d.d. | ساري |
+| CELECT 200 MG CAPSULE | CELECOXIB | Jazeera Pharmaceutical Industries (JPI) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 18 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

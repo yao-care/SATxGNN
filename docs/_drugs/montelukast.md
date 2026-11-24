@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 568
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 20 على الأقل"
@@ -102,13 +102,20 @@ description: "Montelukast: الاستطباب الجديد المتوقع الت
 
 هذه خمسة من التراخيص السارية، وقد تكون قائمة السجلات جزئية. نص الاستطباب المعتمد وشكل الجرعة غير مسجلين في البيانات المحلية.
 
-| رقم الترخيص / اسم المنتج | اسم المنتج | شكل الجرعة | الجهة المصنعة والحالة |
-|---------|------|------|-----------|
-| SINGULAIR PAEDIATRIC 4 MG CHEWABLE TAB | SINGULAIR PAEDIATRIC 4 MG | أقراص للمضغ | MERCK SHARP & DOHME، ساري |
-| ALLAIR 10 mg Film Coated Tablet | ALLAIR 10 mg | أقراص مغلفة | SAJA، ساري |
-| LEUKAST 10MG FILM COATED TABLETS | LEUKAST 10 mg | أقراص مغلفة | Jazeera Pharmaceutical Industries، ساري |
-| BREMAX 10 mg film-coated tablet | BREMAX 10 mg | أقراص مغلفة | Tabuk Pharmaceutical، ساري |
-| YOCAIR 10MG F.C.TABLET | YOCAIR 10 mg | أقراص مغلفة | Jamjoom Pharmaceuticals، ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| SINGULAIR PAEDIATRIC 4 MG CHEWABLE TAB | MONTELUKAST SODIUM | MERCK SHARP & DOHME | ساري |
+| ALLAIR 10 mg Film Coated Tablet | MONTELUKAST SODIUM | SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO | ساري |
+| LEUKAST 10MG FILM COATED TABLETS | MONTELUKAST SODIUM | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| BREMAX 10 mg film-coated tablet | MONTELUKAST SODIUM | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| YOCAIR 10MG F.C.TABLET | MONTELUKAST SODIUM | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 20 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

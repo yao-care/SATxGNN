@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "LORNOXICAM"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "myositis fibrosa"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 description: "Lornoxicam: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (migraine disorder) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 12 (السارية: 12)"
 ---
 
@@ -75,13 +75,19 @@ description: "Lornoxicam: الاستطباب الجديد المتوقع اضط�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LEROXO 8 MG FILM COATED TABLET | LEROXO 8 MG FILM COATED TABLET | أقراص مغلفة | غير متوفر |
-| EXXARA 8 mg film-coated tablets | EXXARA 8 mg film-coated tablets | أقراص مغلفة | غير متوفر |
-| Kalmo | Kalmo | غير محدد | غير متوفر |
-| OXIRA RAPID | OXIRA RAPID | غير محدد | غير متوفر |
-| OXIRA 4MG F.C.TABLET | OXIRA 4MG F.C.TABLET | أقراص مغلفة | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LEROXO 8 MG FILM COATED TABLET | LORNOXICAM | UNITED PHARMACEUTICAL COMPANY | ساري |
+| EXXARA 8 mg film-coated tablets | LORNOXICAM | Middle East Pharmaceutical Industries Co. Ltd. (MECP) | ساري |
+| Kalmo | LORNOXICAM | Al-Taqaddom pharmaceutical Industries | ساري |
+| OXIRA RAPID | LORNOXICAM | SPIMACO | ساري |
+| OXIRA 4MG F.C.TABLET | LORNOXICAM | SPIMACO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 12 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 تبلغ التراخيص الصالحة 12 ترخيصاً لمنتجات أحادية المكوّن، وهذه أول خمسة منها.
 

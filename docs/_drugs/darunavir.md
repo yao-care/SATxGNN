@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 230
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Darunavir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى HIV / الإيدز (من الرسم المعرفي PrimeKG، إذ لا يوجد نص استطباب في…"
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -92,12 +92,16 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الأربعة سارية (4 من 4).
 
-| اسم الترخيص / المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|
-| PREZISTA 600 mg film-coated tablet | JANSSEN-CILAG SPA | ساري |
-| Darista | APL Health Care Limited | ساري |
-| PREZISTA 400 mg film-coated tablet | JANSSEN-CILAG SPA | ساري |
-| PREZISTA 300MG F.C. TABLETS | JANSSEN - ORTHO | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PREZISTA 600 mg film-coated tablet | DARUNAVIR | JANSSEN-CILAG SPA | ساري |
+| Darista | DARUNAVIR | APL Health Care Limited | ساري |
+| PREZISTA 400 mg film-coated tablet | DARUNAVIR | JANSSEN-CILAG SPA | ساري |
+| PREZISTA 300MG F.C. TABLETS | DARUNAVIR | JANSSEN - ORTHO | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -124,7 +128,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 <!-- review:begin sa-lic-20261106-darunavir-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في السعودية ملغاة، وبيانات السلامة من النشرة غير متوفرة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص الدواء في السعودية ملغاة، وبيانات السلامة من النشرة غير متوفرة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-darunavir-1 -->
 
@@ -135,7 +139,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 <!-- review:begin sa-lic-20261106-darunavir-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «البحث عن دراسات تقيّم داروناڤير تحديدًا ضد SIV. / التحقق من وضع الترخيص السعودي وأسباب الإلغاء.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 4، منها سارية: 4؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «البحث عن دراسات تقيّم داروناڤير تحديدًا ضد SIV. / التحقق من وضع الترخيص السعودي وأسباب الإلغاء.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-darunavir-2 -->
 
@@ -151,8 +155,8 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «التحقق من وضع الترخيص السعودي وأسباب الإلغاء» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص الدواء في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «التحقق من وضع الترخيص السعودي وأسباب الإلغاء» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 246
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone: الاستطباب الجديد المتوقع الثعلبة المخاطية (alopecia mucinosa) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 10 (السارية: 10)"
@@ -70,13 +70,19 @@ description: "Dexamethasone: الاستطباب الجديد المتوقع ال
 
 الدواء مسوّق في المملكة، وجميع التراخيص المسجلة سارية. فيما يلي أبرز خمسة تراخيص:
 
-| رقم الترخيص / المنتج | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| OZURDEX 700 mcg Intravitreal Implant | OZURDEX | ALLERGAN | ملغى |
-| ORADEXON 1.5 MG TABS | ORADEXON | ORGANON | ساري |
-| ORADEXON AMPULES 5 MG/ML | ORADEXON | ORGANON | ملغى |
-| MILLICORTEN 1 MG | MILLICORTEN | NOVARTIS | ساري |
-| Adrixa | Adrixa | TABUK | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| OZURDEX 700 mcg Intravitreal Implant In Applicator | DEXAMETHASONE | ALLERGAN PHARMACEUTICALS LTD | ساري |
+| ORADEXON 1.5 MG TABS | DEXAMETHASONE | ORGANON | ساري |
+| ORADEXON AMPULES 5 MG.-ML. | DEXAMETHASONE SODIUM PHOSPHATE | ORGANON | ساري |
+| MILLICORTEN 1 MG | DEXAMETHASONE | NOVARTIS | ساري |
+| Adrixa | DEXAMETHASONE | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 10 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

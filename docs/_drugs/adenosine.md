@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 26
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adenosine: الاستطباب الجديد المتوقع obsolete bundle branch block (مستوى الدليل L5). الاستطباب الأصلي: التسرع البطيني (ventricular tachycardia)"
 monitor_inn: "ADENOSINE"
 predicted_indications: ["obsolete bundle branch block"]
@@ -84,17 +84,23 @@ predicted_indications: ["obsolete bundle branch block"]
 
 <!-- review:begin sa-lic-20261106-adenosine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «يوجد ترخيص سادس ملغى باسم REVARDIA (شركة تبوك لتصنيع الأدوية).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «يوجد ترخيص سادس ملغى باسم REVARDIA (شركة تبوك لتصنيع الأدوية).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-adenosine-1 -->
 
-| رقم/اسم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ADENOCOR 6MG-2ML VIAL | ADENOCOR 6MG-2ML VIAL (GLAXOWELLCOME) | غير متوفر | غير متوفر |
-| Xoria | Xoria (HIKMA ITALIA SPA) | غير متوفر | غير متوفر |
-| Cardesine 6mg/2ml Solution for Injection | Cardesine 6mg/2ml (MS Pharma) | محلول للحقن | غير متوفر |
-| ADENOHARDT 30MG/10ML SOLUTION FOR INFUSION | ADENOHARDT 30MG/10ML (CP PHARMACEUTICAL) | محلول للتسريب | غير متوفر |
-| ADENOHARDT 6MG/2ML SOLUTION FOR INFUSION | ADENOHARDT 6MG/2ML (CP PHARMACEUTICAL) | محلول للتسريب | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ADENOCOR 6MG-2ML VIAL | ADENOSINE | GLAXOWELLCOME | ساري |
+| Xoria | ADENOSINE | HIKMA ITALIA SPA | ساري |
+| Cardesine 6mg/2ml Solution for Injection | ADENOSINE | MS Pharma | ساري |
+| ADENOHARDT 30MG/10ML SOLUTION FOR INFUSION | ADENOSINE | CP PHARMACEUTICAL LIMITED | ساري |
+| ADENOHARDT 6MG/2ML SOLUTION FOR INFUSION | ADENOSINE | CP PHARMACEUTICAL LIMITED | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 6 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -140,7 +146,7 @@ predicted_indications: ["obsolete bundle branch block"]
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «يوجد ترخيص سادس ملغى باسم REVARDIA (شركة تبوك لتصنيع الأدوية)» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «يوجد ترخيص سادس ملغى باسم REVARDIA (شركة تبوك لتصنيع الأدوية)» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-19 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر (عُدّل في 2026-11-20؛ النسخة السابقة محفوظة في السجل) | [DailyMed: adenosine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9508caf5-0e3a-4d32-909d-bff7ea40ec30) |
 
 <!-- review:end log -->

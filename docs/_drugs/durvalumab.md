@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DURVALUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Durvalumab: الاستطباب الجديد المتوقع Uterine ligament adenocarcinoma (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -77,10 +77,14 @@ description: "Durvalumab: الاستطباب الجديد المتوقع Uterine
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| IMFINZI 500 mg / 10 ml | IMFINZI 500 mg / 10 ml | غير متوفر | غير متوفر |
-| IMFINZI 120 mg / 2.4 ml | IMFINZI 120 mg / 2.4 ml | غير متوفر | غير متوفر |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| IMFINZI 500 mg / 10 ml | DURVALUMAB | AstraZeneca Pharmaceuticals LP | ساري |
+| IMFINZI 120 mg / 2.4 ml | DURVALUMAB | AstraZeneca Pharmaceuticals LP | ساري |
+
+<!-- licenses:end -->
 
 الشركة المصنّعة: AstraZeneca Pharmaceuticals LP. عدد التراخيص: 2 (كلاهما لمستحضر أحادي المادة وساري).
 

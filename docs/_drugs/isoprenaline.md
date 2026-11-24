@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isoprenaline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: نزلة البرد، التهاب البلعوم الأنفي، السكتة القلبية، حصار الأذين البطين…"
 monitor_inn: "ISOPRENALINE"
 predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngitis", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "bronchial disease", "endobronchial leiomyoma", "allergic urticaria", "endobronchial lipoma", "bronchus adenoma"]
@@ -80,10 +80,14 @@ predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngiti
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|------|
-| ISOPROTERENOL HCL EMERG.1:5000 SYRING | ISOPROTERENOL HCL EMERG.1:5000 SYRING | HOSPIRA | ساري |
-| ISOPROTERENOL1:5000 ADDIT EMER.SYRING | ISOPROTERENOL1:5000 ADDIT EMER.SYRING | HOSPIRA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ISOPROTERENOL HCL EMERG.1:5000 SYRING | ISOPRENALINE | HOSPIRA | ساري |
+| ISOPROTERENOL1:5000 ADDIT EMER.SYRING | ISOPRENALINE | HOSPIRA | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -110,7 +114,7 @@ predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngiti
 
 <!-- review:begin sa-lic-20261106-isoprenaline-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «المنتجات الوحيدة المرخصة في المملكة ملغاة، ومظاهر الأمان القلبية الوعائية للدواء (موانع كثيرة وتداخلات متعددة) تقلل جدوى المضي قدمًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «المنتجات الوحيدة المرخصة في المملكة ملغاة، ومظاهر الأمان القلبية الوعائية للدواء (موانع كثيرة وتداخلات متعددة) تقلل جدوى المضي قدمًا.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-isoprenaline-1 -->
 
@@ -128,7 +132,7 @@ predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngiti
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «المنتجات الوحيدة المرخصة في المملكة ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «المنتجات الوحيدة المرخصة في المملكة ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: isoproterenol hydrochloride prescribing information, KVK-Tech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=051acbc2-7bf8-4059-e063-6394a90a115b) |
 
 <!-- review:end log -->

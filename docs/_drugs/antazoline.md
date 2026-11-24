@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "antazoline"
 predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Antazoline: الاستطباب الجديد المتوقع التهاب الجلد التأتبي المستعصي (recalcitrant atopic dermatitis) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 5 (السارية: 5)"
 ---
 
@@ -82,13 +82,17 @@ description: "Antazoline: الاستطباب الجديد المتوقع الت�
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| APIHIST EYE\NOSE DROP | APIHIST EYE\NOSE DROP | غير مسجل | غير مسجل |
-| SPERSALLERG  EYE DROPS | SPERSALLERG  EYE DROPS | غير مسجل | غير مسجل |
-| NAZOLIN NASAL DROPS | NAZOLIN NASAL DROPS | غير مسجل | غير مسجل |
-| NOSCAM | NOSCAM | غير مسجل | غير مسجل |
-| OCURED | OCURED | غير مسجل | غير مسجل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| APIHIST EYE\NOSE DROP | ANTAZOLINE PHOSPHATE,NAPHAZOLINE HYDROCHLORIDE | Amman Pharmaceutical Industries (API) | ساري |
+| SPERSALLERG EYE DROPS | ANTAZOLINE SULFATE, TETRAHYDROZOLINE | Excel Vision | ساري |
+| NAZOLIN NASAL DROPS | ANTAZOLINE SULFATE, NAPHAZOLINE NITRATE | DAR ALDAWA | ساري |
+| NOSCAM | ANTAZOLINE SULFATE, NAPHAZOLINE NITRATE | RIYADH PHARMA | ساري |
+| OCURED | ANTAZOLINE SULFATE,NAPHAZOLINE NITRATE | RIYADH PHARMA | ساري |
+
+<!-- licenses:end -->
 
 ---
 

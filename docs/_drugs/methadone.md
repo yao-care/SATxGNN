@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 544
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methadone: الاستطباب الجديد المتوقع متلازمة توريت (Tourette syndrome) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص"
 monitor_inn: "METHADONE"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -97,9 +97,13 @@ predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropri
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| METHADONE MARTINDALE PHARMA 2 mg/ml oral solution | METHADONE MARTINDALE PHARMA 2 mg/ml oral solution | محلول فموي | غير متوفر (الحالة: ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| METHADONE MARTINDALE PHARMA 2 mg/ml oral solution | METHADONE | MACARTHYS LABORATORIES Ltd T/A MARTINDALE PHARMACEUTICALS | ساري |
+
+<!-- licenses:end -->
 
 ---
 

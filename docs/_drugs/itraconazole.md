@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 465
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Itraconazole: الاستطباب الجديد المتوقع داء المتكيسات الرئوية (Pneumocystosis) (مستوى الدليل L4). الاستطباب الأصلي: التهابات فطرية، منها داء المبيضات المريئي وداء المبيضات الدموي وداء ا…"
 monitor_inn: "ITRACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -99,11 +99,15 @@ predicted_indications: ["pneumocystosis"]
 
 التراخيص الثلاثة جميعها سارية (3 من 3 تراخيص صالحة)، والدواء مسوّق في هذا البلد. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات المجمّعة.
 
-| رقم الترخيص / المنتج | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| ITRAZOL 100 mg capsule | ITRAZOL 100 mg capsule | SAJA (الشركة السعودية اليابانية للأدوية) | ساري |
-| SPORANOX CAPS 100MG | SPORANOX CAPS 100MG | JANSSEN-CILAG | ساري |
-| TRACON 100MG CAPSULES | TRACON 100MG CAPSULES | SPIMACO | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ITRAZOL 100 mg capsule | ITRACONAZOLE | SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO | ساري |
+| SPORANOX CAPS 100MG | ITRACONAZOLE | JANSSEN-CILAG | ساري |
+| TRACON 100MG CAPSULES | ITRACONAZOLE | SPIMACO | ساري |
+
+<!-- licenses:end -->
 
 ---
 

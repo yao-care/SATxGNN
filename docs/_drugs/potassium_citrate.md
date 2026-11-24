@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 675
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "potassium citrate"
 predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "cystinosis", "hypermanganesemia with dystonia", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]
 description: "Potassium Citrate: الاستطباب الجديد المتوقع اعتلال العضلات الحشوي العائلي (familial visceral myopathy) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 1 (السارية: 1)"
@@ -68,9 +68,13 @@ description: "Potassium Citrate: الاستطباب الجديد المتوقع 
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| BABYLYTE ORAL SOLUTION | BABYLYTE ORAL SOLUTION (الشركة المصنعة: Pharmaceutical Solution Industries) | محلول فموي (الشكل غير مسجل في البيانات) | غير متوفر؛ حالة الترخيص: ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| BABYLYTE ORAL SOLUTION | DEXTROSE,SODIUM CHLORIDE,SODIUM CITRATE,potassium citrate | Pharmaceutical Solution Industries (PSI) | ساري |
+
+<!-- licenses:end -->
 
 الجهة المصنِّعة: Pharmaceutical Solution Industries (PSI). الترخيص ساري.
 

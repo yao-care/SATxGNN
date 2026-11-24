@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 139
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Canakinumab: الاستطباب الجديد المتوقع احتشاء الكبد (Hepatic infarction) (مستوى الدليل L5). الاستطباب الأصلي: المتلازمات الدورية المرتبطة بالكريوبيرين، حمى البحر المتوسط العائلية،…"
 monitor_inn: "CANAKINUMAB"
 predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
@@ -81,10 +81,14 @@ predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", 
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|------|
-| ILARIS 150MG | ILARIS 150MG | NOVARTIS | ساري |
-| ILARIS | ILARIS | NOVARTIS Pharma Stein AG | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ILARIS 150MG | CANAKINUMAB | NOVARTIS | ساري |
+| ILARIS | CANAKINUMAB | NOVARTIS Pharma Stein AG | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -112,7 +116,7 @@ predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", 
 
 <!-- review:begin sa-lic-20261106-canakinumab-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «المنتج غير مرخص حالياً في المملكة (تراخيصه ملغاة)، ولا تتوفر بيانات آلية العمل ولا بيانات التحذيرات وموانع الاستعمال.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «المنتج غير مرخص حالياً في المملكة (تراخيصه ملغاة)، ولا تتوفر بيانات آلية العمل ولا بيانات التحذيرات وموانع الاستعمال.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-canakinumab-1 -->
 
@@ -132,7 +136,7 @@ predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", 
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «المنتج غير مرخص حالياً في المملكة (تراخيصه ملغاة)، و» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «المنتج غير مرخص حالياً في المملكة (تراخيصه ملغاة)، و» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e) |
 
 <!-- review:end log -->

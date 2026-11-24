@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 543
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: الاستطباب الجديد المتوقع متلازمة الرجل المتيبس الكلاسيكية (classic stiff person syndrome) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 17 على الأقل"
@@ -88,13 +88,20 @@ description: "Metformin: الاستطباب الجديد المتوقع متلا
 
 يوجد 17 ترخيصًا ساريًا لهذا الدواء في السوق. فيما يلي أبرز 5 تراخيص (نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات):
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
-|---------|------|------|-----------|
-| RIYADHFORMIN | RIYADHFORMIN | RIYADH PHARMA | ساري |
-| GLUCARE 500MG TAB | GLUCARE 500MG TAB | Jazeera Pharmaceutical Industries (JPI) | ساري |
-| Formit XR | Formit XR | SPIMACO ADDWAEIH | ساري |
-| METFORMIN HEXAL 500 MG FILM COATED TABLETS | METFORMIN HEXAL 500 MG FILM COATED TABLETS | HEXAL | ساري |
-| GLUCOPHAGE XR 750MG TABLET | GLUCOPHAGE XR 750MG TABLET | MERCK HEALTHCARE KGAA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| RIYADHFORMIN | METFORMIN HYDROCHLORIDE | RIYADH PHARMA | ساري |
+| GLUCARE 500MG TAB | METFORMIN HYDROCHLORIDE | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| Formit XR | METFORMIN HYDROCHLORIDE | SPIMACO ADDWAEIH | ساري |
+| METFORMIN HEXAL 500 MG FILM COATED TABLETS | METFORMIN HYDROCHLORIDE | HEXAL | ساري |
+| GLUCOPHAGE XR 750MG TABLET | METFORMIN HYDROCHLORIDE | MERCK HEALTHCARE KGAA | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 17 من المنتجات المسجلة في البيانات.
+تتضمن البيانات جزءاً فقط من التراخيص؛ قد تكون القائمة غير مكتملة.
+
+<!-- licenses:end -->
 
 ---
 

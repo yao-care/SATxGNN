@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 553
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: الاستطباب الجديد المتوقع Gastroduodenitis (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 16 (السارية: 16)"
@@ -95,13 +95,19 @@ description: "Metoclopramide: الاستطباب الجديد المتوقع Gas
 
 أبرز خمسة تراخيص:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| METAGLIZ 10 MG TAB | METAGLIZ 10 MG TAB | ALMIRALL PRODES PHARMA | ساري |
-| PREMOSAN 10 mg tablet | PREMOSAN 10 mg tablet | الخليج للصناعات الدوائية (جلفار) | ساري |
-| PRIMPERAN TAB 10MG | PRIMPERAN TAB 10MG | sanofi-aventis | ساري |
-| CLOPRAM 10 mg/2 ml solution for injection | CLOPRAM (حقن) | HIKMA ITALIA SPA | ساري |
-| METOSIL TAB 10MG | METOSIL TAB 10MG | سبيماكو | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| METAGLIZ 10 MG TAB | METOCLOPRAMIDE HYDROCHLORIDE | ALMIRALL PRODES PHARMA S.A. | ساري |
+| PREMOSAN 10 mg tablet | METOCLOPRAMIDE HYDROCHLORIDE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| PRIMPERAN TAB 10MG | METOCLOPRAMIDE HYDROCHLORIDE | sanofi-aventis | ساري |
+| CLOPRAM 10 mg/2 ml solution for injection | METOCLOPRAMIDE HYDROCHLORIDE | HIKMA ITALIA SPA | ساري |
+| METOSIL TAB 10MG | METOCLOPRAMIDE HYDROCHLORIDE | SPIMACO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 16 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -128,7 +134,7 @@ description: "Metoclopramide: الاستطباب الجديد المتوقع Gas
 
 <!-- review:begin sa-lic-20261106-metoclopramide-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «ورود قرحة الهضم النشطة ضمن موانع الاستعمال، وجميع تراخيص السوق السعودي ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 16، منها سارية: 16؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «ورود قرحة الهضم النشطة ضمن موانع الاستعمال، وجميع تراخيص السوق السعودي ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-metoclopramide-1 -->
 
@@ -147,7 +153,7 @@ description: "Metoclopramide: الاستطباب الجديد المتوقع Gas
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وجميع تراخيص السوق السعودي ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وجميع تراخيص السوق السعودي ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
 
 <!-- review:end log -->

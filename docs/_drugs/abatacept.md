@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abatacept: الاستطباب الجديد المتوقع التهاب الفقار اللاصق (ankylosing spondylitis) (مستوى الدليل L2). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
 ---
 
@@ -79,10 +79,14 @@ description: "Abatacept: الاستطباب الجديد المتوقع الته
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| ORENCIA 125MG Solution for injection in pre-filled syringe | ORENCIA 125MG محلول للحقن في محقنة معبأة مسبقاً | غير مسجّل | غير مسجّل |
-| ORENCIA 250MG POWDER FOR SOLUTION FOR INFUSION | ORENCIA 250MG مسحوق لمحلول التسريب | غير مسجّل | غير مسجّل |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ORENCIA 125MG Solution for injection in pre-filled syringe | ABATACEPT | BRISTOL-MYERS SQUIBB HOLDINGS PHARMA, Ltd. LIABBILITY COMPANY | ساري |
+| ORENCIA 250MG POWDER FOR SOLUTION FOR INFUSION | ABATACEPT | BRISTOL-MYERS SQUIBB | ساري |
+
+<!-- licenses:end -->
 
 ## اعتبارات السلامة
 

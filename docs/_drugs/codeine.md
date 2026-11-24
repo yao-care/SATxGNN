@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Codeine: الاستطباب الجديد المتوقع أمراض تجويف الأنف (nasal cavity disease) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 11 (السارية: 11)"
 ---
 
@@ -71,6 +71,20 @@ description: "Codeine: الاستطباب الجديد المتوقع أمراض
 | [17315836](https://pubmed.ncbi.nlm.nih.gov/17315836/) | 2007 | تقرير حالة | Ear, Nose, & Throat Journal | حصاة أنفية غير معتادة تكوّنت حول جسم أجنبي هو خليط متصلب من الكوديين والأفيون ("opioma") لدى شاب عمره 21 عاماً؛ استُخرجت تحت التخدير الموضعي. لا يدل على فائدة علاجية. |
 
 ## معلومات السوق في السعودية
+
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ACTIFED COMPOUND LINCTUS | CODEINE, PSEUDOEPHEDRINE HYDROCHLORIDE, TRIPROLIDINE HYDROCHLORIDE | ASPEN | ساري |
+| ADOL COMPOUND TABLETS | CAFFEINE, CODEINE PHOSPHATE, PARACETAMOL | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| BAMYCODE SOL.TAB | ACETYLSALICYLIC ACID, CODEINE | AstraZeneca | ساري |
+| CODAPHED SYRUP | CHLORPHENIRAMINE MALEATE, CODEINE, EPHEDRINE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| FEVADOL PLUS TAB | PARACETAMOL,CAFFEINE CITRATE,CODEINE | SPIMACO | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 11 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 سجلات التراخيص المحلية للكوديين مدرجة في بيانات التقرير وتُعرض عبر البرنامج. نص الاستطباب المعتمد غير مسجّل في البيانات المحلية.
 

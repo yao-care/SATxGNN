@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 874
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vinorelbine: الاستطباب الجديد المتوقع ساركوما إيوينغ (مستوى الدليل L2). الاستطباب الأصلي: سرطان الرئة غير صغير الخلايا / سرطان الرئة (وفق الاستطبابات الأصلية ف…"
 monitor_inn: "VINORELBINE"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "lung germ cell tumor", "pulmonary sulcus neoplasm", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
@@ -89,22 +89,14 @@ predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of l
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| NAVELBINE 10MG-ML I-V VIAL (ساري) | NAVELBINE 10MG-ML I-V VIAL | غير محدد | غير متوفر |
-| VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION (ساري) | VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION | غير محدد | غير متوفر |
+<!-- licenses:begin -->
 
-<!-- review:begin sa-row-20261112-vinorelbine-1 -->
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| NAVELBINE 10MG-ML I-V VIAL | VINORELBINE | FAREVA PAU 1 | ساري |
+| VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION | VINORELBINE | S.C.SINDAN PHARMA S.R.L | ساري |
 
-> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «NAVELBINE 10MG-ML I-V VIAL (ملغى)» المستحضر NAVELBINE 10MG-ML I-V VIAL مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
-
-<!-- review:end sa-row-20261112-vinorelbine-1 -->
-
-<!-- review:begin sa-row-20261112-vinorelbine-2 -->
-
-> **تصحيح بعد المراجعة (2026-11-12)**: كان النص الأصلي: «VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION (ملغى)» المستحضر VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION مدرج في قائمة الأدوية المسجلة لدى الهيئة العامة للغذاء والدواء (بيانات 2026-11-05)، وهي قائمة تضم المستحضرات المسجلة فقط؛ لذلك صُححت الحالة من «ملغى» إلى «ساري». المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data).
-
-<!-- review:end sa-row-20261112-vinorelbine-2 -->
+<!-- licenses:end -->
 
 ---
 
@@ -163,8 +155,8 @@ predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of l
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-12 | الجدول: NAVELBINE 10MG-ML I-V VIAL مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
-| 2026-11-12 | الجدول: VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION مسجل (ساري) وليس ملغى | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: NAVELBINE 10MG-ML I-V VIAL مسجل (ساري) وليس ملغى | حلّ محله جدول التراخيص المولَّد برمجيًا (سابقًا: صُحّح) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
+| 2026-11-12 | الجدول: VINORELBINE ACTAVIS 50MG/5ML CONCENTRATION SOLUTION FOR INFUSION مسجل (ساري) وليس ملغى | حلّ محله جدول التراخيص المولَّد برمجيًا (سابقًا: صُحّح) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397) |
 
 <!-- review:end log -->

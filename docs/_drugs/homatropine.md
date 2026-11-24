@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Homatropine: الاستطباب الجديد المتوقع متلازمة ذيل الفرس (Cauda Equina Syndrome) (مستوى الدليل L5). الاستطباب الأصلي: القرحة الهضمية، التهاب العنبية، أمراض القزحية والجسم الهدبي، شلل التس…"
 monitor_inn: "Homatropine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "overactive bladder (disease)"]
@@ -90,11 +90,15 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| ISOPTO HOMATROPINE DROPS 2% | ISOPTO HOMATROPINE DROPS 2% | ALCON LABORATORIES | ساري |
-| ISOPTO HOMATROPINE 0.5% DROPS | ISOPTO HOMATROPINE 0.5% DROPS | ALCON LABORATORIES | ساري |
-| HOMAPIN | HOMAPIN | RIYADH PHARMA | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| ISOPTO HOMATROPINE DROPS 2% | HOMATROPINE HYDROBROMIDE | ALCON LABORATORIES | ساري |
+| ISOPTO HOMATROPINE 0.5% DROPS | HOMATROPINE HYDROBROMIDE | ALCON LABORATORIES | ساري |
+| HOMAPIN | HOMATROPINE HYDROBROMIDE | RIYADH PHARMA | ساري |
+
+<!-- licenses:end -->
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الثلاثة (3 من 3) سارية.
 
@@ -122,7 +126,7 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 <!-- review:begin sa-lic-20261106-homatropine-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تتوفر بدائل مضادة للمسكارين معتمدة وأفضل توثيقًا لأعراض المثانة، وجميع تراخيص هوماتروبين في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 3، منها سارية: 3؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تتوفر بدائل مضادة للمسكارين معتمدة وأفضل توثيقًا لأعراض المثانة، وجميع تراخيص هوماتروبين في السعودية ملغاة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-homatropine-1 -->
 
@@ -141,7 +145,7 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «وجميع تراخيص هوماتروبين في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وجميع تراخيص هوماتروبين في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 
 <!-- review:end log -->
 

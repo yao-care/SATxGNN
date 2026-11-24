@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 235
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Deferasirox: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L4). الاستطباب الأصلي: بيتا ثلاسيميا وأمراض الهيموغلوبين (من قاعدة المعرفة PrimeKG؛ لا يتوفر…"
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
@@ -77,13 +77,19 @@ predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus inf
 
 جميع التراخيص التسعة عشر سارية (19 من 19). أدناه أبرز 5 تراخيص:
 
-| رقم الترخيص | اسم المنتج | الشركة المصنّعة |
-|---------|------|-----------|
-| EXJADE 125MG DISPERSIBLE TABLETS | EXJADE 125MG (أقراص قابلة للتشتت) | NOVARTIS |
-| EXJADE 250MG DISPERSIBLE TABLETS | EXJADE 250MG (أقراص قابلة للتشتت) | NOVARTIS |
-| JADENU 90 mg Film-coated Tablet | JADENU 90 mg (أقراص مغلفة) | NOVARTIS Pharma Stein AG |
-| CHELATON 250MG DISPERSIBLE TABLET FOR ORAL SUSPENSION | CHELATON 250MG (أقراص قابلة للتشتت) | TABUK PHARMACEUTICAL MANUFACTURING CO. |
-| DEFIROX 250 mg dispersible tablet | DEFIROX 250 mg (أقراص قابلة للتشتت) | Jazeera Pharmaceutical Industries (JPI) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| EXJADE 125MG DISPERSIBLE TABLETS | DEFERASIROX | NOVARTIS | ساري |
+| EXJADE 250MG DISPERSIBLE TABLETS | DEFERASIROX | NOVARTIS | ساري |
+| JADENU 90 mg Film-coated Tablet | DEFERASIROX | NOVARTIS Pharma Stein AG | ساري |
+| CHELATON 250MG DISPERSIBLE TABLET FOR ORAL SUSPENSION | DEFERASIROX | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| DEFIROX 250 mg dispersible tablet | DEFERASIROX | Jazeera Pharmaceutical Industries (JPI) | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 19 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ملاحظة: نصوص الاستطباب المعتمدة غير متوفرة في بيانات التراخيص.
 
@@ -116,7 +122,7 @@ predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus inf
 
 <!-- review:begin sa-lic-20261106-deferasirox-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «دراسات مخبرية تحدد اتجاه تأثير تخليب الحديد على تكاثر HIV. / توضيح وضع التراخيص الملغاة وإمكانية توفر المنتج في السوق.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 19، منها سارية: 19؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «دراسات مخبرية تحدد اتجاه تأثير تخليب الحديد على تكاثر HIV. / توضيح وضع التراخيص الملغاة وإمكانية توفر المنتج في السوق.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-deferasirox-1 -->
 
@@ -130,7 +136,7 @@ predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus inf
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة وإمكانية توفر المنتج في السوق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة وإمكانية توفر المنتج في السوق» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85) |
 
 <!-- review:end log -->

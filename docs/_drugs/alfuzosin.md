@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 35
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alfuzosin: الاستطباب الجديد المتوقع فرط الشعر الخلقي العام من نوع أمبراس (مستوى الدليل L5). الاستطباب الأصلي: تضخم البروستاتا الحميد"
 monitor_inn: "ALFUZOSIN"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -100,14 +100,18 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 جميع التراخيص الستة سارية حالياً (6 من 6):
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| XATRAL 5MG S.R.TAB | XATRAL 5MG S.R.TAB | sanofi-aventis | ساري |
-| XATRAL XL 10 MG | XATRAL XL 10 MG | sanofi-aventis | ساري |
-| Hi-Alfa SR | Hi-Alfa SR | Aurobindo Pharma Limited Unit III | ساري |
-| URITAB XL 10MG EXTENDED RELEASE TABLETS | URITAB XL 10MG | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
-| ALFOSIN XR 10 mg prolonged-release tablet | ALFOSIN XR 10 mg | APOTEX | ساري |
-| XATRAL 2.5MG TAB | XATRAL 2.5MG TAB | sanofi-aventis | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| XATRAL 5MG S.R.TAB | ALFUZOSIN | sanofi-aventis | ساري |
+| XATRAL XL 10 MG | ALFUZOSIN | sanofi-aventis | ساري |
+| Hi-Alfa SR | ALFUZOSIN | Aurobindo Pharma Limited Unit III | ساري |
+| URITAB XL 10MG EXTENDED RELEASE TABLETS | ALFUZOSIN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| ALFOSIN XR 10 mg prolonged-release tablet | ALFUZOSIN | APOTEX | ساري |
+| XATRAL 2.5MG TAB | ALFUZOSIN | sanofi-aventis | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -142,7 +146,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 <!-- review:begin sa-lic-20261106-alfuzosin-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص المنتج في السعودية ملغاة، وتوجد إشارات سلامة مهمة (هبوط الضغط، إطالة QT، تداخلات شديدة).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «جميع تراخيص المنتج في السعودية ملغاة، وتوجد إشارات سلامة مهمة (هبوط الضغط، إطالة QT، تداخلات شديدة).» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-alfuzosin-1 -->
 
@@ -154,7 +158,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 <!-- review:begin sa-lic-20261106-alfuzosin-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إعادة تقييم الاستطبابات المتنبأ بها ذات الصلة الآلية الأوضح، إن وُجدت، وتوضيح وضع التراخيص الملغاة قبل أي تخطيط للتسويق» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 6، منها سارية: 6؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «إعادة تقييم الاستطبابات المتنبأ بها ذات الصلة الآلية الأوضح، إن وُجدت، وتوضيح وضع التراخيص الملغاة قبل أي تخطيط للتسويق» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-alfuzosin-2 -->
 
@@ -166,8 +170,8 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «وتوضيح وضع التراخيص الملغاة قبل أي تخطيط للتسويق» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «جميع تراخيص المنتج في السعودية ملغاة» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «وتوضيح وضع التراخيص الملغاة قبل أي تخطيط للتسويق» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3) |
 
 <!-- review:end log -->

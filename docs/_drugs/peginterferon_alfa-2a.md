@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 638
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
 description: "Peginterferon Alfa-2A: الاستطباب الجديد المتوقع Hepatitis E virus infection (مستوى الدليل L1). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -104,10 +104,14 @@ description: "Peginterferon Alfa-2A: الاستطباب الجديد المتو�
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| PEGASYS 180 MCG-0.5ML PRE-FILLED SYRINGE | PEGASYS 180 MCG-0.5ML PRE-FILLED SYRINGE (روش) | غير متوفر | غير متوفر (الترخيص ساري) |
-| PEGASYS 135 MCG-0.5ML PRE-FILLED SYRINGE | PEGASYS 135 MCG-0.5ML PRE-FILLED SYRINGE (روش) | غير متوفر | غير متوفر (الترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| PEGASYS 180 MCG-0.5ML PRE-FILLED SYRINGE | PEGINTERFERON ALFA-2A | ROCHE | ساري |
+| PEGASYS 135 MCG-0.5ML PRE-FILLED SYRINGE | PEGINTERFERON ALFA-2A | ROCHE | ساري |
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,7 +131,7 @@ description: "Peginterferon Alfa-2A: الاستطباب الجديد المتو�
 
 <!-- review:begin sa-lic-20261106-peginterferon_alfa-2a-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تدعم الأدلة فعالية الدواء في التهاب الكبد B المزمن عبر عدة تجارب عشوائية وتحاليل تلوية، وهو استطباب مدرج أصلًا ضمن استخداماته. غير أن ترخيصَي السعودية ملغيان، فلا يتوفر حاليًا منتج مرخّص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 2، منها سارية: 2؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «تدعم الأدلة فعالية الدواء في التهاب الكبد B المزمن عبر عدة تجارب عشوائية وتحاليل تلوية، وهو استطباب مدرج أصلًا ضمن استخداماته. غير أن ترخيصَي السعودية ملغيان، فلا يتوفر حاليًا منتج مرخّص.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-peginterferon_alfa-2a-1 -->
 
@@ -151,7 +155,7 @@ description: "Peginterferon Alfa-2A: الاستطباب الجديد المتو�
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «غير أن ترخيصَي السعودية ملغيان، فلا يتوفر حاليًا منتج مرخّص» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «غير أن ترخيصَي السعودية ملغيان، فلا يتوفر حاليًا منتج مرخّص» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916) |
 
 <!-- review:end log -->

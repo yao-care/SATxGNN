@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "PITAVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pitavastatin: الاستطباب الجديد المتوقع Cholesterol-ester transfer protein deficiency (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 4 (السارية: 4)"
 ---
 
@@ -93,12 +93,16 @@ description: "Pitavastatin: الاستطباب الجديد المتوقع Chole
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| LIVAZO 4 mg film-coated tablets | LIVAZO 4 mg | أقراص مغلفة | غير متوفر في بيانات الترخيص |
-| LIVAZO 2 mg film-coated tablets | LIVAZO 2 mg | أقراص مغلفة | غير متوفر في بيانات الترخيص |
-| VALIP 4 mg film-coated tablets | VALIP 4 mg | أقراص مغلفة | غير متوفر في بيانات الترخيص |
-| VALIP 2 mg film-coated tablets | VALIP 2 mg | أقراص مغلفة | غير متوفر في بيانات الترخيص |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| LIVAZO 4 mg film-coated tablets | PITAVASTATIN | Algorithm SAL | ساري |
+| LIVAZO 2 mg film-coated tablets | PITAVASTATIN | Algorithm SAL | ساري |
+| VALIP 4 mg film-coated tablets | PITAVASTATIN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| VALIP 2 mg film-coated tablets | PITAVASTATIN | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+
+<!-- licenses:end -->
 
 الشركات المصنّعة: Algorithm SAL (ليفازو)، وشركة تبوك للصناعات الدوائية (فاليب).
 

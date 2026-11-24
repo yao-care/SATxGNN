@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Granisetron: الاستطباب الجديد المتوقع اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المحلية (الدواء مصنف عمومًا كمضاد …"
 monitor_inn: "GRANISETRON"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
@@ -81,13 +81,19 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 الدواء مسوّق في هذا البلد، وجميع التراخيص الثمانية سارية (8 من 8). نصوص دواعي الاستعمال وأشكال الجرعات غير متوفرة في البيانات.
 
-| رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
-|---------|------|------|-----------|
-| KYTRIL 1MG TAB | KYTRIL 1MG TAB | Delpharm Milano S.r.l | ساري |
-| GRANITRON 3MG-3ML SOLUTION FOR Injection | GRANITRON 3MG-3ML | Hikma Pharmaceuticals PLC | ساري |
-| EMLOP 1MG/ML AMPOULE | EMLOP 1MG/ML AMPOULE | Amoun Pharmaceutical Company | ساري |
-| KYTRIL 200MCG-ML SYRUP | KYTRIL 200MCG-ML SYRUP | ROCHE | ساري |
-| SANCUSO 34.3 mg transdermal patch | SANCUSO 34.3 mg (لصقة جلدية) | 3M Drug Delivery Systems | ساري |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| KYTRIL 1MG TAB | GRANISETRON | Delpharm Milano S.r.l | ساري |
+| GRANITRON 3MG-3ML SOLUTION FOR Injection | GRANISETRON | Hikma Pharmaceuticals PLC | ساري |
+| EMLOP 1MG/ML AMPOULE | GRANISETRON | Amoun Pharmaceutical Company | ساري |
+| KYTRIL 200MCG-ML SYRUP | GRANISETRON | ROCHE | ساري |
+| SANCUSO 34.3 mg transdermal patch | GRANISETRON | 3M Drug Delivery Systems | ساري |
+
+يعرض الجدول أعلاه 5 من أصل 8 من المنتجات المسجلة في البيانات.
+
+<!-- licenses:end -->
 
 ---
 
@@ -118,7 +124,7 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 <!-- review:begin sa-lic-20261106-granisetron-1 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حاليًا ترخيص ساري في السعودية، كما أن بيانات التحذيرات وموانع الاستعمال من النشرة الدوائية غير متوفرة، وهذا يعيق الانتقال إلى مرحلة فحص السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «لا يوجد حاليًا ترخيص ساري في السعودية، كما أن بيانات التحذيرات وموانع الاستعمال من النشرة الدوائية غير متوفرة، وهذا يعيق الانتقال إلى مرحلة فحص السلامة.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-granisetron-1 -->
 
@@ -131,7 +137,7 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 <!-- review:begin sa-lic-20261106-granisetron-2 -->
 
-> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل. / ملاحظة: تحمل المؤشرات التالية في الترتيب (متلازمة توريت، نتف الشعر الهوسي وغيرها) درجات مماثلة وأدلة معدومة أيضًا، ويمكن النظر في نتف الشعر الهوسي (trichotillomania) كأولوية تالية لوجود مسوّغ نظري متواضع.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). عدد التراخيص في البيانات: 8، منها سارية: 8؛ الأرقام الحالية في جدول النظرة السريعة وقسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
+> **تصحيح بعد المراجعة (2026-11-06)**: كان النص الأصلي: «توضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل. / ملاحظة: تحمل المؤشرات التالية في الترتيب (متلازمة توريت، نتف الشعر الهوسي وغيرها) درجات مماثلة وأدلة معدومة أيضًا، ويمكن النظر في نتف الشعر الهوسي (trichotillomania) كأولوية تالية لوجود مسوّغ نظري متواضع.» حُذف: القول بأن تراخيص الدواء ملغاة أو أنه لا يوجد ترخيص سارٍ لا يطابق بيانات تسجيل الهيئة العامة للغذاء والدواء (2026-11-06). الأعداد الحالية للتراخيص وحالاتها في جدول النظرة السريعة وجدول التراخيص في قسم معلومات السوق. المصدر: [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/).
 
 <!-- review:end sa-lic-20261106-granisetron-2 -->
 
@@ -143,8 +149,8 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 | تاريخ المراجعة | البند | الإجراء | المصدر |
 |------|------|------|------|
-| 2026-11-06 | حُذف: «لا يوجد حاليًا ترخيص ساري في السعودية» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
-| 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل» | صُحّح | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «لا يوجد حاليًا ترخيص ساري في السعودية» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
+| 2026-11-06 | حُذف: «توضيح وضع التراخيص الملغاة وإمكانية إعادة التسجيل» | صُحّح (عُدّل في 2026-11-24؛ النسخة السابقة محفوظة في السجل) | [SFDA – البيانات المفتوحة (قائمة الأدوية المسجلة)](https://www.sfda.gov.sa/en/open-data)؛ [الهيئة العامة للغذاء والدواء (SFDA)](https://www.sfda.gov.sa/) |
 | 2026-11-20 | استُبدلت عبارة «لا تتوفر بيانات عن آلية العمل» بمقتطف من معلومات الوصف الأمريكية | استُبدلت عبارة عدم توفر بيانات آلية العمل بمقتطف موثق المصدر | [DailyMed: Sustol (granisetron) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7c7ffdd-8270-4030-bc1e-a1cb28a6de56) |
 
 <!-- review:end log -->

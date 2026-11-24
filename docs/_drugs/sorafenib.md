@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 767
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
 description: "Sorafenib: الاستطباب الجديد المتوقع الساركوما الشحمية (liposarcoma) (مستوى الدليل L5). المنتجات المسجلة لدى SFDA: 2 (السارية: 2)"
@@ -80,10 +80,14 @@ description: "Sorafenib: الاستطباب الجديد المتوقع السا
 
 ## معلومات السوق في المملكة العربية السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| Sorafenib BOS | Sorafenib BOS (شركة Natco Pharma) | غير مذكور | غير مذكور (ترخيص ساري) |
-| NEXAVAR 200 MG F-C TABLETS | NEXAVAR 200 MG F-C TABLETS (شركة Bayer AG) | غير مذكور | غير مذكور (ترخيص ساري) |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| Sorafenib BOS | SORAFENIB | Natco Pharma Limited | ساري |
+| NEXAVAR 200 MG F-C TABLETS | SORAFENIB | BAYER AG | ساري |
+
+<!-- licenses:end -->
 
 ## السمية الخلوية
 

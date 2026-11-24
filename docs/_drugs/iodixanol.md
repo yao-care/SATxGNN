@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "IODIXANOL"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Iodixanol: الاستطباب الجديد المتوقع الفصال العظمي (osteoarthritis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر؛ نصوص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء غير…"
 ---
 
@@ -88,12 +88,16 @@ description: "Iodixanol: الاستطباب الجديد المتوقع الفص
 
 ## معلومات السوق في السعودية
 
-| رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
-|---------|------|------|-----------|
-| TRIOSOF 320MG/ML INJECTION | TRIOSOF 320MG/ML INJECTION (Tabuk) | غير مذكور | غير مذكور في البيانات |
-| VISIPAQUE | VISIPAQUE (GE Healthcare) | غير مذكور | غير مذكور في البيانات |
-| VISIPAQUE 270MG/ML SOLUTION FOR INJECTION | VISIPAQUE 270MG/ML (GE Healthcare) | محلول للحقن | غير مذكور في البيانات |
-| VISIPAQUE 320MG/ML SOLUTION FOR INJECTION | VISIPAQUE 320MG/ML (GE Healthcare) | محلول للحقن | غير مذكور في البيانات |
+<!-- licenses:begin -->
+
+| اسم المنتج المسجل (بالإنجليزية كما في SFDA) | المادة الفعالة (بالإنجليزية) | الشركة المصنّعة | الحالة |
+|------|------|------|------|
+| TRIOSOF 320MG/ML INJECTION | IODIXANOL | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| VISIPAQUE | IODIXANOL | GE HEALTHCARE | ساري |
+| VISIPAQUE 270MG/ML SOLUTION FOR INJECTION | IODIXANOL | GE HEALTHCARE | ساري |
+| VISIPAQUE 320MG/ML SOLUTION FOR INJECTION | IODIXANOL | GE HEALTHCARE | ساري |
+
+<!-- licenses:end -->
 
 ---
 
